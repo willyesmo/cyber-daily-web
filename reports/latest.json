@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T17:23:52.212319+00:00",
+  "generated": "2026-10-10T21:52:55.838696+00:00",
   "hours": 24,
   "items": [
     {
@@ -47,17 +47,6 @@
       "published": "2026-10-10T12:30:39+00:00"
     },
     {
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "date": "Fri, 09 Oct 2026 16:31:37 -0400",
-      "detail": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-09T20:31:37+00:00"
-    },
-    {
       "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
       "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
       "feed_id": "https://www.securityweek.com/?p=49925",
@@ -69,92 +58,59 @@
       "published": "2026-10-10T11:00:00+00:00"
     },
     {
-      "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
-      "url": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
-      "feed_id": "https://www.securityweek.com/?p=49922",
-      "date": "Fri, 09 Oct 2026 21:07:46 +0000",
-      "detail": "The ChatGPT maker said the researchers \"violated clear policies on handling sensitive information.\u201d The post OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-09T21:07:46+00:00"
-    },
-    {
-      "title": "poolegroup.com.au By lockbit5",
-      "url": "https://www.ransomlook.io//group/lockbit5",
-      "feed_id": "66733d625da4598b72a0d73e87e1e2c9ae7f80ce205ec82d810fa176e4fc8429",
-      "date": "Sat, 10 Oct 2026 16:23:33 GMT",
-      "detail": "Poole Group is a prominent accounting and business advisory firm located on the Sunshine Coast, offe... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Royal Thai Air Force By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "65ca0ad6448ada631986a0e532c233b01b083c62a5f1a6acd2d838042b508f57",
+      "date": "Sat, 10 Oct 2026 20:12:34 GMT",
+      "detail": "rtaf.mi.th is the official portal of the Royal Thai Air Force, one of Asia's oldest air forces (founded November 2, 1913; independent since 1937), with ~46,000 personnel and 11 combat wings, now running a modern Odoo-based portal publishing financial reports, procurement plans, and White Papers on its \"Unbeatable Air Force\" roadmap to 2037. Its fleet spans 46 F-16s, 11 Gripen C/D, 13 F-5TH Super Tigris, Saab 340 Erieye AEW&C, C-130s, and a VIP fleet including an ex-Thai Airways A340-500. In July 2025 the RTAF fought its first combat since 1988 in the Thai-Cambodian border conflict, with its Gripens achieving the type's first-ever combat weapons launch. The centerpiece modernization is the Gripen E/F program: Thailand signed the $550M \"Peace Burapha 1\" contract in August 2025 \u2014 first in APAC \u2014 with deliveries from 2029 and 8 more jets sought toward a 12-aircraft squadron by 2037. Air Chief Marshal Seksan Kantha, the 31st commander since October 2025 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-10T16:23:33+00:00"
+      "published": "2026-10-10T20:12:34+00:00"
     },
     {
-      "title": "saintpierredescorps.fr By lockbit5",
-      "url": "https://www.ransomlook.io//group/lockbit5",
-      "feed_id": "f5048deb2bdaafe7678b7edcc26318c29da0688b4f44f8b3978c131b512cf1e6",
-      "date": "Sat, 10 Oct 2026 16:23:32 GMT",
-      "detail": "Une administration publique fran\u00e7aise. Voici les informations professionnelles et juridiques disp... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Helwan University (HITU) By umbra",
+      "url": "https://www.ransomlook.io//group/umbra",
+      "feed_id": "1e8d9e70f27a1fe0cf7a8096d68f0bcb67196d9103996e4b314730b6769e8ad2",
+      "date": "Sat, 10 Oct 2026 19:28:29 GMT",
+      "detail": "Helwan International Technological University \u2014 a pioneering Egyptian institution offering cutting-edge programs in Cybersecurity, Data Science, Artificial Intelligence, and Mechatronics, equipped with advanced labs and strong industry partnerships to prepare students for the digital future. | Updated on 2026-10-10 | REVENUE: $41M | SIZE: 481GB Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-10T16:23:32+00:00"
+      "published": "2026-10-10T19:28:29+00:00"
     },
     {
-      "title": "Gress Clark Young & Schoepper By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "3a5f8cd937e5da6e5ba8d379efe10ec9d646845441f4f67f0bb726e9a761d668",
-      "date": "Sat, 10 Oct 2026 15:35:14 GMT",
-      "detail": "Gress Clark Young & Schoepper 167,804 files / ~166.4 GBBanking details - of the firm and its clients.SSNs + signatures of clients/witnesses; W-9, I-9 forms with DL/SSN card copies; W-4 forms.BIIA case-management procedures (Board of Industrial Insurance Appeals): default orders (Order of Default), internal 'Conference Questions', consulting-fee payments to experts.Firm finances: the firm's QuickBooks company file, VOID checks bearing signatures, expert-payment records, SaaS invoices.Medical photos and imaging; hundreds of pages of PHI/APF (Activity Prescription Forms) - X-rays, complete medical records.'Coaching' letters to doctors - including a letter to the physician in the Jachacy matter with wording indicative of steering a medical opinion ('coaching letter') - a potential ethics violation regarding witness handling.Credentials/access to the SPC e-file system (court e-filing).Disciplinary action against partner Daniel W. Gress. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Glenhardie Country Club By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "f51a595807e68c42c71506f1a7e56866fc6de74fb9040e95a259201a773f33da",
+      "date": "Sat, 10 Oct 2026 19:28:24 GMT",
+      "detail": "Advertising & Marketing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-10T15:35:14+00:00"
+      "published": "2026-10-10T19:28:24+00:00"
     },
     {
-      "title": "Saber1 By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "4fa04273733a943b21f8114fccf0eba68d666e19fa5a34f052c57b1648993d28",
-      "date": "Sat, 10 Oct 2026 01:25:13 GMT",
-      "detail": "Saber1 Technologies LLC is a American supplier and distributor of machine vision components, industrial cameras and image processing systems. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "LD Constructora By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "ee546350f585b1d9298f02de36da6c4c9eef2ca33fefcd3ade94700594a4d508",
+      "date": "Sat, 10 Oct 2026 19:28:23 GMT",
+      "detail": "Construction Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-10T01:25:13+00:00"
+      "published": "2026-10-10T19:28:23+00:00"
     },
     {
-      "title": "idi pharma By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "3a1649695b464ddc35d6eb22f3935f239dc88417d4907ff5faefbc6737aea4af",
-      "date": "Sat, 10 Oct 2026 01:25:12 GMT",
-      "detail": "idi pharma is an Italian pharmaceutical company specializing in the research and development of innovative nutraceuticals and medical devices. The company focuses on formulations covered by patents and unique dosage technologies to improve patient health and quality of life (but their data leak). Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "ACI Proyectos SAS By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "31407afe330c156c2e1f1a95776ac5ff3fe17d21f6b276a0378d3826e0712f05",
+      "date": "Sat, 10 Oct 2026 19:28:22 GMT",
+      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-10T01:25:12+00:00"
-    },
-    {
-      "title": "DexCom (Redact)",
-      "url": "https://cti.fyi/groups/Redact.html",
-      "feed_id": "d3a31e127709c4a975a8ae35f8f0fb29",
-      "date": "Sat, 10 Oct 2026 16:07:22 +0000",
-      "detail": "Intelligence Summary: A medical device manufacturer based in San Diego specializing in continuous glucose monitoring systems. Threat Syndicate: Redact Claimed Victim: DexCom Target Domain: dexcom.com Industry Sector: Healthcare Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-10 16:07:22.831943 Post URL: http://neclc36yt4yaa5lv54kh4qbhvjcvuv6nnaurqowkellytpvj3afh4aid.onion/companies#dexcom Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-10T16:07:22+00:00"
-    },
-    {
-      "title": "SitePro Rentals (Emperador)",
-      "url": "https://cti.fyi/groups/Emperador.html",
-      "feed_id": "be736c43495309a044e47823b5f702a7",
-      "date": "Sat, 10 Oct 2026 01:32:00 +0000",
-      "detail": "Threat Syndicate: Emperador Claimed Victim: SitePro Rentals Target Domain: siteprorentals.com Industry Sector: Rental services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-10-10 01:32:00 Date Updated (Revisited): 2026-10-10 17:08:50 Date Discovered: 2026-09-30 14:13:15.480962 Post URL: http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/sitepro-rentals Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-10T01:32:00+00:00"
+      "published": "2026-10-10T19:28:22+00:00"
     }
   ],
   "sources": [
@@ -231,29 +187,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 16,
+      "recent": 17,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]

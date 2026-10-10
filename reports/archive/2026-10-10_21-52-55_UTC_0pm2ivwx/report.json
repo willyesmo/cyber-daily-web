@@ -1,0 +1,216 @@
+{
+  "generated": "2026-10-10T21:52:55.838696+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33414",
+      "feed_id": "https://isc.sans.edu/diary/rss/33414",
+      "date": "Sat, 10 Oct 2026 09:11:34 GMT",
+      "detail": "The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-10T09:11:34+00:00"
+    },
+    {
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "date": "Sat, 10 Oct 2026 11:07:54 -0400",
+      "detail": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-10T15:07:54+00:00"
+    },
+    {
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "date": "Sat, 10 Oct 2026 10:16:17 -0400",
+      "detail": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-10T14:16:17+00:00"
+    },
+    {
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "date": "Sat, 10 Oct 2026 08:30:39 -0400",
+      "detail": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-10T12:30:39+00:00"
+    },
+    {
+      "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+      "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+      "feed_id": "https://www.securityweek.com/?p=49925",
+      "date": "Sat, 10 Oct 2026 11:00:00 +0000",
+      "detail": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company\u2019s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-10T11:00:00+00:00"
+    },
+    {
+      "title": "Royal Thai Air Force By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "65ca0ad6448ada631986a0e532c233b01b083c62a5f1a6acd2d838042b508f57",
+      "date": "Sat, 10 Oct 2026 20:12:34 GMT",
+      "detail": "rtaf.mi.th is the official portal of the Royal Thai Air Force, one of Asia's oldest air forces (founded November 2, 1913; independent since 1937), with ~46,000 personnel and 11 combat wings, now running a modern Odoo-based portal publishing financial reports, procurement plans, and White Papers on its \"Unbeatable Air Force\" roadmap to 2037. Its fleet spans 46 F-16s, 11 Gripen C/D, 13 F-5TH Super Tigris, Saab 340 Erieye AEW&C, C-130s, and a VIP fleet including an ex-Thai Airways A340-500. In July 2025 the RTAF fought its first combat since 1988 in the Thai-Cambodian border conflict, with its Gripens achieving the type's first-ever combat weapons launch. The centerpiece modernization is the Gripen E/F program: Thailand signed the $550M \"Peace Burapha 1\" contract in August 2025 \u2014 first in APAC \u2014 with deliveries from 2029 and 8 more jets sought toward a 12-aircraft squadron by 2037. Air Chief Marshal Seksan Kantha, the 31st commander since October 2025 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-10T20:12:34+00:00"
+    },
+    {
+      "title": "Helwan University (HITU) By umbra",
+      "url": "https://www.ransomlook.io//group/umbra",
+      "feed_id": "1e8d9e70f27a1fe0cf7a8096d68f0bcb67196d9103996e4b314730b6769e8ad2",
+      "date": "Sat, 10 Oct 2026 19:28:29 GMT",
+      "detail": "Helwan International Technological University \u2014 a pioneering Egyptian institution offering cutting-edge programs in Cybersecurity, Data Science, Artificial Intelligence, and Mechatronics, equipped with advanced labs and strong industry partnerships to prepare students for the digital future. | Updated on 2026-10-10 | REVENUE: $41M | SIZE: 481GB Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-10T19:28:29+00:00"
+    },
+    {
+      "title": "Glenhardie Country Club By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "f51a595807e68c42c71506f1a7e56866fc6de74fb9040e95a259201a773f33da",
+      "date": "Sat, 10 Oct 2026 19:28:24 GMT",
+      "detail": "Advertising & Marketing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-10T19:28:24+00:00"
+    },
+    {
+      "title": "LD Constructora By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "ee546350f585b1d9298f02de36da6c4c9eef2ca33fefcd3ade94700594a4d508",
+      "date": "Sat, 10 Oct 2026 19:28:23 GMT",
+      "detail": "Construction Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-10T19:28:23+00:00"
+    },
+    {
+      "title": "ACI Proyectos SAS By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "31407afe330c156c2e1f1a95776ac5ff3fe17d21f6b276a0378d3826e0712f05",
+      "date": "Sat, 10 Oct 2026 19:28:22 GMT",
+      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-10T19:28:22+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 17,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

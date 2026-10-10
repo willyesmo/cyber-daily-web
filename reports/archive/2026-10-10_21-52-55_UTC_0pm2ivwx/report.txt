@@ -1,0 +1,80 @@
+CYBER DAILY — 2026-10-10 21:52 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+10 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Why TLP should not replace your internal information classification, (Sat, Oct 10th)
+SANS Internet Storm Center | Research / advisory | 2026-10-10T09:11:34+00:00
+The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33414
+
+Cyber exec arrested in case allegedly tied to ShinyHunters hackers
+BleepingComputer | Research / advisory | 2026-10-10T15:07:54+00:00
+Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/
+
+ARTEX AI, Claude agents used in cyberattacks on South Korean banks
+BleepingComputer | Research / advisory | 2026-10-10T14:16:17+00:00
+The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/
+
+Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management
+BleepingComputer | Research / advisory | 2026-10-10T12:30:39+00:00
+Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/
+
+Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison
+SecurityWeek | Research / advisory | 2026-10-10T11:00:00+00:00
+The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/
+
+Royal Thai Air Force By the gentlemen
+RansomLook | Ransomware claim / observation | 2026-10-10T20:12:34+00:00
+rtaf.mi.th is the official portal of the Royal Thai Air Force, one of Asia's oldest air forces (founded November 2, 1913; independent since 1937), with ~46,000 personnel and 11 combat wings, now running a modern Odoo-based portal publishing financial reports, procurement plans, and White Papers on its "Unbeatable Air Force" roadmap to 2037. Its fleet spans 46 F-16s, 11 Gripen C/D, 13 F-5TH Super Tigris, Saab 340 Erieye AEW&C, C-130s, and a VIP fleet including an ex-Thai Airways A340-500. In July 2025 the RTAF fought its first combat since 1988 in the Thai-Cambodian border conflict, with its Gripens achieving the type's first-ever combat weapons launch. The centerpiece modernization is the Gripen E/F program: Thailand signed the $550M "Peace Burapha 1" contract in August 2025 — first in APAC — with deliveries from 2029 and 8 more jets sought toward a 12-aircraft squadron by 2037. Air Chief Marshal Seksan Kantha, the 31st commander since October 2025 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/the%20gentlemen
+
+Helwan University (HITU) By umbra
+RansomLook | Ransomware claim / observation | 2026-10-10T19:28:29+00:00
+Helwan International Technological University — a pioneering Egyptian institution offering cutting-edge programs in Cybersecurity, Data Science, Artificial Intelligence, and Mechatronics, equipped with advanced labs and strong industry partnerships to prepare students for the digital future. | Updated on 2026-10-10 | REVENUE: $41M | SIZE: 481GB Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/umbra
+
+Glenhardie Country Club By qilin
+RansomLook | Ransomware claim / observation | 2026-10-10T19:28:24+00:00
+Advertising & Marketing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+LD Constructora By qilin
+RansomLook | Ransomware claim / observation | 2026-10-10T19:28:23+00:00
+Construction Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+ACI Proyectos SAS By qilin
+RansomLook | Ransomware claim / observation | 2026-10-10T19:28:22+00:00
+Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=3; shown=3; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=17; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
