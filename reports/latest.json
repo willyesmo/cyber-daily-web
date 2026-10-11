@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T21:52:55.838696+00:00",
+  "generated": "2026-10-11T06:01:52.230094+00:00",
   "hours": 24,
   "items": [
     {
@@ -58,59 +58,70 @@
       "published": "2026-10-10T11:00:00+00:00"
     },
     {
-      "title": "Royal Thai Air Force By the gentlemen",
+      "title": "Confipetrol By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "afa028bc1d9814ab0974b89c0bd92ba161e30c2ad95a80bd7c626da5002766fc",
+      "date": "Sun, 11 Oct 2026 05:34:58 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T05:34:58+00:00"
+    },
+    {
+      "title": "Supreme Energy By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "28632cd3307107137a8916857ba978b77a1f8977e56332938e369742ee10696a",
+      "date": "Sun, 11 Oct 2026 04:22:46 GMT",
+      "detail": "Supreme Energy is an Indonesian renewable-energy company that develops geothermal power projects to generate clean electricity. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T04:22:46+00:00"
+    },
+    {
+      "title": "solutend By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "58b7131f3b974e3c3129adc4562c8bc7ac0f74cc4a83526483f004049cd02e2d",
+      "date": "Sun, 11 Oct 2026 04:22:45 GMT",
+      "detail": "Bolivian technology company that provides audiovisual systems, digital signage, interactive displays, and business computing solutions. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T04:22:45+00:00"
+    },
+    {
+      "title": "maltest By shiba",
+      "url": "https://www.ransomlook.io//group/shiba",
+      "feed_id": "3cd263a358dbe4f7814db88425c570dc617c7a14a98e756c8d988d4b47deed95",
+      "date": "Sun, 11 Oct 2026 00:34:58 GMT",
+      "detail": "Construction - Algeria awdwa daw daw dawdwa Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T00:34:58+00:00"
+    },
+    {
+      "title": "BigID By the gentlemen",
       "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "65ca0ad6448ada631986a0e532c233b01b083c62a5f1a6acd2d838042b508f57",
-      "date": "Sat, 10 Oct 2026 20:12:34 GMT",
-      "detail": "rtaf.mi.th is the official portal of the Royal Thai Air Force, one of Asia's oldest air forces (founded November 2, 1913; independent since 1937), with ~46,000 personnel and 11 combat wings, now running a modern Odoo-based portal publishing financial reports, procurement plans, and White Papers on its \"Unbeatable Air Force\" roadmap to 2037. Its fleet spans 46 F-16s, 11 Gripen C/D, 13 F-5TH Super Tigris, Saab 340 Erieye AEW&C, C-130s, and a VIP fleet including an ex-Thai Airways A340-500. In July 2025 the RTAF fought its first combat since 1988 in the Thai-Cambodian border conflict, with its Gripens achieving the type's first-ever combat weapons launch. The centerpiece modernization is the Gripen E/F program: Thailand signed the $550M \"Peace Burapha 1\" contract in August 2025 \u2014 first in APAC \u2014 with deliveries from 2029 and 8 more jets sought toward a 12-aircraft squadron by 2037. Air Chief Marshal Seksan Kantha, the 31st commander since October 2025 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "d2cd4f3d28d6e8b155b0ba5b170bafd8229251178b5a881eecc0d2b6dc80a9f8",
+      "date": "Sun, 11 Oct 2026 00:25:57 GMT",
+      "detail": "bigid.com Revenue $100 Million BigID is the enterprise data security platform that finds and classifies sensitive data across cloud apps, databases and files, showing where private data lives and who can access it. It now focuses on AI, spotting shadow AI tools and checking what data Copilots and agents reach, and in September 2026 launched AgentIQ letting AI assistants trigger data cleanup and access reviews from Claude, Copilot or ChatGPT. It serves hundreds of enterprise clients like Telenor and Fiserv, one of which deleted 27,000 sensitive records from 2.5 petabytes of storage. Money comes from enterprise subscriptions priced per data source, with $175K as one AWS Marketplace benchmark. Around 600 employees work there after cutting 150 roles in May 2026 to go AI-first. It raised $320M at a $1B+ valuation and owns no factories or stores. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-10T20:12:34+00:00"
+      "published": "2026-10-11T00:25:57+00:00"
     },
     {
-      "title": "Helwan University (HITU) By umbra",
-      "url": "https://www.ransomlook.io//group/umbra",
-      "feed_id": "1e8d9e70f27a1fe0cf7a8096d68f0bcb67196d9103996e4b314730b6769e8ad2",
-      "date": "Sat, 10 Oct 2026 19:28:29 GMT",
-      "detail": "Helwan International Technological University \u2014 a pioneering Egyptian institution offering cutting-edge programs in Cybersecurity, Data Science, Artificial Intelligence, and Mechatronics, equipped with advanced labs and strong industry partnerships to prepare students for the digital future. | Updated on 2026-10-10 | REVENUE: $41M | SIZE: 481GB Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "TQC S.A. (dragonforce)",
+      "url": "https://cti.fyi/groups/dragonforce.html",
+      "feed_id": "4d3f9832464df5a7df4cc969735c7cc0",
+      "date": "Sun, 11 Oct 2026 05:06:54 +0000",
+      "detail": "Intelligence Summary: TQC S.A. is a company registered in Lima, Peru. Threat Syndicate: dragonforce Claimed Victim: TQC S.A. Geographic Location: \ud83c\uddf5\ud83c\uddea PE Date Discovered: 2026-10-11 05:06:54.306958 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#tqc-s-a Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-10T19:28:29+00:00"
-    },
-    {
-      "title": "Glenhardie Country Club By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "f51a595807e68c42c71506f1a7e56866fc6de74fb9040e95a259201a773f33da",
-      "date": "Sat, 10 Oct 2026 19:28:24 GMT",
-      "detail": "Advertising & Marketing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-10T19:28:24+00:00"
-    },
-    {
-      "title": "LD Constructora By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "ee546350f585b1d9298f02de36da6c4c9eef2ca33fefcd3ade94700594a4d508",
-      "date": "Sat, 10 Oct 2026 19:28:23 GMT",
-      "detail": "Construction Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-10T19:28:23+00:00"
-    },
-    {
-      "title": "ACI Proyectos SAS By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "31407afe330c156c2e1f1a95776ac5ff3fe17d21f6b276a0378d3826e0712f05",
-      "date": "Sat, 10 Oct 2026 19:28:22 GMT",
-      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-10T19:28:22+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-11T05:06:54+00:00"
     }
   ],
   "sources": [
@@ -201,15 +212,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 17,
+      "recent": 20,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     }
   ]

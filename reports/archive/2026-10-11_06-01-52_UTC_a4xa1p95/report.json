@@ -1,0 +1,227 @@
+{
+  "generated": "2026-10-11T06:01:52.230094+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33414",
+      "feed_id": "https://isc.sans.edu/diary/rss/33414",
+      "date": "Sat, 10 Oct 2026 09:11:34 GMT",
+      "detail": "The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-10T09:11:34+00:00"
+    },
+    {
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "date": "Sat, 10 Oct 2026 11:07:54 -0400",
+      "detail": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-10T15:07:54+00:00"
+    },
+    {
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "date": "Sat, 10 Oct 2026 10:16:17 -0400",
+      "detail": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-10T14:16:17+00:00"
+    },
+    {
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "date": "Sat, 10 Oct 2026 08:30:39 -0400",
+      "detail": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-10T12:30:39+00:00"
+    },
+    {
+      "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+      "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+      "feed_id": "https://www.securityweek.com/?p=49925",
+      "date": "Sat, 10 Oct 2026 11:00:00 +0000",
+      "detail": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company\u2019s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-10T11:00:00+00:00"
+    },
+    {
+      "title": "Confipetrol By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "afa028bc1d9814ab0974b89c0bd92ba161e30c2ad95a80bd7c626da5002766fc",
+      "date": "Sun, 11 Oct 2026 05:34:58 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T05:34:58+00:00"
+    },
+    {
+      "title": "Supreme Energy By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "28632cd3307107137a8916857ba978b77a1f8977e56332938e369742ee10696a",
+      "date": "Sun, 11 Oct 2026 04:22:46 GMT",
+      "detail": "Supreme Energy is an Indonesian renewable-energy company that develops geothermal power projects to generate clean electricity. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T04:22:46+00:00"
+    },
+    {
+      "title": "solutend By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "58b7131f3b974e3c3129adc4562c8bc7ac0f74cc4a83526483f004049cd02e2d",
+      "date": "Sun, 11 Oct 2026 04:22:45 GMT",
+      "detail": "Bolivian technology company that provides audiovisual systems, digital signage, interactive displays, and business computing solutions. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T04:22:45+00:00"
+    },
+    {
+      "title": "maltest By shiba",
+      "url": "https://www.ransomlook.io//group/shiba",
+      "feed_id": "3cd263a358dbe4f7814db88425c570dc617c7a14a98e756c8d988d4b47deed95",
+      "date": "Sun, 11 Oct 2026 00:34:58 GMT",
+      "detail": "Construction - Algeria awdwa daw daw dawdwa Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T00:34:58+00:00"
+    },
+    {
+      "title": "BigID By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "d2cd4f3d28d6e8b155b0ba5b170bafd8229251178b5a881eecc0d2b6dc80a9f8",
+      "date": "Sun, 11 Oct 2026 00:25:57 GMT",
+      "detail": "bigid.com Revenue $100 Million BigID is the enterprise data security platform that finds and classifies sensitive data across cloud apps, databases and files, showing where private data lives and who can access it. It now focuses on AI, spotting shadow AI tools and checking what data Copilots and agents reach, and in September 2026 launched AgentIQ letting AI assistants trigger data cleanup and access reviews from Claude, Copilot or ChatGPT. It serves hundreds of enterprise clients like Telenor and Fiserv, one of which deleted 27,000 sensitive records from 2.5 petabytes of storage. Money comes from enterprise subscriptions priced per data source, with $175K as one AWS Marketplace benchmark. Around 600 employees work there after cutting 150 roles in May 2026 to go AI-first. It raised $320M at a $1B+ valuation and owns no factories or stores. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T00:25:57+00:00"
+    },
+    {
+      "title": "TQC S.A. (dragonforce)",
+      "url": "https://cti.fyi/groups/dragonforce.html",
+      "feed_id": "4d3f9832464df5a7df4cc969735c7cc0",
+      "date": "Sun, 11 Oct 2026 05:06:54 +0000",
+      "detail": "Intelligence Summary: TQC S.A. is a company registered in Lima, Peru. Threat Syndicate: dragonforce Claimed Victim: TQC S.A. Geographic Location: \ud83c\uddf5\ud83c\uddea PE Date Discovered: 2026-10-11 05:06:54.306958 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#tqc-s-a Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-11T05:06:54+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 20,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    }
+  ]
+}
