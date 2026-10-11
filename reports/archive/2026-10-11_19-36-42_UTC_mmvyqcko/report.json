@@ -1,0 +1,227 @@
+{
+  "generated": "2026-10-11T19:36:42.809882+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "date": "Sun, 11 Oct 2026 10:23:46 -0400",
+      "detail": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-11T14:23:46+00:00"
+    },
+    {
+      "title": "Reed & Giordano PA By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "06e6d5ba44d84a92e94efd25f7ccc17b9e7eb574186b64e5b4d4479eb5d875fe",
+      "date": "Sun, 11 Oct 2026 17:27:51 GMT",
+      "detail": "Reed & Giordano PA 94,604 files / ~51.3 GBACH instructions for the firm's client trust account (IOLTA) with complete account details; clients' wire-transfer details.PII: W-9/W-2 forms with SSNs, Massachusetts driver's licenses, birth certificate, personal UBS documents of a financial advisor.Client money flows (incoming/outgoing funds by case).Signed conflict-of-interest letter (matter - Alhassan) - a direct written admission of an internal firm problem. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T17:27:51+00:00"
+    },
+    {
+      "title": "Kookabarra Juice By vexy",
+      "url": "https://www.ransomlook.io//group/vexy",
+      "feed_id": "391fe1b1f3027ad1cdecc1efb4cc6d32eb91616c367ddd9d7f0526b152f08c9e",
+      "date": "Sun, 11 Oct 2026 16:27:30 GMT",
+      "detail": "French manufacturer specializing in fresh-pressed fruit juices, detox juices, smoothies, nectars and other fresh fruit products, serving both professionals and consumers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T16:27:30+00:00"
+    },
+    {
+      "title": "Company #29 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "c521c0a7e05a918cdb4e6fa89f7289baf8bf0bd61f38383217b3c7c06d0753d9",
+      "date": "Sun, 11 Oct 2026 16:27:22 GMT",
+      "detail": "smart building & surveillance integration \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T16:27:22+00:00"
+    },
+    {
+      "title": "Company #28 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "6a23fc49ed1f2f54678434727bb057f959a908b332f9fabd259427bf432dc1fd",
+      "date": "Sun, 11 Oct 2026 16:27:21 GMT",
+      "detail": "architecture & design \u00b7 Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T16:27:21+00:00"
+    },
+    {
+      "title": "Company #27 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "ba9f1fb56b4b85344eaabe6a687a7afa09295234a35b1c7218611b7e9db94d55",
+      "date": "Sun, 11 Oct 2026 16:27:20 GMT",
+      "detail": "neurology practice \u00b7 New South Wales, Australia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T16:27:20+00:00"
+    },
+    {
+      "title": "Company #14 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "532796abc5e299f84f249671fb6eed4c",
+      "date": "Sun, 11 Oct 2026 19:10:54 +0000",
+      "detail": "Intelligence Summary: An unnamed company designated as Company #14. Threat Syndicate: N0n Claimed Victim: Company #14 Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-14 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-11T19:10:54+00:00"
+    },
+    {
+      "title": "Company #19 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "fd5dd5c6ea88f3ccf67e83cb5a901fb1",
+      "date": "Sun, 11 Oct 2026 19:10:54 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #19 Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-19 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-11T19:10:54+00:00"
+    },
+    {
+      "title": "Company #20 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "35ef7f58ec89f85d046770e4d293031d",
+      "date": "Sun, 11 Oct 2026 19:10:54 +0000",
+      "detail": "Intelligence Summary: FinSoft is a Uzbekistani retail software vendor providing Kolibri back\u2011office solutions to multiple retail chains. Threat Syndicate: N0n Claimed Victim: Company #20 Canonical Organization: FinSoft Industry Sector: Retail Geographic Location: \ud83c\uddfa\ud83c\uddff UZ Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-20 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-11T19:10:54+00:00"
+    },
+    {
+      "title": "Company #21 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "b8dec516fbfbdb59a44b10544b74898e",
+      "date": "Sun, 11 Oct 2026 19:10:54 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #21 Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-21 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-11T19:10:54+00:00"
+    },
+    {
+      "title": "Company #22 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "f18dd9be45bb3d8c5acf7134abf734ac",
+      "date": "Sun, 11 Oct 2026 19:10:54 +0000",
+      "detail": "Intelligence Summary: A retail software vendor based in Uzbekistan that provides back\u2011office solutions to over ten retail chains. Threat Syndicate: N0n Claimed Victim: Company #22 Canonical Organization: FinSoft Industry Sector: Retail Geographic Location: \ud83c\uddfa\ud83c\uddff UZ Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-22 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-11T19:10:54+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 25,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 6,
+      "shown": 5,
+      "undated": 0
+    }
+  ]
+}

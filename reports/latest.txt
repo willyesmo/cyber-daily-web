@@ -1,49 +1,73 @@
-CYBER DAILY — 2026-10-11 13:08 UTC
+CYBER DAILY — 2026-10-11 19:36 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-7 entries selected. Feed excerpts, not full-article or AI analysis.
+11 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
-Cyber exec arrested in case allegedly tied to ShinyHunters hackers
-BleepingComputer | Research / advisory | 2026-10-10T15:07:54+00:00
-Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]
+Nippon Columbia malware incident exposes 8.6 million karaoke fan records
+BleepingComputer | Research / advisory | 2026-10-11T14:23:46+00:00
+Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/
+https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/
 
-ARTEX AI, Claude agents used in cyberattacks on South Korean banks
-BleepingComputer | Research / advisory | 2026-10-10T14:16:17+00:00
-The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]
+Reed & Giordano PA By rhysida
+RansomLook | Ransomware claim / observation | 2026-10-11T17:27:51+00:00
+Reed & Giordano PA 94,604 files / ~51.3 GBACH instructions for the firm's client trust account (IOLTA) with complete account details; clients' wire-transfer details.PII: W-9/W-2 forms with SSNs, Massachusetts driver's licenses, birth certificate, personal UBS documents of a financial advisor.Client money flows (incoming/outgoing funds by case).Signed conflict-of-interest letter (matter - Alhassan) - a direct written admission of an internal firm problem. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/
+https://www.ransomlook.io//group/rhysida
 
-Company #5 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-11T11:30:42+00:00
+Kookabarra Juice By vexy
+RansomLook | Ransomware claim / observation | 2026-10-11T16:27:30+00:00
+French manufacturer specializing in fresh-pressed fruit juices, detox juices, smoothies, nectars and other fresh fruit products, serving both professionals and consumers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vexy
+
+Company #29 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T16:27:22+00:00
 smart building & surveillance integration · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Company #4 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-11T11:30:41+00:00
+Company #28 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T16:27:21+00:00
 architecture & design · Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-TQC S.A. By dragonforce
-RansomLook | Ransomware claim / observation | 2026-10-11T10:30:08+00:00
-(A release of 750 GB of data, compressed into archives for convenience.) TQC Tecnología Química Comercio S. A. specializes in providing high-quality solutions f... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #27 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T16:27:20+00:00
+neurology practice · New South Wales, Australia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/dragonforce
+https://www.ransomlook.io//group/n0n
 
-Charles E. Tabor AAL LLC By rhysida
-RansomLook | Ransomware claim / observation | 2026-10-11T08:34:56+00:00
-Charles E. Tabor AAL LLC 96,456 files / ~114.5 GBSettlement checks � 2026: $600,000 (USAA / Hailey), $587,500 (Travelers / Young), $350,000 (Caddo Parish School Board / Hoffman), $50,000 (USAA UM / Paul).Complete client database - PII for all cases spanning years, consolidated in a single file.Hospital and insurance scans across dozens of cases.Medical scans and HIPAA authorization forms.Driver's licenses and IDs of minor victims.Tax forms containing SSNs.Louisiana state death certificate (evidence item 'plaintiff's exhibit D7').Settlement artifacts: endorsement authorizations with signature lines (2026), signed releases, HIPAA authorizations.Scans of large settlement checks bearing signatures and MICR lines - a ready-made toolkit for check fraud; includes the $350,000 check from the high-profile child case Hoffman. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #14 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-11T19:10:54+00:00
+Intelligence Summary: An unnamed company designated as Company #14. Threat Syndicate: N0n Claimed Victim: Company #14 Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-14 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/rhysida
+https://cti.fyi/groups/N0n.html
 
-Confipetrol By qilin
-RansomLook | Ransomware claim / observation | 2026-10-11T05:34:58+00:00
-Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #19 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-11T19:10:54+00:00
+Threat Syndicate: N0n Claimed Victim: Company #19 Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-19 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://cti.fyi/groups/N0n.html
+
+Company #20 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-11T19:10:54+00:00
+Intelligence Summary: FinSoft is a Uzbekistani retail software vendor providing Kolibri back‑office solutions to multiple retail chains. Threat Syndicate: N0n Claimed Victim: Company #20 Canonical Organization: FinSoft Industry Sector: Retail Geographic Location: 🇺🇿 UZ Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-20 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/N0n.html
+
+Company #21 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-11T19:10:54+00:00
+Threat Syndicate: N0n Claimed Victim: Company #21 Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-21 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/N0n.html
+
+Company #22 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-11T19:10:54+00:00
+Intelligence Summary: A retail software vendor based in Uzbekistan that provides back‑office solutions to over ten retail chains. Threat Syndicate: N0n Claimed Victim: Company #22 Canonical Organization: FinSoft Industry Sector: Retail Geographic Location: 🇺🇿 UZ Date Discovered: 2026-10-11 19:10:54.495745 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-22 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/N0n.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -56,7 +80,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=2; shown=2; undated excluded=0
+BleepingComputer: OK; recent=1; shown=1; undated excluded=0
 SecurityWeek: OK; recent=0; shown=0; undated excluded=0
-RansomLook: OK; recent=24; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=25; shown=5; undated excluded=0
+CTI.fyi: OK; recent=6; shown=5; undated excluded=0
