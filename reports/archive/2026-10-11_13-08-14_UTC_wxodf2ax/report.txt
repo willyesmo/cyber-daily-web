@@ -1,0 +1,62 @@
+CYBER DAILY — 2026-10-11 13:08 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+7 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Cyber exec arrested in case allegedly tied to ShinyHunters hackers
+BleepingComputer | Research / advisory | 2026-10-10T15:07:54+00:00
+Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/
+
+ARTEX AI, Claude agents used in cyberattacks on South Korean banks
+BleepingComputer | Research / advisory | 2026-10-10T14:16:17+00:00
+The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/
+
+Company #5 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T11:30:42+00:00
+smart building & surveillance integration · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #4 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T11:30:41+00:00
+architecture & design · Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+TQC S.A. By dragonforce
+RansomLook | Ransomware claim / observation | 2026-10-11T10:30:08+00:00
+(A release of 750 GB of data, compressed into archives for convenience.) TQC Tecnología Química Comercio S. A. specializes in providing high-quality solutions f... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/dragonforce
+
+Charles E. Tabor AAL LLC By rhysida
+RansomLook | Ransomware claim / observation | 2026-10-11T08:34:56+00:00
+Charles E. Tabor AAL LLC 96,456 files / ~114.5 GBSettlement checks � 2026: $600,000 (USAA / Hailey), $587,500 (Travelers / Young), $350,000 (Caddo Parish School Board / Hoffman), $50,000 (USAA UM / Paul).Complete client database - PII for all cases spanning years, consolidated in a single file.Hospital and insurance scans across dozens of cases.Medical scans and HIPAA authorization forms.Driver's licenses and IDs of minor victims.Tax forms containing SSNs.Louisiana state death certificate (evidence item 'plaintiff's exhibit D7').Settlement artifacts: endorsement authorizations with signature lines (2026), signed releases, HIPAA authorizations.Scans of large settlement checks bearing signatures and MICR lines - a ready-made toolkit for check fraud; includes the $350,000 check from the high-profile child case Hoffman. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/rhysida
+
+Confipetrol By qilin
+RansomLook | Ransomware claim / observation | 2026-10-11T05:34:58+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=2; shown=2; undated excluded=0
+SecurityWeek: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=24; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
