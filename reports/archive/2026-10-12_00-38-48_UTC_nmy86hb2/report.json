@@ -1,0 +1,172 @@
+{
+  "generated": "2026-10-12T00:38:48.935656+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "date": "Sun, 11 Oct 2026 10:23:46 -0400",
+      "detail": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-11T14:23:46+00:00"
+    },
+    {
+      "title": "Company #24 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "eee1a9cc1f51f10731827c7f4b2848733db8bfff796ca1d5aad61fe80e7d0142",
+      "date": "Mon, 12 Oct 2026 00:30:24 GMT",
+      "detail": "smart building & surveillance integration \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T00:30:24+00:00"
+    },
+    {
+      "title": "Spelman Logistics By emperador",
+      "url": "https://www.ransomlook.io//group/emperador",
+      "feed_id": "998149f7a495f32ae0e0f7d464c78d03529639b6720d43ff4bbde937752fe714",
+      "date": "Sun, 11 Oct 2026 21:40:00 GMT",
+      "detail": "Dear Spelman Logistics, We are now in possession of 1.2M contact records (emails and phone numbers), 245K carrier profiles complete with EIN and SSN, 57K bank accounts including routing numbers, 334K live document URLs, and 4.5M carrier registry entries pulled from your MVMNT TMS. Your exposure extends well beyond your own walls. We have also reached into the systems of your partners, including: ALG Canada Inc Line Transportation Inc Maverick Acquisition Ventures Inc Reliable Freight Solutions Rhode Sense and more. If you would rather not have us contact your partners and make life difficult for your employees, we suggest you pay the following: $500,000 in BTC or XMR. You will shortly receive an email explaining how to reach us. If that fails, contact us at: Email: emperadorlol@proton.me / xdlmfao@morke.ru Session: 05651c7323273b723588d47455471ee9e27feb5187a30f2933554a705aacb38358 Publication scheduled: 2026-10-31 21:40:44 UTC Size: 920.0 MB Sectors: Manufacturing, Transportation Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T21:40:00+00:00"
+    },
+    {
+      "title": "Company #23 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "ee37e855a06ee8fbf7f320030d6ef06dc278bb3f7bd1f8c4ecf52ed16664a153",
+      "date": "Sun, 11 Oct 2026 21:27:21 GMT",
+      "detail": "smart building & surveillance integration \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T21:27:21+00:00"
+    },
+    {
+      "title": "Company #22 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "76957d4ab6711bb316c0eb9a1686cf82ed7917cd4ed40c009f24d380649fc300",
+      "date": "Sun, 11 Oct 2026 21:27:20 GMT",
+      "detail": "architecture & design \u00b7 Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T21:27:20+00:00"
+    },
+    {
+      "title": "Company #21 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "67c14cf2820f1f70eff6a048884d79b9fa94bbafcfb02a2396ce375c64c61e10",
+      "date": "Sun, 11 Oct 2026 21:27:19 GMT",
+      "detail": "neurology practice \u00b7 New South Wales, Australia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-11T21:27:19+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 25,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

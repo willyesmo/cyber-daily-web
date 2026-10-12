@@ -1,0 +1,56 @@
+CYBER DAILY — 2026-10-12 00:38 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+6 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Nippon Columbia malware incident exposes 8.6 million karaoke fan records
+BleepingComputer | Research / advisory | 2026-10-11T14:23:46+00:00
+Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/
+
+Company #24 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-12T00:30:24+00:00
+smart building & surveillance integration · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Spelman Logistics By emperador
+RansomLook | Ransomware claim / observation | 2026-10-11T21:40:00+00:00
+Dear Spelman Logistics, We are now in possession of 1.2M contact records (emails and phone numbers), 245K carrier profiles complete with EIN and SSN, 57K bank accounts including routing numbers, 334K live document URLs, and 4.5M carrier registry entries pulled from your MVMNT TMS. Your exposure extends well beyond your own walls. We have also reached into the systems of your partners, including: ALG Canada Inc Line Transportation Inc Maverick Acquisition Ventures Inc Reliable Freight Solutions Rhode Sense and more. If you would rather not have us contact your partners and make life difficult for your employees, we suggest you pay the following: $500,000 in BTC or XMR. You will shortly receive an email explaining how to reach us. If that fails, contact us at: Email: emperadorlol@proton.me / xdlmfao@morke.ru Session: 05651c7323273b723588d47455471ee9e27feb5187a30f2933554a705aacb38358 Publication scheduled: 2026-10-31 21:40:44 UTC Size: 920.0 MB Sectors: Manufacturing, Transportation Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/emperador
+
+Company #23 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T21:27:21+00:00
+smart building & surveillance integration · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #22 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T21:27:20+00:00
+architecture & design · Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #21 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-11T21:27:19+00:00
+neurology practice · New South Wales, Australia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=1; shown=1; undated excluded=0
+SecurityWeek: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=25; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
