@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-10-12 11:06 UTC
+CYBER DAILY — 2026-10-12 21:19 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-10 entries selected. Feed excerpts, not full-article or AI analysis.
+19 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)
@@ -9,59 +9,113 @@ No feed summary supplied. Open the original source for details.
 CVEs: Not stated in feed
 https://isc.sans.edu/diary/rss/33416
 
-Nippon Columbia malware incident exposes 8.6 million karaoke fan records
-BleepingComputer | Research / advisory | 2026-10-11T14:23:46+00:00
-Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]
+Norway fines Microsoft ad firm $9.6 million over Grindr data sharing
+BleepingComputer | Research / advisory | 2026-10-12T20:13:52+00:00
+Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/
+https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/
 
-Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
-SecurityWeek | Research / advisory | 2026-10-12T10:32:05+00:00
-The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek .
+Yandex confirms service outage as users lose access to cloud files
+BleepingComputer | Research / advisory | 2026-10-12T19:23:01+00:00
+Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]
 CVEs: Not stated in feed
-https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/
+https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/
 
-Critical SonicWall Vulnerability Exploited Days After Disclosure
-SecurityWeek | Research / advisory | 2026-10-12T08:36:01+00:00
-CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek .
-CVEs: CVE-2026-102255
-https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/
-
-Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch
-SecurityWeek | Research / advisory | 2026-10-12T07:53:28+00:00
-Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek .
+Anthropic takes risky AI tests offline after models breach govt sites
+BleepingComputer | Research / advisory | 2026-10-12T18:51:59+00:00
+Anthropic announced that its internal AI models undergoing "high-risk and cybersecurity evaluations" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]
 CVEs: Not stated in feed
-https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/
+https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/
 
-Eversource Energy By redact
-RansomLook | Ransomware claim / observation | 2026-10-12T08:28:12+00:00
-Revenue: $14B USD | Sector: Energy Distribution | Stock Ticker: NYSE:ES | Data Size: 3.8 TB | Files: 751,887 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Ledger confirms spy chip implant behind wallet crypto thefts
+BleepingComputer | Research / advisory | 2026-10-12T16:27:23+00:00
+Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/redact
+https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/
 
-MGT Lojistik AŞ By nightspire
-RansomLook | Ransomware claim / observation | 2026-10-12T03:33:57+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Cyberattack shuts down refrigerators at French supermarkets
+BleepingComputer | Research / advisory | 2026-10-12T15:23:34+00:00
+Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/nightspire
+https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/
 
-KP Industries By nightspire
-RansomLook | Ransomware claim / observation | 2026-10-12T03:33:56+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion
+SecurityWeek | Research / advisory | 2026-10-12T14:25:00+00:00
+The all-stock deal brings Elisity’s least-privilege access technology into IonQ’s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/nightspire
+https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/
 
-Company #24 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-12T00:30:24+00:00
-smart building & surveillance integration · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
+Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+SecurityWeek | Research / advisory | 2026-10-12T13:14:37+00:00
+The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites. The post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek .
+CVEs: CVE-2026-85097
+https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/
 
-Spelman Logistics By emperador
-RansomLook | Ransomware claim / observation | 2026-10-11T21:40:00+00:00
-Dear Spelman Logistics, We are now in possession of 1.2M contact records (emails and phone numbers), 245K carrier profiles complete with EIN and SSN, 57K bank accounts including routing numbers, 334K live document URLs, and 4.5M carrier registry entries pulled from your MVMNT TMS. Your exposure extends well beyond your own walls. We have also reached into the systems of your partners, including: ALG Canada Inc Line Transportation Inc Maverick Acquisition Ventures Inc Reliable Freight Solutions Rhode Sense and more. If you would rather not have us contact your partners and make life difficult for your employees, we suggest you pay the following: $500,000 in BTC or XMR. You will shortly receive an email explaining how to reach us. If that fails, contact us at: Email: emperadorlol@proton.me / xdlmfao@morke.ru Session: 05651c7323273b723588d47455471ee9e27feb5187a30f2933554a705aacb38358 Publication scheduled: 2026-10-31 21:40:44 UTC Size: 920.0 MB Sectors: Manufacturing, Transportation Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Canonical Websites Disrupted in Second DDoS Attack This Year
+SecurityWeek | Research / advisory | 2026-10-12T11:58:39+00:00
+The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/emperador
+https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/
+
+Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US
+SecurityWeek | Research / advisory | 2026-10-12T11:24:50+00:00
+Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/
+
+iRhythm Data Breach Impacts at Least 360,000 People
+SecurityWeek | Research / advisory | 2026-10-12T11:05:43+00:00
+Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/
+
+RingSide Creative By qilin
+RansomLook | Ransomware claim / observation | 2026-10-12T19:19:45+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Franklin Miller Inc. By dark project
+RansomLook | Ransomware claim / observation | 2026-10-12T19:19:08+00:00
+As a result of the attack on "Franklin Miller", more than 250 GB of confidential data were stolen. The organization lost control over documents such as drawings and project documentation, confidential agreements, banking and other financial information, as well as employees’ personal data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/dark%20project
+
+Claire's Inc. By dark project
+RansomLook | Ransomware claim / observation | 2026-10-12T19:19:07+00:00
+Claire's Inc. suffered a cyberattack that disrupted its operations and compromised customers and employees data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/dark%20project
+
+PennEastern Architects LCC By dark project
+RansomLook | Ransomware claim / observation | 2026-10-12T19:19:06+00:00
+As a result of a cyberattack on Company PennEastern Architects, more than 100 GB of corporate data was stolen. The breach includes a large volume of confidential information, including drawings and project documentation, data on the company’s customers and employees, as well as documents containing banking and financial information. Currently, approximately 60,000 files are unprotected by Company PennEastern Architects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/dark%20project
+
+Rechtsanwaltskanzlei Dr. Bien By aurora
+RansomLook | Ransomware claim / observation | 2026-10-12T19:19:00+00:00
+Rechtsanwaltskanzlei Dr. Bien — a specialist insolvency law firm in Hamm, NRW, appointed as insolvency administrator by 12 Amtsgerichte across Westfalen. The exposed material includes: 2,387 WinSolvenz case databases — each a Microsoft Access MDB containing the complete financial dossier of an insolvency debtor: creditor lists, claim amounts, distribution plans, asset inventories, court appointments, and bank account details. 492+ forced administration (Zwangsverwaltung) case files — property addresses, tenant data, rent records, utility accounts, insurance details, court-directed property management reports. 80 GB MailStore email archive — the firm's complete email history in MailStoreContainer-v1 format: attorney-client communications, court correspondence, creditor negotiations, debtor disclosures. 1.7 GB beA backup (besonderes elektronisches Anwaltspostfach) — three MSSQL database backups containing every electronic communication between the firm and every German court. 35 employee records — 25 former + ~10 current staff: contracts, salary, overtime, vacation, pension, disability status, termination agreements. DATEV tax/accounting archives — 33 directories of income tax backups, insolvency accounting, third-party mandates. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/aurora
+
+Claire's Inc. (Dark Project)
+CTI.fyi | Ransomware claim / observation | 2026-10-12T16:39:11+00:00
+Intelligence Summary: A global specialty retailer of fashion jewelry and accessories with mall-based stores across the United States. Threat Syndicate: Dark Project Claimed Victim: Claire's Inc. Target Domain: claires.com Industry Sector: Retail Geographic Location: 🇺🇸 US Date Published: 2026-10-12 16:39:11 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=claires-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/Dark Project.html
+
+PennEastern Architects LCC (Dark Project)
+CTI.fyi | Ransomware claim / observation | 2026-10-12T16:33:14+00:00
+Intelligence Summary: An architectural and engineering design firm headquartered in Wilkes-Barre, Pennsylvania. Threat Syndicate: Dark Project Claimed Victim: PennEastern Architects LCC Canonical Organization: PennEastern Architects LLC Target Domain: penneastern.com Industry Sector: Construction Geographic Location: 🇺🇸 US Date Published: 2026-10-12 16:33:14 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=penneastern-architects-lcc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/Dark Project.html
+
+Franklin Miller Inc. (Dark Project)
+CTI.fyi | Ransomware claim / observation | 2026-10-12T16:19:05+00:00
+Intelligence Summary: A manufacturer of industrial size reduction equipment, wastewater grinders, shredders, and crushers based in Livingston, New Jersey. Threat Syndicate: Dark Project Claimed Victim: Franklin Miller Inc. Target Domain: franklinmiller.com Industry Sector: Manufacturing Geographic Location: 🇺🇸 US Date Published: 2026-10-12 16:19:05 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=franklin-miller-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/Dark Project.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -74,7 +128,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=1; shown=1; undated excluded=0
-SecurityWeek: OK; recent=3; shown=3; undated excluded=0
-RansomLook: OK; recent=23; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=9; shown=5; undated excluded=0
+SecurityWeek: OK; recent=8; shown=5; undated excluded=0
+RansomLook: OK; recent=44; shown=5; undated excluded=0
+CTI.fyi: OK; recent=3; shown=3; undated excluded=0

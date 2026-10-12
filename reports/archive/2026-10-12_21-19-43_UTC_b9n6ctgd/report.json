@@ -1,0 +1,315 @@
+{
+  "generated": "2026-10-12T21:19:43.145751+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33416",
+      "feed_id": "https://isc.sans.edu/diary/rss/33416",
+      "date": "Mon, 12 Oct 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-12T02:00:03+00:00"
+    },
+    {
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "date": "Mon, 12 Oct 2026 16:13:52 -0400",
+      "detail": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T20:13:52+00:00"
+    },
+    {
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "date": "Mon, 12 Oct 2026 15:23:01 -0400",
+      "detail": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T19:23:01+00:00"
+    },
+    {
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "date": "Mon, 12 Oct 2026 14:51:59 -0400",
+      "detail": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T18:51:59+00:00"
+    },
+    {
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "date": "Mon, 12 Oct 2026 12:27:23 -0400",
+      "detail": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T16:27:23+00:00"
+    },
+    {
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "date": "Mon, 12 Oct 2026 11:23:34 -0400",
+      "detail": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T15:23:34+00:00"
+    },
+    {
+      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "feed_id": "https://www.securityweek.com/?p=49951",
+      "date": "Mon, 12 Oct 2026 14:25:00 +0000",
+      "detail": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T14:25:00+00:00"
+    },
+    {
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "feed_id": "https://www.securityweek.com/?p=49949",
+      "date": "Mon, 12 Oct 2026 13:14:37 +0000",
+      "detail": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites. The post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T13:14:37+00:00"
+    },
+    {
+      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+      "feed_id": "https://www.securityweek.com/?p=49946",
+      "date": "Mon, 12 Oct 2026 11:58:39 +0000",
+      "detail": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T11:58:39+00:00"
+    },
+    {
+      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+      "feed_id": "https://www.securityweek.com/?p=49944",
+      "date": "Mon, 12 Oct 2026 11:24:50 +0000",
+      "detail": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T11:24:50+00:00"
+    },
+    {
+      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+      "feed_id": "https://www.securityweek.com/?p=49938",
+      "date": "Mon, 12 Oct 2026 11:05:43 +0000",
+      "detail": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T11:05:43+00:00"
+    },
+    {
+      "title": "RingSide Creative By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "c2b90c5158088877fb0f835c22a38fdce3c63f21c10b8c15f4260183c52a40ec",
+      "date": "Mon, 12 Oct 2026 19:19:45 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T19:19:45+00:00"
+    },
+    {
+      "title": "Franklin Miller Inc. By dark project",
+      "url": "https://www.ransomlook.io//group/dark%20project",
+      "feed_id": "16f7f900be4e5a01b4fb6b4a6fcf27d74473da167af7dbfa54e247ccf4902dfd",
+      "date": "Mon, 12 Oct 2026 19:19:08 GMT",
+      "detail": "As a result of the attack on \"Franklin Miller\", more than 250 GB of confidential data were stolen. The organization lost control over documents such as drawings and project documentation, confidential agreements, banking and other financial information, as well as employees\u2019 personal data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T19:19:08+00:00"
+    },
+    {
+      "title": "Claire's Inc. By dark project",
+      "url": "https://www.ransomlook.io//group/dark%20project",
+      "feed_id": "f2fe45f46c224d7121c7bb1beefb5d6bc52e4e717eb798a059673cb61407d031",
+      "date": "Mon, 12 Oct 2026 19:19:07 GMT",
+      "detail": "Claire's Inc. suffered a cyberattack that disrupted its operations and compromised customers and employees data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T19:19:07+00:00"
+    },
+    {
+      "title": "PennEastern Architects LCC By dark project",
+      "url": "https://www.ransomlook.io//group/dark%20project",
+      "feed_id": "ca8f65f4d1232e86fc0f8ef3b7a193d505118712ec0a459ee14bb13174c32f16",
+      "date": "Mon, 12 Oct 2026 19:19:06 GMT",
+      "detail": "As a result of a cyberattack on Company PennEastern Architects, more than 100 GB of corporate data was stolen. The breach includes a large volume of confidential information, including drawings and project documentation, data on the company\u2019s customers and employees, as well as documents containing banking and financial information. Currently, approximately 60,000 files are unprotected by Company PennEastern Architects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T19:19:06+00:00"
+    },
+    {
+      "title": "Rechtsanwaltskanzlei Dr. Bien By aurora",
+      "url": "https://www.ransomlook.io//group/aurora",
+      "feed_id": "b9056ae46a5a3b78401eda8ac8e5846b0b17f396280a4b8344505279221f6d5c",
+      "date": "Mon, 12 Oct 2026 19:19:00 GMT",
+      "detail": "Rechtsanwaltskanzlei Dr. Bien \u2014 a specialist insolvency law firm in Hamm, NRW, appointed as insolvency administrator by 12 Amtsgerichte across Westfalen. The exposed material includes: 2,387 WinSolvenz case databases \u2014 each a Microsoft Access MDB containing the complete financial dossier of an insolvency debtor: creditor lists, claim amounts, distribution plans, asset inventories, court appointments, and bank account details. 492+ forced administration (Zwangsverwaltung) case files \u2014 property addresses, tenant data, rent records, utility accounts, insurance details, court-directed property management reports. 80 GB MailStore email archive \u2014 the firm's complete email history in MailStoreContainer-v1 format: attorney-client communications, court correspondence, creditor negotiations, debtor disclosures. 1.7 GB beA backup (besonderes elektronisches Anwaltspostfach) \u2014 three MSSQL database backups containing every electronic communication between the firm and every German court. 35 employee records \u2014 25 former + ~10 current staff: contracts, salary, overtime, vacation, pension, disability status, termination agreements. DATEV tax/accounting archives \u2014 33 directories of income tax backups, insolvency accounting, third-party mandates. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T19:19:00+00:00"
+    },
+    {
+      "title": "Claire's Inc. (Dark Project)",
+      "url": "https://cti.fyi/groups/Dark Project.html",
+      "feed_id": "3201a8e3bcb3b625c0d75ff954d10d0a",
+      "date": "Mon, 12 Oct 2026 16:39:11 +0000",
+      "detail": "Intelligence Summary: A global specialty retailer of fashion jewelry and accessories with mall-based stores across the United States. Threat Syndicate: Dark Project Claimed Victim: Claire's Inc. Target Domain: claires.com Industry Sector: Retail Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-10-12 16:39:11 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=claires-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-12T16:39:11+00:00"
+    },
+    {
+      "title": "PennEastern Architects LCC (Dark Project)",
+      "url": "https://cti.fyi/groups/Dark Project.html",
+      "feed_id": "933889d80beaad0c792811c09becccc3",
+      "date": "Mon, 12 Oct 2026 16:33:14 +0000",
+      "detail": "Intelligence Summary: An architectural and engineering design firm headquartered in Wilkes-Barre, Pennsylvania. Threat Syndicate: Dark Project Claimed Victim: PennEastern Architects LCC Canonical Organization: PennEastern Architects LLC Target Domain: penneastern.com Industry Sector: Construction Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-10-12 16:33:14 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=penneastern-architects-lcc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-12T16:33:14+00:00"
+    },
+    {
+      "title": "Franklin Miller Inc. (Dark Project)",
+      "url": "https://cti.fyi/groups/Dark Project.html",
+      "feed_id": "36f1749a6164d9229c7fc86174012650",
+      "date": "Mon, 12 Oct 2026 16:19:05 +0000",
+      "detail": "Intelligence Summary: A manufacturer of industrial size reduction equipment, wastewater grinders, shredders, and crushers based in Livingston, New Jersey. Threat Syndicate: Dark Project Claimed Victim: Franklin Miller Inc. Target Domain: franklinmiller.com Industry Sector: Manufacturing Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-10-12 16:19:05 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=franklin-miller-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-12T16:19:05+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 8,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 44,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    }
+  ]
+}
