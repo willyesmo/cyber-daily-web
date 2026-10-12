@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-12T00:38:48.935656+00:00",
+  "generated": "2026-10-12T11:06:55.934181+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33416",
+      "feed_id": "https://isc.sans.edu/diary/rss/33416",
+      "date": "Mon, 12 Oct 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-12T02:00:03+00:00"
+    },
     {
       "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
       "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
@@ -12,6 +23,72 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-11T14:23:46+00:00"
+    },
+    {
+      "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+      "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+      "feed_id": "https://www.securityweek.com/?p=49936",
+      "date": "Mon, 12 Oct 2026 10:32:05 +0000",
+      "detail": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T10:32:05+00:00"
+    },
+    {
+      "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+      "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+      "feed_id": "https://www.securityweek.com/?p=49933",
+      "date": "Mon, 12 Oct 2026 08:36:01 +0000",
+      "detail": "CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T08:36:01+00:00"
+    },
+    {
+      "title": "Let\u2019s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
+      "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+      "feed_id": "https://www.securityweek.com/?p=49930",
+      "date": "Mon, 12 Oct 2026 07:53:28 +0000",
+      "detail": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let\u2019s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T07:53:28+00:00"
+    },
+    {
+      "title": "Eversource Energy By redact",
+      "url": "https://www.ransomlook.io//group/redact",
+      "feed_id": "b371f7e76722e0ff64c78932daf0cc9774f90ed6dfefa0eeb86ea55f36ae8b84",
+      "date": "Mon, 12 Oct 2026 08:28:12 GMT",
+      "detail": "Revenue: $14B USD | Sector: Energy Distribution | Stock Ticker: NYSE:ES | Data Size: 3.8 TB | Files: 751,887 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T08:28:12+00:00"
+    },
+    {
+      "title": "MGT Lojistik A\u015e By nightspire",
+      "url": "https://www.ransomlook.io//group/nightspire",
+      "feed_id": "b0c025e4a048cf591e9efc7769e9cb796bbcf6cb43d03693e890caecf35347fa",
+      "date": "Mon, 12 Oct 2026 03:33:57 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T03:33:57+00:00"
+    },
+    {
+      "title": "KP Industries By nightspire",
+      "url": "https://www.ransomlook.io//group/nightspire",
+      "feed_id": "d4789ae937f9a13faf14750f3791bc92a0d6d281b2f97881f7a52e7b90cc6219",
+      "date": "Mon, 12 Oct 2026 03:33:56 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T03:33:56+00:00"
     },
     {
       "title": "Company #24 By n0n",
@@ -34,39 +111,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-11T21:40:00+00:00"
-    },
-    {
-      "title": "Company #23 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "ee37e855a06ee8fbf7f320030d6ef06dc278bb3f7bd1f8c4ecf52ed16664a153",
-      "date": "Sun, 11 Oct 2026 21:27:21 GMT",
-      "detail": "smart building & surveillance integration \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-11T21:27:21+00:00"
-    },
-    {
-      "title": "Company #22 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "76957d4ab6711bb316c0eb9a1686cf82ed7917cd4ed40c009f24d380649fc300",
-      "date": "Sun, 11 Oct 2026 21:27:20 GMT",
-      "detail": "architecture & design \u00b7 Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-11T21:27:20+00:00"
-    },
-    {
-      "title": "Company #21 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "67c14cf2820f1f70eff6a048884d79b9fa94bbafcfb02a2396ce375c64c61e10",
-      "date": "Sun, 11 Oct 2026 21:27:19 GMT",
-      "detail": "neurology practice \u00b7 New South Wales, Australia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-11T21:27:19+00:00"
     }
   ],
   "sources": [
@@ -87,8 +131,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -150,14 +194,14 @@
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 25,
+      "recent": 23,
       "shown": 5,
       "undated": 0
     },

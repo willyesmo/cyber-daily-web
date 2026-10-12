@@ -1,13 +1,55 @@
-CYBER DAILY — 2026-10-12 00:38 UTC
+CYBER DAILY — 2026-10-12 11:06 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-6 entries selected. Feed excerpts, not full-article or AI analysis.
+10 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
+
+ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)
+SANS Internet Storm Center | Research / advisory | 2026-10-12T02:00:03+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33416
 
 Nippon Columbia malware incident exposes 8.6 million karaoke fan records
 BleepingComputer | Research / advisory | 2026-10-11T14:23:46+00:00
 Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/
+
+Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+SecurityWeek | Research / advisory | 2026-10-12T10:32:05+00:00
+The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/
+
+Critical SonicWall Vulnerability Exploited Days After Disclosure
+SecurityWeek | Research / advisory | 2026-10-12T08:36:01+00:00
+CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek .
+CVEs: CVE-2026-102255
+https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/
+
+Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch
+SecurityWeek | Research / advisory | 2026-10-12T07:53:28+00:00
+Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/
+
+Eversource Energy By redact
+RansomLook | Ransomware claim / observation | 2026-10-12T08:28:12+00:00
+Revenue: $14B USD | Sector: Energy Distribution | Stock Ticker: NYSE:ES | Data Size: 3.8 TB | Files: 751,887 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/redact
+
+MGT Lojistik AŞ By nightspire
+RansomLook | Ransomware claim / observation | 2026-10-12T03:33:57+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/nightspire
+
+KP Industries By nightspire
+RansomLook | Ransomware claim / observation | 2026-10-12T03:33:56+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/nightspire
 
 Company #24 By n0n
 RansomLook | Ransomware claim / observation | 2026-10-12T00:30:24+00:00
@@ -21,28 +63,10 @@ Dear Spelman Logistics, We are now in possession of 1.2M contact records (emails
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/emperador
 
-Company #23 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-11T21:27:21+00:00
-smart building & surveillance integration · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-Company #22 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-11T21:27:20+00:00
-architecture & design · Florida, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-Company #21 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-11T21:27:19+00:00
-neurology practice · New South Wales, Australia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
@@ -51,6 +75,6 @@ Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=1; shown=1; undated excluded=0
-SecurityWeek: OK; recent=0; shown=0; undated excluded=0
-RansomLook: OK; recent=25; shown=5; undated excluded=0
+SecurityWeek: OK; recent=3; shown=3; undated excluded=0
+RansomLook: OK; recent=23; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0
