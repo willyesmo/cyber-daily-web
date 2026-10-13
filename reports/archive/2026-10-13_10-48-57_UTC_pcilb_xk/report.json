@@ -1,0 +1,282 @@
+{
+  "generated": "2026-10-13T10:48:57.302911+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33418",
+      "feed_id": "https://isc.sans.edu/diary/rss/33418",
+      "date": "Tue, 13 Oct 2026 02:00:02 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-13T02:00:02+00:00"
+    },
+    {
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "date": "Mon, 12 Oct 2026 16:13:52 -0400",
+      "detail": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T20:13:52+00:00"
+    },
+    {
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "date": "Mon, 12 Oct 2026 15:23:01 -0400",
+      "detail": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T19:23:01+00:00"
+    },
+    {
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "date": "Mon, 12 Oct 2026 14:51:59 -0400",
+      "detail": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T18:51:59+00:00"
+    },
+    {
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "date": "Mon, 12 Oct 2026 12:27:23 -0400",
+      "detail": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T16:27:23+00:00"
+    },
+    {
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "date": "Mon, 12 Oct 2026 11:23:34 -0400",
+      "detail": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-12T15:23:34+00:00"
+    },
+    {
+      "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
+      "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+      "feed_id": "https://www.securityweek.com/?p=49962",
+      "date": "Tue, 13 Oct 2026 10:36:05 +0000",
+      "detail": "A small circuit board hidden under the signers\u2019 screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-13T10:36:05+00:00"
+    },
+    {
+      "title": "Cyberattack Prompts Ahold Delhaize to Disconnect Systems",
+      "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
+      "feed_id": "https://www.securityweek.com/?p=49956",
+      "date": "Tue, 13 Oct 2026 09:37:12 +0000",
+      "detail": "The company says it took some of its systems offline to contain a security issue within its network. The post Cyberattack Prompts Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-13T09:37:12+00:00"
+    },
+    {
+      "title": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
+      "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+      "feed_id": "https://www.securityweek.com/?p=49953",
+      "date": "Tue, 13 Oct 2026 08:28:51 +0000",
+      "detail": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost. The post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-13T08:28:51+00:00"
+    },
+    {
+      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "feed_id": "https://www.securityweek.com/?p=49951",
+      "date": "Mon, 12 Oct 2026 14:25:00 +0000",
+      "detail": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T14:25:00+00:00"
+    },
+    {
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "feed_id": "https://www.securityweek.com/?p=49949",
+      "date": "Mon, 12 Oct 2026 13:14:37 +0000",
+      "detail": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites. The post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-12T13:14:37+00:00"
+    },
+    {
+      "title": "hiqbio.com By safepay",
+      "url": "https://www.ransomlook.io//group/safepay",
+      "feed_id": "6850952c9a3790695a6502c802f6dae587ef7b3f4f46df81b3e48a02fca53897",
+      "date": "Mon, 12 Oct 2026 22:26:39 GMT",
+      "detail": "The company focuses on applying marine biotechnology to human health, animal health, functional foods and sustainable aquaculture. Its official website \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T22:26:39+00:00"
+    },
+    {
+      "title": "Trailerbridge.com By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "8f3524ed7a67d6e3751f61fd3e03ab33107f85314edcb79fa4d768c70f0f2e23",
+      "date": "Mon, 12 Oct 2026 22:26:03 GMT",
+      "detail": "76200 files containing customer data: invoices, remittances, commercial relations with major chains (Walmart, Baxter, Cardinal); customs documents (declarations, EEI, Schedule B); ... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T22:26:03+00:00"
+    },
+    {
+      "title": "The Park Lane Hong Kong By orova",
+      "url": "https://www.ransomlook.io//group/orova",
+      "feed_id": "0145b48ae90d9fe0c05e996ce331866f73b46e9944207f4fe5fdfe0eec0d428a",
+      "date": "Mon, 12 Oct 2026 21:27:32 GMT",
+      "detail": "The Park Lane Hong Kong, Autograph Collection - A Signature Hotel in the Marriott Bonvoy Collection - blends heritage with the city\u2019s modern spirit, letting you enjoy business, leisure, and connection \u2014 all just moments from the city\u2019s best. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T21:27:32+00:00"
+    },
+    {
+      "title": "Libre Wireless Technologies By orova",
+      "url": "https://www.ransomlook.io//group/orova",
+      "feed_id": "525574293989925e3caebf50bd0f2cef75180803bc051e955ba1afebd378a317",
+      "date": "Mon, 12 Oct 2026 21:27:31 GMT",
+      "detail": "Explore our certified platforms, ranging from MAVID, renowned for being the industry's most integrated, energy-efficient, and compact MIC-to-cloud IoT devices to LS9 platforms, offering extensive capabilities as multi-ecosystem voice assistants and music streamers with the latest features. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T21:27:31+00:00"
+    },
+    {
+      "title": "Amantya Technologies By orova",
+      "url": "https://www.ransomlook.io//group/orova",
+      "feed_id": "b7433f4903816edd8ffee84aef542a36401ebe4ec5834bd0bf74f2390c90b9b7",
+      "date": "Mon, 12 Oct 2026 21:27:30 GMT",
+      "detail": "Amantya brings together deep expertise in AI, software, data, cloud, telecom, GIS, and digital engineering to help enterprises transform how they build, operate, and grow. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-12T21:27:30+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 8,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 50,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

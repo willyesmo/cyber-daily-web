@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T02:38:39.424707+00:00",
+  "generated": "2026-10-13T10:48:57.302911+00:00",
   "hours": 24,
   "items": [
     {
@@ -12,17 +12,6 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-13T02:00:02+00:00"
-    },
-    {
-      "title": "What to do when a data breach notice doesn't say much",
-      "url": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
-      "feed_id": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
-      "date": "Mon, 12 Oct 2026 09:00:00 +0000",
-      "detail": "Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "ESET WeLiveSecurity",
-      "published": "2026-10-12T09:00:00+00:00"
     },
     {
       "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
@@ -80,6 +69,39 @@
       "published": "2026-10-12T15:23:34+00:00"
     },
     {
+      "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
+      "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+      "feed_id": "https://www.securityweek.com/?p=49962",
+      "date": "Tue, 13 Oct 2026 10:36:05 +0000",
+      "detail": "A small circuit board hidden under the signers\u2019 screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-13T10:36:05+00:00"
+    },
+    {
+      "title": "Cyberattack Prompts Ahold Delhaize to Disconnect Systems",
+      "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
+      "feed_id": "https://www.securityweek.com/?p=49956",
+      "date": "Tue, 13 Oct 2026 09:37:12 +0000",
+      "detail": "The company says it took some of its systems offline to contain a security issue within its network. The post Cyberattack Prompts Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-13T09:37:12+00:00"
+    },
+    {
+      "title": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
+      "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+      "feed_id": "https://www.securityweek.com/?p=49953",
+      "date": "Tue, 13 Oct 2026 08:28:51 +0000",
+      "detail": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost. The post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-13T08:28:51+00:00"
+    },
+    {
       "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
       "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
       "feed_id": "https://www.securityweek.com/?p=49951",
@@ -100,39 +122,6 @@
       "kind": "Research / advisory",
       "source": "SecurityWeek",
       "published": "2026-10-12T13:14:37+00:00"
-    },
-    {
-      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
-      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
-      "feed_id": "https://www.securityweek.com/?p=49946",
-      "date": "Mon, 12 Oct 2026 11:58:39 +0000",
-      "detail": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-12T11:58:39+00:00"
-    },
-    {
-      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
-      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
-      "feed_id": "https://www.securityweek.com/?p=49944",
-      "date": "Mon, 12 Oct 2026 11:24:50 +0000",
-      "detail": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-12T11:24:50+00:00"
-    },
-    {
-      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
-      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
-      "feed_id": "https://www.securityweek.com/?p=49938",
-      "date": "Mon, 12 Oct 2026 11:05:43 +0000",
-      "detail": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-12T11:05:43+00:00"
     },
     {
       "title": "hiqbio.com By safepay",
@@ -250,8 +239,8 @@
     {
       "source": "ESET WeLiveSecurity",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
