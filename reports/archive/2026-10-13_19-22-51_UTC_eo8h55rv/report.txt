@@ -1,0 +1,140 @@
+CYBER DAILY — 2026-10-13 19:22 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+18 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-104935: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-13T00:00:00+00:00
+Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-104935
+Fabricante: Ivanti
+Producto: Connect Secure
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-16
+Uso conocido en ransomware: Unknown
+Notas de CISA: https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935
+
+CVE-2026-96951: Microsoft Windows Command Injection Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-13T00:00:00+00:00
+Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-96951
+Fabricante: Microsoft
+Producto: Windows
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-16
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-96951 ; BOD 26-04: BOD 26-04: Prioritizing Security Updates Based on Risk | CISA ; Forensics Triage Requirements: BOD 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk | CISA ;  https://nvd.nist.gov/vuln/detail/CVE-2026-96951
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96951
+
+ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)
+SANS Internet Storm Center | Research / advisory | 2026-10-13T02:00:02+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33418
+
+Microsoft: Windows 11 24H2 Home and Pro reached end of support
+BleepingComputer | Research / advisory | 2026-10-13T19:04:38+00:00
+Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/
+
+UK Housing Ombudsman Service investigates 'security incident'
+BleepingComputer | Research / advisory | 2026-10-13T18:19:44+00:00
+The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/
+
+Windows 11 KB5127648 & KB5126653 cumulative updates released
+BleepingComputer | Research / advisory | 2026-10-13T17:49:38+00:00
+Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/
+
+TFG London cyberattack disrupts systems at Hobbs and Whistles retailers
+BleepingComputer | Research / advisory | 2026-10-13T16:44:18+00:00
+TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/
+
+Ivanti warns of Connect Secure zero-day exploited in attacks
+BleepingComputer | Research / advisory | 2026-10-13T15:45:50+00:00
+Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/
+
+Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN
+SecurityWeek | Research / advisory | 2026-10-13T18:43:43+00:00
+CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. The post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN appeared first on SecurityWeek .
+CVEs: CVE-2026-104935
+https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/
+
+Adobe Patches 140 Vulnerabilities Across 10 Products
+SecurityWeek | Research / advisory | 2026-10-13T17:14:42+00:00
+The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge. The post Adobe Patches 140 Vulnerabilities Across 10 Products appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/
+
+Google Partially Reverses Chrome Bug Bounty Cuts
+SecurityWeek | Research / advisory | 2026-10-13T17:00:00+00:00
+Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/
+
+Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+SecurityWeek | Research / advisory | 2026-10-13T16:01:00+00:00
+Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/
+
+Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns
+SecurityWeek | Research / advisory | 2026-10-13T11:58:29+00:00
+Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own. The post Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/
+
+Ahlqvist & Almqvist Arkitekter AB By wallstreet
+RansomLook | Ransomware claim / observation | 2026-10-13T19:21:03+00:00
+Stockholm architecture and urban-planning practice working on buildings and sustainable city development Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/wallstreet
+
+Englunds Konsultbyrå AB By wallstreet
+RansomLook | Ransomware claim / observation | 2026-10-13T19:21:01+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/wallstreet
+
+Spectrum Arkitekter AB By wallstreet
+RansomLook | Ransomware claim / observation | 2026-10-13T19:21:00+00:00
+Stockholm architecture and interior-design firm, with work including commercial properties, workplaces, hotels, property development, and product design. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/wallstreet
+
+Vendus Sweden AB By wallstreet
+RansomLook | Ransomware claim / observation | 2026-10-13T19:20:59+00:00
+Swedish property company that acquires, owns, and manages properties, with a focus on grocery-anchored retail real estate Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/wallstreet
+
+Fab Support AB By wallstreet
+RansomLook | Ransomware claim / observation | 2026-10-13T19:20:58+00:00
+Swedish supplier of electronic components and telecommunications equipment; also provides installation and technical support related to industrial equipment. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/wallstreet
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=2; shown=2; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=10; shown=5; undated excluded=0
+SecurityWeek: OK; recent=10; shown=5; undated excluded=0
+RansomLook: OK; recent=49; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

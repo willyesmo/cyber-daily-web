@@ -1,7 +1,43 @@
 {
-  "generated": "2026-10-13T10:48:57.302911+00:00",
+  "generated": "2026-10-13T19:22:51.003477+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-104935: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935",
+      "date": "2026-10-13",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Ivanti",
+        "Producto": "Connect Secure",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-16",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-13T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-96951: Microsoft Windows Command Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96951",
+      "date": "2026-10-13",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Microsoft",
+        "Producto": "Windows",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-16",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-96951 ; BOD 26-04: BOD 26-04: Prioritizing Security Updates Based on Risk | CISA ; Forensics Triage Requirements: BOD 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk | CISA ;  https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-13T00:00:00+00:00"
+    },
     {
       "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
       "url": "https://isc.sans.edu/diary/rss/33418",
@@ -14,177 +50,177 @@
       "published": "2026-10-13T02:00:02+00:00"
     },
     {
-      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-      "date": "Mon, 12 Oct 2026 16:13:52 -0400",
-      "detail": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "date": "Tue, 13 Oct 2026 15:04:38 -0400",
+      "detail": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-12T20:13:52+00:00"
+      "published": "2026-10-13T19:04:38+00:00"
     },
     {
-      "title": "Yandex confirms service outage as users lose access to cloud files",
-      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-      "date": "Mon, 12 Oct 2026 15:23:01 -0400",
-      "detail": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+      "title": "UK Housing Ombudsman Service investigates 'security incident'",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "date": "Tue, 13 Oct 2026 14:19:44 -0400",
+      "detail": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-12T19:23:01+00:00"
+      "published": "2026-10-13T18:19:44+00:00"
     },
     {
-      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-      "date": "Mon, 12 Oct 2026 14:51:59 -0400",
-      "detail": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+      "date": "Tue, 13 Oct 2026 13:49:38 -0400",
+      "detail": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-12T18:51:59+00:00"
+      "published": "2026-10-13T17:49:38+00:00"
     },
     {
-      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "date": "Mon, 12 Oct 2026 12:27:23 -0400",
-      "detail": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "date": "Tue, 13 Oct 2026 12:44:18 -0400",
+      "detail": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-12T16:27:23+00:00"
+      "published": "2026-10-13T16:44:18+00:00"
     },
     {
-      "title": "Cyberattack shuts down refrigerators at French supermarkets",
-      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-      "date": "Mon, 12 Oct 2026 11:23:34 -0400",
-      "detail": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "date": "Tue, 13 Oct 2026 11:45:50 -0400",
+      "detail": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-12T15:23:34+00:00"
+      "published": "2026-10-13T15:45:50+00:00"
     },
     {
-      "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
-      "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
-      "feed_id": "https://www.securityweek.com/?p=49962",
-      "date": "Tue, 13 Oct 2026 10:36:05 +0000",
-      "detail": "A small circuit board hidden under the signers\u2019 screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek .",
+      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
+      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+      "feed_id": "https://www.securityweek.com/?p=49986",
+      "date": "Tue, 13 Oct 2026 18:43:43 +0000",
+      "detail": "CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. The post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-13T10:36:05+00:00"
+      "published": "2026-10-13T18:43:43+00:00"
     },
     {
-      "title": "Cyberattack Prompts Ahold Delhaize to Disconnect Systems",
-      "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
-      "feed_id": "https://www.securityweek.com/?p=49956",
-      "date": "Tue, 13 Oct 2026 09:37:12 +0000",
-      "detail": "The company says it took some of its systems offline to contain a security issue within its network. The post Cyberattack Prompts Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek .",
+      "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
+      "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+      "feed_id": "https://www.securityweek.com/?p=49984",
+      "date": "Tue, 13 Oct 2026 17:14:42 +0000",
+      "detail": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge. The post Adobe Patches 140 Vulnerabilities Across 10 Products appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-13T09:37:12+00:00"
+      "published": "2026-10-13T17:14:42+00:00"
     },
     {
-      "title": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
-      "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
-      "feed_id": "https://www.securityweek.com/?p=49953",
-      "date": "Tue, 13 Oct 2026 08:28:51 +0000",
-      "detail": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost. The post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared first on SecurityWeek .",
+      "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
+      "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+      "feed_id": "https://www.securityweek.com/?p=49976",
+      "date": "Tue, 13 Oct 2026 17:00:00 +0000",
+      "detail": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-13T08:28:51+00:00"
+      "published": "2026-10-13T17:00:00+00:00"
     },
     {
-      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
-      "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
-      "feed_id": "https://www.securityweek.com/?p=49951",
-      "date": "Mon, 12 Oct 2026 14:25:00 +0000",
-      "detail": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek .",
+      "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
+      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+      "feed_id": "https://www.securityweek.com/?p=49960",
+      "date": "Tue, 13 Oct 2026 16:01:00 +0000",
+      "detail": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-12T14:25:00+00:00"
+      "published": "2026-10-13T16:01:00+00:00"
     },
     {
-      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
-      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
-      "feed_id": "https://www.securityweek.com/?p=49949",
-      "date": "Mon, 12 Oct 2026 13:14:37 +0000",
-      "detail": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites. The post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek .",
+      "title": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
+      "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+      "feed_id": "https://www.securityweek.com/?p=49969",
+      "date": "Tue, 13 Oct 2026 11:58:29 +0000",
+      "detail": "Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own. The post Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-12T13:14:37+00:00"
+      "published": "2026-10-13T11:58:29+00:00"
     },
     {
-      "title": "hiqbio.com By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "6850952c9a3790695a6502c802f6dae587ef7b3f4f46df81b3e48a02fca53897",
-      "date": "Mon, 12 Oct 2026 22:26:39 GMT",
-      "detail": "The company focuses on applying marine biotechnology to human health, animal health, functional foods and sustainable aquaculture. Its official website \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Ahlqvist & Almqvist Arkitekter AB By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "da0bf0e48d8f8d78cc113afaaa6ef554ba86245aa688b7cd9b5a1ce7c62249db",
+      "date": "Tue, 13 Oct 2026 19:21:03 GMT",
+      "detail": "Stockholm architecture and urban-planning practice working on buildings and sustainable city development Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-12T22:26:39+00:00"
+      "published": "2026-10-13T19:21:03+00:00"
     },
     {
-      "title": "Trailerbridge.com By brain cipher",
-      "url": "https://www.ransomlook.io//group/brain%20cipher",
-      "feed_id": "8f3524ed7a67d6e3751f61fd3e03ab33107f85314edcb79fa4d768c70f0f2e23",
-      "date": "Mon, 12 Oct 2026 22:26:03 GMT",
-      "detail": "76200 files containing customer data: invoices, remittances, commercial relations with major chains (Walmart, Baxter, Cardinal); customs documents (declarations, EEI, Schedule B); ... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Englunds Konsultbyr\u00e5 AB By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "a922c5a1c5e167df1e49884af218becebbe50f19bbad048626c7f164793ec0a8",
+      "date": "Tue, 13 Oct 2026 19:21:01 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-12T22:26:03+00:00"
+      "published": "2026-10-13T19:21:01+00:00"
     },
     {
-      "title": "The Park Lane Hong Kong By orova",
-      "url": "https://www.ransomlook.io//group/orova",
-      "feed_id": "0145b48ae90d9fe0c05e996ce331866f73b46e9944207f4fe5fdfe0eec0d428a",
-      "date": "Mon, 12 Oct 2026 21:27:32 GMT",
-      "detail": "The Park Lane Hong Kong, Autograph Collection - A Signature Hotel in the Marriott Bonvoy Collection - blends heritage with the city\u2019s modern spirit, letting you enjoy business, leisure, and connection \u2014 all just moments from the city\u2019s best. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Spectrum Arkitekter AB By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "4ca2ca8be1f6bf9f91529229f7c678913e146ce0cc0dac7940b022923ce7c8f2",
+      "date": "Tue, 13 Oct 2026 19:21:00 GMT",
+      "detail": "Stockholm architecture and interior-design firm, with work including commercial properties, workplaces, hotels, property development, and product design. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-12T21:27:32+00:00"
+      "published": "2026-10-13T19:21:00+00:00"
     },
     {
-      "title": "Libre Wireless Technologies By orova",
-      "url": "https://www.ransomlook.io//group/orova",
-      "feed_id": "525574293989925e3caebf50bd0f2cef75180803bc051e955ba1afebd378a317",
-      "date": "Mon, 12 Oct 2026 21:27:31 GMT",
-      "detail": "Explore our certified platforms, ranging from MAVID, renowned for being the industry's most integrated, energy-efficient, and compact MIC-to-cloud IoT devices to LS9 platforms, offering extensive capabilities as multi-ecosystem voice assistants and music streamers with the latest features. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Vendus Sweden AB By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "04ffee489c02ceafcf1c9d0c5a2b5a408090bd9eb283de09ba804c775e95a8c8",
+      "date": "Tue, 13 Oct 2026 19:20:59 GMT",
+      "detail": "Swedish property company that acquires, owns, and manages properties, with a focus on grocery-anchored retail real estate Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-12T21:27:31+00:00"
+      "published": "2026-10-13T19:20:59+00:00"
     },
     {
-      "title": "Amantya Technologies By orova",
-      "url": "https://www.ransomlook.io//group/orova",
-      "feed_id": "b7433f4903816edd8ffee84aef542a36401ebe4ec5834bd0bf74f2390c90b9b7",
-      "date": "Mon, 12 Oct 2026 21:27:30 GMT",
-      "detail": "Amantya brings together deep expertise in AI, software, data, cloud, telecom, GIS, and digital engineering to help enterprises transform how they build, operate, and grow. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Fab Support AB By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "cef437e21f0555b5e50b95b715699cf8952122c5d1bf8685e17dbbacb1dac10c",
+      "date": "Tue, 13 Oct 2026 19:20:58 GMT",
+      "detail": "Swedish supplier of electronic components and telecommunications equipment; also provides installation and technical support related to industrial equipment. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-12T21:27:30+00:00"
+      "published": "2026-10-13T19:20:58+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -253,21 +289,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 9,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 8,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 50,
+      "recent": 49,
       "shown": 5,
       "undated": 0
     },
