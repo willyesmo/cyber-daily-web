@@ -1,13 +1,19 @@
-CYBER DAILY — 2026-10-12 21:19 UTC
+CYBER DAILY — 2026-10-13 02:38 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-19 entries selected. Feed excerpts, not full-article or AI analysis.
+17 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
-ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)
-SANS Internet Storm Center | Research / advisory | 2026-10-12T02:00:03+00:00
+ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)
+SANS Internet Storm Center | Research / advisory | 2026-10-13T02:00:02+00:00
 No feed summary supplied. Open the original source for details.
 CVEs: Not stated in feed
-https://isc.sans.edu/diary/rss/33416
+https://isc.sans.edu/diary/rss/33418
+
+What to do when a data breach notice doesn't say much
+ESET WeLiveSecurity | Research / advisory | 2026-10-12T09:00:00+00:00
+Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.
+CVEs: Not stated in feed
+https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/
 
 Norway fines Microsoft ad firm $9.6 million over Grindr data sharing
 BleepingComputer | Research / advisory | 2026-10-12T20:13:52+00:00
@@ -69,53 +75,35 @@ Hackers stole patients’ personal information, including names, addresses, emai
 CVEs: Not stated in feed
 https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/
 
-RingSide Creative By qilin
-RansomLook | Ransomware claim / observation | 2026-10-12T19:19:45+00:00
-Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+hiqbio.com By safepay
+RansomLook | Ransomware claim / observation | 2026-10-12T22:26:39+00:00
+The company focuses on applying marine biotechnology to human health, animal health, functional foods and sustainable aquaculture. Its official website … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/safepay
 
-Franklin Miller Inc. By dark project
-RansomLook | Ransomware claim / observation | 2026-10-12T19:19:08+00:00
-As a result of the attack on "Franklin Miller", more than 250 GB of confidential data were stolen. The organization lost control over documents such as drawings and project documentation, confidential agreements, banking and other financial information, as well as employees’ personal data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Trailerbridge.com By brain cipher
+RansomLook | Ransomware claim / observation | 2026-10-12T22:26:03+00:00
+76200 files containing customer data: invoices, remittances, commercial relations with major chains (Walmart, Baxter, Cardinal); customs documents (declarations, EEI, Schedule B); ... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/dark%20project
+https://www.ransomlook.io//group/brain%20cipher
 
-Claire's Inc. By dark project
-RansomLook | Ransomware claim / observation | 2026-10-12T19:19:07+00:00
-Claire's Inc. suffered a cyberattack that disrupted its operations and compromised customers and employees data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+The Park Lane Hong Kong By orova
+RansomLook | Ransomware claim / observation | 2026-10-12T21:27:32+00:00
+The Park Lane Hong Kong, Autograph Collection - A Signature Hotel in the Marriott Bonvoy Collection - blends heritage with the city’s modern spirit, letting you enjoy business, leisure, and connection — all just moments from the city’s best. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/dark%20project
+https://www.ransomlook.io//group/orova
 
-PennEastern Architects LCC By dark project
-RansomLook | Ransomware claim / observation | 2026-10-12T19:19:06+00:00
-As a result of a cyberattack on Company PennEastern Architects, more than 100 GB of corporate data was stolen. The breach includes a large volume of confidential information, including drawings and project documentation, data on the company’s customers and employees, as well as documents containing banking and financial information. Currently, approximately 60,000 files are unprotected by Company PennEastern Architects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Libre Wireless Technologies By orova
+RansomLook | Ransomware claim / observation | 2026-10-12T21:27:31+00:00
+Explore our certified platforms, ranging from MAVID, renowned for being the industry's most integrated, energy-efficient, and compact MIC-to-cloud IoT devices to LS9 platforms, offering extensive capabilities as multi-ecosystem voice assistants and music streamers with the latest features. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/dark%20project
+https://www.ransomlook.io//group/orova
 
-Rechtsanwaltskanzlei Dr. Bien By aurora
-RansomLook | Ransomware claim / observation | 2026-10-12T19:19:00+00:00
-Rechtsanwaltskanzlei Dr. Bien — a specialist insolvency law firm in Hamm, NRW, appointed as insolvency administrator by 12 Amtsgerichte across Westfalen. The exposed material includes: 2,387 WinSolvenz case databases — each a Microsoft Access MDB containing the complete financial dossier of an insolvency debtor: creditor lists, claim amounts, distribution plans, asset inventories, court appointments, and bank account details. 492+ forced administration (Zwangsverwaltung) case files — property addresses, tenant data, rent records, utility accounts, insurance details, court-directed property management reports. 80 GB MailStore email archive — the firm's complete email history in MailStoreContainer-v1 format: attorney-client communications, court correspondence, creditor negotiations, debtor disclosures. 1.7 GB beA backup (besonderes elektronisches Anwaltspostfach) — three MSSQL database backups containing every electronic communication between the firm and every German court. 35 employee records — 25 former + ~10 current staff: contracts, salary, overtime, vacation, pension, disability status, termination agreements. DATEV tax/accounting archives — 33 directories of income tax backups, insolvency accounting, third-party mandates. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Amantya Technologies By orova
+RansomLook | Ransomware claim / observation | 2026-10-12T21:27:30+00:00
+Amantya brings together deep expertise in AI, software, data, cloud, telecom, GIS, and digital engineering to help enterprises transform how they build, operate, and grow. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/aurora
-
-Claire's Inc. (Dark Project)
-CTI.fyi | Ransomware claim / observation | 2026-10-12T16:39:11+00:00
-Intelligence Summary: A global specialty retailer of fashion jewelry and accessories with mall-based stores across the United States. Threat Syndicate: Dark Project Claimed Victim: Claire's Inc. Target Domain: claires.com Industry Sector: Retail Geographic Location: 🇺🇸 US Date Published: 2026-10-12 16:39:11 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=claires-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Dark Project.html
-
-PennEastern Architects LCC (Dark Project)
-CTI.fyi | Ransomware claim / observation | 2026-10-12T16:33:14+00:00
-Intelligence Summary: An architectural and engineering design firm headquartered in Wilkes-Barre, Pennsylvania. Threat Syndicate: Dark Project Claimed Victim: PennEastern Architects LCC Canonical Organization: PennEastern Architects LLC Target Domain: penneastern.com Industry Sector: Construction Geographic Location: 🇺🇸 US Date Published: 2026-10-12 16:33:14 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=penneastern-architects-lcc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Dark Project.html
-
-Franklin Miller Inc. (Dark Project)
-CTI.fyi | Ransomware claim / observation | 2026-10-12T16:19:05+00:00
-Intelligence Summary: A manufacturer of industrial size reduction equipment, wastewater grinders, shredders, and crushers based in Livingston, New Jersey. Threat Syndicate: Dark Project Claimed Victim: Franklin Miller Inc. Target Domain: franklinmiller.com Industry Sector: Manufacturing Geographic Location: 🇺🇸 US Date Published: 2026-10-12 16:19:05 Date Updated (Revisited): 2026-10-12 21:08:01 Date Discovered: 2026-10-12 17:07:02.448236 Post URL: http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=franklin-miller-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Dark Project.html
+https://www.ransomlook.io//group/orova
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -126,9 +114,9 @@ Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
 Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
-ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=1; shown=1; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=9; shown=5; undated excluded=0
 SecurityWeek: OK; recent=8; shown=5; undated excluded=0
-RansomLook: OK; recent=44; shown=5; undated excluded=0
-CTI.fyi: OK; recent=3; shown=3; undated excluded=0
+RansomLook: OK; recent=50; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
