@@ -1,7 +1,79 @@
 {
-  "generated": "2026-10-14T19:30:19.380906+00:00",
+  "generated": "2026-10-14T23:59:16.645642+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-105134: Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105134",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component\u2019s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Ahsay",
+        "Producto": "AhsayCBS",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-76519: Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Cisco",
+        "Producto": "Secure Email Gateway",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-105133: Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105133",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component\u2019s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Ahsay",
+        "Producto": "AhsayCBS",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-0322: Palo Alto Networks PAN-OS Code Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0322",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Palo Alto Networks",
+        "Producto": "PAN-OS",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
     {
       "title": "CVE-2026-104935: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935",
@@ -16,24 +88,6 @@
         "Fecha l\u00edmite indicada por CISA": "2026-10-16",
         "Uso conocido en ransomware": "Unknown",
         "Notas de CISA": "https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-13T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-96951: Microsoft Windows Command Injection Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96951",
-      "date": "2026-10-13",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Microsoft",
-        "Producto": "Windows",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-16",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-96951 ; BOD 26-04: BOD 26-04: Prioritizing Security Updates Based on Risk | CISA ; Forensics Triage Requirements: BOD 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk | CISA ;  https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
       },
       "source": "CISA KEV",
       "published": "2026-10-13T00:00:00+00:00"
@@ -72,17 +126,6 @@
       "published": "2026-10-14T14:00:00+00:00"
     },
     {
-      "title": "Microsoft Patch Tuesday for October 2026 \u2014 Snort rules and prominent vulnerabilities",
-      "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-      "feed_id": "6ace94aeea03e70001813e76",
-      "date": "Tue, 13 Oct 2026 20:37:58 GMT",
-      "detail": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\" Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-96951 is a security feature bypass vulnerability that affects Windows Shell. The shared weakness is Improper Neutralization of Special Elements used in a Command ('Command Injection'). The vulnerability has a CVSS base score of 8.8. Out of 85 \"critical\" vulnerabilities, 67 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-70229 is a remote code execution vulnerability that affects Windows Active Directory Domain Services. The shared weakness is Incorrect Authorization. The vulnerability has a CVSS base score of 8.1. CVE-2026-70571 is a remote code execution vulnerability that affects Microsoft Exchange Server. The shared weakness is Stack-based Buffer Overflow. The vulnerability has a CVSS base score of 8.1. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-105733 , CVE-2026-102214 , and CVE-2026-108399 affect Windows Hyper-V. CVE-2026-105733 has an impact of remote code execution; involves Incorrect Initialization of Resource; has a CVSS base score of 8.8. CVE-2026-102214 has an impact of remote code execution; involves Use After Free; has a CVSS base score of 8.8. CVE-2026-108399 has an impact of elevation of privilege; involves Heap-based Buffer Overflow; has a CVSS base score of 7.2. CVE-2026-100202 is a remote code execution vulnerability that affects Windows Message Queuing Queue Manager. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 9.8. CVE-2026-100209 , CVE-2026-100210 , CVE-2026-100211 , CVE-2026-97739 , CVE-2026-97745 , CVE-2026-97755 , CVE-2026-97759 , CVE-2026-97765 , CVE-2026-97778 , CVE-2026-97741 , CVE-2026-97742 , CVE-2026-97753 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97761 , CVE-2026-97767 , CVE-2026-97776 , and CVE-2026-97780 are remote code execution vulnerabilities that affect Microsoft Office Excel. Each has a CVSS base score of 8.8. CVE-2026-100209 , CVE-2026-100211 , CVE-2026-97745 , and CVE-2026-97759 involve Use After Free. CVE-2026-100210 , CVE-2026-97765 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97776 , and CVE-2026-97780 involve Heap-based Buffer Overflow. CVE-2026-97739 involves Heap-based Buffer Overflow and Integer Underflow (Wrap or Wraparound). CVE-2026-97755 involves Out-of-bounds Read. CVE-2026-97778 involves Integer Overflow or Wraparound. CVE-2026-97741 involves Heap-based Buffer Overflow and Off-by-one Error. CVE-2026-97742 involves Stack-based Buffer Overflow. CVE-2026-97753 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound. CVE-2026-97761 involves Stack-based Buffer Overflow. CVE-2026-97767 involves Double Free and NULL Pointer Dereference. CVE-2026-100215 is a remote code execution vulnerability that affects Microsoft Graphics Component. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 7.8. CVE-2026-100219 and CVE-2026-105016 are remote code execution vulnerabilities that affect Microsoft QUIC. Each has a CVSS base score of 9.8. CVE-2026-100219 involves Use After Free. CVE-2026-105016 involves Heap-based Buffer Overflow. CVE-2026-100220 is a remote code execution vulnerability that affects Windows Media Video Decoder. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-102211 , CVE-2026-88074 , CVE-2026-108130 , CVE-2026-108471 , and CVE-2026-96914 are elevation of privilege vulnerabilities that affect Windows Virtualization-Based Security (VBS) Enclave. CVE-2026-102211 involves Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') and Use After Free; has a CVSS base score of 7.0. CVE-2026-88074 involves Integer Overflow or Wraparound; has a CVSS base score of 7.8. CVE-2026-108130 involves Heap-based Buffer Overflow; has a CVSS base score of 7.8. CVE-2026-108471 involves Untrusted Pointer Dereference; has a CVSS base score of 8.8. CVE-2026-96914 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound; has a CVSS base score of 8.8. CVE-2026-102225 and CVE-2026-97814 are remote code execution vulnerabilities that affect Windows Text Shaping. CVE-2026-102225 involves Numeric Truncation Error and Out-of-bounds Read; has a CVSS base score of 8.8. CVE-2026-97814 involves Heap-based Buffer Overflow; has a CVSS base score of 9.8. CVE-2026-102855 , CVE-2026-102856 , and CVE-2026-102857 are remote code execution vulnerabilities that affect Microsoft Office Visio. The shared weakness is Heap-based Buffer Overflow. Each has a CVSS base score of 8.8. CVE-2026-102856 involves Integer Overflow or Wraparound. CVE-2026-102857 involves Off-by-one Error. CVE-2026-102866 is an elevation of privilege vulnerability that affects Microsoft Office SharePoint. The shared weakness is Improper Verification of Cryptographic Signature. The vulnerability has a CVSS base score of 8.1. CVE-2026-62840 is an elevation of privilege vulnerability that affects Linux Kernel. The shared weakness is Time-of-check Time-of-use (TOCTOU) Race Condition. The vulnerability has a CVSS base score of 7.0. CVE-2026-69802 is a remote code execution vulnerability that affects Network Device Enrollment Service (NDES). The shared weakness is Weak Authentication. The vulnerability has a CVSS base score of 8.1. CVE-2026-70147 , CVE-2026-70153 , and CVE-2026-108467 are remote code execution vulnerabilities that affect Microsoft PostScript Printer Driver. The shared weakness is Heap-based Buffer Overflow. CVE-2026-70147 has a CVSS base score of 9.8. CVE-2026-70153 has a CVSS base score of 9.8. CVE-2026-108467 has a CVSS base score of 8.8. CVE-2026-70187 is a remote code execution vulnerability that affects Windows Remote Desktop Services. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 8.1. CVE-2026-70250 is a remote code execution vulnerability that affects Windows DHCP Client. The shared weakness is Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') and Use After Free. The vulnerability has a CVSS base score of 8.8. CVE-2026-83934 is a remote code execution vulnerability that affects Windows GDI+. The shared weakness is Stack-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-88073 is an elevation of privilege vulnerability that affects Windows Graphics Kernel. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 8.8. CVE-2026-88117 , CVE-2026-88119 , CVE-2026-88120 , CVE-2026-88171 , and CVE-2026-96934 are remote code execution vulnerabilities that affect Windows DHCP Server. CVE-2026-88117 , CVE-2026-88119 , and CVE-2026-88120 involve Use After Free; each has a CVSS base score of 8.1. CVE-2026-88171 involves Double Free; has a CVSS base score of 8.1. CVE-2026-96934 involves Use After Free; has a CVSS base score of 9.8. CVE-2026-96222 and CVE-2026-108131 are spoofing vulnerabilities that affect Active Directory Federation Services (AD FS). CVE-2026-96222 involves Improper Certificate Validation; has a CVSS base score of 7.4. CVE-2026-108131 has a CVSS base score of 7.5. CVE-2026-96913 is an elevation of privilege vulnerability that affects Windows Kernel. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-96952 is a remote code execution vulnerability that affects Microsoft Windows Media Foundation. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-105718 is a remote code execution vulnerability that affects Microsoft Excel. The shared weakness is Improper Input Validation and Out-of-bounds Read. The vulnerability has a CVSS base score of 8.8. CVE-2026-108400 is a remote code execution vulnerability that affects HEVC Video Extensions. The shared weakness is Integer Overflow or Wraparound. The vulnerability has a CVSS base score of 8.8. CVE-2026-108457 is a remote code execution vulnerability that affects Microsoft Windows PDF. The shared weakness is Out-of-bounds Write. The vulnerability has a CVSS base score of 8.1. CVE-2026-108460 is a remote code execution vulnerability that affects Windows Message Queuing. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 8.1. CVE-2026-70215 , CVE-2026-88144 , CVE-2026-88178 , and CVE-2026-88207 are remote code execution vulnerabilities that affect Microsoft Office PowerPoint. CVE-2026-70215 and CVE-2026-88144 involve Use After Free; has a CVSS base score of 8.8. CVE-2026-88178 involves Use After Free; has a CVSS base score of 9.8. CVE-2026-88207 involves Heap-based Buffer Overflow; has a CVSS base score of 7.5. CVE-2026-70242 , CVE-2026-70291 , CVE-2026-88156 , CVE-2026-97016 , and CVE-2026-97749 are remote code execution vulnerabilities that affect Microsoft Office Outlook. Each has a CVSS base score of 9.8. CVE-2026-70242 , CVE-2026-70291 , and CVE-2026-97016 involve Heap-based Buffer Overflow. CVE-2026-88156 involves Stack-based Buffer Overflow. CVE-2026-97749 involves Double Free. CVE-2026-70269 and CVE-2026-70300 are remote code execution vulnerabilities that affect Microsoft Office Word. CVE-2026-70269 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound; has a CVSS base score of 8.1. CVE-2026-70300 involves Untrusted Pointer Dereference; has a CVSS base score of 9.8. CVE-2026-83917 is an elevation of privilege vulnerability that affects Windows ALPC. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 7.0. CVE-2026-94510 is an elevation of privilege vulnerability that affects Microsoft Bookings. The shared weakness is Authorization Bypass Through User-Controlled Key. The vulnerability has a CVSS base score of 9.9. CVE-2026-96202 and CVE-2026-96943 are remote code execution vulnerabilities that affect Windows Raw Image Extension. The shared weakness is Heap-based Buffer Overflow. Each has a CVSS base score of 8.8. CVE-2026-96943 involves Integer Overflow or Wraparound. CVE-2026-96207 is an elevation of privilege vulnerability that affects Microsoft Partner Center. The shared weakness is Improper Certificate Validation. The vulnerability has a CVSS base score of 10.0. Microsoft considers exploitation of the following vulnerabilities unlikely. CVE-2026-69789 is a remote code execution vulnerability that affects Windows Reliable Multicast Transport Driver (RMCAST). The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 7.5. CVE-2026-88174 is a remote code execution vulnerability that affects Windows Deployment Services. The shared weakness is Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'). The vulnerability has a CVSS base score of 8.1. CVE-2026-88185 is a remote code execution vulnerability that affects Microsoft Office Word. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.1. Other critical vulnerabilities CVE-2026-69435 is an elevation of privilege vulnerability that affects Azure SRE Agent. The shared weakness is Server-Side Request Forgery (SSRF). The vulnerability has a CVSS base score of 9.6. CVE-2026-77900 is a remote code execution vulnerability that affects Azure App Service. The shared weakness is Missing Authentication for Critical Function. The vulnerability has a CVSS base score of 9.8. CVE-2026-83943 is an information disclosure vulnerability that affects Azure API Center. The vulnerability has a CVSS base score of 8.7. CVE-2026-83947 is a spoofing vulnerability that affects Azure Event Grid. The shared weakness is Missing Authorization. The vulnerability has a CVSS base score of 7.7. CVE-2026-88131 is a remote code execution vulnerability that affects Microsoft Dataverse. The shared weakness is Deserialization of Untrusted Data. The vulnerability has a CVSS base score of 9.8. Talos would also like to highlight the following \"important\" vulnerabilities as Microsoft has determined that their exploitation is \"more likely:\" CVE-2026-100214 : Microsoft Dynamics 365 Business Central Remote Code Execution Vulnerability CVE-2026-102217 : WebDAV Elevation of Privilege Vulnerability CVE-2026-69673 : Windows Update Elevation of Privilege Vulnerability CVE-2026-69718 : Windows Update Elevation of Privilege Vulnerability CVE-2026-69733 : Windows Update Elevation of Privilege Vulnerability CVE-2026-69783 : Windows Update Elevation of Privilege Vulnerability CVE-2026-69882 : Windows Update Elevation of Privilege Vulnerability CVE-2026-69923 : Windows AI Elevation of Privilege Vulnerability CVE-2026-69926 : Desktop Window Manager Elevation of Privilege Vulnerability CVE-2026-70054 : Windows NetBIOS Elevation of Privilege Vulnerability CVE-2026-70060 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70076 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70104 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70108 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70117 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70132 : Windows Portable Device File System Driver Elevation of Privilege Vulnerability CVE-2026-70144 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70156 : Microsoft Windows Search Component Elevation of Privilege Vulnerability CVE-2026-70218 : Windows StateRepository API Elevation of Privilege Vulnerability CVE-2026-70223 : Windows Console Driver Elevation of Privilege Vulnerability CVE-2026-70233 : Windows Common Log File System Driver Elevation of Privilege Vulnerability CVE-2026-70236 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70237 : Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability CVE-2026-70241 : Windows Kerberos Elevation of Privilege Vulnerability CVE-2026-70245 : Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability CVE-2026-70249 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70253 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70255 : Desktop Window Manager Elevation of Privilege Vulnerability CVE-2026-70271 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70273 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70286 : Windows Graphics Component Elevation of Privilege Vulnerability CVE-2026-70303 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-72955 : Windows Application Compatibility Cache Elevation of Privilege Vulnerability CVE-2026-81971 : Windows NTFS Elevation of Privilege Vulnerability CVE-2026-83505 : Windows Setup Files Cleanup Elevation of Privilege Vulnerability CVE-2026-83509 : Windows Setup Files Cleanup Elevation of Privilege Vulnerability CVE-2026-83510 : Windows Setup Files Cleanup Elevation of Privilege Vulnerability CVE-2026-83580 : Windows Client-Side Caching (CSC) Service Elevation of Privilege Vulnerability CVE-2026-83669 : Windows Error Reporting Elevation of Privilege Vulnerability CVE-2026-83699 : Windows Client-Side Caching (CSC) Service Elevation of Privilege Vulnerability CVE-2026-83704 : Microsoft Windows Search Component Elevation of Privilege Vulnerability CVE-2026-83717 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-83724 : Windows Management Instrumentation Elevation of Privilege Vulnerability CVE-2026-83732 : Win32k Elevation of Privilege Vulnerability CVE-2026-83735 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-83738 : Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability CVE-2026-83750 : Windows Error Reporting Elevation of Privilege Vulnerability CVE-2026-83761 : Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability CVE-2026-83763 : Windows Input System Elevation of Privilege Vulnerability CVE-2026-83768 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-83769 : Microsoft OpenSSH for Windows Elevation of Privilege Vulnerability CVE-2026-83793 : Windows Update Orchestrator Service Elevation of Privilege Vulnerability CVE-2026-83830 : Windows COM+ Event System Service Elevation of Privilege Vulnerability CVE-2026-83834 : Windows Kernel-Mode Drivers Elevation of Privilege Vulnerability CVE-2026-83840 : Windows Error Reporting Elevation of Privilege Vulnerability CVE-2026-83842 : Windows TCP/IP Elevation of Privilege Vulnerability CVE-2026-83848 : Windows COM+ Event System Service Elevation of Privilege Vulnerability CVE-2026-83867 : Windows Push Notifications Elevation of Privilege Vulnerability CVE-2026-83886 : Windows Update Orchestrator Service Elevation of Privilege Vulnerability CVE-2026-83896 : Windows Direct Composition Elevation of Privilege Vulnerability CVE-2026-83899 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-83902 : Windows Direct Composition Elevation of Privilege Vulnerability CVE-2026-83921 : Windows Search Service Elevation of Privilege Vulnerability CVE-2026-84014 : Windows Device Association Service Elevation of Privilege Vulnerability CVE-2026-85355 : Windows Common Log File System Driver Elevation of Privilege Vulnerability CVE-2026-85791 : Windows Encrypting File System (EFS) Elevation of Privilege Vulnerability CVE-2026-85802 : Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability CVE-2026-85804 : Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability CVE-2026-85832 : Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability CVE-2026-85843 : Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability CVE-2026-85848 : Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability CVE-2026-85849 : Windows AppX Deployment Service Elevation of Privilege Vulnerability CVE-2026-85850 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-85855 : Windows DWM Core Library Elevation of Privilege Vulnerability CVE-2026-85870 : Windows Common Log File System Driver Elevation of Privilege Vulnerability CVE-2026-85901 : Windows Graphics Component Elevation of Privilege Vulnerability CVE-2026-85908 : Windows Graphics Component Elevation of Privilege Vulnerability CVE-2026-85941 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-85945 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-88118 : Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability CVE-2026-88133 : Windows Portable Device Enumerator Service Elevation of Privilege Vulnerability CVE-2026-88147 : Windows Secure Socket Tunneling Protocol (SSTP) Elevation of Privilege Vulnerability CVE-2026-88152 : Windows Background Intelligent Transfer Service (BITS) Elevation of Privilege Vulnerability CVE-2026-88159 : Windows Background Intelligent Transfer Service (BITS) Remote Code Execution Vulnerability CVE-2026-88191 : Microsoft Windows Search Component Elevation of Privilege Vulnerability CVE-2026-96858 : Windows Security Account Manager Tampering Vulnerability CVE-2026-96911 : Microsoft Windows Search Component Elevation of Privilege Vulnerability CVE-2026-96929 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-96940 : Microsoft Exchange Server Elevation of Privilege Vulnerability CVE-2026-69452 : Windows Enterprise App Management Elevation of Privilege Vulnerability CVE-2026-69880 : Desktop Window Manager Elevation of Privilege Vulnerability CVE-2026-69918 : Windows Core Messaging Elevation of Privilege Vulnerability CVE-2026-70103 : Windows Error Reporting Elevation of Privilege Vulnerability CVE-2026-70106 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-70151 : Windows Direct Composition Elevation of Privilege Vulnerability CVE-2026-70176 : Windows Win32k Elevation of Privilege Vulnerability CVE-2026-70279 : Microsoft Exchange Server Spoofing Vulnerability CVE-2026-83785 : Windows COM+ Event System Service Elevation of Privilege Vulnerability CVE-2026-83927 : Windows Registry Elevation of Privilege Vulnerability CVE-2026-85884 : Windows Health and Optimized Experiences Service Elevation of Privilege Vulnerability CVE-2026-85902 : Windows Direct Composition Elevation of Privilege Vulnerability CVE-2026-85906 : Windows Direct Composition Elevation of Privilege Vulnerability CVE-2026-88093 : Desktop Window Manager Elevation of Privilege Vulnerability CVE-2026-96939 : Servicing Stack Updates Elevation of Privilege Vulnerability CVE-2026-97798 : Windows Error Reporting Service Elevation of Privilege Vulnerability CVE-2026-97799 : Windows Audio Service Elevation of Privilege Vulnerability CVE-2026-97800 : Windows Mobile Broadband Elevation of Privilege Vulnerability A complete list of all the other vulnerabilities Microsoft disclosed this month is available on its update page . In response to these vulnerability disclosures, Talos is releasing a new Snort ruleset that detects attempts to exploit some of them. Please note that additional rules may be released at a future date, and current rules are subject to change pending additional information. Cisco Secure Firewall customers should use the latest update to their ruleset by updating their SRU. Open-source Snort Subscriber Ruleset customers can stay up to date by downloading the latest rule pack available for purchase on Snort.org . Snort 2 rule coverage: 1:67210 - 1:67273, 1:67276 - 1:67279, 1:67282 - 1:67311, 1:67313 - 1:67316, 1:67319 - 1:67322 Snort 3 rule coverage: 1:301663 - 1:301694, 1:301696, 1:301702 - 1:301703, 1:301705 - 1:301706, 1:301709, 1:301711, 1:301717 - 1:301718",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-10-13T20:37:58+00:00"
-    },
-    {
       "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
       "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150083",
@@ -94,15 +137,37 @@
       "published": "2026-10-14T13:00:00+00:00"
     },
     {
-      "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
-      "url": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=188247",
-      "date": "Tue, 13 Oct 2026 22:00:04 +0000",
-      "detail": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .",
+      "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+      "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188095",
+      "date": "Wed, 14 Oct 2026 22:00:44 +0000",
+      "detail": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware. The post Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant appeared first on Unit 42 .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Unit 42",
-      "published": "2026-10-13T22:00:04+00:00"
+      "published": "2026-10-14T22:00:44+00:00"
+    },
+    {
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "date": "Wed, 14 Oct 2026 18:56:47 -0400",
+      "detail": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-14T22:56:47+00:00"
+    },
+    {
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "date": "Wed, 14 Oct 2026 15:41:43 -0400",
+      "detail": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-14T19:41:43+00:00"
     },
     {
       "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
@@ -136,28 +201,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-14T14:27:01+00:00"
-    },
-    {
-      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
-      "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-      "date": "Wed, 14 Oct 2026 10:00:10 -0400",
-      "detail": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-14T14:00:10+00:00"
-    },
-    {
-      "title": "Global takedown hits network behind 1 billion phishing messages",
-      "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
-      "date": "Wed, 14 Oct 2026 09:12:52 -0400",
-      "detail": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-14T13:12:52+00:00"
     },
     {
       "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
@@ -215,6 +258,17 @@
       "published": "2026-10-14T13:00:00+00:00"
     },
     {
+      "title": "P****y By payoutsking",
+      "url": "https://www.ransomlook.io//group/payoutsking",
+      "feed_id": "c5f35e48bcd066641198f10a1f2c1fa7dbfafe50acc87f74c550184792c5b376",
+      "date": "Wed, 14 Oct 2026 21:29:36 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-14T21:29:36+00:00"
+    },
+    {
       "title": "Taiwan Otsuka Pharmaceutical By eclipse",
       "url": "https://www.ransomlook.io//group/eclipse",
       "feed_id": "81ea23d128871c2de06e823087fa58470f4b4603548145a55e11f6eeed6ec732",
@@ -257,36 +311,14 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-14T18:28:12+00:00"
-    },
-    {
-      "title": "MOA Architecture By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "e98f90135cbcb2bafea6f46e2418ef56b9b2e70fc1bc10f149c7ad2f2f83838c",
-      "date": "Wed, 14 Oct 2026 17:28:18 GMT",
-      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-14T17:28:18+00:00"
-    },
-    {
-      "title": "Interior Technologies (N0n)",
-      "url": "https://cti.fyi/groups/N0n.html",
-      "feed_id": "88a8a290dd1e738ba66aaea8b1509164",
-      "date": "Wed, 14 Oct 2026 19:12:28 +0000",
-      "detail": "Intelligence Summary: A smart building and surveillance integration company based in California, USA. Threat Syndicate: N0n Claimed Victim: Interior Technologies Industry Sector: Technology Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-14 19:12:28.628614 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#interior-technologies Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-14T19:12:28+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 6,
+      "shown": 5,
       "undated": 0
     },
     {
@@ -306,8 +338,8 @@
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -355,7 +387,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 13,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
@@ -369,15 +401,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 23,
+      "recent": 22,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
