@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T14:34:45.706037+00:00",
+  "generated": "2026-10-14T19:30:19.380906+00:00",
   "hours": 24,
   "items": [
     {
@@ -61,17 +61,6 @@
       "published": "2026-10-14T02:00:03+00:00"
     },
     {
-      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33422",
-      "feed_id": "https://isc.sans.edu/diary/rss/33422",
-      "date": "Tue, 13 Oct 2026 19:25:52 GMT",
-      "detail": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today&#;x26;#;39;s patch Tuesday, and one is already exploited.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-13T19:25:52+00:00"
-    },
-    {
       "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
       "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
       "feed_id": "6acd295a9f3e8a0001f8e78b",
@@ -116,6 +105,28 @@
       "published": "2026-10-13T22:00:04+00:00"
     },
     {
+      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "date": "Wed, 14 Oct 2026 13:46:50 -0400",
+      "detail": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves while it investigates device tampering. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-14T17:46:50+00:00"
+    },
+    {
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "date": "Wed, 14 Oct 2026 13:29:14 -0400",
+      "detail": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-14T17:29:14+00:00"
+    },
+    {
       "title": "Microsoft fixes VPN issues caused by September Windows updates",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
       "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
@@ -149,26 +160,26 @@
       "published": "2026-10-14T13:12:52+00:00"
     },
     {
-      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
-      "date": "Wed, 14 Oct 2026 08:58:07 -0400",
-      "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+      "feed_id": "https://www.securityweek.com/?p=50025",
+      "date": "Wed, 14 Oct 2026 16:00:00 +0000",
+      "detail": "In Booz Allen\u2019s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-14T12:58:07+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-14T16:00:00+00:00"
     },
     {
-      "title": "Hirudo Android malware replaces banking apps to evade security checks",
-      "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-      "date": "Wed, 14 Oct 2026 07:41:20 -0400",
-      "detail": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
+      "feed_id": "https://www.securityweek.com/?p=50021",
+      "date": "Wed, 14 Oct 2026 15:15:15 +0000",
+      "detail": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-14T11:41:20+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-14T15:15:15+00:00"
     },
     {
       "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
@@ -204,92 +215,70 @@
       "published": "2026-10-14T13:00:00+00:00"
     },
     {
-      "title": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
-      "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
-      "feed_id": "https://www.securityweek.com/?p=50011",
-      "date": "Wed, 14 Oct 2026 10:55:21 +0000",
-      "detail": "Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location. The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-14T10:55:21+00:00"
+      "title": "Taiwan Otsuka Pharmaceutical By eclipse",
+      "url": "https://www.ransomlook.io//group/eclipse",
+      "feed_id": "81ea23d128871c2de06e823087fa58470f4b4603548145a55e11f6eeed6ec732",
+      "date": "Wed, 14 Oct 2026 19:25:43 GMT",
+      "detail": "Taiwan Otsuka Pharmaceutical was founded in 1974, with the philosophy of \"pursuing the health and well-being of people worldwide\". With the continuous efforts for the expansion and renewal of production equipment, pharmaceutical technology has continuously improved the quality. It has driven Taiwan's pharmaceutical industry to recognize the high-quality infusion containers. Taiwan Otsuka Pharmaceutical Factory was ranked as Grade A by the Department of Health in 1984. It was approved as a GMP pharmaceutical factory by the Department of Health and the Ministry of Economic Affairs of the Executive Yuan in 1986. It was approved as a PIC/S GMP pharmaceutical factory by the Department of Health of the Executive Yuan in 2010, and its products are exported to many countries in Asia, which proves that the quality has reached the high standard. Taiwan Otsuka Pharmaceutical also adheres to the business philosophy of \"Otsuka people\" and is committed to research and development. We will continue to strive for perfection and make unremitting efforts for the health of the people and the well-being of the society. At the same time, we hope that all sectors of society will continue to give us advice and guidance. We will also adhere to the spirit of \"honesty, creativity, and service\" to achieve our goals. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-14T19:25:43+00:00"
     },
     {
-      "title": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
-      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
-      "feed_id": "https://www.securityweek.com/?p=50004",
-      "date": "Wed, 14 Oct 2026 07:38:51 +0000",
-      "detail": "Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements. The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-14T07:38:51+00:00"
+      "title": "Oceania Digital Communications By kairos",
+      "url": "https://www.ransomlook.io//group/kairos",
+      "feed_id": "ec3e364abc0ccb2197f2d0643262586b18b3cc50b5305b6736d7237ac6c9f89d",
+      "date": "Wed, 14 Oct 2026 18:28:20 GMT",
+      "detail": "Oceania Digital Communications (ODC Ltd) is a managed IT services provider and business technology company based in Port Vila, Vanuatu Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-14T18:28:20+00:00"
     },
     {
-      "title": "Colorado Texas By nightspire",
-      "url": "https://www.ransomlook.io//group/nightspire",
-      "feed_id": "463a41a44e3f60df99150b925a09d68162dbde92c61ce765f52955a799479e1c",
-      "date": "Wed, 14 Oct 2026 12:32:20 GMT",
+      "title": "FINANCIAMENTO LTDA By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "1aeed39bfdc712f552f376b6a22abdd4fc310340678cb75140b17009ef588315",
+      "date": "Wed, 14 Oct 2026 18:28:17 GMT",
       "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T12:32:20+00:00"
+      "published": "2026-10-14T18:28:17+00:00"
     },
     {
-      "title": "***o* **s**e** Solutions By nightspire",
-      "url": "https://www.ransomlook.io//group/nightspire",
-      "feed_id": "6e6521a2036fdf2f360ffeea3551caf0197eb51a827f8e10a2ab728f49d7578a",
-      "date": "Wed, 14 Oct 2026 12:32:19 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Greggio Argento By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "e2186bfa955b176c6b9e1d6ce5dc5442d472ff680c6186c0d98ca205b605ad90",
+      "date": "Wed, 14 Oct 2026 18:28:12 GMT",
+      "detail": "Greggio Argento is a long-established Italian family business founded in 1948 in Sarmeola di Rubano (Padua). Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T12:32:19+00:00"
+      "published": "2026-10-14T18:28:12+00:00"
     },
     {
-      "title": "Lane Equipment By dragonforce",
-      "url": "https://www.ransomlook.io//group/dragonforce",
-      "feed_id": "ffad251de3e2e478bac7c454a15d4eb53f963c11a609270ff0682b9116f52e9e",
-      "date": "Wed, 14 Oct 2026 10:31:44 GMT",
-      "detail": "Lane Equipment Company has been a trusted food service partner in Texas since 1966, specializing in the sales, leasing, repairs, and parts for commercial kitche... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "MOA Architecture By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "e98f90135cbcb2bafea6f46e2418ef56b9b2e70fc1bc10f149c7ad2f2f83838c",
+      "date": "Wed, 14 Oct 2026 17:28:18 GMT",
+      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T10:31:44+00:00"
+      "published": "2026-10-14T17:28:18+00:00"
     },
     {
-      "title": "Bright Property Service By orova",
-      "url": "https://www.ransomlook.io//group/orova",
-      "feed_id": "ed2c6a5b077dcc03e21d4d555b63e74972edf262036d76f44cdcf0393515e19f",
-      "date": "Wed, 14 Oct 2026 09:33:04 GMT",
-      "detail": "We are managing strata/individual residential landed/apartment, commercial office building, mixed development and gated & guarded communities. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-14T09:33:04+00:00"
-    },
-    {
-      "title": "Orient Corporation By orova",
-      "url": "https://www.ransomlook.io//group/orova",
-      "feed_id": "f911f58d8ca29ee4ce47f4aa6720688cf568098c009ee250ffa3113638550dcf",
-      "date": "Wed, 14 Oct 2026 09:33:02 GMT",
-      "detail": "Orient stands as a global leader in fire suppression solutions, offering unparalleled expertise and innovative technologies. With a commitment to environmental sustainability and cutting-edge engineering. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-14T09:33:02+00:00"
-    },
-    {
-      "title": "Wright Constable & Skeen (qilin)",
-      "url": "https://cti.fyi/groups/qilin.html",
-      "feed_id": "e1a38376c1d1b8bc357a7d9cba9e6864",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "detail": "Threat Syndicate: qilin Claimed Victim: Wright Constable & Skeen Date Published: 2026-10-14 00:00:00 Date Updated (Revisited): 2026-10-14 14:04:51 Date Discovered: 2026-06-10 21:04:47.136643 Post URL: http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=87496ad5-3fa6-435b-8ab2-6a412010225d Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Interior Technologies (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "88a8a290dd1e738ba66aaea8b1509164",
+      "date": "Wed, 14 Oct 2026 19:12:28 +0000",
+      "detail": "Intelligence Summary: A smart building and surveillance integration company based in California, USA. Threat Syndicate: N0n Claimed Victim: Interior Technologies Industry Sector: Technology Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-14 19:12:28.628614 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#interior-technologies Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-10-14T00:00:00+00:00"
+      "published": "2026-10-14T19:12:28+00:00"
     }
   ],
   "sources": [
@@ -310,8 +299,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -366,7 +355,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 15,
+      "recent": 13,
       "shown": 5,
       "undated": 0
     },
@@ -380,7 +369,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 46,
+      "recent": 23,
       "shown": 5,
       "undated": 0
     },
