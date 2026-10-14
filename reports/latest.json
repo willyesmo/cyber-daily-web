@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T00:23:50.568351+00:00",
+  "generated": "2026-10-14T08:52:18.909428+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,6 +39,28 @@
       "published": "2026-10-13T00:00:00+00:00"
     },
     {
+      "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33420",
+      "feed_id": "https://isc.sans.edu/diary/rss/33420",
+      "date": "Wed, 14 Oct 2026 06:49:46 GMT",
+      "detail": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-14T06:49:46+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33424",
+      "feed_id": "https://isc.sans.edu/diary/rss/33424",
+      "date": "Wed, 14 Oct 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-14T02:00:03+00:00"
+    },
+    {
       "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
       "url": "https://isc.sans.edu/diary/rss/33422",
       "feed_id": "https://isc.sans.edu/diary/rss/33422",
@@ -48,17 +70,6 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-13T19:25:52+00:00"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33418",
-      "feed_id": "https://isc.sans.edu/diary/rss/33418",
-      "date": "Tue, 13 Oct 2026 02:00:02 GMT",
-      "detail": "",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-13T02:00:02+00:00"
     },
     {
       "title": "Microsoft Patch Tuesday for October 2026 \u2014 Snort rules and prominent vulnerabilities",
@@ -138,6 +149,50 @@
       "published": "2026-10-13T19:47:30+00:00"
     },
     {
+      "title": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
+      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
+      "feed_id": "https://www.securityweek.com/?p=50004",
+      "date": "Wed, 14 Oct 2026 07:38:51 +0000",
+      "detail": "Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements. The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-14T07:38:51+00:00"
+    },
+    {
+      "title": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+      "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+      "feed_id": "https://www.securityweek.com/?p=50002",
+      "date": "Wed, 14 Oct 2026 07:26:35 +0000",
+      "detail": "Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks. The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-14T07:26:35+00:00"
+    },
+    {
+      "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+      "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+      "feed_id": "https://www.securityweek.com/?p=50000",
+      "date": "Wed, 14 Oct 2026 07:16:12 +0000",
+      "detail": "The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild. The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-14T07:16:12+00:00"
+    },
+    {
+      "title": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
+      "url": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=49996",
+      "date": "Wed, 14 Oct 2026 06:12:10 +0000",
+      "detail": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system. The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-14T06:12:10+00:00"
+    },
+    {
       "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
       "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
       "feed_id": "https://www.securityweek.com/?p=49988",
@@ -149,48 +204,15 @@
       "published": "2026-10-13T23:07:00+00:00"
     },
     {
-      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
-      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
-      "feed_id": "https://www.securityweek.com/?p=49986",
-      "date": "Tue, 13 Oct 2026 18:43:43 +0000",
-      "detail": "CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. The post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-13T18:43:43+00:00"
-    },
-    {
-      "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
-      "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
-      "feed_id": "https://www.securityweek.com/?p=49984",
-      "date": "Tue, 13 Oct 2026 17:14:42 +0000",
-      "detail": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge. The post Adobe Patches 140 Vulnerabilities Across 10 Products appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-13T17:14:42+00:00"
-    },
-    {
-      "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
-      "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
-      "feed_id": "https://www.securityweek.com/?p=49976",
-      "date": "Tue, 13 Oct 2026 17:00:00 +0000",
-      "detail": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-13T17:00:00+00:00"
-    },
-    {
-      "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
-      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
-      "feed_id": "https://www.securityweek.com/?p=49960",
-      "date": "Tue, 13 Oct 2026 16:01:00 +0000",
-      "detail": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-13T16:01:00+00:00"
+      "title": "Company #65 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "f81d4e118792b09daf9139d8baed9df6a57080c1e0b29c4e149612c8aa3f1fc3",
+      "date": "Wed, 14 Oct 2026 01:16:52 GMT",
+      "detail": "packaging manufacturing (extrusion) \u00b7 Brazil Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-14T01:16:52+00:00"
     },
     {
       "title": "The Golden Legacy Financing By qilin",
@@ -235,17 +257,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-13T19:21:01+00:00"
-    },
-    {
-      "title": "Spectrum Arkitekter AB By wallstreet",
-      "url": "https://www.ransomlook.io//group/wallstreet",
-      "feed_id": "4ca2ca8be1f6bf9f91529229f7c678913e146ce0cc0dac7940b022923ce7c8f2",
-      "date": "Tue, 13 Oct 2026 19:21:00 GMT",
-      "detail": "Stockholm architecture and interior-design firm, with work including commercial properties, workplaces, hotels, property development, and product design. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-13T19:21:00+00:00"
     }
   ],
   "sources": [
@@ -266,8 +277,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
@@ -336,7 +347,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 49,
+      "recent": 47,
       "shown": 5,
       "undated": 0
     },
