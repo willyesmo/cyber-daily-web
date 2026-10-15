@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T04:54:19.157415+00:00",
+  "generated": "2026-10-15T11:45:33.430274+00:00",
   "hours": 24,
   "items": [
     {
@@ -97,17 +97,6 @@
       "published": "2026-10-15T01:10:57+00:00"
     },
     {
-      "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33420",
-      "feed_id": "https://isc.sans.edu/diary/rss/33420",
-      "date": "Wed, 14 Oct 2026 06:49:46 GMT",
-      "detail": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-14T06:49:46+00:00"
-    },
-    {
       "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
       "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
       "feed_id": "6acd295a9f3e8a0001f8e78b",
@@ -139,6 +128,28 @@
       "kind": "Research / advisory",
       "source": "Unit 42",
       "published": "2026-10-14T22:00:44+00:00"
+    },
+    {
+      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+      "date": "Thu, 15 Oct 2026 05:10:20 -0400",
+      "detail": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T09:10:20+00:00"
+    },
+    {
+      "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "date": "Thu, 15 Oct 2026 04:06:47 -0400",
+      "detail": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T08:06:47+00:00"
     },
     {
       "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
@@ -174,136 +185,136 @@
       "published": "2026-10-14T17:46:50+00:00"
     },
     {
-      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-      "date": "Wed, 14 Oct 2026 13:29:14 -0400",
-      "detail": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-14T17:29:14+00:00"
-    },
-    {
-      "title": "Microsoft fixes VPN issues caused by September Windows updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-      "date": "Wed, 14 Oct 2026 10:27:01 -0400",
-      "detail": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-14T14:27:01+00:00"
-    },
-    {
-      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
-      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
-      "feed_id": "https://www.securityweek.com/?p=50025",
-      "date": "Wed, 14 Oct 2026 16:00:00 +0000",
-      "detail": "In Booz Allen\u2019s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on SecurityWeek .",
+      "title": "",
+      "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
+      "feed_id": "https://www.securityweek.com/?p=50051",
+      "date": "Thu, 15 Oct 2026 11:25:58 +0000",
+      "detail": "Delivered via phishing, the malware provides reconnaissance, remote execution, and data exfiltration capabilities. The post CikaBika Bot RAT Uses Discord for C&C appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-14T16:00:00+00:00"
+      "published": "2026-10-15T11:25:58+00:00"
     },
     {
-      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
-      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
-      "feed_id": "https://www.securityweek.com/?p=50021",
-      "date": "Wed, 14 Oct 2026 15:15:15 +0000",
-      "detail": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek .",
+      "title": "Novel Android RAT \u2018Hirudo\u2019 Replaces Banking Apps With Trojanized Copies",
+      "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
+      "feed_id": "https://www.securityweek.com/?p=50046",
+      "date": "Thu, 15 Oct 2026 10:15:32 +0000",
+      "detail": "The Hirudo malware combines elements of a traditional banking trojan and a full-featured RAT. The post Novel Android RAT \u2018Hirudo\u2019 Replaces Banking Apps With Trojanized Copies appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-14T15:15:15+00:00"
+      "published": "2026-10-15T10:15:32+00:00"
     },
     {
-      "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
-      "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
-      "feed_id": "https://www.securityweek.com/?p=50018",
-      "date": "Wed, 14 Oct 2026 14:09:51 +0000",
-      "detail": "The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK. The post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek .",
+      "title": "CenterPoint Energy Data Breach Impacts 1 Million Texans",
+      "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+      "feed_id": "https://www.securityweek.com/?p=50044",
+      "date": "Thu, 15 Oct 2026 09:55:19 +0000",
+      "detail": "Personal information such as names, addresses, Social Security numbers, and driver\u2019s license numbers was compromised. The post CenterPoint Energy Data Breach Impacts 1 Million Texans appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-14T14:09:51+00:00"
+      "published": "2026-10-15T09:55:19+00:00"
     },
     {
-      "title": "Virtual Event Today: Zero Trust Strategies Summit",
-      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
-      "feed_id": "https://www.securityweek.com/?p=50013",
-      "date": "Wed, 14 Oct 2026 13:56:36 +0000",
-      "detail": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Virtual Event Today: Zero Trust Strategies Summit appeared first on SecurityWeek .",
+      "title": "CISO Conversations: James Robinson \u2013 Many Jobs, One Journey to Netskope CISO",
+      "url": "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
+      "feed_id": "https://www.securityweek.com/?p=50038",
+      "date": "Thu, 15 Oct 2026 08:26:40 +0000",
+      "detail": "James Robinson never planned a cybersecurity career \u2014 seven companies and one deputy CISO role later, he leads security at Netskope. The post CISO Conversations: James Robinson \u2013 Many Jobs, One Journey to Netskope CISO appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-14T13:56:36+00:00"
+      "published": "2026-10-15T08:26:40+00:00"
     },
     {
-      "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
-      "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
-      "feed_id": "https://www.securityweek.com/?p=50009",
-      "date": "Wed, 14 Oct 2026 13:00:00 +0000",
-      "detail": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man. The post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek .",
+      "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+      "feed_id": "https://www.securityweek.com/?p=50034",
+      "date": "Thu, 15 Oct 2026 06:59:54 +0000",
+      "detail": "The company says it\u2019s aware of limited exploitation against customers\u2019 firewalls, and it has made IoCs available. The post Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-14T13:00:00+00:00"
+      "published": "2026-10-15T06:59:54+00:00"
     },
     {
-      "title": "Company #67 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "0b92eba940e290fdbf8a1e12e9cc2a86dbe160d55b62f7fc602c26f94c422370",
-      "date": "Thu, 15 Oct 2026 04:15:25 GMT",
-      "detail": "FX liquidity and trading technology \u00b7 Netherlands Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "S*o**n* Public Schools By nightspire",
+      "url": "https://www.ransomlook.io//group/nightspire",
+      "feed_id": "8a100465128e0f210e0abad5669384eaa809064c26c89365fc66fd0268881a6d",
+      "date": "Thu, 15 Oct 2026 11:15:01 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-15T04:15:25+00:00"
+      "published": "2026-10-15T11:15:01+00:00"
     },
     {
-      "title": "Company #68 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "c6a0d85d21609e15fa19cf61b0f11793d47e8c98605100832e91353ff5f5a678",
-      "date": "Thu, 15 Oct 2026 04:15:24 GMT",
-      "detail": "manufacturing \u00b7 USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Amity University Dubai By black nevas",
+      "url": "https://www.ransomlook.io//group/black%20nevas",
+      "feed_id": "ba9c89e6df5fd93eb58d5aedc4aadcc36c14e4fbb295ef76c5009cfcc3995a9b",
+      "date": "Thu, 15 Oct 2026 10:18:04 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-15T04:15:24+00:00"
+      "published": "2026-10-15T10:18:04+00:00"
     },
     {
-      "title": "alera By iah647",
-      "url": "https://www.ransomlook.io//group/iah647",
-      "feed_id": "6ddfb916336ba6eddfbae78b6f0d51e0fa7f2eebec91384e1133c24a8e51a1e8",
-      "date": "Thu, 15 Oct 2026 04:14:53 GMT",
-      "detail": "status: public | hosting: preparing\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "MPI LTDA By emperador",
+      "url": "https://www.ransomlook.io//group/emperador",
+      "feed_id": "0f1ea2f1bd1ca2235e8ea7a2dc589febf9d6deb202c5c017afbe094d1d75318f",
+      "date": "Thu, 15 Oct 2026 08:34:00 GMT",
+      "detail": "Colombian asphalt company. The company has been operating in the field of asphalt materials since 1974. It produces ordinary bitumen, asphalt with polymer additives and asphalt modified with rubber crumb. The archives contain several thousand documents with personnel and customer data. Publication scheduled: 2026-10-29 08:34:00 UTC Size: 370.0 MB Sectors: Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-15T04:14:53+00:00"
+      "published": "2026-10-15T08:34:00+00:00"
     },
     {
-      "title": "Company #66 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "896014e2b3ea11f1bf30d8f5d7b53b4d5fbbefe448d1b9c782ca3733397cb360",
-      "date": "Thu, 15 Oct 2026 03:18:56 GMT",
-      "detail": "software quality assurance (tax and accounting software test \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Alma Center Servizi Medicali S.r.l. By space bears",
+      "url": "https://www.ransomlook.io//group/space%20bears",
+      "feed_id": "8bf9362e0c4fc330e320ade092397239fb48e0857ab6e8de6cec54364c5800e1",
+      "date": "Thu, 15 Oct 2026 08:16:05 GMT",
+      "detail": "Alma Center is a private multi-specialty diagnostic and outpatient medical center based in Mariglianella (province of Naples, Campania, Italy). Founded in 1984 by Dr. Emanuele Aliperti, it operates as a polispecialistico facility providing a broad range of diagnostic imaging, laboratory, and specialist services under both private and SSN (National Health Service) agreements. https://www.almacenter.it/ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-15T03:18:56+00:00"
+      "published": "2026-10-15T08:16:05+00:00"
     },
     {
-      "title": "Interior Technologies By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "1e22f043b5172b2e251f615081a09e68ef09a72dab0632183259bd9d7a0325b2",
-      "date": "Thu, 15 Oct 2026 00:34:12 GMT",
-      "detail": "smart building & surveillance integration (US) \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Holistic Health Group, Inc. (d/b/a Suncrafted) By space bears",
+      "url": "https://www.ransomlook.io//group/space%20bears",
+      "feed_id": "1e345ae21e5300a9da9a79266995caae692abe518cdb86cfa4632f8c9fc5e7dd",
+      "date": "Thu, 15 Oct 2026 06:15:26 GMT",
+      "detail": "A vertically integrated cannabis company based in Middleborough, Massachusetts.It grows, manufactures, and sells medical and adult-use products under the Suncrafted brand, with a focus on sunlight, solventless live rosin, and minimal waste.477 Wareham Street, Middleborough, MA https://suncraftedma.com/ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-15T00:34:12+00:00"
+      "published": "2026-10-15T06:15:26+00:00"
+    },
+    {
+      "title": "camden-living (iah6477)",
+      "url": "https://cti.fyi/groups/iah6477.html",
+      "feed_id": "c07e61fd76252d63e00bbef5116d444e",
+      "date": "Thu, 15 Oct 2026 11:10:04 +0000",
+      "detail": "Threat Syndicate: iah6477 Claimed Victim: camden-living Date Discovered: 2026-10-15 11:10:04.610584 Post URL: http://iah6477wcvisc45wl54u524fbrh4dnmtcctpg2fpe5epf3jbpkiwu4qd.onion/a/camden-living Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-15T11:10:04+00:00"
+    },
+    {
+      "title": "buckle (iah6477)",
+      "url": "https://cti.fyi/groups/iah6477.html",
+      "feed_id": "df46010737e5a1534984f52f058c9d18",
+      "date": "Thu, 15 Oct 2026 11:10:04 +0000",
+      "detail": "Threat Syndicate: iah6477 Claimed Victim: buckle Date Discovered: 2026-10-15 11:10:04.610584 Post URL: http://iah6477wcvisc45wl54u524fbrh4dnmtcctpg2fpe5epf3jbpkiwu4qd.onion/a/buckle Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-15T11:10:04+00:00"
     }
   ],
   "sources": [
@@ -324,8 +335,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -394,15 +405,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 26,
+      "recent": 28,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     }
   ]
