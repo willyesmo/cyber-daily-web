@@ -1,0 +1,376 @@
+{
+  "generated": "2026-10-15T17:11:56.323514+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-105134: Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105134",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component\u2019s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Ahsay",
+        "Producto": "AhsayCBS",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-76519: Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Cisco",
+        "Producto": "Secure Email Gateway",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-105133: Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105133",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component\u2019s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Ahsay",
+        "Producto": "AhsayCBS",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-0322: Palo Alto Networks PAN-OS Code Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0322",
+      "date": "2026-10-14",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Palo Alto Networks",
+        "Producto": "PAN-OS",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-17",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-14T00:00:00+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33428",
+      "feed_id": "https://isc.sans.edu/diary/rss/33428",
+      "date": "Thu, 15 Oct 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-15T02:00:03+00:00"
+    },
+    {
+      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33426",
+      "feed_id": "https://isc.sans.edu/diary/rss/33426",
+      "date": "Thu, 15 Oct 2026 01:10:57 GMT",
+      "detail": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-15T01:10:57+00:00"
+    },
+    {
+      "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+      "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188095",
+      "date": "Wed, 14 Oct 2026 22:00:44 +0000",
+      "detail": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware. The post Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-14T22:00:44+00:00"
+    },
+    {
+      "title": "Is AI pentesting as good as a human pentester?",
+      "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+      "date": "Thu, 15 Oct 2026 10:01:11 -0400",
+      "detail": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security testing. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T14:01:11+00:00"
+    },
+    {
+      "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+      "date": "Thu, 15 Oct 2026 09:18:36 -0400",
+      "detail": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T13:18:36+00:00"
+    },
+    {
+      "title": "Police arrests 95 suspects in international CSAM crackdown action",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+      "date": "Thu, 15 Oct 2026 07:55:38 -0400",
+      "detail": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online messaging groups. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T11:55:38+00:00"
+    },
+    {
+      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+      "date": "Thu, 15 Oct 2026 05:10:20 -0400",
+      "detail": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T09:10:20+00:00"
+    },
+    {
+      "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "date": "Thu, 15 Oct 2026 04:06:47 -0400",
+      "detail": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-15T08:06:47+00:00"
+    },
+    {
+      "title": "Watch Now: Zero Trust Strategies Summit \u2013 All Sessions Available on Demand",
+      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
+      "feed_id": "https://www.securityweek.com/?p=50013",
+      "date": "Thu, 15 Oct 2026 16:51:34 +0000",
+      "detail": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Watch Now: Zero Trust Strategies Summit \u2013 All Sessions Available on Demand appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-15T16:51:34+00:00"
+    },
+    {
+      "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
+      "url": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+      "feed_id": "https://www.securityweek.com/?p=50059",
+      "date": "Thu, 15 Oct 2026 14:22:34 +0000",
+      "detail": "Most of the data is related to applications, claims, and payments submitted between 2007 and 2025. The post UK Legal Aid Agency Hack Scope Widens After Forensic Review appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-15T14:22:34+00:00"
+    },
+    {
+      "title": "Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers",
+      "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+      "feed_id": "https://www.securityweek.com/?p=50055",
+      "date": "Thu, 15 Oct 2026 12:50:42 +0000",
+      "detail": "Roughly 700 French supermarkets were hit by the cyberattacks, for which no group has claimed responsibility. The post Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-15T12:50:42+00:00"
+    },
+    {
+      "title": "",
+      "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
+      "feed_id": "https://www.securityweek.com/?p=50051",
+      "date": "Thu, 15 Oct 2026 11:25:58 +0000",
+      "detail": "Delivered via phishing, the malware provides reconnaissance, remote execution, and data exfiltration capabilities. The post CikaBika Bot RAT Uses Discord for C&C appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-15T11:25:58+00:00"
+    },
+    {
+      "title": "Novel Android RAT \u2018Hirudo\u2019 Replaces Banking Apps With Trojanized Copies",
+      "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
+      "feed_id": "https://www.securityweek.com/?p=50046",
+      "date": "Thu, 15 Oct 2026 10:15:32 +0000",
+      "detail": "The Hirudo malware combines elements of a traditional banking trojan and a full-featured RAT. The post Novel Android RAT \u2018Hirudo\u2019 Replaces Banking Apps With Trojanized Copies appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-15T10:15:32+00:00"
+    },
+    {
+      "title": "KD Corp By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "3da09d18a178cc814362d8cba146d968ce6363f355395148f60f637a74d8b80b",
+      "date": "Thu, 15 Oct 2026 16:19:52 GMT",
+      "detail": "Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-15T16:19:52+00:00"
+    },
+    {
+      "title": "bienestarempresarial By 0x00",
+      "url": "https://www.ransomlook.io//group/0x00",
+      "feed_id": "88d969540a05346b5e066baac1978ef540d7e1530fa12e80399a1ad4273213d6",
+      "date": "Thu, 15 Oct 2026 16:16:39 GMT",
+      "detail": "bienestarempresarial.mx Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-15T16:16:39+00:00"
+    },
+    {
+      "title": "police.rajasthan.gov.in By scarlettgroup",
+      "url": "https://www.ransomlook.io//group/scarlettgroup",
+      "feed_id": "2813ab6dcd04a7fafd83b027f4b6a0d1d3f9b71269e55b258886f422679a7af8",
+      "date": "Thu, 15 Oct 2026 16:03:57 GMT",
+      "detail": "Rajasthan Police is the official law enforcement agency of Rajasthan, India, responsible for maintaining law and order, preventing crime, ensuring public safety, and protecting citizens across the state. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-15T16:03:57+00:00"
+    },
+    {
+      "title": "yalebooks.yale.edu By scarlettgroup",
+      "url": "https://www.ransomlook.io//group/scarlettgroup",
+      "feed_id": "891b1e4b6c240204a78b2d340253603086b29dfd02a308e62300b7d5321d785f",
+      "date": "Thu, 15 Oct 2026 16:02:54 GMT",
+      "detail": "Yale University Press\u2019s Yale Books website showcases and sells scholarly, academic, and general-interest books. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-15T16:02:54+00:00"
+    },
+    {
+      "title": "Cradlewise Inc. By the seven deadly sins",
+      "url": "https://www.ransomlook.io//group/the%20seven%20deadly%20sins",
+      "feed_id": "37a2c08a9d628092cdc387142b76877021fb44d5614fce39ab2bcfdb67a8027e",
+      "date": "Thu, 15 Oct 2026 15:35:45 GMT",
+      "detail": "cradlewise.com Company value $26M raised \u00b7 ~$14M/yr rev Rows exfiltrated 3.2M+ Affected 43K baby registries \u00b7 parent emails \u00b7 addresses \u00b7 IoT PEM keys \u00b7 Klaviyo/Shopify \u00b7 COPPA No contact \u00b7 72h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-15T15:35:45+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 4,
+      "shown": 4,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 38,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}
