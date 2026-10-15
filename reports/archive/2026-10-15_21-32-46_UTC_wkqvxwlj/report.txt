@@ -1,0 +1,194 @@
+CYBER DAILY — 2026-10-15 21:32 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+24 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-21589: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-15T00:00:00+00:00
+Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-21589
+Fabricante: Atlassian
+Producto: Multiple Products
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-18
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html?ref=labs.watchtowr.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21589
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589
+
+CVE-2026-105134: Ahsay AhsayCBS Command Injection Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-14T00:00:00+00:00
+Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-105133, CVE-2026-105134
+Fabricante: Ahsay
+Producto: AhsayCBS
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-17
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105134
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105134
+
+CVE-2026-76519: Cisco Secure Email Gateway Relative Path Traversal Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-14T00:00:00+00:00
+Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-76519
+Fabricante: Cisco
+Producto: Secure Email Gateway
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-17
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76519
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519
+
+CVE-2026-105133: Ahsay AhsayCBS Improper Authentication Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-14T00:00:00+00:00
+Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-105133, CVE-2026-105134
+Fabricante: Ahsay
+Producto: AhsayCBS
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-17
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105133
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105133
+
+CVE-2026-0322: Palo Alto Networks PAN-OS Code Injection Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-14T00:00:00+00:00
+Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-0322
+Fabricante: Palo Alto Networks
+Producto: PAN-OS
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-17
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0322
+
+ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)
+SANS Internet Storm Center | Research / advisory | 2026-10-15T02:00:03+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33428
+
+Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)
+SANS Internet Storm Center | Research / advisory | 2026-10-15T01:10:57+00:00
+[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33426
+
+The Q3 Vulnerability Pulse: Discovery ≠ Exploitation
+Cisco Talos | Research / advisory | 2026-10-15T18:00:00+00:00
+Welcome to this week’s edition of the Threat Source newsletter. I've been following a lot of (sometimes heated) threads and discussions lately about the current vulnerability landscape. I learned new words/phrases such as Summer of Hell (although I'm writing this with 1°C/34°F outside), Vulnpocalypse, Bugmageddon, Bugpocalypse, Breachpocalypse... Let's look at some numbers: We crossed the 70k mark, and it's only the end of September. This has never been seen before — I think we can agree this number is skyrocketing. Also, CVE numbering organically grew into the six-digit range. Check your tooling. Some might say we broke that barrier already in 2014 ( CVE-2014-125110 ), or even hit seven digits in 2015 ( CVE-2015-1000013 ), but those were allocated artificially. (History note: Before 2014, 9999 was the highest possible identifier.) So that could be seen as the apocalypse argument. On the other hand, we have the KEV numbers: They didn't explode... yet? Counting by sheer volume, YoY, CVEs increased by 105%, while KEV only grew 37%. Sounds huge at first, but following a 30% increase from 2024 to 2025, that's less dramatic — a counter-argument of sorts. CVEs from 2025 or older still account for 33%. In other words, a good third of the KEVs are suggesting there is a patch gap. Looking at the 2026 CVEs, the share where the publication date matches the date added to KEV is 29%, which is only 2% more than (all of) 2025. Acknowledging this "math" is not the whole ball of wax, but it still tells me we are not living in a zero-day apocalypse right now. There’s also a slight uptick in networking gear-related CVEs, to 27%. This is the second time I'll ask you to check your tooling. A new column, “forensicTriage,” was added to the KEV to flag which high-risk vulnerabilities require mandatory forensic triage and incident response workflows. You can read more about it in BOD 26-04 , or the Implementation Guidance . So where does that leave us? The CVE numbers alone — that +70k mark, now that Q3 is behind us — make a decent case for Vulnpocalypse, or whichever name you prefer. That part of the story is real. But discovery isn't exploitation, and that gap is exactly what the KEV numbers remind us of. Vendors seem to be keeping pace too, at least partially — KEV is growing, just not nearly at CVE's speed, which on its own would almost be good news. Where the story breaks down is on the practical side. More than a third of actively exploited vulnerabilities still trace back to 2025 or earlier. Patch debt doesn't care how many new apocalypse-themed hashtags we invent. So, panic? I still don't think so. Relax? Definitely not either. Somewhere between the two is where the real work sits — chipping away at that backlog, one legacy system at a time. Maybe by next quarter it'll feel less like Bugmageddon and more like business as usual. Or maybe I won't even need a warmer jacket for the upcoming "Winter of Hell." The one big thing Cisco Talos and Recorded Future’s Insikt Group are disclosing new espionage activity from UAT-6275 targeting government and critical infrastructure across the Commonwealth of Independent States (CIS). Thanks to the threat actor's own operational security lapses, researchers gained direct visibility into their infrastructure and malware development. We observed four distinct infection chains delivering custom reverse shells via macro-enabled documents, GitHub-hosted scripts, and a WinRAR vulnerability. Why do I care? Regional government and critical infrastructure entities are actively being targeted for diplomatic and economic intelligence. UAT-6275 is consistently evolving its tradecraft, abusing legitimate platforms like GitHub to host payloads and deploying lightweight reverse shells. Furthermore, recovered tooling suggests the group is preparing to expand its reach into Linux hosts and internet-facing appliances. So now what? Defenders in targeted regions and sectors should monitor for unexpected PowerShell activity and payload downloads originating from public services like GitHub. It is also critical to watch for suspicious scheduled tasks and unauthorized changes to the Windows Startup folder, which this group uses for persistence. Finally, ensure archive utilities are fully patched to prevent exploit-assisted delivery. ClamAV signatures and indicators of compromise (IOCs) to detect this threat can be found in the full blog post . Top security headlines of the week Hackers heat supermarket fridges to 50°C in France cyber attack The attack began overnight from Sunday to Monday. The unknown attackers reportedly abused the defrosting function in older control software, setting some equipment to heat continuously, with temperatures said to have reached 50°C. ( Hack Read ) Ivanti zero-day chain gave attackers root access to fully patched VPN CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. ( SecurityWeek ) U.S. arrests two in crackdown on North Korean IT worker laptop farms As part of the scheme, which allegedly ran between 2019 and July 2025, the two housed and configured laptops issued by victim U.S. companies so ITWs would appear to work from the U.S. ( SecurityWeek ) Canadian cybersecurity executive arrested in U.S. federal extortion case While the FBI did not publicly announce Dubrovsky’s arrest, the case appears to align with actions taken in the wake of the ShinyHunters’ attack on the FBI’s IT systems, which exposed personal data about thousands of bureau employees. ( CyberScoop ) Maximum-severity SSRF flaw in SonicWall SMA devices under attack The vulnerability, which SonicWall assigned a maximum 10 out of 10 CVSS score, stems from an "unintended alternate access path," according to the vendor's advisory. ( Dark Reading ) Can’t get enough Talos? You've got to lurk before you can smirk How do you get under a cybercriminal’s skin? Sometimes you expose their operations. Sometimes you make every step through a network painfully slow. And sometimes, if you’re Azim, you join a dark web forum where they’re insulting you, and help them to do it. Microsoft Patch Tuesday for October 2026 Microsoft has released its monthly security update for October 2026, which includes 1,415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical." One breach, please, and make no mistakes The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents. Upcoming events where you can find Talos VB (Oct. 14 – 16) Seville, Spain CAMLIS (Oct. 21 – 23) Arlington, VA SecurityOnion Conference (Oct. 23) Augusta, GA BsidesAugusta (Oct. 24) Augusta, GA SAINTCON (Oct. 26 – 30) Provo, UT CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 – 4) Hyderabad, India Black Hat Europe (Dec. 7 – 10) London, U.K. Most prevalent malware files from Talos telemetry over the past week SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 Example Filename: sample.exe Detection Name: W32.9F1F11A708-100.SBX.TG** SHA256: 73ac1bbfaee6c76c34f655ac0477a4cd930f2aa55e658c8e312ff81aac9a741f MD5: 63f3351cfdf618bec6045f60203e7978 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=73ac1bbfaee6c76c34f655ac0477a4cd930f2aa55e658c8e312ff81aac9a741f Example Filename: f_00478d.exe Detection Name: W32.PUP:PulseBrowser.29kh.in12.Talos SHA256: 58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 MD5: f1fe671bcefd4630e5ed8b87c9283534 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 Example Filename: KMSAuto Net.exe Detection Name: W32.58D6FEC4BA-95.SBX.TG SHA256: fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f MD5: 207d9d891ac756b2bfad88aba5682c65 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f Example Filename: sample.exe Detection Name: W32.FED979F93B-95.SBX.TG
+CVEs: CVE-2014-125110, CVE-2015-1000013, CVE-2026-104935
+https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/
+
+Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant
+Unit 42 | Research / advisory | 2026-10-14T22:00:44+00:00
+We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware. The post Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant appeared first on Unit 42 .
+CVEs: CVE-2024-47575
+https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/
+
+Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers
+BleepingComputer | Research / advisory | 2026-10-15T20:25:04+00:00
+Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]
+CVEs: CVE-2026-110447
+https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/
+
+Android gets AI defenses against messaging scams, fake calls
+BleepingComputer | Research / advisory | 2026-10-15T19:48:43+00:00
+Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/
+
+Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth
+BleepingComputer | Research / advisory | 2026-10-15T18:20:59+00:00
+A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/
+
+Fake Arch Linux packages push malware with root privileges
+BleepingComputer | Research / advisory | 2026-10-15T17:12:31+00:00
+A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/
+
+Is AI pentesting as good as a human pentester?
+BleepingComputer | Research / advisory | 2026-10-15T14:01:11+00:00
+AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security testing. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/
+
+Context Is King in the Fight Against Modern Cyberattacks
+SecurityWeek | Research / advisory | 2026-10-15T17:42:50+00:00
+Contextual defense helps security teams connect the signals, anticipate what comes next, and stop threats before they escalate. The post Context Is King in the Fight Against Modern Cyberattacks appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/
+
+Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand
+SecurityWeek | Research / advisory | 2026-10-15T16:51:34+00:00
+This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/
+
+UK Legal Aid Agency Hack Scope Widens After Forensic Review
+SecurityWeek | Research / advisory | 2026-10-15T14:22:34+00:00
+Most of the data is related to applications, claims, and payments submitted between 2007 and 2025. The post UK Legal Aid Agency Hack Scope Widens After Forensic Review appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/
+
+Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers
+SecurityWeek | Research / advisory | 2026-10-15T12:50:42+00:00
+Roughly 700 French supermarkets were hit by the cyberattacks, for which no group has claimed responsibility. The post Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/
+
+
+SecurityWeek | Research / advisory | 2026-10-15T11:25:58+00:00
+Delivered via phishing, the malware provides reconnaissance, remote execution, and data exfiltration capabilities. The post CikaBika Bot RAT Uses Discord for C&C appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/
+
+Segres Systec By qilin
+RansomLook | Ransomware claim / observation | 2026-10-15T18:16:30+00:00
+Office Products Retail & Distribution Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Shield Wall Systems of Florida By qilin
+RansomLook | Ransomware claim / observation | 2026-10-15T18:16:29+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+The Excalibur Group By qilin
+RansomLook | Ransomware claim / observation | 2026-10-15T18:16:28+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Company #70 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-15T18:16:25+00:00
+computer training academy · Egypt Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #73 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-15T18:16:24+00:00
+Semiconductor manufacturing · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=5; shown=5; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+Cisco Talos: OK; recent=1; shown=1; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=1; shown=1; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=10; shown=5; undated excluded=0
+SecurityWeek: OK; recent=10; shown=5; undated excluded=0
+RansomLook: OK; recent=46; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
