@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T23:59:16.645642+00:00",
+  "generated": "2026-10-15T04:54:19.157415+00:00",
   "hours": 24,
   "items": [
     {
@@ -75,22 +75,26 @@
       "published": "2026-10-14T00:00:00+00:00"
     },
     {
-      "title": "CVE-2026-104935: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935",
-      "date": "2026-10-13",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Ivanti",
-        "Producto": "Connect Secure",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-16",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-13T00:00:00+00:00"
+      "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33428",
+      "feed_id": "https://isc.sans.edu/diary/rss/33428",
+      "date": "Thu, 15 Oct 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-15T02:00:03+00:00"
+    },
+    {
+      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33426",
+      "feed_id": "https://isc.sans.edu/diary/rss/33426",
+      "date": "Thu, 15 Oct 2026 01:10:57 GMT",
+      "detail": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-15T01:10:57+00:00"
     },
     {
       "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
@@ -102,17 +106,6 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-14T06:49:46+00:00"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33424",
-      "feed_id": "https://isc.sans.edu/diary/rss/33424",
-      "date": "Wed, 14 Oct 2026 02:00:03 GMT",
-      "detail": "",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-14T02:00:03+00:00"
     },
     {
       "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
@@ -258,67 +251,67 @@
       "published": "2026-10-14T13:00:00+00:00"
     },
     {
-      "title": "P****y By payoutsking",
-      "url": "https://www.ransomlook.io//group/payoutsking",
-      "feed_id": "c5f35e48bcd066641198f10a1f2c1fa7dbfafe50acc87f74c550184792c5b376",
-      "date": "Wed, 14 Oct 2026 21:29:36 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #67 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "0b92eba940e290fdbf8a1e12e9cc2a86dbe160d55b62f7fc602c26f94c422370",
+      "date": "Thu, 15 Oct 2026 04:15:25 GMT",
+      "detail": "FX liquidity and trading technology \u00b7 Netherlands Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T21:29:36+00:00"
+      "published": "2026-10-15T04:15:25+00:00"
     },
     {
-      "title": "Taiwan Otsuka Pharmaceutical By eclipse",
-      "url": "https://www.ransomlook.io//group/eclipse",
-      "feed_id": "81ea23d128871c2de06e823087fa58470f4b4603548145a55e11f6eeed6ec732",
-      "date": "Wed, 14 Oct 2026 19:25:43 GMT",
-      "detail": "Taiwan Otsuka Pharmaceutical was founded in 1974, with the philosophy of \"pursuing the health and well-being of people worldwide\". With the continuous efforts for the expansion and renewal of production equipment, pharmaceutical technology has continuously improved the quality. It has driven Taiwan's pharmaceutical industry to recognize the high-quality infusion containers. Taiwan Otsuka Pharmaceutical Factory was ranked as Grade A by the Department of Health in 1984. It was approved as a GMP pharmaceutical factory by the Department of Health and the Ministry of Economic Affairs of the Executive Yuan in 1986. It was approved as a PIC/S GMP pharmaceutical factory by the Department of Health of the Executive Yuan in 2010, and its products are exported to many countries in Asia, which proves that the quality has reached the high standard. Taiwan Otsuka Pharmaceutical also adheres to the business philosophy of \"Otsuka people\" and is committed to research and development. We will continue to strive for perfection and make unremitting efforts for the health of the people and the well-being of the society. At the same time, we hope that all sectors of society will continue to give us advice and guidance. We will also adhere to the spirit of \"honesty, creativity, and service\" to achieve our goals. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #68 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "c6a0d85d21609e15fa19cf61b0f11793d47e8c98605100832e91353ff5f5a678",
+      "date": "Thu, 15 Oct 2026 04:15:24 GMT",
+      "detail": "manufacturing \u00b7 USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T19:25:43+00:00"
+      "published": "2026-10-15T04:15:24+00:00"
     },
     {
-      "title": "Oceania Digital Communications By kairos",
-      "url": "https://www.ransomlook.io//group/kairos",
-      "feed_id": "ec3e364abc0ccb2197f2d0643262586b18b3cc50b5305b6736d7237ac6c9f89d",
-      "date": "Wed, 14 Oct 2026 18:28:20 GMT",
-      "detail": "Oceania Digital Communications (ODC Ltd) is a managed IT services provider and business technology company based in Port Vila, Vanuatu Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "alera By iah647",
+      "url": "https://www.ransomlook.io//group/iah647",
+      "feed_id": "6ddfb916336ba6eddfbae78b6f0d51e0fa7f2eebec91384e1133c24a8e51a1e8",
+      "date": "Thu, 15 Oct 2026 04:14:53 GMT",
+      "detail": "status: public | hosting: preparing\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T18:28:20+00:00"
+      "published": "2026-10-15T04:14:53+00:00"
     },
     {
-      "title": "FINANCIAMENTO LTDA By inc ransom",
-      "url": "https://www.ransomlook.io//group/inc%20ransom",
-      "feed_id": "1aeed39bfdc712f552f376b6a22abdd4fc310340678cb75140b17009ef588315",
-      "date": "Wed, 14 Oct 2026 18:28:17 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #66 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "896014e2b3ea11f1bf30d8f5d7b53b4d5fbbefe448d1b9c782ca3733397cb360",
+      "date": "Thu, 15 Oct 2026 03:18:56 GMT",
+      "detail": "software quality assurance (tax and accounting software test \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T18:28:17+00:00"
+      "published": "2026-10-15T03:18:56+00:00"
     },
     {
-      "title": "Greggio Argento By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "e2186bfa955b176c6b9e1d6ce5dc5442d472ff680c6186c0d98ca205b605ad90",
-      "date": "Wed, 14 Oct 2026 18:28:12 GMT",
-      "detail": "Greggio Argento is a long-established Italian family business founded in 1948 in Sarmeola di Rubano (Padua). Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Interior Technologies By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "1e22f043b5172b2e251f615081a09e68ef09a72dab0632183259bd9d7a0325b2",
+      "date": "Thu, 15 Oct 2026 00:34:12 GMT",
+      "detail": "smart building & surveillance integration (US) \u00b7 California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-14T18:28:12+00:00"
+      "published": "2026-10-15T00:34:12+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 6,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
@@ -331,8 +324,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
@@ -401,7 +394,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 22,
+      "recent": 26,
       "shown": 5,
       "undated": 0
     },

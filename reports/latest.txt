@@ -1,4 +1,4 @@
-CYBER DAILY — 2026-10-14 23:59 UTC
+CYBER DAILY — 2026-10-15 04:54 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
 25 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
@@ -51,29 +51,23 @@ Uso conocido en ransomware: Unknown
 Notas de CISA: https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322
 https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0322
 
-CVE-2026-104935: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
-CISA KEV | Known exploitation / catalog addition | 2026-10-13T00:00:00+00:00
-Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
-CVEs: CVE-2026-104935
-Fabricante: Ivanti
-Producto: Connect Secure
-Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-Fecha límite indicada por CISA: 2026-10-16
-Uso conocido en ransomware: Unknown
-Notas de CISA: https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935
+ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)
+SANS Internet Storm Center | Research / advisory | 2026-10-15T02:00:03+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33428
+
+Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)
+SANS Internet Storm Center | Research / advisory | 2026-10-15T01:10:57+00:00
+[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33426
 
 Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)
 SANS Internet Storm Center | Research / advisory | 2026-10-14T06:49:46+00:00
 Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).
 CVEs: Not stated in feed
 https://isc.sans.edu/diary/rss/33420
-
-ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)
-SANS Internet Storm Center | Research / advisory | 2026-10-14T02:00:03+00:00
-No feed summary supplied. Open the original source for details.
-CVEs: Not stated in feed
-https://isc.sans.edu/diary/rss/33424
 
 Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations
 Cisco Talos | Research / advisory | 2026-10-14T14:00:00+00:00
@@ -153,40 +147,40 @@ Backed by a federal court order, Microsoft and Health-ISAC seized domains poweri
 CVEs: Not stated in feed
 https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/
 
-P****y By payoutsking
-RansomLook | Ransomware claim / observation | 2026-10-14T21:29:36+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #67 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-15T04:15:25+00:00
+FX liquidity and trading technology · Netherlands Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/payoutsking
+https://www.ransomlook.io//group/n0n
 
-Taiwan Otsuka Pharmaceutical By eclipse
-RansomLook | Ransomware claim / observation | 2026-10-14T19:25:43+00:00
-Taiwan Otsuka Pharmaceutical was founded in 1974, with the philosophy of "pursuing the health and well-being of people worldwide". With the continuous efforts for the expansion and renewal of production equipment, pharmaceutical technology has continuously improved the quality. It has driven Taiwan's pharmaceutical industry to recognize the high-quality infusion containers. Taiwan Otsuka Pharmaceutical Factory was ranked as Grade A by the Department of Health in 1984. It was approved as a GMP pharmaceutical factory by the Department of Health and the Ministry of Economic Affairs of the Executive Yuan in 1986. It was approved as a PIC/S GMP pharmaceutical factory by the Department of Health of the Executive Yuan in 2010, and its products are exported to many countries in Asia, which proves that the quality has reached the high standard. Taiwan Otsuka Pharmaceutical also adheres to the business philosophy of "Otsuka people" and is committed to research and development. We will continue to strive for perfection and make unremitting efforts for the health of the people and the well-being of the society. At the same time, we hope that all sectors of society will continue to give us advice and guidance. We will also adhere to the spirit of "honesty, creativity, and service" to achieve our goals. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #68 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-15T04:15:24+00:00
+manufacturing · USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/eclipse
+https://www.ransomlook.io//group/n0n
 
-Oceania Digital Communications By kairos
-RansomLook | Ransomware claim / observation | 2026-10-14T18:28:20+00:00
-Oceania Digital Communications (ODC Ltd) is a managed IT services provider and business technology company based in Port Vila, Vanuatu Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+alera By iah647
+RansomLook | Ransomware claim / observation | 2026-10-15T04:14:53+00:00
+status: public | hosting: preparing… Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/kairos
+https://www.ransomlook.io//group/iah647
 
-FINANCIAMENTO LTDA By inc ransom
-RansomLook | Ransomware claim / observation | 2026-10-14T18:28:17+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #66 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-15T03:18:56+00:00
+software quality assurance (tax and accounting software test · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/inc%20ransom
+https://www.ransomlook.io//group/n0n
 
-Greggio Argento By deadlock
-RansomLook | Ransomware claim / observation | 2026-10-14T18:28:12+00:00
-Greggio Argento is a long-established Italian family business founded in 1948 in Sarmeola di Rubano (Padua). Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Interior Technologies By n0n
+RansomLook | Ransomware claim / observation | 2026-10-15T00:34:12+00:00
+smart building & surveillance integration (US) · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/deadlock
+https://www.ransomlook.io//group/n0n
 
 SOURCE COVERAGE
-CISA KEV: OK; recent=6; shown=5; undated excluded=0
+CISA KEV: OK; recent=4; shown=4; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+SANS Internet Storm Center: OK; recent=3; shown=3; undated excluded=0
 Cisco Talos: OK; recent=1; shown=1; undated excluded=0
 Microsoft Security: OK; recent=1; shown=1; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
@@ -196,5 +190,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=10; shown=5; undated excluded=0
 SecurityWeek: OK; recent=10; shown=5; undated excluded=0
-RansomLook: OK; recent=22; shown=5; undated excluded=0
+RansomLook: OK; recent=26; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0
