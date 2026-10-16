@@ -1,7 +1,31 @@
-CYBER DAILY — 2026-10-16 16:47 UTC
+CYBER DAILY — 2026-10-16 21:24 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-26 entries selected. Feed excerpts, not full-article or AI analysis.
+24 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-16T00:00:00+00:00
+BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-102764
+Fabricante: BeyondTrust
+Producto: Remote Support
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-19
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764
+
+CVE-2025-61624: Fortinet Multiple Products Path Traversal Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-16T00:00:00+00:00
+FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2025-61624
+Fabricante: Fortinet
+Producto: Multiple Products
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-19
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624
 
 CVE-2026-21589: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability
 CISA KEV | Known exploitation / catalog addition | 2026-10-15T00:00:00+00:00
@@ -33,17 +57,35 @@ SANS Internet Storm Center | Research / advisory | 2026-10-15T23:03:42+00:00
 CVEs: Not stated in feed
 https://isc.sans.edu/diary/rss/33426
 
-The Q3 Vulnerability Pulse: Discovery ≠ Exploitation
-Cisco Talos | Research / advisory | 2026-10-15T18:00:00+00:00
-Welcome to this week’s edition of the Threat Source newsletter. I've been following a lot of (sometimes heated) threads and discussions lately about the current vulnerability landscape. I learned new words/phrases such as Summer of Hell (although I'm writing this with 1°C/34°F outside), Vulnpocalypse, Bugmageddon, Bugpocalypse, Breachpocalypse... Let's look at some numbers: We crossed the 70k mark, and it's only the end of September. This has never been seen before — I think we can agree this number is skyrocketing. Also, CVE numbering organically grew into the six-digit range. Check your tooling. Some might say we broke that barrier already in 2014 ( CVE-2014-125110 ), or even hit seven digits in 2015 ( CVE-2015-1000013 ), but those were allocated artificially. (History note: Before 2014, 9999 was the highest possible identifier.) So that could be seen as the apocalypse argument. On the other hand, we have the KEV numbers: They didn't explode... yet? Counting by sheer volume, YoY, CVEs increased by 105%, while KEV only grew 37%. Sounds huge at first, but following a 30% increase from 2024 to 2025, that's less dramatic — a counter-argument of sorts. CVEs from 2025 or older still account for 33%. In other words, a good third of the KEVs are suggesting there is a patch gap. Looking at the 2026 CVEs, the share where the publication date matches the date added to KEV is 29%, which is only 2% more than (all of) 2025. Acknowledging this "math" is not the whole ball of wax, but it still tells me we are not living in a zero-day apocalypse right now. There’s also a slight uptick in networking gear-related CVEs, to 27%. This is the second time I'll ask you to check your tooling. A new column, “forensicTriage,” was added to the KEV to flag which high-risk vulnerabilities require mandatory forensic triage and incident response workflows. You can read more about it in BOD 26-04 , or the Implementation Guidance . So where does that leave us? The CVE numbers alone — that +70k mark, now that Q3 is behind us — make a decent case for Vulnpocalypse, or whichever name you prefer. That part of the story is real. But discovery isn't exploitation, and that gap is exactly what the KEV numbers remind us of. Vendors seem to be keeping pace too, at least partially — KEV is growing, just not nearly at CVE's speed, which on its own would almost be good news. Where the story breaks down is on the practical side. More than a third of actively exploited vulnerabilities still trace back to 2025 or earlier. Patch debt doesn't care how many new apocalypse-themed hashtags we invent. So, panic? I still don't think so. Relax? Definitely not either. Somewhere between the two is where the real work sits — chipping away at that backlog, one legacy system at a time. Maybe by next quarter it'll feel less like Bugmageddon and more like business as usual. Or maybe I won't even need a warmer jacket for the upcoming "Winter of Hell." The one big thing Cisco Talos and Recorded Future’s Insikt Group are disclosing new espionage activity from UAT-6275 targeting government and critical infrastructure across the Commonwealth of Independent States (CIS). Thanks to the threat actor's own operational security lapses, researchers gained direct visibility into their infrastructure and malware development. We observed four distinct infection chains delivering custom reverse shells via macro-enabled documents, GitHub-hosted scripts, and a WinRAR vulnerability. Why do I care? Regional government and critical infrastructure entities are actively being targeted for diplomatic and economic intelligence. UAT-6275 is consistently evolving its tradecraft, abusing legitimate platforms like GitHub to host payloads and deploying lightweight reverse shells. Furthermore, recovered tooling suggests the group is preparing to expand its reach into Linux hosts and internet-facing appliances. So now what? Defenders in targeted regions and sectors should monitor for unexpected PowerShell activity and payload downloads originating from public services like GitHub. It is also critical to watch for suspicious scheduled tasks and unauthorized changes to the Windows Startup folder, which this group uses for persistence. Finally, ensure archive utilities are fully patched to prevent exploit-assisted delivery. ClamAV signatures and indicators of compromise (IOCs) to detect this threat can be found in the full blog post . Top security headlines of the week Hackers heat supermarket fridges to 50°C in France cyber attack The attack began overnight from Sunday to Monday. The unknown attackers reportedly abused the defrosting function in older control software, setting some equipment to heat continuously, with temperatures said to have reached 50°C. ( Hack Read ) Ivanti zero-day chain gave attackers root access to fully patched VPN CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. ( SecurityWeek ) U.S. arrests two in crackdown on North Korean IT worker laptop farms As part of the scheme, which allegedly ran between 2019 and July 2025, the two housed and configured laptops issued by victim U.S. companies so ITWs would appear to work from the U.S. ( SecurityWeek ) Canadian cybersecurity executive arrested in U.S. federal extortion case While the FBI did not publicly announce Dubrovsky’s arrest, the case appears to align with actions taken in the wake of the ShinyHunters’ attack on the FBI’s IT systems, which exposed personal data about thousands of bureau employees. ( CyberScoop ) Maximum-severity SSRF flaw in SonicWall SMA devices under attack The vulnerability, which SonicWall assigned a maximum 10 out of 10 CVSS score, stems from an "unintended alternate access path," according to the vendor's advisory. ( Dark Reading ) Can’t get enough Talos? You've got to lurk before you can smirk How do you get under a cybercriminal’s skin? Sometimes you expose their operations. Sometimes you make every step through a network painfully slow. And sometimes, if you’re Azim, you join a dark web forum where they’re insulting you, and help them to do it. Microsoft Patch Tuesday for October 2026 Microsoft has released its monthly security update for October 2026, which includes 1,415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical." One breach, please, and make no mistakes The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents. Upcoming events where you can find Talos VB (Oct. 14 – 16) Seville, Spain CAMLIS (Oct. 21 – 23) Arlington, VA SecurityOnion Conference (Oct. 23) Augusta, GA BsidesAugusta (Oct. 24) Augusta, GA SAINTCON (Oct. 26 – 30) Provo, UT CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 – 4) Hyderabad, India Black Hat Europe (Dec. 7 – 10) London, U.K. Most prevalent malware files from Talos telemetry over the past week SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 Example Filename: sample.exe Detection Name: W32.9F1F11A708-100.SBX.TG** SHA256: 73ac1bbfaee6c76c34f655ac0477a4cd930f2aa55e658c8e312ff81aac9a741f MD5: 63f3351cfdf618bec6045f60203e7978 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=73ac1bbfaee6c76c34f655ac0477a4cd930f2aa55e658c8e312ff81aac9a741f Example Filename: f_00478d.exe Detection Name: W32.PUP:PulseBrowser.29kh.in12.Talos SHA256: 58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 MD5: f1fe671bcefd4630e5ed8b87c9283534 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 Example Filename: KMSAuto Net.exe Detection Name: W32.58D6FEC4BA-95.SBX.TG SHA256: fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f MD5: 207d9d891ac756b2bfad88aba5682c65 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f Example Filename: sample.exe Detection Name: W32.FED979F93B-95.SBX.TG
-CVEs: CVE-2014-125110, CVE-2015-1000013, CVE-2026-104935
-https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/
+Managing open-weight model risk in enterprise deployments
+Microsoft Security | Research / advisory | 2026-10-16T16:00:00+00:00
+The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. Open-weight models are an important part of that landscape. They give enterprises access to model weights and greater flexibility to inspect, evaluate, modify, and run models within their own environments. While that flexibility can be valuable, it also affects how enterprises evaluate models, where they implement safeguards, and who is responsible for maintaining those safeguards over time. As enterprises choose which models to deploy, the relevant question is broader than whether a model is open-weight or closed-weight. Enterprises need to understand what they are using the model for, what could go wrong in that context, and what evidence and controls they need to manage risks. Today, Microsoft and NVIDIA are publishing Risk Management for Open-Weight Models in Enterprise , the first in a planned series of joint resources intended to help enterprises address those questions. The paper introduces a shared risk taxonomy and an approach to managing model risks grounded in established standards and frameworks, including International Organization for Standardization (ISO) standards and the National Institute of Standards and Technology (NIST) AI Risk Management Framework. The paper reflects a core idea: weight openness alone does not determine an AI system’s risk. Risk depends on the model, use case, deployment, and safeguards. Read the whitepaper: Risk Management for Open-Weight Models in Enterprise Understanding risk in the deployment context Open- and closed-weight models can share many of the same underlying risks, but how those risks materialize depends on the deployment. A model used to help an employee draft a document presents different considerations than the same model used in a customer-facing workflow, just as a standalone inference endpoint differs from a system connected to external data or tools. The architecture matters too. A risk may originate in the model, while the most effective control may sit in the inference environment, application, or surrounding operational processes. The joint guidance looks beyond the model label to factors including provenance, intended use, users, deployment conditions, and surrounding controls. This first paper focuses primarily on model-layer risks. Evaluating a model alone does not establish the safety of an agent or application: teams must also assess its permissions, data access, tools, runtime, and operational controls. Establishing a common language Managing these risks consistently also requires a common vocabulary across engineering, security, legal, safety, and business teams. The initial Microsoft and NVIDIA taxonomy organizes risks into five broad categories: Cybersecurity, Data Protection, Content, Human-AI Interaction, and Bias. It is not a policy or deployment checklist, but instead it should be used by enterprises to adapt it to their own systems, use cases, and risk criteria, then connect relevant risks to evaluations, mitigations, and accountable owners. Using evaluations as risk evidence Evaluations help turn the taxonomy into something enterprises can use. The paper maps evaluations to a selection of risks across the five categories, giving teams a way to start with a risk that matters for their deployment and identify evaluations that can produce relevant evidence about it. Microsoft Foundry helps enterprises assess quality, groundedness, and safety with built-in and custom evaluations and automated red teaming. Its configurable content-safety controls help detect and mitigate harmful inputs and outputs and prompt attacks. Teams should validate control availability for their model and deployment, including preview status, and combine these capabilities with application-specific testing, monitoring, and human oversight. Evaluations still need to be interpreted in the context of a particular deployment and the goal is to make it easier for teams to connect the risks they identify with useful evidence, while building a broader set of evaluation resources that can evolve alongside models, deployment patterns, and emerging risks. Microsoft and NVIDIA plan to use the joint repository to share additional evaluations and point to existing resources that can help enterprises assess specific risks. Accounting for changes in control and responsibility Open-weight access gives enterprises greater control over how a model is evaluated, modified, and deployed. Model access and deployment are separate choices: open-weight models can also be used through managed platforms. Responsibility for safeguards depends on the service and deployment configuration; enterprises that operate their own model deployments may take on controls otherwise provided by a managed service. Those safeguards can operate at different layers, and (depending on the risk) enterprises might use model changes, access controls, input and output filtering, monitoring, or human review. The important step is connecting each identified risk to controls that can effectively address it within the deployed system. Those decisions need to be revisited as models and deployments change. Building on this work Risk Management for Open-Weight Models in Enterprise focuses primarily on the model layer. Future work from Microsoft and NVIDIA is intended to extend this approach across the runtime, harness, and application layers, with additional technical guidance on evaluation and mitigation. We also expect the resources supporting this work to evolve as new models, evaluations, and deployment patterns emerge. The joint repository will provide a place to share additional evaluation resources, including contributions from the broader community. For enterprises deploying open-weight models today, the paper provides guidance they can begin applying to their own use cases. We encourage developers, security practitioners, researchers, and others working in this space to read the paper, explore the evaluations, and contribute evaluations that can help strengthen this shared body of work. Read the joint Microsoft-NVIDIA paper, Risk Management for Open-Weight Models in Enterprise . Explore the joint repository and technical resources . Risk Management for Open-Weight Models in Enterprise was developed jointly by Microsoft and NVIDIA, with Andrew Berkley and April Chen of Microsoft and Michael Boone, Eileen Long, and Arun Rao of NVIDIA leading the development and editing of the paper. Explore Microsoft Foundry evaluations and content-safety controls for implementation guidance. To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog .
+CVEs: Not stated in feed
+https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/
+
+Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
+Unit 42 | Research / advisory | 2026-10-16T17:47:54+00:00
+Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
+CVEs: Not stated in feed
+https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
 
 AI-Powered Espionage Campaign Targets Government Linux Infrastructure
 Unit 42 | Research / advisory | 2026-10-15T22:00:09+00:00
 Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .
 CVEs: Not stated in feed
 https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/
+
+Critical BlockStrap flaw lets hackers run code on Magento servers
+BleepingComputer | Research / advisory | 2026-10-16T20:00:59+00:00
+Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]
+CVEs: CVE-2026-103849
+https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/
+
+Targeted ads installed Candiru spyware in zero-click attacks
+BleepingComputer | Research / advisory | 2026-10-16T17:20:03+00:00
+Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/
 
 Employees using personal ChatGPT at work? Here's what IT admins need to do
 BleepingComputer | Research / advisory | 2026-10-16T13:50:59+00:00
@@ -62,18 +104,6 @@ BleepingComputer | Research / advisory | 2026-10-16T08:44:22+00:00
 Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/
-
-BAE Systems cyberattack disrupts US federal court operations
-BleepingComputer | Research / advisory | 2026-10-16T07:37:35+00:00
-The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/
-
-BeyondTrust patches zero-day exploited in attacks since August
-BleepingComputer | Research / advisory | 2026-10-16T06:18:08+00:00
-BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
 
 In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit
 SecurityWeek | Research / advisory | 2026-10-16T14:09:51+00:00
@@ -105,78 +135,48 @@ Successful exploitation of some of these issues could lead to remote code execut
 CVEs: Not stated in feed
 https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/
 
-Girl Scouts of Eastern Massachusetts By wallstreet
-RansomLook | Ransomware claim / observation | 2026-10-16T16:33:13+00:00
-Girl Scouts of Eastern Massachusetts, Inc. (GSEMA) is a 501(c)(3) nonprofit serving girls and young people across eastern Massachusetts. Its mission is to help girls build courage, confidence, and character so they can make the world a better place Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+ock.com.my By lockbit5
+RansomLook | Ransomware claim / observation | 2026-10-16T20:34:11+00:00
+OCK Group Berhad specializes in telco network services and infrastructure in Malaysia, offering solu... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/wallstreet
+https://www.ransomlook.io//group/lockbit5
 
-Macfarlan Capital Partners By pear
-RansomLook | Ransomware claim / observation | 2026-10-16T13:35:19+00:00
-Equity real estate investment sponsor that serves institutional investors, family offices, wealth management advisors, and high net worth individuals Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Kissei Shoji By everest
+RansomLook | Ransomware claim / observation | 2026-10-16T20:33:45+00:00
+0 posts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/pear
+https://www.ransomlook.io//group/everest
 
-Solar Communications International By pear
-RansomLook | Ransomware claim / observation | 2026-10-16T13:35:18+00:00
-Prominent supplier and developer of RFTransparent products that seamlessly integrate wireless infrastructure into various community settings Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Far West Contractors By deadlock
+RansomLook | Ransomware claim / observation | 2026-10-16T20:33:42+00:00
+Far West Contractors is a commercial construction company and general contractor headquartered in Placentia, California Founded in 2009, the company specializes in SCIF(Sensitive Compartmented Information Facilities) construction projects for high-security facilities, as well as tenant improvements in the aerospace and defense industry. Their well-known project partners and clients include Boeing, Jet Propulsion Laboratory (JPL), and Northrop Grumman Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/pear
+https://www.ransomlook.io//group/deadlock
 
-Caretaker Landscape and Tree Management By pear
-RansomLook | Ransomware claim / observation | 2026-10-16T13:35:17+00:00
-Full-service commercial landscape and development services such as pruning, fertilization, mowing, renovation, and aeration Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Adams Warehouse & Delivery, Inc. By aurora
+RansomLook | Ransomware claim / observation | 2026-10-16T19:33:22+00:00
+Adams Warehouse & Delivery, Inc. — a family-owned freight and logistics company operating 11 warehouse facilities in the Houston metro area since 1976. The dataset includes complete server backup mirrors from multiple drives (D:, E:, Data, Network Shares), capturing the company's entire digital footprint: Sage/Peachtree accounting system for 8 entities spanning FY2007–FY2025+, containing payroll, AR, AP, general ledger, and W-2 filing histories 52–72 Social Security Numbers with full identity packages (name, DOB, address, phone, emergency contacts, health insurance IDs) across 4 entities Domain administrator passwords saved in 4 RDP files, plus plaintext VPN credentials, WiFi passwords, and 18 database connections with blank passwords WDS source code — the company's custom warehouse distribution management system (VB6/.NET, multiple versions) 20+ years of customer data — rate cards, operations logs, and contact lists for 100+ warehouse customers including Honeywell, Hospira, Amway, and Kaiser Medical clinic employee data — South Main Medical Clinic's bookkeeping within the Sage system, including physician SSN 11 Outlook PST email archives (largest: 1.5 GB) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/pear
+https://www.ransomlook.io//group/aurora
 
-Via Credit Union By qilin
-RansomLook | Ransomware claim / observation | 2026-10-16T08:33:12+00:00
-Banking Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+AirQ By the gentlemen
+RansomLook | Ransomware claim / observation | 2026-10-16T19:24:32+00:00
+airq-ad.com AirQ UAE drone manufacturer founded in 2021 in Masdar City, Abu Dhabi, producing unmanned aerial systems fully in-house. It was started by Croatian entrepreneurs Dino Dedić as CEO and Igor Pongrac as CTO, who previously worked at Rimac Automobili, and has grown from 6 people to about 100 engineers. The flagship product is the Harara modular VTOL drone, carrying 6 kg of payload and flying up to 7 hours or 600 km in hybrid mode, with over 1000 test flights completed. Other products include the StingJet reusable jet target drone for air defense training and the world's first fully electric UAV launcher. The company is backed by Abu Dhabi institutions such as Tawazun Council and Masdar City Free Zone and runs real operations like medical blood sample delivery between hospitals. Its main strengths are full in-house composite production and dual defense plus commercial markets, while the main risks are its young age, ongoing aviation certification and dependence on UAE defense. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
-
-Minkon 🇩🇪 (bravox)
-CTI.fyi | Ransomware claim / observation | 2026-10-16T16:02:19+00:00
-Intelligence Summary: A German enterprise Minkon International with a reported $10 million valuation. Threat Syndicate: bravox Claimed Victim: Minkon 🇩🇪 Canonical Organization: Minkon International Target Domain: minkon-international.com Geographic Location: 🇩🇪 DE Date Discovered: 2026-10-16 16:02:19.805001 Post URL: http://bravoxxtrmqeeevhl7gdh2yzvlrjxajr66d33c7ozosrccx4cz7cepad.onion/blog/b52c5ad3-7db4-48e4-925c-44e04d6bac21 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/bravox.html
-
-Company #29 (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-16T15:07:44+00:00
-Threat Syndicate: N0n Claimed Victim: Company #29 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-29 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
-
-Company #71 (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-16T15:07:44+00:00
-Threat Syndicate: N0n Claimed Victim: Company #71 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-71 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
-
-Company #72 (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-16T15:07:44+00:00
-Threat Syndicate: N0n Claimed Victim: Company #72 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-72 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
-
-Company #76 (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-16T15:07:44+00:00
-Threat Syndicate: N0n Claimed Victim: Company #76 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-76 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
+https://www.ransomlook.io//group/the%20gentlemen
 
 SOURCE COVERAGE
-CISA KEV: OK; recent=1; shown=1; undated excluded=0
+CISA KEV: OK; recent=3; shown=3; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
 SANS Internet Storm Center: OK; recent=3; shown=3; undated excluded=0
-Cisco Talos: OK; recent=1; shown=1; undated excluded=0
-Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=1; shown=1; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
-Unit 42: OK; recent=1; shown=1; undated excluded=0
+Unit 42: OK; recent=2; shown=2; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=9; shown=5; undated excluded=0
-SecurityWeek: OK; recent=9; shown=5; undated excluded=0
-RansomLook: OK; recent=15; shown=5; undated excluded=0
-CTI.fyi: OK; recent=17; shown=5; undated excluded=0
+BleepingComputer: OK; recent=7; shown=5; undated excluded=0
+SecurityWeek: OK; recent=7; shown=5; undated excluded=0
+RansomLook: OK; recent=35; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
