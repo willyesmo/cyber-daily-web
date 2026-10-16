@@ -1,0 +1,399 @@
+{
+  "generated": "2026-10-16T16:47:57.930526+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-21589: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589",
+      "date": "2026-10-15",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Atlassian",
+        "Producto": "Multiple Products",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-18",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html?ref=labs.watchtowr.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-15T00:00:00+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33432",
+      "feed_id": "https://isc.sans.edu/diary/rss/33432",
+      "date": "Fri, 16 Oct 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-16T02:00:03+00:00"
+    },
+    {
+      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33430",
+      "feed_id": "https://isc.sans.edu/diary/rss/33430",
+      "date": "Fri, 16 Oct 2026 00:46:35 GMT",
+      "detail": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-16T00:46:35+00:00"
+    },
+    {
+      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33426",
+      "feed_id": "https://isc.sans.edu/diary/rss/33426",
+      "date": "Thu, 15 Oct 2026 23:03:42 GMT",
+      "detail": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-15T23:03:42+00:00"
+    },
+    {
+      "title": "The Q3 Vulnerability Pulse: Discovery \u2260 Exploitation",
+      "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+      "feed_id": "6acf92e9fe419600018062cc",
+      "date": "Thu, 15 Oct 2026 18:00:00 GMT",
+      "detail": "Welcome to this week\u2019s edition of the Threat Source newsletter. I've been following a lot of (sometimes heated) threads and discussions lately about the current vulnerability landscape. I learned new words/phrases such as Summer of Hell (although I'm writing this with 1\u00b0C/34\u00b0F outside), Vulnpocalypse, Bugmageddon, Bugpocalypse, Breachpocalypse... Let's look at some numbers: We crossed the 70k mark, and it's only the end of September. This has never been seen before \u2014 I think we can agree this number is skyrocketing. Also, CVE numbering organically grew into the six-digit range. Check your tooling. Some might say we broke that barrier already in 2014 ( CVE-2014-125110 ), or even hit seven digits in 2015 ( CVE-2015-1000013 ), but those were allocated artificially. (History note: Before 2014, 9999 was the highest possible identifier.) So that could be seen as the apocalypse argument. On the other hand, we have the KEV numbers: They didn't explode... yet? Counting by sheer volume, YoY, CVEs increased by 105%, while KEV only grew 37%. Sounds huge at first, but following a 30% increase from 2024 to 2025, that's less dramatic \u2014 a counter-argument of sorts. CVEs from 2025 or older still account for 33%. In other words, a good third of the KEVs are suggesting there is a patch gap. Looking at the 2026 CVEs, the share where the publication date matches the date added to KEV is 29%, which is only 2% more than (all of) 2025. Acknowledging this \"math\" is not the whole ball of wax, but it still tells me we are not living in a zero-day apocalypse right now. There\u2019s also a slight uptick in networking gear-related CVEs, to 27%. This is the second time I'll ask you to check your tooling. A new column, \u201cforensicTriage,\u201d was added to the KEV to flag which high-risk vulnerabilities require mandatory forensic triage and incident response workflows. You can read more about it in BOD 26-04 , or the Implementation Guidance . So where does that leave us? The CVE numbers alone \u2014 that +70k mark, now that Q3 is behind us \u2014 make a decent case for Vulnpocalypse, or whichever name you prefer. That part of the story is real. But discovery isn't exploitation, and that gap is exactly what the KEV numbers remind us of. Vendors seem to be keeping pace too, at least partially \u2014 KEV is growing, just not nearly at CVE's speed, which on its own would almost be good news. Where the story breaks down is on the practical side. More than a third of actively exploited vulnerabilities still trace back to 2025 or earlier. Patch debt doesn't care how many new apocalypse-themed hashtags we invent. So, panic? I still don't think so. Relax? Definitely not either. Somewhere between the two is where the real work sits \u2014 chipping away at that backlog, one legacy system at a time. Maybe by next quarter it'll feel less like Bugmageddon and more like business as usual. Or maybe I won't even need a warmer jacket for the upcoming \"Winter of Hell.\" The one big thing Cisco Talos and Recorded Future\u2019s Insikt Group are disclosing new espionage activity from UAT-6275 targeting government and critical infrastructure across the Commonwealth of Independent States (CIS). Thanks to the threat actor's own operational security lapses, researchers gained direct visibility into their infrastructure and malware development. We observed four distinct infection chains delivering custom reverse shells via macro-enabled documents, GitHub-hosted scripts, and a WinRAR vulnerability. Why do I care? Regional government and critical infrastructure entities are actively being targeted for diplomatic and economic intelligence. UAT-6275 is consistently evolving its tradecraft, abusing legitimate platforms like GitHub to host payloads and deploying lightweight reverse shells. Furthermore, recovered tooling suggests the group is preparing to expand its reach into Linux hosts and internet-facing appliances. So now what? Defenders in targeted regions and sectors should monitor for unexpected PowerShell activity and payload downloads originating from public services like GitHub. It is also critical to watch for suspicious scheduled tasks and unauthorized changes to the Windows Startup folder, which this group uses for persistence. Finally, ensure archive utilities are fully patched to prevent exploit-assisted delivery. ClamAV signatures and indicators of compromise (IOCs) to detect this threat can be found in the full blog post . Top security headlines of the week Hackers heat supermarket fridges to 50\u00b0C in France cyber attack The attack began overnight from Sunday to Monday. The unknown attackers reportedly abused the defrosting function in older control software, setting some equipment to heat continuously, with temperatures said to have reached 50\u00b0C. ( Hack Read ) Ivanti zero-day chain gave attackers root access to fully patched VPN CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. ( SecurityWeek ) U.S. arrests two in crackdown on North Korean IT worker laptop farms As part of the scheme, which allegedly ran between 2019 and July 2025, the two housed and configured laptops issued by victim U.S. companies so ITWs would appear to work from the U.S. ( SecurityWeek ) Canadian cybersecurity executive arrested in U.S. federal extortion case While the FBI did not publicly announce Dubrovsky\u2019s arrest, the case appears to align with actions taken in the wake of the ShinyHunters\u2019 attack on the FBI\u2019s IT systems, which exposed personal data about thousands of bureau employees. ( CyberScoop ) Maximum-severity SSRF flaw in SonicWall SMA devices under attack The vulnerability, which SonicWall assigned a maximum 10 out of 10 CVSS score, stems from an \"unintended alternate access path,\" according to the vendor's advisory. ( Dark Reading ) Can\u2019t get enough Talos? You've got to lurk before you can smirk How do you get under a cybercriminal\u2019s skin? Sometimes you expose their operations. Sometimes you make every step through a network painfully slow. And sometimes, if you\u2019re Azim, you join a dark web forum where they\u2019re insulting you, and help them to do it. Microsoft Patch Tuesday for October 2026 Microsoft has released its monthly security update for October 2026, which includes 1,415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\" One breach, please, and make no mistakes The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents. Upcoming events where you can find Talos VB (Oct. 14 \u2013 16) Seville, Spain CAMLIS (Oct. 21 \u2013 23) Arlington, VA SecurityOnion Conference (Oct. 23) Augusta, GA BsidesAugusta (Oct. 24) Augusta, GA SAINTCON (Oct. 26 \u2013 30) Provo, UT CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 \u2013 4) Hyderabad, India Black Hat Europe (Dec. 7 \u2013 10) London, U.K. Most prevalent malware files from Talos telemetry over the past week SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 Example Filename: sample.exe Detection Name: W32.9F1F11A708-100.SBX.TG** SHA256: 73ac1bbfaee6c76c34f655ac0477a4cd930f2aa55e658c8e312ff81aac9a741f MD5: 63f3351cfdf618bec6045f60203e7978 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=73ac1bbfaee6c76c34f655ac0477a4cd930f2aa55e658c8e312ff81aac9a741f Example Filename: f_00478d.exe Detection Name: W32.PUP:PulseBrowser.29kh.in12.Talos SHA256: 58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 MD5: f1fe671bcefd4630e5ed8b87c9283534 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 Example Filename: KMSAuto Net.exe Detection Name: W32.58D6FEC4BA-95.SBX.TG SHA256: fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f MD5: 207d9d891ac756b2bfad88aba5682c65 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f Example Filename: sample.exe Detection Name: W32.FED979F93B-95.SBX.TG",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-15T18:00:00+00:00"
+    },
+    {
+      "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+      "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188392",
+      "date": "Thu, 15 Oct 2026 22:00:09 +0000",
+      "detail": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-15T22:00:09+00:00"
+    },
+    {
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "date": "Fri, 16 Oct 2026 09:50:59 -0400",
+      "detail": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T13:50:59+00:00"
+    },
+    {
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "date": "Fri, 16 Oct 2026 08:01:29 -0400",
+      "detail": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T12:01:29+00:00"
+    },
+    {
+      "title": "Microsoft: October Windows update may break Smart App Control",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+      "date": "Fri, 16 Oct 2026 04:44:22 -0400",
+      "detail": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T08:44:22+00:00"
+    },
+    {
+      "title": "BAE Systems cyberattack disrupts US federal court operations",
+      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+      "date": "Fri, 16 Oct 2026 03:37:35 -0400",
+      "detail": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T07:37:35+00:00"
+    },
+    {
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "date": "Fri, 16 Oct 2026 02:18:08 -0400",
+      "detail": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T06:18:08+00:00"
+    },
+    {
+      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
+      "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
+      "feed_id": "https://www.securityweek.com/?p=50100",
+      "date": "Fri, 16 Oct 2026 14:09:51 +0000",
+      "detail": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-16T14:09:51+00:00"
+    },
+    {
+      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
+      "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+      "feed_id": "https://www.securityweek.com/?p=50089",
+      "date": "Fri, 16 Oct 2026 11:46:40 +0000",
+      "detail": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week. The post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-16T11:46:40+00:00"
+    },
+    {
+      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+      "feed_id": "https://www.securityweek.com/?p=50087",
+      "date": "Fri, 16 Oct 2026 10:53:22 +0000",
+      "detail": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts. The post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-16T10:53:22+00:00"
+    },
+    {
+      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
+      "feed_id": "https://www.securityweek.com/?p=50085",
+      "date": "Fri, 16 Oct 2026 10:32:11 +0000",
+      "detail": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger\u2019s wallet and left it out of its report. The post OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-16T10:32:11+00:00"
+    },
+    {
+      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50083",
+      "date": "Fri, 16 Oct 2026 09:54:34 +0000",
+      "detail": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover. The post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-16T09:54:34+00:00"
+    },
+    {
+      "title": "Girl Scouts of Eastern Massachusetts By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "596dd307c91d059258102f0166ef4b235b1ce9bf583bbdf856bf7d6413a2afe7",
+      "date": "Fri, 16 Oct 2026 16:33:13 GMT",
+      "detail": "Girl Scouts of Eastern Massachusetts, Inc. (GSEMA) is a 501(c)(3) nonprofit serving girls and young people across eastern Massachusetts. Its mission is to help girls build courage, confidence, and character so they can make the world a better place Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-16T16:33:13+00:00"
+    },
+    {
+      "title": "Macfarlan Capital Partners By pear",
+      "url": "https://www.ransomlook.io//group/pear",
+      "feed_id": "e2bb56ff3f83701ae51f2471aa0e88ace39646470fe27d732ebc3d61763fc9bc",
+      "date": "Fri, 16 Oct 2026 13:35:19 GMT",
+      "detail": "Equity real estate investment sponsor that serves institutional investors, family offices, wealth management advisors, and high net worth individuals Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-16T13:35:19+00:00"
+    },
+    {
+      "title": "Solar Communications International By pear",
+      "url": "https://www.ransomlook.io//group/pear",
+      "feed_id": "27853d723caf19e8adebca8366bc624bca7321ba2b00b5ec960a23c7ed7ab9d1",
+      "date": "Fri, 16 Oct 2026 13:35:18 GMT",
+      "detail": "Prominent supplier and developer of RFTransparent products that seamlessly integrate wireless infrastructure into various community settings Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-16T13:35:18+00:00"
+    },
+    {
+      "title": "Caretaker Landscape and Tree Management By pear",
+      "url": "https://www.ransomlook.io//group/pear",
+      "feed_id": "aa3d3a073ed3bd279c3731a8af68b5aea61baad7c7ceb4d08d8fa67540f4ee0f",
+      "date": "Fri, 16 Oct 2026 13:35:17 GMT",
+      "detail": "Full-service commercial landscape and development services such as pruning, fertilization, mowing, renovation, and aeration Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-16T13:35:17+00:00"
+    },
+    {
+      "title": "Via Credit Union By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "9c9340a5496a7bf94984ecea8541a92d64a31358bf631ec2972c9c86dac7c7ac",
+      "date": "Fri, 16 Oct 2026 08:33:12 GMT",
+      "detail": "Banking Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-16T08:33:12+00:00"
+    },
+    {
+      "title": "Minkon \ud83c\udde9\ud83c\uddea (bravox)",
+      "url": "https://cti.fyi/groups/bravox.html",
+      "feed_id": "9bbc9a7947152c0819d8d1d7eb6452eb",
+      "date": "Fri, 16 Oct 2026 16:02:19 +0000",
+      "detail": "Intelligence Summary: A German enterprise Minkon International with a reported $10 million valuation. Threat Syndicate: bravox Claimed Victim: Minkon \ud83c\udde9\ud83c\uddea Canonical Organization: Minkon International Target Domain: minkon-international.com Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-16 16:02:19.805001 Post URL: http://bravoxxtrmqeeevhl7gdh2yzvlrjxajr66d33c7ozosrccx4cz7cepad.onion/blog/b52c5ad3-7db4-48e4-925c-44e04d6bac21 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-16T16:02:19+00:00"
+    },
+    {
+      "title": "Company #29 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "79516d2ff89a5dcd8317f4a5ced02bcf",
+      "date": "Fri, 16 Oct 2026 15:07:44 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #29 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-29 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-16T15:07:44+00:00"
+    },
+    {
+      "title": "Company #71 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "dcaa2adc41b38d3deabf0e10b9a5a905",
+      "date": "Fri, 16 Oct 2026 15:07:44 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #71 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-71 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-16T15:07:44+00:00"
+    },
+    {
+      "title": "Company #72 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "0828f0b57180c7fa3204c0c652b25518",
+      "date": "Fri, 16 Oct 2026 15:07:44 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #72 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-72 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-16T15:07:44+00:00"
+    },
+    {
+      "title": "Company #76 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "75871b7220d833f507a5c5f96497fc65",
+      "date": "Fri, 16 Oct 2026 15:07:44 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #76 Date Discovered: 2026-10-16 15:07:44.128440 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-76 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-16T15:07:44+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 15,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 17,
+      "shown": 5,
+      "undated": 0
+    }
+  ]
+}
