@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-10-17 20:45 UTC
+CYBER DAILY — 2026-10-17 23:13 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-12 entries selected. Feed excerpts, not full-article or AI analysis.
+10 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
@@ -45,6 +45,12 @@ Israeli company Discover-Tech’s ads allow threat actors to fingerprint and tra
 CVEs: Not stated in feed
 https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/
 
+Decorolala - 500 Line Sample By byod
+RansomLook | Ransomware claim / observation | 2026-10-17T21:34:57+00:00
+Canaidan based home essentials, 60,544 customers, Home addresses + ZIP Code, longitude + latitude, Phone Numbers, Emails, First Name, Last Name, UPS Tracking Number & URL (includes photos of outside house), Total Price at Checkout, Device Used at Checkout, Prodcut ID ordered, Time ordered, you get the idea as we go along. Anyways, you know where to find us (contact tab). We will take you down when communication has been established between our team and yours. Reach out to us, first warning. | Updated on 2026-10-17 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/byod
+
 Company #86 By n0n
 RansomLook | Ransomware claim / observation | 2026-10-17T17:38:21+00:00
 real estate and land development · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
@@ -69,24 +75,6 @@ special-effects fog fluid manufacturer and distributor (orde · Tennessee, USA R
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Asia Market Ltd By majinahanashi
-RansomLook | Ransomware claim / observation | 2026-10-17T17:38:17+00:00
-PENDING Publication scheduled: 2026-10-20T07:14:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/majinahanashi
-
-Company #88 (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-17T20:06:02+00:00
-Threat Syndicate: N0n Claimed Victim: Company #88 Date Discovered: 2026-10-17 20:06:02.419304 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-88 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
-
-oakgrovetech (dragonforce)
-CTI.fyi | Ransomware claim / observation | 2026-10-17T20:03:11+00:00
-Intelligence Summary: A technology services company based in the United States. Threat Syndicate: dragonforce Claimed Victim: oakgrovetech Target Domain: www.oakgrovetech.com Industry Sector: Technology Geographic Location: 🇺🇸 US Date Discovered: 2026-10-17 20:03:11.944587 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#oakgrovetech Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/dragonforce.html
-
 SOURCE COVERAGE
 CISA KEV: OK; recent=2; shown=2; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
@@ -100,5 +88,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=2; shown=2; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=30; shown=5; undated excluded=0
-CTI.fyi: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=16; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
