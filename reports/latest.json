@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T21:24:59.869972+00:00",
+  "generated": "2026-10-17T04:42:14.773362+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,57 +39,6 @@
       "published": "2026-10-16T00:00:00+00:00"
     },
     {
-      "title": "CVE-2026-21589: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589",
-      "date": "2026-10-15",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Atlassian",
-        "Producto": "Multiple Products",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-18",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html?ref=labs.watchtowr.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-15T00:00:00+00:00"
-    },
-    {
-      "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33432",
-      "feed_id": "https://isc.sans.edu/diary/rss/33432",
-      "date": "Fri, 16 Oct 2026 02:00:03 GMT",
-      "detail": "",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-16T02:00:03+00:00"
-    },
-    {
-      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33430",
-      "feed_id": "https://isc.sans.edu/diary/rss/33430",
-      "date": "Fri, 16 Oct 2026 00:46:35 GMT",
-      "detail": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-16T00:46:35+00:00"
-    },
-    {
-      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33426",
-      "feed_id": "https://isc.sans.edu/diary/rss/33426",
-      "date": "Thu, 15 Oct 2026 23:03:42 GMT",
-      "detail": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-15T23:03:42+00:00"
-    },
-    {
       "title": "Managing open-weight model risk in enterprise deployments",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
       "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150082",
@@ -110,17 +59,6 @@
       "kind": "Research / advisory",
       "source": "Unit 42",
       "published": "2026-10-16T17:47:54+00:00"
-    },
-    {
-      "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-      "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=188392",
-      "date": "Thu, 15 Oct 2026 22:00:09 +0000",
-      "detail": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-10-15T22:00:09+00:00"
     },
     {
       "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -233,67 +171,67 @@
       "published": "2026-10-16T09:54:34+00:00"
     },
     {
-      "title": "ock.com.my By lockbit5",
-      "url": "https://www.ransomlook.io//group/lockbit5",
-      "feed_id": "b8de806731afe93d5d97e933fd75baa84508696319db664986258dd11f9cbbdb",
-      "date": "Fri, 16 Oct 2026 20:34:11 GMT",
-      "detail": "OCK Group Berhad specializes in telco network services and infrastructure in Malaysia, offering solu... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Minkon \ud83c\udde9\ud83c\uddea By bravox",
+      "url": "https://www.ransomlook.io//group/bravox",
+      "feed_id": "105f892b8b7122169f9a09b76fadaa07fd43da3408cde099cf6001355d595ebc",
+      "date": "Sat, 17 Oct 2026 03:29:25 GMT",
+      "detail": "Metallurgical Products and Engineering Solutions for Industry. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-16T20:34:11+00:00"
+      "published": "2026-10-17T03:29:25+00:00"
     },
     {
-      "title": "Kissei Shoji By everest",
-      "url": "https://www.ransomlook.io//group/everest",
-      "feed_id": "774cc45095c0d0f40132bf10b57750585b68535f42d9f244d6a6f10cc0847395",
-      "date": "Fri, 16 Oct 2026 20:33:45 GMT",
-      "detail": "0 posts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #83 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "868b8294c2ac477c175d3f93bf5d5cf62d1311daf0d687cf7464cae1cc43b2fa",
+      "date": "Sat, 17 Oct 2026 01:32:19 GMT",
+      "detail": "ERP software and hosting company \u00b7 USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-16T20:33:45+00:00"
+      "published": "2026-10-17T01:32:19+00:00"
     },
     {
-      "title": "Far West Contractors By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "e35345d7a4330908b9539a1017e859169fa391323d78de3958f58102a384b0ef",
-      "date": "Fri, 16 Oct 2026 20:33:42 GMT",
-      "detail": "Far West Contractors is a commercial construction company and general contractor headquartered in Placentia, California Founded in 2009, the company specializes in SCIF(Sensitive Compartmented Information Facilities) construction projects for high-security facilities, as well as tenant improvements in the aerospace and defense industry. Their well-known project partners and clients include Boeing, Jet Propulsion Laboratory (JPL), and Northrop Grumman Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Prafesta Ind. e Com. de Embalagens Ltda By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "07e90de50b30eea497a2ffdd5168d96e5e768fa7a68468516ee4361ba7e1b533",
+      "date": "Sat, 17 Oct 2026 01:32:18 GMT",
+      "detail": "packaging manufacturing (extrusion) \u00b7 Brazil Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-16T20:33:42+00:00"
+      "published": "2026-10-17T01:32:18+00:00"
     },
     {
-      "title": "Adams Warehouse & Delivery, Inc. By aurora",
-      "url": "https://www.ransomlook.io//group/aurora",
-      "feed_id": "4fd24deb3721e081696473dcad5f488d86303e738ecf3589c15f3a80c0258b12",
-      "date": "Fri, 16 Oct 2026 19:33:22 GMT",
-      "detail": "Adams Warehouse & Delivery, Inc. \u2014 a family-owned freight and logistics company operating 11 warehouse facilities in the Houston metro area since 1976. The dataset includes complete server backup mirrors from multiple drives (D:, E:, Data, Network Shares), capturing the company's entire digital footprint: Sage/Peachtree accounting system for 8 entities spanning FY2007\u2013FY2025+, containing payroll, AR, AP, general ledger, and W-2 filing histories 52\u201372 Social Security Numbers with full identity packages (name, DOB, address, phone, emergency contacts, health insurance IDs) across 4 entities Domain administrator passwords saved in 4 RDP files, plus plaintext VPN credentials, WiFi passwords, and 18 database connections with blank passwords WDS source code \u2014 the company's custom warehouse distribution management system (VB6/.NET, multiple versions) 20+ years of customer data \u2014 rate cards, operations logs, and contact lists for 100+ warehouse customers including Honeywell, Hospira, Amway, and Kaiser Medical clinic employee data \u2014 South Main Medical Clinic's bookkeeping within the Sage system, including physician SSN 11 Outlook PST email archives (largest: 1.5 GB) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "ONEOK, Inc. By redact",
+      "url": "https://www.ransomlook.io//group/redact",
+      "feed_id": "e2cfd72f1ce01bcf3819ead94cb646f17696113da4fc15e3b15b42cca3f01387",
+      "date": "Fri, 16 Oct 2026 22:30:33 GMT",
+      "detail": "Revenue: $39.4B USD | Sector: Oil & Gas Energy | Stock Ticker: NYSE:OKE | Data Size: 67.5 GB | Files: 45,426 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-16T19:33:22+00:00"
+      "published": "2026-10-16T22:30:33+00:00"
     },
     {
-      "title": "AirQ By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "e27d09bf9d5ac761ba2877df54860f24ba3381695431debd88b914f01c524737",
-      "date": "Fri, 16 Oct 2026 19:24:32 GMT",
-      "detail": "airq-ad.com AirQ UAE drone manufacturer founded in 2021 in Masdar City, Abu Dhabi, producing unmanned aerial systems fully in-house. It was started by Croatian entrepreneurs Dino Dedi\u0107 as CEO and Igor Pongrac as CTO, who previously worked at Rimac Automobili, and has grown from 6 people to about 100 engineers. The flagship product is the Harara modular VTOL drone, carrying 6 kg of payload and flying up to 7 hours or 600 km in hybrid mode, with over 1000 test flights completed. Other products include the StingJet reusable jet target drone for air defense training and the world's first fully electric UAV launcher. The company is backed by Abu Dhabi institutions such as Tawazun Council and Masdar City Free Zone and runs real operations like medical blood sample delivery between hospitals. Its main strengths are full in-house composite production and dual defense plus commercial markets, while the main risks are its young age, ongoing aviation certification and dependence on UAE defense. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #81 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "aaf107053ec9436afc12c35a8c5e298aa4b8e9f8ed9a5234e20bc7cdefbd0354",
+      "date": "Fri, 16 Oct 2026 21:35:04 GMT",
+      "detail": "automotive dealership group \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-16T19:24:32+00:00"
+      "published": "2026-10-16T21:35:04+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -306,8 +244,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -334,8 +272,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -376,7 +314,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 35,
+      "recent": 43,
       "shown": 5,
       "undated": 0
     },
