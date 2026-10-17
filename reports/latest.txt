@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-10-17 15:45 UTC
+CYBER DAILY — 2026-10-17 20:45 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-14 entries selected. Feed excerpts, not full-article or AI analysis.
+12 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
@@ -27,18 +27,6 @@ Uso conocido en ransomware: Unknown
 Notas de CISA: https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624
 https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624
 
-Managing open-weight model risk in enterprise deployments
-Microsoft Security | Research / advisory | 2026-10-16T16:00:00+00:00
-The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. Open-weight models are an important part of that landscape. They give enterprises access to model weights and greater flexibility to inspect, evaluate, modify, and run models within their own environments. While that flexibility can be valuable, it also affects how enterprises evaluate models, where they implement safeguards, and who is responsible for maintaining those safeguards over time. As enterprises choose which models to deploy, the relevant question is broader than whether a model is open-weight or closed-weight. Enterprises need to understand what they are using the model for, what could go wrong in that context, and what evidence and controls they need to manage risks. Today, Microsoft and NVIDIA are publishing Risk Management for Open-Weight Models in Enterprise , the first in a planned series of joint resources intended to help enterprises address those questions. The paper introduces a shared risk taxonomy and an approach to managing model risks grounded in established standards and frameworks, including International Organization for Standardization (ISO) standards and the National Institute of Standards and Technology (NIST) AI Risk Management Framework. The paper reflects a core idea: weight openness alone does not determine an AI system’s risk. Risk depends on the model, use case, deployment, and safeguards. Read the whitepaper: Risk Management for Open-Weight Models in Enterprise Understanding risk in the deployment context Open- and closed-weight models can share many of the same underlying risks, but how those risks materialize depends on the deployment. A model used to help an employee draft a document presents different considerations than the same model used in a customer-facing workflow, just as a standalone inference endpoint differs from a system connected to external data or tools. The architecture matters too. A risk may originate in the model, while the most effective control may sit in the inference environment, application, or surrounding operational processes. The joint guidance looks beyond the model label to factors including provenance, intended use, users, deployment conditions, and surrounding controls. This first paper focuses primarily on model-layer risks. Evaluating a model alone does not establish the safety of an agent or application: teams must also assess its permissions, data access, tools, runtime, and operational controls. Establishing a common language Managing these risks consistently also requires a common vocabulary across engineering, security, legal, safety, and business teams. The initial Microsoft and NVIDIA taxonomy organizes risks into five broad categories: Cybersecurity, Data Protection, Content, Human-AI Interaction, and Bias. It is not a policy or deployment checklist, but instead it should be used by enterprises to adapt it to their own systems, use cases, and risk criteria, then connect relevant risks to evaluations, mitigations, and accountable owners. Using evaluations as risk evidence Evaluations help turn the taxonomy into something enterprises can use. The paper maps evaluations to a selection of risks across the five categories, giving teams a way to start with a risk that matters for their deployment and identify evaluations that can produce relevant evidence about it. Microsoft Foundry helps enterprises assess quality, groundedness, and safety with built-in and custom evaluations and automated red teaming. Its configurable content-safety controls help detect and mitigate harmful inputs and outputs and prompt attacks. Teams should validate control availability for their model and deployment, including preview status, and combine these capabilities with application-specific testing, monitoring, and human oversight. Evaluations still need to be interpreted in the context of a particular deployment and the goal is to make it easier for teams to connect the risks they identify with useful evidence, while building a broader set of evaluation resources that can evolve alongside models, deployment patterns, and emerging risks. Microsoft and NVIDIA plan to use the joint repository to share additional evaluations and point to existing resources that can help enterprises assess specific risks. Accounting for changes in control and responsibility Open-weight access gives enterprises greater control over how a model is evaluated, modified, and deployed. Model access and deployment are separate choices: open-weight models can also be used through managed platforms. Responsibility for safeguards depends on the service and deployment configuration; enterprises that operate their own model deployments may take on controls otherwise provided by a managed service. Those safeguards can operate at different layers, and (depending on the risk) enterprises might use model changes, access controls, input and output filtering, monitoring, or human review. The important step is connecting each identified risk to controls that can effectively address it within the deployed system. Those decisions need to be revisited as models and deployments change. Building on this work Risk Management for Open-Weight Models in Enterprise focuses primarily on the model layer. Future work from Microsoft and NVIDIA is intended to extend this approach across the runtime, harness, and application layers, with additional technical guidance on evaluation and mitigation. We also expect the resources supporting this work to evolve as new models, evaluations, and deployment patterns emerge. The joint repository will provide a place to share additional evaluation resources, including contributions from the broader community. For enterprises deploying open-weight models today, the paper provides guidance they can begin applying to their own use cases. We encourage developers, security practitioners, researchers, and others working in this space to read the paper, explore the evaluations, and contribute evaluations that can help strengthen this shared body of work. Read the joint Microsoft-NVIDIA paper, Risk Management for Open-Weight Models in Enterprise . Explore the joint repository and technical resources . Risk Management for Open-Weight Models in Enterprise was developed jointly by Microsoft and NVIDIA, with Andrew Berkley and April Chen of Microsoft and Michael Boone, Eileen Long, and Arun Rao of NVIDIA leading the development and editing of the paper. Explore Microsoft Foundry evaluations and content-safety controls for implementation guidance. To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog .
-CVEs: Not stated in feed
-https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/
-
-Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
-Unit 42 | Research / advisory | 2026-10-16T17:47:54+00:00
-Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
-CVEs: Not stated in feed
-https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
-
 Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
 BleepingComputer | Research / advisory | 2026-10-17T15:18:51+00:00
 ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
@@ -51,66 +39,66 @@ Drupal has patched two critical vulnerabilities that could allow attackers to ex
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/
 
-Critical BlockStrap flaw lets hackers run code on Magento servers
-BleepingComputer | Research / advisory | 2026-10-16T20:00:59+00:00
-Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]
-CVEs: CVE-2026-103849
-https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/
-
-Targeted ads installed Candiru spyware in zero-click attacks
-BleepingComputer | Research / advisory | 2026-10-16T17:20:03+00:00
-Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/
-
 Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel
 SecurityWeek | Research / advisory | 2026-10-17T11:00:00+00:00
 Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .
 CVEs: Not stated in feed
 https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/
 
-Chugoku Bend By everest
-RansomLook | Ransomware claim / observation | 2026-10-17T06:31:34+00:00
-2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #86 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-17T17:38:21+00:00
+real estate and land development · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/everest
+https://www.ransomlook.io//group/n0n
 
-Taekwang Network By everest
-RansomLook | Ransomware claim / observation | 2026-10-17T06:31:33+00:00
-2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #85 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-17T17:38:20+00:00
+IT services · USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/everest
+https://www.ransomlook.io//group/n0n
 
-Brenner Base Tunnel By everest
-RansomLook | Ransomware claim / observation | 2026-10-17T06:31:33+00:00
-2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #84 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-17T17:38:19+00:00
+construction (custom homes) · USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/everest
+https://www.ransomlook.io//group/n0n
 
-WSBI-ESBG By play
-RansomLook | Ransomware claim / observation | 2026-10-17T05:30:48+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #82 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-17T17:38:18+00:00
+special-effects fog fluid manufacturer and distributor (orde · Tennessee, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/play
+https://www.ransomlook.io//group/n0n
 
-New Tec Tool Limited By play
-RansomLook | Ransomware claim / observation | 2026-10-17T05:30:47+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Asia Market Ltd By majinahanashi
+RansomLook | Ransomware claim / observation | 2026-10-17T17:38:17+00:00
+PENDING Publication scheduled: 2026-10-20T07:14:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/play
+https://www.ransomlook.io//group/majinahanashi
+
+Company #88 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-17T20:06:02+00:00
+Threat Syndicate: N0n Claimed Victim: Company #88 Date Discovered: 2026-10-17 20:06:02.419304 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-88 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/N0n.html
+
+oakgrovetech (dragonforce)
+CTI.fyi | Ransomware claim / observation | 2026-10-17T20:03:11+00:00
+Intelligence Summary: A technology services company based in the United States. Threat Syndicate: dragonforce Claimed Victim: oakgrovetech Target Domain: www.oakgrovetech.com Industry Sector: Technology Geographic Location: 🇺🇸 US Date Discovered: 2026-10-17 20:03:11.944587 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#oakgrovetech Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/dragonforce.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=2; shown=2; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
 SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0
-Microsoft Security: OK; recent=1; shown=1; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
-Unit 42: OK; recent=1; shown=1; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=4; shown=4; undated excluded=0
+BleepingComputer: OK; recent=2; shown=2; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=45; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=30; shown=5; undated excluded=0
+CTI.fyi: OK; recent=2; shown=2; undated excluded=0
