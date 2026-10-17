@@ -1,0 +1,274 @@
+{
+  "generated": "2026-10-17T15:45:11.131756+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764",
+      "date": "2026-10-16",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "BeyondTrust",
+        "Producto": "Remote Support",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-19",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-16T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2025-61624: Fortinet Multiple Products Path Traversal Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624",
+      "date": "2026-10-16",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Fortinet",
+        "Producto": "Multiple Products",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-19",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-16T00:00:00+00:00"
+    },
+    {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150082",
+      "date": "Fri, 16 Oct 2026 16:00:00 +0000",
+      "detail": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. Open-weight models are an important part of that landscape. They give enterprises access to model weights and greater flexibility to inspect, evaluate, modify, and run models within their own environments. While that flexibility can be valuable, it also affects how enterprises evaluate models, where they implement safeguards, and who is responsible for maintaining those safeguards over time. As enterprises choose which models to deploy, the relevant question is broader than whether a model is open-weight or closed-weight. Enterprises need to understand what they are using the model for, what could go wrong in that context, and what evidence and controls they need to manage risks. Today, Microsoft and NVIDIA are publishing Risk Management for Open-Weight Models in Enterprise , the first in a planned series of joint resources intended to help enterprises address those questions. The paper introduces a shared risk taxonomy and an approach to managing model risks grounded in established standards and frameworks, including International Organization for Standardization (ISO) standards and the National Institute of Standards and Technology (NIST) AI Risk Management Framework. The paper reflects a core idea: weight openness alone does not determine an AI system\u2019s risk. Risk depends on the model, use case, deployment, and safeguards. Read the whitepaper: Risk Management for Open-Weight Models in Enterprise Understanding risk in the deployment context Open- and closed-weight models can share many of the same underlying risks, but how those risks materialize depends on the deployment. A model used to help an employee draft a document presents different considerations than the same model used in a customer-facing workflow, just as a standalone inference endpoint differs from a system connected to external data or tools. The architecture matters too. A risk may originate in the model, while the most effective control may sit in the inference environment, application, or surrounding operational processes. The joint guidance looks beyond the model label to factors including provenance, intended use, users, deployment conditions, and surrounding controls. This first paper focuses primarily on model-layer risks. Evaluating a model alone does not establish the safety of an agent or application: teams must also assess its permissions, data access, tools, runtime, and operational controls. Establishing a common language Managing these risks consistently also requires a common vocabulary across engineering, security, legal, safety, and business teams. The initial Microsoft and NVIDIA taxonomy organizes risks into five broad categories: Cybersecurity, Data Protection, Content, Human-AI Interaction, and Bias. It is not a policy or deployment checklist, but instead it should be used by enterprises to adapt it to their own systems, use cases, and risk criteria, then connect relevant risks to evaluations, mitigations, and accountable owners. Using evaluations as risk evidence Evaluations help turn the taxonomy into something enterprises can use. The paper maps evaluations to a selection of risks across the five categories, giving teams a way to start with a risk that matters for their deployment and identify evaluations that can produce relevant evidence about it. Microsoft Foundry helps enterprises assess quality, groundedness, and safety with built-in and custom evaluations and automated red teaming. Its configurable content-safety controls help detect and mitigate harmful inputs and outputs and prompt attacks. Teams should validate control availability for their model and deployment, including preview status, and combine these capabilities with application-specific testing, monitoring, and human oversight. Evaluations still need to be interpreted in the context of a particular deployment and the goal is to make it easier for teams to connect the risks they identify with useful evidence, while building a broader set of evaluation resources that can evolve alongside models, deployment patterns, and emerging risks. Microsoft and NVIDIA plan to use the joint repository to share additional evaluations and point to existing resources that can help enterprises assess specific risks. Accounting for changes in control and responsibility Open-weight access gives enterprises greater control over how a model is evaluated, modified, and deployed. Model access and deployment are separate choices: open-weight models can also be used through managed platforms. Responsibility for safeguards depends on the service and deployment configuration; enterprises that operate their own model deployments may take on controls otherwise provided by a managed service. Those safeguards can operate at different layers, and (depending on the risk) enterprises might use model changes, access controls, input and output filtering, monitoring, or human review. The important step is connecting each identified risk to controls that can effectively address it within the deployed system. Those decisions need to be revisited as models and deployments change. Building on this work Risk Management for Open-Weight Models in Enterprise focuses primarily on the model layer. Future work from Microsoft and NVIDIA is intended to extend this approach across the runtime, harness, and application layers, with additional technical guidance on evaluation and mitigation. We also expect the resources supporting this work to evolve as new models, evaluations, and deployment patterns emerge. The joint repository will provide a place to share additional evaluation resources, including contributions from the broader community. For enterprises deploying open-weight models today, the paper provides guidance they can begin applying to their own use cases. We encourage developers, security practitioners, researchers, and others working in this space to read the paper, explore the evaluations, and contribute evaluations that can help strengthen this shared body of work. Read the joint Microsoft-NVIDIA paper, Risk Management for Open-Weight Models in Enterprise . Explore the joint repository and technical resources . Risk Management for Open-Weight Models in Enterprise was developed jointly by Microsoft and NVIDIA, with Andrew Berkley and April Chen of Microsoft and Michael Boone, Eileen Long, and Arun Rao of NVIDIA leading the development and editing of the paper. Explore Microsoft Foundry evaluations and content-safety controls for implementation guidance. To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Microsoft Security",
+      "published": "2026-10-16T16:00:00+00:00"
+    },
+    {
+      "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+      "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188674",
+      "date": "Fri, 16 Oct 2026 17:47:54 +0000",
+      "detail": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-16T17:47:54+00:00"
+    },
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "date": "Sat, 17 Oct 2026 11:18:51 -0400",
+      "detail": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-17T15:18:51+00:00"
+    },
+    {
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "date": "Sat, 17 Oct 2026 10:32:48 -0400",
+      "detail": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-17T14:32:48+00:00"
+    },
+    {
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "date": "Fri, 16 Oct 2026 16:00:59 -0400",
+      "detail": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T20:00:59+00:00"
+    },
+    {
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "date": "Fri, 16 Oct 2026 13:20:03 -0400",
+      "detail": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-16T17:20:03+00:00"
+    },
+    {
+      "title": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "feed_id": "https://www.securityweek.com/?p=50091",
+      "date": "Sat, 17 Oct 2026 11:00:00 +0000",
+      "detail": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-17T11:00:00+00:00"
+    },
+    {
+      "title": "Chugoku Bend By everest",
+      "url": "https://www.ransomlook.io//group/everest",
+      "feed_id": "d33dd9dea8aa6eb496cabc589f184fc2eae12f852f0a612ab1d34ba239ba1735",
+      "date": "Sat, 17 Oct 2026 06:31:34 GMT",
+      "detail": "2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T06:31:34+00:00"
+    },
+    {
+      "title": "Taekwang Network By everest",
+      "url": "https://www.ransomlook.io//group/everest",
+      "feed_id": "c3c4fa4c40aabf042a32f32cd933d1fa261d5e5b5a26ad5fb8c0c637f742cc13",
+      "date": "Sat, 17 Oct 2026 06:31:33 GMT",
+      "detail": "2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T06:31:33+00:00"
+    },
+    {
+      "title": "Brenner Base Tunnel By everest",
+      "url": "https://www.ransomlook.io//group/everest",
+      "feed_id": "5e0c333e82aae5889ff9c67da99b0ad91715b424d93cab0c751fb17162f24d4d",
+      "date": "Sat, 17 Oct 2026 06:31:33 GMT",
+      "detail": "2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T06:31:33+00:00"
+    },
+    {
+      "title": "WSBI-ESBG By play",
+      "url": "https://www.ransomlook.io//group/play",
+      "feed_id": "97833c7bd83b693e838aa543624b40156d6cd3a7996a9162fc9f6b33b3fb7aa0",
+      "date": "Sat, 17 Oct 2026 05:30:48 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T05:30:48+00:00"
+    },
+    {
+      "title": "New Tec Tool Limited By play",
+      "url": "https://www.ransomlook.io//group/play",
+      "feed_id": "f6110fd3e1e963335ab5137696143a189a013fd29c2cd35d8e39bc0a9dd3e827",
+      "date": "Sat, 17 Oct 2026 05:30:47 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T05:30:47+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 4,
+      "shown": 4,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 45,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

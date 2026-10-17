@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T10:58:54.148405+00:00",
+  "generated": "2026-10-17T15:45:11.131756+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,6 +39,17 @@
       "published": "2026-10-16T00:00:00+00:00"
     },
     {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150082",
+      "date": "Fri, 16 Oct 2026 16:00:00 +0000",
+      "detail": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. Open-weight models are an important part of that landscape. They give enterprises access to model weights and greater flexibility to inspect, evaluate, modify, and run models within their own environments. While that flexibility can be valuable, it also affects how enterprises evaluate models, where they implement safeguards, and who is responsible for maintaining those safeguards over time. As enterprises choose which models to deploy, the relevant question is broader than whether a model is open-weight or closed-weight. Enterprises need to understand what they are using the model for, what could go wrong in that context, and what evidence and controls they need to manage risks. Today, Microsoft and NVIDIA are publishing Risk Management for Open-Weight Models in Enterprise , the first in a planned series of joint resources intended to help enterprises address those questions. The paper introduces a shared risk taxonomy and an approach to managing model risks grounded in established standards and frameworks, including International Organization for Standardization (ISO) standards and the National Institute of Standards and Technology (NIST) AI Risk Management Framework. The paper reflects a core idea: weight openness alone does not determine an AI system\u2019s risk. Risk depends on the model, use case, deployment, and safeguards. Read the whitepaper: Risk Management for Open-Weight Models in Enterprise Understanding risk in the deployment context Open- and closed-weight models can share many of the same underlying risks, but how those risks materialize depends on the deployment. A model used to help an employee draft a document presents different considerations than the same model used in a customer-facing workflow, just as a standalone inference endpoint differs from a system connected to external data or tools. The architecture matters too. A risk may originate in the model, while the most effective control may sit in the inference environment, application, or surrounding operational processes. The joint guidance looks beyond the model label to factors including provenance, intended use, users, deployment conditions, and surrounding controls. This first paper focuses primarily on model-layer risks. Evaluating a model alone does not establish the safety of an agent or application: teams must also assess its permissions, data access, tools, runtime, and operational controls. Establishing a common language Managing these risks consistently also requires a common vocabulary across engineering, security, legal, safety, and business teams. The initial Microsoft and NVIDIA taxonomy organizes risks into five broad categories: Cybersecurity, Data Protection, Content, Human-AI Interaction, and Bias. It is not a policy or deployment checklist, but instead it should be used by enterprises to adapt it to their own systems, use cases, and risk criteria, then connect relevant risks to evaluations, mitigations, and accountable owners. Using evaluations as risk evidence Evaluations help turn the taxonomy into something enterprises can use. The paper maps evaluations to a selection of risks across the five categories, giving teams a way to start with a risk that matters for their deployment and identify evaluations that can produce relevant evidence about it. Microsoft Foundry helps enterprises assess quality, groundedness, and safety with built-in and custom evaluations and automated red teaming. Its configurable content-safety controls help detect and mitigate harmful inputs and outputs and prompt attacks. Teams should validate control availability for their model and deployment, including preview status, and combine these capabilities with application-specific testing, monitoring, and human oversight. Evaluations still need to be interpreted in the context of a particular deployment and the goal is to make it easier for teams to connect the risks they identify with useful evidence, while building a broader set of evaluation resources that can evolve alongside models, deployment patterns, and emerging risks. Microsoft and NVIDIA plan to use the joint repository to share additional evaluations and point to existing resources that can help enterprises assess specific risks. Accounting for changes in control and responsibility Open-weight access gives enterprises greater control over how a model is evaluated, modified, and deployed. Model access and deployment are separate choices: open-weight models can also be used through managed platforms. Responsibility for safeguards depends on the service and deployment configuration; enterprises that operate their own model deployments may take on controls otherwise provided by a managed service. Those safeguards can operate at different layers, and (depending on the risk) enterprises might use model changes, access controls, input and output filtering, monitoring, or human review. The important step is connecting each identified risk to controls that can effectively address it within the deployed system. Those decisions need to be revisited as models and deployments change. Building on this work Risk Management for Open-Weight Models in Enterprise focuses primarily on the model layer. Future work from Microsoft and NVIDIA is intended to extend this approach across the runtime, harness, and application layers, with additional technical guidance on evaluation and mitigation. We also expect the resources supporting this work to evolve as new models, evaluations, and deployment patterns emerge. The joint repository will provide a place to share additional evaluation resources, including contributions from the broader community. For enterprises deploying open-weight models today, the paper provides guidance they can begin applying to their own use cases. We encourage developers, security practitioners, researchers, and others working in this space to read the paper, explore the evaluations, and contribute evaluations that can help strengthen this shared body of work. Read the joint Microsoft-NVIDIA paper, Risk Management for Open-Weight Models in Enterprise . Explore the joint repository and technical resources . Risk Management for Open-Weight Models in Enterprise was developed jointly by Microsoft and NVIDIA, with Andrew Berkley and April Chen of Microsoft and Michael Boone, Eileen Long, and Arun Rao of NVIDIA leading the development and editing of the paper. Explore Microsoft Foundry evaluations and content-safety controls for implementation guidance. To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Microsoft Security",
+      "published": "2026-10-16T16:00:00+00:00"
+    },
+    {
       "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
       "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
       "feed_id": "https://unit42.paloaltonetworks.com/?p=188674",
@@ -48,6 +59,28 @@
       "kind": "Research / advisory",
       "source": "Unit 42",
       "published": "2026-10-16T17:47:54+00:00"
+    },
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "date": "Sat, 17 Oct 2026 11:18:51 -0400",
+      "detail": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-17T15:18:51+00:00"
+    },
+    {
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "date": "Sat, 17 Oct 2026 10:32:48 -0400",
+      "detail": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-17T14:32:48+00:00"
     },
     {
       "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -72,48 +105,15 @@
       "published": "2026-10-16T17:20:03+00:00"
     },
     {
-      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
-      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-      "date": "Fri, 16 Oct 2026 09:50:59 -0400",
-      "detail": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-16T13:50:59+00:00"
-    },
-    {
-      "title": "Burger King Japan data breach exposes 11 million customer records",
-      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-      "date": "Fri, 16 Oct 2026 08:01:29 -0400",
-      "detail": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-16T12:01:29+00:00"
-    },
-    {
-      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
-      "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
-      "feed_id": "https://www.securityweek.com/?p=50100",
-      "date": "Fri, 16 Oct 2026 14:09:51 +0000",
-      "detail": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit appeared first on SecurityWeek .",
+      "title": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "feed_id": "https://www.securityweek.com/?p=50091",
+      "date": "Sat, 17 Oct 2026 11:00:00 +0000",
+      "detail": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-16T14:09:51+00:00"
-    },
-    {
-      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
-      "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
-      "feed_id": "https://www.securityweek.com/?p=50089",
-      "date": "Fri, 16 Oct 2026 11:46:40 +0000",
-      "detail": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week. The post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-16T11:46:40+00:00"
+      "published": "2026-10-17T11:00:00+00:00"
     },
     {
       "title": "Chugoku Bend By everest",
@@ -203,8 +203,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -252,14 +252,14 @@
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 50,
+      "recent": 45,
       "shown": 5,
       "undated": 0
     },
