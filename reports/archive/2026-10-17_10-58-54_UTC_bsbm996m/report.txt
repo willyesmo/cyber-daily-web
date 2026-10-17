@@ -1,0 +1,116 @@
+CYBER DAILY — 2026-10-17 10:58 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+14 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-16T00:00:00+00:00
+BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-102764
+Fabricante: BeyondTrust
+Producto: Remote Support
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-19
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764
+
+CVE-2025-61624: Fortinet Multiple Products Path Traversal Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-16T00:00:00+00:00
+FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2025-61624
+Fabricante: Fortinet
+Producto: Multiple Products
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-19
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624
+
+Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
+Unit 42 | Research / advisory | 2026-10-16T17:47:54+00:00
+Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
+CVEs: Not stated in feed
+https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
+
+Critical BlockStrap flaw lets hackers run code on Magento servers
+BleepingComputer | Research / advisory | 2026-10-16T20:00:59+00:00
+Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]
+CVEs: CVE-2026-103849
+https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/
+
+Targeted ads installed Candiru spyware in zero-click attacks
+BleepingComputer | Research / advisory | 2026-10-16T17:20:03+00:00
+Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/
+
+Employees using personal ChatGPT at work? Here's what IT admins need to do
+BleepingComputer | Research / advisory | 2026-10-16T13:50:59+00:00
+Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/
+
+Burger King Japan data breach exposes 11 million customer records
+BleepingComputer | Research / advisory | 2026-10-16T12:01:29+00:00
+Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
+
+In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit
+SecurityWeek | Research / advisory | 2026-10-16T14:09:51+00:00
+Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/
+
+BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts
+SecurityWeek | Research / advisory | 2026-10-16T11:46:40+00:00
+A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week. The post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/
+
+Chugoku Bend By everest
+RansomLook | Ransomware claim / observation | 2026-10-17T06:31:34+00:00
+2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/everest
+
+Taekwang Network By everest
+RansomLook | Ransomware claim / observation | 2026-10-17T06:31:33+00:00
+2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/everest
+
+Brenner Base Tunnel By everest
+RansomLook | Ransomware claim / observation | 2026-10-17T06:31:33+00:00
+2 posts - 2h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/everest
+
+WSBI-ESBG By play
+RansomLook | Ransomware claim / observation | 2026-10-17T05:30:48+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/play
+
+New Tec Tool Limited By play
+RansomLook | Ransomware claim / observation | 2026-10-17T05:30:47+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/play
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=2; shown=2; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=1; shown=1; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=4; shown=4; undated excluded=0
+SecurityWeek: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=50; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
