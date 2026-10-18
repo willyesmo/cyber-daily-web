@@ -1,31 +1,7 @@
-CYBER DAILY — 2026-10-17 23:13 UTC
+CYBER DAILY — 2026-10-18 04:48 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-10 entries selected. Feed excerpts, not full-article or AI analysis.
+8 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
-
-CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
-CISA KEV | Known exploitation / catalog addition | 2026-10-16T00:00:00+00:00
-BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
-CVEs: CVE-2026-102764
-Fabricante: BeyondTrust
-Producto: Remote Support
-Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-Fecha límite indicada por CISA: 2026-10-19
-Uso conocido en ransomware: Unknown
-Notas de CISA: https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764
-
-CVE-2025-61624: Fortinet Multiple Products Path Traversal Vulnerability
-CISA KEV | Known exploitation / catalog addition | 2026-10-16T00:00:00+00:00
-FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
-CVEs: CVE-2025-61624
-Fabricante: Fortinet
-Producto: Multiple Products
-Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-Fecha límite indicada por CISA: 2026-10-19
-Uso conocido en ransomware: Unknown
-Notas de CISA: https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624
 
 Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
 BleepingComputer | Research / advisory | 2026-10-17T15:18:51+00:00
@@ -45,6 +21,24 @@ Israeli company Discover-Tech’s ads allow threat actors to fingerprint and tra
 CVEs: Not stated in feed
 https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/
 
+U**IN* Group By nightspire
+RansomLook | Ransomware claim / observation | 2026-10-18T04:23:38+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/nightspire
+
+First Brothers Co., Ltd By qilin
+RansomLook | Ransomware claim / observation | 2026-10-18T03:22:37+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+polisee Inc By vexy
+RansomLook | Ransomware claim / observation | 2026-10-17T23:31:36+00:00
+polisee Inc. is a Japanese technology company that develops and operates an AI-powered policy intelligence platform. Its software automates the monitoring, collection, analysis, and sharing of government policy and regulatory information. It uses AI to summarize policy discussions, organize complex documents, and provide real-time alerts, helping businesses and institutions anticipate regulatory changes, manage compliance risks, and identify new business opportunities. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vexy
+
 Decorolala - 500 Line Sample By byod
 RansomLook | Ransomware claim / observation | 2026-10-17T21:34:57+00:00
 Canaidan based home essentials, 60,544 customers, Home addresses + ZIP Code, longitude + latitude, Phone Numbers, Emails, First Name, Last Name, UPS Tracking Number & URL (includes photos of outside house), Total Price at Checkout, Device Used at Checkout, Prodcut ID ordered, Time ordered, you get the idea as we go along. Anyways, you know where to find us (contact tab). We will take you down when communication has been established between our team and yours. Reach out to us, first warning. | Updated on 2026-10-17 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
@@ -57,26 +51,8 @@ real estate and land development · United States Ransomware group claim; not in
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Company #85 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-17T17:38:20+00:00
-IT services · USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-Company #84 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-17T17:38:19+00:00
-construction (custom homes) · USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-Company #82 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-17T17:38:18+00:00
-special-effects fog fluid manufacturer and distributor (orde · Tennessee, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
 SOURCE COVERAGE
-CISA KEV: OK; recent=2; shown=2; undated excluded=0
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
 SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0

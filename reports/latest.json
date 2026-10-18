@@ -1,43 +1,7 @@
 {
-  "generated": "2026-10-17T23:13:15.677815+00:00",
+  "generated": "2026-10-18T04:48:10.052718+00:00",
   "hours": 24,
   "items": [
-    {
-      "title": "CVE-2026-102764: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764",
-      "date": "2026-10-16",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "BeyondTrust",
-        "Producto": "Remote Support",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-19",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-16T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2025-61624: Fortinet Multiple Products Path Traversal Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624",
-      "date": "2026-10-16",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Fortinet",
-        "Producto": "Multiple Products",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-19",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-16T00:00:00+00:00"
-    },
     {
       "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
@@ -72,6 +36,39 @@
       "published": "2026-10-17T11:00:00+00:00"
     },
     {
+      "title": "U**IN* Group By nightspire",
+      "url": "https://www.ransomlook.io//group/nightspire",
+      "feed_id": "ef67cef7a35a81e2f9020f577a5d8b921e4043b98ed2249932c85daa110326d6",
+      "date": "Sun, 18 Oct 2026 04:23:38 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T04:23:38+00:00"
+    },
+    {
+      "title": "First Brothers Co., Ltd By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "63165d216b596b7a0fed2f0d47214b80775093e26b63f3585102fccce7372d31",
+      "date": "Sun, 18 Oct 2026 03:22:37 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T03:22:37+00:00"
+    },
+    {
+      "title": "polisee Inc By vexy",
+      "url": "https://www.ransomlook.io//group/vexy",
+      "feed_id": "b9556a9f5744aa1e55e61773766cd9a1f0beaad3cecedf171280d70adf8fe41c",
+      "date": "Sat, 17 Oct 2026 23:31:36 GMT",
+      "detail": "polisee Inc. is a Japanese technology company that develops and operates an AI-powered policy intelligence platform. Its software automates the monitoring, collection, analysis, and sharing of government policy and regulatory information. It uses AI to summarize policy discussions, organize complex documents, and provide real-time alerts, helping businesses and institutions anticipate regulatory changes, manage compliance risks, and identify new business opportunities. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T23:31:36+00:00"
+    },
+    {
       "title": "Decorolala - 500 Line Sample By byod",
       "url": "https://www.ransomlook.io//group/byod",
       "feed_id": "ebc363728d6f3008de947c85961b56bdb4b18072196907144e60e45c8d6d1c0a",
@@ -92,47 +89,14 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-17T17:38:21+00:00"
-    },
-    {
-      "title": "Company #85 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "f7d8c1a2910e38a52f9d53c0fb4e43e68c15e6557ffcf8a679ae06d79901f11d",
-      "date": "Sat, 17 Oct 2026 17:38:20 GMT",
-      "detail": "IT services \u00b7 USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-17T17:38:20+00:00"
-    },
-    {
-      "title": "Company #84 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "136163e75ccad8ef83828f3d9031d22e69c932790baea39f31c2eead45839d8c",
-      "date": "Sat, 17 Oct 2026 17:38:19 GMT",
-      "detail": "construction (custom homes) \u00b7 USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-17T17:38:19+00:00"
-    },
-    {
-      "title": "Company #82 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "ce3a96751e8c6022325c6ed6e9cea8381cefaf96d68aaa1fdbdd37b377dcc0ae",
-      "date": "Sat, 17 Oct 2026 17:38:18 GMT",
-      "detail": "special-effects fog fluid manufacturer and distributor (orde \u00b7 Tennessee, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-17T17:38:18+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
