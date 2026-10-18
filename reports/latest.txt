@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-10-18 16:00 UTC
+CYBER DAILY — 2026-10-18 20:54 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-8 entries selected. Feed excerpts, not full-article or AI analysis.
+9 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)
@@ -21,35 +21,41 @@ CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecur
 CVEs: Not stated in feed
 https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/
 
-Company #91 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T15:26:40+00:00
-home services advertising · US Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Telecom Egypt By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T19:34:40+00:00
+computer training academy · Egypt Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Company #90 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T15:26:39+00:00
-biotech manufacturing · US Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+All Business Technologies (Fox Hill bookkeeping and tax practice) By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T18:32:25+00:00
+Accounting & Tax Preparation (US) · Massachusetts, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Company #89 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T15:26:38+00:00
-online sports betting analytics · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T18:32:24+00:00
+Semiconductor manufacturing · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Company #88 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T15:26:37+00:00
-home healthcare services · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Llano Independent School District By qilin
+RansomLook | Ransomware claim / observation | 2026-10-18T16:34:15+00:00
+Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
+https://www.ransomlook.io//group/qilin
 
-Solid Trading B.V. By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T15:26:36+00:00
-FX liquidity and trading technology · Netherlands Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+mckenneys By iah647
+RansomLook | Ransomware claim / observation | 2026-10-18T16:33:51+00:00
+size: 295.9 GiB | status: soon | hosting: 2d 21h left Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
+https://www.ransomlook.io//group/iah647
+
+Company #92 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-18T20:06:56+00:00
+Threat Syndicate: N0n Claimed Victim: Company #92 Date Discovered: 2026-10-18 20:06:56.546470 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-92 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/N0n.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -64,5 +70,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=1; shown=1; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=21; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=25; shown=5; undated excluded=0
+CTI.fyi: OK; recent=1; shown=1; undated excluded=0
