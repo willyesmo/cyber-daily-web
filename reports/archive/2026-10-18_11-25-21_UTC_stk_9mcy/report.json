@@ -1,0 +1,194 @@
+{
+  "generated": "2026-10-18T11:25:21.037865+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "date": "Sat, 17 Oct 2026 11:18:51 -0400",
+      "detail": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-17T15:18:51+00:00"
+    },
+    {
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "date": "Sat, 17 Oct 2026 10:32:48 -0400",
+      "detail": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-17T14:32:48+00:00"
+    },
+    {
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "feed_id": "https://www.securityweek.com/?p=50104",
+      "date": "Sun, 18 Oct 2026 11:00:00 +0000",
+      "detail": "CyberSN\u2019s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It\u2019s a mixed bag. The post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-18T11:00:00+00:00"
+    },
+    {
+      "title": "U**IN* Group By nightspire",
+      "url": "https://www.ransomlook.io//group/nightspire",
+      "feed_id": "ef67cef7a35a81e2f9020f577a5d8b921e4043b98ed2249932c85daa110326d6",
+      "date": "Sun, 18 Oct 2026 04:23:38 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T04:23:38+00:00"
+    },
+    {
+      "title": "First Brothers Co., Ltd By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "63165d216b596b7a0fed2f0d47214b80775093e26b63f3585102fccce7372d31",
+      "date": "Sun, 18 Oct 2026 03:22:37 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T03:22:37+00:00"
+    },
+    {
+      "title": "polisee Inc By vexy",
+      "url": "https://www.ransomlook.io//group/vexy",
+      "feed_id": "b9556a9f5744aa1e55e61773766cd9a1f0beaad3cecedf171280d70adf8fe41c",
+      "date": "Sat, 17 Oct 2026 23:31:36 GMT",
+      "detail": "polisee Inc. is a Japanese technology company that develops and operates an AI-powered policy intelligence platform. Its software automates the monitoring, collection, analysis, and sharing of government policy and regulatory information. It uses AI to summarize policy discussions, organize complex documents, and provide real-time alerts, helping businesses and institutions anticipate regulatory changes, manage compliance risks, and identify new business opportunities. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T23:31:36+00:00"
+    },
+    {
+      "title": "Decorolala - 500 Line Sample By byod",
+      "url": "https://www.ransomlook.io//group/byod",
+      "feed_id": "ebc363728d6f3008de947c85961b56bdb4b18072196907144e60e45c8d6d1c0a",
+      "date": "Sat, 17 Oct 2026 21:34:57 GMT",
+      "detail": "Canaidan based home essentials, 60,544 customers, Home addresses + ZIP Code, longitude + latitude, Phone Numbers, Emails, First Name, Last Name, UPS Tracking Number & URL (includes photos of outside house), Total Price at Checkout, Device Used at Checkout, Prodcut ID ordered, Time ordered, you get the idea as we go along. Anyways, you know where to find us (contact tab). We will take you down when communication has been established between our team and yours. Reach out to us, first warning. | Updated on 2026-10-17 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T21:34:57+00:00"
+    },
+    {
+      "title": "Company #86 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "c8f55aa43cde520c5bbdc03f9b1425d7cba52ab966697922540ab9fe3c4fe6ee",
+      "date": "Sat, 17 Oct 2026 17:38:21 GMT",
+      "detail": "real estate and land development \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-17T17:38:21+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

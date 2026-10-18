@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T04:48:10.052718+00:00",
+  "generated": "2026-10-18T11:25:21.037865+00:00",
   "hours": 24,
   "items": [
     {
@@ -25,15 +25,15 @@
       "published": "2026-10-17T14:32:48+00:00"
     },
     {
-      "title": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
-      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
-      "feed_id": "https://www.securityweek.com/?p=50091",
-      "date": "Sat, 17 Oct 2026 11:00:00 +0000",
-      "detail": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .",
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "feed_id": "https://www.securityweek.com/?p=50104",
+      "date": "Sun, 18 Oct 2026 11:00:00 +0000",
+      "detail": "CyberSN\u2019s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It\u2019s a mixed bag. The post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-17T11:00:00+00:00"
+      "published": "2026-10-18T11:00:00+00:00"
     },
     {
       "title": "U**IN* Group By nightspire",
@@ -179,7 +179,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 16,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
