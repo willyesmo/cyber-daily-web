@@ -1,0 +1,194 @@
+{
+  "generated": "2026-10-18T16:00:30.931021+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33434",
+      "feed_id": "https://isc.sans.edu/diary/rss/33434",
+      "date": "Sun, 18 Oct 2026 12:59:30 GMT",
+      "detail": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-18T12:59:30+00:00"
+    },
+    {
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "date": "Sun, 18 Oct 2026 10:23:16 -0400",
+      "detail": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-18T14:23:16+00:00"
+    },
+    {
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "feed_id": "https://www.securityweek.com/?p=50104",
+      "date": "Sun, 18 Oct 2026 11:00:00 +0000",
+      "detail": "CyberSN\u2019s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It\u2019s a mixed bag. The post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-18T11:00:00+00:00"
+    },
+    {
+      "title": "Company #91 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "cef23098e66a5dcb72032a4b848c7414cab1cc724e3338c7a062bd7e475a50d4",
+      "date": "Sun, 18 Oct 2026 15:26:40 GMT",
+      "detail": "home services advertising \u00b7 US Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T15:26:40+00:00"
+    },
+    {
+      "title": "Company #90 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "a206d772cf0cf0946fbc9820e113bb345f42d1ca8b78a3318f7a39889e46d14f",
+      "date": "Sun, 18 Oct 2026 15:26:39 GMT",
+      "detail": "biotech manufacturing \u00b7 US Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T15:26:39+00:00"
+    },
+    {
+      "title": "Company #89 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "433deed2db45910b02a9749f17c3c68fa276f6235f2d1e70b88b0eb2916bdd6a",
+      "date": "Sun, 18 Oct 2026 15:26:38 GMT",
+      "detail": "online sports betting analytics \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T15:26:38+00:00"
+    },
+    {
+      "title": "Company #88 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "c83e86b7093c3697682f0a1ce57ec28dae41f0b3dd494c8a8f68b248bb07f11b",
+      "date": "Sun, 18 Oct 2026 15:26:37 GMT",
+      "detail": "home healthcare services \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T15:26:37+00:00"
+    },
+    {
+      "title": "Solid Trading B.V. By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "f2d72cad83086c14ae4a23c4b9afb2504fca4414efdaa703164eb76022f00016",
+      "date": "Sun, 18 Oct 2026 15:26:36 GMT",
+      "detail": "FX liquidity and trading technology \u00b7 Netherlands Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-18T15:26:36+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 21,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

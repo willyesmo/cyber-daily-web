@@ -1,0 +1,68 @@
+CYBER DAILY — 2026-10-18 16:00 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+8 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)
+SANS Internet Storm Center | Research / advisory | 2026-10-18T12:59:30+00:00
+Here is the YARA rule I used to detect "Orphaned VBA Projects Inside DWG Files".
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33434
+
+Hackers exploit SiteGuard WAF flaw to run commands as admins
+BleepingComputer | Research / advisory | 2026-10-18T14:23:16+00:00
+Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/
+
+US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars
+SecurityWeek | Research / advisory | 2026-10-18T11:00:00+00:00
+CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag. The post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/
+
+Company #91 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T15:26:40+00:00
+home services advertising · US Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #90 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T15:26:39+00:00
+biotech manufacturing · US Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #89 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T15:26:38+00:00
+online sports betting analytics · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #88 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T15:26:37+00:00
+home healthcare services · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Solid Trading B.V. By n0n
+RansomLook | Ransomware claim / observation | 2026-10-18T15:26:36+00:00
+FX liquidity and trading technology · Netherlands Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=1; shown=1; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=21; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
