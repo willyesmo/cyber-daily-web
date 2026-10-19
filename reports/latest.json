@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T13:41:24.583565+00:00",
+  "generated": "2026-10-19T20:38:20.966594+00:00",
   "hours": 24,
   "items": [
     {
@@ -14,37 +14,92 @@
       "published": "2026-10-19T13:00:00+00:00"
     },
     {
-      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-      "date": "Mon, 19 Oct 2026 08:44:44 -0400",
-      "detail": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
+      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+      "date": "Mon, 19 Oct 2026 15:40:58 -0400",
+      "detail": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T12:44:44+00:00"
+      "published": "2026-10-19T19:40:58+00:00"
     },
     {
-      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-      "date": "Mon, 19 Oct 2026 04:58:41 -0400",
-      "detail": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+      "date": "Mon, 19 Oct 2026 14:51:13 -0400",
+      "detail": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T08:58:41+00:00"
+      "published": "2026-10-19T18:51:13+00:00"
     },
     {
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-      "date": "Sun, 18 Oct 2026 10:23:16 -0400",
-      "detail": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+      "date": "Mon, 19 Oct 2026 13:27:15 -0400",
+      "detail": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-18T14:23:16+00:00"
+      "published": "2026-10-19T17:27:15+00:00"
+    },
+    {
+      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+      "date": "Mon, 19 Oct 2026 10:55:23 -0400",
+      "detail": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-19T14:55:23+00:00"
+    },
+    {
+      "title": "Inside the Underground Market for Know Your Client Services",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "date": "Mon, 19 Oct 2026 10:00:10 -0400",
+      "detail": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-19T14:00:10+00:00"
+    },
+    {
+      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+      "feed_id": "https://www.securityweek.com/?p=50131",
+      "date": "Mon, 19 Oct 2026 18:15:39 +0000",
+      "detail": "Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures. The post Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-19T18:15:39+00:00"
+    },
+    {
+      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
+      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+      "feed_id": "https://www.securityweek.com/?p=50129",
+      "date": "Mon, 19 Oct 2026 15:47:50 +0000",
+      "detail": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules. The post Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-19T15:47:50+00:00"
+    },
+    {
+      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+      "feed_id": "https://www.securityweek.com/?p=50124",
+      "date": "Mon, 19 Oct 2026 15:20:53 +0000",
+      "detail": "Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16. The post Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-19T15:20:53+00:00"
     },
     {
       "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
@@ -69,103 +124,59 @@
       "published": "2026-10-19T12:44:39+00:00"
     },
     {
-      "title": "One Compromised Login Exposed Millions of California Students\u2019 Records",
-      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
-      "feed_id": "https://www.securityweek.com/?p=50114",
-      "date": "Mon, 19 Oct 2026 11:55:50 +0000",
-      "detail": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006. The post One Compromised Login Exposed Millions of California Students\u2019 Records appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-19T11:55:50+00:00"
-    },
-    {
-      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
-      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-      "feed_id": "https://www.securityweek.com/?p=50112",
-      "date": "Mon, 19 Oct 2026 11:13:23 +0000",
-      "detail": "The persistent, stealthy FortiGate implant was deployed against a telecommunications organization. The post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-19T11:13:23+00:00"
-    },
-    {
-      "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
-      "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
-      "feed_id": "https://www.securityweek.com/?p=50108",
-      "date": "Mon, 19 Oct 2026 09:37:04 +0000",
-      "detail": "Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics. The post MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-19T09:37:04+00:00"
-    },
-    {
-      "title": "Latham & Watkins By leakeddata",
-      "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "1e39cc165c6e7d8fe19b49ef0851378986b6b2510fa4b06d8aac0f30fde06e28",
-      "date": "Mon, 19 Oct 2026 13:29:40 GMT",
-      "detail": "Founded in 1934, Latham & Watkins is an international law firm specializing in activism, communication\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Grupo Cronica By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "0e1668dff1e8595c9e63823a701af73426660feb96e4293f2499eb2aa018d603",
+      "date": "Mon, 19 Oct 2026 18:23:54 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-19T13:29:40+00:00"
+      "published": "2026-10-19T18:23:54+00:00"
     },
     {
-      "title": "POWERsonic Industries Inc. By aurora",
-      "url": "https://www.ransomlook.io//group/aurora",
-      "feed_id": "17b8c2c18e0fb40a21e5c3a71e5646c6281c6e4e0fb336ebe65562a8f1898ba6",
-      "date": "Mon, 19 Oct 2026 10:31:38 GMT",
-      "detail": "POWERsonic Industries Inc. \u2014 a privately held wire harness and cable assembly contract manufacturer founded in 1998 with ~100-150 employees across 7 locations. The exposed material spans every entity in the POWERsonic corporate structure: Employee PII for 93-150 employees \u2014 SIN documents, passports, I-20 visas, LMIA immigration approvals, W-2 tax forms, pay stubs, banking information. Plus 8 complete email archives totaling 13.2 GB. Customer proprietary designs \u2014 7.5 GB of Demers Ambulance wiring harness data, 15 GB of CIRRIS cable test results, Mold Masters drawings, and a bilateral NDA with Husky Injection Molding. Full financial records \u2014 Dec 2025 balance sheet ($285K cash, $5.1M AP), trial balance, revenue data ($17.7M US), loan agreements, order margins (~45%), insurance policies. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Salauno By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "3f3022b75a5e7d8161c7d3704657421ee2b4709e5c44c93ca4a1b99d7946a32c",
+      "date": "Mon, 19 Oct 2026 18:23:53 GMT",
+      "detail": "0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-19T10:31:38+00:00"
+      "published": "2026-10-19T18:23:53+00:00"
     },
     {
-      "title": "GTL Concreto e Log\u00edstica LTDA By emperador",
-      "url": "https://www.ransomlook.io//group/emperador",
-      "feed_id": "f020565ad092004a7d788f091c89e27f9465eb467df32f3842ffeb8e71a4feb8",
-      "date": "Mon, 19 Oct 2026 09:53:00 GMT",
-      "detail": "Production and preparation of ready-mixed concrete and mortars. Production of cement products for construction. Construction of buildings and other construction works. Rental of vehicles and industrial equipment without an operator. IN THE ARCHIVE FINANCIAL DOCUMENTS, PERSONAL AND CUSTOMER DATA, EMPLOYEE CREDENTIALS. Publication scheduled: 2026-11-02 09:53:48 UTC Size: 2.0 GB Sectors: Manufacturing, Finance, Transportation Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "CREDIN By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "9003473bd8251bf760648cfbb07466939879ed89354cfdc67b655728aa0d376c",
+      "date": "Mon, 19 Oct 2026 18:23:52 GMT",
+      "detail": "Food & Beverage Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-19T09:53:00+00:00"
+      "published": "2026-10-19T18:23:52+00:00"
     },
     {
-      "title": "Baltimore Tank Lines By storm",
-      "url": "https://www.ransomlook.io//group/storm",
-      "feed_id": "1771cf8a68a6d55fa5dae3535fe7bb18eaefa1c6d2930c7fd7f64441a6f75b80",
-      "date": "Mon, 19 Oct 2026 05:15:16 GMT",
-      "detail": "Energy | Glen Burnie, Maryland, United States | Baltimore Tank Lines is a leading transporter of liquid bulk commodities, including fuel, DEF, motor oils, fertilizer, and food-grade products. With over 75 years of experience, the company serves a diverse clientele across local, regional, and national accounts. They are committed to expanding their operations and client base by adding new service locations and growing their manpower and equipment. Baltimore Tank Lines also offers flexible job opportunities and a comprehensive benefits package for transport drivers. The company headquarters is located in 180 8th Avenue NW, Glen Burnie, MD 21061, United States. 11-50 Employees | Deadline: 2026-11-03T02:17:22.941Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "WalkingTree Technologies By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "85030a02dfc89b06d4d48045e8b8b160246d7516f8a358961051b650104c8c89",
+      "date": "Mon, 19 Oct 2026 18:23:52 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-19T05:15:16+00:00"
+      "published": "2026-10-19T18:23:52+00:00"
     },
     {
-      "title": "Merit Financial Group By storm",
-      "url": "https://www.ransomlook.io//group/storm",
-      "feed_id": "6808653760bd33cebb283fa3fc0f5d2dd7ecb4fd561e2bf2163c3f13048c2676",
-      "date": "Mon, 19 Oct 2026 05:15:14 GMT",
-      "detail": "FinTech | Alpharetta, Georgia, United States | Merit Financial Group, LLC, doing business as Merit Financial Advisors (\"Merit\"), is a national wealth management firm that supports both the independent broker-dealer and RIA models. Based in Atlanta, Georgia, Merit has 24 additional offices throughout the U.S. and managed $5.59 billion in assets as of June 30, 2021 ($3.53 billion in advisory, $1.95 billion in brokerage assets and with $112 million in assets under advisement). Merit's mission is to establish and exceed the financial goals of its clients, while also providing its advisors and offices with practice management resources, an industry leading technology platform and the investment expertise needed to drive growth and deliver a superior client experience. The company headquarters is located in 2400 Lakeview Parkway, Suite 550, Alpharetta, GA 30009, United States. 201-500 Employees | Deadline: 2026-10-29T02:15:36.855Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "SkyWorld Air Cargo By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "167d52fb1fcf1f770706d2ab8a1a7c0ea3694f785df7a8c577b28eae2e5adba3",
+      "date": "Mon, 19 Oct 2026 18:23:51 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-19T05:15:14+00:00"
-    },
-    {
-      "title": "PingCAP / TiDB Cloud (fulcrumsec)",
-      "url": "https://cti.fyi/groups/fulcrumsec.html",
-      "feed_id": "975e18fd9f67ec935d8e9bf9ef9410d3",
-      "date": "Mon, 19 Oct 2026 13:04:39 +0000",
-      "detail": "Intelligence Summary: A software company offering a managed TiDB database service for banks, game studios, and e-commerce platforms. Threat Syndicate: fulcrumsec Claimed Victim: PingCAP / TiDB Cloud Canonical Organization: PingCAP Inc. Target Domain: pingcap.com Industry Sector: Technology Geographic Location: \ud83c\udde8\ud83c\uddf3 CN Date Discovered: 2026-10-19 13:04:39.599910 Post URL: http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/pingcap Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-19T13:04:39+00:00"
+      "published": "2026-10-19T18:23:51+00:00"
     }
   ],
   "sources": [
@@ -242,14 +253,14 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 8,
+      "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 6,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
@@ -263,8 +274,8 @@
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
