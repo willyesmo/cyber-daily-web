@@ -1,4 +1,4 @@
-CYBER DAILY — 2026-10-18 23:23 UTC
+CYBER DAILY — 2026-10-19 04:56 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
 8 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
@@ -21,6 +21,18 @@ CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecur
 CVEs: Not stated in feed
 https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/
 
+Patriot Maritime By storm
+RansomLook | Ransomware claim / observation | 2026-10-19T04:15:24+00:00
+Aerospace & Defense | Concord, California, United States | Patriot Maritime is a leading maritime contractor in the United States, specializing in the management and operation of vessels for both government and commercial clients. The company supports U.S. military readiness and commercial trade by managing a variety of vessel classes, including Ready Reserve Force ships and RO-RO cargo vessels. With a commitment to safety, compliance, and operational excellence, Patriot Maritime serves federal agencies, educational institutions, and private maritime organizations. As a privately held company, it aims to advance the future of maritime services in support of U.S. national security. The company headquarters is located in 1320 Willow Pass Road, Suite 485, Concord, CA 94520, United States. 11-50 Employees | Deadline: 2026-10-26T02:13:50.670Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/storm
+
+Belcorp By qilin
+RansomLook | Ransomware claim / observation | 2026-10-19T00:33:46+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
 Telecom Egypt By n0n
 RansomLook | Ransomware claim / observation | 2026-10-18T19:34:40+00:00
 computer training academy · Egypt Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
@@ -39,18 +51,6 @@ Semiconductor manufacturing · California, USA Ransomware group claim; not indep
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/n0n
 
-Llano Independent School District By qilin
-RansomLook | Ransomware claim / observation | 2026-10-18T16:34:15+00:00
-Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
-
-mckenneys By iah647
-RansomLook | Ransomware claim / observation | 2026-10-18T16:33:51+00:00
-size: 295.9 GiB | status: soon | hosting: 2d 21h left Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/iah647
-
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
@@ -64,5 +64,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=1; shown=1; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=24; shown=5; undated excluded=0
+RansomLook: OK; recent=23; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0

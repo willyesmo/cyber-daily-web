@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T23:23:23.771924+00:00",
+  "generated": "2026-10-19T04:56:26.901541+00:00",
   "hours": 24,
   "items": [
     {
@@ -36,6 +36,28 @@
       "published": "2026-10-18T11:00:00+00:00"
     },
     {
+      "title": "Patriot Maritime By storm",
+      "url": "https://www.ransomlook.io//group/storm",
+      "feed_id": "d8717738cb1e953a36aea71acfbc00983694329ed592c3447be13d60dda5195c",
+      "date": "Mon, 19 Oct 2026 04:15:24 GMT",
+      "detail": "Aerospace & Defense | Concord, California, United States | Patriot Maritime is a leading maritime contractor in the United States, specializing in the management and operation of vessels for both government and commercial clients. The company supports U.S. military readiness and commercial trade by managing a variety of vessel classes, including Ready Reserve Force ships and RO-RO cargo vessels. With a commitment to safety, compliance, and operational excellence, Patriot Maritime serves federal agencies, educational institutions, and private maritime organizations. As a privately held company, it aims to advance the future of maritime services in support of U.S. national security. The company headquarters is located in 1320 Willow Pass Road, Suite 485, Concord, CA 94520, United States. 11-50 Employees | Deadline: 2026-10-26T02:13:50.670Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-19T04:15:24+00:00"
+    },
+    {
+      "title": "Belcorp By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "0ef6dd43f8558f574ba454c48475d53a3ea7041a05e1c4cdae5fe84e798584e5",
+      "date": "Mon, 19 Oct 2026 00:33:46 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-19T00:33:46+00:00"
+    },
+    {
       "title": "Telecom Egypt By n0n",
       "url": "https://www.ransomlook.io//group/n0n",
       "feed_id": "3e71adb66837e6e0f1a3a4ebae50ebe715ecd672ed3396a03ca555ce52f42a5a",
@@ -67,28 +89,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-18T18:32:24+00:00"
-    },
-    {
-      "title": "Llano Independent School District By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "6ae1bc8024b3b3c0f40d3854e54a6f7f97e56054cfa1364ee23b3f2970f6a039",
-      "date": "Sun, 18 Oct 2026 16:34:15 GMT",
-      "detail": "Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-18T16:34:15+00:00"
-    },
-    {
-      "title": "mckenneys By iah647",
-      "url": "https://www.ransomlook.io//group/iah647",
-      "feed_id": "0c35341973741ad13151ef7739c618866b19f67a62aaa62138ac4daf6c371cbb",
-      "date": "Sun, 18 Oct 2026 16:33:51 GMT",
-      "detail": "size: 295.9 GiB | status: soon | hosting: 2d 21h left Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-18T16:33:51+00:00"
     }
   ],
   "sources": [
@@ -179,7 +179,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 24,
+      "recent": 23,
       "shown": 5,
       "undated": 0
     },
