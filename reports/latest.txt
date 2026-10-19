@@ -1,13 +1,25 @@
-CYBER DAILY — 2026-10-19 04:56 UTC
+CYBER DAILY — 2026-10-19 13:41 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-8 entries selected. Feed excerpts, not full-article or AI analysis.
+15 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
-Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)
-SANS Internet Storm Center | Research / advisory | 2026-10-18T12:59:30+00:00
-Here is the YARA rule I used to detect "Orphaned VBA Projects Inside DWG Files".
+Agents are your newest insiders. Security must move at their speed.
+Microsoft Security | Research / advisory | 2026-10-19T13:00:00+00:00
+Agents are rapidly becoming part of how work gets done. They can support a range of activities from writing code and researching products to analyzing revenue, processing expenses, and acting across the systems that run the business. To be most useful, they often need access to company data, applications, tools, and other agents. That access is what makes agents more capable. With that capability can come insider risk. This does not mean agents are inherently malicious. It means they are capable tools that can be granted access to important systems by users. They can make mistakes, be manipulated, or be compromised. Their models can produce variable outputs, their context can change, and their plans can evolve as they work. An agent that operates as intended when a task begins may respond differently as context or inputs change. Depending on how they are designed and deployed, agents can operate continuously, at machine speed and scale. Satya Nadella, Chairman and Chief Executive Officer of Microsoft, recently described the trust architecture this new era requires: we must separate the supply of intelligence from the authority over it. We should not ask a model to be its own security authority. The controls that determine what it can access, what actions it can take, and whether it should continue operating must sit outside the model, where the model cannot bypass or tamper with them. “The most trustworthy agentic system will not be the one with the model we trust most. It will be the one designed that enables us to trust the model least.” Satya Nadella Project Perception—Securing your agentic insider We introduced Project Perception and the Microsoft cyber stack to help organizations defend with agents. Today, we are extending Perception to secure the agentic insider . Guardian Agents help security teams operate continuously, at machine speed and scale, while sensors, context, and actuators across the cyber stack help understand changing agent risk and continuously adapt protection in response. Project Perception and Microsoft Agent 365 share signals, context, and a unified registry giving IT and security teams a consistent view of agents and risk, with the controls each needs. This builds on a simple security principle: surround non-deterministic intelligence with deterministic controls, independent evidence, and containment boundaries. Assume an agent can fail or be compromised. Observe it continuously. Minimize and tailor its authority before it acts. And continuously adjust that authority as risk changes. This requires protection across identity, permissions, data, endpoints, network, cloud, and runtime. The system has four continuous responsibilities: Know which agents exist, who owns them, why they exist, and what they are doing. Contain what each agent can access and do before it acts. Protect the data, tools, runtime, resources, and systems in the agent’s path. Adapt protection continuously as behavior, context, and risk change. These are not four products or sequential phases. They operate together. Evidence changes risk. Risk changes policy. Policy changes what the agent is allowed to do. Consider an expense-approval agent. It may need to read expense submissions, check policy, and approve routine reimbursements, but it should not inherit every permission of the employee who sponsors it. Its identity, runtime, access paths, and task-scoped authority should be explicit from the start. If it later encounters a prompt injection or attempts an action outside that task, the system should respond proportionately: preserve safe reads while blocking writes, narrow the resources it can reach, require provable human approval for a consequential step, or isolate and stop the agent when the risk warrants it. This is what continuous containment looks like in practice. Know every agent and give it an accountable identity You cannot secure what you cannot see. Agents can be created through Microsoft platforms, integrated through partner platforms and software development kits (SDKs), or introduced locally without a central deployment process. Microsoft Security uses native integrations, connectors, and sensors across the cyber stack to discover more of the agent estate. We are expanding discovery to 35 additional types of local agents, bringing the total to 60 supported local agents , including Claude Code, OpenAI Codex, and GitHub Copilot. Organizations can bring these agents into a unified registry, regardless of how they were discovered, to understand ownership, activity, and risk. Discovery tells you that an agent exists. Identity gives security and governance systems a durable anchor for controlling it. Every agent should have a first-class identity distinct from the person using or sponsoring it. We are extending Microsoft Entra Agent ID with identity types for additional agent patterns, including local and previously unknown agents discovered through security sensors. This means an agent can become a policy target even when it was not originally integrated with Microsoft Security. Agent identity anchors attribution, ownership, lifecycle, risk, permissions, authorization, and policy, so the enterprise can distinguish what a person did from what an agent did on that person’s behalf. Contain what the agent can do before it acts Being able to find and identify an agent is necessary, but it is just the start. We need to understand the potential impact the agent can have in the enterprise environment. The next step is to bound the agent across its runtime, its paths to tools and resources, and the authority it can exercise. Contain the runtime The model and harness should execute inside a controlled environment rather than inherit fully-privileged access to the device. Sandboxes such as Microsoft Execution Container (MXC) provide policy-controlled access to resources the agent needs to complete its task. They also create an enforcement boundary where security controls and observability can operate outside the agent’s reach. If the agent or harness is compromised, it should not be able to disable the controls watching it. Control the action space An agent should not be free to call any tool, API, Model Context Protocol (MCP) server, resource, or other agent it can find. Local and network and data controls must mediate those paths, observe the calls, and enforce enterprise policy. Controlling the destination alone is not enough. Security must also understand the content flowing into and out of the agent, including its sensitivity, provenance, and whether untrusted data may be influencing the agent’s behavior. Start with no permissions, or least privilege We have spent decades applying Zero Trust and least privilege to people. Agents make those principles even more important. An agent should not automatically inherit all the standing access of its user. It should begin with no authority and receive only what it needs for the approved task, for only as long as the task requires. To enable this, we are introducing Dynamic Permissions. Organization-wide policy sets the outer boundary, including preventing an agent from obtaining authority its user does not have. Permissions can then be scoped to the task, made time-bound, and contracted or removed as the task changes or completes. Higher-impact actions can require verified human approval. The employee retains the employee’s access. The agent receives its own identity, permissions and its own authority scoped to its current task and for the duration of the task only. Adapt protection as agent risk changes Least privilege reduces exposure, but it does not eliminate risk. An expense-approval agent may begin a task with the right access and then encounter a prompt injection in an external document. Its configuration has not changed, but its behavior and risk have. For human users, a delay between detection and response may be manageable. For an agent operating at machine speed, it can be the difference between containment and impact. The security system must be able to understand what changed and act before a person can manually investigate every signal. That is why we are introducing Dynamic Agent Risk and Dynamic Conditional Access for agents. Dynamic Agent Risk Dynamic Agent Risk combines signals from identity, data, endpoints, cloud, network, runtime, and the agent’s own activity. It considers how securely the agent is configured, what resources it can reach, the potential impact if something goes wrong, and whether its actions are drifting from the user’s or organization’s intent. The result is not a one-time score assigned at onboarding. It is a continuously updated understanding of the agent’s current risk and whether its current authority still matches that risk. The question is not simply whether the agent should run or stop. It is what the agent should be allowed to read, change, invoke, or approve at that moment. Dynamic Conditional Access Dynamic Conditional Access extends Microsoft Entra Conditional Access for agents so a change in risk can drive coordinated action across multiple enforcement points. The response is graduated, not binary. Policy can reduce permissions, preserve reads while blocking writes, narrow the data and resources the agent can reach, restrict network paths, shorten or revoke time-bound access, or require provable human approval before a consequential action proceeds. At the highest levels of risk, it can isolate the runtime or stop execution entirely. Return to the expense agent. It begins with narrowly scoped permission to review and approve expenses within policy. When it encounters untrusted content and attempts an unrelated action, new evidence raises its Dynamic Agent Risk. Policy responds proportionately: it can preserve read access while removing the ability to approve or write, block access to sensitive resources, and require cryptographically provable human approval for a high-impact step. If the risk continues to rise, the system can isolate the runtime or stop execution. The employee remains productive. The agent is constrained without treating every risk change as a kill-switch event. Secure agentic systems at scale with Guardian Agents As organizations deploy thousands or hundreds of thousands of agents, manually triaging every alert and coordinating every response will not scale. Securing agents must itself become agentic, while remaining inside boundaries people set. That is why we are introducing new Playbooks and a team of Guardian Agents in Project Perception. People define policy, approval boundaries, and delegation rules. Playbooks define the desired security outcome and coordinate protective actions. Guardian Agents carry out the work at machine speed, adapting as agent activity, risk, security context, and organizational policy change. Guardian Agents can help teams understand why risk changed, investigate the relevant evidence, recommend or apply containment, and use what they learn to harden policy. This is not about outsourcing judgment. People retain control over objectives and consequential decisions. The system carries the continuous work that does not scale through manual operations. Agents will only be adopted at scale if they can be trusted at scale. At Microsoft, we are already operating in a world of hundreds of thousands of agents. As Customer Zero, we have learned that securing agents requires continuous visibility into agent activity, proactive protection of access and data, and adaptive protection that keeps pace with evolving threats. Those lessons directly inform the innovations we are delivering to help every organization adopt agents with confidence.” — Terrell Cox, Corporate Vice President (CVP) and Deputy Chief Information Security Officer (CISO), Customer Security, Microsoft Extending containment to the model As model transparency increases, it creates a new source of security evidence. Chain-of-thought and other model-level signals can help identify intent drift, understand whether untrusted information is influencing reasoning, and detect when an agent’s planned actions are diverging from the task it was given. We are bringing this deeper evidence into Dynamic Agent Risk, together with signals from across the cyber stack. This builds on Satya Nadella’s principle: increase transparency into the model while keeping security decisions and enforcement independent of it. Greater model transparency gives security systems deeper evidence to detect suspicious behavior and inform Dynamic Agent Risk. But the core security principle does not change: the model cannot be its own security boundary. Independent systems must observe every layer, including the model itself, and ultimately determine and enforce what the system is allowed to do. These are not separate pillars. They make the same containment architecture stronger: better evidence, stronger assurance, more accurate risk, and more effective protection. Confidence to move faster Organizations are adopting agents to serve customers better, solve problems faster, and give people more time for the work that matters most. The goal is not to make every model perfectly predictable before it can be useful. The goal is to build systems that remain secure even when the model is not. That requires a clear division of responsibility. Models supply intelligence. People and organizations retain authority. Independent controls establish identity, limit privilege, protect data, preserve evidence, and contain unsafe action. Security continuously reassesses risk and adapts protection as the agent works. You should not have to choose between innovation and safety. That is what we are working toward: an agentic world where organizations can put intelligence to work with confidence because security can observe it, govern it, and contain it at the same speed. Learn more here and join us at Microsoft Ignite . To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog .
 CVEs: Not stated in feed
-https://isc.sans.edu/diary/rss/33434
+https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/
+
+Microsoft fixes classic Outlook bug that hid Copilot buttons
+BleepingComputer | Research / advisory | 2026-10-19T12:44:44+00:00
+Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/
+
+Microsoft: October Windows Server updates break Exchange sign-in, mail flow
+BleepingComputer | Research / advisory | 2026-10-19T08:58:41+00:00
+Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/
 
 Hackers exploit SiteGuard WAF flaw to run commands as admins
 BleepingComputer | Research / advisory | 2026-10-18T14:23:16+00:00
@@ -15,54 +27,84 @@ Attackers are targeting an OS command injection vulnerability in SiteGuard Serve
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/
 
-US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars
-SecurityWeek | Research / advisory | 2026-10-18T11:00:00+00:00
-CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag. The post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek .
+ConnectWise Suspends Cloud Services in Response to Cyberattack
+SecurityWeek | Research / advisory | 2026-10-19T13:16:20+00:00
+The services remain unavailable as the company continues remediation and security validation. The post ConnectWise Suspends Cloud Services in Response to Cyberattack appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/
+https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/
 
-Patriot Maritime By storm
-RansomLook | Ransomware claim / observation | 2026-10-19T04:15:24+00:00
-Aerospace & Defense | Concord, California, United States | Patriot Maritime is a leading maritime contractor in the United States, specializing in the management and operation of vessels for both government and commercial clients. The company supports U.S. military readiness and commercial trade by managing a variety of vessel classes, including Ready Reserve Force ships and RO-RO cargo vessels. With a commitment to safety, compliance, and operational excellence, Patriot Maritime serves federal agencies, educational institutions, and private maritime organizations. As a privately held company, it aims to advance the future of maritime services in support of U.S. national security. The company headquarters is located in 1320 Willow Pass Road, Suite 485, Concord, CA 94520, United States. 11-50 Employees | Deadline: 2026-10-26T02:13:50.670Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure
+SecurityWeek | Research / advisory | 2026-10-19T12:44:39+00:00
+Threat actors have been observed delivering cryptocurrency miners and proxy software. The post Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/
+
+One Compromised Login Exposed Millions of California Students’ Records
+SecurityWeek | Research / advisory | 2026-10-19T11:55:50+00:00
+Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006. The post One Compromised Login Exposed Millions of California Students’ Records appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/
+
+Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack
+SecurityWeek | Research / advisory | 2026-10-19T11:13:23+00:00
+The persistent, stealthy FortiGate implant was deployed against a telecommunications organization. The post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/
+
+MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks
+SecurityWeek | Research / advisory | 2026-10-19T09:37:04+00:00
+Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics. The post MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/
+
+Latham & Watkins By leakeddata
+RansomLook | Ransomware claim / observation | 2026-10-19T13:29:40+00:00
+Founded in 1934, Latham & Watkins is an international law firm specializing in activism, communication… Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/leakeddata
+
+POWERsonic Industries Inc. By aurora
+RansomLook | Ransomware claim / observation | 2026-10-19T10:31:38+00:00
+POWERsonic Industries Inc. — a privately held wire harness and cable assembly contract manufacturer founded in 1998 with ~100-150 employees across 7 locations. The exposed material spans every entity in the POWERsonic corporate structure: Employee PII for 93-150 employees — SIN documents, passports, I-20 visas, LMIA immigration approvals, W-2 tax forms, pay stubs, banking information. Plus 8 complete email archives totaling 13.2 GB. Customer proprietary designs — 7.5 GB of Demers Ambulance wiring harness data, 15 GB of CIRRIS cable test results, Mold Masters drawings, and a bilateral NDA with Husky Injection Molding. Full financial records — Dec 2025 balance sheet ($285K cash, $5.1M AP), trial balance, revenue data ($17.7M US), loan agreements, order margins (~45%), insurance policies. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/aurora
+
+GTL Concreto e Logística LTDA By emperador
+RansomLook | Ransomware claim / observation | 2026-10-19T09:53:00+00:00
+Production and preparation of ready-mixed concrete and mortars. Production of cement products for construction. Construction of buildings and other construction works. Rental of vehicles and industrial equipment without an operator. IN THE ARCHIVE FINANCIAL DOCUMENTS, PERSONAL AND CUSTOMER DATA, EMPLOYEE CREDENTIALS. Publication scheduled: 2026-11-02 09:53:48 UTC Size: 2.0 GB Sectors: Manufacturing, Finance, Transportation Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/emperador
+
+Baltimore Tank Lines By storm
+RansomLook | Ransomware claim / observation | 2026-10-19T05:15:16+00:00
+Energy | Glen Burnie, Maryland, United States | Baltimore Tank Lines is a leading transporter of liquid bulk commodities, including fuel, DEF, motor oils, fertilizer, and food-grade products. With over 75 years of experience, the company serves a diverse clientele across local, regional, and national accounts. They are committed to expanding their operations and client base by adding new service locations and growing their manpower and equipment. Baltimore Tank Lines also offers flexible job opportunities and a comprehensive benefits package for transport drivers. The company headquarters is located in 180 8th Avenue NW, Glen Burnie, MD 21061, United States. 11-50 Employees | Deadline: 2026-11-03T02:17:22.941Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/storm
 
-Belcorp By qilin
-RansomLook | Ransomware claim / observation | 2026-10-19T00:33:46+00:00
-Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Merit Financial Group By storm
+RansomLook | Ransomware claim / observation | 2026-10-19T05:15:14+00:00
+FinTech | Alpharetta, Georgia, United States | Merit Financial Group, LLC, doing business as Merit Financial Advisors ("Merit"), is a national wealth management firm that supports both the independent broker-dealer and RIA models. Based in Atlanta, Georgia, Merit has 24 additional offices throughout the U.S. and managed $5.59 billion in assets as of June 30, 2021 ($3.53 billion in advisory, $1.95 billion in brokerage assets and with $112 million in assets under advisement). Merit's mission is to establish and exceed the financial goals of its clients, while also providing its advisors and offices with practice management resources, an industry leading technology platform and the investment expertise needed to drive growth and deliver a superior client experience. The company headquarters is located in 2400 Lakeview Parkway, Suite 550, Alpharetta, GA 30009, United States. 201-500 Employees | Deadline: 2026-10-29T02:15:36.855Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/storm
 
-Telecom Egypt By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T19:34:40+00:00
-computer training academy · Egypt Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+PingCAP / TiDB Cloud (fulcrumsec)
+CTI.fyi | Ransomware claim / observation | 2026-10-19T13:04:39+00:00
+Intelligence Summary: A software company offering a managed TiDB database service for banks, game studios, and e-commerce platforms. Threat Syndicate: fulcrumsec Claimed Victim: PingCAP / TiDB Cloud Canonical Organization: PingCAP Inc. Target Domain: pingcap.com Industry Sector: Technology Geographic Location: 🇨🇳 CN Date Discovered: 2026-10-19 13:04:39.599910 Post URL: http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/pingcap Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-All Business Technologies (Fox Hill bookkeeping and tax practice) By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T18:32:25+00:00
-Accounting & Tax Preparation (US) · Massachusetts, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo By n0n
-RansomLook | Ransomware claim / observation | 2026-10-18T18:32:24+00:00
-Semiconductor manufacturing · California, USA Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
+https://cti.fyi/groups/fulcrumsec.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0
-Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=1; shown=1; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
 Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=1; shown=1; undated excluded=0
-SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+BleepingComputer: OK; recent=3; shown=3; undated excluded=0
+SecurityWeek: OK; recent=6; shown=5; undated excluded=0
 RansomLook: OK; recent=23; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+CTI.fyi: OK; recent=1; shown=1; undated excluded=0
