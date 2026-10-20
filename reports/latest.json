@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T14:23:31.682682+00:00",
+  "generated": "2026-10-20T19:24:11.715143+00:00",
   "hours": 24,
   "items": [
     {
@@ -12,6 +12,17 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-20T02:00:03+00:00"
+    },
+    {
+      "title": "There's only so much code: the rise in vulnerability numbers",
+      "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+      "feed_id": "6ad760e2bfc9520001b38dfe",
+      "date": "Tue, 20 Oct 2026 15:31:22 GMT",
+      "detail": "Frontier AI models (like Mythos) are rapidly mining decades of technical debt across ubiquitous legacy libraries, driving monthly Microsoft Patch Tuesday vulnerability advisories up more than tenfold (reaching 1,415 this month). This volume is overwhelming open-source maintainers and putting pressure on the traditional 90-day coordinated disclosure model. Despite a 105% year-over-year surge in CVEs, Known Exploited Vulnerabilities (KEVs) grew by only 37%, and only 3 of September's 975 Microsoft advisories saw in-the-wild exploitation, demonstrating that the vast majority of AI-discovered bugs are not practically exploited. We may be able to take new-bug-class vulnerability spikes as evidence that these vulnerabilities will eventually level off and decline, once the historical code backlog is remediated and AI verification is embedded directly into new development pipelines. With attackers able to parse patches faster via AI, defenders cannot cover for all possible threats. Organizations should continue to build robust defense-in-depth. Prioritize high-exploitability flaws in their specific environments, implement interim mitigations (such as LiveProtect), deploy behavioral anomaly detection, and integrate current AI evaluation models into their software build chains. The September Microsoft Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? As of April, frontier models came onto the scene more fine-tuned than ever toward vulnerability detection, particularly with the introduction of Mythos. The deluge brings a lot of questions: If these numbers are real, why hasn\u2019t the internet collapsed? Are these vulnerabilities a new breed, and if not, why didn\u2019t analysts find them in code that is sometimes decades old? Is the coordinated disclosure model still relevant in an era of this kind of speed? How in the world do defenders deal with those numbers? Should we go home, kiss our spouses, and prepare for the end? The answer to many of these questions boils down to this: The majority of these vulnerabilities are coming from repositories of old code from large-profile products and systems; and disclosure does not equal weaponization. Where is it from? AI is chewing through a backlog of technical debt in libraries and tools used as the dependable, best-practice lynchpins of so many environments. These models have a new perspective, an ability to \"think\" without some of the hangups or assumptions of human defenders, and they are thorough in listing those vulnerabilities. Entrenched older tools have always been prime targets because of their predictability; attackers know those tools and all their secrets, and they know what is likely to be present in a network with them. Multi-exploit attacks can be deployed with little variability. Pre-Mythos threat actors exploited log4j ( CVE-2021-44228 ) to immense success. The library was ubiquitous, included in nearly every environment, but not a component that got cataloged in visibility scans. A combination of scale and low visibility meant defenders were blindsided, scrambling to find out if they even used the log4j library before starting to concoct a mitigation plan. Talos has ongoing relationships with some of the largest technical vendors (such as the Microsoft Active Protections Process ( MAPP ) agreement). Organizations share additional information\u2014detection guidance or maybe a POC \u2014 for vulnerabilities that are most likely to be exploited, to enable Talos to provide adequate coverage when the advisories are announced. \"Microsoft believes it is important for us to provide detection content, based on their guidance,\" as Yves Younan, Director of Talos Vulnerability Discovery, Detection, and Testing, says. Talos has needed to invest more resources to get coverage in on time for critical vendors like Microsoft to keep up with notifications coming in fast and often on staggered or out-of-band timelines. For larger vendors, the pressure is handleable for now. However, open-source projects are getting flooded. Some projects have a trusted group that can combine to tackle patches, and some share with the full community for immediate assistance, but it is up to the project. The internet runs on open-source work. The pace of discovery presents a challenge for the traditional coordinated disclosure system vulnerability hunters have been using for years, and some are calling it into question. Security vulnerabilities should be reported, to enable an informed defender base and regular patching, and vendors responsible for vulnerable code need time to create coverage. A timed disclosure model where notifications are sent to a vendor, who then has a set period of time (typically 90 days) to provide coverage before the disclosure is released publicly, has created a more secure online environment for decades. Now, many practitioners are releasing advisories publicly without a disclosure period beforehand. The reasoning is that if one AI can find a weakness, any other could, so the vulnerability is already, effectively, released. This conversation is actively changing expectations around vulnerability disclosure, and guidance is in flux. Will it stay this high? No one knows the future, but we can always look to the past for insight. Numbers of vulnerabilities jump drastically when a new bug class is identified, as their possibilities are explored to the fullest. Then the discoveries plateau and drop off. When format string vulnerabilities were discovered as a new bug class in 2000, the initial influx of discoveries ramped up and up, until reaching a peak in 2005 and then slowly declining over the next couple of years. Format string vulnerabilities are still discovered, but they are a smaller overall fraction of the number of CVEs discovered in a year. Theoretically, AI-assisted vulnerability discovery could go the same way. While frontier models have not discovered a new vulnerability class, they are more efficient at discovering known types of software vulnerabilities. Given that a lot of vital software has a long history of code releases, there\u2019s plenty of code to mine for weaknesses. But there\u2019s only so much code\u2026 right? Old and commonly used tools are often under the highest scrutiny, lending them one kind of safety: Because of their popularity, utility, and stability, when popular tools have vulnerabilities, they are discovered fast and patched promptly. As the historical backlog of essential systems is turned over by AI, vulnerabilities will be found and patched. New code will ideally be run through AI bug-checkers that will prevent new vulnerabilities from being introduced. The rate of new vulns should level off and drop accordingly. There are some caveats. In the past, as vulnerability disclosures increased through coordinated disclosures, we saw increased adoption of mitigations. Exploitation became significantly harder. Attackers often need to chain together 3 or more vulnerabilities to successfully exploit a system. However, more awareness of vulnerabilities often leads to more exploitation. Attackers often use vendor patches meant to protect customers to discover where vulnerabilities might exist. The frequency of patching has delayed human attackers via parsing bottlenecks, but AI can eliminate that problem. Are the numbers the real issue? The volume is certainly up. Fresh as this blog is being finished, the October Patch Tuesday dropped almost 500 more than last month. With refinement, any vulnerability could become a link to a path of effect. But... not all vulnerabilities are exploitable. Some are wildly impractical for attacker use. In fact, the percent of Known Exploited Vulnerabilities (KEVs) is vastly smaller than the found vulnerabilities. Of the 975 vulnerabilities Microsoft reported in September, there were only three in-the-wild exploits detected. When viewed by percentage, vulnerabilities versus KEVs tell a different and perhaps reassuring story. Compared with the same period last year, additions to the known-exploited vulnerability list increased by 37%, while published CVEs increased by 105%. However, we wouldn't necessarily expect those figures to grow in proportion. Adversaries only need enough useful vulnerabilities to compromise their targets, and the same vulnerabilities can be reused against many organizations. The KEV count tracks distinct vulnerabilities known to be exploited, not the number of attacks or successful compromises. AI helps ingest code, advisory reports, and attack surfaces with inhuman speed, but it cannot currently make judgment calls about the value of a weakness. For defenders, the question remains the same: Which vulnerabilities provide a viable path into their environment, and how do you close those paths? What do we do now? The undeniable danger here is in exploitation time going down rapidly, while the vulnerabilities that could become exploits is still going up. The biggest hurdle for a defender is determining what is a real vulnerability for their environment, and what is not. Different defenders have different forms of control depending on their role. For those who are writing code, the new standard validation chain should include AI evaluation by models at least as up to date as those being used to hunt for vulnerabilities. It is relatively cheap to run new code through AI, but very expensive to run a cumbersome backlog of old code through. Bite it off in chunks. For those whose role involves keeping the tools ready: Upgrade ASAP. Don't stop there. For Cisco customers, implement LiveProtect to mitigate vulnerabilities between advisory release day and patching, to give time for that patching. Do this for everything you own. Move beyond static domain blocking and implement behavioral detection that alerts on anomalous traffic patterns directed toward automation platforms. Hone your focus to the vulnerabilities with the highest exploitability in your environment. KEVs are far less common among the sea of advisories, and their numbers have not risen proportionally with the AI-assisted deluge. Focus on building defense-in-depth. Employ multiple protection systems, to cover for delays in patching. Implement interim mitigations (such as LiveProtect), create custom IPS/Snort triggers to block pre-patched traffic using SnortML, deploy behavioral anomaly detection, and integrate current AI evaluation models in software build chains. Dive deeper into this conversation with the latest TTP interview with Yves Younan and vulnerability researcher Bella Fusari. For more numbers and advice for defenders: Don't swing at everything Threat Source Newsleter: Discovery \u2260 Exploitation",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-20T15:31:22+00:00"
     },
     {
       "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
@@ -34,6 +45,17 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-10-20T07:00:45+00:00"
+    },
+    {
+      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+      "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+      "date": "Tue, 20 Oct 2026 14:11:03 -0400",
+      "detail": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-20T18:11:03+00:00"
     },
     {
       "title": "DHS bans DeepSeek products across US federal civilian agencies",
@@ -80,15 +102,15 @@
       "published": "2026-10-20T12:16:32+00:00"
     },
     {
-      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-      "date": "Tue, 20 Oct 2026 07:31:22 -0400",
-      "detail": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+      "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+      "feed_id": "https://www.securityweek.com/?p=50167",
+      "date": "Tue, 20 Oct 2026 15:45:00 +0000",
+      "detail": "NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents. The post US Agencies Detail Incident Response Practices for Rogue AI Agents appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-20T11:31:22+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-20T15:45:00+00:00"
     },
     {
       "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
@@ -135,81 +157,70 @@
       "published": "2026-10-20T12:47:22+00:00"
     },
     {
-      "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
-      "url": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
-      "feed_id": "https://www.securityweek.com/?p=50142",
-      "date": "Tue, 20 Oct 2026 12:33:12 +0000",
-      "detail": "Abdulrahman Alfozan\u2019s wife and young son also left the country the day after the 35-year-old Saudi national\u2019s arrest. The post Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-20T12:33:12+00:00"
-    },
-    {
-      "title": "Seminole Schools By global secret group",
-      "url": "https://www.ransomlook.io//group/global%20secret%20group",
-      "feed_id": "71c58ff31c6b3811173373fcefb125ddc580129609d376bd2715b4fde0497f30",
-      "date": "Tue, 20 Oct 2026 10:20:35 GMT",
-      "detail": "NameCompany: Seminole Schools | Domain: internal.seminole.org | Country: Seminole,Florida,US | Website: sps.k12.ok.us | Revenue: $15.5 Million | Industry: Education General, Education | Employees: 50-100 | Properties: 39.6 GB (54,468 Files, 5,495 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "P...S...R... By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "f99983c591c99a0689245d88ee1ad2baf1ceae6f173d5b136855740860914448",
+      "date": "Tue, 20 Oct 2026 18:27:12 GMT",
+      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T10:20:35+00:00"
+      "published": "2026-10-20T18:27:12+00:00"
     },
     {
-      "title": "Rosenberg & Pittinsky By global secret group",
-      "url": "https://www.ransomlook.io//group/global%20secret%20group",
-      "feed_id": "1529511c38dd86d7caa88006dadcc03f9d0bb72ec1bcf232c944207d9cbebdb8",
-      "date": "Tue, 20 Oct 2026 10:20:34 GMT",
-      "detail": "NameCompany: Rosenberg & Pittinsky, LLP | Country: New York, NY 10016 | Website: rpllplaw.com | Revenue: $5 Million | Industry: Legal Services, Law Firm, Real Estate & Commercial Litigation | Employees: 25-50 | Properties: 430 GB (218,361 Files, 6,630 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Duarte Nursery, Inc. By aurora",
+      "url": "https://www.ransomlook.io//group/aurora",
+      "feed_id": "5b92b2d18d3936b87cd872397564580e130797d73c10f6e430e8cb159a78be47",
+      "date": "Tue, 20 Oct 2026 17:28:03 GMT",
+      "detail": "Duarte Nursery, Inc. is a wholesale deciduous fruit and nut tree nursery in Hughson, California \u2014 an S Corporation run by brothers John and Jeff Duarte. The dataset is the company's complete digital footprint: 300\u2013500 full Social Security numbers from California DE9 quarterly employment tax filings (2024 Q1 through 2026 Q2). The owners' complete identity packages \u2014 John Duarte: SSN 545-67-5279, DOB 9/9/1966, DL C3261756, BofA account 325107115395. Jeff Duarte: SSN 545675712, DOB 7/19/1969. Bank account and routing numbers for ~100 employees via NACHA ACH direct deposit files \u2014 plus the company's own BofA commercial account credentials and wire transfer instructions. Two years of reviewed financial statements showing the company is Privileged litigation documents from active lawsuits including P2G class certification strategy and settlement documents. Proprietary rootstock and grafting data \u2014 the IP that differentiates Duarte from competing Central Valley nurseries. Complete salary and compensation data for 23 salaried employees, insurance coverage details, tax returns, and 401(k) census information. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T10:20:34+00:00"
+      "published": "2026-10-20T17:28:03+00:00"
     },
     {
-      "title": "Fisher59 By anubis",
-      "url": "https://www.ransomlook.io//group/anubis",
-      "feed_id": "c36017082120fea4c4decd3bf7f8f1cff34fc84c96029e5bc09b2c472de06dd4",
-      "date": "Tue, 20 Oct 2026 03:23:27 GMT",
-      "detail": "Beverage distributor data breach. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Aveva By mimori",
+      "url": "https://www.ransomlook.io//group/mimori",
+      "feed_id": "90b1c0b8654f5ebb8787445975061069a5b7bb4d7897163ab14b199262155b69",
+      "date": "Tue, 20 Oct 2026 16:48:13 GMT",
+      "detail": "AVEVA is a British multinational industrial software company headquartered in Cambridge, England, and operating as an autonomous business unit of Schneider Electric. It provides engineering, design, operations management, data visualization, asset performance, and cloud-based industrial intelligence solutions for sectors including oil and gas, power, chemicals, manufacturing, marine, mining, and infrastructure. AVEVA's technology helps thousands of enterprises worldwide optimize industrial processes, improve operational efficiency, and support digital transformation across complex engineering and asset lifecycle management. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T03:23:27+00:00"
+      "published": "2026-10-20T16:48:13+00:00"
     },
     {
-      "title": "Baker Donelson By redact",
-      "url": "https://www.ransomlook.io//group/redact",
-      "feed_id": "3f1a61e89e6b224f1cecc0791011e2176fbd29dd2d0c58ed69a6a5270b2f28d2",
-      "date": "Tue, 20 Oct 2026 02:22:52 GMT",
-      "detail": "Sector: Law Firm | Data Size: 355 GB | Files: 102,390 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "OpenText By mimori",
+      "url": "https://www.ransomlook.io//group/mimori",
+      "feed_id": "d34fd34097ca8b907e4283144c79d83348da889dcb3fdf200a8b5f820cb143ad",
+      "date": "Tue, 20 Oct 2026 16:47:11 GMT",
+      "detail": "OpenText Corporation is a Canadian company that develops and sells enterprise information management software. OpenText can help you tackle the most complex digital transformation programs with confidence. With the worlds most complete and integrated information management platform, we empower our customers to organize, integrate, and protect data and content as it flows through business processes inside and outside their organization. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T02:22:52+00:00"
+      "published": "2026-10-20T16:47:11+00:00"
     },
     {
-      "title": "GardaWorld By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "8fef843c773bbb0ef56cd00f32835d0cc7d4635ff10789fd96f81c076473ee5f",
-      "date": "Tue, 20 Oct 2026 02:22:49 GMT",
-      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #98 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "510b6370fd2d0ee0473ea6f93f77422da406ee2bebc70a68943975471a4d3981",
+      "date": "Tue, 20 Oct 2026 16:26:43 GMT",
+      "detail": "Environmental NGO \u00b7 Ethiopia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T02:22:49+00:00"
+      "published": "2026-10-20T16:26:43+00:00"
     },
     {
-      "title": "51Ridge (Newark NJ hosting/IT) (N0n)",
-      "url": "https://cti.fyi/groups/N0n.html",
-      "feed_id": "f694d1ec2b68c2a5c0c8df35687f9610",
-      "date": "Tue, 20 Oct 2026 14:07:46 +0000",
-      "detail": "Intelligence Summary: A hosting and IT services provider based in Newark, New Jersey Threat Syndicate: N0n Claimed Victim: 51Ridge (Newark NJ hosting/IT) Canonical Organization: 51Ridge Industry Sector: Technology Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-20 14:07:46.221619 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#51ridge-newark-nj-hosting-it Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Graves Fireplaces, Inc. (Global Secret Group)",
+      "url": "https://cti.fyi/groups/Global Secret Group.html",
+      "feed_id": "8997ec713b0a1dee2850a7cbfa836210",
+      "date": "Tue, 20 Oct 2026 19:07:31 +0000",
+      "detail": "Intelligence Summary: A U.S. manufacturer of custom fireplaces and heating solutions based in Texas. Threat Syndicate: Global Secret Group Claimed Victim: Graves Fireplaces, Inc. Target Domain: gravesfireplaces.com Industry Sector: Manufacturing Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-20 19:07:31.130375 Post URL: http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/a239gXcMizrSgN8t Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-10-20T14:07:46+00:00"
+      "published": "2026-10-20T19:07:31+00:00"
     }
   ],
   "sources": [
@@ -237,8 +248,8 @@
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -286,21 +297,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 13,
+      "recent": 11,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 10,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 26,
+      "recent": 27,
       "shown": 5,
       "undated": 0
     },
