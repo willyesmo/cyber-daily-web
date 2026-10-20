@@ -1,7 +1,97 @@
 {
-  "generated": "2026-10-20T19:24:11.715143+00:00",
+  "generated": "2026-10-20T23:58:28.436780+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-106931: EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-106931",
+      "date": "2026-10-20",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "EG Secure Solutions",
+        "Producto": "SiteGuard Server Edition",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-23",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.eg-secure.co.jp/siteguard/news/alert-202610-1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-20T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-96656: Plex Media Server External Control of File Name or Path Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96656",
+      "date": "2026-10-20",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Plex",
+        "Producto": "Media Server",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-23",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-20T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-96655: Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96655",
+      "date": "2026-10-20",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Plex",
+        "Producto": "Media Server",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-03",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-20T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-96654: Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96654",
+      "date": "2026-10-20",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Plex",
+        "Producto": "Media Server",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-23",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-20T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-96652: Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96652",
+      "date": "2026-10-20",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.  Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Plex",
+        "Producto": "Media Server",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-03",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-20T00:00:00+00:00"
+    },
     {
       "title": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
       "url": "https://isc.sans.edu/diary/rss/33436",
@@ -25,15 +115,15 @@
       "published": "2026-10-20T15:31:22+00:00"
     },
     {
-      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
+      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
       "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
       "feed_id": "https://unit42.paloaltonetworks.com/?p=182026",
-      "date": "Mon, 19 Oct 2026 22:35:42 +0000",
-      "detail": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19) appeared first on Unit 42 .",
+      "date": "Tue, 20 Oct 2026 20:30:42 +0000",
+      "detail": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Unit 42",
-      "published": "2026-10-19T22:35:42+00:00"
+      "published": "2026-10-20T20:30:42+00:00"
     },
     {
       "title": "The journey of a paper unicorn: adventures inside a modern warehouse",
@@ -45,6 +135,28 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-10-20T07:00:45+00:00"
+    },
+    {
+      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "date": "Tue, 20 Oct 2026 16:56:43 -0400",
+      "detail": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-20T20:56:43+00:00"
+    },
+    {
+      "title": "Zeabur shutting down after second security breach in two months",
+      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "date": "Tue, 20 Oct 2026 15:33:02 -0400",
+      "detail": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-20T19:33:02+00:00"
     },
     {
       "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
@@ -78,28 +190,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-20T13:51:00+00:00"
-    },
-    {
-      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-      "date": "Tue, 20 Oct 2026 09:18:36 -0400",
-      "detail": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-20T13:18:36+00:00"
-    },
-    {
-      "title": "Windows Server 2025 gets support for quick machine recovery",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-      "date": "Tue, 20 Oct 2026 08:16:32 -0400",
-      "detail": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-20T12:16:32+00:00"
     },
     {
       "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
@@ -157,78 +247,67 @@
       "published": "2026-10-20T12:47:22+00:00"
     },
     {
-      "title": "P...S...R... By leakeddata",
+      "title": "M... M... By leakeddata",
       "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "f99983c591c99a0689245d88ee1ad2baf1ceae6f173d5b136855740860914448",
-      "date": "Tue, 20 Oct 2026 18:27:12 GMT",
+      "feed_id": "24c6040c949e8ecadba410ceef1c5ab03c8b990e582d9910559840c9a9388433",
+      "date": "Tue, 20 Oct 2026 22:21:43 GMT",
       "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T18:27:12+00:00"
+      "published": "2026-10-20T22:21:43+00:00"
     },
     {
-      "title": "Duarte Nursery, Inc. By aurora",
-      "url": "https://www.ransomlook.io//group/aurora",
-      "feed_id": "5b92b2d18d3936b87cd872397564580e130797d73c10f6e430e8cb159a78be47",
-      "date": "Tue, 20 Oct 2026 17:28:03 GMT",
-      "detail": "Duarte Nursery, Inc. is a wholesale deciduous fruit and nut tree nursery in Hughson, California \u2014 an S Corporation run by brothers John and Jeff Duarte. The dataset is the company's complete digital footprint: 300\u2013500 full Social Security numbers from California DE9 quarterly employment tax filings (2024 Q1 through 2026 Q2). The owners' complete identity packages \u2014 John Duarte: SSN 545-67-5279, DOB 9/9/1966, DL C3261756, BofA account 325107115395. Jeff Duarte: SSN 545675712, DOB 7/19/1969. Bank account and routing numbers for ~100 employees via NACHA ACH direct deposit files \u2014 plus the company's own BofA commercial account credentials and wire transfer instructions. Two years of reviewed financial statements showing the company is Privileged litigation documents from active lawsuits including P2G class certification strategy and settlement documents. Proprietary rootstock and grafting data \u2014 the IP that differentiates Duarte from competing Central Valley nurseries. Complete salary and compensation data for 23 salaried employees, insurance coverage details, tax returns, and 401(k) census information. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "P... H... By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "323f2253812c4db0087462e5706ba13532c4d9dd856e5d34e0df77d4550ca973",
+      "date": "Tue, 20 Oct 2026 21:26:25 GMT",
+      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T17:28:03+00:00"
+      "published": "2026-10-20T21:26:25+00:00"
     },
     {
-      "title": "Aveva By mimori",
-      "url": "https://www.ransomlook.io//group/mimori",
-      "feed_id": "90b1c0b8654f5ebb8787445975061069a5b7bb4d7897163ab14b199262155b69",
-      "date": "Tue, 20 Oct 2026 16:48:13 GMT",
-      "detail": "AVEVA is a British multinational industrial software company headquartered in Cambridge, England, and operating as an autonomous business unit of Schneider Electric. It provides engineering, design, operations management, data visualization, asset performance, and cloud-based industrial intelligence solutions for sectors including oil and gas, power, chemicals, manufacturing, marine, mining, and infrastructure. AVEVA's technology helps thousands of enterprises worldwide optimize industrial processes, improve operational efficiency, and support digital transformation across complex engineering and asset lifecycle management. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Graves Fireplaces, Inc. By global secret group",
+      "url": "https://www.ransomlook.io//group/global%20secret%20group",
+      "feed_id": "79f99ec58b3e63f88dd23776f6a53461a34bf7deb8d4881081cb102dc3d5926f",
+      "date": "Tue, 20 Oct 2026 21:26:21 GMT",
+      "detail": "Country: Cumming, Georgia, US | Website: www.gravesfireplaces.com | Revenue: $5.3 Million | Industry: Hearth Products, Fireplace Sales and Installation | Employees: 20-50 | Properties: 76.1 GB (77,117 Files, 5,170 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T16:48:13+00:00"
+      "published": "2026-10-20T21:26:21+00:00"
     },
     {
-      "title": "OpenText By mimori",
-      "url": "https://www.ransomlook.io//group/mimori",
-      "feed_id": "d34fd34097ca8b907e4283144c79d83348da889dcb3fdf200a8b5f820cb143ad",
-      "date": "Tue, 20 Oct 2026 16:47:11 GMT",
-      "detail": "OpenText Corporation is a Canadian company that develops and sells enterprise information management software. OpenText can help you tackle the most complex digital transformation programs with confidence. With the worlds most complete and integrated information management platform, we empower our customers to organize, integrate, and protect data and content as it flows through business processes inside and outside their organization. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "centralrogers.com By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "45d6fa14aacf93663c2754efc6e27c7603ebf52e2e19da1ff688823ba9f0e502",
+      "date": "Tue, 20 Oct 2026 20:22:56 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T16:47:11+00:00"
+      "published": "2026-10-20T20:22:56+00:00"
     },
     {
-      "title": "Company #98 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "510b6370fd2d0ee0473ea6f93f77422da406ee2bebc70a68943975471a4d3981",
-      "date": "Tue, 20 Oct 2026 16:26:43 GMT",
-      "detail": "Environmental NGO \u00b7 Ethiopia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Aeroklas Duys / Duys Engineering Group By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "7f0656032dc0bc6637a4c79f5c9e1b01eb8282fce4ee95234e70445768764ad3",
+      "date": "Tue, 20 Oct 2026 20:22:52 GMT",
+      "detail": "Aeroklas Duys (Pty) Ltd a specialized automotive manufacturing company It was formed as a strategic joint venture between the Duys Engineering Group and Aeroklas (a prominent global automotive accessory manufacturer owned by the Eastern Polymer Group of Thailand). Duys Engineering Group an industrial and mechanical engineering firm founded in South Africa in 1960. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-20T16:26:43+00:00"
-    },
-    {
-      "title": "Graves Fireplaces, Inc. (Global Secret Group)",
-      "url": "https://cti.fyi/groups/Global Secret Group.html",
-      "feed_id": "8997ec713b0a1dee2850a7cbfa836210",
-      "date": "Tue, 20 Oct 2026 19:07:31 +0000",
-      "detail": "Intelligence Summary: A U.S. manufacturer of custom fireplaces and heating solutions based in Texas. Threat Syndicate: Global Secret Group Claimed Victim: Graves Fireplaces, Inc. Target Domain: gravesfireplaces.com Industry Sector: Manufacturing Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-20 19:07:31.130375 Post URL: http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/a239gXcMizrSgN8t Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-20T19:07:31+00:00"
+      "published": "2026-10-20T20:22:52+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 6,
+      "shown": 5,
       "undated": 0
     },
     {
@@ -297,7 +376,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 11,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
@@ -311,15 +390,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 27,
+      "recent": 36,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
