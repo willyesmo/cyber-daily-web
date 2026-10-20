@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T08:43:11.925077+00:00",
+  "generated": "2026-10-20T14:23:31.682682+00:00",
   "hours": 24,
   "items": [
     {
@@ -12,17 +12,6 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-20T02:00:03+00:00"
-    },
-    {
-      "title": "Agents are your newest insiders. Security must move at their speed.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150126",
-      "date": "Mon, 19 Oct 2026 13:00:00 +0000",
-      "detail": "Agents are rapidly becoming part of how work gets done. They can support a range of activities from writing code and researching products to analyzing revenue, processing expenses, and acting across the systems that run the business. To be most useful, they often need access to company data, applications, tools, and other agents. That access is what makes agents more capable. With that capability can come insider risk. This does not mean agents are inherently malicious. It means they are capable tools that can be granted access to important systems by users. They can make mistakes, be manipulated, or be compromised. Their models can produce variable outputs, their context can change, and their plans can evolve as they work. An agent that operates as intended when a task begins may respond differently as context or inputs change. Depending on how they are designed and deployed, agents can operate continuously, at machine speed and scale. Satya Nadella, Chairman and Chief Executive Officer of Microsoft, recently described the trust architecture this new era requires: we must separate the supply of intelligence from the authority over it. We should not ask a model to be its own security authority. The controls that determine what it can access, what actions it can take, and whether it should continue operating must sit outside the model, where the model cannot bypass or tamper with them. \u201cThe most trustworthy agentic system will not be the one with the model we trust most. It will be the one designed that enables us to trust the model least.\u201d Satya Nadella Project Perception\u2014Securing your agentic insider We introduced Project Perception and the Microsoft cyber stack to help organizations defend with agents. Today, we are extending Perception to secure the agentic insider . Guardian Agents help security teams operate continuously, at machine speed and scale, while sensors, context, and actuators across the cyber stack help understand changing agent risk and continuously adapt protection in response. Project Perception and Microsoft Agent 365 share signals, context, and a unified registry giving IT and security teams a consistent view of agents and risk, with the controls each needs. This builds on a simple security principle: surround non-deterministic intelligence with deterministic controls, independent evidence, and containment boundaries. Assume an agent can fail or be compromised. Observe it continuously. Minimize and tailor its authority before it acts. And continuously adjust that authority as risk changes. This requires protection across identity, permissions, data, endpoints, network, cloud, and runtime. The system has four continuous responsibilities: Know which agents exist, who owns them, why they exist, and what they are doing. Contain what each agent can access and do before it acts. Protect the data, tools, runtime, resources, and systems in the agent\u2019s path. Adapt protection continuously as behavior, context, and risk change. These are not four products or sequential phases. They operate together. Evidence changes risk. Risk changes policy. Policy changes what the agent is allowed to do. Consider an expense-approval agent. It may need to read expense submissions, check policy, and approve routine reimbursements, but it should not inherit every permission of the employee who sponsors it. Its identity, runtime, access paths, and task-scoped authority should be explicit from the start. If it later encounters a prompt injection or attempts an action outside that task, the system should respond proportionately: preserve safe reads while blocking writes, narrow the resources it can reach, require provable human approval for a consequential step, or isolate and stop the agent when the risk warrants it. This is what continuous containment looks like in practice. Know every agent and give it an accountable identity You cannot secure what you cannot see. Agents can be created through Microsoft platforms, integrated through partner platforms and software development kits (SDKs), or introduced locally without a central deployment process. Microsoft Security uses native integrations, connectors, and sensors across the cyber stack to discover more of the agent estate. We are expanding discovery to 35 additional types of local agents, bringing the total to 60 supported local agents , including Claude Code, OpenAI Codex, and GitHub Copilot. Organizations can bring these agents into a unified registry, regardless of how they were discovered, to understand ownership, activity, and risk. Discovery tells you that an agent exists. Identity gives security and governance systems a durable anchor for controlling it. Every agent should have a first-class identity distinct from the person using or sponsoring it. We are extending Microsoft Entra Agent ID with identity types for additional agent patterns, including local and previously unknown agents discovered through security sensors. This means an agent can become a policy target even when it was not originally integrated with Microsoft Security. Agent identity anchors attribution, ownership, lifecycle, risk, permissions, authorization, and policy, so the enterprise can distinguish what a person did from what an agent did on that person\u2019s behalf. Contain what the agent can do before it acts Being able to find and identify an agent is necessary, but it is just the start. We need to understand the potential impact the agent can have in the enterprise environment. The next step is to bound the agent across its runtime, its paths to tools and resources, and the authority it can exercise. Contain the runtime The model and harness should execute inside a controlled environment rather than inherit fully-privileged access to the device. Sandboxes such as Microsoft Execution Container (MXC) provide policy-controlled access to resources the agent needs to complete its task. They also create an enforcement boundary where security controls and observability can operate outside the agent\u2019s reach. If the agent or harness is compromised, it should not be able to disable the controls watching it. Control the action space An agent should not be free to call any tool, API, Model Context Protocol (MCP) server, resource, or other agent it can find. Local and network and data controls must mediate those paths, observe the calls, and enforce enterprise policy. Controlling the destination alone is not enough. Security must also understand the content flowing into and out of the agent, including its sensitivity, provenance, and whether untrusted data may be influencing the agent\u2019s behavior. Start with no permissions, or least privilege We have spent decades applying Zero Trust and least privilege to people. Agents make those principles even more important. An agent should not automatically inherit all the standing access of its user. It should begin with no authority and receive only what it needs for the approved task, for only as long as the task requires. To enable this, we are introducing Dynamic Permissions. Organization-wide policy sets the outer boundary, including preventing an agent from obtaining authority its user does not have. Permissions can then be scoped to the task, made time-bound, and contracted or removed as the task changes or completes. Higher-impact actions can require verified human approval. The employee retains the employee\u2019s access. The agent receives its own identity, permissions and its own authority scoped to its current task and for the duration of the task only. Adapt protection as agent risk changes Least privilege reduces exposure, but it does not eliminate risk. An expense-approval agent may begin a task with the right access and then encounter a prompt injection in an external document. Its configuration has not changed, but its behavior and risk have. For human users, a delay between detection and response may be manageable. For an agent operating at machine speed, it can be the difference between containment and impact. The security system must be able to understand what changed and act before a person can manually investigate every signal. That is why we are introducing Dynamic Agent Risk and Dynamic Conditional Access for agents. Dynamic Agent Risk Dynamic Agent Risk combines signals from identity, data, endpoints, cloud, network, runtime, and the agent\u2019s own activity. It considers how securely the agent is configured, what resources it can reach, the potential impact if something goes wrong, and whether its actions are drifting from the user\u2019s or organization\u2019s intent. The result is not a one-time score assigned at onboarding. It is a continuously updated understanding of the agent\u2019s current risk and whether its current authority still matches that risk. The question is not simply whether the agent should run or stop. It is what the agent should be allowed to read, change, invoke, or approve at that moment. Dynamic Conditional Access Dynamic Conditional Access extends Microsoft Entra Conditional Access for agents so a change in risk can drive coordinated action across multiple enforcement points. The response is graduated, not binary. Policy can reduce permissions, preserve reads while blocking writes, narrow the data and resources the agent can reach, restrict network paths, shorten or revoke time-bound access, or require provable human approval before a consequential action proceeds. At the highest levels of risk, it can isolate the runtime or stop execution entirely. Return to the expense agent. It begins with narrowly scoped permission to review and approve expenses within policy. When it encounters untrusted content and attempts an unrelated action, new evidence raises its Dynamic Agent Risk. Policy responds proportionately: it can preserve read access while removing the ability to approve or write, block access to sensitive resources, and require cryptographically provable human approval for a high-impact step. If the risk continues to rise, the system can isolate the runtime or stop execution. The employee remains productive. The agent is constrained without treating every risk change as a kill-switch event. Secure agentic systems at scale with Guardian Agents As organizations deploy thousands or hundreds of thousands of agents, manually triaging every alert and coordinating every response will not scale. Securing agents must itself become agentic, while remaining inside boundaries people set. That is why we are introducing new Playbooks and a team of Guardian Agents in Project Perception. People define policy, approval boundaries, and delegation rules. Playbooks define the desired security outcome and coordinate protective actions. Guardian Agents carry out the work at machine speed, adapting as agent activity, risk, security context, and organizational policy change. Guardian Agents can help teams understand why risk changed, investigate the relevant evidence, recommend or apply containment, and use what they learn to harden policy. This is not about outsourcing judgment. People retain control over objectives and consequential decisions. The system carries the continuous work that does not scale through manual operations. Agents will only be adopted at scale if they can be trusted at scale. At Microsoft, we are already operating in a world of hundreds of thousands of agents. As Customer Zero, we have learned that securing agents requires continuous visibility into agent activity, proactive protection of access and data, and adaptive protection that keeps pace with evolving threats. Those lessons directly inform the innovations we are delivering to help every organization adopt agents with confidence.\u201d \u2014 Terrell Cox, Corporate Vice President (CVP) and Deputy Chief Information Security Officer (CISO), Customer Security, Microsoft Extending containment to the model As model transparency increases, it creates a new source of security evidence. Chain-of-thought and other model-level signals can help identify intent drift, understand whether untrusted information is influencing reasoning, and detect when an agent\u2019s planned actions are diverging from the task it was given. We are bringing this deeper evidence into Dynamic Agent Risk, together with signals from across the cyber stack. This builds on Satya Nadella\u2019s principle: increase transparency into the model while keeping security decisions and enforcement independent of it. Greater model transparency gives security systems deeper evidence to detect suspicious behavior and inform Dynamic Agent Risk. But the core security principle does not change: the model cannot be its own security boundary. Independent systems must observe every layer, including the model itself, and ultimately determine and enforce what the system is allowed to do. These are not separate pillars. They make the same containment architecture stronger: better evidence, stronger assurance, more accurate risk, and more effective protection. Confidence to move faster Organizations are adopting agents to serve customers better, solve problems faster, and give people more time for the work that matters most. The goal is not to make every model perfectly predictable before it can be useful. The goal is to build systems that remain secure even when the model is not. That requires a clear division of responsibility. Models supply intelligence. People and organizations retain authority. Independent controls establish identity, limit privilege, protect data, preserve evidence, and contain unsafe action. Security continuously reassesses risk and adapts protection as the agent works. You should not have to choose between innovation and safety. That is what we are working toward: an agentic world where organizations can put intelligence to work with confidence because security can observe it, govern it, and contain it at the same speed. Learn more here and join us at Microsoft Ignite . To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Microsoft Security",
-      "published": "2026-10-19T13:00:00+00:00"
     },
     {
       "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
@@ -47,114 +36,136 @@
       "published": "2026-10-20T07:00:45+00:00"
     },
     {
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-      "date": "Mon, 19 Oct 2026 17:49:48 -0400",
-      "detail": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+      "title": "DHS bans DeepSeek products across US federal civilian agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "date": "Tue, 20 Oct 2026 10:19:05 -0400",
+      "detail": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T21:49:48+00:00"
+      "published": "2026-10-20T14:19:05+00:00"
     },
     {
-      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-      "date": "Mon, 19 Oct 2026 17:24:51 -0400",
-      "detail": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+      "date": "Tue, 20 Oct 2026 09:51:00 -0400",
+      "detail": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T21:24:51+00:00"
+      "published": "2026-10-20T13:51:00+00:00"
     },
     {
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-      "date": "Mon, 19 Oct 2026 15:40:58 -0400",
-      "detail": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+      "date": "Tue, 20 Oct 2026 09:18:36 -0400",
+      "detail": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T19:40:58+00:00"
+      "published": "2026-10-20T13:18:36+00:00"
     },
     {
-      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-      "date": "Mon, 19 Oct 2026 14:51:13 -0400",
-      "detail": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
+      "title": "Windows Server 2025 gets support for quick machine recovery",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+      "date": "Tue, 20 Oct 2026 08:16:32 -0400",
+      "detail": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T18:51:13+00:00"
+      "published": "2026-10-20T12:16:32+00:00"
     },
     {
-      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-      "date": "Mon, 19 Oct 2026 13:27:15 -0400",
-      "detail": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
+      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+      "date": "Tue, 20 Oct 2026 07:31:22 -0400",
+      "detail": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-19T17:27:15+00:00"
+      "published": "2026-10-20T11:31:22+00:00"
     },
     {
-      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
-      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
-      "feed_id": "https://www.securityweek.com/?p=50131",
-      "date": "Mon, 19 Oct 2026 18:15:39 +0000",
-      "detail": "Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures. The post Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks appeared first on SecurityWeek .",
+      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+      "feed_id": "https://www.securityweek.com/?p=50153",
+      "date": "Tue, 20 Oct 2026 13:51:01 +0000",
+      "detail": "Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework. The post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-19T18:15:39+00:00"
+      "published": "2026-10-20T13:51:01+00:00"
     },
     {
-      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-      "feed_id": "https://www.securityweek.com/?p=50129",
-      "date": "Mon, 19 Oct 2026 15:47:50 +0000",
-      "detail": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules. The post Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw appeared first on SecurityWeek .",
+      "title": "The Key to AI Software Security Isn\u2019t Speed, It\u2019s Maturity",
+      "url": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
+      "feed_id": "https://www.securityweek.com/?p=50150",
+      "date": "Tue, 20 Oct 2026 13:34:23 +0000",
+      "detail": "Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk. The post The Key to AI Software Security Isn\u2019t Speed, It\u2019s Maturity appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-19T15:47:50+00:00"
+      "published": "2026-10-20T13:34:23+00:00"
     },
     {
-      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
-      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
-      "feed_id": "https://www.securityweek.com/?p=50124",
-      "date": "Mon, 19 Oct 2026 15:20:53 +0000",
-      "detail": "Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16. The post Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack appeared first on SecurityWeek .",
+      "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
+      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
+      "feed_id": "https://www.securityweek.com/?p=50146",
+      "date": "Tue, 20 Oct 2026 13:02:18 +0000",
+      "detail": "The company has restored many websites and apps in Europe and expects e-commerce brands in the US to be restored in days. The post Ahold Delhaize Restoring Services Disrupted by Cyberattack appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-19T15:20:53+00:00"
+      "published": "2026-10-20T13:02:18+00:00"
     },
     {
-      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
-      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
-      "feed_id": "https://www.securityweek.com/?p=50121",
-      "date": "Mon, 19 Oct 2026 13:16:20 +0000",
-      "detail": "The services remain unavailable as the company continues remediation and security validation. The post ConnectWise Suspends Cloud Services in Response to Cyberattack appeared first on SecurityWeek .",
+      "title": "AI Platform Cairn Abused to Hack Over 100 Organizations",
+      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+      "feed_id": "https://www.securityweek.com/?p=50144",
+      "date": "Tue, 20 Oct 2026 12:47:22 +0000",
+      "detail": "At least three threat actors have been abusing Cairn for persistent access and financial theft. The post AI Platform Cairn Abused to Hack Over 100 Organizations appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-19T13:16:20+00:00"
+      "published": "2026-10-20T12:47:22+00:00"
     },
     {
-      "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
-      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-      "feed_id": "https://www.securityweek.com/?p=50119",
-      "date": "Mon, 19 Oct 2026 12:44:39 +0000",
-      "detail": "Threat actors have been observed delivering cryptocurrency miners and proxy software. The post Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure appeared first on SecurityWeek .",
+      "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
+      "url": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+      "feed_id": "https://www.securityweek.com/?p=50142",
+      "date": "Tue, 20 Oct 2026 12:33:12 +0000",
+      "detail": "Abdulrahman Alfozan\u2019s wife and young son also left the country the day after the 35-year-old Saudi national\u2019s arrest. The post Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-19T12:44:39+00:00"
+      "published": "2026-10-20T12:33:12+00:00"
+    },
+    {
+      "title": "Seminole Schools By global secret group",
+      "url": "https://www.ransomlook.io//group/global%20secret%20group",
+      "feed_id": "71c58ff31c6b3811173373fcefb125ddc580129609d376bd2715b4fde0497f30",
+      "date": "Tue, 20 Oct 2026 10:20:35 GMT",
+      "detail": "NameCompany: Seminole Schools | Domain: internal.seminole.org | Country: Seminole,Florida,US | Website: sps.k12.ok.us | Revenue: $15.5 Million | Industry: Education General, Education | Employees: 50-100 | Properties: 39.6 GB (54,468 Files, 5,495 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-20T10:20:35+00:00"
+    },
+    {
+      "title": "Rosenberg & Pittinsky By global secret group",
+      "url": "https://www.ransomlook.io//group/global%20secret%20group",
+      "feed_id": "1529511c38dd86d7caa88006dadcc03f9d0bb72ec1bcf232c944207d9cbebdb8",
+      "date": "Tue, 20 Oct 2026 10:20:34 GMT",
+      "detail": "NameCompany: Rosenberg & Pittinsky, LLP | Country: New York, NY 10016 | Website: rpllplaw.com | Revenue: $5 Million | Industry: Legal Services, Law Firm, Real Estate & Commercial Litigation | Employees: 25-50 | Properties: 430 GB (218,361 Files, 6,630 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-20T10:20:34+00:00"
     },
     {
       "title": "Fisher59 By anubis",
@@ -190,26 +201,15 @@
       "published": "2026-10-20T02:22:49+00:00"
     },
     {
-      "title": "BW Office World By payload",
-      "url": "https://www.ransomlook.io//group/payload",
-      "feed_id": "15e7f6f3b606704f4ce853740474fe59d7affe98fa0ff9e1ef52ce426c6cbc8c",
-      "date": "Tue, 20 Oct 2026 02:22:47 GMT",
-      "detail": "BW Office World (bw-officeworld.de) is a German specialized online retailer providing comprehensive workspace and office supply solutions. Their catalog features office furniture, ergonomic chairs, presentation hardware, office technology, and everyday stationery from leading European brands. Serving both corporate B2B clients and individual consumers, the company emphasizes workplace ergonomics, dependable delivery across Germany, and expert support for office fit-outs. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "51Ridge (Newark NJ hosting/IT) (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "f694d1ec2b68c2a5c0c8df35687f9610",
+      "date": "Tue, 20 Oct 2026 14:07:46 +0000",
+      "detail": "Intelligence Summary: A hosting and IT services provider based in Newark, New Jersey Threat Syndicate: N0n Claimed Victim: 51Ridge (Newark NJ hosting/IT) Canonical Organization: 51Ridge Industry Sector: Technology Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-20 14:07:46.221619 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#51ridge-newark-nj-hosting-it Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-20T02:22:47+00:00"
-    },
-    {
-      "title": "Br\u00fcninghoff Group By payload",
-      "url": "https://www.ransomlook.io//group/payload",
-      "feed_id": "cc4a12ba37636b105f3a07d8050b6eac0b865b0a9fb35115b3bb7291c1e5693c",
-      "date": "Tue, 20 Oct 2026 02:22:47 GMT",
-      "detail": "Br\u00fcninghoff Group (brueninghoff.de) is a German construction and manufacturing company headquartered in Heiden, founded in 1974. The company specializes in turnkey project development, engineering, and the prefabrication of hybrid timber, concrete, and steel building systems. With around 700 employees, it strongly emphasizes sustainable, energy-efficient building methods for commercial, residential, and public architecture. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-20T02:22:47+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-20T14:07:46+00:00"
     }
   ],
   "sources": [
@@ -244,8 +244,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -286,29 +286,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 10,
+      "recent": 13,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 8,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 27,
+      "recent": 26,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     }
   ]
