@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T12:07:51.236974+00:00",
+  "generated": "2026-10-22T17:21:33.085229+00:00",
   "hours": 24,
   "items": [
     {
@@ -29,22 +29,11 @@
       "url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
       "feed_id": "6ad903702a20190001915a77",
       "date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "detail": "Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra . Rather than possessing the mandatory 384 bits of pseudo-random security, several private keys evaluated single-digit and double-digit integers. This misconfiguration allows an attacker with the private key of any of the compromised intermediate CAs to impersonate any website or service. Six of the TLS certificates, trusted by Chrome, Mozilla, and Apple have been blocked by these vendors already. Two other certificates, used for codesigning by Microsoft, have also been blocked. Talos expects there will be additional patches available across a variety of technologies as software applications work to remediate the certificates\u2019 exposure. Following the disclosure, eMudhra has revoked the compromised certificates and stopped issuing new certificates under its G3 root. Compromise details The cause of this issue, originated during an April 30, 2025 key generation activity conducted by eMudhra under its emSign Root TLS CA - G3 and cross-signed Comodo AAA Certificate Services. During a key generation ceremony for 24 subordinate CAs, a flaw in eMudhra\u2019s key generation process created a second set of weak P-384 keys during a wrap/unwrap step. Those keys were mistakenly used for eight intermediate CA certificates. This flaw took the encryption from 384 bytes of entropy down to 3 \u2013 8, making recovering the private keys trivial. The following are the impacted certificates, as illustrated in Mozilla\u2019s bug report : EM EV TLS CA - G3B (eMudhra BV), CCADB A012304 SHA-256 E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA75184333838 serial c7c41efe92d825f05eae841a4a82c1, issuer emSign Root TLS CA - G3 EM OV TLS CA - G3B (eMudhra BV), CCADB A012308 SHA-256 98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833BC25B serial 6cada367fb1c100088120ea202d568, issuer emSign Root TLS CA - G3 EM DV TLS CA - G3B (eMudhra BV), CCADB A012302 SHA-256 42C4ACCD12C4F59597925E1A08A7A90102608543809308D50EC427E118BA1493 serial a4aee678f23362b4c0e460b772f214, issuer emSign Root TLS CA - G3 EM EV TLS CA - G3C (eMudhra Inc), CCADB A012296 SHA-256 432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D0261F3 serial 8009928a64107601af05fa2f19f109, issuer emSign Root TLS CA - G3 EM OV TLS CA - G3C (eMudhra Inc), CCADB A012300 SHA-256 CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C7C3F serial 296926c227a3a1526392b19482a504, issuer emSign Root TLS CA - G3 EM DV TLS CA - G3C (eMudhra Inc), CCADB A012294 SHA-256 0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C30934D19 serial 588b2e3c2bb8cda13e1a1209254321, issuer emSign Root TLS CA - G3 EM OV CS CA - G3B (eMudhra BV), CCADB A012306 SHA-256 9E39DE2881273ACC225A149C72BA3E0F51424963669AB633EE1DC7DF5DB067B4 serial 7818933f8f85b4619a2b35fba83d0a, issuer emSign Root CS CA - G3 EM OV CS CA - G3C (eMudhra Inc), CCADB A012298 SHA-256 4B2460A466F95FD40113BCDCCA2CEB29B3B093921DE45474DA7DF48874C630B1 serial 544b7f922c31ae220a4a922916f6e6, issuer emSign Root CS CA - G3 CVE-2026-111943 Unlike languages that defer entirely to external dynamic system libraries (like OpenSSL), the Go programming runtime implements its own X.509 chain verification engine in the standard library (crypto/x509). While Go usually queries platform certificates, several platforms or static container environments rely on embedded or legacy root certificate pools where certificate revocations are ignored. To eliminate exploitation across the entire cloud-native ecosystem including Docker, Kubernetes, Terraform, and Prometheus, the Go team designated the compromised certificates as a vulnerability, CVE-2026-111943, and released Go versions 1.27.3 and 1.26.10. The fixed versions filter out chains containingthe SHA-256 hashes of the SubjectPublicKeyInfo (SPKI) for all eight compromised eMudhra intermediate certificates. Impact These compromised certificates could allow adversaries to impersonate servers and intercept or modify traffic. The impact of their exposure is far more than just web browsers. Other programs that check for TLS certificates might still be impacted since they may not check revocation lists. One clear example is related to virtual private networks (VPNs); these technologies will likely require software updates to mitigate the issue. Based on this guidance, Talos strongly recommends users update software using and handling TLS certificates as fixes become available. Talos is actively monitoring the impact of these compromised certificates and has not seen any malicious incidents involving them in the wild yet (as of October 21, 2026 14:00 UTC / 10:00 a.m. ET). Significance of this breach Public key infrastructure relies on trust being delegated through certificate chains: root CAs authorize intermediate CAs, which can issue certificates within the scope of their authority. An attacker who obtains an intermediate CA\u2019s private key may be able to issue fraudulent certificates that clients accept, subject to the intermediate certificate\u2019s constraints and each client\u2019s validation controls. In this incident, six compromised intermediates were for TLS and two were for code signing. For TLS, an attacker able to intercept or redirect a connection could use a fraudulent certificate to impersonate a server and potentially read or modify traffic if the client still trusts the affected key and no applicable protection blocks it. Protections such as revocation, key distrust, certificate transparency enforcement, and certificate pinning can prevent or expose such an attack. Browser vendors have blocked the affected TLS keys, but other applications may rely on separate trust stores or validation paths: Enterprise infrastructure and VPNs Organizations should assess TLS-using software and appliances, including proxies, reverse load balancers, VPN clients, and gateways. Exposure depends on the certificate chain being validated and the trust store and revocation behavior in use. A stale or separately managed trust store may need an application, operating-system, firmware, or trust-bundle update; verify the required action for each product. Software supply chains and CI/CD Build runners and package managers may be exposed if they fetch content over TLS while still trusting an affected key and an attacker can intercept the connection. A fraudulent TLS certificate could enable registry impersonation, but it would not by itself bypass separate package integrity checks, such as lockfile hashes, checksums, signatures, or provenance controls. Assess the actual package-manager configuration and dependency path. Industrial IoT and embedded systems Review devices that use bundled or independently managed CA stores, especially where certificate revocation or trust-store updates may be limited. Some devices may require a vendor update or compensating control, but the necessary action depends on each device\u2019s validation and update mechanisms. Talos recommends updating affected software and trust stores as vendor fixes become available. Coverage The following SNORT\u00ae SIDs provide coverage for this threat: 67363 - 67374. Talos would like to highlight the efforts of Chris Morrison for providing emergency coverage and mitigations for this threat.",
+      "detail": "Cisco Talos is aware of eight compromised intermediate certificates belonging to the intermediate certificate authority, eMudhra . Rather than possessing the mandatory 384 bits of pseudo-random security, several private keys evaluated single-digit and double-digit integers. This misconfiguration allows an attacker with the private key of any of the compromised intermediate CAs to impersonate any website or service. Six of the TLS certificates, trusted by Chrome, Mozilla, and Apple have been blocked by these vendors already. Two other certificates, used for codesigning by Microsoft, have also been blocked. Talos expects there will be additional patches available across a variety of technologies as software applications work to remediate the certificates\u2019 exposure. Following the disclosure, eMudhra has revoked the compromised certificates and stopped issuing new certificates under its G3 root. Compromise details The cause of this issue, originated during an April 30, 2025 key generation activity conducted by eMudhra under its emSign Root TLS CA - G3 and cross-signed Comodo AAA Certificate Services. During a key generation ceremony for 24 subordinate CAs, a flaw in eMudhra\u2019s key generation process created a second set of weak P-384 keys during a wrap/unwrap step. Those keys were mistakenly used for eight intermediate CA certificates. This flaw took the encryption from 384 bytes of entropy down to 3 \u2013 8, making recovering the private keys trivial. The following are the impacted certificates, as illustrated in Mozilla\u2019s bug report : EM EV TLS CA - G3B (eMudhra BV), CCADB A012304 SHA-256 E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA75184333838 serial c7c41efe92d825f05eae841a4a82c1, issuer emSign Root TLS CA - G3 EM OV TLS CA - G3B (eMudhra BV), CCADB A012308 SHA-256 98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833BC25B serial 6cada367fb1c100088120ea202d568, issuer emSign Root TLS CA - G3 EM DV TLS CA - G3B (eMudhra BV), CCADB A012302 SHA-256 42C4ACCD12C4F59597925E1A08A7A90102608543809308D50EC427E118BA1493 serial a4aee678f23362b4c0e460b772f214, issuer emSign Root TLS CA - G3 EM EV TLS CA - G3C (eMudhra Inc), CCADB A012296 SHA-256 432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D0261F3 serial 8009928a64107601af05fa2f19f109, issuer emSign Root TLS CA - G3 EM OV TLS CA - G3C (eMudhra Inc), CCADB A012300 SHA-256 CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C7C3F serial 296926c227a3a1526392b19482a504, issuer emSign Root TLS CA - G3 EM DV TLS CA - G3C (eMudhra Inc), CCADB A012294 SHA-256 0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C30934D19 serial 588b2e3c2bb8cda13e1a1209254321, issuer emSign Root TLS CA - G3 EM OV CS CA - G3B (eMudhra BV), CCADB A012306 SHA-256 9E39DE2881273ACC225A149C72BA3E0F51424963669AB633EE1DC7DF5DB067B4 serial 7818933f8f85b4619a2b35fba83d0a, issuer emSign Root CS CA - G3 EM OV CS CA - G3C (eMudhra Inc), CCADB A012298 SHA-256 4B2460A466F95FD40113BCDCCA2CEB29B3B093921DE45474DA7DF48874C630B1 serial 544b7f922c31ae220a4a922916f6e6, issuer emSign Root CS CA - G3 CVE-2026-111943 Unlike languages that defer entirely to external dynamic system libraries (like OpenSSL), the Go programming runtime implements its own X.509 chain verification engine in the standard library (crypto/x509). While Go usually queries platform certificates, several platforms or static container environments rely on embedded or legacy root certificate pools where certificate revocations are ignored. To eliminate exploitation across the entire cloud-native ecosystem including Docker, Kubernetes, Terraform, and Prometheus, the Go team designated the compromised certificates as a vulnerability, CVE-2026-111943, and released Go versions 1.27.3 and 1.26.10. The fixed versions filter out chains containingthe SHA-256 hashes of the SubjectPublicKeyInfo (SPKI) for all eight compromised eMudhra intermediate certificates. Impact These compromised certificates could allow adversaries to impersonate servers and intercept or modify traffic. The impact of their exposure is far more than just web browsers. Other programs that check for TLS certificates might still be impacted since they may not check revocation lists. One clear example is related to virtual private networks (VPNs); these technologies will likely require software updates to mitigate the issue. Based on this guidance, Talos strongly recommends users update software using and handling TLS certificates as fixes become available. Talos is actively monitoring the impact of these compromised certificates and has not seen any malicious incidents involving them in the wild yet (as of October 21, 2026 14:00 UTC / 10:00 a.m. ET). Significance of this breach Public key infrastructure relies on trust being delegated through certificate chains: root CAs authorize intermediate CAs, which can issue certificates within the scope of their authority. An attacker who obtains an intermediate CA\u2019s private key may be able to issue fraudulent certificates that clients accept, subject to the intermediate certificate\u2019s constraints and each client\u2019s validation controls. In this incident, six compromised intermediates were for TLS and two were for code signing. For TLS, an attacker able to intercept or redirect a connection could use a fraudulent certificate to impersonate a server and potentially read or modify traffic if the client still trusts the affected key and no applicable protection blocks it. Protections such as revocation, key distrust, certificate transparency enforcement, and certificate pinning can prevent or expose such an attack. Browser vendors have blocked the affected TLS keys, but other applications may rely on separate trust stores or validation paths: Enterprise infrastructure and VPNs Organizations should assess TLS-using software and appliances, including proxies, reverse load balancers, VPN clients, and gateways. Exposure depends on the certificate chain being validated and the trust store and revocation behavior in use. A stale or separately managed trust store may need an application, operating-system, firmware, or trust-bundle update; verify the required action for each product. Software supply chains and CI/CD Build runners and package managers may be exposed if they fetch content over TLS while still trusting an affected key and an attacker can intercept the connection. A fraudulent TLS certificate could enable registry impersonation, but it would not by itself bypass separate package integrity checks, such as lockfile hashes, checksums, signatures, or provenance controls. Assess the actual package-manager configuration and dependency path. Industrial IoT and embedded systems Review devices that use bundled or independently managed CA stores, especially where certificate revocation or trust-store updates may be limited. Some devices may require a vendor update or compensating control, but the necessary action depends on each device\u2019s validation and update mechanisms. Talos recommends updating affected software and trust stores as vendor fixes become available. Coverage The following SNORT\u00ae SIDs provide coverage for this threat: 67363 - 67374. Talos would like to highlight the efforts of Chris Morrison for providing emergency coverage and mitigations for this threat.",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Cisco Talos",
       "published": "2026-10-21T20:43:29+00:00"
-    },
-    {
-      "title": "Two critical RCEs in PHP core",
-      "url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-      "feed_id": "6ad86c82bfc9520001b38f32",
-      "date": "Wed, 21 Oct 2026 15:10:53 GMT",
-      "detail": "Cisco Talos is tracking the disclosure of two unauthenticated remote code execution (RCE) flaws in PHP core, dubbed \u201cphp2shell\u201d, triggered by a plain HTTP request and exploitable before any application code runs, affecting every PHP build since 5.4. Based on the entities involved in the disclosure, artificial intelligence and associated technologies played a key role in the discovery of these vulnerabilities \u2014 yet another example of how these technologies are forcing change across the landscape, most notably on patching processes for organizations because of the wave of vulnerabilities being disclosed. Cisco customers are covered with the Cisco Talos Network Intrusion Prevention (SNORT\u00ae) signatures 67359 and 67360. These rules are also available in the Community Ruleset for open-source customers. Please refer to the following recommendations, detection, and coverage guidance for more information. Details CVE-2026-109618 and CVE-2026-109619 are both critical vulnerabilities with a CVSS v4.0 score of 9.2. CVE-2026-109618 occurs when out-of-memory handling interrupts PHP while internal request data is only partially initialized. Request cleanup may then treat invalid data as valid. CVE-2026-109619 occurs when a stale internal state is reused after its backing memory has already been freed, before normal initialization resets it. Impact The potential blast radius is enormous and extends across the PHP ecosystem. The vulnerability sits in PHP core, so applications running affected versions \u2014 including WordPress, Drupal, Magento, Shopware, WooCommerce, and Laravel, plus PHP sites hosted through cPanel or Plesk \u2014 may be exposed. Note that many older branches will no longer receive fixes, so customers are urged to upgrade to a supported version as soon as possible. Talos regularly investigates threat actor exploitation of vulnerabilities. State-sponsored and affiliated threat actors, as well as ransomware and other financially motivated groups, all employ tactics to exploit RCE. Talos assesses that all industries running PHP applications are at risk for exploitation if systems remain unpatched. PHP 8.1 and older are end of life (EOL), and PHP 8.2 security support ends Dec. 31, 2026. Talos\u2019 initial estimates based on open-source intelligence show a significant corpus of PHP systems that will not receive a patch (~50%). If your organization is running PHP 8.1 or older, Talos very strongly advises immediate update to PHP 8.2 or later. There is no patch for PHP 8.1 or older. Talos is actively monitoring the impact of these CVEs and has not seen them being exploited in the wild yet (as of October 21, 2026 14:00 UTC/10:00 a.m. ET). Recommendations and detection guidance Talos strongly recommends all PHP users to upgrade to the available fixed releases . There are no intermediate or temporary controls that provide comprehensive protection; however, PHP advises that the following measure may reduce exposure to specific attack paths: CVE-2026-109618 Set memory_limit=-1, preferably in a way applications can't override, such as php_admin_value in the FPM pool or Apache configuration, and check that no pool, directory or application setting puts a finite limit back. This removes the controllable PHP memory limit failure, but an underlying allocation failure can still reach the vulnerable path. Set a low post_max_size. For applications that don't require file uploads, set post_max_size = 8M. If file uploads are necessary, set post_max_size = 32M. Keep upload_max_filesize below post_max_size. Consider enforcing limits at the web server or proxy level for decoded request size, input field count, multipart part count, header count, and nesting depth. These limits must also cover requests without a usable Content-Length. Use a container or cgroup limit as an availability boundary, preferably with a policy that kills only the affected worker. Do not substitute RLIMIT_AS or RLIMIT_DATA, as these can cause the vulnerable allocation failure. CVE-2026-109619 Set session.upload_progress.enabled=0 and restart every worker. Use php.ini, an FPM pool, or server configuration that applies before request parsing. Do not rely on ini_set() or FPM .user.ini. This blocks the confirmed session paths but not other variants. On PHP 8.5, set fatal_error_backtraces=0 and restart every worker. This blocks the confirmed fatal backtrace path only. Remove invalid or deprecated settings applied per request that emit diagnostics before initialization. Hiding diagnostics with error_reporting, display_errors, or @ does not help. Fix attacker-reachable fatal errors and execution timeouts, including failures in callbacks, upload or import processing, and cleanup. This is another vulnerability that owes its origin to AI and its associated technologies. As we move through 2026, the wave of vulnerabilities and related patches is building. Talos advises organizations to work on a triaged process for prioritizing vulnerabilities with a specific focus on public-facing systems and vulnerabilities that are under active exploitation. The glaring need to prioritize vulnerabilities along with a streamlined process for rolling out patching strongly indicates that the historic trend of \u201cbaking in\u201d patches before deployment is not going to survive the AI era. The true impact of this vulnerability will take time to evaluate. These types of vulnerabilities that impact core technologies tend to cascade into other platforms and applications as they evaluate impact and provide associated patching, harkening back to the waves of exploitation that we saw after Log4J. Coverage SNORT\u00ae SIDs covering these vulnerabilities for subscribers: 67359, 67360, 67375. Free community rules are live through our Community Ruleset . Talos would like to highlight the efforts of Ankur Tyagi, Dalton Schaadt, Brandon Stultz, and Matt Killion for providing emergency coverage and mitigations for these threats.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-10-21T15:10:53+00:00"
     },
     {
       "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
@@ -58,26 +47,26 @@
       "published": "2026-10-21T18:23:55+00:00"
     },
     {
-      "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
-      "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=188799",
-      "date": "Wed, 21 Oct 2026 16:30:34 +0000",
-      "detail": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared first on Unit 42 .",
+      "title": "EMudhra Intermediate CA Certificates Compromised",
+      "url": "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188944",
+      "date": "Thu, 22 Oct 2026 17:15:32 +0000",
+      "detail": "Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Unit 42",
-      "published": "2026-10-21T16:30:34+00:00"
+      "published": "2026-10-22T17:15:32+00:00"
     },
     {
-      "title": "\u201cNext Exploit Opportunities\u201d: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-      "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=188690",
-      "date": "Wed, 21 Oct 2026 14:00:24 +0000",
-      "detail": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post \u201cNext Exploit Opportunities\u201d: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .",
+      "title": "The Current Landscape of OAuth Attacks",
+      "url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188831",
+      "date": "Thu, 22 Oct 2026 17:00:25 +0000",
+      "detail": "Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Unit 42",
-      "published": "2026-10-21T14:00:24+00:00"
+      "published": "2026-10-22T17:00:25+00:00"
     },
     {
       "title": "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia",
@@ -91,15 +80,48 @@
       "published": "2026-10-22T06:00:48+00:00"
     },
     {
-      "title": "Critical RCE vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619)",
-      "url": "https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/",
-      "feed_id": "https://kasperskycontenthub.com/securelist/?post_type=threat_response&p=121596",
-      "date": "Wed, 21 Oct 2026 15:18:04 +0000",
-      "detail": "UPD 22.10.2026 : added a description of how Kaspersky Vulnerability Management detects vulnerable versions of PHP. Vulnerability overview On October 20, 2026, the PHP security team published a preliminary notice regarding an upcoming emergency release that addresses two critical vulnerabilities (both rated 9.2 on the CVSS scale). The patches were released on Wednesday, October 21, 2026, at 14:00 UTC. The release was expedited after information about the vulnerabilities was leaked to the public before the scheduled embargo was lifted. In a post on Hacker News, a user reported two RCE vulnerabilities in PHP, allegedly affecting all versions starting with PHP 5.4.0. The vulnerabilities in question are CVE-2026-109618 and CVE-2026-109619. Shortly after the post appeared, researchers confirmed the existence of the vulnerabilities. Along with the leak of details, an exploit unofficially named PHP2Shell appeared online. In the leaked demo video, the exploit is shown in action on web servers running WordPress, MediaWiki, phpBB, Magento, Joomla, Laravel, Symfony, Drupal, and WHMCS \u2014 platforms that power many modern websites. The authenticity of the demonstration and the exact behavior of the exploit had not been independently verified at the time of publication. According to the researcher who published the PoC, the vulnerabilities are related to the handling of the multipart/form-data MIME type in conjunction with the session upload progress mechanism ( session.upload_progress ) in the PHP core and fall under the categories of use-after-free and memory corruption. This means that the flaws cannot be patched via application code, and the only possible fix is to update PHP on the server. The attack works without authentication: an attacker with network access to a PHP application can execute arbitrary code on behalf of the PHP process without needing to authenticate. Security advisories issued by PHP on October 21 confirm this information. The vulnerabilities affect PHP versions 5, 6, 7, and 8. As of this publication, branches from 8.2 to 8.5 are supported. Older branches, including PHP 8.1, 8.0, 7.x, and 5.x, have reached the end of their lifecycle; however, due to the critical severity of the vulnerabilities, backported patches have also been released for versions 7.4, 8.0, and 8.1. Sansec experts estimate that widespread exploitation could begin within 15 minutes of the update\u2019s release. We strongly recommend that administrators responsible for publicly accessible PHP web servers take the following steps before the patch is available: Conduct an inventory of all PHP-based systems in the infrastructure (including web servers, control panels, third-party software, etc.). Disable upload-progress: set session.upload_progress.enabled = Off using the php_admin_flag in PHP-FPM pools. Block multipart requests on nginx and Apache servers. Consider temporarily isolating PHP applications that connect to the Internet until fixes are released. Ensure readiness to install the patch immediately upon its release. Plan to migrate servers running unsupported versions (8.1 and earlier) to the latest PHP branch. Detection by Kaspersky solutions Kaspersky solutions detect the described malicious activity at various stages of the attack. Possible detection scenarios are listed below. When an attempt is made to exploit these RCE vulnerabilities, Kaspersky Endpoint Detection and Response promptly alerts the user to suspicious actions performed in the context of a web server, on both Linux and Windows machines. This activity is detected by the following rules: creating_windows_shell_from_a_web_servers_process ; possible_web_shell_creating_via_exploit ; spawning_process_from_webserver_more_filters_linux ; webserver_interpreter_execution_linux ; executable_file_in_www_folder . Detection of the PHP2Shell vulnerability exploit by KEDR Exploitation of the PHP2Shell vulnerability in network traffic is detected by Kaspersky Anti Targeted Attack (KATA) . This solution detects such activity with the following verdicts: Exploit.CVE-2026-109618.HTTP.C&C and Exploit.CVE-2026-109619.HTTP.C&C . Detection of the PHP2Shell vulnerability exploit by KATA Kaspersky Endpoint Security, now available as Kaspersky Next , also detects malicious post-exploitation activity using the Behavior Detection component , such as PDM:Exploit.Linux.Generic and PDM:Exploit.Win32.Generic. Our Kaspersky Vulnerability Management solution detects vulnerable software versions using the Vulnerability scanning component. Detection of the PHP vulnerability in Kaspersky Vulnerability Management",
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "date": "Thu, 22 Oct 2026 13:18:22 -0400",
+      "detail": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Securelist",
-      "published": "2026-10-21T15:18:04+00:00"
+      "source": "BleepingComputer",
+      "published": "2026-10-22T17:18:22+00:00"
+    },
+    {
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "date": "Thu, 22 Oct 2026 11:49:32 -0400",
+      "detail": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T15:49:32+00:00"
+    },
+    {
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "date": "Thu, 22 Oct 2026 10:02:12 -0400",
+      "detail": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T14:02:12+00:00"
+    },
+    {
+      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "date": "Thu, 22 Oct 2026 09:09:12 -0400",
+      "detail": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T13:09:12+00:00"
     },
     {
       "title": "GitLab warns of new max severity code execution vulnerability",
@@ -113,48 +135,48 @@
       "published": "2026-10-22T11:41:48+00:00"
     },
     {
-      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-      "date": "Thu, 22 Oct 2026 04:27:11 -0400",
-      "detail": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "feed_id": "https://www.securityweek.com/?p=50243",
+      "date": "Thu, 22 Oct 2026 14:31:34 +0000",
+      "detail": "Corey Thuen hires hackers for what he calls \u2018the evil bit\u2019 \u2014 an adversarial streak he believes is either there or it isn\u2019t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-22T08:27:11+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-22T14:31:34+00:00"
     },
     {
-      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-      "date": "Wed, 21 Oct 2026 18:16:26 -0400",
-      "detail": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "feed_id": "https://www.securityweek.com/?p=50241",
+      "date": "Thu, 22 Oct 2026 13:00:00 +0000",
+      "detail": "The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-21T22:16:26+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-22T13:00:00+00:00"
     },
     {
-      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-      "date": "Wed, 21 Oct 2026 17:43:27 -0400",
-      "detail": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
+      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+      "feed_id": "https://www.securityweek.com/?p=50233",
+      "date": "Thu, 22 Oct 2026 12:34:31 +0000",
+      "detail": "Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-21T21:43:27+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-22T12:34:31+00:00"
     },
     {
-      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-      "date": "Wed, 21 Oct 2026 16:31:48 -0400",
-      "detail": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50231",
+      "date": "Thu, 22 Oct 2026 12:20:23 +0000",
+      "detail": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-21T20:31:48+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-22T12:20:23+00:00"
     },
     {
       "title": "Splunk, SolarWinds Release Fresh Security Updates",
@@ -168,103 +190,70 @@
       "published": "2026-10-22T10:45:24+00:00"
     },
     {
-      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
-      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
-      "feed_id": "https://www.securityweek.com/?p=50227",
-      "date": "Thu, 22 Oct 2026 10:05:21 +0000",
-      "detail": "Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks. The post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-22T10:05:21+00:00"
-    },
-    {
-      "title": "PHP2Shell Exploitation Started Days Before Patches",
-      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
-      "feed_id": "https://www.securityweek.com/?p=50225",
-      "date": "Thu, 22 Oct 2026 09:48:58 +0000",
-      "detail": "Initial attempts were observed on October 17, and mass activity began shortly after patches were released. The post PHP2Shell Exploitation Started Days Before Patches appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-22T09:48:58+00:00"
-    },
-    {
-      "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
-      "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
-      "feed_id": "https://www.securityweek.com/?p=50220",
-      "date": "Thu, 22 Oct 2026 07:38:14 +0000",
-      "detail": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-22T07:38:14+00:00"
-    },
-    {
-      "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
-      "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
-      "feed_id": "https://www.securityweek.com/?p=50218",
-      "date": "Thu, 22 Oct 2026 07:26:54 +0000",
-      "detail": "The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019. The post Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-22T07:26:54+00:00"
-    },
-    {
-      "title": "SGLA (Schwartz, Giannini, Lantsberger & Adamson) By space bears",
-      "url": "https://www.ransomlook.io//group/space%20bears",
-      "feed_id": "fcbccf21872d82c8570c7faec152a14127da5a820237a68a0ed10a85bcdfe528",
-      "date": "Thu, 22 Oct 2026 10:23:08 GMT",
-      "detail": "Schwartz, Giannini, Lantsberger & Adamson (SGLA) Accountancy Corporation is a full-service certified public accounting firm based in Stockton, California, founded in 1988. The firm provides tax planning and compliance, audits, reviews and compilations, bookkeeping, payroll, outsourced CFO support, and business consulting for individuals and companies. It has particular experience with real estate, healthcare, nonprofits, affordable housing, common-interest realty associations, and local government clients. SGLA positions itself as a hands-on local CPA practice that combines traditional accounting work with practical advice to help clients stay compliant and grow.*After the timer expires, you will be able to freely download several fragments of the full archive for review. To purchase the complete archive, please contact our manager. https://www.sglacpas.com Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "DR.SCHNELL GmbH & Co. KGaA By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "0bd53da888c4c15f2b4b3333299c922c66f01422ad3cda4d701f01beafb0096a",
+      "date": "Thu, 22 Oct 2026 17:20:45 GMT",
+      "detail": "DR.SCHNELL GmbH & Co. KGaA DR.SCHNELL GmbH & Co. KGaA \ufffd full network dump. 175,151 files / 2.52 TB.1.2+ TB of Navision/Business Central ERP backups - full commercial history (clients, pricing, procurement).Complete HR & payroll for Germany, Switzerland, Austria: home addresses, personal emails, payslips with social-security and tax IDs, long-term sick lists (GDPR Art. 9 data).Family-office accounting: signed annual statements of dozens of related entities, bank statements, a EUR 35M credit-line agreement.CEO's personal dossier: valid passport, ID card, tax ID, 11 years of signed tax returns.Access material: TLS private keys for *.dr-schnell.de, ~120 Elster tax certificates, O365 admin password, password lists. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-22T10:23:08+00:00"
+      "published": "2026-10-22T17:20:45+00:00"
     },
     {
-      "title": "Hecker Holzsystembau By lamashtu",
-      "url": "https://www.ransomlook.io//group/lamashtu",
-      "feed_id": "e62ee6695f7db33595eb02cb63805c9759956d89e9a4424cfbfbdcebe9873f57",
-      "date": "Thu, 22 Oct 2026 10:22:43 GMT",
-      "detail": "hecker-hsb.de - German construction company specializing in custom timber houses, sustainable wood construction, and prefabricated buildings. It offers complete project planning, roofing, extensions, renovations, and turnkey solutions for residential, commercial. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Airtificial By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "20e5562c475edc5829fd931516780b6ecc7da482ee1ab55f9a447886e152626c",
+      "date": "Thu, 22 Oct 2026 17:20:42 GMT",
+      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-22T10:22:43+00:00"
+      "published": "2026-10-22T17:20:42+00:00"
     },
     {
-      "title": "Linebarger Goggan Blair & Sampson By everest",
+      "title": "Kirkland & Ellis LLP By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "bca26bbf8e1d4bfc88ee2c5f9999f89cee3939d7bfc7937831c0f0c415db5a55",
+      "date": "Thu, 22 Oct 2026 17:20:18 GMT",
+      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-22T17:20:18+00:00"
+    },
+    {
+      "title": "PWC By everest",
       "url": "https://www.ransomlook.io//group/everest",
-      "feed_id": "18b7ea4d47ef001663bcba51de3fc8b144b23719b31a5928e186516d7eb14bd2",
-      "date": "Thu, 22 Oct 2026 10:22:39 GMT",
-      "detail": "2 posts - 5h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "0c6e541a3536ce9ff46a115a91e07646d1bc2e1c379801bbc0e2583bbbf4a427",
+      "date": "Thu, 22 Oct 2026 17:20:13 GMT",
+      "detail": "2 posts - 1h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-22T10:22:39+00:00"
+      "published": "2026-10-22T17:20:13+00:00"
     },
     {
-      "title": "Company #109 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "23730c5379a55cec614bc3c80fec4a04ccedb3781045da81a55aaeb42e9a9137",
-      "date": "Thu, 22 Oct 2026 09:32:09 GMT",
-      "detail": "plumbing and kitchen products distribution \u00b7 Cincinnati, Ohio, United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Barrow & Grimm \ud83c\uddfa\ud83c\uddf8 By bravox",
+      "url": "https://www.ransomlook.io//group/bravox",
+      "feed_id": "77ccec0ab798410c6a0fd473bf727753e9c084aa7b5367421b85df50f790a65d",
+      "date": "Thu, 22 Oct 2026 17:20:07 GMT",
+      "detail": "Legal Services, Business Litigation and Corporate Law. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-22T09:32:09+00:00"
+      "published": "2026-10-22T17:20:07+00:00"
     },
     {
-      "title": "Company #108 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "bbc48bfb7e3806dba16a65f9ffb2ee01c10c4e147444ca6658bbb54803179a44",
-      "date": "Thu, 22 Oct 2026 09:32:08 GMT",
-      "detail": "media production (audio description and accessibility media) \u00b7 Montreal, Quebec, Canada Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "DR.SCHNELL GmbH & Co. KGaA (rhysida)",
+      "url": "https://cti.fyi/groups/rhysida.html",
+      "feed_id": "4987e9d6233d791e64d9a181e72a7648",
+      "date": "Thu, 22 Oct 2026 15:02:38 +0000",
+      "detail": "Intelligence Summary: A German company that provides exclusive data services and a data marketplace. Threat Syndicate: rhysida Claimed Victim: DR.SCHNELL GmbH & Co. KGaA Target Domain: drschnell.com Industry Sector: Professional Services Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-22 15:02:38.799513 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#dr-schnell-gmbh-co-kgaa Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-22T09:32:08+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-22T15:02:38+00:00"
     }
   ],
   "sources": [
@@ -292,8 +281,8 @@
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -320,8 +309,8 @@
     {
       "source": "Securelist",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -348,22 +337,22 @@
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 10,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 47,
+      "recent": 45,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     }
   ]
