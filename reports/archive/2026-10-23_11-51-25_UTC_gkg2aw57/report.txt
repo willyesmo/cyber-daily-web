@@ -1,0 +1,164 @@
+CYBER DAILY — 2026-10-23 11:51 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+24 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)
+SANS Internet Storm Center | Research / advisory | 2026-10-23T10:25:11+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33448
+
+I had plans for that second
+Cisco Talos | Research / advisory | 2026-10-22T18:04:32+00:00
+Welcome to this week’s edition of the Threat Source newsletter. Here for the latest on the PHP vulnerabilities? Head on down to ‘The One Big Thing’. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset. But if you want a bit of levity, here’s what I wrote before everything kicked off yesterday: Ever feel like the world is moving too fast to keep up? Well, I bring you scientific proof that it’s not just you. For millions of years, the moon has been slowing down the Earth’s rotation. But over the past decade, we’ve been speeding up (I KNEW I was aging faster than before). Apparently, changes in the Earth’s core are involved (either that, or the 1978 Superman film was a documentary). This is all causing massive headaches for the people responsible for keeping time. They’re officially called “The International Bureau of Weights and Measures”, but I’m going to call them “The Time-Keepers”. For nerd reasons). The issue is that the atomic clocks that power so many of our systems, and the rotation of our planet, don’t always agree. Atomic clocks keep extremely consistent time, while each Earth day is rarely the same length as the next. Atomic timekeeping absolutely cannot stand that level of flexibility (have a watch of our “The Light We Keep” documentary to see the importance that accurate clocks have on critical infrastructure). To keep Coordinated Universal Time (UTC), which is based on atomic clocks, aligned with Earth’s rotation, we introduced a “leap second” in 1972. This system allows for an extra second to be added, or taken away, when we stray too far from atomic time. A few days ago, The Time-Keepers voted to officially abolish the leap second. Why? Well, there’s a few parts to it. For the past 54 years, we’ve never once had a second removed from our lives. They’ve always been added (27 of them to be precise). I myself have experienced 20 of these extra seconds. If I’d have known that, I’d have used them more wisely. Like thinking before saying, “Love you too!” to the post-person this morning. That added time, while it seems nice to have on the surface, can wreak havoc with our modern technology systems. In 2012, the extra second caused so much confusion that it crashed Reddit, among other systems. The recent speeding-up of the Earth’s rotation complicates things further. If we keep going at this rate, it could result in the world’s first ever “negative second”. If you thought our technology systems struggled with added time, there are a lot of sciency brains who are very worried about the impact of taking time away. One of those concerns being… it’s never been done before. So, what’s The Time-Keeper’s solution? Invent more time! Woooo. Starting next May, the leap second will be replaced with a "leap hour," allowing UTC to diverge from Earth's rotation by up to an hour before a correction is made. None of us will get to experience that extra hour in our lifetimes, but our Great, Great, Great, Great, Great, Great, Great, Great, Great, Great, Great grandchildren are going to have one hell of a party. For us current mortals, we’re all getting a little less time, and we’re hurtling through space a little faster. Happy Thursday! But I guess I do want to make the point that I’m glad the risk has been thoroughly assessed ahead of, ahem, time. The Time-Keepers have decided that the world’s infrastructure should not have to find out how it handles a missing second by collectively experiencing one. And I don’t even want to think about how all the AIs would cope with a negative second… There’s something here for incident response planning. “It’s never happened before” is an excellent reason to test whether you’re ready for it. Run the exercise. Find out which part of your plan depends on something that, in this scenario, is also broken. Preferably before an adversary gets to supervise the practical demonstration. Now, if only the Time-Keepers can abolish Daylight Savings Time next... The one big thing Two unauthenticated remote code execution (RCE) flaws were discovered in PHP, rocking the internet. Dubbed "php2shell" and triggered by a simple HTTP request, this vulnerability affects every build since 5.4. Talos assesses that all industries running PHP applications are at risk for exploitation if systems remain unpatched. Why do I care? PHP runs WordPress, Drupal, Magento, Shopware, WooCommerce, and many other ubiquitous internet staples, so the possible blast radius is enormous. Older branches are end of life (EOL) and will not receive patches; these could account for around 50% of use cases. So now what? Cisco customers are covered with the Cisco Talos Network Intrusion Prevention (SNORT®) signatures 67359 and 67360. If your organization is running PHP 8.1 or older, Talos very strongly advises immediate update to PHP 8.2 or later. There is no patch for PHP 8.1 or older. See the article for more specific coverage and detection guidance. See an interview with Nick Biasini on php2shell defense: Top security headlines of the week 'PHP2Shell' Bugs Signal Red Alert for Security Industry Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts. ( Dark Reading ) I NC and The Gentlemen Ransomware Affiliates expose 8,257 AI messages SOCRadar has found seven exposed servers linked to INC and The Gentlemen ransomware affiliates, holding AI chats, stolen credentials and 46 encryptor builds. ( Hack Read ) T he AI hacking apocalypse is not inevitable While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices. ( Cyberscoop ) ‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold.( SecurityWeek ) Can’t get enough Talos? Compromised eMudhra intermediate certificates Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra. Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing, payment and other services to reach their targets. There's only so much code: the rise in vulnerability numbers The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? And what does the future look like? Upcoming events where you can find Talos CAMLIS (Oct. 21 – 23) Arlington, VA SecurityOnion Conference (Oct. 23) Augusta, GA BsidesAugusta (Oct. 24) Augusta, GA SAINTCON (Oct. 26 – 30) Provo, UT CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 – 4) Hyderabad, India Black Hat Europe (Dec. 7 – 10) London, U.K. Most prevalent malware files from Talos telemetry over the past week SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 Example Filename:sample.exe Detection Name: W32.9F1F11A708-100.SBX.TG SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f MD5: cca616647db9370c88998ae25da6997f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f Example Filename:cca616647db9370c88998ae25da6997f.exe Detection Name: Win.Tool.Kmsauto::1201 SHA256: 985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9 MD5: 485055033bcddfde56325c0d2feea4f2 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9 Example Filename:485055033bcddfde56325c0d2feea4f2.exe Detection Name: Win.Tool.Kmsauto::1201 SHA256: d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1 MD5: 0c883b1d66afce606d9830f48d69d74b Talos Rep: https://talosintelligence.com/talos_file_reputation?s=d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1 Example Filename:d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1.exe Detection Name: Win.Worm.Zard::95.sbx.tg
+CVEs: Not stated in feed
+https://blog.talosintelligence.com/i-had-plans-for-that-second/
+
+EMudhra Intermediate CA Certificates Compromised
+Unit 42 | Research / advisory | 2026-10-22T17:15:32+00:00
+Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .
+CVEs: Not stated in feed
+https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/
+
+The Current Landscape of OAuth Attacks
+Unit 42 | Research / advisory | 2026-10-22T17:00:25+00:00
+Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .
+CVEs: Not stated in feed
+https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/
+
+Railway warns devs to rotate secrets after potential breach
+BleepingComputer | Research / advisory | 2026-10-22T21:25:31+00:00
+Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/
+
+Capcom confirms data breach affecting 11.7 million accounts
+BleepingComputer | Research / advisory | 2026-10-22T20:22:45+00:00
+Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/
+
+LiteLLM release pipeline hacked to distribute info-stealer malware
+BleepingComputer | Research / advisory | 2026-10-22T19:12:51+00:00
+Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
+
+Arista patches new VeloCloud Orchestrator zero-day exploited in attacks
+BleepingComputer | Research / advisory | 2026-10-22T17:18:22+00:00
+Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/
+
+Microsoft shares how to fix broken Exchange Online EWS apps
+BleepingComputer | Research / advisory | 2026-10-22T15:49:32+00:00
+Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/
+
+China APT Uses AI Pentest Tool Artex in ConnectWise Attacks
+SecurityWeek | Research / advisory | 2026-10-23T10:31:16+00:00
+The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/
+
+Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months
+SecurityWeek | Research / advisory | 2026-10-23T09:58:34+00:00
+The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/
+
+11 Million Impacted by Capcom Data Breach
+SecurityWeek | Research / advisory | 2026-10-23T08:34:14+00:00
+The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/
+
+Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’
+SecurityWeek | Research / advisory | 2026-10-23T08:25:06+00:00
+In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’ appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/
+
+LiteLLM Compromised in Fresh Supply Chain Attack
+SecurityWeek | Research / advisory | 2026-10-23T08:10:46+00:00
+Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/
+
+Line2Line Coatings By rhysida
+RansomLook | Ransomware claim / observation | 2026-10-23T10:32:08+00:00
+Line2Line Coatings 796,433 files - 641.0 GB~20 years of email: 34 mailboxes (PST/OST), 107,279 messages, 13,068 contacts - including the president's own mailbox (4.0 GB).The entire QuickBooks history: 1,232 backups (.QBB) + 174 live company files (.QBW) for both entities, 15+ years of revenue.Full banking footprint: Chase statements, Clarkston State Bank, account and routing numbers, credit card numbers with CVV.Personal data: 3,614 Social Security Numbers; 64,907 files containing PII - W-2s of all employees, contractor 1099/W-9s, passport and driver license scans, HR files.77,118 PDFs, 66,691 Excel spreadsheets, 38,688 Word documents.Military material: SBIR/ONR/TARDEC files, CUI, patent correspondence.Customer base: Eaton (15,320 emails), GM, Chrysler, Linamar, Whipple (~50% of revenue), Honda R&D, TVS, Mercury Marine, Stihl. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/rhysida
+
+Bi-silque By majinahanashi
+RansomLook | Ransomware claim / observation | 2026-10-23T10:32:01+00:00
+PENDING Publication scheduled: 2026-10-26T07:56:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/majinahanashi
+
+Coop Italia By qilin
+RansomLook | Ransomware claim / observation | 2026-10-23T09:27:52+00:00
+Grocery Retail Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+SunTechnics Fabrisolar AG By n0n
+RansomLook | Ransomware claim / observation | 2026-10-23T07:31:34+00:00
+solar energy company · Switzerland Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+B2Chat By emperador
+RansomLook | Ransomware claim / observation | 2026-10-23T03:20:00+00:00
+B2Chat is a business communication platform based in Spain that provides tools for customer support, sales, and engagement. It allows businesses to interact with customers through various channels, such as live chat, chatbots, and messaging apps (for example, WhatsApp, Facebook Messenger, and Telegram). The platform is designed to help companies streamline communication, improve response times, and enhance customer satisfaction. This leak includes sensitive financial information, employees' names, emails, and phone numbers, as well as clients' and partners' data. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. Publication scheduled: 2026-11-07 05:35:24 UTC Size: 70.5 MB Sectors: Technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/emperador
+
+EMARKETER (fulcrumsec)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T10:04:20+00:00
+Intelligence Summary: A US-based digital media research and analytics firm providing market intelligence to media and advertising companies. Threat Syndicate: fulcrumsec Claimed Victim: EMARKETER Target Domain: emarketer.com Industry Sector: Media & Entertainment Geographic Location: 🇺🇸 US Date Discovered: 2026-10-23 10:04:20.150684 Post URL: http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/emarketer Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/fulcrumsec.html
+
+Wah Chan Consolidated Sdn Bhd (Orova)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T09:56:06+00:00
+Intelligence Summary: A prominent Malaysian jewelry retailer operating more than 50 boutiques across major urban centers. Threat Syndicate: Orova Claimed Victim: Wah Chan Consolidated Sdn Bhd Target Domain: wahchan.com.my Industry Sector: Other Geographic Location: 🇲🇾 MY Date Published: 2026-10-23 09:56:06 Date Discovered: 2026-10-23 11:05:03.167814 Post URL: http://mll5ddmdzgiq2siv3qnocmmqyiigfpajtc663xtf32qtp6weycyx2hyd.onion/#wah-chan-consolidated-sdn-bhd Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/Orova.html
+
+Horn of Africa Regional Environment Centre and Network (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T08:07:15+00:00
+Intelligence Summary: An environmental NGO operating in Ethiopia that manages a donor‑funded SAP Business One ERP system. Threat Syndicate: N0n Claimed Victim: Horn of Africa Regional Environment Centre and Network Target Domain: hornofafrica.org Industry Sector: Professional Services Geographic Location: 🇪🇹 ET Date Discovered: 2026-10-23 08:07:15.228455 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#horn-of-africa-regional-environment-centre-and-network Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/N0n.html
+
+Prism Medical Products (Wallstreet)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T08:06:20+00:00
+Intelligence Summary: A U.S. provider of home medical supplies specializing in wound care, ostomy, urological, compression and other prescribed consumables. Threat Syndicate: Wallstreet Claimed Victim: Prism Medical Products Industry Sector: Healthcare Geographic Location: 🇺🇸 US Date Discovered: 2026-10-23 08:06:20.919816 Post URL: http://4dwiv37h7hhuhjpvtn72hme4ylcv3qoe65arfc6mbweal7als6ma7pyd.onion/#prism-medical-products Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/Wallstreet.html
+
+Line2Line Coatings (rhysida)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T08:04:22+00:00
+Intelligence Summary: Line2Line Coatings is a manufacturer of industrial coatings. Threat Syndicate: rhysida Claimed Victim: Line2Line Coatings Industry Sector: Manufacturing Date Discovered: 2026-10-23 08:04:22.474099 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#line2line-coatings Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/rhysida.html
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=1; shown=1; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=2; shown=2; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=7; shown=5; undated excluded=0
+SecurityWeek: OK; recent=10; shown=5; undated excluded=0
+RansomLook: OK; recent=21; shown=5; undated excluded=0
+CTI.fyi: OK; recent=13; shown=5; undated excluded=0
