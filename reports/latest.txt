@@ -1,7 +1,13 @@
-CYBER DAILY — 2026-10-23 11:51 UTC
+CYBER DAILY — 2026-10-23 17:18 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-24 entries selected. Feed excerpts, not full-article or AI analysis.
+23 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
+
+PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)
+SANS Internet Storm Center | Research / advisory | 2026-10-23T13:43:20+00:00
+This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33450
 
 ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)
 SANS Internet Storm Center | Research / advisory | 2026-10-23T10:25:11+00:00
@@ -15,47 +21,47 @@ Welcome to this week’s edition of the Threat Source newsletter. Here for the l
 CVEs: Not stated in feed
 https://blog.talosintelligence.com/i-had-plans-for-that-second/
 
-EMudhra Intermediate CA Certificates Compromised
-Unit 42 | Research / advisory | 2026-10-22T17:15:32+00:00
-Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .
+Microsoft: Windows Server 2016 reaches end of support in January
+BleepingComputer | Research / advisory | 2026-10-23T17:05:07+00:00
+Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]
 CVEs: Not stated in feed
-https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/
 
-The Current Landscape of OAuth Attacks
-Unit 42 | Research / advisory | 2026-10-22T17:00:25+00:00
-Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .
+Quest Diagnostics confirms data breach exposed patient records
+BleepingComputer | Research / advisory | 2026-10-23T16:40:07+00:00
+American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]
 CVEs: Not stated in feed
-https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/
+https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/
 
-Railway warns devs to rotate secrets after potential breach
-BleepingComputer | Research / advisory | 2026-10-22T21:25:31+00:00
-Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]
+PHP shares mitigation for new RCE vulnerability with no patch
+BleepingComputer | Research / advisory | 2026-10-23T15:38:05+00:00
+The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/
+https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/
 
-Capcom confirms data breach affecting 11.7 million accounts
-BleepingComputer | Research / advisory | 2026-10-22T20:22:45+00:00
-Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]
+You gave your AI agent access, but who is giving it orders?
+BleepingComputer | Research / advisory | 2026-10-23T14:00:10+00:00
+AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/
+https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/
 
-LiteLLM release pipeline hacked to distribute info-stealer malware
-BleepingComputer | Research / advisory | 2026-10-22T19:12:51+00:00
-Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]
+HPE patches eight max severity RCE and auth bypass AOS flaws
+BleepingComputer | Research / advisory | 2026-10-23T12:48:00+00:00
+Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
+https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/
 
-Arista patches new VeloCloud Orchestrator zero-day exploited in attacks
-BleepingComputer | Research / advisory | 2026-10-22T17:18:22+00:00
-Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]
+In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware
+SecurityWeek | Research / advisory | 2026-10-23T14:23:37+00:00
+Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/
+https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/
 
-Microsoft shares how to fix broken Exchange Online EWS apps
-BleepingComputer | Research / advisory | 2026-10-22T15:49:32+00:00
-Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]
+Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge
+SecurityWeek | Research / advisory | 2026-10-23T12:45:52+00:00
+Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet. The post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/
+https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/
 
 China APT Uses AI Pentest Tool Artex in ConnectWise Attacks
 SecurityWeek | Research / advisory | 2026-10-23T10:31:16+00:00
@@ -63,9 +69,9 @@ The state-sponsored hackers targeted hundreds of organizations and gained privil
 CVEs: Not stated in feed
 https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/
 
-Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months
+Attackers Exploit Third Arista VCO Zero-Day in Four Months
 SecurityWeek | Research / advisory | 2026-10-23T09:58:34+00:00
-The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek .
+The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek .
 CVEs: Not stated in feed
 https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/
 
@@ -75,90 +81,78 @@ The hackers stole 11 million email addresses from CAPCOM ID and changed the logi
 CVEs: Not stated in feed
 https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/
 
-Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’
-SecurityWeek | Research / advisory | 2026-10-23T08:25:06+00:00
-In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’ appeared first on SecurityWeek .
+Wah Chan Consolidated Sdn Bhd By orova
+RansomLook | Ransomware claim / observation | 2026-10-23T15:26:23+00:00
+Today, Wah Chan stands as a prominent name in Malaysia’s jewelry industry. Our extensive network boasts over 50 boutiques strategically located across key urban centers like Pahang, Selangor, Kuala Lumpur, Penang, Perak, Melaka, Negeri Sembilan, and Johor. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/
+https://www.ransomlook.io//group/orova
 
-LiteLLM Compromised in Fresh Supply Chain Attack
-SecurityWeek | Research / advisory | 2026-10-23T08:10:46+00:00
-Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .
+Trevi Technology By orova
+RansomLook | Ransomware claim / observation | 2026-10-23T15:26:22+00:00
+特雷維科技成立於2017年，特雷維這個名字來自英文Trevi，而Trevi是取自義大利羅馬著名景點「許願池-Fontana di Trevi」，我們的願望就是完成客戶的期望，甚至超乎客戶的期待。我們是個創新服務的團隊，非常重視每個細節，又具備整合性大局思考力。提供海外客戶平台，希望以先進軟體技術，整合資訊科技讓使用者有更好的體驗 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/
+https://www.ransomlook.io//group/orova
 
-Line2Line Coatings By rhysida
-RansomLook | Ransomware claim / observation | 2026-10-23T10:32:08+00:00
-Line2Line Coatings 796,433 files - 641.0 GB~20 years of email: 34 mailboxes (PST/OST), 107,279 messages, 13,068 contacts - including the president's own mailbox (4.0 GB).The entire QuickBooks history: 1,232 backups (.QBB) + 174 live company files (.QBW) for both entities, 15+ years of revenue.Full banking footprint: Chase statements, Clarkston State Bank, account and routing numbers, credit card numbers with CVV.Personal data: 3,614 Social Security Numbers; 64,907 files containing PII - W-2s of all employees, contractor 1099/W-9s, passport and driver license scans, HR files.77,118 PDFs, 66,691 Excel spreadsheets, 38,688 Word documents.Military material: SBIR/ONR/TARDEC files, CUI, patent correspondence.Customer base: Eaton (15,320 emails), GM, Chrysler, Linamar, Whipple (~50% of revenue), Honda R&D, TVS, Mercury Marine, Stihl. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Hologic, Inc. By metaencryptor
+RansomLook | Ransomware claim / observation | 2026-10-23T15:26:20+00:00
+Hologic, Inc. is a U.S.-based medical technology company specializing in women’s health. It develops and manufactures diagnostic, imaging, and surgical products, with a strong focus on breast health, gynecology, diagnostics, and osteoporosis assessment. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/rhysida
+https://www.ransomlook.io//group/metaencryptor
 
-Bi-silque By majinahanashi
-RansomLook | Ransomware claim / observation | 2026-10-23T10:32:01+00:00
-PENDING Publication scheduled: 2026-10-26T07:56:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+AUDIT ENTITY: ADL Lift Services Limited By audit team
+RansomLook | Ransomware claim / observation | 2026-10-23T15:25:53+00:00
+AUDIT ID: 5E6E37AF368EF949 / DISCOVERY DATE: 2026-10-13 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/majinahanashi
+https://www.ransomlook.io//group/audit%20team
 
-Coop Italia By qilin
-RansomLook | Ransomware claim / observation | 2026-10-23T09:27:52+00:00
-Grocery Retail Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+AUDIT ENTITY: Zena Office By audit team
+RansomLook | Ransomware claim / observation | 2026-10-23T15:25:52+00:00
+AUDIT ID: AE29646C5B89FA91 / DISCOVERY DATE: 2026-10-13 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/audit%20team
 
-SunTechnics Fabrisolar AG By n0n
-RansomLook | Ransomware claim / observation | 2026-10-23T07:31:34+00:00
-solar energy company · Switzerland Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+whitearmor.cc (Whitearmor)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T17:01:56+00:00
+Intelligence Summary: An entity operating with the domain 'whitearmor.cc.' Threat Syndicate: Whitearmor Claimed Victim: whitearmor.cc Canonical Organization: WhiteArmor Target Domain: whitearmor.cc Industry Sector: Technology Date Published: 2026-10-23 17:01:56 Date Discovered: 2026-10-23 17:05:58.664591 Post URL: http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/post/whitearmor-cc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
+https://cti.fyi/groups/Whitearmor.html
 
-B2Chat By emperador
-RansomLook | Ransomware claim / observation | 2026-10-23T03:20:00+00:00
-B2Chat is a business communication platform based in Spain that provides tools for customer support, sales, and engagement. It allows businesses to interact with customers through various channels, such as live chat, chatbots, and messaging apps (for example, WhatsApp, Facebook Messenger, and Telegram). The platform is designed to help companies streamline communication, improve response times, and enhance customer satisfaction. This leak includes sensitive financial information, employees' names, emails, and phone numbers, as well as clients' and partners' data. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. Publication scheduled: 2026-11-07 05:35:24 UTC Size: 70.5 MB Sectors: Technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+JS Constructor, INC (Emperador)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T16:32:00+00:00
+Intelligence Summary: A custom vehicle parts manufacturer headquartered in the United States. Threat Syndicate: Emperador Claimed Victim: JS Constructor, INC Target Domain: jsconstructor.com Industry Sector: Manufacturing Geographic Location: 🇺🇸 US Date Published: 2026-10-23 16:32:00 Date Discovered: 2026-10-23 17:05:25.081809 Post URL: http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/js-constructor-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/emperador
+https://cti.fyi/groups/Emperador.html
 
-EMARKETER (fulcrumsec)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T10:04:20+00:00
-Intelligence Summary: A US-based digital media research and analytics firm providing market intelligence to media and advertising companies. Threat Syndicate: fulcrumsec Claimed Victim: EMARKETER Target Domain: emarketer.com Industry Sector: Media & Entertainment Geographic Location: 🇺🇸 US Date Discovered: 2026-10-23 10:04:20.150684 Post URL: http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/emarketer Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+daralteb.com (krybit)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T16:06:09+00:00
+Intelligence Summary: A leading infertility treatment center in Egypt and the Middle East. Threat Syndicate: krybit Claimed Victim: daralteb.com Canonical Organization: Dar Al-Tib Target Domain: daralteb.com Industry Sector: Healthcare Geographic Location: 🇪🇬 EG Date Discovered: 2026-10-23 16:06:09.516411 Post URL: http://krybitx3fh5krdnhegyp2ob3lhizsaiadturtio3ginf7it5gsdgu2yd.onion/blog/aca6f28085ad9c62056267f1ed82b5ae0da3a3b9ef4d30654028306e7ae7892d Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://cti.fyi/groups/fulcrumsec.html
+https://cti.fyi/groups/krybit.html
 
-Wah Chan Consolidated Sdn Bhd (Orova)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T09:56:06+00:00
-Intelligence Summary: A prominent Malaysian jewelry retailer operating more than 50 boutiques across major urban centers. Threat Syndicate: Orova Claimed Victim: Wah Chan Consolidated Sdn Bhd Target Domain: wahchan.com.my Industry Sector: Other Geographic Location: 🇲🇾 MY Date Published: 2026-10-23 09:56:06 Date Discovered: 2026-10-23 11:05:03.167814 Post URL: http://mll5ddmdzgiq2siv3qnocmmqyiigfpajtc663xtf32qtp6weycyx2hyd.onion/#wah-chan-consolidated-sdn-bhd Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+sai.org.in (krybit)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T16:06:09+00:00
+Intelligence Summary: Shree Saibaba Sansthan Trust (SSST) is one of India's wealthiest public charitable trusts, providing a range of philanthropic services. Threat Syndicate: krybit Claimed Victim: sai.org.in Canonical Organization: Shree Saibaba Sansthan Trust Target Domain: sai.org.in Industry Sector: Professional Services Geographic Location: 🇮🇳 IN Date Discovered: 2026-10-23 16:06:09.516411 Post URL: http://krybitx3fh5krdnhegyp2ob3lhizsaiadturtio3ginf7it5gsdgu2yd.onion/blog/e943639855000990446eaa8983d11a769d2dc9b19378bb27776e26dc6740c1dd Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://cti.fyi/groups/Orova.html
+https://cti.fyi/groups/krybit.html
 
-Horn of Africa Regional Environment Centre and Network (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T08:07:15+00:00
-Intelligence Summary: An environmental NGO operating in Ethiopia that manages a donor‑funded SAP Business One ERP system. Threat Syndicate: N0n Claimed Victim: Horn of Africa Regional Environment Centre and Network Target Domain: hornofafrica.org Industry Sector: Professional Services Geographic Location: 🇪🇹 ET Date Discovered: 2026-10-23 08:07:15.228455 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#horn-of-africa-regional-environment-centre-and-network Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+www.pierrefeu.fr (krybit)
+CTI.fyi | Ransomware claim / observation | 2026-10-23T16:06:09+00:00
+Intelligence Summary: An independent real estate agency founded in 1963 and headquartered in Tarare, France. Threat Syndicate: krybit Claimed Victim: www.pierrefeu.fr Canonical Organization: Pierrefeu Immobilier Target Domain: pierrefeu.fr Industry Sector: Real Estate Geographic Location: 🇫🇷 FR Date Discovered: 2026-10-23 16:06:09.516411 Post URL: http://krybitx3fh5krdnhegyp2ob3lhizsaiadturtio3ginf7it5gsdgu2yd.onion/blog/8b4ba9a7921f9cedc14275f97019a1c2717ee9d99a108241fbb94368079647c2 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
-
-Prism Medical Products (Wallstreet)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T08:06:20+00:00
-Intelligence Summary: A U.S. provider of home medical supplies specializing in wound care, ostomy, urological, compression and other prescribed consumables. Threat Syndicate: Wallstreet Claimed Victim: Prism Medical Products Industry Sector: Healthcare Geographic Location: 🇺🇸 US Date Discovered: 2026-10-23 08:06:20.919816 Post URL: http://4dwiv37h7hhuhjpvtn72hme4ylcv3qoe65arfc6mbweal7als6ma7pyd.onion/#prism-medical-products Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Wallstreet.html
-
-Line2Line Coatings (rhysida)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T08:04:22+00:00
-Intelligence Summary: Line2Line Coatings is a manufacturer of industrial coatings. Threat Syndicate: rhysida Claimed Victim: Line2Line Coatings Industry Sector: Manufacturing Date Discovered: 2026-10-23 08:04:22.474099 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#line2line-coatings Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/rhysida.html
+https://cti.fyi/groups/krybit.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
 Cisco Talos: OK; recent=1; shown=1; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
-Unit 42: OK; recent=2; shown=2; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=7; shown=5; undated excluded=0
-SecurityWeek: OK; recent=10; shown=5; undated excluded=0
-RansomLook: OK; recent=21; shown=5; undated excluded=0
-CTI.fyi: OK; recent=13; shown=5; undated excluded=0
+BleepingComputer: OK; recent=8; shown=5; undated excluded=0
+SecurityWeek: OK; recent=9; shown=5; undated excluded=0
+RansomLook: OK; recent=31; shown=5; undated excluded=0
+CTI.fyi: OK; recent=40; shown=5; undated excluded=0
