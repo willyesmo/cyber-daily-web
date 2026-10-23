@@ -1,13 +1,7 @@
-CYBER DAILY — 2026-10-22 21:46 UTC
+CYBER DAILY — 2026-10-23 05:04 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
 22 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
-
-ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)
-SANS Internet Storm Center | Research / advisory | 2026-10-22T02:00:02+00:00
-No feed summary supplied. Open the original source for details.
-CVEs: Not stated in feed
-https://isc.sans.edu/diary/rss/33446
 
 I had plans for that second
 Cisco Talos | Research / advisory | 2026-10-22T18:04:32+00:00
@@ -93,6 +87,24 @@ Patched vulnerabilities could allow attackers to execute code, elevate privilege
 CVEs: Not stated in feed
 https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/
 
+United Restaurant Supply By qilin
+RansomLook | Ransomware claim / observation | 2026-10-23T01:27:25+00:00
+Industrial Machinery & Equipment Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+SEPIVER By qilin
+RansomLook | Ransomware claim / observation | 2026-10-23T01:27:24+00:00
+Accounting Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+M... C... By leakeddata
+RansomLook | Ransomware claim / observation | 2026-10-22T22:32:17+00:00
+To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/leakeddata
+
 Bethany Press International By akira
 RansomLook | Ransomware claim / observation | 2026-10-22T20:27:24+00:00
 Bethany Press partners with authors, ministries, and publishers to create, produce, and distribute millions of life-changing Christian books each year. They offer industry-leading publishingservices for both short-run and long-run printing and distribution. We will upload 40gb of corporate data soon. Employee personal information (financials and so on), customer information, financials, contracts and agreements, and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
@@ -105,23 +117,11 @@ Medienwerkstatt stands for digital and printed communication of the highest qual
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/akira
 
-Annapath By akira
-RansomLook | Ransomware claim / observation | 2026-10-22T20:27:22+00:00
-Annapath, Inc. is a privately owned surgical and cytopathology laboratory that primarily focuses on dermatopathology, serving clients in Maryland, Delaware, Pennsylvania, Washington D.C., Virginia, and West Virginia. The company offers a full range of anatomic and clinical pathology services, emphasizing prompt and accurate diagnoses with a commitment to exceptional customer service.We will upload 110gb of corporate data soon. Employee personal information (passports and others personal files), customer information, contracts and agreements, and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #96 (N0n)
+CTI.fyi | Ransomware claim / observation | 2026-10-22T23:00:00+00:00
+Threat Syndicate: N0n Claimed Victim: Company #96 Date Published: 2026-10-22 23:00:00 Date Discovered: 2026-10-20 11:06:33.397351 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-96 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/akira
-
-M...r By leakeddata
-RansomLook | Ransomware claim / observation | 2026-10-22T18:27:29+00:00
-To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/leakeddata
-
-AMSAM 🇫🇷 By bravox
-RansomLook | Ransomware claim / observation | 2026-10-22T18:27:19+00:00
-Social, Healthcare and Home Care Services. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/bravox
+https://cti.fyi/groups/N0n.html
 
 Kirkland & Ellis LLP (SilentRansomGroup)
 CTI.fyi | Ransomware claim / observation | 2026-10-22T18:04:43+00:00
@@ -138,7 +138,7 @@ https://cti.fyi/groups/rhysida.html
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
 Cisco Talos: OK; recent=1; shown=1; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
@@ -146,7 +146,7 @@ Unit 42: OK; recent=2; shown=2; undated excluded=0
 Securelist: OK; recent=1; shown=1; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=10; shown=5; undated excluded=0
+BleepingComputer: OK; recent=9; shown=5; undated excluded=0
 SecurityWeek: OK; recent=9; shown=5; undated excluded=0
-RansomLook: OK; recent=37; shown=5; undated excluded=0
-CTI.fyi: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=33; shown=5; undated excluded=0
+CTI.fyi: OK; recent=3; shown=3; undated excluded=0

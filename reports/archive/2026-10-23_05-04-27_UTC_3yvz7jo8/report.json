@@ -1,0 +1,348 @@
+{
+  "generated": "2026-10-23T05:04:27.209020+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "I had plans for that second",
+      "url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "feed_id": "6ad12672c98f63000176ec7a",
+      "date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "detail": "Welcome to this week\u2019s edition of the Threat Source newsletter. Here for the latest on the PHP vulnerabilities? Head on down to \u2018The One Big Thing\u2019. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset. But if you want a bit of levity, here\u2019s what I wrote before everything kicked off yesterday: Ever feel like the world is moving too fast to keep up? Well, I bring you scientific proof that it\u2019s not just you. For millions of years, the moon has been slowing down the Earth\u2019s rotation. But over the past decade, we\u2019ve been speeding up (I KNEW I was aging faster than before). Apparently, changes in the Earth\u2019s core are involved (either that, or the 1978 Superman film was a documentary). This is all causing massive headaches for the people responsible for keeping time. They\u2019re officially called \u201cThe International Bureau of Weights and Measures\u201d, but I\u2019m going to call them \u201cThe Time-Keepers\u201d. For nerd reasons). The issue is that the atomic clocks that power so many of our systems, and the rotation of our planet, don\u2019t always agree. Atomic clocks keep extremely consistent time, while each Earth day is rarely the same length as the next. Atomic timekeeping absolutely cannot stand that level of flexibility (have a watch of our \u201cThe Light We Keep\u201d documentary to see the importance that accurate clocks have on critical infrastructure). To keep Coordinated Universal Time (UTC), which is based on atomic clocks, aligned with Earth\u2019s rotation, we introduced a \u201cleap second\u201d in 1972. This system allows for an extra second to be added, or taken away, when we stray too far from atomic time. A few days ago, The Time-Keepers voted to officially abolish the leap second. Why? Well, there\u2019s a few parts to it. For the past 54 years, we\u2019ve never once had a second removed from our lives. They\u2019ve always been added (27 of them to be precise). I myself have experienced 20 of these extra seconds. If I\u2019d have known that, I\u2019d have used them more wisely. Like thinking before saying, \u201cLove you too!\u201d to the post-person this morning. That added time, while it seems nice to have on the surface, can wreak havoc with our modern technology systems. In 2012, the extra second caused so much confusion that it crashed Reddit, among other systems. The recent speeding-up of the Earth\u2019s rotation complicates things further. If we keep going at this rate, it could result in the world\u2019s first ever \u201cnegative second\u201d. If you thought our technology systems struggled with added time, there are a lot of sciency brains who are very worried about the impact of taking time away. One of those concerns being\u2026 it\u2019s never been done before. So, what\u2019s The Time-Keeper\u2019s solution? Invent more time! Woooo. Starting next May, the leap second will be replaced with a \"leap hour,\" allowing UTC to diverge from Earth's rotation by up to an hour before a correction is made. None of us will get to experience that extra hour in our lifetimes, but our Great, Great, Great, Great, Great, Great, Great, Great, Great, Great, Great grandchildren are going to have one hell of a party. For us current mortals, we\u2019re all getting a little less time, and we\u2019re hurtling through space a little faster. Happy Thursday! But I guess I do want to make the point that I\u2019m glad the risk has been thoroughly assessed ahead of, ahem, time. The Time-Keepers have decided that the world\u2019s infrastructure should not have to find out how it handles a missing second by collectively experiencing one. And I don\u2019t even want to think about how all the AIs would cope with a negative second\u2026 There\u2019s something here for incident response planning. \u201cIt\u2019s never happened before\u201d is an excellent reason to test whether you\u2019re ready for it. Run the exercise. Find out which part of your plan depends on something that, in this scenario, is also broken. Preferably before an adversary gets to supervise the practical demonstration. Now, if only the Time-Keepers can abolish Daylight Savings Time next... The one big thing Two unauthenticated remote code execution (RCE) flaws were discovered in PHP, rocking the internet. Dubbed \"php2shell\" and triggered by a simple HTTP request, this vulnerability affects every build since 5.4. Talos assesses that all industries running PHP applications are at risk for exploitation if systems remain unpatched. Why do I care? PHP runs WordPress, Drupal, Magento, Shopware, WooCommerce, and many other ubiquitous internet staples, so the possible blast radius is enormous. Older branches are end of life (EOL) and will not receive patches; these could account for around 50% of use cases. So now what? Cisco customers are covered with the Cisco Talos Network Intrusion Prevention (SNORT\u00ae) signatures 67359 and 67360. If your organization is running PHP 8.1 or older, Talos very strongly advises immediate update to PHP 8.2 or later. There is no patch for PHP 8.1 or older. See the article for more specific coverage and detection guidance. See an interview with Nick Biasini on php2shell defense: Top security headlines of the week 'PHP2Shell' Bugs Signal Red Alert for Security Industry Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts. ( Dark Reading ) I NC and The Gentlemen Ransomware Affiliates expose 8,257 AI messages SOCRadar has found seven exposed servers linked to INC and The Gentlemen ransomware affiliates, holding AI chats, stolen credentials and 46 encryptor builds. ( Hack Read ) T he AI hacking apocalypse is not inevitable While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices. ( Cyberscoop ) \u2018Context Bombs\u2019 Cut AI Attack Success by Misleading Agents With Fake Targets Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold.( SecurityWeek ) Can\u2019t get enough Talos? Compromised eMudhra intermediate certificates Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra. Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing, payment and other services to reach their targets. There's only so much code: the rise in vulnerability numbers The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? And what does the future look like? Upcoming events where you can find Talos CAMLIS (Oct. 21 \u2013 23) Arlington, VA SecurityOnion Conference (Oct. 23) Augusta, GA BsidesAugusta (Oct. 24) Augusta, GA SAINTCON (Oct. 26 \u2013 30) Provo, UT CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 \u2013 4) Hyderabad, India Black Hat Europe (Dec. 7 \u2013 10) London, U.K. Most prevalent malware files from Talos telemetry over the past week SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 Example Filename:sample.exe Detection Name: W32.9F1F11A708-100.SBX.TG SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f MD5: cca616647db9370c88998ae25da6997f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f Example Filename:cca616647db9370c88998ae25da6997f.exe Detection Name: Win.Tool.Kmsauto::1201 SHA256: 985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9 MD5: 485055033bcddfde56325c0d2feea4f2 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9 Example Filename:485055033bcddfde56325c0d2feea4f2.exe Detection Name: Win.Tool.Kmsauto::1201 SHA256: d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1 MD5: 0c883b1d66afce606d9830f48d69d74b Talos Rep: https://talosintelligence.com/talos_file_reputation?s=d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1 Example Filename:d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1.exe Detection Name: Win.Worm.Zard::95.sbx.tg",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-22T18:04:32+00:00"
+    },
+    {
+      "title": "EMudhra Intermediate CA Certificates Compromised",
+      "url": "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188944",
+      "date": "Thu, 22 Oct 2026 17:15:32 +0000",
+      "detail": "Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-22T17:15:32+00:00"
+    },
+    {
+      "title": "The Current Landscape of OAuth Attacks",
+      "url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188831",
+      "date": "Thu, 22 Oct 2026 17:00:25 +0000",
+      "detail": "Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-22T17:00:25+00:00"
+    },
+    {
+      "title": "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia",
+      "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+      "feed_id": "https://kasperskycontenthub.com/securelist/?p=121539",
+      "date": "Thu, 22 Oct 2026 06:00:48 +0000",
+      "detail": "Introduction Back in October 2022, Kaspersky GReAT was looking into a peculiar advertisement on a hacking forum. A cybercriminal had been advertising a UEFI bootkit, dubbed BlackLotus, that could bypass Secure Boot, for $5,000. Given the low price for such powerful capabilities, the cybersecurity community initially took this advertisement with a grain of salt. As no BlackLotus samples were found in the wild, no one could at the time verify the claims made in the forum post. BlackLotus advertisement However, about half a year later, in March 2023, ESET confirmed that the BlackLotus advertisement was genuine. The researchers tracked down samples of this bootkit and confirmed that it can indeed bypass Secure Boot through a vulnerability called Baton Drop (CVE-2022-21894). As this vulnerability was still exploitable in 2023, Microsoft had to release multiple security updates to address it. Since the release of these updates, the BlackLotus bootkit has gone quiet \u2014 no publicly known attacks have used it. Yet in early 2026, we discovered a malware sample similar to BlackLotus that was used in an APT campaign in Central Asia. In this report, we share our findings, including new payloads and possible attribution of this campaign. The return of the infamous bootkit In early 2026 we identified a complex APT attack targeting diplomatic agencies in Central Asian countries \u2014 namely Tajikistan, Uzbekistan, and Turkmenistan. This attack involved a UEFI bootkit that we dubbed BlackX. Having examined it, we found it to be similar to BlackLotus. Attackers have been deploying BlackX after compromising the victim machine networks and obtaining administrator privileges. To install the bootkit, we observed them dropping the following files: inst.exe , an installer executable PVMDIJGKAX2 , an RC4-encrypted extensionless file containing files and strings required for the installation The installer was launched with the command line C:\\ProgramData\\Intel\\inst.exe PVMDIJGKAX2 Q46F6MDLI3RX2KV1 . The last argument here is the RC4 key used for decryption. Curiously, the file inst.exe does not contain any malicious strings or embedded blobs. All the files needed to install the malicious payload are inside PVMDIJGKAX2 , which makes it harder for incident responders to retrieve the bootkit components. The installer package drops a set of files to both system and UEFI partitions, designed to exploit the Baton Drop vulnerability. We noted that the implementation of the exploit is remarkably similar to the one used in the BlackLotus malware. As with BlackLotus, the goal of the exploit is to install custom Machine Owner Keys (MOK), which allows loading arbitrary EFI files on the target machines to manipulate Secure Boot. While the vulnerability exploitation chain was implemented very similarly to BlackLotus, we spotted differences between the exploits in BlackLotus and BlackX. That said, the source code of the BlackLotus bootkit has never been published online. This could mean that the attackers behind BlackX either reverse-engineered the BlackLotus bootkit or purchased its source code from cybercriminals. Either way, this is an interesting observation, as we rarely see APT actors borrow ideas or code from cybercrime actors. Payload launched by the bootkit The UEFI payload delivered during the Baton Drop exploitation has a classic bootkit goal \u2014 to inject a malicious driver into the Windows kernel. This driver differs from the one deployed by BlackLotus and is signed with a certificate belonging to an organization named \u6e29\u6c5f\u533a\u660e\u5b87\u7f51\u7edc\u6280\u672f\u670d\u52a1\u5de5\u4f5c\u5ba4 (English: Wenjiang District Mingyu Network Technology Service Studio). At the time of writing, this certificate (serial number: 0bcdf5e0da32d68900b8b7638459d072) has been revoked by its issuer. The driver aims to tamper with security solutions installed on the machine. For example, it disables process, thread, and registry callbacks related to security solutions. It also tampers with ETW providers so that security solutions cannot access their output. Curiously, some of the tampering procedures are designed to run only if Kaspersky or Avast solutions are installed on the infected machine. However, during dynamic analysis of this driver, we found that these procedures are useless \u2014 they fail to interfere with Kaspersky products in any way. The driver also protects the bootkit\u2019s files from tampering. It intercepts kernel requests to open these files and returns a handle to calc.exe instead of a malicious file handle. User-mode second-stage payloads Apart from tampering with security solutions, the driver also deploys a user-mode payload. We observed two such payloads, used for cyberespionage, in the wild. One of them is a RAT that can load further-stage .NET payloads. This RAT uses cloud storage for C2 server communications \u2014 we observed its versions using Google Drive, OneDrive, and Yandex.Disk. Having connected to a cloud storage service, this RAT iterates over files available there and interprets them depending on the file suffix. Below is a list of supported suffixes: File suffix Description Type 0X01 A .NET file. The task is to parse it and run the method TEST.Class1.RunCMD(argument_array) from the module Input 0X02 Result of the call TEST.Class1.RunCMD(argument_array) Output 0X03 Task to upload a file to the drive Input 0X04 Uploaded file Output 0X05 Task to download a file to an infected machine Input 0X06 File download status Output SSSR Contains initial system info Output We also observed another payload delivered through the bootkit, which we dubbed OxiDLLRunner. It is a malicious DLL obfuscated with OLLVM. It is loaded by the legitimate file googleupdate.exe (original filename: jcef_helper.exe , MD5: AF8A983B9ADA07EAE1259BF2953ABD40), which is also delivered by the bootkit. The DLL decrypts the contents of the file v8_context_snapshot.bin , which resides in the same folder, and then jumps to the beginning of the decrypted content. The decrypted data starts with shellcode followed by a PE file, which is a Rust payload designed to communicate with the www[.]archivetj[.]com C2 server. During communication, this payload is supposed to receive DLL files exporting a function named create_plugin , which are then executed in separate threads. Attribution Based on the following facts, we have attributed this attack to the APT41 threat actor with medium confidence: In June 2026, ESET published a blog post on attacks by the FishMonger threat actor, which the community assumes to be related to APT41. This post describes a kernel implant with a PDB path starting with C:\\Users\\ xdd \\Desktop. While describing the campaign, the post also suggests the possible use of an unspecified UEFI bootkit component, which might exploit CVE\u20112023\u201124932. We observed the identifier \u201cxdd\u201d used multiple times in the BlackX bootkit payloads, so we assess that BlackX is the UEFI bootkit referenced in the ESET blog post; The payloads deployed by BlackX are loaded using a legitimate executable abused via DLL sideloading, and an encrypted file \u2014 this pattern is common among Chinese-speaking threat actors; The OxiDLLRunner file has been obfuscated with OLLVM, an obfuscator commonly used by Chinese-speaking actors. Why did the target organizations get infected? During our initial analysis of BlackX, we thought that attackers succeeded in deploying it due to the negligence of the target organizations. Baton Drop, the vulnerability used to deploy BlackX, was disclosed back in 2023 and was patched, so we first thought that the infected machines lacked the relevant updates. However, our investigation proved this wrong \u2014 the targeted machines were fully patched. Instead, we found out that the problem was with the patch itself. As it turned out, the patch for the Baton Drop vulnerability is designed to revoke the \u201cWindows Production PCA 2011\u201d certificate used to sign vulnerable UEFI components. However, this revocation does not happen automatically upon patch installation \u2014 the user has to trigger it manually . This is done with the following steps: A registry flag is set inside HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Secureboot; A scheduled task named Secure-Boot-Update is created. This patch is designed to be applied manually \u2014 for instance, applying it automatically could break dual-boot systems relying on the \u201cWindows Production PCA 2011\u201d certificate to load. At the same time, this patch deployment practice creates a problem \u2014 as it is extremely unusual for a system administrator to take extra steps after installing an update. Usually, when applying patches, system administrators take no further action unless an installation failure occurs. These instructions for activating the patch are buried deep on the Microsoft website, and we assess that they are quite hard for an average IT administrator to notice. Curiously, Microsoft\u2019s plan for deploying the Baton Drop patches mentions an \u201cEnforcement Phase\u201d that involves revoking the \u201cWindows Production PCA 2011\u201d certificate automatically, without user interaction. At the time of publishing this post, this stage has not been implemented. On October 19, 2026, this certificate expired, but this does not prevent the vulnerable binaries from loading unless the certificate is blocklisted. It is likely that the threat actor behind this campaign took into account that few organizations realized the importance of manually activating the Baton Drop patch. As such, we believe they decided to invest time in understanding how BlackLotus works and creating a copycat of this bootkit. Conclusion Patch management is important for every organization, as updates from vendors help protect software and hardware against known vulnerabilities. However, sometimes installed patches fail to protect against the flaws they address. The BlackLotus story we described is not the only such example \u2014 for instance, in 2025 Microsoft released an update against the ToolShell vulnerability that also had to be applied manually. However, modern security solutions are designed to account for such cases when installed patches fail to protect against security flaws for one reason or another. For instance, the Exploit Prevention component available in Kaspersky products prevents exploits from running if the patch is not applied, or if it is a zero-day vulnerability with no available patch. It is thus crucial to equip all machines in an organization with security solutions and constantly monitor the alerts they raise.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Securelist",
+      "published": "2026-10-22T06:00:48+00:00"
+    },
+    {
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "date": "Thu, 22 Oct 2026 17:25:31 -0400",
+      "detail": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T21:25:31+00:00"
+    },
+    {
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "date": "Thu, 22 Oct 2026 16:22:45 -0400",
+      "detail": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T20:22:45+00:00"
+    },
+    {
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "date": "Thu, 22 Oct 2026 15:12:51 -0400",
+      "detail": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T19:12:51+00:00"
+    },
+    {
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "date": "Thu, 22 Oct 2026 13:18:22 -0400",
+      "detail": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T17:18:22+00:00"
+    },
+    {
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "date": "Thu, 22 Oct 2026 11:49:32 -0400",
+      "detail": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-22T15:49:32+00:00"
+    },
+    {
+      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "feed_id": "https://www.securityweek.com/?p=50243",
+      "date": "Thu, 22 Oct 2026 14:31:34 +0000",
+      "detail": "Corey Thuen hires hackers for what he calls \u2018the evil bit\u2019 \u2014 an adversarial streak he believes is either there or it isn\u2019t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-22T14:31:34+00:00"
+    },
+    {
+      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "feed_id": "https://www.securityweek.com/?p=50241",
+      "date": "Thu, 22 Oct 2026 13:00:00 +0000",
+      "detail": "The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-22T13:00:00+00:00"
+    },
+    {
+      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
+      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+      "feed_id": "https://www.securityweek.com/?p=50233",
+      "date": "Thu, 22 Oct 2026 12:34:31 +0000",
+      "detail": "Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-22T12:34:31+00:00"
+    },
+    {
+      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50231",
+      "date": "Thu, 22 Oct 2026 12:20:23 +0000",
+      "detail": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-22T12:20:23+00:00"
+    },
+    {
+      "title": "Splunk, SolarWinds Release Fresh Security Updates",
+      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "feed_id": "https://www.securityweek.com/?p=50229",
+      "date": "Thu, 22 Oct 2026 10:45:24 +0000",
+      "detail": "Patched vulnerabilities could allow attackers to execute code, elevate privileges, and leak sensitive information. The post Splunk, SolarWinds Release Fresh Security Updates appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-22T10:45:24+00:00"
+    },
+    {
+      "title": "United Restaurant Supply By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "1390e314e5a6d574f9511e43fa7c2b70642e9a0045e53d325bce803ff542660a",
+      "date": "Fri, 23 Oct 2026 01:27:25 GMT",
+      "detail": "Industrial Machinery & Equipment Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-23T01:27:25+00:00"
+    },
+    {
+      "title": "SEPIVER By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "047467533883cd21a35f947dee3e09b906187c21aa7fcad4e8c525ae25cdbf71",
+      "date": "Fri, 23 Oct 2026 01:27:24 GMT",
+      "detail": "Accounting Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-23T01:27:24+00:00"
+    },
+    {
+      "title": "M... C... By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "f952642a943f53535a6836bdf015a96905ab1160e2143531e92425fcb615b9b6",
+      "date": "Thu, 22 Oct 2026 22:32:17 GMT",
+      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-22T22:32:17+00:00"
+    },
+    {
+      "title": "Bethany Press International By akira",
+      "url": "https://www.ransomlook.io//group/akira",
+      "feed_id": "811ef8e09323f52f6574385712382992e634a3a197ea4afb4cce563fe0e5a061",
+      "date": "Thu, 22 Oct 2026 20:27:24 GMT",
+      "detail": "Bethany Press partners with authors, ministries, and publishers to create, produce, and distribute millions of life-changing Christian books each year. They offer industry-leading publishingservices for both short-run and long-run printing and distribution. We will upload 40gb of corporate data soon. Employee personal information (financials and so on), customer information, financials, contracts and agreements, and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-22T20:27:24+00:00"
+    },
+    {
+      "title": "Medienwerkstatt By akira",
+      "url": "https://www.ransomlook.io//group/akira",
+      "feed_id": "e6bddf7dae9fd648e91edf09f2deb13bd7619459088ea6971a35c676dd65edfd",
+      "date": "Thu, 22 Oct 2026 20:27:23 GMT",
+      "detail": "Medienwerkstatt stands for digital and printed communication of the highest quality and distinguishes itself through an exceptional customer service. With more than 50 passionate talents forvarious offline and online disciplines, medienwerkstatt ag is one of the largest media serviceproviders in the canton of Thurgau.We will upload 130gb of corporate data soon. Employee personal information (names, addresses, phones, contacts and so on), customer information, contracts and agreements, and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-22T20:27:23+00:00"
+    },
+    {
+      "title": "Company #96 (N0n)",
+      "url": "https://cti.fyi/groups/N0n.html",
+      "feed_id": "768bd19d5037b839d4611731815bffb2",
+      "date": "Thu, 22 Oct 2026 23:00:00 +0000",
+      "detail": "Threat Syndicate: N0n Claimed Victim: Company #96 Date Published: 2026-10-22 23:00:00 Date Discovered: 2026-10-20 11:06:33.397351 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-96 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-22T23:00:00+00:00"
+    },
+    {
+      "title": "Kirkland & Ellis LLP (SilentRansomGroup)",
+      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
+      "feed_id": "ac97bbfd45b82fab47044049b16c1aaa",
+      "date": "Thu, 22 Oct 2026 18:04:43 +0000",
+      "detail": "Intelligence Summary: A leading global law firm headquartered in the United States with revenues exceeding $10 billion. Threat Syndicate: SilentRansomGroup Claimed Victim: Kirkland & Ellis LLP Target Domain: kirkland.com Industry Sector: Legal Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-22 18:04:43.760346 Post URL: https://business-data-leaks.com/about#leak-kirkland---ellis-llp Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-22T18:04:43+00:00"
+    },
+    {
+      "title": "DR.SCHNELL GmbH & Co. KGaA (rhysida)",
+      "url": "https://cti.fyi/groups/rhysida.html",
+      "feed_id": "4987e9d6233d791e64d9a181e72a7648",
+      "date": "Thu, 22 Oct 2026 15:02:38 +0000",
+      "detail": "Intelligence Summary: A German company that provides exclusive data services and a data marketplace. Threat Syndicate: rhysida Claimed Victim: DR.SCHNELL GmbH & Co. KGaA Target Domain: drschnell.com Industry Sector: Professional Services Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-22 15:02:38.799513 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#dr-schnell-gmbh-co-kgaa Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-22T15:02:38+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 33,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    }
+  ]
+}
