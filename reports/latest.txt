@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-10-23 21:31 UTC
+CYBER DAILY — 2026-10-24 04:49 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-27 entries selected. Feed excerpts, not full-article or AI analysis.
+22 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-114625: Arista VeloCloud Orchestrator SQL Injection Vulnerability
@@ -57,7 +57,7 @@ CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scrip
 CVEs: CVE-2026-109618, CVE-2026-109619
 https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
 
-Abandoned Popcorn Time app exposed millions of device to RCE attacks
+Abandoned Popcorn Time app exposed millions of devices to RCE attacks
 BleepingComputer | Research / advisory | 2026-10-23T20:55:05+00:00
 Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]
 CVEs: Not stated in feed
@@ -117,65 +117,35 @@ The hackers stole 11 million email addresses from CAPCOM ID and changed the logi
 CVEs: Not stated in feed
 https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/
 
-whitearmor.cc By whitearmor
-RansomLook | Ransomware claim / observation | 2026-10-23T21:29:57+00:00
-Hi! We now have a clearnet domain for easy-access. WhiteArmor.cc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Trinity Custom Homes By deadlock
+RansomLook | Ransomware claim / observation | 2026-10-24T04:27:54+00:00
+Trinity Custom Homes is a custom home builder that specializes in building 100% custom, solid wood homes directly on the customer’s land across several states in the Southeast, including Georgia, Alabama, North Carolina, South Carolina, and Tennessee. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/whitearmor
+https://www.ransomlook.io//group/deadlock
 
-vinsolutions.com By scarlettgroup
-RansomLook | Ransomware claim / observation | 2026-10-23T21:29:54+00:00
-VinSolutions is an automotive CRM platform that helps car dealerships manage leads, track sales, and improve customer relationships. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Sanders Law Group By rhysida
+RansomLook | Ransomware claim / observation | 2026-10-23T22:22:46+00:00
+Sanders Law Group DATA SALE LISTING - Sanders Law Group / Sanders Law Firm, PLLC (Uniondale, NY)Target: Sanders Law Firm, PLLC (d/b/a Sanders Law Group; former brands - Barshay Sanders PLLC, Baker Sanders) Addresses: 333 Earle Ovington Blvd, Suite 402, Uniondale, NY 11553 � 100 Garden City Plaza, Garden City, NY 11530 Phone: (516) 203-7600 � Owner: Craig B. Sanders, Esq. (founding partner) Size: ~8 TB � 4.5 million files � 2005�2026, history through most recent Format: full file-server clones + 2 dumps of the firm's ARES case-management DB + mail archives (33 PST, ~120 GB + 2,479 mailbox dumps)Who they are and who they work withA high-volume litigation factory out of Long Island, NY, running three conveyor-belt practices:FDCPA mill - 9,332 mass cases against banks and collectors. Their evidence pipeline: 1,144 audio recordings of their own clients' calls with banksCopyright machine - ~17,000 'photo-enforcement' suits. In January 2022 Sanders bought the entire practice of Richard Liebowitz � the most-sanctioned copyright attorney in U.S. history (discredited, bar-suspended). Included: the executed Asset Purchase Agreement, a confidential WZMP settlement (7 versions incl. redlines), the acquired book of cases and clients, and solicitation letters to poach his client listFCRA litigation vs Equifax, Experian, TransUnion � 953 cases. Plus a dedicated Equifax SRAs folder: executed settlements with Equifax LLC, named client by client, alongside their full credit disclosuresCorporate clients/partners in the files: The Mega Agency, Pixsy (exclusive enforcement deals), Signature Health Center / CareHealth (healthcare), Chase debt-buyer packages, Esquire Funding (litigation finance - loan agreements, commission invoices). Case-management dev outsourced to an Indian shop (neuralit.com).Active matters right now: 6,098 (of 30,671 total in the DB).What's inside - value breakdownPractice-side (the firm's jugular)Full ARES DB (2 dumps) - all 30,671 cases with settlement offers/demand ceilings in 13,413 files (up to $4,000,000 per case), statuses, internal notes, deadlines. Publication - burned negotiation positions across every active case at once2,342 executed CONFIDENTIAL settlement agreements (e.g., NationalPhoto v. Entravision + dozens more) - bearing secrecy clauses the firm itself is liable for1,315 documents of the firm's own sanctions and discipline: court orders on sanctions motions, a DFS Disciplinary Stipulation, 6� 'Notice of Attorney Sanction' filings, public discipline ordersBanking & trusts11 accounts, 562 statements, incl. attorney trust accounts IOLTA NY (�9068) and IOLTA NJ (�2302) - bar-mandated audit territory = direct license threat for every named attorneyWire instructions for the client fund �6327 (JPMorgan Chase)Partnership tax returns 2015�2020 (Form 1065, TurboTax source files), payroll, full HR (I-9s, staff employment contracts, employee handbook)Client PII � industrial scale12,803 full credit reports of the firm's own plaintiff-clients20,106 W-9/1099 forms, 520 files: SSN cards / passports / driver licenses / birth certificates1,471+ medical records (named patients, incl. NYUI files)CRM: 5,352 clients + 13,178 leads with phones/emails32,816 executed retainer agreementsOwner-level leverage (Craig B. Sanders)His 2022 divorce: Judgment of Divorce (Michelle Sanders v. Craig Sanders) + settlement stipulation + sworn Net Worth Statement + brokerage/bank statementsBonus: the firm's 78-page FBI IC3 criminal complaint dated 08/22/2026Email � 20 years33 legacy PSTs (~120 GB) + 2,479 mailbox dumps + daily email backups (2013�2014)Freebies: office password lists in plaintext, owner's Chrome password export, court ECF login sheets. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/scarlettgroup
+https://www.ransomlook.io//group/rhysida
 
-von Schaewen By qilin
-RansomLook | Ransomware claim / observation | 2026-10-23T21:29:51+00:00
-Industrial Machinery & Equipment Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #110 By n0n
+RansomLook | Ransomware claim / observation | 2026-10-23T22:22:42+00:00
+smart grid engineering firm · Spain Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/n0n
 
-Tamponnt By qilin
-RansomLook | Ransomware claim / observation | 2026-10-23T21:29:50+00:00
-Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Madison Honda By interlock
+RansomLook | Ransomware claim / observation | 2026-10-23T22:22:21+00:00
+http://www.madisonhonda.com/ Madison Honda, located in Madison, New Jersey, offers a wide selection of new and used vehicles, as well as flexible financing options.They are negligent when it comes to their own security and that of their customers, which is why we disclose non-public personal information (NPI) and personally identifiable information (PII) protected by laws such as the Gramm-Leach-Bliley Act (GLBA).This includes transaction data, vehicle purchase records, lease agreements and financing terms, credit reports, income information, loan balances, and banking information. We also store transaction files (these documents contain both personal customer information and the dealership's pricing and negotiation strategies, customer orders, sales contracts, lease agreements, financing documents, and title deeds), documents containing the dealership's internal pricing policies or financing strategies, and internal operational data. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/interlock
 
-zelsior.es By lockbit5
-RansomLook | Ransomware claim / observation | 2026-10-23T21:29:45+00:00
-Founded in 2015, we have become the leading firm in comprehensive, technology-driven legal debt reco... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Custom Floors Unlimited By interlock
+RansomLook | Ransomware claim / observation | 2026-10-23T22:22:20+00:00
+https://customfloorsunlimited.com/ Custom Floors Unlimited designs and installs high-quality, custom-made solid wood flooring. They specialize in creating unique designs. However, they do not specialize in ensuring their own security or the security of their customers' data. Therefore, we provide you with confidential HR/payroll documents, financial/tax documents, customer contracts and commercial transactions, supplier/legal/insurance files, and IT credentials. A data breach can lead to identity theft, financial fraud, loss of trade secrets and customer trust, regulatory/law enforcement fines, litigation, and reputational damage. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/lockbit5
-
-Sanders Law Group (rhysida)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T20:03:34+00:00
-Intelligence Summary: A law firm specializing in litigation and corporate legal services Threat Syndicate: rhysida Claimed Victim: Sanders Law Group Target Domain: sanderslawgroup.com Industry Sector: Legal Geographic Location: 🇺🇸 US Date Discovered: 2026-10-23 20:03:34.277234 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#sanders-law-group Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/rhysida.html
-
-ARX Group SA (aurora)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T19:04:51+00:00
-Intelligence Summary: A Swiss engineering consultancy with over 25 offices across 17 countries, known for major infrastructure projects such as the Ceneri Base Tunnel. Threat Syndicate: aurora Claimed Victim: ARX Group SA Target Domain: arxgroup.ch Industry Sector: Professional Services Geographic Location: 🇨🇭 CH Date Discovered: 2026-10-23 19:04:51.633684 Post URL: http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/arx-group-sa-28b9fe22 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/aurora.html
-
-Company #110 (N0n)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T18:05:05+00:00
-Threat Syndicate: N0n Claimed Victim: Company #110 Date Discovered: 2026-10-23 18:05:05.419016 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#company-110 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/N0n.html
-
-whitearmor.cc (Whitearmor)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T17:01:56+00:00
-Intelligence Summary: An entity operating with the domain 'whitearmor.cc.' Threat Syndicate: Whitearmor Claimed Victim: whitearmor.cc Canonical Organization: WhiteArmor Target Domain: whitearmor.cc Industry Sector: Technology Date Published: 2026-10-23 17:01:56 Date Discovered: 2026-10-23 17:05:58.664591 Post URL: http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/post/whitearmor-cc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Whitearmor.html
-
-JS Constructor, INC (Emperador)
-CTI.fyi | Ransomware claim / observation | 2026-10-23T16:32:00+00:00
-Intelligence Summary: A custom vehicle parts manufacturer headquartered in the United States. Threat Syndicate: Emperador Claimed Victim: JS Constructor, INC Target Domain: jsconstructor.com Industry Sector: Manufacturing Geographic Location: 🇺🇸 US Date Published: 2026-10-23 16:32:00 Date Discovered: 2026-10-23 17:05:25.081809 Post URL: http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/js-constructor-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Emperador.html
+https://www.ransomlook.io//group/interlock
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=2; shown=2; undated excluded=0
@@ -190,5 +160,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=7; shown=5; undated excluded=0
 SecurityWeek: OK; recent=9; shown=5; undated excluded=0
-RansomLook: OK; recent=46; shown=5; undated excluded=0
-CTI.fyi: OK; recent=43; shown=5; undated excluded=0
+RansomLook: OK; recent=48; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
