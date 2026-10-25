@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-10-25 20:59 UTC
+CYBER DAILY — 2026-10-25 23:21 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-8 entries selected. Feed excerpts, not full-article or AI analysis.
+13 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 YARA-X 1.22.0 Release, (Sun, Oct 25th)
@@ -20,6 +20,12 @@ SecurityWeek | Research / advisory | 2026-10-25T11:00:00+00:00
 Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .
 CVEs: Not stated in feed
 https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/
+
+Advantage Sintered Metals By securotrop
+RansomLook | Ransomware claim / observation | 2026-10-25T22:24:26+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/securotrop
 
 https://x.com/WhiteArmorxd By whitearmor
 RansomLook | Ransomware claim / observation | 2026-10-25T18:20:01+00:00
@@ -45,11 +51,35 @@ Country: Germany | Size: 235GB | Private | Views: 0 Ransomware group claim; not 
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/cloak
 
-Partido Liberal By whitearmor
-RansomLook | Ransomware claim / observation | 2026-10-25T17:24:59+00:00
-Brazil's Liberal Party (PL) is the political party of the Bolsonaro family. Although named "Liberal," it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party's presidential candidate, advocating reduced government intervention and tough security policies. We hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartext e-Título credentials, 475 operator accounts with shared password, 2.7M audit events, party dossiers (artist payments, deepfakes, ghost donations), vendor PII, and 340K+ member images. If you don't want this getting out, we suggest you contact us & pay the ransom amount of $5,000,000 in BTC :) Contact: Email: whitearmorrxd@proton.me Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Samples.zip (Panzer)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T23:06:42+00:00
+Threat Syndicate: Panzer Claimed Victim: Samples.zip Date Discovered: 2026-10-25 23:06:42.994491 Post URL: http://tvhm7xw756yscfixmoyr2aymgu4oan66ospp44vcykvgxmgyq3ua2vyd.onion/Samples.zip Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/whitearmor
+https://cti.fyi/groups/Panzer.html
+
+Edelstahl-Mechanik GmbH (payload)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T23:02:59+00:00
+Intelligence Summary: A German manufacturing company specializing in laser metal processing and structural sheet metal fabrication for automotive, mechanical engineering, and medical technology sectors. Threat Syndicate: payload Claimed Victim: Edelstahl-Mechanik GmbH Industry Sector: Manufacturing Geographic Location: 🇩🇪 DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/ffd64ce9-b420-4a77-8c75-0ff036a554ea Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/payload.html
+
+Miletic GmbH (payload)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T23:02:59+00:00
+Intelligence Summary: A German specialized contractor based in Bad Schönborn, focused on construction and repair of ecologically sensitive industrial facilities such as gas stations and tank farms. Threat Syndicate: payload Claimed Victim: Miletic GmbH Industry Sector: Construction Geographic Location: 🇩🇪 DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/567ce391-f79d-44ad-8c69-9f4eb8849ac5 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/payload.html
+
+Glückauf-Vermessung GmbH (payload)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T23:02:59+00:00
+Intelligence Summary: A German engineering and technical company specializing in surveying and mine surveying for the mining industry. Threat Syndicate: payload Claimed Victim: Glückauf-Vermessung GmbH Target Domain: glueckauf-vermessung.de Industry Sector: Professional Services Geographic Location: 🇩🇪 DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/3197b3f0-551f-4cb8-8889-a04289a9c919 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/payload.html
+
+Partido Liberal (Whitearmor)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T22:33:16+00:00
+Intelligence Summary: A political party in Brazil associated with the Bolsonaro family. Threat Syndicate: Whitearmor Claimed Victim: Partido Liberal Industry Sector: Government & Public Sector Geographic Location: 🇧🇷 BR Date Published: 2026-10-25 22:33:16 Date Updated (Revisited): 2026-10-25 23:06:39 Date Discovered: 2026-10-25 16:05:41.553602 Post URL: http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/post/partido-liberal Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/Whitearmor.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -65,4 +95,4 @@ Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=1; shown=1; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
 RansomLook: OK; recent=27; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+CTI.fyi: OK; recent=5; shown=5; undated excluded=0

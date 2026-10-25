@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T20:59:28.995432+00:00",
+  "generated": "2026-10-25T23:21:45.405047+00:00",
   "hours": 24,
   "items": [
     {
@@ -34,6 +34,17 @@
       "kind": "Research / advisory",
       "source": "SecurityWeek",
       "published": "2026-10-25T11:00:00+00:00"
+    },
+    {
+      "title": "Advantage Sintered Metals By securotrop",
+      "url": "https://www.ransomlook.io//group/securotrop",
+      "feed_id": "4b09186a04a814095998f3064c803713a95b737f037bf20e02c69c12d5c253a2",
+      "date": "Sun, 25 Oct 2026 22:24:26 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T22:24:26+00:00"
     },
     {
       "title": "https://x.com/WhiteArmorxd By whitearmor",
@@ -80,15 +91,59 @@
       "published": "2026-10-25T17:25:48+00:00"
     },
     {
-      "title": "Partido Liberal By whitearmor",
-      "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "28dff81825cf7df4c450818ee07e7bdedd63e7604619e9dcc2c6cbce9db8bc74",
-      "date": "Sun, 25 Oct 2026 17:24:59 GMT",
-      "detail": "Brazil's Liberal Party (PL) is the political party of the Bolsonaro family. Although named \"Liberal,\" it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Fl\u00e1vio Bolsonaro is now the party's presidential candidate, advocating reduced government intervention and tough security policies. We hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartext e-T\u00edtulo credentials, 475 operator accounts with shared password, 2.7M audit events, party dossiers (artist payments, deepfakes, ghost donations), vendor PII, and 340K+ member images. If you don't want this getting out, we suggest you contact us & pay the ransom amount of $5,000,000 in BTC :) Contact: Email: whitearmorrxd@proton.me Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "Samples.zip (Panzer)",
+      "url": "https://cti.fyi/groups/Panzer.html",
+      "feed_id": "9eb1d86bb7c7dc9d3749f94e0c79ce78",
+      "date": "Sun, 25 Oct 2026 23:06:42 +0000",
+      "detail": "Threat Syndicate: Panzer Claimed Victim: Samples.zip Date Discovered: 2026-10-25 23:06:42.994491 Post URL: http://tvhm7xw756yscfixmoyr2aymgu4oan66ospp44vcykvgxmgyq3ua2vyd.onion/Samples.zip Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-25T17:24:59+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-25T23:06:42+00:00"
+    },
+    {
+      "title": "Edelstahl-Mechanik GmbH (payload)",
+      "url": "https://cti.fyi/groups/payload.html",
+      "feed_id": "a01a7ba2c193f8c0c7c6c011692cfe21",
+      "date": "Sun, 25 Oct 2026 23:02:59 +0000",
+      "detail": "Intelligence Summary: A German manufacturing company specializing in laser metal processing and structural sheet metal fabrication for automotive, mechanical engineering, and medical technology sectors. Threat Syndicate: payload Claimed Victim: Edelstahl-Mechanik GmbH Industry Sector: Manufacturing Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/ffd64ce9-b420-4a77-8c75-0ff036a554ea Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-25T23:02:59+00:00"
+    },
+    {
+      "title": "Miletic GmbH (payload)",
+      "url": "https://cti.fyi/groups/payload.html",
+      "feed_id": "e48d978f0420d79bd283d27b5dadb183",
+      "date": "Sun, 25 Oct 2026 23:02:59 +0000",
+      "detail": "Intelligence Summary: A German specialized contractor based in Bad Sch\u00f6nborn, focused on construction and repair of ecologically sensitive industrial facilities such as gas stations and tank farms. Threat Syndicate: payload Claimed Victim: Miletic GmbH Industry Sector: Construction Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/567ce391-f79d-44ad-8c69-9f4eb8849ac5 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-25T23:02:59+00:00"
+    },
+    {
+      "title": "Gl\u00fcckauf-Vermessung GmbH (payload)",
+      "url": "https://cti.fyi/groups/payload.html",
+      "feed_id": "012b2f203ea19d822616539121c557e9",
+      "date": "Sun, 25 Oct 2026 23:02:59 +0000",
+      "detail": "Intelligence Summary: A German engineering and technical company specializing in surveying and mine surveying for the mining industry. Threat Syndicate: payload Claimed Victim: Gl\u00fcckauf-Vermessung GmbH Target Domain: glueckauf-vermessung.de Industry Sector: Professional Services Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/3197b3f0-551f-4cb8-8889-a04289a9c919 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-25T23:02:59+00:00"
+    },
+    {
+      "title": "Partido Liberal (Whitearmor)",
+      "url": "https://cti.fyi/groups/Whitearmor.html",
+      "feed_id": "bd5511a33bc8920a40cd9b616199a2b5",
+      "date": "Sun, 25 Oct 2026 22:33:16 +0000",
+      "detail": "Intelligence Summary: A political party in Brazil associated with the Bolsonaro family. Threat Syndicate: Whitearmor Claimed Victim: Partido Liberal Industry Sector: Government & Public Sector Geographic Location: \ud83c\udde7\ud83c\uddf7 BR Date Published: 2026-10-25 22:33:16 Date Updated (Revisited): 2026-10-25 23:06:39 Date Discovered: 2026-10-25 16:05:41.553602 Post URL: http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/post/partido-liberal Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-25T22:33:16+00:00"
     }
   ],
   "sources": [
@@ -186,8 +241,8 @@
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 5,
+      "shown": 5,
       "undated": 0
     }
   ]
