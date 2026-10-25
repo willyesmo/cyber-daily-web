@@ -1,0 +1,26 @@
+CYBER DAILY — 2026-10-25 04:57 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+1 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot
+BleepingComputer | Research / advisory | 2026-10-24T14:17:32+00:00
+A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=1; shown=1; undated excluded=0
+SecurityWeek: OK; recent=0; shown=0; undated excluded=0
+RansomLook: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

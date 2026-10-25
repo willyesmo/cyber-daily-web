@@ -1,43 +1,7 @@
 {
-  "generated": "2026-10-24T23:25:35.353661+00:00",
+  "generated": "2026-10-25T04:57:56.537326+00:00",
   "hours": 24,
   "items": [
-    {
-      "title": "CVE-2026-114625: Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114625",
-      "date": "2026-10-23",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Arista",
-        "Producto": "VeloCloud Orchestrator",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-26",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-23T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-110447: Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-110447",
-      "date": "2026-10-23",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Collabora",
-        "Producto": "Collabora Online \u2013 Built-in CODE Server",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-26",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516 ; https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-23T00:00:00+00:00"
-    },
     {
       "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
       "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
@@ -54,8 +18,8 @@
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
