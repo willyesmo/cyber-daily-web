@@ -1,0 +1,194 @@
+{
+  "generated": "2026-10-25T20:59:28.995432+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "feed_id": "https://isc.sans.edu/diary/rss/33454",
+      "date": "Sun, 25 Oct 2026 19:57:53 GMT",
+      "detail": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-25T19:57:53+00:00"
+    },
+    {
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "date": "Sun, 25 Oct 2026 11:49:38 -0400",
+      "detail": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-25T15:49:38+00:00"
+    },
+    {
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "feed_id": "https://www.securityweek.com/?p=50280",
+      "date": "Sun, 25 Oct 2026 11:00:00 +0000",
+      "detail": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-25T11:00:00+00:00"
+    },
+    {
+      "title": "https://x.com/WhiteArmorxd By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "aeaa7bfe3110b47968758af9a5e645a8fafe5fb84f450433e14db711e0adbac9",
+      "date": "Sun, 25 Oct 2026 18:20:01 GMT",
+      "detail": "Hi, we now have an X account. https://x.com/WhiteArmorxd Also, fuck the AI slop cti reporters lol Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T18:20:01+00:00"
+    },
+    {
+      "title": "Yodingenierie By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "bef5e6fbae05dd84aad5228de69a4cbbb65f4c3236155e914bf276264b461822",
+      "date": "Sun, 25 Oct 2026 18:19:56 GMT",
+      "detail": "YOD Engineering is an engineering company computer science, member of the NED&CO Group , a pan-African player committed to transformation digital, information systems governance and innovation by intelligence artificial. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T18:19:56+00:00"
+    },
+    {
+      "title": "tek****om.pl By cloak",
+      "url": "https://www.ransomlook.io//group/cloak",
+      "feed_id": "dcb6c3df90ee8d2996237e46fd3d49a6443f224c8dab2735fc4a6582b596be1d",
+      "date": "Sun, 25 Oct 2026 17:25:49 GMT",
+      "detail": "Country: Poland | Size: 289GB | Private | Views: 2 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T17:25:49+00:00"
+    },
+    {
+      "title": "dr-****le.de By cloak",
+      "url": "https://www.ransomlook.io//group/cloak",
+      "feed_id": "8cf30fea78a73de54567071cb26e829a1a6dd7834c8fc1c229b4153959b87227",
+      "date": "Sun, 25 Oct 2026 17:25:48 GMT",
+      "detail": "Country: Germany | Size: 235GB | Private | Views: 0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T17:25:48+00:00"
+    },
+    {
+      "title": "Partido Liberal By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "28dff81825cf7df4c450818ee07e7bdedd63e7604619e9dcc2c6cbce9db8bc74",
+      "date": "Sun, 25 Oct 2026 17:24:59 GMT",
+      "detail": "Brazil's Liberal Party (PL) is the political party of the Bolsonaro family. Although named \"Liberal,\" it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Fl\u00e1vio Bolsonaro is now the party's presidential candidate, advocating reduced government intervention and tough security policies. We hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartext e-T\u00edtulo credentials, 475 operator accounts with shared password, 2.7M audit events, party dossiers (artist payments, deepfakes, ghost donations), vendor PII, and 340K+ member images. If you don't want this getting out, we suggest you contact us & pay the ransom amount of $5,000,000 in BTC :) Contact: Email: whitearmorrxd@proton.me Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T17:24:59+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 27,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

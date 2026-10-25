@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-25T16:36:42.878717+00:00",
+  "generated": "2026-10-25T20:59:28.995432+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "feed_id": "https://isc.sans.edu/diary/rss/33454",
+      "date": "Sun, 25 Oct 2026 19:57:53 GMT",
+      "detail": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-25T19:57:53+00:00"
+    },
     {
       "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
       "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
@@ -25,81 +36,59 @@
       "published": "2026-10-25T11:00:00+00:00"
     },
     {
-      "title": "Astrana Health By falcon",
-      "url": "https://www.ransomlook.io//group/falcon",
-      "feed_id": "aec23733e78393e4911cda3dda326dd940afdbcebba0121a4531ca7e9548745b",
-      "date": "Sun, 25 Oct 2026 16:22:15 GMT",
-      "detail": "470 GB compressed \u00b7 738 GB uncompressed Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "https://x.com/WhiteArmorxd By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "aeaa7bfe3110b47968758af9a5e645a8fafe5fb84f450433e14db711e0adbac9",
+      "date": "Sun, 25 Oct 2026 18:20:01 GMT",
+      "detail": "Hi, we now have an X account. https://x.com/WhiteArmorxd Also, fuck the AI slop cti reporters lol Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T16:22:15+00:00"
+      "published": "2026-10-25T18:20:01+00:00"
     },
     {
-      "title": "A-RMS By emperador",
-      "url": "https://www.ransomlook.io//group/emperador",
-      "feed_id": "bf89a425e347719bb67c174c43f748d5fc530c2a571af20116cce6d4512bd904",
-      "date": "Sun, 25 Oct 2026 13:37:00 GMT",
-      "detail": "We encrypted your servers and stole some of your source code, along with some sensitive information. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. Publication scheduled: 2026-11-09 13:38:06 UTC Size: 35.5 MB Sectors: Technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Yodingenierie By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "bef5e6fbae05dd84aad5228de69a4cbbb65f4c3236155e914bf276264b461822",
+      "date": "Sun, 25 Oct 2026 18:19:56 GMT",
+      "detail": "YOD Engineering is an engineering company computer science, member of the NED&CO Group , a pan-African player committed to transformation digital, information systems governance and innovation by intelligence artificial. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T13:37:00+00:00"
+      "published": "2026-10-25T18:19:56+00:00"
     },
     {
-      "title": "Aesthetic Dental Designs, P.A LEAKS By hyflock",
-      "url": "https://www.ransomlook.io//group/hyflock",
-      "feed_id": "c8109e1bdc5fbe99f9f14c3a57616ac96e61462eeb90b63454dc6d60935eb9f6",
-      "date": "Sun, 25 Oct 2026 13:29:17 GMT",
-      "detail": "Aesthetic Dental Designs, P.A. (operating commercially as Dental Arts of Atlantis) is a fully licensed and accredited dental healthcare corporation headquartered at 5057 S Congress Ave, Suite 401, Lake Worth Beach, Florida (NPI: 1235501420). The practice is anchored by a distinguished clinical team, featuring Dr. Colleen Lam, D.M.D. and Dr. Serrano. The organization provides comprehensive clinical infrastructure specializing in advanced restorative, cosmetic, and multi-generational family dentistry. Its core competencies include high-precision digital prosthodontics, advanced smile designs, complex full-mouth reconstructions, and systematic preventive oral healthcare. Operating under a patient-centric administrative framework, Aesthetic Dental Designs, P.A. integrates cutting-edge dental technologies with rigorous clinical protocols. The enterprise maintains an established track record of therapeutic excellence, operational integrity, and superior patient outcomes within the South Florida healthcare market. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "tek****om.pl By cloak",
+      "url": "https://www.ransomlook.io//group/cloak",
+      "feed_id": "dcb6c3df90ee8d2996237e46fd3d49a6443f224c8dab2735fc4a6582b596be1d",
+      "date": "Sun, 25 Oct 2026 17:25:49 GMT",
+      "detail": "Country: Poland | Size: 289GB | Private | Views: 2 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T13:29:17+00:00"
+      "published": "2026-10-25T17:25:49+00:00"
     },
     {
-      "title": "ECOM By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "67f42efab86c5b51286a354a8b13391d06044f50dc8aea7bd0c47e00c15a2670",
-      "date": "Sun, 25 Oct 2026 10:35:39 GMT",
-      "detail": "Agriculture Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "dr-****le.de By cloak",
+      "url": "https://www.ransomlook.io//group/cloak",
+      "feed_id": "8cf30fea78a73de54567071cb26e829a1a6dd7834c8fc1c229b4153959b87227",
+      "date": "Sun, 25 Oct 2026 17:25:48 GMT",
+      "detail": "Country: Germany | Size: 235GB | Private | Views: 0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T10:35:39+00:00"
+      "published": "2026-10-25T17:25:48+00:00"
     },
     {
-      "title": "Jons Civil Engineering Company Ltd. (JCEL) By majinahanashi",
-      "url": "https://www.ransomlook.io//group/majinahanashi",
-      "feed_id": "db7e50bf0a61490b0152f0f0c611718dbe0639fd87d8deb9a3bf49862b47e4b4",
-      "date": "Sun, 25 Oct 2026 10:35:36 GMT",
-      "detail": "PENDING Publication scheduled: 2026-10-28T08:56:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Partido Liberal By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "28dff81825cf7df4c450818ee07e7bdedd63e7604619e9dcc2c6cbce9db8bc74",
+      "date": "Sun, 25 Oct 2026 17:24:59 GMT",
+      "detail": "Brazil's Liberal Party (PL) is the political party of the Bolsonaro family. Although named \"Liberal,\" it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Fl\u00e1vio Bolsonaro is now the party's presidential candidate, advocating reduced government intervention and tough security policies. We hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartext e-T\u00edtulo credentials, 475 operator accounts with shared password, 2.7M audit events, party dossiers (artist payments, deepfakes, ghost donations), vendor PII, and 340K+ member images. If you don't want this getting out, we suggest you contact us & pay the ransom amount of $5,000,000 in BTC :) Contact: Email: whitearmorrxd@proton.me Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T10:35:36+00:00"
-    },
-    {
-      "title": "Weitz & Luxenberg (Falcon)",
-      "url": "https://cti.fyi/groups/Falcon.html",
-      "feed_id": "64a0d0d69f2cdaae8de8273f47bf8649",
-      "date": "Sun, 25 Oct 2026 16:05:21 +0000",
-      "detail": "Intelligence Summary: A mass tort litigation law firm based in the United States. Threat Syndicate: Falcon Claimed Victim: Weitz & Luxenberg Target Domain: weitzlaw.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-25 16:05:21.603147 Post URL: http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/companies#weitz-luxenberg Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T16:05:21+00:00"
-    },
-    {
-      "title": "Astrana Health (Falcon)",
-      "url": "https://cti.fyi/groups/Falcon.html",
-      "feed_id": "369163b3deaaa50860de59930732eb04",
-      "date": "Sun, 25 Oct 2026 16:05:21 +0000",
-      "detail": "Intelligence Summary: A healthcare services company listed on NASDAQ with ticker ASTH. Threat Syndicate: Falcon Claimed Victim: Astrana Health Target Domain: astranahealth.com Industry Sector: Healthcare Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-25 16:05:21.603147 Post URL: http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/companies#astrana-health Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T16:05:21+00:00"
+      "published": "2026-10-25T17:24:59+00:00"
     }
   ],
   "sources": [
@@ -120,8 +109,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -190,15 +179,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 20,
+      "recent": 27,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]

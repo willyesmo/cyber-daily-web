@@ -1,0 +1,68 @@
+CYBER DAILY — 2026-10-25 20:59 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+8 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+YARA-X 1.22.0 Release, (Sun, Oct 25th)
+SANS Internet Storm Center | Research / advisory | 2026-10-25T19:57:53+00:00
+YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33454
+
+AI coding agents hijacked using AGENTS.md file in Downloads folder
+BleepingComputer | Research / advisory | 2026-10-25T15:49:38+00:00
+Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/
+
+Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave
+SecurityWeek | Research / advisory | 2026-10-25T11:00:00+00:00
+Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/
+
+https://x.com/WhiteArmorxd By whitearmor
+RansomLook | Ransomware claim / observation | 2026-10-25T18:20:01+00:00
+Hi, we now have an X account. https://x.com/WhiteArmorxd Also, fuck the AI slop cti reporters lol Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/whitearmor
+
+Yodingenierie By panzer
+RansomLook | Ransomware claim / observation | 2026-10-25T18:19:56+00:00
+YOD Engineering is an engineering company computer science, member of the NED&CO Group , a pan-African player committed to transformation digital, information systems governance and innovation by intelligence artificial. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/panzer
+
+tek****om.pl By cloak
+RansomLook | Ransomware claim / observation | 2026-10-25T17:25:49+00:00
+Country: Poland | Size: 289GB | Private | Views: 2 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/cloak
+
+dr-****le.de By cloak
+RansomLook | Ransomware claim / observation | 2026-10-25T17:25:48+00:00
+Country: Germany | Size: 235GB | Private | Views: 0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/cloak
+
+Partido Liberal By whitearmor
+RansomLook | Ransomware claim / observation | 2026-10-25T17:24:59+00:00
+Brazil's Liberal Party (PL) is the political party of the Bolsonaro family. Although named "Liberal," it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party's presidential candidate, advocating reduced government intervention and tough security policies. We hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartext e-Título credentials, 475 operator accounts with shared password, 2.7M audit events, party dossiers (artist payments, deepfakes, ghost donations), vendor PII, and 340K+ member images. If you don't want this getting out, we suggest you contact us & pay the ransom amount of $5,000,000 in BTC :) Contact: Email: whitearmorrxd@proton.me Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/whitearmor
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=1; shown=1; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=27; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
