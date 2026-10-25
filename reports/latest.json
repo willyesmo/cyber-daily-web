@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T04:57:56.537326+00:00",
+  "generated": "2026-10-25T11:48:45.813432+00:00",
   "hours": 24,
   "items": [
     {
@@ -12,6 +12,72 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-24T14:17:32+00:00"
+    },
+    {
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "feed_id": "https://www.securityweek.com/?p=50280",
+      "date": "Sun, 25 Oct 2026 11:00:00 +0000",
+      "detail": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-25T11:00:00+00:00"
+    },
+    {
+      "title": "ECOM By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "67f42efab86c5b51286a354a8b13391d06044f50dc8aea7bd0c47e00c15a2670",
+      "date": "Sun, 25 Oct 2026 10:35:39 GMT",
+      "detail": "Agriculture Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T10:35:39+00:00"
+    },
+    {
+      "title": "Jons Civil Engineering Company Ltd. (JCEL) By majinahanashi",
+      "url": "https://www.ransomlook.io//group/majinahanashi",
+      "feed_id": "db7e50bf0a61490b0152f0f0c611718dbe0639fd87d8deb9a3bf49862b47e4b4",
+      "date": "Sun, 25 Oct 2026 10:35:36 GMT",
+      "detail": "PENDING Publication scheduled: 2026-10-28T08:56:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T10:35:36+00:00"
+    },
+    {
+      "title": "ETO By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "4e0c03c09e7ce0ccc35856204ea6ac8671723fc8efb81426a730f0210012d524",
+      "date": "Sun, 25 Oct 2026 08:27:19 GMT",
+      "detail": "Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T08:27:19+00:00"
+    },
+    {
+      "title": "TOPLIVO AD By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "c09150941158c34205fc7a7895696fe3aa0f49dc0315b3d846f59fc52ef46f91",
+      "date": "Sun, 25 Oct 2026 08:27:15 GMT",
+      "detail": "fuel trading and construction materials \u00b7 Bulgaria Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T08:27:15+00:00"
+    },
+    {
+      "title": "Technoleads Services Inc. By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "2d56272c79dd845ebe7744b3a521b0cb1b262ae868a69ef2de7db023ae86f11c",
+      "date": "Sun, 25 Oct 2026 08:27:14 GMT",
+      "detail": "media production (audio description and accessibility media) \u00b7 Montreal, Quebec, Canada Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T08:27:14+00:00"
     }
   ],
   "sources": [
@@ -95,15 +161,15 @@
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
       "source": "RansomLook",
-      "status": "FAILED: TimeoutError",
-      "recent": 0,
-      "shown": 0,
+      "status": "OK",
+      "recent": 32,
+      "shown": 5,
       "undated": 0
     },
     {
