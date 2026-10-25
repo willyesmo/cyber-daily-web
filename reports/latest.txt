@@ -1,19 +1,37 @@
-CYBER DAILY — 2026-10-25 11:48 UTC
+CYBER DAILY — 2026-10-25 16:36 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-7 entries selected. Feed excerpts, not full-article or AI analysis.
+9 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
-BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot
-BleepingComputer | Research / advisory | 2026-10-24T14:17:32+00:00
-A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]
+AI coding agents hijacked using AGENTS.md file in Downloads folder
+BleepingComputer | Research / advisory | 2026-10-25T15:49:38+00:00
+Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/
+https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/
 
 Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave
 SecurityWeek | Research / advisory | 2026-10-25T11:00:00+00:00
 Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .
 CVEs: Not stated in feed
 https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/
+
+Astrana Health By falcon
+RansomLook | Ransomware claim / observation | 2026-10-25T16:22:15+00:00
+470 GB compressed · 738 GB uncompressed Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/falcon
+
+A-RMS By emperador
+RansomLook | Ransomware claim / observation | 2026-10-25T13:37:00+00:00
+We encrypted your servers and stole some of your source code, along with some sensitive information. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. Publication scheduled: 2026-11-09 13:38:06 UTC Size: 35.5 MB Sectors: Technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/emperador
+
+Aesthetic Dental Designs, P.A LEAKS By hyflock
+RansomLook | Ransomware claim / observation | 2026-10-25T13:29:17+00:00
+Aesthetic Dental Designs, P.A. (operating commercially as Dental Arts of Atlantis) is a fully licensed and accredited dental healthcare corporation headquartered at 5057 S Congress Ave, Suite 401, Lake Worth Beach, Florida (NPI: 1235501420). The practice is anchored by a distinguished clinical team, featuring Dr. Colleen Lam, D.M.D. and Dr. Serrano. The organization provides comprehensive clinical infrastructure specializing in advanced restorative, cosmetic, and multi-generational family dentistry. Its core competencies include high-precision digital prosthodontics, advanced smile designs, complex full-mouth reconstructions, and systematic preventive oral healthcare. Operating under a patient-centric administrative framework, Aesthetic Dental Designs, P.A. integrates cutting-edge dental technologies with rigorous clinical protocols. The enterprise maintains an established track record of therapeutic excellence, operational integrity, and superior patient outcomes within the South Florida healthcare market. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/hyflock
 
 ECOM By qilin
 RansomLook | Ransomware claim / observation | 2026-10-25T10:35:39+00:00
@@ -27,23 +45,17 @@ PENDING Publication scheduled: 2026-10-28T08:56:00Z Attachments: 1 Ransomware gr
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/majinahanashi
 
-ETO By qilin
-RansomLook | Ransomware claim / observation | 2026-10-25T08:27:19+00:00
-Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Weitz & Luxenberg (Falcon)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T16:05:21+00:00
+Intelligence Summary: A mass tort litigation law firm based in the United States. Threat Syndicate: Falcon Claimed Victim: Weitz & Luxenberg Target Domain: weitzlaw.com Industry Sector: Professional Services Geographic Location: 🇺🇸 US Date Discovered: 2026-10-25 16:05:21.603147 Post URL: http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/companies#weitz-luxenberg Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://cti.fyi/groups/Falcon.html
 
-TOPLIVO AD By n0n
-RansomLook | Ransomware claim / observation | 2026-10-25T08:27:15+00:00
-fuel trading and construction materials · Bulgaria Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Astrana Health (Falcon)
+CTI.fyi | Ransomware claim / observation | 2026-10-25T16:05:21+00:00
+Intelligence Summary: A healthcare services company listed on NASDAQ with ticker ASTH. Threat Syndicate: Falcon Claimed Victim: Astrana Health Target Domain: astranahealth.com Industry Sector: Healthcare Geographic Location: 🇺🇸 US Date Discovered: 2026-10-25 16:05:21.603147 Post URL: http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/companies#astrana-health Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-Technoleads Services Inc. By n0n
-RansomLook | Ransomware claim / observation | 2026-10-25T08:27:14+00:00
-media production (audio description and accessibility media) · Montreal, Quebec, Canada Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
+https://cti.fyi/groups/Falcon.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -58,5 +70,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=1; shown=1; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=32; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=20; shown=5; undated excluded=0
+CTI.fyi: OK; recent=2; shown=2; undated excluded=0

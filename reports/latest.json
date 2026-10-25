@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-25T11:48:45.813432+00:00",
+  "generated": "2026-10-25T16:36:42.878717+00:00",
   "hours": 24,
   "items": [
     {
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "date": "Sat, 24 Oct 2026 10:17:32 -0400",
-      "detail": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "date": "Sun, 25 Oct 2026 11:49:38 -0400",
+      "detail": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-24T14:17:32+00:00"
+      "published": "2026-10-25T15:49:38+00:00"
     },
     {
       "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
@@ -23,6 +23,39 @@
       "kind": "Research / advisory",
       "source": "SecurityWeek",
       "published": "2026-10-25T11:00:00+00:00"
+    },
+    {
+      "title": "Astrana Health By falcon",
+      "url": "https://www.ransomlook.io//group/falcon",
+      "feed_id": "aec23733e78393e4911cda3dda326dd940afdbcebba0121a4531ca7e9548745b",
+      "date": "Sun, 25 Oct 2026 16:22:15 GMT",
+      "detail": "470 GB compressed \u00b7 738 GB uncompressed Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T16:22:15+00:00"
+    },
+    {
+      "title": "A-RMS By emperador",
+      "url": "https://www.ransomlook.io//group/emperador",
+      "feed_id": "bf89a425e347719bb67c174c43f748d5fc530c2a571af20116cce6d4512bd904",
+      "date": "Sun, 25 Oct 2026 13:37:00 GMT",
+      "detail": "We encrypted your servers and stole some of your source code, along with some sensitive information. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. Publication scheduled: 2026-11-09 13:38:06 UTC Size: 35.5 MB Sectors: Technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T13:37:00+00:00"
+    },
+    {
+      "title": "Aesthetic Dental Designs, P.A LEAKS By hyflock",
+      "url": "https://www.ransomlook.io//group/hyflock",
+      "feed_id": "c8109e1bdc5fbe99f9f14c3a57616ac96e61462eeb90b63454dc6d60935eb9f6",
+      "date": "Sun, 25 Oct 2026 13:29:17 GMT",
+      "detail": "Aesthetic Dental Designs, P.A. (operating commercially as Dental Arts of Atlantis) is a fully licensed and accredited dental healthcare corporation headquartered at 5057 S Congress Ave, Suite 401, Lake Worth Beach, Florida (NPI: 1235501420). The practice is anchored by a distinguished clinical team, featuring Dr. Colleen Lam, D.M.D. and Dr. Serrano. The organization provides comprehensive clinical infrastructure specializing in advanced restorative, cosmetic, and multi-generational family dentistry. Its core competencies include high-precision digital prosthodontics, advanced smile designs, complex full-mouth reconstructions, and systematic preventive oral healthcare. Operating under a patient-centric administrative framework, Aesthetic Dental Designs, P.A. integrates cutting-edge dental technologies with rigorous clinical protocols. The enterprise maintains an established track record of therapeutic excellence, operational integrity, and superior patient outcomes within the South Florida healthcare market. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-25T13:29:17+00:00"
     },
     {
       "title": "ECOM By qilin",
@@ -47,37 +80,26 @@
       "published": "2026-10-25T10:35:36+00:00"
     },
     {
-      "title": "ETO By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "4e0c03c09e7ce0ccc35856204ea6ac8671723fc8efb81426a730f0210012d524",
-      "date": "Sun, 25 Oct 2026 08:27:19 GMT",
-      "detail": "Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "Weitz & Luxenberg (Falcon)",
+      "url": "https://cti.fyi/groups/Falcon.html",
+      "feed_id": "64a0d0d69f2cdaae8de8273f47bf8649",
+      "date": "Sun, 25 Oct 2026 16:05:21 +0000",
+      "detail": "Intelligence Summary: A mass tort litigation law firm based in the United States. Threat Syndicate: Falcon Claimed Victim: Weitz & Luxenberg Target Domain: weitzlaw.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-25 16:05:21.603147 Post URL: http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/companies#weitz-luxenberg Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-25T08:27:19+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-25T16:05:21+00:00"
     },
     {
-      "title": "TOPLIVO AD By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "c09150941158c34205fc7a7895696fe3aa0f49dc0315b3d846f59fc52ef46f91",
-      "date": "Sun, 25 Oct 2026 08:27:15 GMT",
-      "detail": "fuel trading and construction materials \u00b7 Bulgaria Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "Astrana Health (Falcon)",
+      "url": "https://cti.fyi/groups/Falcon.html",
+      "feed_id": "369163b3deaaa50860de59930732eb04",
+      "date": "Sun, 25 Oct 2026 16:05:21 +0000",
+      "detail": "Intelligence Summary: A healthcare services company listed on NASDAQ with ticker ASTH. Threat Syndicate: Falcon Claimed Victim: Astrana Health Target Domain: astranahealth.com Industry Sector: Healthcare Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-25 16:05:21.603147 Post URL: http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/companies#astrana-health Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-25T08:27:15+00:00"
-    },
-    {
-      "title": "Technoleads Services Inc. By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "2d56272c79dd845ebe7744b3a521b0cb1b262ae868a69ef2de7db023ae86f11c",
-      "date": "Sun, 25 Oct 2026 08:27:14 GMT",
-      "detail": "media production (audio description and accessibility media) \u00b7 Montreal, Quebec, Canada Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-25T08:27:14+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-25T16:05:21+00:00"
     }
   ],
   "sources": [
@@ -168,15 +190,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 32,
+      "recent": 20,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     }
   ]
