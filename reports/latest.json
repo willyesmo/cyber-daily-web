@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T13:20:35.724848+00:00",
+  "generated": "2026-10-26T20:37:57.578737+00:00",
   "hours": 24,
   "items": [
     {
@@ -25,17 +25,6 @@
       "published": "2026-10-26T03:30:12+00:00"
     },
     {
-      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33454",
-      "feed_id": "https://isc.sans.edu/diary/rss/33454",
-      "date": "Sun, 25 Oct 2026 19:57:53 GMT",
-      "detail": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-25T19:57:53+00:00"
-    },
-    {
       "title": "Deploying AI agents securely: how Kaspersky products mitigate AI threats",
       "url": "https://securelist.com/tr/how-to-secure-ai-agents/121444/",
       "feed_id": "https://kasperskycontenthub.com/securelist/tr/auto-draft/121444/",
@@ -47,136 +36,125 @@
       "published": "2026-10-26T10:00:18+00:00"
     },
     {
-      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-      "feed_id": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-      "date": "Mon, 26 Oct 2026 06:26:52 -0400",
-      "detail": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "date": "Mon, 26 Oct 2026 15:26:20 -0400",
+      "detail": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-26T10:26:52+00:00"
+      "published": "2026-10-26T19:26:20+00:00"
     },
     {
-      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-      "date": "Mon, 26 Oct 2026 05:19:57 -0400",
-      "detail": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "date": "Mon, 26 Oct 2026 12:27:57 -0400",
+      "detail": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-26T09:19:57+00:00"
+      "published": "2026-10-26T16:27:57+00:00"
     },
     {
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "date": "Sun, 25 Oct 2026 11:49:38 -0400",
-      "detail": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "date": "Mon, 26 Oct 2026 11:38:24 -0400",
+      "detail": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-25T15:49:38+00:00"
+      "published": "2026-10-26T15:38:24+00:00"
     },
     {
-      "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
-      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-      "feed_id": "https://www.securityweek.com/?p=50295",
-      "date": "Mon, 26 Oct 2026 12:46:44 +0000",
-      "detail": "Small loader code injected into the stores served a payload to visitors or did nothing to avoid detection. The post 953 Online Stores Infected in Long-Lasting Malware Campaign appeared first on SecurityWeek .",
+      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "date": "Mon, 26 Oct 2026 10:00:10 -0400",
+      "detail": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T14:00:10+00:00"
+    },
+    {
+      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "date": "Mon, 26 Oct 2026 09:56:44 -0400",
+      "detail": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T13:56:44+00:00"
+    },
+    {
+      "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
+      "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
+      "feed_id": "https://www.securityweek.com/?p=50305",
+      "date": "Mon, 26 Oct 2026 20:20:56 +0000",
+      "detail": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks. The post Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-26T12:46:44+00:00"
+      "published": "2026-10-26T20:20:56+00:00"
     },
     {
-      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
-      "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-      "feed_id": "https://www.securityweek.com/?p=50292",
-      "date": "Mon, 26 Oct 2026 11:47:52 +0000",
-      "detail": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts. The post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts appeared first on SecurityWeek .",
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50303",
+      "date": "Mon, 26 Oct 2026 14:52:14 +0000",
+      "detail": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-26T11:47:52+00:00"
+      "published": "2026-10-26T14:52:14+00:00"
     },
     {
-      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-      "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-      "feed_id": "https://www.securityweek.com/?p=50289",
-      "date": "Mon, 26 Oct 2026 10:21:57 +0000",
-      "detail": "An out-of-bounds write in Google\u2019s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages appeared first on SecurityWeek .",
+      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+      "feed_id": "https://www.securityweek.com/?p=50301",
+      "date": "Mon, 26 Oct 2026 14:40:48 +0000",
+      "detail": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-26T10:21:57+00:00"
+      "published": "2026-10-26T14:40:48+00:00"
     },
     {
-      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
-      "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
-      "feed_id": "https://www.securityweek.com/?p=50285",
-      "date": "Mon, 26 Oct 2026 09:10:03 +0000",
-      "detail": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek .",
+      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+      "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+      "feed_id": "https://www.securityweek.com/?p=50299",
+      "date": "Mon, 26 Oct 2026 14:30:09 +0000",
+      "detail": "Xint says a flaw in OpenAI\u2019s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-10-26T09:10:03+00:00"
+      "published": "2026-10-26T14:30:09+00:00"
     },
     {
-      "title": "Ernesto Malvestiti S.p.A. By aurora",
-      "url": "https://www.ransomlook.io//group/aurora",
-      "feed_id": "a35a2c0beca3b9f4d737122d1fc7ad119aa0420d9c5159472499ad5db075f3b5",
-      "date": "Mon, 26 Oct 2026 10:34:18 GMT",
-      "detail": "Ernesto Malvestiti S.p.A. \u2014 a privately-held Italian manufacturer of precision aluminium die-cast and fine-blanked components, supplying BMW, Valeo, BorgWarner, Schneider Electric, Fiat/Stellantis, and 150+ other automotive OEM. The exposed material spans the company's entire operations: PAGHENET payroll database (1.1 GB SQL Server backup \u00d77 copies) \u2014 every employee's salary, IBAN bank account, codice fiscale (Italian tax ID), home address, and tax withholdings. Plus the INAZMST employee master database (181 MB \u00d75). GDPR Article 9 special-category data \u2014 medical fitness records, disability status, union membership lists, workplace injuries, occupational diseases, and stress assessments for the entire workforce. 50+ plaintext OEM portal credentials stored in a single file called accesso web.txt \u2014 BMW B2B, Brose SWP, Valeo, BorgWarner SAP, Schneider VFAST, Eaton, Fiat, Peugeot/PSA, and 40+ more. SQL Server administrator password for the payroll database server, stored in a plaintext ODBC registry export. ADP payroll SFTP credentials stored in WinSCP.ini \u2014 the channel used to transmit employee salary data to the external payroll processor. 614 MB of financial/controlling data \u2014 consolidated balance sheets (2024-2025), revenue by plant, P&L, transfer pricing documents, cash flow, competitor analysis, and banking relationships. 1.5 GB of engineering IP \u2014 300+ fine blanking die designs, technical drawings (483 MB), press parameters, PLC programs, FANUC robot code, and R&D contracts. 160+ client/supplier contracts with pricing, commercial terms, and executed NDAs. 560+ job candidate CVs with full names, addresses, phone numbers, and career histories. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-26T10:34:18+00:00"
+      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+      "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+      "feed_id": "https://www.securityweek.com/?p=50297",
+      "date": "Mon, 26 Oct 2026 13:30:10 +0000",
+      "detail": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-26T13:30:10+00:00"
     },
     {
-      "title": "Inside Passage Electric Cooperative, Inc By dragonforce",
-      "url": "https://www.ransomlook.io//group/dragonforce",
-      "feed_id": "27c47bf892410b418d25759c120ae713548f1016e544d369e996ae0b9f4ff2fb",
-      "date": "Mon, 26 Oct 2026 08:27:51 GMT",
-      "detail": "In 2004, Tlingit & Haida Regional Electric Authority was re-organized to an electric cooperative which is now known as Inside Passage Electric Cooperative, Inc.... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "ST Engineering (metaencryptor)",
+      "url": "https://cti.fyi/groups/metaencryptor.html",
+      "feed_id": "b028ab5ea8e00df85278b01da6cef17c",
+      "date": "Mon, 26 Oct 2026 16:02:47 +0000",
+      "detail": "Intelligence Summary: A Singapore-based multinational technology and defence conglomerate. Threat Syndicate: metaencryptor Claimed Victim: ST Engineering Target Domain: st.com Industry Sector: Aerospace & Defense Geographic Location: \ud83c\uddf8\ud83c\uddec SG Date Published: 2026-10-26 16:02:47 Date Updated (Revisited): 2026-10-26 20:02:48 Date Discovered: 2026-10-26 17:01:55.032195 Post URL: https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:766f8c8c1c2b8cc841cc734ad7ec43bfde5acb12f3d85f63f59ae6744d3b2105/0AFC:8262d34bbe72e8602bd367da25b5fee7d89fffa8ef040f9eaa81d237fc16badc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-26T08:27:51+00:00"
-    },
-    {
-      "title": "TRANSPORTES JIMENEZ and REYES JIM REY S.A. By emperador",
-      "url": "https://www.ransomlook.io//group/emperador",
-      "feed_id": "fe3f785d9b58a5405a973effa931cb2b037c68ed21e877b86472d373c49f6956",
-      "date": "Mon, 26 Oct 2026 07:47:00 GMT",
-      "detail": "Transport company from Ecuador engaged in road freight transport. Including the transportation of heavy and bulk cargo, cars, animals and cargo in tanks. Year Founded: 2020 There are many customer documents and employee data. Financial documents, accounting and banking data. Publication scheduled: 2026-11-09 07:47:11 UTC Size: 501.0 MB Sectors: Transportation Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-26T07:47:00+00:00"
-    },
-    {
-      "title": "mahsing.com.my By scarlettgroup",
-      "url": "https://www.ransomlook.io//group/scarlettgroup",
-      "feed_id": "9ddc735aa9c13157ed876ee2d682e41aaf690783d672eae169bbc8f41d8899ed",
-      "date": "Mon, 26 Oct 2026 07:31:31 GMT",
-      "detail": "Mah Sing Group is a leading Malaysian property developer specializing in affordable residential and commercial properties, with additional businesses in healthcare and plastics manufacturing. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-26T07:31:31+00:00"
-    },
-    {
-      "title": "LoveSac By whitearmor",
-      "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "32fa78614e8db4605ef66c411248bb36f268c7a92b70bc502d6814bdd8867acc",
-      "date": "Mon, 26 Oct 2026 02:28:54 GMT",
-      "detail": "LoveSac (LOVE) is a premium furniture retailer operating more than 250 showrooms across the United States, generating approximately $700 million in annual revenue. We have obtained a database containing 1,113,285 order records spanning nearly seven years of transactions, from December 2019 through October 2026, with a combined recorded transaction value exceeding $1.62 billion. Each record contains detailed customer and transaction information, including full customer names, complete billing and shipping addresses, telephone numbers, order numbers, order dates, order statuses, and order grand totals. Our demand: $500,000 in BTC or XMR To verify, samples can be found below. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-26T02:28:54+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-26T16:02:47+00:00"
     }
   ],
   "sources": [
@@ -197,8 +175,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -253,29 +231,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 7,
+      "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 9,
+      "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
-      "status": "OK",
-      "recent": 23,
-      "shown": 5,
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     }
   ]
