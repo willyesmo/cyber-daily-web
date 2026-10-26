@@ -1,0 +1,205 @@
+{
+  "generated": "2026-10-26T05:01:38.780945+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33456",
+      "feed_id": "https://isc.sans.edu/diary/rss/33456",
+      "date": "Mon, 26 Oct 2026 03:30:12 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-26T03:30:12+00:00"
+    },
+    {
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "feed_id": "https://isc.sans.edu/diary/rss/33454",
+      "date": "Sun, 25 Oct 2026 19:57:53 GMT",
+      "detail": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-25T19:57:53+00:00"
+    },
+    {
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "date": "Sun, 25 Oct 2026 11:49:38 -0400",
+      "detail": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-25T15:49:38+00:00"
+    },
+    {
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "feed_id": "https://www.securityweek.com/?p=50280",
+      "date": "Sun, 25 Oct 2026 11:00:00 +0000",
+      "detail": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-25T11:00:00+00:00"
+    },
+    {
+      "title": "LoveSac By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "32fa78614e8db4605ef66c411248bb36f268c7a92b70bc502d6814bdd8867acc",
+      "date": "Mon, 26 Oct 2026 02:28:54 GMT",
+      "detail": "LoveSac (LOVE) is a premium furniture retailer operating more than 250 showrooms across the United States, generating approximately $700 million in annual revenue. We have obtained a database containing 1,113,285 order records spanning nearly seven years of transactions, from December 2019 through October 2026, with a combined recorded transaction value exceeding $1.62 billion. Each record contains detailed customer and transaction information, including full customer names, complete billing and shipping addresses, telephone numbers, order numbers, order dates, order statuses, and order grand totals. Our demand: $500,000 in BTC or XMR To verify, samples can be found below. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-26T02:28:54+00:00"
+    },
+    {
+      "title": "WhiteArmor.cc By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "178b08969ea5c372de17081dfcd4b1f8c9f72ac405bf8e1582ea55692d1d440a",
+      "date": "Mon, 26 Oct 2026 02:28:53 GMT",
+      "detail": "Hi, our VPS provider has decided to ban our account. Due to this, whitearmor.cc is down and so is most of the data posted on our DLS. Everything will be back up within a day or two. One tip, do NOT use https://stealthvm.net/ XD Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-26T02:28:53+00:00"
+    },
+    {
+      "title": "J.B Hunt By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "0c30cdd9d570179cac417c5ca6caad5a5d727300ee18b72afb3b4f8550e46715",
+      "date": "Mon, 26 Oct 2026 01:24:27 GMT",
+      "detail": "You are so stupid JB Hunt. Instead of getting in contact with us & starting the negotiation process, not only did you not announce the breach, you silently email customers demanding them to update their passwords.. Fuck you... ;/ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-26T01:24:27+00:00"
+    },
+    {
+      "title": "Gl\u00fcckauf-Vermessung GmbH By payload",
+      "url": "https://www.ransomlook.io//group/payload",
+      "feed_id": "6139717ca48ecd8bd561db8031eae45c60de454f322172a6fa7f5818e6be913b",
+      "date": "Mon, 26 Oct 2026 00:21:47 GMT",
+      "detail": "Gl\u00fcckauf-Vermessung GmbH (glueckauf-vermessung.de) is a German engineering and technical company based in Sondershausen, operating as part of the ERCOSPLAN Group and specializing in surveying and mine surveying (Bergbau-Markscheiderei). Its core business activities include geodetic support for the mining industry, geological exploration, and work related to salt and mineral deposits. The company provides services for surface and underground measurements, deformation monitoring, and the preparation of technical documentation for industrial projects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-26T00:21:47+00:00"
+    },
+    {
+      "title": "Miletic GmbH By payload",
+      "url": "https://www.ransomlook.io//group/payload",
+      "feed_id": "865c56f833cbd641cf52355f22d435996f8e74c2bc6e6748b2d16a94853f416e",
+      "date": "Mon, 26 Oct 2026 00:21:46 GMT",
+      "detail": "Miletic GmbH is a German specialized contractor headquartered in Bad Sch\u00f6nborn that has been operating in the construction sector since 1989. The company's core business focuses on construction and repair work for ecologically sensitive industrial facilities, including gas stations, tank farms, and operations governed by German water protection laws (WHG Class LAU facilities). Its service portfolio includes joint sealing and remediation, the application of chemical-resistant protective coatings, concrete construction, and related earthworks. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-26T00:21:46+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 29,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

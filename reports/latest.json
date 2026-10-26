@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-25T23:21:45.405047+00:00",
+  "generated": "2026-10-26T05:01:38.780945+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33456",
+      "feed_id": "https://isc.sans.edu/diary/rss/33456",
+      "date": "Mon, 26 Oct 2026 03:30:12 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-26T03:30:12+00:00"
+    },
     {
       "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
       "url": "https://isc.sans.edu/diary/rss/33454",
@@ -36,114 +47,59 @@
       "published": "2026-10-25T11:00:00+00:00"
     },
     {
-      "title": "Advantage Sintered Metals By securotrop",
-      "url": "https://www.ransomlook.io//group/securotrop",
-      "feed_id": "4b09186a04a814095998f3064c803713a95b737f037bf20e02c69c12d5c253a2",
-      "date": "Sun, 25 Oct 2026 22:24:26 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-25T22:24:26+00:00"
-    },
-    {
-      "title": "https://x.com/WhiteArmorxd By whitearmor",
+      "title": "LoveSac By whitearmor",
       "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "aeaa7bfe3110b47968758af9a5e645a8fafe5fb84f450433e14db711e0adbac9",
-      "date": "Sun, 25 Oct 2026 18:20:01 GMT",
-      "detail": "Hi, we now have an X account. https://x.com/WhiteArmorxd Also, fuck the AI slop cti reporters lol Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "32fa78614e8db4605ef66c411248bb36f268c7a92b70bc502d6814bdd8867acc",
+      "date": "Mon, 26 Oct 2026 02:28:54 GMT",
+      "detail": "LoveSac (LOVE) is a premium furniture retailer operating more than 250 showrooms across the United States, generating approximately $700 million in annual revenue. We have obtained a database containing 1,113,285 order records spanning nearly seven years of transactions, from December 2019 through October 2026, with a combined recorded transaction value exceeding $1.62 billion. Each record contains detailed customer and transaction information, including full customer names, complete billing and shipping addresses, telephone numbers, order numbers, order dates, order statuses, and order grand totals. Our demand: $500,000 in BTC or XMR To verify, samples can be found below. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T18:20:01+00:00"
+      "published": "2026-10-26T02:28:54+00:00"
     },
     {
-      "title": "Yodingenierie By panzer",
-      "url": "https://www.ransomlook.io//group/panzer",
-      "feed_id": "bef5e6fbae05dd84aad5228de69a4cbbb65f4c3236155e914bf276264b461822",
-      "date": "Sun, 25 Oct 2026 18:19:56 GMT",
-      "detail": "YOD Engineering is an engineering company computer science, member of the NED&CO Group , a pan-African player committed to transformation digital, information systems governance and innovation by intelligence artificial. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "WhiteArmor.cc By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "178b08969ea5c372de17081dfcd4b1f8c9f72ac405bf8e1582ea55692d1d440a",
+      "date": "Mon, 26 Oct 2026 02:28:53 GMT",
+      "detail": "Hi, our VPS provider has decided to ban our account. Due to this, whitearmor.cc is down and so is most of the data posted on our DLS. Everything will be back up within a day or two. One tip, do NOT use https://stealthvm.net/ XD Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T18:19:56+00:00"
+      "published": "2026-10-26T02:28:53+00:00"
     },
     {
-      "title": "tek****om.pl By cloak",
-      "url": "https://www.ransomlook.io//group/cloak",
-      "feed_id": "dcb6c3df90ee8d2996237e46fd3d49a6443f224c8dab2735fc4a6582b596be1d",
-      "date": "Sun, 25 Oct 2026 17:25:49 GMT",
-      "detail": "Country: Poland | Size: 289GB | Private | Views: 2 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "J.B Hunt By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "0c30cdd9d570179cac417c5ca6caad5a5d727300ee18b72afb3b4f8550e46715",
+      "date": "Mon, 26 Oct 2026 01:24:27 GMT",
+      "detail": "You are so stupid JB Hunt. Instead of getting in contact with us & starting the negotiation process, not only did you not announce the breach, you silently email customers demanding them to update their passwords.. Fuck you... ;/ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T17:25:49+00:00"
+      "published": "2026-10-26T01:24:27+00:00"
     },
     {
-      "title": "dr-****le.de By cloak",
-      "url": "https://www.ransomlook.io//group/cloak",
-      "feed_id": "8cf30fea78a73de54567071cb26e829a1a6dd7834c8fc1c229b4153959b87227",
-      "date": "Sun, 25 Oct 2026 17:25:48 GMT",
-      "detail": "Country: Germany | Size: 235GB | Private | Views: 0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Gl\u00fcckauf-Vermessung GmbH By payload",
+      "url": "https://www.ransomlook.io//group/payload",
+      "feed_id": "6139717ca48ecd8bd561db8031eae45c60de454f322172a6fa7f5818e6be913b",
+      "date": "Mon, 26 Oct 2026 00:21:47 GMT",
+      "detail": "Gl\u00fcckauf-Vermessung GmbH (glueckauf-vermessung.de) is a German engineering and technical company based in Sondershausen, operating as part of the ERCOSPLAN Group and specializing in surveying and mine surveying (Bergbau-Markscheiderei). Its core business activities include geodetic support for the mining industry, geological exploration, and work related to salt and mineral deposits. The company provides services for surface and underground measurements, deformation monitoring, and the preparation of technical documentation for industrial projects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-25T17:25:48+00:00"
+      "published": "2026-10-26T00:21:47+00:00"
     },
     {
-      "title": "Samples.zip (Panzer)",
-      "url": "https://cti.fyi/groups/Panzer.html",
-      "feed_id": "9eb1d86bb7c7dc9d3749f94e0c79ce78",
-      "date": "Sun, 25 Oct 2026 23:06:42 +0000",
-      "detail": "Threat Syndicate: Panzer Claimed Victim: Samples.zip Date Discovered: 2026-10-25 23:06:42.994491 Post URL: http://tvhm7xw756yscfixmoyr2aymgu4oan66ospp44vcykvgxmgyq3ua2vyd.onion/Samples.zip Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
+      "title": "Miletic GmbH By payload",
+      "url": "https://www.ransomlook.io//group/payload",
+      "feed_id": "865c56f833cbd641cf52355f22d435996f8e74c2bc6e6748b2d16a94853f416e",
+      "date": "Mon, 26 Oct 2026 00:21:46 GMT",
+      "detail": "Miletic GmbH is a German specialized contractor headquartered in Bad Sch\u00f6nborn that has been operating in the construction sector since 1989. The company's core business focuses on construction and repair work for ecologically sensitive industrial facilities, including gas stations, tank farms, and operations governed by German water protection laws (WHG Class LAU facilities). Its service portfolio includes joint sealing and remediation, the application of chemical-resistant protective coatings, concrete construction, and related earthworks. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T23:06:42+00:00"
-    },
-    {
-      "title": "Edelstahl-Mechanik GmbH (payload)",
-      "url": "https://cti.fyi/groups/payload.html",
-      "feed_id": "a01a7ba2c193f8c0c7c6c011692cfe21",
-      "date": "Sun, 25 Oct 2026 23:02:59 +0000",
-      "detail": "Intelligence Summary: A German manufacturing company specializing in laser metal processing and structural sheet metal fabrication for automotive, mechanical engineering, and medical technology sectors. Threat Syndicate: payload Claimed Victim: Edelstahl-Mechanik GmbH Industry Sector: Manufacturing Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/ffd64ce9-b420-4a77-8c75-0ff036a554ea Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T23:02:59+00:00"
-    },
-    {
-      "title": "Miletic GmbH (payload)",
-      "url": "https://cti.fyi/groups/payload.html",
-      "feed_id": "e48d978f0420d79bd283d27b5dadb183",
-      "date": "Sun, 25 Oct 2026 23:02:59 +0000",
-      "detail": "Intelligence Summary: A German specialized contractor based in Bad Sch\u00f6nborn, focused on construction and repair of ecologically sensitive industrial facilities such as gas stations and tank farms. Threat Syndicate: payload Claimed Victim: Miletic GmbH Industry Sector: Construction Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/567ce391-f79d-44ad-8c69-9f4eb8849ac5 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T23:02:59+00:00"
-    },
-    {
-      "title": "Gl\u00fcckauf-Vermessung GmbH (payload)",
-      "url": "https://cti.fyi/groups/payload.html",
-      "feed_id": "012b2f203ea19d822616539121c557e9",
-      "date": "Sun, 25 Oct 2026 23:02:59 +0000",
-      "detail": "Intelligence Summary: A German engineering and technical company specializing in surveying and mine surveying for the mining industry. Threat Syndicate: payload Claimed Victim: Gl\u00fcckauf-Vermessung GmbH Target Domain: glueckauf-vermessung.de Industry Sector: Professional Services Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-10-25 23:02:59.506094 Post URL: http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/3197b3f0-551f-4cb8-8889-a04289a9c919 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T23:02:59+00:00"
-    },
-    {
-      "title": "Partido Liberal (Whitearmor)",
-      "url": "https://cti.fyi/groups/Whitearmor.html",
-      "feed_id": "bd5511a33bc8920a40cd9b616199a2b5",
-      "date": "Sun, 25 Oct 2026 22:33:16 +0000",
-      "detail": "Intelligence Summary: A political party in Brazil associated with the Bolsonaro family. Threat Syndicate: Whitearmor Claimed Victim: Partido Liberal Industry Sector: Government & Public Sector Geographic Location: \ud83c\udde7\ud83c\uddf7 BR Date Published: 2026-10-25 22:33:16 Date Updated (Revisited): 2026-10-25 23:06:39 Date Discovered: 2026-10-25 16:05:41.553602 Post URL: http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/post/partido-liberal Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-25T22:33:16+00:00"
+      "source": "RansomLook",
+      "published": "2026-10-26T00:21:46+00:00"
     }
   ],
   "sources": [
@@ -164,8 +120,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -234,15 +190,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 27,
+      "recent": 29,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 5,
-      "shown": 5,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
