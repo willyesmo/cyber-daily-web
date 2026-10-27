@@ -1,7 +1,31 @@
-CYBER DAILY — 2026-10-27 15:26 UTC
+CYBER DAILY — 2026-10-27 22:26 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-21 entries selected. Feed excerpts, not full-article or AI analysis.
+24 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-27T00:00:00+00:00
+Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-48356
+Fabricante: Adobe
+Producto: Commerce and Magento
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-10
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.adobe.com/trust/security/products/commerce/apsb26-73.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48356
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356
+
+CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-27T00:00:00+00:00
+Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-111497
+Fabricante: Google
+Producto: Brotli
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-10
+Uso conocido en ransomware: Unknown
+Notas de CISA: This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/google/brotli/releases/tag/v1.2.1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111497
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111497
 
 CVE-2026-109618: PHP Memory Corruption Vulnerability
 CISA KEV | Known exploitation / catalog addition | 2026-10-26T00:00:00+00:00
@@ -51,35 +75,41 @@ This article is published for educational purposes only, to raise awareness amon
 CVEs: CVE-2026-25243
 https://securelist.com/cloud-infrastructure-isolation-bypass/121609/
 
+UNM Health ransomware attack disrupts patient care, surgeries
+BleepingComputer | Research / advisory | 2026-10-27T22:07:34+00:00
+The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/
+
+Hackers hijack Convertr analytics script to steal payment card data
+BleepingComputer | Research / advisory | 2026-10-27T20:57:25+00:00
+A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/
+
+Microsoft releases Windows OOB updates to distrust eMudhra certificates
+BleepingComputer | Research / advisory | 2026-10-27T18:20:28+00:00
+Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/
+
+Warp discloses breach exposing AI agent logs, user telemetry data
+BleepingComputer | Research / advisory | 2026-10-27T16:15:39+00:00
+Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/
+
 Tailscale warns of SSH flaws allowing root privilege escalation
 BleepingComputer | Research / advisory | 2026-10-27T14:09:46+00:00
 The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/
 
-The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest
-BleepingComputer | Research / advisory | 2026-10-27T14:01:11+00:00
-Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]
+Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws
+SecurityWeek | Research / advisory | 2026-10-27T15:26:12+00:00
+Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/
-
-Apple backports CoreGraphics zero-day patches to older iPhones
-BleepingComputer | Research / advisory | 2026-10-27T10:36:12+00:00
-​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/
-
-Energy giant ENGIE discloses data breach affecting customers
-BleepingComputer | Research / advisory | 2026-10-27T09:25:50+00:00
-French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/
-
-CISA confirms PHP2Shell vulnerabilities now exploited in attacks
-BleepingComputer | Research / advisory | 2026-10-27T08:20:54+00:00
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
+https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/
 
 Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk
 SecurityWeek | Research / advisory | 2026-10-27T13:30:28+00:00
@@ -105,44 +135,44 @@ Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for 
 CVEs: Not stated in feed
 https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/
 
-Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI
-SecurityWeek | Research / advisory | 2026-10-27T10:44:20+00:00
-Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek .
+Bi Link By the gentlemen
+RansomLook | Ransomware claim / observation | 2026-10-27T22:00:50+00:00
+bi-link.com Revenue $380.2 Million Bi-Link US precision manufacturer founded in 1961 (HQ Bloomingdale, IL), making metal stampings and injection-molded plastics with in-house tooling and assembly for automotive, medical, wireless, and consumer electronics OEMs. It owns plants in Shanghai, Nanning, Mexico (Juárez), and a new Vietnam site (2024), offering prototype-to-production under one roof. Revenue isn't reliably public — broker estimates range wildly from ~$10M to $50M, but a TaiPEX filing suggests ~$5M+/month after consolidation. The critical development: in October 2025 family owners agreed to sell the company to Taiwan-listed Donpon Precision, closed and consolidated from Jan 2026. Despite the site still claiming "family-owned", control is now Donpon's, and long-time CEO Tom Harris has exited. Certifications (ISO 9001, ISO 13485, IATF 16949) support real OEM work (e.g. Teleflex via a 3D Systems case) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/
+https://www.ransomlook.io//group/the%20gentlemen
 
-Bristol City Council By wallstreet
-RansomLook | Ransomware claim / observation | 2026-10-27T15:26:46+00:00
-Bristol City Council is the local authority for Bristol, England. It provides public services for residents, businesses, and visitors, including council tax and benefits, housing, schools, social care, waste and recycling, transport, planning, parks, and libraries Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Natsoft Corporation: 618 GB Gone, Silence Kept By leaknet
+RansomLook | Ransomware claim / observation | 2026-10-27T20:18:42+00:00
+#CyberSecurity #DataBreach #Natsoft #LeakNet #ITcompanybreach Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/wallstreet
+https://www.ransomlook.io//group/leaknet
 
-GRUPO PETROIL By direwolf
-RansomLook | Ransomware claim / observation | 2026-10-27T15:26:12+00:00
+TWICE SRL By emperador
+RansomLook | Ransomware claim / observation | 2026-10-27T20:12:00+00:00
+Сompany from the Republic of San Marino, associated with the production and sale of fashion clothing and accessories. Archived personal and corporate data of employees and customers. Publication scheduled: 2026-11-10 20:12:23 UTC Size: 560.0 MB Sectors: Manufacturing, Finance Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/emperador
+
+Kucoin By whitearmor
+RansomLook | Ransomware claim / observation | 2026-10-27T19:25:45+00:00
+Dear Kucoin, We are NOT a hacktivist group. We focus mainly on data extortion & ransomware, so please fuck off with your hacktivist bullshit. https://www.kucoin.com/news/flash/hacktivist-group-whitearmor-claims-to-steal-15-42-million-gamdom-accounts-demands-15m-in-bitcoin Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/whitearmor
+
+Tailormade Logistics By play
+RansomLook | Ransomware claim / observation | 2026-10-27T19:25:40+00:00
  Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/direwolf
+https://www.ransomlook.io//group/play
 
-Horizon Eye Specialists & LASIK Center By booba team
-RansomLook | Ransomware claim / observation | 2026-10-27T15:26:07+00:00
-Medical Practices Website: www.horizonlaservision.com Stolen data: 121 GB. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Machelen (Belgium) (rhysida)
+CTI.fyi | Ransomware claim / observation | 2026-10-27T22:02:49+00:00
+Intelligence Summary: An unspecified Belgian entity involved in data sales. Threat Syndicate: rhysida Claimed Victim: Machelen (Belgium) Canonical Organization: Machelen Geographic Location: 🇧🇪 BE Date Discovered: 2026-10-27 22:02:49.588938 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#machelen-belgium Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/booba%20team
-
-Company #111 By n0n
-RansomLook | Ransomware claim / observation | 2026-10-27T14:21:46+00:00
-retail and facility services · United Arab Emirates Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/n0n
-
-Aesthetic Specialty Centre By booba team
-RansomLook | Ransomware claim / observation | 2026-10-27T14:21:14+00:00
-Medical Practices Website: www.asc-psd.com Stolen data: 22GB. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/booba%20team
+https://cti.fyi/groups/rhysida.html
 
 SOURCE COVERAGE
-CISA KEV: OK; recent=2; shown=2; undated excluded=0
+CISA KEV: OK; recent=4; shown=4; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
 SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
 Cisco Talos: OK; recent=1; shown=1; undated excluded=0
@@ -152,7 +182,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=1; shown=1; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=11; shown=5; undated excluded=0
+BleepingComputer: OK; recent=9; shown=5; undated excluded=0
 SecurityWeek: OK; recent=10; shown=5; undated excluded=0
-RansomLook: OK; recent=49; shown=5; undated excluded=0
-CTI.fyi: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=46; shown=5; undated excluded=0
+CTI.fyi: OK; recent=1; shown=1; undated excluded=0

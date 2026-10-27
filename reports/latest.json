@@ -1,7 +1,43 @@
 {
-  "generated": "2026-10-27T15:26:48.714715+00:00",
+  "generated": "2026-10-27T22:26:16.469298+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356",
+      "date": "2026-10-27",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Adobe",
+        "Producto": "Commerce and Magento",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-10",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.adobe.com/trust/security/products/commerce/apsb26-73.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-27T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111497",
+      "date": "2026-10-27",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Google",
+        "Producto": "Brotli",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-10",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/google/brotli/releases/tag/v1.2.1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-27T00:00:00+00:00"
+    },
     {
       "title": "CVE-2026-109618: PHP Memory Corruption Vulnerability",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618",
@@ -83,6 +119,50 @@
       "published": "2026-10-27T12:00:19+00:00"
     },
     {
+      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+      "date": "Tue, 27 Oct 2026 18:07:34 -0400",
+      "detail": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T22:07:34+00:00"
+    },
+    {
+      "title": "Hackers hijack Convertr analytics script to steal payment card data",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "date": "Tue, 27 Oct 2026 16:57:25 -0400",
+      "detail": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T20:57:25+00:00"
+    },
+    {
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "date": "Tue, 27 Oct 2026 14:20:28 -0400",
+      "detail": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T18:20:28+00:00"
+    },
+    {
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "date": "Tue, 27 Oct 2026 12:15:39 -0400",
+      "detail": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T16:15:39+00:00"
+    },
+    {
       "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
       "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
       "feed_id": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
@@ -94,48 +174,15 @@
       "published": "2026-10-27T14:09:46+00:00"
     },
     {
-      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-      "date": "Tue, 27 Oct 2026 10:01:11 -0400",
-      "detail": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
+      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of \u2018Tailworm\u2019 Flaws",
+      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+      "feed_id": "https://www.securityweek.com/?p=50337",
+      "date": "Tue, 27 Oct 2026 15:26:12 +0000",
+      "detail": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of \u2018Tailworm\u2019 Flaws appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T14:01:11+00:00"
-    },
-    {
-      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-      "feed_id": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-      "date": "Tue, 27 Oct 2026 06:36:12 -0400",
-      "detail": "\u200bApple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T10:36:12+00:00"
-    },
-    {
-      "title": "Energy giant ENGIE discloses data breach affecting customers",
-      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-      "date": "Tue, 27 Oct 2026 05:25:50 -0400",
-      "detail": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T09:25:50+00:00"
-    },
-    {
-      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-      "date": "Tue, 27 Oct 2026 04:20:54 -0400",
-      "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T08:20:54+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-27T15:26:12+00:00"
     },
     {
       "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
@@ -182,78 +229,78 @@
       "published": "2026-10-27T11:49:57+00:00"
     },
     {
-      "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
-      "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
-      "feed_id": "https://www.securityweek.com/?p=50319",
-      "date": "Tue, 27 Oct 2026 10:44:20 +0000",
-      "detail": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-27T10:44:20+00:00"
-    },
-    {
-      "title": "Bristol City Council By wallstreet",
-      "url": "https://www.ransomlook.io//group/wallstreet",
-      "feed_id": "0427af29bdaf96f47eb76c42ac3d11236fe1cab02b7b301eecec7be62ede7c9e",
-      "date": "Tue, 27 Oct 2026 15:26:46 GMT",
-      "detail": "Bristol City Council is the local authority for Bristol, England. It provides public services for residents, businesses, and visitors, including council tax and benefits, housing, schools, social care, waste and recycling, transport, planning, parks, and libraries Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Bi Link By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "c2f02b6ed497ad9bc34f971e91712a63fcf9bc02b0e0b57e321ce84d93aca871",
+      "date": "Tue, 27 Oct 2026 22:00:50 GMT",
+      "detail": "bi-link.com Revenue $380.2 Million Bi-Link US precision manufacturer founded in 1961 (HQ Bloomingdale, IL), making metal stampings and injection-molded plastics with in-house tooling and assembly for automotive, medical, wireless, and consumer electronics OEMs. It owns plants in Shanghai, Nanning, Mexico (Ju\u00e1rez), and a new Vietnam site (2024), offering prototype-to-production under one roof. Revenue isn't reliably public \u2014 broker estimates range wildly from ~$10M to $50M, but a TaiPEX filing suggests ~$5M+/month after consolidation. The critical development: in October 2025 family owners agreed to sell the company to Taiwan-listed Donpon Precision, closed and consolidated from Jan 2026. Despite the site still claiming \"family-owned\", control is now Donpon's, and long-time CEO Tom Harris has exited. Certifications (ISO 9001, ISO 13485, IATF 16949) support real OEM work (e.g. Teleflex via a 3D Systems case) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-27T15:26:46+00:00"
+      "published": "2026-10-27T22:00:50+00:00"
     },
     {
-      "title": "GRUPO PETROIL By direwolf",
-      "url": "https://www.ransomlook.io//group/direwolf",
-      "feed_id": "8c531690ebce1613f208920a45b519d2674a67ab441826fb4fb029781c6c5f15",
-      "date": "Tue, 27 Oct 2026 15:26:12 GMT",
+      "title": "Natsoft Corporation: 618 GB Gone, Silence Kept By leaknet",
+      "url": "https://www.ransomlook.io//group/leaknet",
+      "feed_id": "f8d737c164f6ca5a27dfd393e8b0f920571adfbb2bfd16d22335489ac2397f66",
+      "date": "Tue, 27 Oct 2026 20:18:42 GMT",
+      "detail": "#CyberSecurity #DataBreach #Natsoft #LeakNet #ITcompanybreach Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-27T20:18:42+00:00"
+    },
+    {
+      "title": "TWICE SRL By emperador",
+      "url": "https://www.ransomlook.io//group/emperador",
+      "feed_id": "6fa973f321e30ea5802df5868c941ff6ddee8db6b7e9b631df6e89c3f62fb0e0",
+      "date": "Tue, 27 Oct 2026 20:12:00 GMT",
+      "detail": "\u0421ompany from the Republic of San Marino, associated with the production and sale of fashion clothing and accessories. Archived personal and corporate data of employees and customers. Publication scheduled: 2026-11-10 20:12:23 UTC Size: 560.0 MB Sectors: Manufacturing, Finance Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-27T20:12:00+00:00"
+    },
+    {
+      "title": "Kucoin By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "e1de83cb754c3b4eec1cf1e76a031ad270c8547aa3ab0024c74f8aaaeda5a37f",
+      "date": "Tue, 27 Oct 2026 19:25:45 GMT",
+      "detail": "Dear Kucoin, We are NOT a hacktivist group. We focus mainly on data extortion & ransomware, so please fuck off with your hacktivist bullshit. https://www.kucoin.com/news/flash/hacktivist-group-whitearmor-claims-to-steal-15-42-million-gamdom-accounts-demands-15m-in-bitcoin Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-27T19:25:45+00:00"
+    },
+    {
+      "title": "Tailormade Logistics By play",
+      "url": "https://www.ransomlook.io//group/play",
+      "feed_id": "f5a0866bd997b0241f1ad44247aabbbd9362f596e0db83b3090b0a25f5db6edb",
+      "date": "Tue, 27 Oct 2026 19:25:40 GMT",
       "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-27T15:26:12+00:00"
+      "published": "2026-10-27T19:25:40+00:00"
     },
     {
-      "title": "Horizon Eye Specialists & LASIK Center By booba team",
-      "url": "https://www.ransomlook.io//group/booba%20team",
-      "feed_id": "ae597ac577d70b756b8ee5b37d63511280e77e5d51ff3b3375233d0a3226fb8c",
-      "date": "Tue, 27 Oct 2026 15:26:07 GMT",
-      "detail": "Medical Practices Website: www.horizonlaservision.com Stolen data: 121 GB. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "Machelen (Belgium) (rhysida)",
+      "url": "https://cti.fyi/groups/rhysida.html",
+      "feed_id": "bab63fd855d194618c6fdeeec901acfd",
+      "date": "Tue, 27 Oct 2026 22:02:49 +0000",
+      "detail": "Intelligence Summary: An unspecified Belgian entity involved in data sales. Threat Syndicate: rhysida Claimed Victim: Machelen (Belgium) Canonical Organization: Machelen Geographic Location: \ud83c\udde7\ud83c\uddea BE Date Discovered: 2026-10-27 22:02:49.588938 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#machelen-belgium Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-27T15:26:07+00:00"
-    },
-    {
-      "title": "Company #111 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "0d070313a99d3e1fde45dfe7d5edccbd624a48c7b5771569ac238d1d6b4f74ec",
-      "date": "Tue, 27 Oct 2026 14:21:46 GMT",
-      "detail": "retail and facility services \u00b7 United Arab Emirates Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-27T14:21:46+00:00"
-    },
-    {
-      "title": "Aesthetic Specialty Centre By booba team",
-      "url": "https://www.ransomlook.io//group/booba%20team",
-      "feed_id": "27b0eff41dc8a0ddd1d96bb935fd26c502e980529a1e2065f65a508fab2aee98",
-      "date": "Tue, 27 Oct 2026 14:21:14 GMT",
-      "detail": "Medical Practices Website: www.asc-psd.com Stolen data: 22GB. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-27T14:21:14+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-10-27T22:02:49+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
@@ -322,7 +369,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 11,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
@@ -336,15 +383,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 49,
+      "recent": 46,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     }
   ]
