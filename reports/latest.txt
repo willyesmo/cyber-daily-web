@@ -1,7 +1,37 @@
-CYBER DAILY — 2026-10-26 20:37 UTC
+CYBER DAILY — 2026-10-27 00:36 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-14 entries selected. Feed excerpts, not full-article or AI analysis.
+18 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-109618: PHP Memory Corruption Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-26T00:00:00+00:00
+PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-109618
+Fabricante: PHP Group
+Producto: PHP
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-29
+Uso conocido en ransomware: Unknown
+Notas de CISA: This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109618
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618
+
+CVE-2026-109619: PHP Stale Internal Request-State Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-10-26T00:00:00+00:00
+PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-109619
+Fabricante: PHP Group
+Producto: PHP
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-10-29
+Uso conocido en ransomware: Unknown
+Notas de CISA: This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109619
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619
+
+Apple Patches for October 2026, (Mon, Oct 26th)
+SANS Internet Storm Center | Research / advisory | 2026-10-26T23:34:37+00:00
+Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33458
 
 Looking for a Language [Guest Diary], (Wed, Oct 21st)
 SANS Internet Storm Center | Research / advisory | 2026-10-26T09:38:03+00:00
@@ -21,6 +51,24 @@ Introduction AI agents and associated tooling are becoming increasingly common i
 CVEs: Not stated in feed
 https://securelist.com/tr/how-to-secure-ai-agents/121444/
 
+University of Copenhagen data breach exposes data of 525,000 people
+BleepingComputer | Research / advisory | 2026-10-26T22:20:36+00:00
+The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/
+
+Former pentester used ARTEX AI to steal 8.2 million data records
+BleepingComputer | Research / advisory | 2026-10-26T21:08:28+00:00
+South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/
+
+OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing
+BleepingComputer | Research / advisory | 2026-10-26T20:46:49+00:00
+OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/
+
 DreamHost forces password resets in ongoing "incident"
 BleepingComputer | Research / advisory | 2026-10-26T19:26:20+00:00
 DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]
@@ -32,24 +80,6 @@ BleepingComputer | Research / advisory | 2026-10-26T16:27:57+00:00
 A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/
-
-Microsoft releases emergency .NET patches for critical Brotli flaw
-BleepingComputer | Research / advisory | 2026-10-26T15:38:24+00:00
-Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/
-
-When an AI Agent Is the Incident, the Identity Record Is the Evidence
-BleepingComputer | Research / advisory | 2026-10-26T14:00:10+00:00
-A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/
-
-Chinese man extradited for role in $36 million cryptocurrency scam
-BleepingComputer | Research / advisory | 2026-10-26T13:56:44+00:00
-A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/
 
 Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI
 SecurityWeek | Research / advisory | 2026-10-26T20:20:56+00:00
@@ -81,16 +111,22 @@ Attackers successfully exploited the PHP2Shell flaws against honeypots, launchin
 CVEs: Not stated in feed
 https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/
 
-ST Engineering (metaencryptor)
-CTI.fyi | Ransomware claim / observation | 2026-10-26T16:02:47+00:00
-Intelligence Summary: A Singapore-based multinational technology and defence conglomerate. Threat Syndicate: metaencryptor Claimed Victim: ST Engineering Target Domain: st.com Industry Sector: Aerospace & Defense Geographic Location: 🇸🇬 SG Date Published: 2026-10-26 16:02:47 Date Updated (Revisited): 2026-10-26 20:02:48 Date Discovered: 2026-10-26 17:01:55.032195 Post URL: https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:766f8c8c1c2b8cc841cc734ad7ec43bfde5acb12f3d85f63f59ae6744d3b2105/0AFC:8262d34bbe72e8602bd367da25b5fee7d89fffa8ef040f9eaa81d237fc16badc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Morrison Cohen (SilentRansomGroup)
+CTI.fyi | Ransomware claim / observation | 2026-10-27T00:06:27+00:00
+Intelligence Summary: A law firm headquartered in New York, United States. Threat Syndicate: SilentRansomGroup Claimed Victim: Morrison Cohen Industry Sector: Legal Date Discovered: 2026-10-27 00:06:27.042566 Post URL: https://business-data-leaks.com/about#leak-morrison-cohen Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://cti.fyi/groups/metaencryptor.html
+https://cti.fyi/groups/SilentRansomGroup.html
+
+Zhito Technology (dragonforce)
+CTI.fyi | Ransomware claim / observation | 2026-10-27T00:06:05+00:00
+Intelligence Summary: A Chinese software development firm based in Suzhou, Jiangsu. Threat Syndicate: dragonforce Claimed Victim: Zhito Technology Target Domain: zhito.com Industry Sector: Technology Geographic Location: 🇨🇳 CN Date Discovered: 2026-10-27 00:06:05.447851 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#zhito-technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/dragonforce.html
 
 SOURCE COVERAGE
-CISA KEV: OK; recent=0; shown=0; undated excluded=0
+CISA KEV: OK; recent=2; shown=2; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+SANS Internet Storm Center: OK; recent=3; shown=3; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
@@ -98,7 +134,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=1; shown=1; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=7; shown=5; undated excluded=0
+BleepingComputer: OK; recent=10; shown=5; undated excluded=0
 SecurityWeek: OK; recent=9; shown=5; undated excluded=0
 RansomLook: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-CTI.fyi: OK; recent=1; shown=1; undated excluded=0
+CTI.fyi: OK; recent=2; shown=2; undated excluded=0

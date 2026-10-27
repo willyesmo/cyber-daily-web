@@ -1,0 +1,318 @@
+{
+  "generated": "2026-10-27T00:36:53.398985+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-109618: PHP Memory Corruption Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618",
+      "date": "2026-10-26",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "PHP Group",
+        "Producto": "PHP",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-29",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-26T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-109619: PHP Stale Internal Request-State Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619",
+      "date": "2026-10-26",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "PHP Group",
+        "Producto": "PHP",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-29",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-26T00:00:00+00:00"
+    },
+    {
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
+      "feed_id": "https://isc.sans.edu/diary/rss/33458",
+      "date": "Mon, 26 Oct 2026 23:34:37 GMT",
+      "detail": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-26T23:34:37+00:00"
+    },
+    {
+      "title": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33442",
+      "feed_id": "https://isc.sans.edu/diary/rss/33442",
+      "date": "Mon, 26 Oct 2026 09:38:03 GMT",
+      "detail": "[This is a Guest Diary by Jeffray Spence, an ISC intern as part of the SANS.edu BACS program]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-26T09:38:03+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33456",
+      "feed_id": "https://isc.sans.edu/diary/rss/33456",
+      "date": "Mon, 26 Oct 2026 03:30:12 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-26T03:30:12+00:00"
+    },
+    {
+      "title": "Deploying AI agents securely: how Kaspersky products mitigate AI threats",
+      "url": "https://securelist.com/tr/how-to-secure-ai-agents/121444/",
+      "feed_id": "https://kasperskycontenthub.com/securelist/tr/auto-draft/121444/",
+      "date": "Mon, 26 Oct 2026 10:00:18 +0000",
+      "detail": "Introduction AI agents and associated tooling are becoming increasingly common in corporate infrastructure. Agents can perform a range of actions with the user\u2019s privileges, such as accessing data, running commands, and interacting with external services. This creates new security risks, especially when these tools are used without the security team\u2019s oversight or well-designed policies. Detecting, tracking, and controlling AI agents is becoming one of the most pressing tasks for security teams today. We closely follow technological developments and continuously update our solutions to respond to new threats in a timely manner amid a rapidly changing technology landscape. This post describes new expertise built into Kaspersky products that helps counter the threats posed by the proliferation of AI agents. We approach this problem from several angles. First, you need to thoroughly understand the threat you are dealing with. To this end, we added profiles to the Kaspersky Threat Intelligence Portal that describe various AI agents and how attackers exploit them. At their core, AI agents are programs (processes) that run in the operating system on endpoints and can also launch other processes. This means that Endpoint Detection and Response solutions are among the key endpoint controls for this threat. These solutions detect the presence and launch of AI agents, track their activity, and identify potentially dangerous behavior. When needed, they also take action, such as stopping a suspicious process, blocking the activity, or isolating the host, to reduce the likelihood of an incident escalating. For this purpose, we developed specially adapted detection rules. You can use Kaspersky Endpoint Security, now also available as Kaspersky Next , to control and restrict the launch of AI agents. This solution uses two components to detect AI agents and control how they are used. Application Control categorizes the application processes launched on endpoints, and Web Control manages access to specific categories of web resources for users on endpoints. Finally, even harmless AI agents can contain malicious instructions (skills), such as those downloaded from unsafe external sources. Kaspersky Scan Engine analyzes installed applications to detect these threats and also checks LLM files for malicious code. Let\u2019s take a closer look at these solutions and technologies. Popular AI applications and services in organizations Tools from Anthropic and OpenAI take the top spots in the September 2026 ranking of AI agents by popularity among Kaspersky users. This list is based on telemetry from Kaspersky solutions. It shows the number of users who had the relevant AI vendors\u2019 products installed at the time of the study. # AI product 1 Claude 2 Claude Code 3 Codex 4 OpenCode 5 Zed 6 Wispr Flow 7 LM Studio 8 ZCode 9 Chatbox 10 Cherry Studio The data shows that agentic systems, especially AI agents for software development, are the most popular AI applications. The TOP 10 also includes an application for running large language models locally (LM Studio) and a voice note-taking app (Wispr Flow). According to open sources, these are the most widely used AI services in 2026: # AI service 1 ChatGPT 2 Google Gemini 3 Claude 4 Grammarly 5 DeepSeek While analyzing the most popular and widely used apps, our experts also noticed a sharp rise in vulnerable versions of AI-related software and services . From 2025 to date, more than 2500 vulnerabilities have been published: Number of published vulnerabilities in LLMs, AI tools, and plugins with similar functionality, 2025\u20132026 ( download ) * Data for previous quarters was updated and may differ slightly from previously published data. Application Control and Web Control To enforce the organization\u2019s security policy for AI agents and other AI applications on the corporate network, Kaspersky products offer application control based on KL categories . These categories classify installed software and give you granular control over which approved applications can run in the organization. Application Control analyzes the processes launched on endpoints, tracking which AI agents are running in corporate systems at any given moment, on which hosts, and under which accounts. Application Control also shows how long a given program has been in use. This makes it easier for the Kaspersky Security Center (KSC) administrator to control applications. Administrators can use KL categories to allow or block AI agents inside the company for specific groups of employees. Here is what this functionality looks like to KSC administrators: KL categories available when configuring Application Control For details on how to configure Application Control in KSC, follow this link . In Kaspersky Endpoint Security (KES), Application Control can operate in two modes: Denylist . In this mode, Application Control lets users run any applications except those blocked by Application Control rules. This is the default mode. Allowlist. In this mode, Application Control blocks users from running any applications except those explicitly allowed by Application Control rules. Below are the steps to configure Application Control to block AI tools. Configuring Application Control for the AI Tools category in KES With this setup, when a user tries to launch an AI agent, they get a notification and the agent doesn\u2019t start. KES notification about an attempt to launch an AI agent For more on how to configure Application Control in KES, follow this link . Our public portal also lets you explore information on KL categories and the applications that fall under them, in particular details on how AI agents are categorized and how popular they are . AI Tools KL category The View applications drop-down list shows products for a specific vendor. Similarly, Web Control lets you manage user access to web resources. If a user tries to open a denylisted website, KES blocks access and shows a warning. KES notification about an attempt to access a prohibited web resource When configuring access, the administrator can block websites that provide AI as a service. Website categories For more on configuring Web Control, follow this link . The help portal also provides information on website categories that can be assigned to resources to configure access control. Kaspersky Endpoint Detection and Response To an EDR solution, an AI agent is a regular process. It has its own executable, a tree of child processes, and network communications, all of which need to be monitored for suspicious activity. An attacker can use an AI agent as an automation tool. An AI agent installed as a legitimate user tool can also be leveraged in a ClickFix attack, where it executes a malicious instruction received from an untrusted source, such as a document, web page, or email. That said, unsafe actions by an agent do not always indicate an attack. There may be no malicious intent in the chain at all. An incident can result from what looks like an ordinary instruction from a user who doesn\u2019t fully understand the consequences of having it executed. The mere fact that an agent was launched does not reveal whether it is being used in an attack. That is why Kaspersky EDR (KEDR) uses both conventional behavioral rules and rules written and adapted to detect AI tools. The latter identify risky agent actions and settings, and help determine which AI tool was involved in suspicious activity. Conventional KEDR rules detect the vast majority of familiar malicious techniques, including when performed by an AI agent. A suspicious PowerShell launch, persistence via Task Scheduler, or an attempt to steal credentials leaves clear, identifiable traces. These traces look the same no matter what initiated the actions. The rules analyze launch parameters, process relationships, affected files, network activity, and other telemetry events. For example, in a recent Armored Likho campaign , we found signs that AI had been used to create loader and dropper samples, which were later compiled with NSIS (Nullsoft Scriptable Install System). The key telltale artifacts were icons in the scripts and excessive comments on every function, which is uncharacteristic of human-written code. In addition, the group continues to generate new modules for its BusySnake Stealer and BusySnake RAT samples. For example, the attackers used AI to develop a module that runs multiple checks for virtual environment artifacts and calculates a score. Depending on the score, the sample either runs or exits with code 0. Even though the initial access samples, payloads, and their modules were AI-generated, the commands they execute via rundll32 and PowerShell are detected by the shell_creation_by_rundll32 and suspicious_powershell_cmd_or_script_spawning rules. So, for detecting an attack like this, it is not important who wrote the loader, the payload, or its modules: they are given away by the commands they execute, process relationships, and other traces of activity in the system. AI can be involved both in preparing the code and in carrying out the attack directly on the device. In the latter case, the attacker uses the agent to carry out their tasks and lets it choose and run the required commands within the privileges it has. For effective protection, it is critical to link suspicious actions back to the AI tool and the conditions under which it operates. In KEDR, several specialized rules handle this task. We have created separate rules for popular AI agents, ai_agent_*_access_to_sensitive_file_** , where * is the tool name and ** is the operating system. They generate alerts when an agent accesses files that contain credentials, tokens, or keys. ai_agent_opencode_access_to_sensitive_file_win Tap to preview Tap to hide The ai_agent_dangerous_execution_mode rule detects agents launched with auto-approval of all actions (so-called YOLO mode) or with the sandbox disabled. These settings do not indicate an attack on their own, but they let the agent perform dangerous actions without user confirmation. ai_agent_dangerous_execution_mode Tap to preview Tap to hide The suspicious_mcp_server_artifact rule triggers when MCP server scripts are created or modified in hidden, temporary, or cache directories. Attackers can place an MCP server in these locations to quietly connect it to the agent: through the MCP server, they can pass instructions to the agent, call third-party tools, and access the user\u2019s data. suspicious_mcp_server_artifact Tap to preview Tap to hide The llm_api_access_by_unusual_apps rule generates an alert when an application on Windows, Linux, or macOS connects to the API of a known external LLM service, unless this activity falls under predefined exclusions. This helps spot model access by applications that do not normally behave this way. llm_api_access_by_unusual_apps Tap to preview Tap to hide Some Kaspersky EDR rules tag events for investigation but do not generate alerts. For example, the ai_agent_**_execution rules flag launches of known agents on Windows, Linux, and macOS. The local_ai_model_artifact rule records the creation or modification of AI model files in typical application, runtime, and cache directories. These events reveal AI tools on the device, including tools that run on local models and never call an external API. local_ai_model_artifact Tap to preview Tap to hide Kaspersky Threat Intelligence Portal AI agent profiles The Kaspersky Threat Intelligence Portal offers a large number of software profiles, including profiles of AI agents. You can sort them by the ai_ prefix: AI agent profiles on Kaspersky TIP The profile of an AI agent such as Claude Desktop includes a detailed description of the software, the privilege level required to run it, supported platforms, and threat actor groups known to use it. It also lists tactics and techniques mapped to the MITRE ATT&CK framework, with descriptions of the procedures the tool can be used for. Claude profile on Kaspersky TIP The description also lists ways to detect the software through standard system auditing mechanisms: Windows: events from standard audit logs and Sysmon events Linux: syscall audit events and Sysmon events Network auditing: a set of protocols and the traffic generated by the software The detection section lists the main artifacts the software leaves in the system: command lines, possible launch parameters, names of the services and scheduled tasks it creates, and the key network artifacts. Detection section in the Claude profile Hunt Hub In December 2025, the Kaspersky Threat Intelligence Portal added Hunt Hub (HH), a repository of detection rules. This is a unique Kaspersky project, and we developed it in response to growing market demand. This functionality is available in the Threat Landscape section of the portal. It gives analysts access to detection rules: their descriptions and their mapping to MITRE ATT&CK tactics and techniques, as well as to the associated cybercriminal groups. In the Hunt Hub section, customers can explore the detection logic of EDR, NDR, and NGFW products, including the logic for detecting AI agents. Rules in the Hunt Hub repository The rule card provides: Detailed description Rule\u2019s severity level, confidence level, and alert format Detection tips Description of possible false positives Platforms the rule can run on Tactics, techniques, and sub-techniques covered by the rule Groups that use the technique covered by the rule Detection logic that shows what exactly triggers the rule Detection rule card in Hunt Hub Kaspersky Scan Engine Skills are a key component of the AI agent ecosystem. They\u2019re prewritten sets of natural-language instructions that extend agent functionality. We previously covered the risks that malicious skills pose to agent users. A skill can require the usage of additional programs and services, come with helper scripts (for example, written in Python), or contain a malicious command embedded right in the instruction text. This means that adding skills to an originally harmless AI agent opens up several new ways for malicious code to enter the system. To prevent this, any skills obtained from external sources must be scanned. Kaspersky Scan Engine is well suited for this task. This is a cyberthreat detection and response solution that seamlessly integrates with various applications. It can detect malicious code in agent skills, associated scripts, and in files generated by running agents. Detection of a malicious agent skill in Kaspersky Scan Engine Trained LLMs come in many formats. Some of them (PTH, PT, PKL, KERS, and others) also store parameters and weights (training datasets). These files can also contain malicious code, so it\u2019s critical to scan them before running and using them. Kaspersky Scan Engine scans potentially dangerous LLM formats for infected data. It can deserialize and analyze models to detect malicious code regardless of model size. Detection of an LLM with malicious code in Kaspersky Scan Engine Conclusion AI agents are rapidly making their way into corporate environments: they help employees work faster and take on a wide range of tasks, but they also open up new opportunities for attackers. To take advantage of this technology without compromising security, organizations need to build multi-layered protection and minimize risks. A range of Kaspersky solutions can help with this: Kaspersky TIP keeps you up to date on current scenarios in which attackers use AI agents, and its Hunt Hub section provides rules for detecting suspicious AI agent activity. Kaspersky EDR detects AI agents in the infrastructure and monitors their activity on endpoints. If it detects potentially dangerous actions, the product can log the event, notify the SOC, and take response actions, such as stopping the process or isolating the host. Application Control in Kaspersky products can fully restrict the use of AI agents within the company by using application categorization. The Web Control component can restrict access to AIaaS web resources. Kaspersky Scan Engine can be integrated into various company processes to detect malicious code in any files, including AI agent skills and LLMs. When companies combine the tools described above in a comprehensive approach, they can adopt AI agents in an informed way: with an understanding of the associated risks and effective means of minimizing them.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Securelist",
+      "published": "2026-10-26T10:00:18+00:00"
+    },
+    {
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "date": "Mon, 26 Oct 2026 18:20:36 -0400",
+      "detail": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T22:20:36+00:00"
+    },
+    {
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "date": "Mon, 26 Oct 2026 17:08:28 -0400",
+      "detail": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T21:08:28+00:00"
+    },
+    {
+      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "date": "Mon, 26 Oct 2026 16:46:49 -0400",
+      "detail": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T20:46:49+00:00"
+    },
+    {
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "date": "Mon, 26 Oct 2026 15:26:20 -0400",
+      "detail": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T19:26:20+00:00"
+    },
+    {
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "date": "Mon, 26 Oct 2026 12:27:57 -0400",
+      "detail": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-26T16:27:57+00:00"
+    },
+    {
+      "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
+      "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
+      "feed_id": "https://www.securityweek.com/?p=50305",
+      "date": "Mon, 26 Oct 2026 20:20:56 +0000",
+      "detail": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks. The post Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-26T20:20:56+00:00"
+    },
+    {
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50303",
+      "date": "Mon, 26 Oct 2026 14:52:14 +0000",
+      "detail": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-26T14:52:14+00:00"
+    },
+    {
+      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+      "feed_id": "https://www.securityweek.com/?p=50301",
+      "date": "Mon, 26 Oct 2026 14:40:48 +0000",
+      "detail": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-26T14:40:48+00:00"
+    },
+    {
+      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+      "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+      "feed_id": "https://www.securityweek.com/?p=50299",
+      "date": "Mon, 26 Oct 2026 14:30:09 +0000",
+      "detail": "Xint says a flaw in OpenAI\u2019s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-26T14:30:09+00:00"
+    },
+    {
+      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+      "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+      "feed_id": "https://www.securityweek.com/?p=50297",
+      "date": "Mon, 26 Oct 2026 13:30:10 +0000",
+      "detail": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-26T13:30:10+00:00"
+    },
+    {
+      "title": "Morrison Cohen (SilentRansomGroup)",
+      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
+      "feed_id": "683d2f6347dff7f732081874b575b7d6",
+      "date": "Tue, 27 Oct 2026 00:06:27 +0000",
+      "detail": "Intelligence Summary: A law firm headquartered in New York, United States. Threat Syndicate: SilentRansomGroup Claimed Victim: Morrison Cohen Industry Sector: Legal Date Discovered: 2026-10-27 00:06:27.042566 Post URL: https://business-data-leaks.com/about#leak-morrison-cohen Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-27T00:06:27+00:00"
+    },
+    {
+      "title": "Zhito Technology (dragonforce)",
+      "url": "https://cti.fyi/groups/dragonforce.html",
+      "feed_id": "8f863ccdaac6546420fb400b7bdcde54",
+      "date": "Tue, 27 Oct 2026 00:06:05 +0000",
+      "detail": "Intelligence Summary: A Chinese software development firm based in Suzhou, Jiangsu. Threat Syndicate: dragonforce Claimed Victim: Zhito Technology Target Domain: zhito.com Industry Sector: Technology Geographic Location: \ud83c\udde8\ud83c\uddf3 CN Date Discovered: 2026-10-27 00:06:05.447851 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#zhito-technology Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-27T00:06:05+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 10,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    }
+  ]
+}
