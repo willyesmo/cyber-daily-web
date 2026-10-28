@@ -1,7 +1,43 @@
 {
-  "generated": "2026-10-28T13:15:55.082378+00:00",
+  "generated": "2026-10-28T20:23:56.046210+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-41709: Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-41709",
+      "date": "2026-10-28",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Broadcom",
+        "Producto": "VMware ESX",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-11",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-28T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-46300: Linux Kernel Missing Initialization of a Variable Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300",
+      "date": "2026-10-28",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Linux",
+        "Producto": "Kernel",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-10-31",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/3599e6b3cc1ada96883d496a50a210d3afbb6987 ; https://git.kernel.org/stable/c/2f2b16022a2e10ca7bccfb98db5ed2ec0f72641c ; https://git.kernel.org/stable/c/9d3e5fd19fe1063bf607219e8562fbd567b8e8d5 ; https://git.kernel.org/stable/c/78bf6b6bb19541d19fbda6242e7cfe2c682763c0 ; https://git.kernel.org/stable/c/760e1addc27ba1a7beb4a0a7e8b3e9ec49e7a34e ; https://git.kernel.org/stable/c/3bd9e113d50034db99d7ef69fd8e5242d15e414a ; https://git.kernel.org/stable/c/3884358a9286b17f389a72b1426fc4547c23c111 ; https://git.kernel.org/stable/c/f84eca5817390257cef78013d0112481c503b4a3 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-28T00:00:00+00:00"
+    },
     {
       "title": "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356",
@@ -39,6 +75,17 @@
       "published": "2026-10-27T00:00:00+00:00"
     },
     {
+      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33466",
+      "feed_id": "https://isc.sans.edu/diary/rss/33466",
+      "date": "Wed, 28 Oct 2026 16:07:03 GMT",
+      "detail": "Introduction",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-28T16:07:03+00:00"
+    },
+    {
       "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
       "url": "https://isc.sans.edu/diary/rss/33464",
       "feed_id": "https://isc.sans.edu/diary/rss/33464",
@@ -50,70 +97,125 @@
       "published": "2026-10-28T02:30:11+00:00"
     },
     {
+      "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150233",
+      "date": "Wed, 28 Oct 2026 16:00:00 +0000",
+      "detail": "October is Cybersecurity Awareness Month, and it\u2019s a good time to think about how much the world has changed for chief information security officers (CISOs) in the last 12 months. A year ago, we thought we were already in the thick of AI and starting to understand it. Since then, agents have spread across the enterprise faster than most organizations anticipated. According to our Work Trend Index Annual Report , the number of active agents in the Microsoft 365 ecosystem grew 15-fold year over year and 18-fold in large enterprises. Employees are building and deploying AI systems that can access company data, interact with applications, and take actions on their behalf. These systems are built with good intentions, but even well-intentioned agents can introduce risk when access and behavior are not appropriately governed. At the same time, more people inside our companies are building with AI. Many of them haven\u2019t written code in years, if ever, and they aren\u2019t necessarily thinking about security the way a security team would. That isn\u2019t a criticism. It\u2019s how quickly the technology has expanded who can build and what they can accomplish. For CISOs, this creates two fundamental shifts. We have to protect an enterprise that increasingly operates through AI and agents. And we have to rethink how we defend that enterprise as attackers use AI to move faster and operate at greater scale. When I talk with CISOs, these are the two challenges I keep coming back to. We need to enable innovation without introducing unmanaged risk, and we need to modernize defense without losing the security fundamentals that still matter. Get the 2026 Work Trend Index report For builders: Build securely in the agentic era Cybersecurity awareness has always been about people. This year, it has to include the people building agents. If you\u2019re a developer, a builder, or someone who has just realized that AI can help you design and build things, this part is for you. Give your agents their own identities. Where supported and appropriate, assign agents governed identities rather than personal or shared credentials. When something goes wrong, you need to know which agent did it and be able to shut it off. Protect the data your agents touch. If an agent can reach information, assume it will use it. Make sure the right data protections are in place before you connect it. And remember that the agent will not think like you. It doesn\u2019t share your judgment or your sense of what is appropriate. If you give it access to information or systems, it will act on that access, and that can quickly become a problem. Your CISO wants you to build. They also need to know what\u2019s being built, so they can help you do it safely. The best thing you can do for your security leader is to have the identity and data conversation early, before you build, not after. For CISOs: Protect the enterprise as agent adoption grows Your first job is to put guardrails in place so people can innovate carefully, without slowing them down. Good guardrails help teams move faster because they know where the lines are. Start with observability, and make it deep. You need to know which agents exist, who owns them, what they can reach, and what they\u2019re doing. You can\u2019t protect what you can\u2019t see. Deep observability also means knowing when an agent\u2019s behavior changes, so your team can step in before a small issue becomes a big one. Then hold people\u2019s feet to the fire on identity and data. These are the two areas where I wouldn\u2019t give any ground. Every agent needs a governed identity with only the access it needs, and the data it can reach needs to be classified and protected. When those two are in place, most other decisions get easier. Here\u2019s how we\u2019re approaching agent governance . For CISOs: Defending differently Your second job is to defend differently than you have historically done. Attackers are using AI to move faster, and our latest Microsoft Digital Defense Report shows how much that is compressing the time defenders have to respond. But defending differently isn\u2019t simply about adopting faster tools. It\u2019s about changing how security teams turn information into action. The more integrated your environment is, the faster you\u2019ll be able to see an attack and respond to it. An attack rarely shows up in just one place. Signals across identity, endpoints, applications, and cloud environments need to come together with threat intelligence and organizational context so defenders can understand what\u2019s happening and respond before an incident escalates. When your tools work together, your team sees the full picture instead of pieces of it. It also requires a security approach built to continuously assess risk, make decisions, and act at the speed threats are developing. You also need the right threat intelligence and the right partner. Threat intelligence helps organizations understand how threats are changing, which ones matter to their environment, and where to focus their defenses. Working with partners that have visibility across industries and organizations can provide broader context than an individual organization may have on its own. And you\u2019re not going to operate at this speed without agents helping you. The same capabilities that make attacks faster can make defense faster, with agents working alongside your analysts to investigate and respond. That\u2019s why we\u2019re bringing integrated security operations and agentic defense together . Two jobs, one goal The pace of change over the last year has been significant, and it is likely to continue. None of this means slowing down. The CISOs I talk with want their companies to innovate. They need to protect the enterprise as it uses AI and the increasing speed of AI-enabled threats. Prepare for an agent-driven workplace Explore Work Trend Index insights on the changing role of agents at work and the trends shaping how organizations operate. Explore the Work Trend Index If you\u2019re building with AI, bring your security team in early and have the identity and data conversation. If you\u2019re a CISO, focus on those two jobs and make sure you have the right partners for both. To learn more about Microsoft Security solutions, visit our website. Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post The CISO\u2019s evolving role: Protecting and defending in the agentic era appeared first on Microsoft Security Blog .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Microsoft Security",
+      "published": "2026-10-28T16:00:00+00:00"
+    },
+    {
+      "title": "Unwrapping Retail Peak Season Cyber Threats",
+      "url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=189023",
+      "date": "Wed, 28 Oct 2026 18:00:10 +0000",
+      "detail": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-28T18:00:10+00:00"
+    },
+    {
       "title": "Millions of security cameras at risk: DoS vulnerability in Intelbras devices",
       "url": "https://securelist.com/intelbras-camera-vulnerability/121131/",
       "feed_id": "https://kasperskycontenthub.com/securelist/?p=121131",
       "date": "Wed, 28 Oct 2026 10:00:18 +0000",
-      "detail": "Background Network-connected surveillance cameras are now widespread in both home and enterprise environments, so securing them is essential to safeguarding physical spaces and sensitive assets. As these devices continue to gain new features and network connectivity capabilities, vulnerabilities in their implementation can have significant security implications. During our research, we discovered a denial-of-service vulnerability that affects Intelbras IP cameras systems. The flaw resides in a firmware update endpoint that is accessible without authentication and allows anyone with access to the local Wi-Fi network to knock cameras offline. A single request disrupts the camera for only about a minute, but sending periodic requests keeps the device offline indefinitely. We reported the issue to Intelbras, monitored the remediation process, validated the fix in the new firmware, and will now demonstrate the exploitation procedure step-by-step. Following our notification, Intelbras patched the vulnerability and released updated firmware ( R.260804 ) along with update instructions . A candidate ID of CAN-2026-2035970 has been assigned by MITRE following submission, pending the final CVE assignment. Additionally, the Intelbras team recently informed us that MITRE has classified the vulnerability as Medium, assigning it a score of 5.1 under the CVSS 4.0 framework. The issue discussed in this article is no longer present in the latest firmware version. Firmware Intelbras provides firmware files on its official website. While users can manually install these updates via an SD card, the cameras also natively support firmware upgrades over the local network via their web interface and mobile app. We obtained the firmware version v240927 for the iM3B-C camera, which was the latest available version at the time of our research. According to Intelbras, the same firmware is also compatible with the iMX C, iM4 C, iM5 SC, iME 360 C, and iM7+ FC models. Below, we can view the firmware version and the camera model used as an example. To provide context, we will explain how the camera\u2019s authentication mechanism works and why it is relevant to accessing the camera\u2019s endpoints. The main firmware component is an ARM binary named sonia , responsible for controlling the kernel drivers used by the camera hardware, authentication, and livestream recording, among other things. How authentication works The global.login RPC method handles authentication at the /RPC2_Login endpoint. First, the client, such as the mobile app or a custom script, sends the username and an empty password. The camera responds with an authentication challenge (a set of values to verify the password without transmitting it). This response returns a temporary session, the encryption type in the encryption field, a random value, and a realm (authentication scope). At this stage, a false response is normal and does not indicate a failed login, as the authentication process is not yet complete. Next, the client calculates the response password from the authentication challenge . It first generates an MD5 (username:realm:original_password) hash as the base. It then calculates a second MD5 (username:random:first_md5) hash, where first_md5 is the result of the previous step . To complete the authentication, the client sends this final result back to /RPC2_Login in a second global.login call, passing the username, calculated password, and temporary session ID. If the login is accepted, the camera returns true and a new, authenticated session. This session must be used for all subsequent RPC calls, including the camera\u2019s other endpoints, for example, the one that reboots the device or those that expose sensitive information. Affected endpoint The affected endpoint is the firmware upgrade route http://<ip_address>/firmwareUpgrade_service/Demo , which lacks authentication checks; furthermore, it fails to verify whether the firmware is actually valid before initiating the upgrade process. This creates a serious issue because the upgrade requires the camera to reboot, and that is precisely when the problem occurs: the camera enters reboot mode and eventually shuts down, appearing offline to the user and anyone who has the camera registered on their device. PoC: vulnerability exploitation Now that we have outlined how the vulnerability works, we will use a Python script on an iM3B-C camera to exploit it for demonstration purposes. The exploit contacts the camera\u2019s endpoint to upload firmware. Below, we can see sonia creating the endpoint responsible for the firmware upgrade. Next, the exploit will hit the endpoint and cause the camera to reboot. Consequently, mobile phones running the Intelbras app will lose connection with the registered device. Below, we can see the camera operating normally: the green light is on and the app is showing it is available for viewing. The camera is online After the exploit executes, we can see the effects: the camera goes offline and loses connection to the registered devices. The camera is offline The exploit is quite simple: it sends an HTTP POST request with the firmware, which causes the camera to accept the request and initiate the reboot process. It does not matter whether the firmware is original; the reboot process will start regardless. New firmware version After we notified Intelbras about this flaw in the endpoint implementation, the company contacted the OEM vendor. As a result, a new firmware version was released that requires authentication to initiate an update through this endpoint. Below, we can compare the new firmware, which validates cookies and session data, with the old firmware, which performed no authentication checks and proceeded directly to the update routine. Real risk An attacker can remotely trigger the camera firmware upgrade and reboot process without authenticating or supplying a valid firmware image. This may cause the device to go offline, which results in a denial-of-service condition preventing legitimate users from accessing live monitoring or managing the camera. The potential impact is significant due to the number of affected users. The Intelbras Mibo Smart app , which the company provides to connect and manage the devices mentioned in this report, has over 4,000,000 downloads. Brazil represents the largest user base, followed by Paraguay, Ecuador, Colombia, Argentina, Chile, Peru, Bolivia, Uruguay, and Venezuela. As a result, exploitation of this issue affects a large number of users. Takeaways This is a medium-severity vulnerability that Intelbras is already aware of. The issue has been addressed in a newer firmware release ( R.260804 along with update instructions ), which mitigates this attack vector. Because the vulnerability directly affects the availability and normal operation of the affected cameras, it is highly recommended that users verify the firmware version currently installed on their devices and update to the latest available version as soon as possible. Keeping the firmware up to date is an essential security practice, especially for internet-connected surveillance devices, as outdated versions may remain exposed to known vulnerabilities.",
+      "detail": "Background Network-connected surveillance cameras are now widespread in both home and enterprise environments, so securing them is essential to safeguarding physical spaces and sensitive assets. As these devices continue to gain new features and network connectivity capabilities, vulnerabilities in their implementation can have significant security implications. During our research, we discovered a denial-of-service vulnerability that affects Intelbras IP cameras systems. The flaw resides in a firmware update endpoint that is accessible without authentication and allows anyone with access to the local Wi-Fi network to knock cameras offline. A single request disrupts the camera for only about a minute, but sending periodic requests keeps the device offline indefinitely. We reported the issue to Intelbras, monitored the remediation process, validated the fix in the new firmware, and will now demonstrate the exploitation procedure step-by-step. Following our notification, Intelbras patched the vulnerability and released updated firmware ( R.260804 ) along with update instructions . A candidate ID of CAN-2026-2035970 has been assigned by MITRE following submission, pending the final CVE assignment. Additionally, the Intelbras team recently informed us that MITRE has classified the vulnerability as Medium, assigning it a score of 5.1 under the CVSS 4.0 framework. The issue discussed in this article is no longer present in the latest firmware version. Firmware Intelbras provides firmware files on its official website. While users can manually install these updates via an SD card, the cameras also natively support firmware upgrades over the local network via their web interface and mobile app. We obtained the firmware version v240927 for the iM3B-C (IM3 C) camera, which was the latest available version at the time of our research. According to Intelbras, the same firmware is also compatible with the iMX C, iM4 C, iM5 SC, iME 360 C, and iM7+ FC models. Below, we can view the firmware version and the camera model used as an example. To provide context, we will explain how the camera\u2019s authentication mechanism works and why it is relevant to accessing the camera\u2019s endpoints. The main firmware component is an ARM binary named sonia , responsible for controlling the kernel drivers used by the camera hardware, authentication, and livestream recording, among other things. How authentication works The global.login RPC method handles authentication at the /RPC2_Login endpoint. First, the client, such as the mobile app or a custom script, sends the username and an empty password. The camera responds with an authentication challenge (a set of values to verify the password without transmitting it). This response returns a temporary session, the encryption type in the encryption field, a random value, and a realm (authentication scope). At this stage, a false response is normal and does not indicate a failed login, as the authentication process is not yet complete. Next, the client calculates the response password from the authentication challenge . It first generates an MD5 (username:realm:original_password) hash as the base. It then calculates a second MD5 (username:random:first_md5) hash, where first_md5 is the result of the previous step . To complete the authentication, the client sends this final result back to /RPC2_Login in a second global.login call, passing the username, calculated password, and temporary session ID. If the login is accepted, the camera returns true and a new, authenticated session. This session must be used for all subsequent RPC calls, including the camera\u2019s other endpoints, for example, the one that reboots the device or those that expose sensitive information. Affected endpoint The affected endpoint is the firmware upgrade route http://<ip_address>/firmwareUpgrade_service/Demo , which lacks authentication checks; furthermore, it fails to verify whether the firmware is actually valid before initiating the upgrade process. This creates a serious issue because the upgrade requires the camera to reboot, and that is precisely when the problem occurs: the camera enters reboot mode and eventually shuts down, appearing offline to the user and anyone who has the camera registered on their device. PoC: vulnerability exploitation Now that we have outlined how the vulnerability works, we will use a Python script on an iM3B-C camera to exploit it for demonstration purposes. The exploit contacts the camera\u2019s endpoint to upload firmware. Below, we can see sonia creating the endpoint responsible for the firmware upgrade. Next, the exploit will hit the endpoint and cause the camera to reboot. Consequently, mobile phones running the Intelbras app will lose connection with the registered device. Below, we can see the camera operating normally: the green light is on and the app is showing it is available for viewing. The camera is online After the exploit executes, we can see the effects: the camera goes offline and loses connection to the registered devices. The camera is offline The exploit is quite simple: it sends an HTTP POST request with the firmware, which causes the camera to accept the request and initiate the reboot process. It does not matter whether the firmware is original; the reboot process will start regardless. New firmware version After we notified Intelbras about this flaw in the endpoint implementation, the company contacted the OEM vendor. As a result, a new firmware version was released that requires authentication to initiate an update through this endpoint. Below, we can compare the new firmware, which validates cookies and session data, with the old firmware, which performed no authentication checks and proceeded directly to the update routine. Real risk An attacker can remotely trigger the camera firmware upgrade and reboot process without authenticating or supplying a valid firmware image. This may cause the device to go offline, which results in a denial-of-service condition preventing legitimate users from accessing live monitoring or managing the camera. The potential impact is significant due to the number of affected users. The Intelbras Mibo Smart app , which the company provides to connect and manage the devices mentioned in this report, has over 4,000,000 downloads. Brazil represents the largest user base, followed by Paraguay, Ecuador, Colombia, Argentina, Chile, Peru, Bolivia, Uruguay, and Venezuela. As a result, exploitation of this issue affects a large number of users. Takeaways This is a medium-severity vulnerability that Intelbras is already aware of. The issue has been addressed in a newer firmware release ( R.260804 along with update instructions ), which mitigates this attack vector. Because the vulnerability directly affects the availability and normal operation of the affected cameras, it is highly recommended that users verify the firmware version currently installed on their devices and update to the latest available version as soon as possible. Keeping the firmware up to date is an essential security practice, especially for internet-connected surveillance devices, as outdated versions may remain exposed to known vulnerabilities.",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-10-28T10:00:18+00:00"
     },
     {
-      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-      "date": "Wed, 28 Oct 2026 08:19:57 -0400",
-      "detail": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
+      "title": "Discord to let search engines index public server messages",
+      "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+      "date": "Wed, 28 Oct 2026 14:44:16 -0400",
+      "detail": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-28T12:19:57+00:00"
+      "published": "2026-10-28T18:44:16+00:00"
     },
     {
-      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-      "date": "Wed, 28 Oct 2026 06:46:23 -0400",
-      "detail": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
+      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "date": "Wed, 28 Oct 2026 12:45:47 -0400",
+      "detail": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-28T10:46:23+00:00"
+      "published": "2026-10-28T16:45:47+00:00"
     },
     {
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-      "date": "Wed, 28 Oct 2026 05:43:15 -0400",
-      "detail": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "date": "Wed, 28 Oct 2026 12:00:00 -0400",
+      "detail": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-28T09:43:15+00:00"
+      "published": "2026-10-28T16:00:00+00:00"
     },
     {
-      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-      "date": "Tue, 27 Oct 2026 19:35:51 -0400",
-      "detail": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "date": "Wed, 28 Oct 2026 10:48:32 -0400",
+      "detail": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-27T23:35:51+00:00"
+      "published": "2026-10-28T14:48:32+00:00"
     },
     {
-      "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-      "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-      "date": "Tue, 27 Oct 2026 18:43:27 -0400",
-      "detail": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "date": "Wed, 28 Oct 2026 10:00:00 -0400",
+      "detail": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-27T22:43:27+00:00"
+      "published": "2026-10-28T14:00:00+00:00"
+    },
+    {
+      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "feed_id": "https://www.securityweek.com/?p=50376",
+      "date": "Wed, 28 Oct 2026 15:05:06 +0000",
+      "detail": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-28T15:05:06+00:00"
+    },
+    {
+      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+      "url": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "feed_id": "https://www.securityweek.com/?p=50371",
+      "date": "Wed, 28 Oct 2026 13:56:50 +0000",
+      "detail": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-28T13:56:50+00:00"
+    },
+    {
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50369",
+      "date": "Wed, 28 Oct 2026 13:39:35 +0000",
+      "detail": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-28T13:39:35+00:00"
     },
     {
       "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
@@ -138,122 +240,78 @@
       "published": "2026-10-28T12:00:59+00:00"
     },
     {
-      "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
-      "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
-      "feed_id": "https://www.securityweek.com/?p=50361",
-      "date": "Wed, 28 Oct 2026 10:48:00 +0000",
-      "detail": "Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs. The post Long-Hidden Flaws Patched in EPICS Research Facility Control Software appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-28T10:48:00+00:00"
-    },
-    {
-      "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
-      "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
-      "feed_id": "https://www.securityweek.com/?p=50355",
-      "date": "Wed, 28 Oct 2026 10:30:00 +0000",
-      "detail": "The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies. The post Nobody Trusts the Security Questionnaire. We Rely on It Anyway. appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-28T10:30:00+00:00"
-    },
-    {
-      "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
-      "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
-      "feed_id": "https://www.securityweek.com/?p=50353",
-      "date": "Wed, 28 Oct 2026 09:48:24 +0000",
-      "detail": "The company will use the Series B funds to expand its platform for securing AI agents\u2019 access to sensitive systems. The post Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-28T09:48:24+00:00"
-    },
-    {
-      "title": "GIO Dental By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "ff0e4f287e6b3e440d77a41717ef64d742e89980e9ac0a47a05210bd6db9b8ee",
-      "date": "Wed, 28 Oct 2026 12:48:25 GMT",
-      "detail": "giodentalsl.com GIO Dental SL is a modern dental clinic and laboratory founded by Nigerian dentist Dr. Gift Nwachukwu Obiorah in Freetown, Sierra Leone, with an additional location in Koidu, Kono District. It is Sierra Leone's first fully integrated dental provider offering clinical treatment, a prosthetics laboratory, dental technology education and equipment repair under one brand. Services span general and cosmetic dentistry, orthodontics, oral surgery, custom prosthetics fabrication and community oral health programs. Led by founder Dr. Gio, the company trains local dental technicians and runs outreach campaigns to make premium dental care accessible across the country. Its vertical model combining treatment, manufacturing and education is unique in the Sierra Leonean healthcare market. It also provides equipment repair and supply services to other dental clinics in the region. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "PQE Group By panzer",
+      "url": "https://www.ransomlook.io//group/panzer",
+      "feed_id": "df6346f5c912ee85c471b99e28d838885ae9071e3d13325382a113be008e96f8",
+      "date": "Wed, 28 Oct 2026 19:18:19 GMT",
+      "detail": "Founded in 1998, PQE Group provides technology solutions and compliance consulting services to the Life Sciences industry. The company is headquartered in Reggello, Florence. Note : The Full Data volume is coming as duplicati (dindex.zip.aes), Our Team with our Affiliates will try to enum the PassPhrase From the Target Network and Crack it with a Custom Pass lists and custom tools, We Also Gonna Share the Guide to how you as a hacker can get the hash with aescrypt2hashcat.pl and Crack it using hashcat, The Rest will depend on your Crack process to see the full data volume, We also available to Recover the data to the company when they contact us via official channels and stop the leak process, Thank you. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T12:48:25+00:00"
+      "published": "2026-10-28T19:18:19+00:00"
     },
     {
-      "title": "Meleghy Automotive & Cie. GmbH By aurora",
-      "url": "https://www.ransomlook.io//group/aurora",
-      "feed_id": "d968fc475052852ba2e103a380901b572ec3a4048fac25c0c46ad403325da3d0",
-      "date": "Wed, 28 Oct 2026 11:28:48 GMT",
-      "detail": "The exposed material includes: Passport/visa/student-admission dossiers Tesla Model Y/Opal tooling, CAD and DFM tree Employee contract and HR folders MEB/BMW NCAR metrology and plant-layout trees PLC/SPS/robot backups and cross-reference DBs TISAX/IATF audit and corrective-action records Restricted management meeting/WLAN record Browser profile SQLite databases Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Coming Soon By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "c787b47231d2e0f53db80e273f852bb4142061e444c6ca0a72949572cee1aefe",
+      "date": "Wed, 28 Oct 2026 18:19:04 GMT",
+      "detail": "Coming Soon LOT DESCRIPTION (brief) - U.S. municipal dump: police + 911 + production SQLWhat is for sale. Municipal government of a U.S. city (California): police department, 911 dispatch center (joint authority), fire/EMS, all city services, ~1,100+ employees. ~7.8M files / ~7.8 TB. Content current through late September 2026 - SQL backups, payroll runs and 911 logs up to the final days. Live dump, not an archive. Full snapshot: entire file server, restricted police shares, the 911 center, production databases, workstation backups and terminal-server profiles.Contents. Employee home profiles \ufffd195 (~800 GB) \ufffd department shares - HR/city attorney/finance/council (~1.3 TB) \ufffd public works + utility billing for ~250K accounts (~1.3 TB) \ufffd citywide share with W-2s for all employees (~2.4 TB) \ufffd restricted police archive (~1.7 TB) \ufffd 911 center: ~6.3M call recordings over ~3 years + caller phone/address/GPS metadata (~380 GB) \ufffd SQL backups (~440 GB: dispatch CAD 17+ GB, evidence vault, crime lab, RMS, access control, MFA server).Credentials and access (sells first). Bank ACH private key + passphrase, state treasury pool PINs, corporate cards with PAN+CVV+PIN \ufffd root/enable on the network core (incl. traffic lights) \ufffd government accounts (FBI, DEA, state DOJ, CJIS, LiveScan) + 111 officer passcodes to the narcotics system \ufffd DMV certificate + password \ufffd MFA server dump (TOTP secrets, hardware-token seeds, VPN) \ufffd password templates/defaults, vendor ERP backdoor \ufffd cameras on public IPs \ufffd 13\ufffd .pfx signing certs, OAuth secrets, door/access control, map of 401 cameras, gate codes.Personal data. W-2s for all ~1,100 employees (SSN+salary+address) \ufffd applicant SSN sets \ufffd thousands of EMS patient records with SSN \ufffd 337 DMV records \ufffd credit dossiers with IRS transcripts \ufffd home addresses of the mayor and council \ufffd 911 caller GPS metadata (above) \ufffd production CAD: ~89K incidents, ~3.9K arrests, 941 warrants, 8.3K SSNs.Police kompromat. Internal Affairs master tracker (1,016 rows / ~10 years, named: use of force \ufffd239, pursuits \ufffd172, claims \ufffd223) + 25-year legacy archive (force \ufffd998, complaints \ufffd2,612) \ufffd DA 'untruthful officers' list \ufffd registry of 691 destroyed discipline files + litigation hold list \ufffd officer DUI/DV (arrests; victim of an untaken DV call later killed) \ufffd fresh 2025\ufffd26 cases (negligent discharge + lies \ufffd 58-min discipline audio included; fabricated pursuit; theft during arrest) \ufffd undercover unit rosters, named + informants (names/DLs/phones) \ufffd cold cases (suspects/witnesses) \ufffd SWAT callout sheets with personal cell phones \ufffd 81 real warrant templates with witnesses \ufffd CI/surveillance playbooks \ufffd 911 data fed to federal immigration agencies + active court fight with the state AG over surveillance data sharing \ufffd county election-office correspondence, PRA packages, protest recordings with caller numbers.Finance/mail. ~77 GB of email archives (HR investigations ~37 GB) \ufffd 13 years of payroll \ufffd grants \ufffd 4 layoff waves \ufffd asset forfeiture case files \ufffd GIS/document-system credentials.Buyers. Extortion crews (headline-ready topics already in the news cycle) \ufffd fraud (W-2/SSN/medical) \ufffd IABs (live access to a city 911/CAD is a rare lot) \ufffd plaintiffs' attorneys (new suits, case reviews) \ufffd media (ready stories) \ufffd intelligence services (undercover rosters, informants, LE-systems access) \ufffd criminals (sources and witnesses).Deal formats. Full lot exclusive \ufffd credentials package ( < 1 GB, samples before deal) \ufffd PII packs by class \ufffd police package for media/negotiation \ufffd first-publication rights. Freshness: A=2026 (live data), B=2024\ufffd25 (active cases), C=25+ year legacy (pattern proof).Limitations. Some containers are encrypted (passwords not recovered), video archives unreviewed; the data contains live police sources - handle with care. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T11:28:48+00:00"
+      "published": "2026-10-28T18:19:04+00:00"
     },
     {
-      "title": "Company #112 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "1e92c3a0a0cb70c7bce75a92d25abaa7e237f2de36d884835b86e5c298562987",
-      "date": "Wed, 28 Oct 2026 08:27:55 GMT",
-      "detail": "telecommunications services \u00b7 Malaysia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Noelker and Hull By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "ee527d051439b58efbffa84dfebbc09c4df735ff420e4c05828ea158d99e2fc4",
+      "date": "Wed, 28 Oct 2026 17:18:42 GMT",
+      "detail": "Noelker and Hull NHA-FULL \ufffd US ARCHITECTURE FIRM (est. 1971) - HEALTHCARE / SENIOR-LIVING DESIGN - COMPLETE INTERNAL FILE-SERVER - FRESH TO 2026No credentials in this lot (excluded by decision). Focus: identity and familypackages, payroll SQL, tax/bank pipes, litigation, seals & signatures, 26 GB mail.SUBJECT - Noelker and Hull Associates, Inc. (Chambersburg PA, est. 1971) + KAPClegacy (Frederick MD). ~41 employees, 9 shareholders. Revenue $8.56M -> $7.01M.~990 delivered projects: Penn State Health, WellSpan, Meritus, UPMC, SelectMedical, Tower Health, Holland America, Hershey, Gettysburg College - incl.hospital & crisis-center plans.KEY NUMBERS: 990 project folders | 30+ healthcare clients | 26 GB mail |60+ SSN rows | exec passports+DL x4 | edge 2026.INVENTORY - raw files from the firm's servers, values masked, full set on close.[1] IDENTITY & FAMILY PACKAGES - FULLZ - ~80-100 PA residentsPassports+DL of the President and VP (x4); W-2 with full SSN (SSA TY2024),pay stubs (VP, YTD ~$116K, 07/2026), 401(k) x2, I-9; background checks -MD Criminal History + FBI Identity History + fingerprints.'Kennedy': SSN, mortgage 03/2024, 3 child birth certs, child medical.'Karpowicz' (employee's mother, dementia): Medicare MBI, bank accounts,Morgan Stanley check $86,650.68, returns 2022-2025, IRS POA.'Hoffman': UPMC/WellSpan medical, custody. + ~62 resumes, phones ~45.Below PA AG >500 bar - but every name is a plaintiff (Dittman) + a victim.[2] PAYROLL - Ajera ERP SQL backups, 140 tablesSSN x61+ | Salary x459 | W-2 x1151 | 1099 x991 | DirectDeposit x176 |BankAccount x1503. Full compensation/bank anatomy for payroll-diversion.[3] TAX & FINANCE - Form 1120 x4 yrs, QuickBooks (KAPC); PPP $802,480 +$803,347.83 forgiven; IRS audit TY2020 closed no-change; BlueRidge acct104729, positive-pay exports. Fraud precedent: forged checks $45.5K (2022)+ fraudulent SBA EIDL #7672918108 in the firm's name - scheme proven.[4] LITIGATION - ACTIVE: PJ Dick v. Lehigh No. 2026-C-2439, $13M+, 'designerrors, omissions' against NHA \ufffd internal assessments, stop-work, delayclaims. Fleet Landing demand ~$1.41M. Vincentian 'DO NOT MOVE OR DELETE'hold; SpiriTrust privileged folder; CIA subpoena response.[5] FORGERY KIT - signatures of 14 employees + architect seals (MD/PA); ~140Certificates of Insurance; license keys (Autodesk/Adobe) bonus.[6] COMMERCIAL SECRETS - fee pipeline 2010-2026 (5.00-8.50%, markup 10%,Hourly Rates, Past-Due notices); Meritus master specs; CAD Standards37.7 GB; aborted Olsen merger docs.[7] MAIL - ~26 GB, into 2026. Indexed sample: 6,195 msgs - 401(k)/ERISA/PHI.Rest as-is, unprobed.[+] AS-IS - encrypted browser stores x3 (OWA/banks/PayPal/USCIS listed),Credential Manager x91, .pfx, ACT! DB. Unproven, not in the price.FRESHNESS - A\ufffdlive: pay stubs 07/2026, COI to 05/2027, case 2026-C-2439, mail.B\ufffdrecent: Ajera, pipeline, returns 2022-25, litigation. C\ufffdarchival (KAPC2009-14): W-2, background - SSN/biometrics don't expire.BUYERS - elder-fraud/fullz (1); BEC/payroll-diversion (2+3); competitor AEC (6);PA/MD plaintiff bar (1+4); contractor scams (5).DEAL - mockup only. 1. Sample: masked docs, table-list screenshot, watermarkedseal, SHA-256 manifest. 2. Escrow, multi-sig; whole lot or per-section split.3. Dead-drop container, hash check vs. manifest, proof-of-deletion on exclusive.DISCLAIMER - HYPOTHETICAL RED-TEAM SCENARIO from a confirmed forensic inventory(60 findings). Nothing is offered for sale. Credential rotation = UNVERIFIEDassumption (artifacts dated 2026). '~' = enumerated; unparsed = unproven. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T08:27:55+00:00"
+      "published": "2026-10-28T17:18:42+00:00"
     },
     {
-      "title": "SK Capital Partners By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "e8cac1a0c57790251f4ce77fd5f4e10259c99fa687308b8359826cc2fd5de820",
-      "date": "Wed, 28 Oct 2026 08:24:35 GMT",
-      "detail": "skcapitalpartners.com Revenue $63 Million SK Capital Partners is a New York-based private equity firm founded in 2007 as a spinoff from Apax Partners, managing approximately 10 billion dollars across 60 plus investments in specialty chemicals, pharmaceuticals and ingredients. Led by co-founder Barry Siadat, it targets control investments in companies with 100 million to 1 billion dollars in revenue and has built platforms like Advansix, Sartomer and Cura Particles through buy-and-build strategies. Its portfolio companies employ over 12,000 people and generate more than 5 billion dollars in annual revenue. Recent deals include the July 2026 acquisition of Lorama Group and the October 2026 purchase of Vesuvius Americas refractory assets. Key strengths are deep sector expertise in real-economy industrial businesses and proven IPO and trade sale exits. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "L... By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "4f98da1a2a95d116bceba9ea700734275921a3ace37332b4b207df9d6057759c",
+      "date": "Wed, 28 Oct 2026 17:18:13 GMT",
+      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T08:24:35+00:00"
+      "published": "2026-10-28T17:18:13+00:00"
     },
     {
-      "title": "Cherry Bekaert By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "431ffa6dc86382359a1c3ef7dbdf9a8f240373b6694d1d3e16f8b93770f0716c",
-      "date": "Wed, 28 Oct 2026 08:24:34 GMT",
-      "detail": "cbh.com Revenue $446.7 Million CBH Group Australia's largest grain cooperative, founded in 1933 in Perth and owned by over 3,700 farmer shareholders across Western Australia. It operates the world's largest grain export network with around 200 receival sites, 20 million tons of storage capacity and four export terminals at Kwinana, Albany, Geraldton and Esperance. Each year it handles approximately 20 million tons of grain and exports 15 to 17 million tons, mainly wheat, barley and canola to Asia, the Middle East and beyond. Led by CEO Brendan White, it has invested over 2 billion dollars in infrastructure modernization including rail upgrades, solar energy and digital platforms like the CBH App. The cooperative is financially strong with a BBB credit rating and returns profits to farmers through patronage dividends. It operates its own rail fleet of 360 wagons, runs quality testing laboratories at every site and is expanding port capacity to load Panamax vessels at Kwinana and Albany. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Hauhinco By payload",
+      "url": "https://www.ransomlook.io//group/payload",
+      "feed_id": "ee416b29a17a5761bf9f4e56594cfd0fd5af0866a3e323ffda8184c3c5e16f21",
+      "date": "Wed, 28 Oct 2026 16:25:26 GMT",
+      "detail": "Hauhinco is a German manufacturer of high-pressure water hydraulics. The company produces plunger pumps, valves, and pump stations for mining and industry. It also develops rail-bound shunting systems for automated material handling. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T08:24:34+00:00"
+      "published": "2026-10-28T16:25:26+00:00"
     },
     {
-      "title": "Femern Link Contractors (Barracuda)",
-      "url": "https://cti.fyi/groups/Barracuda.html",
-      "feed_id": "49f13c3f4c7066205123ebea78d13cba",
-      "date": "Wed, 28 Oct 2026 13:05:13 +0000",
-      "detail": "Intelligence Summary: A joint venture between Danish and German firms tasked with designing and constructing the Fehmarnbelt tunnel linking Denmark and Germany. Threat Syndicate: Barracuda Claimed Victim: Femern Link Contractors Target Domain: femernlink.dk Industry Sector: Construction Geographic Location: \ud83c\udde9\ud83c\uddf0 DK Date Discovered: 2026-10-28 13:05:13.352605 Post URL: http://uvm6hk4wwstfddja5z5htgtlehmfyflffijz6iozsuqyacyibzxefkqd.onion/leaks#femern-link-contractors Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Morrison Foerster (SilentRansomGroup)",
+      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
+      "feed_id": "516b85374e56b08570f5220a1c01b075",
+      "date": "Wed, 28 Oct 2026 20:04:06 +0000",
+      "detail": "Intelligence Summary: An international law firm headquartered in the United States, generating $1.41 billion in revenue. Threat Syndicate: SilentRansomGroup Claimed Victim: Morrison Foerster Canonical Organization: Morrison & Foerster Target Domain: morrisonfoerster.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-28 20:04:06.752167 Post URL: https://business-data-leaks.com/about#leak-morrison-foerster Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-10-28T13:05:13+00:00"
-    },
-    {
-      "title": "EWM Group (aurora)",
-      "url": "https://cti.fyi/groups/aurora.html",
-      "feed_id": "505d66aa0752958d7d3a7bd0ac07d72b",
-      "date": "Wed, 28 Oct 2026 13:04:03 +0000",
-      "detail": "Intelligence Summary: A British parent group owning the prominent UK fashion retail chains Bonmarch\u00e9, Edinburgh Woollen Mill and Peacocks. Threat Syndicate: aurora Claimed Victim: EWM Group Industry Sector: Other Geographic Location: \ud83c\uddec\ud83c\udde7 GB Date Discovered: 2026-10-28 13:04:03.587397 Post URL: http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/ewm-group-b175f7dc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-28T13:04:03+00:00"
+      "published": "2026-10-28T20:04:06+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
@@ -266,8 +324,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -280,8 +338,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -294,8 +352,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -322,29 +380,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 11,
+      "recent": 13,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 9,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 39,
+      "recent": 25,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     }
   ]
