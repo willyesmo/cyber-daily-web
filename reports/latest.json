@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T22:26:16.469298+00:00",
+  "generated": "2026-10-28T05:57:11.568143+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,62 +39,15 @@
       "published": "2026-10-27T00:00:00+00:00"
     },
     {
-      "title": "CVE-2026-109618: PHP Memory Corruption Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618",
-      "date": "2026-10-26",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "PHP Group",
-        "Producto": "PHP",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-29",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-26T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-109619: PHP Stale Internal Request-State Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619",
-      "date": "2026-10-26",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "PHP Group",
-        "Producto": "PHP",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-29",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-26T00:00:00+00:00"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33462",
-      "feed_id": "https://isc.sans.edu/diary/rss/33462",
-      "date": "Tue, 27 Oct 2026 02:55:13 GMT",
+      "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33464",
+      "feed_id": "https://isc.sans.edu/diary/rss/33464",
+      "date": "Wed, 28 Oct 2026 02:30:11 GMT",
       "detail": "",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
-      "published": "2026-10-27T02:55:13+00:00"
-    },
-    {
-      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33458",
-      "feed_id": "https://isc.sans.edu/diary/rss/33458",
-      "date": "Tue, 27 Oct 2026 02:09:55 GMT",
-      "detail": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-27T02:09:55+00:00"
+      "published": "2026-10-28T02:30:11+00:00"
     },
     {
       "title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
@@ -117,6 +70,28 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-10-27T12:00:19+00:00"
+    },
+    {
+      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+      "date": "Tue, 27 Oct 2026 19:35:51 -0400",
+      "detail": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T23:35:51+00:00"
+    },
+    {
+      "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+      "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+      "date": "Tue, 27 Oct 2026 18:43:27 -0400",
+      "detail": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-27T22:43:27+00:00"
     },
     {
       "title": "UNM Health ransomware attack disrupts patient care, surgeries",
@@ -150,28 +125,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-27T18:20:28+00:00"
-    },
-    {
-      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-      "date": "Tue, 27 Oct 2026 12:15:39 -0400",
-      "detail": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T16:15:39+00:00"
-    },
-    {
-      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-      "date": "Tue, 27 Oct 2026 10:09:46 -0400",
-      "detail": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-27T14:09:46+00:00"
     },
     {
       "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of \u2018Tailworm\u2019 Flaws",
@@ -229,78 +182,67 @@
       "published": "2026-10-27T11:49:57+00:00"
     },
     {
-      "title": "Bi Link By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "c2f02b6ed497ad9bc34f971e91712a63fcf9bc02b0e0b57e321ce84d93aca871",
-      "date": "Tue, 27 Oct 2026 22:00:50 GMT",
-      "detail": "bi-link.com Revenue $380.2 Million Bi-Link US precision manufacturer founded in 1961 (HQ Bloomingdale, IL), making metal stampings and injection-molded plastics with in-house tooling and assembly for automotive, medical, wireless, and consumer electronics OEMs. It owns plants in Shanghai, Nanning, Mexico (Ju\u00e1rez), and a new Vietnam site (2024), offering prototype-to-production under one roof. Revenue isn't reliably public \u2014 broker estimates range wildly from ~$10M to $50M, but a TaiPEX filing suggests ~$5M+/month after consolidation. The critical development: in October 2025 family owners agreed to sell the company to Taiwan-listed Donpon Precision, closed and consolidated from Jan 2026. Despite the site still claiming \"family-owned\", control is now Donpon's, and long-time CEO Tom Harris has exited. Certifications (ISO 9001, ISO 13485, IATF 16949) support real OEM work (e.g. Teleflex via a 3D Systems case) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-27T22:00:50+00:00"
-    },
-    {
-      "title": "Natsoft Corporation: 618 GB Gone, Silence Kept By leaknet",
-      "url": "https://www.ransomlook.io//group/leaknet",
-      "feed_id": "f8d737c164f6ca5a27dfd393e8b0f920571adfbb2bfd16d22335489ac2397f66",
-      "date": "Tue, 27 Oct 2026 20:18:42 GMT",
-      "detail": "#CyberSecurity #DataBreach #Natsoft #LeakNet #ITcompanybreach Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-27T20:18:42+00:00"
-    },
-    {
-      "title": "TWICE SRL By emperador",
-      "url": "https://www.ransomlook.io//group/emperador",
-      "feed_id": "6fa973f321e30ea5802df5868c941ff6ddee8db6b7e9b631df6e89c3f62fb0e0",
-      "date": "Tue, 27 Oct 2026 20:12:00 GMT",
-      "detail": "\u0421ompany from the Republic of San Marino, associated with the production and sale of fashion clothing and accessories. Archived personal and corporate data of employees and customers. Publication scheduled: 2026-11-10 20:12:23 UTC Size: 560.0 MB Sectors: Manufacturing, Finance Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-27T20:12:00+00:00"
-    },
-    {
-      "title": "Kucoin By whitearmor",
+      "title": "Ryder By whitearmor",
       "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "e1de83cb754c3b4eec1cf1e76a031ad270c8547aa3ab0024c74f8aaaeda5a37f",
-      "date": "Tue, 27 Oct 2026 19:25:45 GMT",
-      "detail": "Dear Kucoin, We are NOT a hacktivist group. We focus mainly on data extortion & ransomware, so please fuck off with your hacktivist bullshit. https://www.kucoin.com/news/flash/hacktivist-group-whitearmor-claims-to-steal-15-42-million-gamdom-accounts-demands-15m-in-bitcoin Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "8691213339889f6e8f9ca1c9d22b1efa3332787da8c6f22ed9c787fa000556b7",
+      "date": "Wed, 28 Oct 2026 02:27:08 GMT",
+      "detail": "Ryder is a Fortune 500 transportation and supply chain management company providing fleet management, dedicated transportation, and logistics solutions. What we hold: 18.75M rows, 328 CSVs, consumer names, phones, emails, driver/associate PII, cleartext API keys, LMS credentials, FTP/telematics configs from RyderView, RLM, EFT. Our demand is only $20M in BTC... i swear. Samples can be found below. Emails with instructions will be sent to Ryder shortly, and no we did not buy access from 'shadowbyte' or whatever the niggas name is on pwnforums. Contact if you do not receive the instructions: Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Email: whitearmorrxd@proton.me Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-27T19:25:45+00:00"
+      "published": "2026-10-28T02:27:08+00:00"
     },
     {
-      "title": "Tailormade Logistics By play",
-      "url": "https://www.ransomlook.io//group/play",
-      "feed_id": "f5a0866bd997b0241f1ad44247aabbbd9362f596e0db83b3090b0a25f5db6edb",
-      "date": "Tue, 27 Oct 2026 19:25:40 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "wagyu.xyz unfairness By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "4ee189122b595c65a8c0f5039a3396dda2e66dd8af6b260f79c25856a5df6833",
+      "date": "Wed, 28 Oct 2026 02:27:07 GMT",
+      "detail": "wagyu.xyz runs two rigged systems, both proven by the evidence: 1. Rigged coinflip. The site advertises \"48% win chance, 4% house edge\" (coinflip-public-claim.txt, coinflip-public-terms.json), but server settings aimed for a 4.00% expected edge and the distribution of outcomes is measurably shifted against players: of 2,852 provably-fair-verified flips, 1,417 fell in the 0-48000 band versus 1,325 above 52000, with only 110 in the dead zone (coinflip-measured-odds.json, result_bins). The provably-fair HMAC checks all pass (coinflip-fairness-verify.py, coinflip-sample-seed-chain.json), which only proves the commits weren't tampered per-round; the win thresholds themselves are crooked. Internal accounting confirms: expectedEdge \"4.00\", actualEdge \"2.92\" against a published 2% edge, and a 36.49% player win rate (coinflip-house-stats.json, coinflip-settings.json, coinflip-accepted-orders.json). 2. Hidden fee overcharging. Across 28,840 swap/bridge orders totaling ~$264.9M notional, wagyu advertised $1.73M in fees but actually collected $5.64M, hiding $3.9M or 69.28% of its real take (fee-overcharge-metrics.json). 13,190 orders were charged above the quoted rate, 1,812 above 2 percentage points. The server's internal policy charges up to 10% where the public disclosure says 2% (fee-policy-server.json vs fee-public-disclosure.txt, fee-policy-feeds.json, fee-overcharge-summary.json). Worst cases are itemized in fee-top100-overcharged.csv, e.g. order RMNCMB: $3.17M swap, quoted 0.02, charged 0.08, $190,092 stolen (fee-order-RMNCMB.json). Evidence to support this can be found below: Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-27T19:25:40+00:00"
+      "published": "2026-10-28T02:27:07+00:00"
     },
     {
-      "title": "Machelen (Belgium) (rhysida)",
-      "url": "https://cti.fyi/groups/rhysida.html",
-      "feed_id": "bab63fd855d194618c6fdeeec901acfd",
-      "date": "Tue, 27 Oct 2026 22:02:49 +0000",
-      "detail": "Intelligence Summary: An unspecified Belgian entity involved in data sales. Threat Syndicate: rhysida Claimed Victim: Machelen (Belgium) Canonical Organization: Machelen Geographic Location: \ud83c\udde7\ud83c\uddea BE Date Discovered: 2026-10-27 22:02:49.588938 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#machelen-belgium Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
+      "title": "Echo.com By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "7403be18a37a06b08c3823ead1934c73debd4a03bfb5e952d0397c30e3200ec4",
+      "date": "Wed, 28 Oct 2026 02:27:06 GMT",
+      "detail": "Echo Global Logistics is a Chicago-based, technology-enabled third-party logistics provider offering freight brokerage and integrated supply chain services, including truckload, LTL, warehousing, and cross-border shipping across North America. We hold Echo Global Logistics data: 2.06M claims rows, 153,727 freight loads, 261,440 quotes ($705M buy volume), 136,273 tenderings, 59,607 tracking records, 3,890 employee identity mappings with emails, 2,418 customers, 9,122 carriers, and warehouse geodata. We suggest you pay a small ransom demand of $10,000,000 in BTC and move on with your lives. Emails with instructions will be sent to you shortly. Samples can be found below. Contact: Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Email: whitearmorrxd@proton.me Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-27T22:02:49+00:00"
+      "source": "RansomLook",
+      "published": "2026-10-28T02:27:06+00:00"
+    },
+    {
+      "title": "https://t.me/whitearmorxd By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "2883d81bb42496d0c6833d3d4fb5d2c9e678bfefabe511d4998b1531f9b3f336",
+      "date": "Tue, 27 Oct 2026 23:25:07 GMT",
+      "detail": "Hi, join our telegram channel for fun.. i guess https://t.me/whitearmorxd Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-27T23:25:07+00:00"
+    },
+    {
+      "title": "Machelen (Belgium) By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "10184eaec325b024151fd96602f46f09cd1aa18f6255c07a2f2d43eba886af7a",
+      "date": "Tue, 27 Oct 2026 23:25:05 GMT",
+      "detail": "Machelen (Belgium) Machelen (Belgium) - municipal and social welfare (OCMW) file servers1.3 million files, ~2.9 TB. Working copy + backup copy (lawer2/lawer3). Language: Dutch, partly French.Contents:Social welfare and migration service client files: passports, ID cards, residence permits, sick notes.WZC nursing home: medical files, staff HR dossiers, workplace accidents.Civil status records (births, marriages) with national register numbers (NISS/RRN).Payslips, financial data.Correspondence (~23k messages), employee home folders.Databases and backups: full OCMW database backup (6 GB, 09/2026), 645 .mdb databases, 12,873 .dbf, 110 .bak (17 GB).Verified: 13,319 files with personal data. Among them - a valid Belgian ID card (expiry 02/2029), Belgian and Moroccan passports, national register numbers (RRN), sick notes with patient addresses, medical documents (GDPR Art. 9 special categories). More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-27T23:25:05+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -313,8 +255,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -369,29 +311,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 9,
+      "recent": 11,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 10,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 46,
+      "recent": 43,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
