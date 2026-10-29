@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T20:23:56.046210+00:00",
+  "generated": "2026-10-29T01:04:36.392467+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,51 +39,15 @@
       "published": "2026-10-28T00:00:00+00:00"
     },
     {
-      "title": "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356",
-      "date": "2026-10-27",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Adobe",
-        "Producto": "Commerce and Magento",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-10",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://www.adobe.com/trust/security/products/commerce/apsb26-73.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-27T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111497",
-      "date": "2026-10-27",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Google",
-        "Producto": "Brotli",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-10",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/google/brotli/releases/tag/v1.2.1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-27T00:00:00+00:00"
-    },
-    {
       "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
       "url": "https://isc.sans.edu/diary/rss/33466",
       "feed_id": "https://isc.sans.edu/diary/rss/33466",
-      "date": "Wed, 28 Oct 2026 16:07:03 GMT",
+      "date": "Thu, 29 Oct 2026 00:42:15 GMT",
       "detail": "Introduction",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
-      "published": "2026-10-28T16:07:03+00:00"
+      "published": "2026-10-29T00:42:15+00:00"
     },
     {
       "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
@@ -95,6 +59,17 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-28T02:30:11+00:00"
+    },
+    {
+      "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+      "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+      "feed_id": "6ae0e55693b063000154870f",
+      "date": "Wed, 28 Oct 2026 21:32:02 GMT",
+      "detail": "Cisco Talos has identified UAT-11473, a highly sophisticated advanced persistent threat (APT) actor, who exploited CVE-2026-20127 , an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems. UAT-11473 then installed a custom malware framework we track as \u201cKeyDrift\u201d consisting of multiple components geared towards collecting sensitive keying information, acting as backdoors and intermediate command-and-control (C2) hosts. Observed targeting spans across space and satellite services, defense and aerospace technology, and policy research. Talos assesses with high confidence that UAT-11473\u2019s operating infrastructure overlaps considerably with Volt Typhoon\u2019s \u201cSilent Train\u201d covert access network . KeyDrift is a custom malware framework that is designed to operate in Cisco SD-WAN controller environments. Talos assesses with high confidence that the framework is designed to provide long-term persistent access and automated exfiltration of sensitive keying material. KeyDrift operates inside SD-WAN control-plane processes and is capable of intercepting decrypted control traffic, extracting control-session metadata and data-plane keying material, and staging or transmitting the collected material using encrypted records. The framework's primary component is PolyFlame, a memory-resident module deployed through modified runit service paths. PolyFlame is injected into legitimate running vdaemon processes, and it can also masquerade as a packed \u201caaamgrd\u201d loader variant. Once resident, PolyFlame interposes socket, DTLS, and runtime-linker behavior through functions such as recvfrom, sendto, getpeername, dlopen, dlsym, mprotect, and \u201c/proc/%d/maps\u201d parsing. This gives KeyDrift access to SD-WAN control-plane traffic from inside legitimate controller daemon execution rather than through a conventional endpoint beacon. LittleFilch, another component of the KeyDrift framework, provides the collection and exfiltration capability identified in the framework. The module hooks \u201cSSL_read\u201d inside vdaemon, inspects decrypted control-plane buffers, extracts keying material for a list of predefined edge nodes, and stages the data locally in encrypted format for exfiltration. Talos assesses with high confidence that KeyDrift's intended operational purpose is Cisco SD-WAN control-plane collection: persistent controller residence, in-band traffic access, key-material extraction from decrypted control messages, and encrypted staging or exfiltration of the recovered material. Observed variations of the KeyDrift modules and deployment mechanisms suggest active development of the framework\u2019s capabilities. KeyDrift analysis KeyDrift uses Cisco SD-WAN runit service paths as its primary execution anchor. In the PolyFlame sshd deployment, the actor modifies the service run script, remounts /rootfs.rw executable, launches a malicious script \u201cconf_sshd\u201d in the background, and then starts the legitimate sshd service. The loader script enumerates running vdaemon PIDs, records them in \u201c/tmp/system-vdaemon\u201d, and invokes the injector component \u201crsshd\u201d to inject PolyFlame (\u201clibdssl.so\u201d) into each process. Recovered conf_sshd logic uses the same control flow across reviewed samples: Figure 1. conf_sshd control flow logic. Runit launchers The observed sshd runit launcher preserves normal Cisco SD-WAN sshd startup logic while adding two malicious lines before service execution, which remount \u201c/rootfs.rw\u201d executable and background execution of conf_sshd, which then drives rsshd injection into vdaemon. Figure 2. conf_sshd execution logic. The recovered aaamgr runit launcher from an affected vBond appliance uses a parallel service-wrapper pattern, but it executes the packed aaamgrd PolyFlame loader directly. The deletion of the writable-overlay PAM configurations for sshd and login before remounting \u201c/rootfs.rw\u201d executable if part of the legitimate script, along with the invocation of the aaamgrd daemon via Python: Figure 3. aamgrd daemon launch. PolyFlame PolyFlame is the primary operational module in the KeyDrift framework. PolyFlame operates at the socket and DTLS control-plane layer. PolyFlame serves two primary purposes: Command execution via a TinyShell-styled backdoor Intermediate C2 that can forward commands to and from the C2 to other peers PolyFlame is primarily injected into the vdaemon process, providing operational obfuscation and access to all in-process state: DTLS session keys, vEdge topology, OMP routes, and policy tables. No hardcoded IPv4 addresses, binding ports, callback domains, URLs, host headers, or polling interval were recovered from the analyzed PolyFlame samples. PolyFlame is designed for in-band control or tasking over Cisco SD-WAN control-plane traffic rather than a conventional fixed external beacon. This implant is meant to serve as a hook of the recvfrom() API call. The original recvfrom is replaced by a malicious subroutine in the vdaemon process. When recvfrom is called in the vdaemon process, the malicious subroutine will first execute the real/legitimate recvfrom() API to obtain the C2 IP address info for communicating with it in the future. PolyFlame\u2019s time check The recvd data from the C2 consists of the MD5 value of a specific DATE. PolyFlame will calculate the local time on the device in format \u201c%Y-%m-%d\" and calculate its MD5 hash. If the MD5 calculated by the device does not match with the one sent by the C2, the implant will stop further execution. Otherwise, the implant then uses an \u201cadministrative code\u201d from the C2 and performs an action. PolyFlame\u2019s tasking PolyFlame contains an administrative mode that processes the admin code sent by the C2, that defines operations \u2014 it's one of the first flags checked in the backdoor: Code = 1: Generate random bytes and send to C2. This is likely a check-in beacon or heartbeat for the C2. Code = 2: Set implant type to backdoor (TinyShell) or intermediate C2. Code = 3: Set up the command handler for the intermediate C2. Any other code value: Check the implant type flag currently set. Based on the implant type flag, either send the accompanying data to TinyShell or the intermediate C2 component for processing. PolyFlame\u2019s command execution PolyFlame contains a backdoor that matches the capabilities of TinyShell: file read, file write, and arbitrary command execution, but not interactive shell. This backdoor component\u2019s implementation is quite similar to TinyShell, but the command codes differ. PolyFlame handles the following command codes: Code = 0x100: Execute command using \u201c/bin/sh -c <command>\u201d Code = 0x200: Write file to disk. Code = 0x300: Read file from disk and send to the C2. PolyFlame as an intermediate C2 component The intermediate C2 component is a one-to-many handler (somewhat like a one-to-many multiplexer) \u2014 meaning the implant can connect to only one C2 but can connect to many peers who can be served by the intermediate C2 component. Similar to the TinyShell-backdoor component, the intermediate C2 component also accepts and processes specific command codes from the C2: Code = 0x403: Create a thread to connect to the specified peer IP. Make a new connection and keep socket alive until specified. Code = 0x404: Send data recvd from the C2 to a connected peer. Code = 0x405: Remove a peer from the list of active connections. Code = 0x407: Send a response recvd from a peer, back to the C2. Code = 0x408: Set a specific value in memory. PolyFlame variant: aaamgrd Talos has observed a distinct PolyFlame variant that masquerades as the aaamgr service. The legitimate Cisco aaamgr component is a Python package; it does not normally appear as a compiled ELF runit service. This PolyFlame variant is executed by a malicious runit service under \u201c/etc/sv/aaamgr/\u201d with aaamgrd and a modified run launcher. aaamgrd is a statically linked ELF64 executable with no section headers, a single RWE loader segment, and an RC4-encrypted embedded ELF payload. The loader uses direct syscalls including ptrace, fork, wait4, kill, tgkill, mmap, and mprotect. It performs an anti-debug check by deobfuscating /proc/%d/status and TracerPid: and exits if a tracer is present. The observed staging sequence was: Figure 4. PolyFlame staging sequence. Note that in addition to the implant execution staging, there are also indications of timestomping. LittleFilch: libcommon.so TLS interception module LittleFilch is a control-session interception module positioned to collect data-plane keying material from control sessions visible to the injected vSmart process. LittleFilch installs an SSL_read hook inside vdaemon. The hook calls the original SSL_read, then processes returned buffers only when the returned size is greater than 0x18F, the first decrypted byte is 0x07, and three marker patterns are checked for presence. These marker bytes are followed by the actual artifacts that LittleFilch aims to record: Marker bytes Parsed field Length Notes 40 03 06 Public IP 4 bytes vEdge public / transport IP 40 0C 04 Peer system-IP 4 bytes vEdge OMP system-IP 05 01 0C 06 40 Binary key field 32 (0x20) bytes Assessed OMP-distributed AES-256 IPsec data-plane key material LittleFilch records the extracted keying material and RSA-encrypts it before writing the output to \u201c/var/tmp/vdaemon.bin\u201d. It can then send the encrypted content over UDP in a DTLS 1.2 application-data style record. Figure 5. Keying material recording format used by LittleFilch. LittleFilch expects its configuration file \u2014 located at \u201c/var/tmp/vdaemon.conf\u201d \u2014 to contain two host port lines: one local bind IP/port and one remote destination IP/port. It deletes \u201c/var/tmp/vdaemon.conf\u201d after reading it. Talos has not been able to recover the \u201cvdaemon.conf\u201d file. KeyDrift components Component Primary hook/surface Observed scope Confirmed function PolyFlame libdssl.so Socket / DTLS / runtime linker interposition inside vdaemon Multiple affected controller roles In-band control-plane interception and tasking; exact command format unresolved rsshd Ptrace injection Multiple affected controller roles Injects libdssl.so into vdaemon by PID conf_sshd Shell-based PID enumeration Multiple affected controller roles Locates vdaemon PIDs and records injection output Trojanized run Runit service launcher Multiple affected controller roles Remounts overlay executable and launches injector chain Packed aaamgrd Packed loader, direct syscalls, anti-debug Affected vBond appliance evidence Decrypts and runs embedded PolyFlame payload; tampers with PAM configs LittleFilch libcommon.so OpenSSL SSL_read hook Affected vSmart process evidence Extracts control-session identifiers and assessed data-plane key material from decrypted control traffic vdaemon.bin Encrypted staging file Affected vSmart process evidence Stores RSA-encrypted LittleFilch telemetry records vdaemon.conf Runtime endpoint config Affected vSmart process evidence Supplies local and remote UDP endpoint configuration; deleted after read MITRE ATT&CK techniques Technique ID Notes Process Injection: Ptrace System Calls T1055.008 rsshd injects libdssl.so into vdaemon by PID Hijack Execution Flow: Dynamic Linker Hijacking T1574.006 PolyFlame uses dlsym(RTLD_NEXT, ...), dlopen, and runtime interposition Boot or Logon Initialization Scripts T1037 Modified runit service scripts launch KeyDrift components Create or Modify System Process T1543 Malicious service paths under etc/sv/sshd/ and etc/sv/aaamgr/ Masquerade Task or Service T1036.004 sshd and aaamgr service-name masquerading Unix Shell T1059.004 conf_sshd and recovered operator staging commands Software Packing T1027.002 aaamgrd uses packed embedded ELF payload System Checks T1497.001 aaamgrd checks TracerPid before unpacking Timestomp T1070.006 touch --reference= and chmod --reference= staging commands copied reference file metadata Network Sniffing T1040 PolyFlame and LittleFilch intercept SD-WAN control-plane traffic Encrypted Channel: Symmetric Cryptography T1573.001 PolyFlame AES implementation; aaamgrd RC4 packer; LittleFilch RSA-encrypted records Recommendations Cisco has released patches for CVE-2026-20127 and published a hardening guide for Cisco Catalyst SD-WAN deployments available here . Organizations are strongly advised to prioritize the application of these patches and follow the guidance provided. Following the identification of UAT-11473 activity, Talos strongly recommends that organizations monitor their systems for indicators of post-compromise activity. Should any signs of unauthorized activity be detected, organizations should immediately activate their incident response frameworks. Contact the Cisco Technical Assistance Center (TAC) for support by initiating a TAC request . Coverage Snort SIDs are already available for CVE-2026-20127: 65938, 65958. Snort SIDs for the malicious artifacts illustrated in this blog: Snort v2: 67387 through 67416 Snort v3: 7:44 through 7:73",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-28T21:32:02+00:00"
     },
     {
       "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
@@ -128,6 +103,17 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-10-28T10:00:18+00:00"
+    },
+    {
+      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "date": "Wed, 28 Oct 2026 16:47:22 -0400",
+      "detail": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-28T20:47:22+00:00"
     },
     {
       "title": "Discord to let search engines index public server messages",
@@ -172,17 +158,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-28T14:48:32+00:00"
-    },
-    {
-      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-      "date": "Wed, 28 Oct 2026 10:00:00 -0400",
-      "detail": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
@@ -240,78 +215,67 @@
       "published": "2026-10-28T12:00:59+00:00"
     },
     {
-      "title": "PQE Group By panzer",
-      "url": "https://www.ransomlook.io//group/panzer",
-      "feed_id": "df6346f5c912ee85c471b99e28d838885ae9071e3d13325382a113be008e96f8",
-      "date": "Wed, 28 Oct 2026 19:18:19 GMT",
-      "detail": "Founded in 1998, PQE Group provides technology solutions and compliance consulting services to the Life Sciences industry. The company is headquartered in Reggello, Florence. Note : The Full Data volume is coming as duplicati (dindex.zip.aes), Our Team with our Affiliates will try to enum the PassPhrase From the Target Network and Crack it with a Custom Pass lists and custom tools, We Also Gonna Share the Guide to how you as a hacker can get the hash with aescrypt2hashcat.pl and Crack it using hashcat, The Rest will depend on your Crack process to see the full data volume, We also available to Recover the data to the company when they contact us via official channels and stop the leak process, Thank you. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Santiam Hospital & Clinics By anubis",
+      "url": "https://www.ransomlook.io//group/anubis",
+      "feed_id": "0c1670a03cd51aea6d16770f3db832126b554656d6b2630989f99ce4cad6c389",
+      "date": "Thu, 29 Oct 2026 00:22:06 GMT",
+      "detail": "A major medical data breach. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T19:18:19+00:00"
+      "published": "2026-10-29T00:22:06+00:00"
     },
     {
-      "title": "Coming Soon By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "c787b47231d2e0f53db80e273f852bb4142061e444c6ca0a72949572cee1aefe",
-      "date": "Wed, 28 Oct 2026 18:19:04 GMT",
-      "detail": "Coming Soon LOT DESCRIPTION (brief) - U.S. municipal dump: police + 911 + production SQLWhat is for sale. Municipal government of a U.S. city (California): police department, 911 dispatch center (joint authority), fire/EMS, all city services, ~1,100+ employees. ~7.8M files / ~7.8 TB. Content current through late September 2026 - SQL backups, payroll runs and 911 logs up to the final days. Live dump, not an archive. Full snapshot: entire file server, restricted police shares, the 911 center, production databases, workstation backups and terminal-server profiles.Contents. Employee home profiles \ufffd195 (~800 GB) \ufffd department shares - HR/city attorney/finance/council (~1.3 TB) \ufffd public works + utility billing for ~250K accounts (~1.3 TB) \ufffd citywide share with W-2s for all employees (~2.4 TB) \ufffd restricted police archive (~1.7 TB) \ufffd 911 center: ~6.3M call recordings over ~3 years + caller phone/address/GPS metadata (~380 GB) \ufffd SQL backups (~440 GB: dispatch CAD 17+ GB, evidence vault, crime lab, RMS, access control, MFA server).Credentials and access (sells first). Bank ACH private key + passphrase, state treasury pool PINs, corporate cards with PAN+CVV+PIN \ufffd root/enable on the network core (incl. traffic lights) \ufffd government accounts (FBI, DEA, state DOJ, CJIS, LiveScan) + 111 officer passcodes to the narcotics system \ufffd DMV certificate + password \ufffd MFA server dump (TOTP secrets, hardware-token seeds, VPN) \ufffd password templates/defaults, vendor ERP backdoor \ufffd cameras on public IPs \ufffd 13\ufffd .pfx signing certs, OAuth secrets, door/access control, map of 401 cameras, gate codes.Personal data. W-2s for all ~1,100 employees (SSN+salary+address) \ufffd applicant SSN sets \ufffd thousands of EMS patient records with SSN \ufffd 337 DMV records \ufffd credit dossiers with IRS transcripts \ufffd home addresses of the mayor and council \ufffd 911 caller GPS metadata (above) \ufffd production CAD: ~89K incidents, ~3.9K arrests, 941 warrants, 8.3K SSNs.Police kompromat. Internal Affairs master tracker (1,016 rows / ~10 years, named: use of force \ufffd239, pursuits \ufffd172, claims \ufffd223) + 25-year legacy archive (force \ufffd998, complaints \ufffd2,612) \ufffd DA 'untruthful officers' list \ufffd registry of 691 destroyed discipline files + litigation hold list \ufffd officer DUI/DV (arrests; victim of an untaken DV call later killed) \ufffd fresh 2025\ufffd26 cases (negligent discharge + lies \ufffd 58-min discipline audio included; fabricated pursuit; theft during arrest) \ufffd undercover unit rosters, named + informants (names/DLs/phones) \ufffd cold cases (suspects/witnesses) \ufffd SWAT callout sheets with personal cell phones \ufffd 81 real warrant templates with witnesses \ufffd CI/surveillance playbooks \ufffd 911 data fed to federal immigration agencies + active court fight with the state AG over surveillance data sharing \ufffd county election-office correspondence, PRA packages, protest recordings with caller numbers.Finance/mail. ~77 GB of email archives (HR investigations ~37 GB) \ufffd 13 years of payroll \ufffd grants \ufffd 4 layoff waves \ufffd asset forfeiture case files \ufffd GIS/document-system credentials.Buyers. Extortion crews (headline-ready topics already in the news cycle) \ufffd fraud (W-2/SSN/medical) \ufffd IABs (live access to a city 911/CAD is a rare lot) \ufffd plaintiffs' attorneys (new suits, case reviews) \ufffd media (ready stories) \ufffd intelligence services (undercover rosters, informants, LE-systems access) \ufffd criminals (sources and witnesses).Deal formats. Full lot exclusive \ufffd credentials package ( < 1 GB, samples before deal) \ufffd PII packs by class \ufffd police package for media/negotiation \ufffd first-publication rights. Freshness: A=2026 (live data), B=2024\ufffd25 (active cases), C=25+ year legacy (pattern proof).Limitations. Some containers are encrypted (passwords not recovered), video archives unreviewed; the data contains live police sources - handle with care. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "xspringcapital.com By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "d7e119702051441fbf21e0c73bd49524227104b4cfe300e0df3e08c476172a41",
+      "date": "Wed, 28 Oct 2026 23:28:44 GMT",
+      "detail": "XSpring Capital Public Company Limited is a company that operates in the business of investing in va... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T18:19:04+00:00"
+      "published": "2026-10-28T23:28:44+00:00"
     },
     {
-      "title": "Noelker and Hull By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "ee527d051439b58efbffa84dfebbc09c4df735ff420e4c05828ea158d99e2fc4",
-      "date": "Wed, 28 Oct 2026 17:18:42 GMT",
-      "detail": "Noelker and Hull NHA-FULL \ufffd US ARCHITECTURE FIRM (est. 1971) - HEALTHCARE / SENIOR-LIVING DESIGN - COMPLETE INTERNAL FILE-SERVER - FRESH TO 2026No credentials in this lot (excluded by decision). Focus: identity and familypackages, payroll SQL, tax/bank pipes, litigation, seals & signatures, 26 GB mail.SUBJECT - Noelker and Hull Associates, Inc. (Chambersburg PA, est. 1971) + KAPClegacy (Frederick MD). ~41 employees, 9 shareholders. Revenue $8.56M -> $7.01M.~990 delivered projects: Penn State Health, WellSpan, Meritus, UPMC, SelectMedical, Tower Health, Holland America, Hershey, Gettysburg College - incl.hospital & crisis-center plans.KEY NUMBERS: 990 project folders | 30+ healthcare clients | 26 GB mail |60+ SSN rows | exec passports+DL x4 | edge 2026.INVENTORY - raw files from the firm's servers, values masked, full set on close.[1] IDENTITY & FAMILY PACKAGES - FULLZ - ~80-100 PA residentsPassports+DL of the President and VP (x4); W-2 with full SSN (SSA TY2024),pay stubs (VP, YTD ~$116K, 07/2026), 401(k) x2, I-9; background checks -MD Criminal History + FBI Identity History + fingerprints.'Kennedy': SSN, mortgage 03/2024, 3 child birth certs, child medical.'Karpowicz' (employee's mother, dementia): Medicare MBI, bank accounts,Morgan Stanley check $86,650.68, returns 2022-2025, IRS POA.'Hoffman': UPMC/WellSpan medical, custody. + ~62 resumes, phones ~45.Below PA AG >500 bar - but every name is a plaintiff (Dittman) + a victim.[2] PAYROLL - Ajera ERP SQL backups, 140 tablesSSN x61+ | Salary x459 | W-2 x1151 | 1099 x991 | DirectDeposit x176 |BankAccount x1503. Full compensation/bank anatomy for payroll-diversion.[3] TAX & FINANCE - Form 1120 x4 yrs, QuickBooks (KAPC); PPP $802,480 +$803,347.83 forgiven; IRS audit TY2020 closed no-change; BlueRidge acct104729, positive-pay exports. Fraud precedent: forged checks $45.5K (2022)+ fraudulent SBA EIDL #7672918108 in the firm's name - scheme proven.[4] LITIGATION - ACTIVE: PJ Dick v. Lehigh No. 2026-C-2439, $13M+, 'designerrors, omissions' against NHA \ufffd internal assessments, stop-work, delayclaims. Fleet Landing demand ~$1.41M. Vincentian 'DO NOT MOVE OR DELETE'hold; SpiriTrust privileged folder; CIA subpoena response.[5] FORGERY KIT - signatures of 14 employees + architect seals (MD/PA); ~140Certificates of Insurance; license keys (Autodesk/Adobe) bonus.[6] COMMERCIAL SECRETS - fee pipeline 2010-2026 (5.00-8.50%, markup 10%,Hourly Rates, Past-Due notices); Meritus master specs; CAD Standards37.7 GB; aborted Olsen merger docs.[7] MAIL - ~26 GB, into 2026. Indexed sample: 6,195 msgs - 401(k)/ERISA/PHI.Rest as-is, unprobed.[+] AS-IS - encrypted browser stores x3 (OWA/banks/PayPal/USCIS listed),Credential Manager x91, .pfx, ACT! DB. Unproven, not in the price.FRESHNESS - A\ufffdlive: pay stubs 07/2026, COI to 05/2027, case 2026-C-2439, mail.B\ufffdrecent: Ajera, pipeline, returns 2022-25, litigation. C\ufffdarchival (KAPC2009-14): W-2, background - SSN/biometrics don't expire.BUYERS - elder-fraud/fullz (1); BEC/payroll-diversion (2+3); competitor AEC (6);PA/MD plaintiff bar (1+4); contractor scams (5).DEAL - mockup only. 1. Sample: masked docs, table-list screenshot, watermarkedseal, SHA-256 manifest. 2. Escrow, multi-sig; whole lot or per-section split.3. Dead-drop container, hash check vs. manifest, proof-of-deletion on exclusive.DISCLAIMER - HYPOTHETICAL RED-TEAM SCENARIO from a confirmed forensic inventory(60 findings). Nothing is offered for sale. Credential rotation = UNVERIFIEDassumption (artifacts dated 2026). '~' = enumerated; unparsed = unproven. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "susannecerda.com By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "c11ea0abbf70912de0fc162c1602f45f126a0ba0be54a5f4b158c3fdbf0bcfcf",
+      "date": "Wed, 28 Oct 2026 23:28:44 GMT",
+      "detail": "Die Unternehmensgruppe Susanne Cerd\u00e1 bietet nicht nur Dienstleistungen im Bereich Unternehmensgr\u00fcndu... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T17:18:42+00:00"
+      "published": "2026-10-28T23:28:44+00:00"
     },
     {
-      "title": "L... By leakeddata",
+      "title": "Lowenstein Sandler LLP By leakeddata",
       "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "4f98da1a2a95d116bceba9ea700734275921a3ace37332b4b207df9d6057759c",
-      "date": "Wed, 28 Oct 2026 17:18:13 GMT",
-      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "2ab55bdad5f4e9fd236f37dd883b053537a9a4ff9961853108431e452c04f04f",
+      "date": "Wed, 28 Oct 2026 23:28:15 GMT",
+      "detail": "Founded in 1961 and headquartered in New York City, New York, Lowenstein Sandler is a national law fir\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T17:18:13+00:00"
+      "published": "2026-10-28T23:28:15+00:00"
     },
     {
-      "title": "Hauhinco By payload",
-      "url": "https://www.ransomlook.io//group/payload",
-      "feed_id": "ee416b29a17a5761bf9f4e56594cfd0fd5af0866a3e323ffda8184c3c5e16f21",
-      "date": "Wed, 28 Oct 2026 16:25:26 GMT",
-      "detail": "Hauhinco is a German manufacturer of high-pressure water hydraulics. The company produces plunger pumps, valves, and pump stations for mining and industry. It also develops rail-bound shunting systems for automated material handling. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Fortrex By wallstreet",
+      "url": "https://www.ransomlook.io//group/wallstreet",
+      "feed_id": "2b82bbcf2c13da77282a5f952f029ad6b083ccb58daac1a60e9cf1b7269b9a2d",
+      "date": "Wed, 28 Oct 2026 22:22:03 GMT",
+      "detail": "Fortrex is the premier provider of food safety solutions in North America, offering comprehensive sanitation services, chemical products and intervention solutions for food processing facilities. Our team of skilled food sanitors, microbiologists, technical experts and engineers are committed to keeping USDA, FDA, and CFIA processing facilities clean, safe, and audit-ready Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-28T16:25:26+00:00"
-    },
-    {
-      "title": "Morrison Foerster (SilentRansomGroup)",
-      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
-      "feed_id": "516b85374e56b08570f5220a1c01b075",
-      "date": "Wed, 28 Oct 2026 20:04:06 +0000",
-      "detail": "Intelligence Summary: An international law firm headquartered in the United States, generating $1.41 billion in revenue. Threat Syndicate: SilentRansomGroup Claimed Victim: Morrison Foerster Canonical Organization: Morrison & Foerster Target Domain: morrisonfoerster.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-10-28 20:04:06.752167 Post URL: https://business-data-leaks.com/about#leak-morrison-foerster Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-28T20:04:06+00:00"
+      "published": "2026-10-28T22:22:03+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -331,8 +295,8 @@
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -380,7 +344,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 13,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
@@ -394,15 +358,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 25,
+      "recent": 32,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
