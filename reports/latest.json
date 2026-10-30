@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T18:06:33.875251+00:00",
+  "generated": "2026-10-30T22:30:03.233467+00:00",
   "hours": 24,
   "items": [
     {
@@ -108,6 +108,17 @@
       "published": "2026-10-30T10:00:44+00:00"
     },
     {
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "date": "Fri, 30 Oct 2026 17:09:46 -0400",
+      "detail": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-30T21:09:46+00:00"
+    },
+    {
       "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
       "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
       "feed_id": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
@@ -150,17 +161,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-10-30T13:00:32+00:00"
-    },
-    {
-      "title": "Microsoft finally fixes VPN issues caused by September updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-      "date": "Fri, 30 Oct 2026 07:20:26 -0400",
-      "detail": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-30T11:20:26+00:00"
     },
     {
       "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
@@ -218,70 +218,59 @@
       "published": "2026-10-30T12:04:13+00:00"
     },
     {
-      "title": "Sistemas Visuales 360 By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "5b0d28c9bc1f4862e1c5e552eb0877a93f8f1750e7ec9a3c70653908483c5851",
-      "date": "Fri, 30 Oct 2026 17:26:30 GMT",
-      "detail": "Electricity, Oil & Gas Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-30T17:26:30+00:00"
-    },
-    {
-      "title": "Societe Ivoirienne De Telediffusion By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "efff9a146e1876ef5f1602646315125b7b0520f48be7a5f4bc96406cd1d39102",
-      "date": "Fri, 30 Oct 2026 17:26:29 GMT",
-      "detail": "Broadcasting Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-30T17:26:29+00:00"
-    },
-    {
-      "title": "Palletline By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "ff3756355dad885931c66dce9250b741bb7361f0308c1832f896f86f0c4a45c2",
-      "date": "Fri, 30 Oct 2026 16:26:47 GMT",
-      "detail": "Freight & Logistics Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-30T16:26:47+00:00"
-    },
-    {
-      "title": "A... F... By leakeddata",
+      "title": "P... By leakeddata",
       "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "58fb8db21efae6bb4b32154366b8c3242ab56b1895cb5bc3cff92fe71284708c",
-      "date": "Fri, 30 Oct 2026 16:26:21 GMT",
+      "feed_id": "16f73c0d3066d9382cfff13fc95de5ccd05020a082b02743c1a33a0ae6b1e1aa",
+      "date": "Fri, 30 Oct 2026 22:27:21 GMT",
       "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-30T16:26:21+00:00"
+      "published": "2026-10-30T22:27:21+00:00"
     },
     {
-      "title": "Rapid Manufacturing By aurora",
-      "url": "https://www.ransomlook.io//group/aurora",
-      "feed_id": "7d1603f6ea1312209bb68510c276e6ddaa84699d915ea854e2cb7c1555627c2f",
-      "date": "Fri, 30 Oct 2026 16:26:08 GMT",
-      "detail": "Rapid Manufacturing \u2014 a 50-year-old electronics contract manufacturer in Anaheim, California with operations in Ensenada, Mexico. Rapid Manufacturing is not a household name. But it is a critical Tier-1 supplier to SpaceX (Falcon & Starship programs), Anduril, Northrop Grumman, Rocket Lab, L3Harris, Collins Aerospace (RTX), and Millennium Space (Boeing). It builds the wire harnesses, electro-mechanical assemblies, and box builds that go inside rockets, missiles, and satellites. The exposed material includes: > ITAR-controlled engineering drawings and manufacturing processes for Falcon 9/Heavy, Starship, and Draco propulsion systems \u2014 RTD soldering acceptance criteria, visual inspection standards, cable thermocouple assemblies, and production master plans. 26 ITAR customer quoting accounts including SpaceX, Anduril, Northrop Grumman, Rocket Lab, L3Harris, Collins Aerospace, and Millennium Space \u2014 the complete defense/space revenue architecture. 600\u20131,200 employee records spanning US (SSN, bank accounts, payroll, I-9/immigration) and Mexico (RFC, CURP, IMSS, bank accounts, n\u00f3minas) with data from 2019 through August 2026. Attorney-client privileged materials \u2014 settlement agreements, severance terms, internal investigation files, and a recorded termination meeting (audio). Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Acclaim Companies / JCJ Investment By genesis",
+      "url": "https://www.ransomlook.io//group/genesis",
+      "feed_id": "0491f2106928b82ec6105d0e0b54f270fd2297ce357631ef7b1ef78568f5e345",
+      "date": "Fri, 30 Oct 2026 22:27:15 GMT",
+      "detail": "A privately-held, real estate development and property management company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-30T16:26:08+00:00"
+      "published": "2026-10-30T22:27:15+00:00"
     },
     {
-      "title": "Cipsa Industrias Sa De Cv (rhysida)",
-      "url": "https://cti.fyi/groups/rhysida.html",
-      "feed_id": "8d2dd1cf17f6650781095b16bb914822",
-      "date": "Fri, 30 Oct 2026 18:02:48 +0000",
-      "detail": "Intelligence Summary: Cipsa Industrias Sa De Cv is a manufacturing company based in Brazil that produces industrial equipment. Threat Syndicate: rhysida Claimed Victim: Cipsa Industrias Sa De Cv Industry Sector: Manufacturing Geographic Location: \ud83c\udde7\ud83c\uddf7 BR Date Discovered: 2026-10-30 18:02:48.455510 Post URL: http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/#cipsa-industrias-sa-de-cv Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
+      "title": "Gilliam & Associates, P.C By genesis",
+      "url": "https://www.ransomlook.io//group/genesis",
+      "feed_id": "4c96947cd8b349187c5431d38c2b97c43346520570559a8aa90dd3b98f5176c0",
+      "date": "Fri, 30 Oct 2026 22:27:14 GMT",
+      "detail": "A full service CPA firm. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-10-30T18:02:48+00:00"
+      "source": "RansomLook",
+      "published": "2026-10-30T22:27:14+00:00"
+    },
+    {
+      "title": "Facts N Figures By genesis",
+      "url": "https://www.ransomlook.io//group/genesis",
+      "feed_id": "54663deaaea9e814a4f726e31cb5749a36d07d837e2ce28c860b3c9d225e23b8",
+      "date": "Fri, 30 Oct 2026 22:27:13 GMT",
+      "detail": "A consumer insights research company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-30T22:27:13+00:00"
+    },
+    {
+      "title": "Illinois Work Injury Resource Center (IWIRC) By genesis",
+      "url": "https://www.ransomlook.io//group/genesis",
+      "feed_id": "1228a642696dd01f25c94ed6fe87358b41181f847b63672b3f9da917551ae9ff",
+      "date": "Fri, 30 Oct 2026 22:27:12 GMT",
+      "detail": "A comprehensive occupational health and rehabilitation service provider located in Peoria, IL. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-30T22:27:12+00:00"
     }
   ],
   "sources": [
@@ -358,7 +347,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 14,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
@@ -372,15 +361,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 27,
+      "recent": 42,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
