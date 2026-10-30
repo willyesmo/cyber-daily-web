@@ -1,42 +1,42 @@
 {
-  "generated": "2026-10-29T18:33:48.651848+00:00",
+  "generated": "2026-10-30T01:10:18.813812+00:00",
   "hours": 24,
   "items": [
     {
-      "title": "CVE-2026-41709: Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-41709",
-      "date": "2026-10-28",
+      "title": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-97229",
+      "date": "2026-10-29",
       "kind": "Known exploitation / catalog addition",
-      "detail": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
       "detail_origin": "Cat\u00e1logo oficial CISA KEV",
       "facts": {
-        "Fabricante": "Broadcom",
-        "Producto": "VMware ESX",
+        "Fabricante": "GitLab",
+        "Producto": "Community Edition and Enterprise Edition",
         "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-11",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-01",
         "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+        "Notas de CISA": "Other products can potentially be affected by the same underlying Ruby/Onigmo Integer Overflow issue in CI/CD Regular Expression Compiler. For more information please see: https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves ; https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
       },
       "source": "CISA KEV",
-      "published": "2026-10-28T00:00:00+00:00"
+      "published": "2026-10-29T00:00:00+00:00"
     },
     {
-      "title": "CVE-2026-46300: Linux Kernel Missing Initialization of a Variable Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300",
-      "date": "2026-10-28",
+      "title": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76418",
+      "date": "2026-10-29",
       "kind": "Known exploitation / catalog addition",
-      "detail": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
       "detail_origin": "Cat\u00e1logo oficial CISA KEV",
       "facts": {
-        "Fabricante": "Linux",
-        "Producto": "Kernel",
+        "Fabricante": "Cisco",
+        "Producto": "Secure Firewall ASA Software and Cisco Secure FTD Software",
         "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-10-31",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-01",
         "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/3599e6b3cc1ada96883d496a50a210d3afbb6987 ; https://git.kernel.org/stable/c/2f2b16022a2e10ca7bccfb98db5ed2ec0f72641c ; https://git.kernel.org/stable/c/9d3e5fd19fe1063bf607219e8562fbd567b8e8d5 ; https://git.kernel.org/stable/c/78bf6b6bb19541d19fbda6242e7cfe2c682763c0 ; https://git.kernel.org/stable/c/760e1addc27ba1a7beb4a0a7e8b3e9ec49e7a34e ; https://git.kernel.org/stable/c/3bd9e113d50034db99d7ef69fd8e5242d15e414a ; https://git.kernel.org/stable/c/3884358a9286b17f389a72b1426fc4547c23c111 ; https://git.kernel.org/stable/c/f84eca5817390257cef78013d0112481c503b4a3 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
       },
       "source": "CISA KEV",
-      "published": "2026-10-28T00:00:00+00:00"
+      "published": "2026-10-29T00:00:00+00:00"
     },
     {
       "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
@@ -59,17 +59,6 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-10-29T03:10:12+00:00"
-    },
-    {
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33466",
-      "feed_id": "https://isc.sans.edu/diary/rss/33466",
-      "date": "Thu, 29 Oct 2026 00:42:15 GMT",
-      "detail": "Introduction",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-10-29T00:42:15+00:00"
     },
     {
       "title": "A quiet week in infosec < .",
@@ -103,17 +92,6 @@
       "kind": "Research / advisory",
       "source": "Cisco Talos",
       "published": "2026-10-29T10:00:00+00:00"
-    },
-    {
-      "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
-      "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
-      "feed_id": "6ae0e55693b063000154870f",
-      "date": "Wed, 28 Oct 2026 21:32:02 GMT",
-      "detail": "Cisco Talos has identified UAT-11473, a highly sophisticated advanced persistent threat (APT) actor, who exploited CVE-2026-20127 , an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems. UAT-11473 then installed a custom malware framework we track as \u201cKeyDrift\u201d consisting of multiple components geared towards collecting sensitive keying information, acting as backdoors and intermediate command-and-control (C2) hosts. Observed targeting spans across space and satellite services, defense and aerospace technology, and policy research. Talos assesses with high confidence that UAT-11473\u2019s operating infrastructure overlaps considerably with Volt Typhoon\u2019s \u201cSilent Train\u201d covert access network . KeyDrift is a custom malware framework that is designed to operate in Cisco SD-WAN controller environments. Talos assesses with high confidence that the framework is designed to provide long-term persistent access and automated exfiltration of sensitive keying material. KeyDrift operates inside SD-WAN control-plane processes and is capable of intercepting decrypted control traffic, extracting control-session metadata and data-plane keying material, and staging or transmitting the collected material using encrypted records. The framework's primary component is PolyFlame, a memory-resident module deployed through modified runit service paths. PolyFlame is injected into legitimate running vdaemon processes, and it can also masquerade as a packed \u201caaamgrd\u201d loader variant. Once resident, PolyFlame interposes socket, DTLS, and runtime-linker behavior through functions such as recvfrom, sendto, getpeername, dlopen, dlsym, mprotect, and \u201c/proc/%d/maps\u201d parsing. This gives KeyDrift access to SD-WAN control-plane traffic from inside legitimate controller daemon execution rather than through a conventional endpoint beacon. LittleFilch, another component of the KeyDrift framework, provides the collection and exfiltration capability identified in the framework. The module hooks \u201cSSL_read\u201d inside vdaemon, inspects decrypted control-plane buffers, extracts keying material for a list of predefined edge nodes, and stages the data locally in encrypted format for exfiltration. Talos assesses with high confidence that KeyDrift's intended operational purpose is Cisco SD-WAN control-plane collection: persistent controller residence, in-band traffic access, key-material extraction from decrypted control messages, and encrypted staging or exfiltration of the recovered material. Observed variations of the KeyDrift modules and deployment mechanisms suggest active development of the framework\u2019s capabilities. KeyDrift analysis KeyDrift uses Cisco SD-WAN runit service paths as its primary execution anchor. In the PolyFlame sshd deployment, the actor modifies the service run script, remounts /rootfs.rw executable, launches a malicious script \u201cconf_sshd\u201d in the background, and then starts the legitimate sshd service. The loader script enumerates running vdaemon PIDs, records them in \u201c/tmp/system-vdaemon\u201d, and invokes the injector component \u201crsshd\u201d to inject PolyFlame (\u201clibdssl.so\u201d) into each process. Recovered conf_sshd logic uses the same control flow across reviewed samples: Figure 1. conf_sshd control flow logic. Runit launchers The observed sshd runit launcher preserves normal Cisco SD-WAN sshd startup logic while adding two malicious lines before service execution, which remount \u201c/rootfs.rw\u201d executable and background execution of conf_sshd, which then drives rsshd injection into vdaemon. Figure 2. conf_sshd execution logic. The recovered aaamgr runit launcher from an affected vBond appliance uses a parallel service-wrapper pattern, but it executes the packed aaamgrd PolyFlame loader directly. The deletion of the writable-overlay PAM configurations for sshd and login before remounting \u201c/rootfs.rw\u201d executable if part of the legitimate script, along with the invocation of the aaamgrd daemon via Python: Figure 3. aamgrd daemon launch. PolyFlame PolyFlame is the primary operational module in the KeyDrift framework. PolyFlame operates at the socket and DTLS control-plane layer. PolyFlame serves two primary purposes: Command execution via a TinyShell-styled backdoor Intermediate C2 that can forward commands to and from the C2 to other peers PolyFlame is primarily injected into the vdaemon process, providing operational obfuscation and access to all in-process state: DTLS session keys, vEdge topology, OMP routes, and policy tables. No hardcoded IPv4 addresses, binding ports, callback domains, URLs, host headers, or polling interval were recovered from the analyzed PolyFlame samples. PolyFlame is designed for in-band control or tasking over Cisco SD-WAN control-plane traffic rather than a conventional fixed external beacon. This implant is meant to serve as a hook of the recvfrom() API call. The original recvfrom is replaced by a malicious subroutine in the vdaemon process. When recvfrom is called in the vdaemon process, the malicious subroutine will first execute the real/legitimate recvfrom() API to obtain the C2 IP address info for communicating with it in the future. PolyFlame\u2019s time check The recvd data from the C2 consists of the MD5 value of a specific DATE. PolyFlame will calculate the local time on the device in format \u201c%Y-%m-%d\" and calculate its MD5 hash. If the MD5 calculated by the device does not match with the one sent by the C2, the implant will stop further execution. Otherwise, the implant then uses an \u201cadministrative code\u201d from the C2 and performs an action. PolyFlame\u2019s tasking PolyFlame contains an administrative mode that processes the admin code sent by the C2, that defines operations \u2014 it's one of the first flags checked in the backdoor: Code = 1: Generate random bytes and send to C2. This is likely a check-in beacon or heartbeat for the C2. Code = 2: Set implant type to backdoor (TinyShell) or intermediate C2. Code = 3: Set up the command handler for the intermediate C2. Any other code value: Check the implant type flag currently set. Based on the implant type flag, either send the accompanying data to TinyShell or the intermediate C2 component for processing. PolyFlame\u2019s command execution PolyFlame contains a backdoor that matches the capabilities of TinyShell: file read, file write, and arbitrary command execution, but not interactive shell. This backdoor component\u2019s implementation is quite similar to TinyShell, but the command codes differ. PolyFlame handles the following command codes: Code = 0x100: Execute command using \u201c/bin/sh -c <command>\u201d Code = 0x200: Write file to disk. Code = 0x300: Read file from disk and send to the C2. PolyFlame as an intermediate C2 component The intermediate C2 component is a one-to-many handler (somewhat like a one-to-many multiplexer) \u2014 meaning the implant can connect to only one C2 but can connect to many peers who can be served by the intermediate C2 component. Similar to the TinyShell-backdoor component, the intermediate C2 component also accepts and processes specific command codes from the C2: Code = 0x403: Create a thread to connect to the specified peer IP. Make a new connection and keep socket alive until specified. Code = 0x404: Send data recvd from the C2 to a connected peer. Code = 0x405: Remove a peer from the list of active connections. Code = 0x407: Send a response recvd from a peer, back to the C2. Code = 0x408: Set a specific value in memory. PolyFlame variant: aaamgrd Talos has observed a distinct PolyFlame variant that masquerades as the aaamgr service. The legitimate Cisco aaamgr component is a Python package; it does not normally appear as a compiled ELF runit service. This PolyFlame variant is executed by a malicious runit service under \u201c/etc/sv/aaamgr/\u201d with aaamgrd and a modified run launcher. aaamgrd is a statically linked ELF64 executable with no section headers, a single RWE loader segment, and an RC4-encrypted embedded ELF payload. The loader uses direct syscalls including ptrace, fork, wait4, kill, tgkill, mmap, and mprotect. It performs an anti-debug check by deobfuscating /proc/%d/status and TracerPid: and exits if a tracer is present. The observed staging sequence was: Figure 4. PolyFlame staging sequence. Note that in addition to the implant execution staging, there are also indications of timestomping. LittleFilch: libcommon.so TLS interception module LittleFilch is a control-session interception module positioned to collect data-plane keying material from control sessions visible to the injected vSmart process. LittleFilch installs an SSL_read hook inside vdaemon. The hook calls the original SSL_read, then processes returned buffers only when the returned size is greater than 0x18F, the first decrypted byte is 0x07, and three marker patterns are checked for presence. These marker bytes are followed by the actual artifacts that LittleFilch aims to record: Marker bytes Parsed field Length Notes 40 03 06 Public IP 4 bytes vEdge public / transport IP 40 0C 04 Peer system-IP 4 bytes vEdge OMP system-IP 05 01 0C 06 40 Binary key field 32 (0x20) bytes Assessed OMP-distributed AES-256 IPsec data-plane key material LittleFilch records the extracted keying material and RSA-encrypts it before writing the output to \u201c/var/tmp/vdaemon.bin\u201d. It can then send the encrypted content over UDP in a DTLS 1.2 application-data style record. Figure 5. Keying material recording format used by LittleFilch. LittleFilch expects its configuration file \u2014 located at \u201c/var/tmp/vdaemon.conf\u201d \u2014 to contain two host port lines: one local bind IP/port and one remote destination IP/port. It deletes \u201c/var/tmp/vdaemon.conf\u201d after reading it. Talos has not been able to recover the \u201cvdaemon.conf\u201d file. KeyDrift components Component Primary hook/surface Observed scope Confirmed function PolyFlame libdssl.so Socket / DTLS / runtime linker interposition inside vdaemon Multiple affected controller roles In-band control-plane interception and tasking; exact command format unresolved rsshd Ptrace injection Multiple affected controller roles Injects libdssl.so into vdaemon by PID conf_sshd Shell-based PID enumeration Multiple affected controller roles Locates vdaemon PIDs and records injection output Trojanized run Runit service launcher Multiple affected controller roles Remounts overlay executable and launches injector chain Packed aaamgrd Packed loader, direct syscalls, anti-debug Affected vBond appliance evidence Decrypts and runs embedded PolyFlame payload; tampers with PAM configs LittleFilch libcommon.so OpenSSL SSL_read hook Affected vSmart process evidence Extracts control-session identifiers and assessed data-plane key material from decrypted control traffic vdaemon.bin Encrypted staging file Affected vSmart process evidence Stores RSA-encrypted LittleFilch telemetry records vdaemon.conf Runtime endpoint config Affected vSmart process evidence Supplies local and remote UDP endpoint configuration; deleted after read MITRE ATT&CK techniques Technique ID Notes Process Injection: Ptrace System Calls T1055.008 rsshd injects libdssl.so into vdaemon by PID Hijack Execution Flow: Dynamic Linker Hijacking T1574.006 PolyFlame uses dlsym(RTLD_NEXT, ...), dlopen, and runtime interposition Boot or Logon Initialization Scripts T1037 Modified runit service scripts launch KeyDrift components Create or Modify System Process T1543 Malicious service paths under etc/sv/sshd/ and etc/sv/aaamgr/ Masquerade Task or Service T1036.004 sshd and aaamgr service-name masquerading Unix Shell T1059.004 conf_sshd and recovered operator staging commands Software Packing T1027.002 aaamgrd uses packed embedded ELF payload System Checks T1497.001 aaamgrd checks TracerPid before unpacking Timestomp T1070.006 touch --reference= and chmod --reference= staging commands copied reference file metadata Network Sniffing T1040 PolyFlame and LittleFilch intercept SD-WAN control-plane traffic Encrypted Channel: Symmetric Cryptography T1573.001 PolyFlame AES implementation; aaamgrd RC4 packer; LittleFilch RSA-encrypted records Recommendations Cisco has released patches for CVE-2026-20127 and published a hardening guide for Cisco Catalyst SD-WAN deployments available here . Organizations are strongly advised to prioritize the application of these patches and follow the guidance provided. Following the identification of UAT-11473 activity, Talos strongly recommends that organizations monitor their systems for indicators of post-compromise activity. Should any signs of unauthorized activity be detected, organizations should immediately activate their incident response frameworks. Contact the Cisco Technical Assistance Center (TAC) for support by initiating a TAC request . Coverage Snort SIDs are already available for CVE-2026-20127: 65938, 65958. Snort SIDs for the malicious artifacts illustrated in this blog: Snort v2: 67387 through 67416 Snort v3: 7:44 through 7:73",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-10-28T21:32:02+00:00"
     },
     {
       "title": "Tracking AI adoption in North Korean threat actor tradecraft",
@@ -160,59 +138,59 @@
       "published": "2026-10-29T08:00:15+00:00"
     },
     {
-      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-      "date": "Thu, 29 Oct 2026 12:10:31 -0400",
-      "detail": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...]",
+      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "date": "Thu, 29 Oct 2026 19:35:52 -0400",
+      "detail": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-29T16:10:31+00:00"
+      "published": "2026-10-29T23:35:52+00:00"
     },
     {
-      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-      "date": "Thu, 29 Oct 2026 10:35:40 -0400",
-      "detail": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+      "title": "Binance probes potential $5.8 billion crypto-theft hack",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "date": "Thu, 29 Oct 2026 18:45:23 -0400",
+      "detail": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-29T14:35:40+00:00"
+      "published": "2026-10-29T22:45:23+00:00"
     },
     {
-      "title": "3 Ways AI Agents Already Operate in Your Browser",
-      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-      "date": "Thu, 29 Oct 2026 10:00:10 -0400",
-      "detail": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...]",
+      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "date": "Thu, 29 Oct 2026 18:09:24 -0400",
+      "detail": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-29T14:00:10+00:00"
+      "published": "2026-10-29T22:09:24+00:00"
     },
     {
-      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-      "date": "Thu, 29 Oct 2026 09:59:48 -0400",
-      "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
+      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "date": "Thu, 29 Oct 2026 18:08:04 -0400",
+      "detail": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-29T13:59:48+00:00"
+      "published": "2026-10-29T22:08:04+00:00"
     },
     {
-      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-      "date": "Thu, 29 Oct 2026 08:00:07 -0400",
-      "detail": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+      "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+      "date": "Thu, 29 Oct 2026 17:47:25 -0400",
+      "detail": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-10-29T12:00:07+00:00"
+      "published": "2026-10-29T21:47:25+00:00"
     },
     {
       "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
@@ -270,6 +248,39 @@
       "published": "2026-10-29T13:42:52+00:00"
     },
     {
+      "title": "Susman Godfrey LLP By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "960326382ea1759c03626577e2e4ba1836d727df3baedfe3d47c5fc712b5269f",
+      "date": "Thu, 29 Oct 2026 23:39:46 GMT",
+      "detail": "Susman Godfrey L.L.P. is a premier litigation firm recognized for its exceptional courtroom talent and\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T23:39:46+00:00"
+    },
+    {
+      "title": "TDS Telecommunications LLC. By global secret group",
+      "url": "https://www.ransomlook.io//group/global%20secret%20group",
+      "feed_id": "2a48e1934dd78e5eba54bc099d5bb6602c628b109fc6c84e1d9794e670755cc6",
+      "date": "Thu, 29 Oct 2026 22:32:13 GMT",
+      "detail": "Country: Madison, Wisconsin, US | Website: tdstelecom.com | Revenue: $1.30 Billion | Industry: Telecommunications, Internet Service Providers | Employees: 3,000-5,000 | Properties: 27.4 GB (79,679 Files, 1,943 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T22:32:13+00:00"
+    },
+    {
+      "title": "rolly.io By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "36369e4d5a02175fd261e53da50ec5ace01b0aff68c0c62a612107f1528f2430",
+      "date": "Thu, 29 Oct 2026 19:38:39 GMT",
+      "detail": "Rolly.io is an on-chain crypto casino on Arbitrum featuring a public bankroll, transparent bonus formulas (rakeback, weekly bonuses), and active player reward systems. We hold 1,364 rolly.gg player PII records with linked on-chain wallets, 430K+ ledger transactions, 11,442 wallet addresses, 155 whale payout maps, 299 deanonymized staff/CTO emails, and 313 internal chat messages. We aren't asking for any ransom, we just thought it was funny to hack a casino that made a joke about Gamdom. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T19:38:39+00:00"
+    },
+    {
       "title": "Southwest Orthopedic & Reconstructive Specialists By interlock",
       "url": "https://www.ransomlook.io//group/interlock",
       "feed_id": "1192c4cd176c237cf403a8a80acf6988b7c410f55b8221945df6b55a25dd48a8",
@@ -290,39 +301,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-29T17:32:12+00:00"
-    },
-    {
-      "title": "Y****s By payoutsking",
-      "url": "https://www.ransomlook.io//group/payoutsking",
-      "feed_id": "75caf2776a40765875feb20047376e79c29595cb4cbe06f699d891eea337fed9",
-      "date": "Thu, 29 Oct 2026 17:32:07 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-29T17:32:07+00:00"
-    },
-    {
-      "title": "The Anglican International School By global secret group",
-      "url": "https://www.ransomlook.io//group/global%20secret%20group",
-      "feed_id": "e463abb1cb26bdfbb4e5e5f96d33a1158d841ab1e754435f260eb3eec501ecd7",
-      "date": "Thu, 29 Oct 2026 17:31:38 GMT",
-      "detail": "Country: Grenada.Spain | Website: aisj.co.il | Revenue: $11.1 Million | Industry: Primary and Secondary Education | Employees: 50-100 | Properties: 218 GB (257,960 Files, 28,378 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-29T17:31:38+00:00"
-    },
-    {
-      "title": "USClaims By direwolf",
-      "url": "https://www.ransomlook.io//group/direwolf",
-      "feed_id": "4dac41939c6b359ca114b0f8e755fd20f740f85184496dac5642b83bc4de3f77",
-      "date": "Thu, 29 Oct 2026 17:31:35 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-29T17:31:35+00:00"
     }
   ],
   "sources": [
@@ -343,15 +321,15 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
@@ -399,7 +377,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 8,
+      "recent": 13,
       "shown": 5,
       "undated": 0
     },
@@ -413,7 +391,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 36,
+      "recent": 28,
       "shown": 5,
       "undated": 0
     },
