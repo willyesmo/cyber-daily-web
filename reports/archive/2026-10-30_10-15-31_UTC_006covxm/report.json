@@ -1,0 +1,373 @@
+{
+  "generated": "2026-10-30T10:15:31.075081+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-97229",
+      "date": "2026-10-29",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "GitLab",
+        "Producto": "Community Edition and Enterprise Edition",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-01",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "Other products can potentially be affected by the same underlying Ruby/Onigmo Integer Overflow issue in CI/CD Regular Expression Compiler. For more information please see: https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves ; https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-29T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76418",
+      "date": "2026-10-29",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Cisco",
+        "Producto": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-01",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
+      },
+      "source": "CISA KEV",
+      "published": "2026-10-29T00:00:00+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
+      "url": "https://isc.sans.edu/diary/rss/33472",
+      "feed_id": "https://isc.sans.edu/diary/rss/33472",
+      "date": "Fri, 30 Oct 2026 03:30:17 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-30T03:30:17+00:00"
+    },
+    {
+      "title": "A quiet week in infosec < .",
+      "url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "feed_id": "6ae244dfc031c7000181d79b",
+      "date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "detail": "Welcome to this week\u2019s edition of the Threat Source newsletter. \u201cThe darkest period of my life, so far, arrived the summer I was pregnant with my eldest son. The future was growing in me with all of its terrifying unpredictability, and I found myself anxious, unable to work and woefully at sea.\u201d \u2014 Lauren Groff I doubt Lauren had this maniacal infosec news cycle in mind when she wrote about the terrifyingly unpredictable future, but honestly, she\u2019s got our current careers down cold. Let he who is not woefully at sea cast the first water balloon? I\u2019ll work on it. Here we are with PHP taking up every available ounce of oxygen, Node.js adding its own spice to the sauce... and here\u2019s me, staring my screen blankly, waiting for an original thought to leak out and onto this page. Not to worry, none have. There is simply nothing novel to say because the entire internet has it covered. In triplicate. With graphs and compelling statistics and AI-generated evil bad guy images galore. These vulnerabilities are serious, and the remediations matter. Teams need to know what they run, find the affected systems, and get them patched and determine ways to secure systems that can\u2019t be patched. I\u2019m simply not going to add another dramatic headline to the stack or pretend there\u2019s a clever new angle hiding in the margins. The thing I keep looping on is that the work underneath the headlines is familiar and it\u2019s the real story. To defend your environment, you need a team that knows that environment, has enough time and expertise to investigate the telemetry, that can tell an anomaly from the usual benign noise, and take action. Yes, the right tools help, and without them you can\u2019t do it \u2014 but the people doing the work are still what make those tools useful. Give smart people enough room to do smart people stuff. This is the entire ballgame. Read it again: Give smart people enough room to do smart people stuff. Because a good response starts way before the headline. Know what you own, who owns it, what version is running, whether it can be reached from the internet, what identities can do what task on the device, etc. When a fix is available, make sure it actually reaches the system you meant to fix. If a system cannot be updated yet, give that exception an owner and a deadline. Reduce its exposure, add monitoring, and keep checking until the fix is in place. \u201cWe\u2019ll get to it\u201d is not a plan. So, there may be nothing new to say about PHP this week, but the work is still worth talking about: Know your environment, take care of your team members, and keep paying attention when the weird thing stops being weird and starts becoming evidence. When the next headline arrives, help your teammate do the same. \u201cThe only thing that makes life possible is permanent, intolerable uncertainty: not knowing what comes next.\u201d \u2014 Ursula K. Le Guin The one big thing Cisco Talos has recently discovered \"NIK C2,\" a new command-and-control framework that integrates AI directly into its attack chain. This Go-based Windows implant allows adversaries to dump credentials, stream keystrokes, and deploy screen-locking ransomware. It also uses an integrated OpenAI model to analyze harvested data on the fly. By hijacking the victim's own API keys to fund these requests, NIK C2 collapses data collection and exploitation into a single, continuous session. Why do I care? By embedding a live AI pipeline directly into the C2 loop, NIK C2 turns a compromised host into an active operational asset rather than a passive foothold. Because it processes data and generates context-aware payloads locally, it erases the offline processing delays that historically gave defenders a critical detection window. Furthermore, by piggybacking on the victim's OpenAI account, threat actors completely mask their infrastructure, leaving no attributable trace and complicating incident response. So now what? Defenders must embrace continuous behavioral vigilance. Ensure endpoint solutions monitor for unusual local proxy routing, unexpected PowerShell executions, and unauthorized access to browser databases or crypto wallets. Update your defenses using the ClamAV signature and indicators of compromise (IOCs) provided in the full blog . Top security headlines of the week CISA gives agencies days to patch critical PHP bugs CISA added the two vulnerabilities in the PHP open-source scripting software to the Known Exploited Vulnerabilities (KEV) catalog Monday. ( Federal News Network ) Node2Shell: Brotli flaw triggers patching across Microsoft, Node.js, Python packages An out-of-bounds write in Google\u2019s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution. ( SecurityWeek ) Gheist uses stolen GitHub tokens to steal private repository secrets via Actions logs Each workflow sits on a new branch named ci-sync- followed by six random characters. Deleting a branch, or the run it started, does not undo the exposure. ( The Hacker News ) Japan internet giant GMO says hackers posted stolen customer data GMO Internet is investigating a data leak after suspected unauthorized access to its Onamae cloud desktop service, which provides virtualized desktops to financial traders. ( TechCrunch ) Third Serengeti sweep tops 1,400 arrests as investigations mature Interpol's annual Operation Serengeti, now on its third iteration, led to 1,462 arrests across 20 African countries and the U.S., recovering $105 million in stolen funds. ( Dark Reading ) Can\u2019t get enough Talos? Stealing AI secrets and breaking EDRs Phishing may have dropped from last quarter's highs, but ransomware engagements climbed as attackers shifted their focus toward disabling EDR systems and scraping AI credentials. The financial sector also returned as a top target. From federal SOCs to Talos: Ryan Fetterman on practical security research What does it mean to be \"blue collar\" for the blue team? Amy sat down with security researcher Ryan Fetterman to discuss his journey from federal agency work to his new role at Talos. The Guy Who Invented Pain (plus first reactions to PHP2Shell) David Bianco built the Pyramid of Pain, so we offered him some more. David joins the Beers with Talos crew for a conversation how AI changes about his famous model, how EvidenceForge creates simulated incidents for research and training, and why his red-team entrance exam didn\u2019t go to plan. Compromised eMudhra intermediate certificates Cisco Talos is aware of eight compromised intermediate certificates belonging to the intermediate certificate authority. eMudhra has revoked the certificates and stopped issuing new certificates under its G3 root. Two critical RCEs in PHP core Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. This blog explains what we know so far, and details the Snort coverage available. Upcoming events where you can find Talos SAINTCON (Oct. 26 \u2013 30) Provo, UT CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 \u2013 4) Hyderabad, India Black Hat Europe (Dec. 7 \u2013 10) London, U.K. Most prevalent malware files from Talos telemetry over the past week SHA256: 73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d MD5: 0cf0271c3564881fce95f44c649bd745 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d Example Filename: KMSAuto++.exe Detection Name: HackTool:WZTeam-tpd SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507 Example Filename: sample.exe Detection Name: W32.9F1F11A708-100.SBX.TG** SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f MD5: cca616647db9370c88998ae25da6997f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f Example Filename: cca616647db9370c88998ae25da6997f.exe Detection Name: Win.Tool.Kmsauto::1201 SHA256: 58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 MD5: f1fe671bcefd4630e5ed8b87c9283534 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681 Example Filename: KMSAuto Net.exe Detection Name: W32.58D6FEC4BA-95.SBX.TG SHA256: fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f MD5: 207d9d891ac756b2bfad88aba5682c65 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f Example Filename: sample.exe Detection Name: W32.FED979F93B-95.SBX.TG",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-29T18:00:00+00:00"
+    },
+    {
+      "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+      "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+      "feed_id": "6ae0b3e793b06300015486c2",
+      "date": "Thu, 29 Oct 2026 14:00:00 GMT",
+      "detail": "Phishing remained the leading initial access technique, appearing in slightly over one-third of all Cisco Talos Incident Response (Talos IR) engagements \u2014 a decrease from over 50 percent last quarter. In addition to traditional phishing links and attachments, we observed numerous threat actors conducting voice phishing (vishing) in tandem with IT desk impersonation to socially engineer the victim into allowing remote access via a legitimate remote monitoring and management (RMM) tool. Exploitation of public-facing applications was the next most common vector, accounting for one-third of Talos IR engagements. Threat actors predominantly targeted edge devices such as security gateways and remote network management interfaces. These are critical components within enterprise environments, often responsible for managing authentication, network traffic, or sensitive data. Compromising them can provide broad access to internal networks or user credentials. Ransomware and pre-ransomware incidents made up 27 percent of engagements in Q3 2026, an increase from a maximum of 20 percent seen in the previous four quarters. Talos responded to attacks involving prolific, technologically advanced, and well-established ransomware-as-a-service (RaaS) variants such as The Gentlemen, Qilin, and Rhysida, as well as Interlock, which operates as a closed group. Threat actors predominantly chose to disable endpoint detection and response (EDR) systems, often by exploiting vulnerable drivers or using Windows Defender Application Control (WDAC). Additionally, we observed the emerging ransomware variant VYPR, whose operator(s) tested a range of tactics, techniques, and procedures (TTPs) instead of following a standard attack method or affiliate playbook. Salt Typhoon-affiliated threat actors exploit public-facing application vulnerabilities for cyber espionage Talos IR continues to see prolonged cyber espionage intrusions targeting the telecommunications sector. Talos attributed most of these intrusions with high confidence to China state-sponsored threat actors, including Salt Typhoon. The attackers in these intrusions routinely gain initial access by leveraging valid credentials and exploiting a known vulnerability (CVE-2023-20198) in publicly accessible web-based management interfaces\u2014two of the most frequently observed initial access vectors this quarter. In one campaign, the threat actor deployed BadCandy, a malicious web shell implant known to be leveraged by Salt Typhoon, to maintain persistent and stealthy remote access. The adversaries continue to employ living-off-the-land (LOTL) tactics, leveraging legitimate network infrastructure features \u2014 such as VPN access, traffic mirroring, and management protocols \u2014 to establish backdoors, exfiltrate data, and conduct reconnaissance. Exploiting a vulnerability in the web-based management interface, they created privileged accounts, disabled logging to conceal their activity, and altered configurations to maintain persistence, blending their actions with normal administrative operations to evade detection. These intrusions revealed several security weaknesses in the victim environment, including reliance on password-only authentication without evidence of multi-factor authentication (MFA), use of legacy and weak management protocols (such as plaintext SNMP and outdated VPN encryption), and inadequate credential management practices. Attackers were able to create and abuse privileged accounts, disable logging, and manipulate configuration settings without encountering effective security barriers, enabling persistent and stealthy access. The absence of strong MFA and robust credential management are two of the most frequently observed security weaknesses this quarter. AI exploited as a weapon and a target Recent Talos IR investigations highlight the growing role of artificial intelligence (AI) in cybercriminal activity, both as a tool and a target. In one case, an internal threat actor who was hired under false credentials abused their privileged access to install AI-powered development tools, such as GitHub Copilot CLI and Anthropic Claude Code. While the investigation did not find evidence of malicious activity or data theft, the employee\u2019s developer-level access \u2014 including cloning repositories, configuring plugins, and connecting to databases \u2014 could have enabled them to use AI tools to automate malicious actions within the organization. A second investigation revealed an attack chain in which a compromised macOS endpoint, infected via a trojanized application, was scripted to scrape credentials from the macOS keychain specifically associated with the Anthropic Claude Code AI assistant. This direct targeting of AI-related secrets highlights an emerging threat, where attackers seek to compromise not only traditional user and system credentials but also those tied to AI platforms, which may grant access to additional sensitive data and advanced automation capabilities. These incidents highlight the critical need for organizations to implement strong MFA and robust credential management practices, especially for AI platforms and development tools. Ransomware trends Ransomware and pre-ransomware incidents increased from a little over 20 percent last quarter to 27 percent in Q3, involving well-known threat groups like Interlock and the emerging ransomware VYPR. Frequently observed techniques involved deleting EDR systems and socially engineering victims into initiating remote management sessions. Emerging ransomware variant: VYPR During a Talos IR engagement, we observed a ransomware variant called \u201cVYPR\u201d that we assess is relatively new and still operationally immature. This assessment is supported by the absence of an established data leak site (DLS), as none was referenced in the ransom note and associated DLS infrastructure was not created until after the engagement. The group also appeared to rely on older leaked Conti-derived source code with only minimal modifications, reflecting a relatively unsophisticated technical approach. Their operations further suggested experimentation rather than a refined playbook, as they took an unusually long time to exfiltrate and encrypt data while testing different exfiltration parameters and deploying multiple vulnerable drivers to disable EDR protections. The actor gained initial access through voice phishing (vishing); they tricked a user into initiating a Microsoft Quick Assist session, allowing remote access to the endpoint. While the exact social engineering technique was not confirmed in this case, threat actors frequently impersonate IT help desks during vishing calls to manipulate victims into establishing remote connections \u2014 a tactic observed in several other Q3 engagements. The actor was then able to utilize existing RMM software, which subsequently executed PowerShell commands to download and install a Microsoft Software Installer (MSI) package from a remote IP address. During the attack, the actor leveraged tools that are commonly observed during ransomware investigations, including MeshAgent, Rclone, PsExec, IP scan, and Microsoft Terminal Services Client (MSTSC). Notably, we saw exfiltration over multiple days, which is not commonly observed during ransomware investigations. EDR killers: Why evade detection when you can destroy it? We observed several instances where ransomware operators disabled EDR systems, prioritizing direct disruption of security controls. We observed Interlock ransomware actors making multiple attempts to impair endpoint detection EDR capabilities by trying to uninstall Cisco Secure Endpoint (CSE) on compromised systems and used tools such as PsExec.exe and taskkill.exe to terminate security services and integrity checkers, including cscm.exe and sfc.exe. Additionally, the adversary disabled Windows Defender real-time protection and cleared various event logs to reduce visibility and hinder forensic analysis. This is in line with previously observed Interlock activity, where they deployed a malicious WDAC policy to terminate EDR solutions. In the previously mentioned VYPR ransomware incident, the threat actor disabled EDR and antivirus (AV) by using Bring Your Own Vulnerable Driver (BYOVD) techniques to evade detection and execute the ransomware. BYOVD attacks take advantage of trusted but flawed drivers to gain kernel-level access, enabling threat actors to disable EDR mechanisms and carry out their operations unimpeded. While this technique is commonly observed in ransomware attacks, this actor deployed an unusually large number of vulnerable drivers in the environment, possibly to create redundancies and maximize their chances of success. Targeting Targeting of the financial industry increased from last quarter to comprise 18 percent of all engagements, tying with public administration as the most targeted sector. Although the financial industry remains a valuable target, Talos has not ranked it among the top three most impacted sectors since 2024. One possible reason is that organizations in finance can typically invest more in cybersecurity, unlike sectors such as public administration, which has consistently been among the top-targeted industries over the past year. Meanwhile, health care fell to third place after ranking as the most targeted industry for the previous two consecutive quarters. Initial access While the number of engagements involving phishing as an initial access vector declined from last quarter, it remained the most common technique, appearing in 37 percent of Talos IR engagements. Exploitation of public-facing applications was the second most common initial access vector, accounting for 33 percent of engagements. Recommendations for addressing top security weaknesses The most common security weaknesses observed this quarter were insufficient logging, improper credential and secret management, and absent or improperly implemented authentication and MFA. These trends closely mirror last quarter, when insufficient logging and authentication weaknesses were also prevalent. Centralize logging and set retention requirements The leading security weakness was insufficient logging leading to visibility gaps, seen in over 40 percent of engagements this quarter. These gaps were in part due to the common threat actor practice of deleting logs, and in part due to insufficient log retention or configuration implemented by the customer. Talos IR recommends implementing a SIEM or centralized logging platform with a minimum of 90 days of retention, forwarding logs from servers, workstations, network infrastructure, cloud identity providers, and security appliances off-device so they survive log tampering and host rebuilds, and enabling process-creation, command-line, and cloud API (e.g., Microsoft Graph) auditing. Talos IR's Log Architecture Assessment service can identify gaps and provide a roadmap to a complete view of the environment. Tighten authentication and MFA controls Missing or insufficient authentication and MFA controls were the third most common security weakness this quarter, observed in 33 percent of engagements. The most prevalent issue was reliance on single-factor authentication, which allowed unauthorized access in several incidents. In many cases, legacy authentication protocols were still enabled, enabling adversaries to log in without any MFA requirements, and some environments failed to enforce MFA for high-privilege accounts. To reduce this risk, Talos IR recommends transitioning from push- and SMS-based MFA to phishing-resistant methods such as FIDO2/WebAuthn and hardware security keys. Organizations should also restrict self-service MFA enrollment by requiring helpdesk verification, block legacy authentication through Conditional Access, enforce number matching or verified push where phishing-resistant methods are not yet feasible, and condition access on device compliance and trusted infrastructure rather than geographic location alone. Safeguard credentials and secrets Improper credential and secret management was the second most common security weakness seen in 33 percent of engagements this quarter, reinforcing the importance of security awareness training and consistent security hygiene for every user. Observed security issues included unsafe storage and handling of credentials, such as saving passwords in browser stores, poor control mechanisms like permitting autofill for browser-stored credentials, and credential reuse and sharing. Effective secret management begins with a formal process that covers passwords, API keys, tokens, certificates, and other sensitive credentials. By requiring unique passwords for every account and encouraging the use of password managers, organizations reduce the risks associated with credential reuse and sharing. Storing secrets securely, with encryption and access restricted to only those who need them, further strengthens protection. When credentials are no longer necessary or are suspected to be compromised, they should be promptly revoked and replaced. Regular reviews of access to privileged credentials, combined with thorough logging, help detect unusual activity. Equipping staff with training on safe handling and clear reporting procedures ensures that accidental disclosures are addressed quickly and effectively. Tales from the Frontlines: An exclusive briefing on Q3 incidents On November 12, Talos incident responders will be hosting an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents our customers faced in Q3. Designed for security professionals of all levels, this is a candid discussion of what happened, how we handled it, and what it means for your organization. Registration is required to attend. Don't miss this chance to hear real-world stories from the frontlines of cyber defense, directly from the team who lived them. Register here MITRE ATT&CK appendix The table below represents MITRE ATT&CK techniques and tools observed in this quarter\u2019s IR engagements, including relevant examples. Given that some techniques can fall under multiple tactics, we grouped them under the most relevant tactic based on the way they were leveraged. Please note that this is not an exhaustive list. Key findings from the MITRE ATT&CK framework include: The rise of phishing and the frequent use of valid accounts for initial access and lateral movement both highlight how attackers continue to rely on methods that have remained consistently effective year over year. Attacker success consistently reflects basic weaknesses in enterprise security posture, with persistent exploitation of known vulnerabilities \u2014 especially in internet-facing applications \u2014 demonstrating that adversaries continually scan for and opportunistically target unpatched systems. The most used techniques to maintain persistence were deploying web shells and creating scheduled tasks, demonstrating that attackers prioritize stealthy, reliable access by leveraging legitimate system components that blend in with normal operations. These techniques enable threat actors to maintain long-term control and quickly re-establish their presence even if some signs of compromise are removed. Tactic Technique Example Initial Access (TA0001) T1190 Exploit Public-Facing Application Adversaries may exploit vulnerabilities in public-facing applications to gain unauthorized access to a network. T1566 Phishing (link, attachment, voice, service) Adversaries may rely on users clicking a malicious link or opening a malicious attachment to gain initial access, often using social engineering to increase success. T1078 Valid Accounts (Local, Domain, Cloud, SSH) Adversaries may obtain and abuse credentials of existing accounts to access systems within the network and execute their payload. T1133 External Remote Services Adversaries may leverage remote services such as VPN or RDP to gain entry into an environment using legitimate access mechanisms. Execution (TA0002) T1059 Command and Scripting Interpreter (PowerShell, Windows/Unix Shell, JavaScript, Python) Adversaries may use built-in scripting interpreters like PowerShell or bash to execute malicious code on victim systems. T1610 Deploy Container Adversaries may deploy malicious containers in cloud or on-premises environments to establish execution. Per sistence (TA0003) T1505.003 Server Software Component: Web Shell Adversaries may install web shells on compromised servers to maintain per sistent access via HTTP/S. T1543 Create or Modify System Process (Windows Service, Scheduled Task) Adversaries may create or modify system processes, such as scheduled tasks or services, to maintain per sistence after initial compromise. T1136.001 Create Account: Local Account Adversaries may create new local accounts to establish per sistence or elevate privileges within the environment. Defense Evasion (TA0005) T1036 Masquerading Adversaries may disguise malicious files or processes as legitimate system components to avoid detection. T1562.001 Impair Defenses: Disable/ Modify Security Tools Adversaries may disable or modify security software and tools to avoid detection and facilitate continued o per ations. T1070 Indicator Removal (File Deletion, Clear Event Logs) Adversaries may remove or alter evidence of their activity by deleting files or clearing logs on compromised systems. T1027 Obfuscated Files or Information Adversaries may obfuscate files and information to prevent security tools from identifying malicious activity. T1218.011 System Binary Proxy Execution: Rundll32 Adversaries may use legitimate system binaries such as rundll32 to proxy execution of malicious code. T1222 File and Directory Per missions Modification Adversaries may modify file or directory per missions to conceal their presence or maintain access. T1055 Process Injection Adversaries may inject malicious code into the address space of legitimate processes to evade detection. T1550 Use Alternate Authentication Material Adversaries may use alternate authentication material, such as SSH keys, to access accounts without using passwords. Discovery (TA0007) T1018 Remote System Discovery Adversaries may enumerate remote systems on a network to identify targets for lateral movement or data collection. T1082 System Information Discovery Adversaries may collect detailed information about the o per ating system and hardware to inform later actions. T1087 Account Discovery (Domain Account) Adversaries may query for user and group information to identify accounts of interest in the environment. T1046 Network Service Discovery Adversaries may scan for open ports and network services to identify potential entry points or targets. T1518.001 Security Software Discovery Adversaries may search for installed security software to tailor evasion techniques accordingly. T1016 System Network Configuration Discovery Adversaries may gather network configuration details to better understand the environment and plan next steps. Command and Control (TA0011) T1105 Ingress Tool Transfer Adversaries may transfer tools or payloads into an environment to facilitate further o per ations. T1071 Application Layer Protocol (Web, DNS) Adversaries may use common web or DNS protocols for command and control to blend in with normal network traffic. T1219 Remote Access Software Adversaries may use legitimate remote access software to maintain control over compromised systems. T1572 Protocol Tunneling Adversaries may tunnel command and control traffic through allowed protocols to bypass network defenses. T1090 Proxy Adversaries may route communications through proxy servers to obscure their origin and evade detection. Lateral Movement (TA0008) T1021.002 SMB/Windows Admin Shares Adversaries may use SMB and admin shares to move laterally between systems within the network. T1021.004 SSH Adversaries may use SSH with stolen credentials or keys to move laterally across systems. T1570 Lateral Tool Transfer Adversaries may transfer tools or files between systems to enable further compromise. T1047 Windows Management Instrumentation Adversaries may leverage WMI to execute code or commands remotely on Windows systems. Privilege Escalation (TA0004) T1098 Account Manipulation (Additional Cloud Roles) Adversaries may modify account per missions or roles to escalate privileges within cloud environments. Collection (TA0009) T1005 Data from Local System Adversaries may collect files and sensitive data from local systems for later exfiltration. T1039 Data from Network Shared Drive Adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather. T1560.001 Archive Collected Data via Utility Adversaries may compress or archive collected data to facilitate exfiltration. Credential Access (TA0006) T1110.003 Brute Force: Password Spraying Adversaries may attempt to gain access by systematically trying commonly used passwords against many accounts. T1556 Modify Authentication Process Adversaries may modify authentication processes to facilitate unauthorized access. T1649 Steal or Forge Authentication Certificates Adversaries may steal or forge authentication certificates to bypass authentication controls. T1558 Steal or Forge Kerberos Tickets Adversaries may forge or steal Kerberos tickets to access resources within the network. T1557 Adversary-in-the-Middle Adversaries may intercept communications to capture credentials in transit. Exfiltration (TA0010) T1567.002 Exfiltration to Cloud Storage Adversaries may exfiltrate collected data to cloud storage services outside the target network. T1041 Exfiltration Over C2 Channel Adversaries may transfer stolen data over established command and control channels. T1048 Exfiltration Over Alternative Protocol Adversaries may exfiltrate data using alternative network protocols such as FTP or SFTP. Impact (TA0040) T1486 Data Encrypted for Impact Adversaries may encrypt files or entire systems to disrupt normal o per ations and demand ransom. T1490 Inhibit System Recovery Adversaries may delete backups or shadow copies to prevent recovery and maximize impact. Reconnaissance (TA0043) T1595.002 Active Scanning: Vulnerability Scanning Adversaries may actively scan for vulnerable systems and services as part of their reconnaissance. T1589.001 Gather Victim Identity Information: Credentials Adversaries may collect credential information from public sources to inform later attacks. Resource Development (TA0042) T1583 Acquire Infrastructure Adversaries may acquire infrastructure, such as servers or domains, to support their o per ations. T1584 Compromise Infrastructure Adversaries may compromise third-party infrastructure to use as a launch point for further activities. Software/Tool GoGRPC RAT Adversaries may deploy GoGRPC RAT, commonly observed as fly.exe, to remotely control compromised systems and execute commands via the GoGRPC protocol, enabling stealthy management and data collection. Node RAT Adversaries may leverage Node.js-based remote access tools to establish per sistence, execute arbitrary code, and facilitate command and control through JavaScript runtimes on victim machines. BadCandy Adversaries may use BadCandy , a remote access trojan, to gain per sistent remote control, exfiltrate data, and monitor victim activities, often leveraging encrypted communications to evade detection. Overlord RAT Adversaries may utilize Overlord RAT to remotely administer compromised hosts, execute commands, and transfer files, often blending C2 traffic with legitimate protocols to avoid network monitoring. SideSlipRAT Adversaries may deploy SideSlipRAT to maintain ongoing access to victim systems, execute malicious payloads, and collect sensitive information while using various evasion techniques to bypass defenses. Impacket SMBexec Adversaries may use Impacket\u2019s SMBexec tool to execute commands remotely over SMB, allowing lateral movement and post-exploitation activities within Windows environments by leveraging valid credentials.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-29T14:00:00+00:00"
+    },
+    {
+      "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=188799",
+      "date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "detail": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-10-29T18:00:34+00:00"
+    },
+    {
+      "title": "Filter generation in practice: from algorithms to LLMs",
+      "url": "https://securelist.com/practical-filter-generation/121697/",
+      "feed_id": "https://kasperskycontenthub.com/securelist/?p=121697",
+      "date": "Fri, 30 Oct 2026 10:00:44 +0000",
+      "detail": "A modern organization protects its information systems with a whole suite of technologies that generate thousands of security alerts every day. Looking at these alerts in bulk, you\u2019ll see that a significant share are false positives. Ideally, these alerts would be filtered out automatically so that analysts could focus on the ones that may point to a real incident. However, writing filters is a time-consuming task in itself. To create a correct filter, an analyst needs to: Review the logs Identify the source of the activity Define filtering boundaries Choose filtering criteria Write a rule Check that the filter is robust This post looks at how filter creation itself can be automated to reduce analyst workload. Filter validity criteria In the context of security alerts, a filter is a combination of event field values that marks a detection as a false positive and not worth the analyst\u2019s attention. Filters can be generated for any combination of event fields, but not every combination yields a valid filter. That\u2019s why we need to define validity criteria: conditions showing that a specific filter actually removes noise and doesn\u2019t suppress useful alerts. Detection rules in security systems typically contain a set of conditions, and each of them can generate an alert. A specific event triggers a given fragment of a detection rule. The set of events that a given fragment responds to is what we\u2019ll call its context. A good filter should cover the entire context where possible, without going beyond it. Filters that are too broad or too narrow are useless. For example, a filter based solely on PowerShell would exclude too many events, including some that deserve the analyst\u2019s attention. Most of the filtered events would also be unrelated to the rule in question. A filter on a specific ID, on the other hand, would cover only one event, which may never recur. Problems in filter generation We can run into a number of problems when creating filters. First, events often contain an excessive number of fields (around 400 on average), and most of them aren\u2019t needed for filtering. At the same time, generating and ranking combinations of these fields is also fairly resource-intensive. So, the first step is to discard the irrelevant fields and keep only those worth using in the filter. For example, out of 400 fields in an event, four may be enough for filtering. Another problem is string normalization. Field values (for example, the path to the same application on different systems) can vary depending on system settings, user folder names, and so on. For a filter to account for all these variations, the strings must be normalized. For file paths, in particular, you can replace the drive letter and user folders with standard environment variables and convert all paths to a single case. Finally, if a filter completely mirrors the query of a detection rule, it effectively disables that rule. To fix this, remove the event fields used in the detection rule from the filter. For example, if a rule triggers on a file path, there are two ways to filter out unwanted alerts: In the filter, use fields other than the file path. Use a part of the file path that the rule doesn\u2019t use. For example, for the rule file_path: \".../something.exe\" , you can set up a filter that excludes events with the user/unique_files/ directory in the file path. Filtering security alerts with an algorithm Given the problems described above, automatically generating filters for security alerts should consist of the following steps: An analyst receives a security alert that they assess as a false positive and uses the filter generator. The generator takes the 400-field event from the alert, along with the rule that triggered on it, and determines the context. The generator selects the fields that are relevant to the filter. The generator normalizes the strings. The generator builds different combinations of the selected fields. To do this, we applied the FP-Growth (frequent pattern growth) algorithm to the context determined earlier. FP Growth builds a tree of frequently occurring items (fields) from a dataset (in our case, the context) and discards items that aren\u2019t frequent enough. This reduces the number of combinations to check, which lowers the cost of finding the most relevant ones. The generator ranks the resulting combinations and offers the analyst the top three to choose from. For example, consider an event described by the following JSON: After generating and ranking the combinations, we got three filters based on file paths: processcmdline:(\"nodejs\\\\node.exe\" AND \"*****\\\\appdata\\\\roaming\\\\npm\\/node_modules\\/pi-coding-agent\\/dist\\/cli.js\") file_path:\"*****/.pi\\\\agent\\\\bin\\\\fd.exe\" processcmdline: \"programfiles\\\\nodejs\\\\node.exe\" The last filter turned out to be too broad, but the analyst marked the other two as valid. Pros and cons of the algorithmic approach The algorithmic approach to filter generation has several advantages. First, it\u2019s simple and deterministic: the same alert always produces the same result. Second, it\u2019s interpretable, meaning we can see why a given combination ranked near the top of the list and why a particular field didn\u2019t make it into the list of candidate fields at all. Third, the stages of the process are independent of each other, so individual steps can be improved and tuned without the risk of breaking the algorithm elsewhere. Finally, it has no external dependencies or models, which makes it easy to deploy in any customer environment. However, it also has drawbacks. The first is its dependence on context. If there\u2019s no context for some reason \u2014 for example, the rule\u2019s first-ever trigger \u2014 a filter can\u2019t be created. The second problem is string normalization. There\u2019s a high chance of running into atypical cases that the normalization rules don\u2019t cover. Often such cases can\u2019t be described correctly at all, because they contradict each other. These problems can be solved with large language models (LLMs). When an LLM generates the filters, no context is needed, because the LLM doesn\u2019t iterate over or rank combinations. The LLM also takes a more flexible approach to string normalization, including non-standard cases. That said, an LLM doesn\u2019t have to be involved at every stage of the generation process. We decided to keep the algorithmic solution where it works well. For example, a simple algorithm selects suitable fields without errors, so we didn\u2019t move this stage to the model. Filter generation with an LLM The LLM-based filter generation looks like this: The input is still an alert containing an event with 400 fields, plus the rule that triggered on that event. Then an algorithm selects the most suitable fields for the filter. Next, the LLM processes the input \u2014 the event, the selected fields, and the detection rule \u2014 and generates three filter options along with an explanation for them. The explanation helps the analyst understand why these particular filters were suggested and make an informed choice. Consider the following event in JSON format: The LLM suggested three filter options that all contain the same command line fragment: file_path: \"\\\\WindowsPowerShell\\\\powershell.exe\" AND filecmdline: \"Get-VM -Name kafka\\*\" filecmdline: \"Get-VM -Name kafka\\*\" filecmdline: \"kafka*\" As in the previous example, two of the three output filters were valid. The last one was too broad to be usable. The analyst chose the first filter with minor edits: file_path: \"powershell.exe\" AND filecmdline: \"Get-VM -Name kafka\\*\" Pros and cons of generating filters with an LLM Using an LLM solved the problems of purely algorithmic filter generation: dependence on context and errors in string normalization. However, the single-request approach had its own drawbacks. First, it had no output validation. The LLM returned filters as-is, with no syntax check and no way to correct errors. Second, unlike in the algorithmic version, all filter generation tasks were handled by a single system prompt. As a result, a minor fix in one place could break the logic in another. Using multiple AI agents To address the problems of generating filters with a single model and a single system prompt, we tried distributing the tasks across different LLM agents. In this version, we brought in agents as early as the stage of selecting relevant fields. The chain includes four agents in total: Selector: selects the relevant fields. Generator: generates filters. Validator: evaluates the generated filters. If the filters are found to be invalid, it returns the task to the generator. If the selected fields are found to be irrelevant, it starts a new field selection cycle. If the filters pass validation, or the limit on regeneration attempts is reached, the valid filters (or the best ones available) are passed to the analyst. Commentator: analyzes the output filters and explains which field values were used and why. For the following JSON event, the agents produce three valid filters based on the file path. The filters differ in the additional parameters that support the detection: file_path:\"sysvol\\\\domain\\\\scripts\\\\logon.bat\" file_path:\"sysvol\\\\domain\\\\scripts\\\\logon.bat\" AND file_md5:\"0x7..6E\" autorun_entry: \"Group Policy\\\\State\" AND file_path: \"SYSVOL\\\\domain\\\\scripts\\\\logon.bat\" Pros and cons of the agent-based approach LLM agents give us a system that can validate and correct filters. Its modular architecture also lets us tune and improve different stages of generation independently. However, this approach makes more LLM calls than the previous ones, so the system is slower. It also depends on access to a model, which may not be available in the organization\u2019s isolated environment. Evaluating the filter generation system To evaluate how well the filter generation system works, we use two main metrics: Approval rate. For each security alert, the system suggests three filters. If the analyst selects at least one of them, we count the generation as successful. For example, in the case below, the approval rate is 2/3. False positive reduction rate (FP drop). This metric shows how much a filter helps reduce the number of false positives. It can only be measured over time, because we need to compare the number of false positive alerts received during a set period before and after the filter is deployed. Below is a comparison of the three filter generation approaches by these metrics: As the results show, LLMs significantly improve the efficiency of filter generation. At the same time, the LLM agentless and agent-based approaches perform almost identically. So we chose the simpler and faster option: an LLM with a single system prompt. As a result, we cut false positives by 99%, increased the number of filters generated per day by 28%, and made analysts\u2019 alert handling 17% more efficient. Takeaways Practice has shown that filter generation can be automated effectively. We\u2019ve looked at several options for automatically generating filters for false-positive security alerts: a purely algorithmic approach, an LLM-based approach, and an approach built on a group of LLM agents. All of them can generate valid filters and make the analyst\u2019s work much easier, but each has its own pros and cons. The algorithmic approach scored lower on the evaluation metrics, but in two-thirds of cases, it still produces filters that satisfy the analyst. It works especially well when there\u2019s already a set of similar events to filter out, meaning enough context has accumulated. The algorithmic generator can also be deployed in any environment. Both standalone LLM and multi-agent LLM approaches show high accuracy, and their results differ only slightly, so the slower agent-based approach looks excessive at this stage. If an LLM is available, the best option appears to be a single model that handles several stages of the generation cycle.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Securelist",
+      "published": "2026-10-30T10:00:44+00:00"
+    },
+    {
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "date": "Fri, 30 Oct 2026 05:18:13 -0400",
+      "detail": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-30T09:18:13+00:00"
+    },
+    {
+      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "date": "Thu, 29 Oct 2026 19:35:52 -0400",
+      "detail": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T23:35:52+00:00"
+    },
+    {
+      "title": "Binance probes potential $5.8 billion crypto-theft hack",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "date": "Thu, 29 Oct 2026 18:45:23 -0400",
+      "detail": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T22:45:23+00:00"
+    },
+    {
+      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "date": "Thu, 29 Oct 2026 18:09:24 -0400",
+      "detail": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T22:09:24+00:00"
+    },
+    {
+      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "date": "Thu, 29 Oct 2026 18:08:04 -0400",
+      "detail": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-29T22:08:04+00:00"
+    },
+    {
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "feed_id": "https://www.securityweek.com/?p=50430",
+      "date": "Fri, 30 Oct 2026 09:41:36 +0000",
+      "detail": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-30T09:41:36+00:00"
+    },
+    {
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "feed_id": "https://www.securityweek.com/?p=50428",
+      "date": "Fri, 30 Oct 2026 09:32:27 +0000",
+      "detail": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-30T09:32:27+00:00"
+    },
+    {
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians\u2019 Machines",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "feed_id": "https://www.securityweek.com/?p=50426",
+      "date": "Fri, 30 Oct 2026 08:44:49 +0000",
+      "detail": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer\u2019s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians\u2019 Machines appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-30T08:44:49+00:00"
+    },
+    {
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea\u2019s TraderTraitor",
+      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "feed_id": "https://www.securityweek.com/?p=50423",
+      "date": "Fri, 30 Oct 2026 08:16:26 +0000",
+      "detail": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop. The post $6 Billion Binance Hack Bears Hallmarks of North Korea\u2019s TraderTraitor appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-30T08:16:26+00:00"
+    },
+    {
+      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+      "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+      "feed_id": "https://www.securityweek.com/?p=50421",
+      "date": "Thu, 29 Oct 2026 16:30:00 +0000",
+      "detail": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you. The post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-10-29T16:30:00+00:00"
+    },
+    {
+      "title": "INTI International University & Colleges By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "10afc3c6b05fae3727d209af9f5476db638b1c06ec128671a542fc17d99ce2b5",
+      "date": "Fri, 30 Oct 2026 08:39:06 GMT",
+      "detail": "INTI International University & Colleges INTI International University & Colleges offers a diverse range of academic programs including undergraduate, postgraduate, and professional development courses across various fields such as business, engineering, health sciences, and design. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-30T08:39:06+00:00"
+    },
+    {
+      "title": "Susman Godfrey LLP By leakeddata",
+      "url": "https://www.ransomlook.io//group/leakeddata",
+      "feed_id": "960326382ea1759c03626577e2e4ba1836d727df3baedfe3d47c5fc712b5269f",
+      "date": "Thu, 29 Oct 2026 23:39:46 GMT",
+      "detail": "Susman Godfrey L.L.P. is a premier litigation firm recognized for its exceptional courtroom talent and\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T23:39:46+00:00"
+    },
+    {
+      "title": "TDS Telecommunications LLC. By global secret group",
+      "url": "https://www.ransomlook.io//group/global%20secret%20group",
+      "feed_id": "2a48e1934dd78e5eba54bc099d5bb6602c628b109fc6c84e1d9794e670755cc6",
+      "date": "Thu, 29 Oct 2026 22:32:13 GMT",
+      "detail": "Country: Madison, Wisconsin, US | Website: tdstelecom.com | Revenue: $1.30 Billion | Industry: Telecommunications, Internet Service Providers | Employees: 3,000-5,000 | Properties: 27.4 GB (79,679 Files, 1,943 Folders) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T22:32:13+00:00"
+    },
+    {
+      "title": "rolly.io By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "36369e4d5a02175fd261e53da50ec5ace01b0aff68c0c62a612107f1528f2430",
+      "date": "Thu, 29 Oct 2026 19:38:39 GMT",
+      "detail": "Rolly.io is an on-chain crypto casino on Arbitrum featuring a public bankroll, transparent bonus formulas (rakeback, weekly bonuses), and active player reward systems. We hold 1,364 rolly.gg player PII records with linked on-chain wallets, 430K+ ledger transactions, 11,442 wallet addresses, 155 whale payout maps, 299 deanonymized staff/CTO emails, and 313 internal chat messages. We aren't asking for any ransom, we just thought it was funny to hack a casino that made a joke about Gamdom. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T19:38:39+00:00"
+    },
+    {
+      "title": "Southwest Orthopedic & Reconstructive Specialists By interlock",
+      "url": "https://www.ransomlook.io//group/interlock",
+      "feed_id": "1192c4cd176c237cf403a8a80acf6988b7c410f55b8221945df6b55a25dd48a8",
+      "date": "Thu, 29 Oct 2026 18:27:11 GMT",
+      "detail": "https://www.southwestortho.com/ Southwest Orthopedic & Reconstructive Specialists, a clinic located in Oklahoma, is required by law to maintain protected health information (PHI) as a healthcare facility. However, due to its negligent attitude toward security and unwillingness to resolve the incident, we are disclosing this confidential information, which includes databases containing more than 150,000 SSNs with patient names and addresses, as well as medical records and billing data. This violates the federal HIPAA privacy and security regulations for this clinic, as well as the Oklahoma Security Breach Notification Act. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-29T18:27:11+00:00"
+    },
+    {
+      "title": "lyserp.com (dragonforce)",
+      "url": "https://cti.fyi/groups/dragonforce.html",
+      "feed_id": "bad80d4300122995c9c0697e8476eee6",
+      "date": "Fri, 30 Oct 2026 10:05:20 +0000",
+      "detail": "Intelligence Summary: A Taiwanese tech company headquartered in Taipei City. Threat Syndicate: dragonforce Claimed Victim: lyserp.com Canonical Organization: Lyserp Target Domain: lyserp.com Geographic Location: \ud83c\uddf9\ud83c\uddfc TW Date Discovered: 2026-10-30 10:05:20.386000 Post URL: http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog#lyserp-com Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-10-30T10:05:20+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 14,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 10,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 27,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    }
+  ]
+}
