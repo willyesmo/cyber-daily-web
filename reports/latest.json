@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T05:58:26.837946+00:00",
+  "generated": "2026-10-31T12:50:29.216409+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,6 +39,50 @@
       "published": "2026-10-30T00:00:00+00:00"
     },
     {
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
+      "feed_id": "https://isc.sans.edu/diary/rss/33476",
+      "date": "Sat, 31 Oct 2026 10:52:53 GMT",
+      "detail": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-31T10:52:53+00:00"
+    },
+    {
+      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33474",
+      "feed_id": "https://isc.sans.edu/diary/rss/33474",
+      "date": "Sat, 31 Oct 2026 10:48:17 GMT",
+      "detail": "YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-31T10:48:17+00:00"
+    },
+    {
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "feed_id": "https://isc.sans.edu/diary/rss/33454",
+      "date": "Sat, 31 Oct 2026 10:45:40 GMT",
+      "detail": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-10-31T10:45:40+00:00"
+    },
+    {
+      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "feed_id": "6ae49fc11bed380001492138",
+      "date": "Sat, 31 Oct 2026 12:00:00 GMT",
+      "detail": "VOLTA is a mature stealer implant with an optional AI-integration layer. After stealing credentials, sessions, and cryptocurrency wallets, VOLTA sends a structured evidence bundle to an LLM to rank the victim\u2019s assets by monetization value. If a model refuses to perform the target assessment, VOLTA fails over to a three-model chain, implying a direct engineering effort and expectation of hitting model guardrails. This stealer is self-deleting, and there is no attacker-owned infrastructure. The novelty in the AI-integration is that it is not supporting a traditional malware capability but working as an intelligence analyst on behalf of the operator. There is a new idea in the cybercrime world \u2014 cast a wide net, steal everything, and let AI sort out the specifics. A new malware self-named \u201cVOLTA-AUTODOXER,\u201d surfaced through the CAIRN research effort , is a self-deleting Windows infostealer that augments its post-theft workflow with an LLM-powered victim-profiling stage. After harvesting the standard stealer haul, including browser passwords; cookies; payment cards; cryptocurrency wallet seed phrases; Discord, Telegram, Steam, and Roblox sessions; Microsoft OAuth tokens; SSH and cloud-provider keys; Wi-Fi profiles; and screenshots, VOLTA builds a structured evidence bundle about the person behind the machine. This bundle contains geolocation and home address, employer and employer domain, inferred birth year, card last-4 digits, Slack workspaces, document authorship metadata, iPhone backup indicators, and a live Roblox account valuation. It then uses stolen session access to enrich that bundle further: searching the victim's Gmail for purchase receipts to corroborate a home address, pulling UberEats and DoorDash order history, and enriching Discord accounts via the stolen token. The bundle is serialized and POSTed to OpenRouter under a system prompt that instructs the model to act as \"a forensic intelligence analyst drafting a target assessment.\" The required output includes a section titled \u201cWHAT THEY'RE WORTH\u201d with valuables ranked by monetization with a low/medium/high tier, and a section on \u201cTHEIR OPSEC\u201d containing an assessment of the victim's security posture and password hygiene. The model is the operator's triage analyst; it turns a raw credential log into a prioritized and citation-backed dossier of the victim and their monetizable assets. Figure 1. The VOLTA-AUTODOXER workflow. The AI configuration: \u201cGo deep, not wide... Be blunt, specific, accurate.\u201d VOLTA uses a multi-model architecture to fall back resiliently if it hits a model\u2019s refusal, checking each response for phrases like \u201cI can\u2019t\u201d or \u201cI\u2019m not able,\u201d before passing on to a chain of up to three models. Endpoint https[ :]// openrouter [ .]ai/ api /v1/chat/completions Default model anthropic/claude-opus-4.6 Fallback chain moonshotai /kimi-k2 \u2192 google/gemini-2.5-flash Temperature 0.2 \u2014 deterministic, consistent output Request format Hand-assembled JSON; no SDK; User-Agent Mozilla/5.0 Figure 2. Hardcoded model selection. Figure 3. Failover model selection to kimi-k2, and then gemini-2.5-flash. Model temperate controls the randomness and predictability of LLM-generated text. The low hardcoded temperature value (0.2) suggests the attacker is emphasizing accuracy and consistency. The malware also employs a chain of cascading models in the event of failures. This multi-model architecture suggests that the operator is anticipating encountering refusals, with the fallback pivoting to a few, smaller, and more permissive models. The system prompt directly reveals the operator\u2019s use case: Produce a concise analytical assessment of the victim\u2019s suitability as a target, backed by an auditable trail of citations. Figure 4. VOLTA's raw system prompt. The prompt also asks for something out of the ordinary, but that agents excel at: making connections between sparse and disparate data. For example, encouraging connections like the victim\u2019s names, addresses, or universities to patterns in their passwords. In this case, the model isn't being asked to find data; rather, it\u2019s being asked to stretch the data and make useful inferences that extend the value of what has been scraped. Stealer capabilities VOLTA\u2019s capabilities are directly aligned with the records produced in modern digital life, and well beyond basic credential theft. In a single pass, the stealer can extract browser credentials, cookies, and saved payment cards across Chromium-based browsers. It hits Firefox and Thunderbird, Outlook profiles, Slack workspaces, Steam and Battle.net sessions, Discord tokens, Telegram sessions, Roblox accounts, and SSH and cloud-provider config files (gcloud, OpenVPN, Hide.me). VOLTA doesn\u2019t just copy cryptocurrency wallets, but runs an embedded cracker against the vault inline, writing the result to a WALLET VAULTS CRACKED line in its own report. Every saved Wi-Fi password on the machine is pulled via a direct call to WlanGetProfileList and dumped to plaintext. Figure 5. VOLTA dumps plaintext passwords for every saved Wi-Fi network on the host. Figure 6. The organized collection targets. What really sets VOLTA apart from commodity stealers is what comes after the initial collection. There is a live enrichment pass that leverages stolen sessions to deep dive the victim\u2019s data. For example, using the victim's own authenticated Gmail tokens, it queries their inbox for receipts from Amazon, DoorDash, Uber Eats, Grubhub, Walmart, and PayPal, then review those receipts to establish a confirmed home address. Stolen Uber Eats and DoorDash sessions are called directly for order history. The Discord token is re-used to enrich the victim's account profile. Roblox inventory is valued via a live \u201cRolimons[.]com\u201d lookup. Figure 7. That\u2019s right: Your Uber Eats history is now a potential liability. After the collection and enrichment stages are complete, the data is assembled and structured locally in a file called \u201cIdentity_Report.txt\u201d. This file is serialized into a bundle as JSON and POSTed to OpenRouter along with the system prompt. The returned payload is received as \u201cAI_Analysis.txt\u201d. Both files exfil together in \u201cvolta_dox.zip\u201d. Figure 8. VOLTA\u2019s exfil can happen in three stages: 1) after the stealer runs (\u201cvolta_log.zip\u201d), 2) after the AI call (\u201cvolta_dox.zip\u201d), (3) if the network enrichment produces anything (\u201cvolta_doxnet.zip\u201d). The inference round-trip happens entirely through the victim's own network connection, on their own machine, before the result is exfiltrated. Deployment model Instead of hardcoding its Telegram channel, API keys, and settings directly into the code (which is likely what someone writing a tool for personal use would do) VOLTA uses a template with six swappable slots, filled in at build time. This suggests it\u2019s a builder model: The author sells access, the customer provides their values, and the builder compiles a custom binary for each order. The credentials in those slots are encrypted, but not in a meaningful way. The key is SHA-256 of two constants sitting in the same binary, but it's presumably there because customers expect their API keys not to be sitting in plaintext, not because it provides real protection. Anyone who reverses the file can recover them. If VOLTA is indeed a commoditized malware, then the AI dossier capability isn't something the author invented for their own operations. It is a feature which enables a customer of any level of sophistication to point it at victims and start receiving ranked target assessments in their Telegram inbox. All the observed endpoints for this malware are third-party controlled. There is no actor-owned infrastructure. Countermeasures Much of the token-stealing capability of VOLTA relies on techniques to bypass App-Bound Encryption (ABE) in Chrome. An application control policy that restricts which processes may launch Chrome with --headless would block the ABE decryption path entirely. At minimum, you can also alert when Chrome is launched with --headless from any process not in a known developer. Best practices for storing credentials in hardware backed stores also apply. In the event of compromise, the main executable may have deleted itself, but users should attempt to preserve the \u201cAPPDATA%\\volta_debug.txt\u201d file. This is a timestamped harvest log and contains a record of exactly what was collected and whether the LLM call succeeded. Revoke any potentially compromised tokens and change passwords. For cryptocurrency wallets, if the seed phrase was in plaintext on disk, treat the wallet as fully compromised and migrate funds to a new wallet with a seed generated on an air-gapped device. Conclusions VOLTA is a mature stealer with a late-stage AI layer added for one purpose: relieving the operator of analytical work. The axis of AI improvement here is not speed or scale but effort displacement; the same logic visible in CLOSEDQUORUM , though applied to a different phase. These implants reflect the same underlying logic: Identify the step that requires the most sustained human attention and replace it with a model call. The question for defenders is not whether this pattern will appear elsewhere, but which phase it touches next. Figure 9. End-to-end VOLTA workflow. The second trend to watch is the anticipation of hitting model refusals, and the approaches to building in resiliency. In this case, it includes a fallback chain from Claude to Kimi to Gemini and the ability to run without the LLM stage altogether if no key is present. As AI integration in malware matures, refusal resilience may become a standard design requirement. The open question underlying both trends is whether effort displacement in crimeware changes the landscape in a meaningful way: lowering the operational floor, raising the ceiling on scale, or both. Cybercrime operations have always been opportunistic, and the sophistication bar has always been lower than assumed, but there is a difference between a wide net and a wide net that sorts itself. Sample details SHA256 57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e2279 Filename 9BY0tjwOc3ut.exe / yLP9m5J3i2Aw.exe Type PE32+ x86-64 PE Timestamp 2026-08-17 20:35 First Seen (UTC) 2026-10-11 12:46",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-10-31T12:00:00+00:00"
+    },
+    {
       "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
       "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150709",
@@ -61,15 +105,26 @@
       "published": "2026-10-30T16:11:44+00:00"
     },
     {
-      "title": "Filter generation in practice: from algorithms to LLMs",
-      "url": "https://securelist.com/practical-filter-generation/121697/",
-      "feed_id": "https://kasperskycontenthub.com/securelist/?p=121697",
-      "date": "Fri, 30 Oct 2026 10:00:44 +0000",
-      "detail": "A modern organization protects its information systems with a whole suite of technologies that generate thousands of security alerts every day. Looking at these alerts in bulk, you\u2019ll see that a significant share are false positives. Ideally, these alerts would be filtered out automatically so that analysts could focus on the ones that may point to a real incident. However, writing filters is a time-consuming task in itself. To create a correct filter, an analyst needs to: Review the logs Identify the source of the activity Define filtering boundaries Choose filtering criteria Write a rule Check that the filter is robust This post looks at how filter creation itself can be automated to reduce analyst workload. Filter validity criteria In the context of security alerts, a filter is a combination of event field values that marks a detection as a false positive and not worth the analyst\u2019s attention. Filters can be generated for any combination of event fields, but not every combination yields a valid filter. That\u2019s why we need to define validity criteria: conditions showing that a specific filter actually removes noise and doesn\u2019t suppress useful alerts. Detection rules in security systems typically contain a set of conditions, and each of them can generate an alert. A specific event triggers a given fragment of a detection rule. The set of events that a given fragment responds to is what we\u2019ll call its context. A good filter should cover the entire context where possible, without going beyond it. Filters that are too broad or too narrow are useless. For example, a filter based solely on PowerShell would exclude too many events, including some that deserve the analyst\u2019s attention. Most of the filtered events would also be unrelated to the rule in question. A filter on a specific ID, on the other hand, would cover only one event, which may never recur. Problems in filter generation We can run into a number of problems when creating filters. First, events often contain an excessive number of fields (around 400 on average), and most of them aren\u2019t needed for filtering. At the same time, generating and ranking combinations of these fields is also fairly resource-intensive. So, the first step is to discard the irrelevant fields and keep only those worth using in the filter. For example, out of 400 fields in an event, four may be enough for filtering. Another problem is string normalization. Field values (for example, the path to the same application on different systems) can vary depending on system settings, user folder names, and so on. For a filter to account for all these variations, the strings must be normalized. For file paths, in particular, you can replace the drive letter and user folders with standard environment variables and convert all paths to a single case. Finally, if a filter completely mirrors the query of a detection rule, it effectively disables that rule. To fix this, remove the event fields used in the detection rule from the filter. For example, if a rule triggers on a file path, there are two ways to filter out unwanted alerts: In the filter, use fields other than the file path. Use a part of the file path that the rule doesn\u2019t use. For example, for the rule file_path: \".../something.exe\" , you can set up a filter that excludes events with the user/unique_files/ directory in the file path. Filtering security alerts with an algorithm Given the problems described above, automatically generating filters for security alerts should consist of the following steps: An analyst receives a security alert that they assess as a false positive and uses the filter generator. The generator takes the 400-field event from the alert, along with the rule that triggered on it, and determines the context. The generator selects the fields that are relevant to the filter. The generator normalizes the strings. The generator builds different combinations of the selected fields. To do this, we applied the FP-Growth (frequent pattern growth) algorithm to the context determined earlier. FP Growth builds a tree of frequently occurring items (fields) from a dataset (in our case, the context) and discards items that aren\u2019t frequent enough. This reduces the number of combinations to check, which lowers the cost of finding the most relevant ones. The generator ranks the resulting combinations and offers the analyst the top three to choose from. For example, consider an event described by the following JSON: After generating and ranking the combinations, we got three filters based on file paths: processcmdline:(\"nodejs\\\\node.exe\" AND \"*****\\\\appdata\\\\roaming\\\\npm\\/node_modules\\/pi-coding-agent\\/dist\\/cli.js\") file_path:\"*****/.pi\\\\agent\\\\bin\\\\fd.exe\" processcmdline: \"programfiles\\\\nodejs\\\\node.exe\" The last filter turned out to be too broad, but the analyst marked the other two as valid. Pros and cons of the algorithmic approach The algorithmic approach to filter generation has several advantages. First, it\u2019s simple and deterministic: the same alert always produces the same result. Second, it\u2019s interpretable, meaning we can see why a given combination ranked near the top of the list and why a particular field didn\u2019t make it into the list of candidate fields at all. Third, the stages of the process are independent of each other, so individual steps can be improved and tuned without the risk of breaking the algorithm elsewhere. Finally, it has no external dependencies or models, which makes it easy to deploy in any customer environment. However, it also has drawbacks. The first is its dependence on context. If there\u2019s no context for some reason \u2014 for example, the rule\u2019s first-ever trigger \u2014 a filter can\u2019t be created. The second problem is string normalization. There\u2019s a high chance of running into atypical cases that the normalization rules don\u2019t cover. Often such cases can\u2019t be described correctly at all, because they contradict each other. These problems can be solved with large language models (LLMs). When an LLM generates the filters, no context is needed, because the LLM doesn\u2019t iterate over or rank combinations. The LLM also takes a more flexible approach to string normalization, including non-standard cases. That said, an LLM doesn\u2019t have to be involved at every stage of the generation process. We decided to keep the algorithmic solution where it works well. For example, a simple algorithm selects suitable fields without errors, so we didn\u2019t move this stage to the model. Filter generation with an LLM The LLM-based filter generation looks like this: The input is still an alert containing an event with 400 fields, plus the rule that triggered on that event. Then an algorithm selects the most suitable fields for the filter. Next, the LLM processes the input \u2014 the event, the selected fields, and the detection rule \u2014 and generates three filter options along with an explanation for them. The explanation helps the analyst understand why these particular filters were suggested and make an informed choice. Consider the following event in JSON format: The LLM suggested three filter options that all contain the same command line fragment: file_path: \"\\\\WindowsPowerShell\\\\powershell.exe\" AND filecmdline: \"Get-VM -Name kafka\\*\" filecmdline: \"Get-VM -Name kafka\\*\" filecmdline: \"kafka*\" As in the previous example, two of the three output filters were valid. The last one was too broad to be usable. The analyst chose the first filter with minor edits: file_path: \"powershell.exe\" AND filecmdline: \"Get-VM -Name kafka\\*\" Pros and cons of generating filters with an LLM Using an LLM solved the problems of purely algorithmic filter generation: dependence on context and errors in string normalization. However, the single-request approach had its own drawbacks. First, it had no output validation. The LLM returned filters as-is, with no syntax check and no way to correct errors. Second, unlike in the algorithmic version, all filter generation tasks were handled by a single system prompt. As a result, a minor fix in one place could break the logic in another. Using multiple AI agents To address the problems of generating filters with a single model and a single system prompt, we tried distributing the tasks across different LLM agents. In this version, we brought in agents as early as the stage of selecting relevant fields. The chain includes four agents in total: Selector: selects the relevant fields. Generator: generates filters. Validator: evaluates the generated filters. If the filters are found to be invalid, it returns the task to the generator. If the selected fields are found to be irrelevant, it starts a new field selection cycle. If the filters pass validation, or the limit on regeneration attempts is reached, the valid filters (or the best ones available) are passed to the analyst. Commentator: analyzes the output filters and explains which field values were used and why. For the following JSON event, the agents produce three valid filters based on the file path. The filters differ in the additional parameters that support the detection: file_path:\"sysvol\\\\domain\\\\scripts\\\\logon.bat\" file_path:\"sysvol\\\\domain\\\\scripts\\\\logon.bat\" AND file_md5:\"0x7..6E\" autorun_entry: \"Group Policy\\\\State\" AND file_path: \"SYSVOL\\\\domain\\\\scripts\\\\logon.bat\" Pros and cons of the agent-based approach LLM agents give us a system that can validate and correct filters. Its modular architecture also lets us tune and improve different stages of generation independently. However, this approach makes more LLM calls than the previous ones, so the system is slower. It also depends on access to a model, which may not be available in the organization\u2019s isolated environment. Evaluating the filter generation system To evaluate how well the filter generation system works, we use two main metrics: Approval rate. For each security alert, the system suggests three filters. If the analyst selects at least one of them, we count the generation as successful. For example, in the case below, the approval rate is 2/3. False positive reduction rate (FP drop). This metric shows how much a filter helps reduce the number of false positives. It can only be measured over time, because we need to compare the number of false positive alerts received during a set period before and after the filter is deployed. Below is a comparison of the three filter generation approaches by these metrics: As the results show, LLMs significantly improve the efficiency of filter generation. At the same time, the LLM agentless and agent-based approaches perform almost identically. So we chose the simpler and faster option: an LLM with a single system prompt. As a result, we cut false positives by 99%, increased the number of filters generated per day by 28%, and made analysts\u2019 alert handling 17% more efficient. Takeaways Practice has shown that filter generation can be automated effectively. We\u2019ve looked at several options for automatically generating filters for false-positive security alerts: a purely algorithmic approach, an LLM-based approach, and an approach built on a group of LLM agents. All of them can generate valid filters and make the analyst\u2019s work much easier, but each has its own pros and cons. The algorithmic approach scored lower on the evaluation metrics, but in two-thirds of cases, it still produces filters that satisfy the analyst. It works especially well when there\u2019s already a set of similar events to filter out, meaning enough context has accumulated. The algorithmic generator can also be deployed in any environment. Both standalone LLM and multi-agent LLM approaches show high accuracy, and their results differ only slightly, so the slower agent-based approach looks excessive at this stage. If an LLM is available, the best option appears to be a single model that handles several stages of the generation cycle.",
+      "title": "This month in security with Tony Anscombe \u2013 October 2026 edition",
+      "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+      "feed_id": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+      "date": "Fri, 30 Oct 2026 15:03:14 +0000",
+      "detail": "The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Securelist",
-      "published": "2026-10-30T10:00:44+00:00"
+      "source": "ESET WeLiveSecurity",
+      "published": "2026-10-30T15:03:14+00:00"
+    },
+    {
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "date": "Sat, 31 Oct 2026 08:50:09 -0400",
+      "detail": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-10-31T12:50:09+00:00"
     },
     {
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
@@ -116,15 +171,15 @@
       "published": "2026-10-30T14:00:10+00:00"
     },
     {
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "date": "Fri, 30 Oct 2026 09:00:32 -0400",
-      "detail": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "feed_id": "https://www.securityweek.com/?p=50452",
+      "date": "Sat, 31 Oct 2026 11:00:00 +0000",
+      "detail": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-30T13:00:32+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-10-31T11:00:00+00:00"
     },
     {
       "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
@@ -171,70 +226,59 @@
       "published": "2026-10-30T13:36:12+00:00"
     },
     {
-      "title": "Fresh WordPress Vulnerability in Attackers\u2019 Crosshairs",
-      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-      "feed_id": "https://www.securityweek.com/?p=50436",
-      "date": "Fri, 30 Oct 2026 12:04:13 +0000",
-      "detail": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers\u2019 Crosshairs appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-10-30T12:04:13+00:00"
-    },
-    {
-      "title": "sp***g.com By everstake",
-      "url": "https://www.ransomlook.io//group/everstake",
-      "feed_id": "c1fa2929d4b77487cd652a79340ddef9c896ab03359fb7981a3cc33e32da8a12",
-      "date": "Sat, 31 Oct 2026 00:33:13 GMT",
-      "detail": "Category: Manufacturing | Size: 1.79 Tb | Release: 2026-11-06T14:45:00+00:00 | Status: Scheduled Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "AUDIT ENTITY: Cabka By audit team",
+      "url": "https://www.ransomlook.io//group/audit%20team",
+      "feed_id": "59bb0a8bdcf58f781dc6d050fb2f7c0dd1af37af1e41fe7a02645fb6dcde0510",
+      "date": "Sat, 31 Oct 2026 12:31:30 GMT",
+      "detail": "AUDIT ID: 1B693EF65DE3E672 / DISCOVERY DATE: 2026-10-23 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-31T00:33:13+00:00"
+      "published": "2026-10-31T12:31:30+00:00"
     },
     {
-      "title": "ArentFox Schiff By leakeddata",
-      "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "b85a633c0755f8cd245a9f6d89181e1ec4263babf454accf098848cf6b68fdab",
-      "date": "Fri, 30 Oct 2026 23:32:57 GMT",
-      "detail": "ArentFox Schiff LLP is a prominent national law firm and lobbying firm formed on March 1, 2022, throug\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "AUDIT ENTITY: Pe***CT By audit team",
+      "url": "https://www.ransomlook.io//group/audit%20team",
+      "feed_id": "938a91fc0b7c98e84ff7544271b1b45a0b2f20592d2a0621fc0303b1d9fdeb48",
+      "date": "Sat, 31 Oct 2026 12:31:29 GMT",
+      "detail": "AUDIT ID: 17BACA24A3932895 / DISCOVERY DATE: 2026-10-31 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-30T23:32:57+00:00"
+      "published": "2026-10-31T12:31:29+00:00"
     },
     {
-      "title": "Hensel Elektrik By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "c9fc858b207e472df4aec78a2c45408e9314db2717b2b6c3b83d48b3533f1b51",
-      "date": "Fri, 30 Oct 2026 23:32:49 GMT",
-      "detail": "Hensel Elektrik is the Turkish subsidiary of the German company Gustav Hensel GmbH & Co. KG, which manufactures electrical installation equipment and power distribution systems. The company was founded in 1931. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "AUDIT ENTITY: jl***om By audit team",
+      "url": "https://www.ransomlook.io//group/audit%20team",
+      "feed_id": "567dca56b3e650080ec28f6f406b7314db1b7abacd615361ab53371212ce9195",
+      "date": "Sat, 31 Oct 2026 12:31:28 GMT",
+      "detail": "AUDIT ID: 1E2CF5D71F581238 / DISCOVERY DATE: 2026-10-31 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-30T23:32:49+00:00"
+      "published": "2026-10-31T12:31:28+00:00"
     },
     {
-      "title": "P... By leakeddata",
-      "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "16f73c0d3066d9382cfff13fc95de5ccd05020a082b02743c1a33a0ae6b1e1aa",
-      "date": "Fri, 30 Oct 2026 22:27:21 GMT",
-      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "AUDIT ENTITY: hn***rg By audit team",
+      "url": "https://www.ransomlook.io//group/audit%20team",
+      "feed_id": "8dcfab3fabc655d0d7903a7a5f4610fbaf15701502881123e7f1c7b1f687e4ff",
+      "date": "Sat, 31 Oct 2026 12:31:28 GMT",
+      "detail": "AUDIT ID: 2AE3CE243E823521 / DISCOVERY DATE: 2026-10-31 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-30T22:27:21+00:00"
+      "published": "2026-10-31T12:31:28+00:00"
     },
     {
-      "title": "Acclaim Companies / JCJ Investment By genesis",
-      "url": "https://www.ransomlook.io//group/genesis",
-      "feed_id": "0491f2106928b82ec6105d0e0b54f270fd2297ce357631ef7b1ef78568f5e345",
-      "date": "Fri, 30 Oct 2026 22:27:15 GMT",
-      "detail": "A privately-held, real estate development and property management company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "AUDIT ENTITY: ro***up By audit team",
+      "url": "https://www.ransomlook.io//group/audit%20team",
+      "feed_id": "6739b421ce8246ae3ae6932e9d0b4fb4779e2ecac44f2027414e983ba2cf8b64",
+      "date": "Sat, 31 Oct 2026 12:31:27 GMT",
+      "detail": "AUDIT ID: 57FD7689754A6F21 / DISCOVERY DATE: 2026-10-31 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-10-30T22:27:15+00:00"
+      "published": "2026-10-31T12:31:27+00:00"
     }
   ],
   "sources": [
@@ -255,15 +299,15 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -290,15 +334,15 @@
     {
       "source": "Securelist",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
       "source": "ESET WeLiveSecurity",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -311,21 +355,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 8,
+      "recent": 6,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 10,
+      "recent": 5,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 44,
+      "recent": 45,
       "shown": 5,
       "undated": 0
     },
