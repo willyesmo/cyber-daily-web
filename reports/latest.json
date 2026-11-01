@@ -1,43 +1,7 @@
 {
-  "generated": "2026-10-31T19:23:30.979035+00:00",
+  "generated": "2026-11-01T00:13:23.706140+00:00",
   "hours": 24,
   "items": [
-    {
-      "title": "CVE-2026-118527: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-118527",
-      "date": "2026-10-30",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Ivanti",
-        "Producto": "Connect Secure",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-30T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-111357: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111357",
-      "date": "2026-10-30",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Ivanti",
-        "Producto": "Connect Secure",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-02",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
-      },
-      "source": "CISA KEV",
-      "published": "2026-10-30T00:00:00+00:00"
-    },
     {
       "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
       "url": "https://isc.sans.edu/diary/rss/33476",
@@ -160,6 +124,28 @@
       "published": "2026-10-31T11:00:00+00:00"
     },
     {
+      "title": "System Soft By vexy",
+      "url": "https://www.ransomlook.io//group/vexy",
+      "feed_id": "1277573292d3d5afd4bc63e0ff01dd821c18a5a830698d538011fd5eaf5f25bd",
+      "date": "Sat, 31 Oct 2026 20:26:45 GMT",
+      "detail": "systemsoft.info Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-31T20:26:45+00:00"
+    },
+    {
+      "title": "JHAMF Group By vexy",
+      "url": "https://www.ransomlook.io//group/vexy",
+      "feed_id": "feb700fcea3997e84d5795583385dbc197f402e5d1ad4f17c3012999e7168d86",
+      "date": "Sat, 31 Oct 2026 20:26:44 GMT",
+      "detail": "JHAMF Group is a Colombian IT services company specializing in IT infrastructure, telecommunications, software licensing and implementation, network installation and certification, technical support outsourcing, and cloud infrastructure solutions, including Microsoft Azure. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-10-31T20:26:44+00:00"
+    },
+    {
       "title": "Community Medical Center, Falls City Nebraska By qilin",
       "url": "https://www.ransomlook.io//group/qilin",
       "feed_id": "cb2404f5d435d162da20aba6de070568f1d3977a72fe833b9149d68372489d46",
@@ -191,36 +177,14 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-10-31T17:25:57+00:00"
-    },
-    {
-      "title": "Kraft Lernen By payload",
-      "url": "https://www.ransomlook.io//group/payload",
-      "feed_id": "23e150bf6ff1ea320b8b8c210d931f4f6c3de7e93e5fd2343645c6eb4a83043e",
-      "date": "Sat, 31 Oct 2026 16:24:04 GMT",
-      "detail": "Kraft Lernen is a German company that specializes in supplying didactic and developmental materials for kindergartens, schools, and therapeutic institutions. Its product catalog includes educational aids, Montessori materials, board games, and supplies for motor skills, creative arts, and inclusive learning. Based in Germany, the company primarily targets educators, childcare professionals, and institutional procurement for educational centers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-31T16:24:04+00:00"
-    },
-    {
-      "title": "SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH) By payload",
-      "url": "https://www.ransomlook.io//group/payload",
-      "feed_id": "b470f1618cfe912a5a95a69838c56845d13bbb2400fe0f2bd93d6a6902fbd4d4",
-      "date": "Sat, 31 Oct 2026 16:24:03 GMT",
-      "detail": "SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH) is a state-owned land development company belonging to the German federal state of Saxony-Anhalt. The organization specializes in urban and regional planning, brownfield redevelopment, land resource management, and the support of infrastructure projects. It operates as a service partner for local municipalities, coordinating and implementing spatial development programs in the interests of the public sector. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-10-31T16:24:03+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -289,7 +253,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 6,
+      "recent": 5,
       "shown": 5,
       "undated": 0
     },
@@ -303,7 +267,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 38,
+      "recent": 20,
       "shown": 5,
       "undated": 0
     },

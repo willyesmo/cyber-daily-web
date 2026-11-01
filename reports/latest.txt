@@ -1,31 +1,7 @@
-CYBER DAILY — 2026-10-31 19:23 UTC
+CYBER DAILY — 2026-11-01 00:13 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-18 entries selected. Feed excerpts, not full-article or AI analysis.
+16 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
-
-CVE-2026-118527: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability
-CISA KEV | Known exploitation / catalog addition | 2026-10-30T00:00:00+00:00
-Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
-CVEs: CVE-2026-104935, CVE-2026-111357, CVE-2026-118527
-Fabricante: Ivanti
-Producto: Connect Secure
-Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-Fecha límite indicada por CISA: 2026-11-13
-Uso conocido en ransomware: Unknown
-Notas de CISA: https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-118527
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-118527
-
-CVE-2026-111357: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability
-CISA KEV | Known exploitation / catalog addition | 2026-10-30T00:00:00+00:00
-Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
-CVEs: CVE-2026-104935, CVE-2026-111357, CVE-2026-118527
-Fabricante: Ivanti
-Producto: Connect Secure
-Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-Fecha límite indicada por CISA: 2026-11-02
-Uso conocido en ransomware: Unknown
-Notas de CISA: https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111357
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111357
 
 Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)
 SANS Internet Storm Center | Research / advisory | 2026-10-31T10:52:53+00:00
@@ -93,6 +69,18 @@ A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad at
 CVEs: Not stated in feed
 https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/
 
+System Soft By vexy
+RansomLook | Ransomware claim / observation | 2026-10-31T20:26:45+00:00
+systemsoft.info Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vexy
+
+JHAMF Group By vexy
+RansomLook | Ransomware claim / observation | 2026-10-31T20:26:44+00:00
+JHAMF Group is a Colombian IT services company specializing in IT infrastructure, telecommunications, software licensing and implementation, network installation and certification, technical support outsourcing, and cloud infrastructure solutions, including Microsoft Azure. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vexy
+
 Community Medical Center, Falls City Nebraska By qilin
 RansomLook | Ransomware claim / observation | 2026-10-31T18:27:36+00:00
 0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
@@ -111,20 +99,8 @@ RansomLook | Ransomware claim / observation | 2026-10-31T17:25:57+00:00
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/nightspire
 
-Kraft Lernen By payload
-RansomLook | Ransomware claim / observation | 2026-10-31T16:24:04+00:00
-Kraft Lernen is a German company that specializes in supplying didactic and developmental materials for kindergartens, schools, and therapeutic institutions. Its product catalog includes educational aids, Montessori materials, board games, and supplies for motor skills, creative arts, and inclusive learning. Based in Germany, the company primarily targets educators, childcare professionals, and institutional procurement for educational centers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/payload
-
-SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH) By payload
-RansomLook | Ransomware claim / observation | 2026-10-31T16:24:03+00:00
-SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH) is a state-owned land development company belonging to the German federal state of Saxony-Anhalt. The organization specializes in urban and regional planning, brownfield redevelopment, land resource management, and the support of infrastructure projects. It operates as a service partner for local municipalities, coordinating and implementing spatial development programs in the interests of the public sector. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/payload
-
 SOURCE COVERAGE
-CISA KEV: OK; recent=2; shown=2; undated excluded=0
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
 SANS Internet Storm Center: OK; recent=3; shown=3; undated excluded=0
 Cisco Talos: OK; recent=1; shown=1; undated excluded=0
@@ -134,7 +110,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=6; shown=5; undated excluded=0
+BleepingComputer: OK; recent=5; shown=5; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=38; shown=5; undated excluded=0
+RansomLook: OK; recent=20; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0
