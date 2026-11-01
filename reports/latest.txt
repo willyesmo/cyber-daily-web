@@ -1,4 +1,4 @@
-CYBER DAILY — 2026-11-01 16:09 UTC
+CYBER DAILY — 2026-11-01 22:13 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
 10 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
@@ -8,6 +8,12 @@ SANS Internet Storm Center | Research / advisory | 2026-11-01T09:12:23+00:00
 Recently, I had to extract embedded files from a set of OneNote files (extension .one).
 CVEs: Not stated in feed
 https://isc.sans.edu/diary/rss/33478
+
+FBI links $6.3 billion Binance crypto heist to North Korean hackers
+BleepingComputer | Research / advisory | 2026-11-01T19:57:53+00:00
+The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/
 
 Alpine Linux rebuilds GitLab after attempted RCE attack
 BleepingComputer | Research / advisory | 2026-11-01T15:11:21+00:00
@@ -21,47 +27,41 @@ OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities direct
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/
 
-Northflank security breach leads to abuse of customers' AI API keys
-BleepingComputer | Research / advisory | 2026-10-31T18:01:12+00:00
-Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/
-
 Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations
 SecurityWeek | Research / advisory | 2026-11-01T11:15:00+00:00
 The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on SecurityWeek .
 CVEs: Not stated in feed
 https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/
 
+Tema Hwt By shiba
+RansomLook | Ransomware claim / observation | 2026-11-01T18:25:30+00:00
+Construction - Germany TEMA Heizung Berlin is a company that provides heating services in Berlin. They offer a range of heating options including heating pumps, maintenance, and optimization. They also provide services for existing oil/gas heating. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/shiba
+
+fzmb GmbH, Forschungszentrum für Medizintechnik und Biotechnologie By qilin
+RansomLook | Ransomware claim / observation | 2026-11-01T18:25:26+00:00
+Healthcare Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Global Holding By qilin
+RansomLook | Ransomware claim / observation | 2026-11-01T16:25:21+00:00
+Freight & Logistics Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+synergy.co.id By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-01T16:25:16+00:00
+PT Synergy Risk Management Consultants (“SYNERGY”), an independent company, established in London,... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
 Highland Mountain Bike Park By interlock
 RansomLook | Ransomware claim / observation | 2026-11-01T15:27:36+00:00
 http://www.highlandmountain.com/ Highland Mountain Bike Park, located in Northfield, New Hampshire, USA, was founded in 2003. It bills itself as "America's Bike Park" and as a park 100% dedicated to mountain biking. However, its security lapses led to the compromise of customer and employee data, including contracts, and the leak of all accounting records and invoices. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/interlock
-
-Assiniboine Dental Group By interlock
-RansomLook | Ransomware claim / observation | 2026-11-01T15:27:35+00:00
-https://www.assiniboinedentalgroup.com/ Assiniboine Dental Group is a private dental practice in Winnipeg, Manitoba, operating as a "trustee." It is required to securely store patients' personal health information in accordance with the province's Personal Health Information Protection Act (PHIA). However, due to negligence in security, dental records and payment information (patient names, contact information, treatment history, and insurance/financial transaction information) were compromised and are being offered to your attention. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/interlock
-
-hitech group leaks By hyflock
-RansomLook | Ransomware claim / observation | 2026-11-01T14:24:44+00:00
-Hitech Group (HaiTai Group) Quick Info: Headquarters: Mumbai Founded: 1991, by Ashwin Dani (late, co-founder and former vice-chairman of Asian Paints) Type: Indian diversified business group with multiple companies under the "Hitech" brand, over 1000 employees, operating at 15 locations in India, also has a DSIR (Department of Scientific and Industrial Research) certified tech center Main Activities: Hard Plastic Packaging (core business, operated through Hitech Corporation Ltd.) — plastic jars, bottles, drums, industrial containers serving paint & coatings, personal care, construction, chemicals, lubricants, food & beverages, home care, etc. Specialty Chemicals Trading Personal Care Formulation Products Food & Nutrition Insurance Stock Info: Hitech Corporation Limited is listed on the Bombay Stock Exchange, code BSE: 526217, and is a subsidiary of Geetanjali Trading and Investments Private Limited Website: hitechgroup.com Financials: Around USD 63 million revenue, roughly 423 employees (third-party data, may be outdated) Also, there are several other companies in India called "Hitech / Hi-Tech," don’t mix them up: Company Location Business Hi-Tech (hitech.in) — equipment and engineering services for power and process industries in India since 1989 Hitech India Pvt Ltd (hitechconnector.com) Hyderabad, electrical/military connectors, 45 years old, supplier for India’s first nuclear submarine INS Arihant Hitech India (hitechindia.net) Mumbai, post-press printing equipment HiTech India (hitechindia.co.in) Coimbatore, UPVC/PVC door & window manufacturer and exporter Hitech India Equipments Pvt Ltd — founded in 1990, industrial equipment So, if you see a listed group in India doing plastic packaging, that’s Hitech Corporation Ltd (Mumbai, BSE 526217) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/hyflock
-
-My Cloud Grocer By direwolf
-RansomLook | Ransomware claim / observation | 2026-11-01T14:24:41+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/direwolf
-
-Shibata Co., Ltd. By qilin
-RansomLook | Ransomware claim / observation | 2026-11-01T13:23:11+00:00
-Electronics Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -71,10 +71,10 @@ Cisco Talos: OK; recent=0; shown=0; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
 Unit 42: OK; recent=0; shown=0; undated excluded=0
-Securelist: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=3; shown=3; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=21; shown=5; undated excluded=0
+RansomLook: OK; recent=16; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0

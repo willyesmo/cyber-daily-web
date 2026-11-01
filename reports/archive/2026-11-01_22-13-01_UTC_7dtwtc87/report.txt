@@ -1,0 +1,80 @@
+CYBER DAILY — 2026-11-01 22:13 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+10 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+OneNote File Extraction, (Sun, Nov 1st)
+SANS Internet Storm Center | Research / advisory | 2026-11-01T09:12:23+00:00
+Recently, I had to extract embedded files from a set of OneNote files (extension .one).
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33478
+
+FBI links $6.3 billion Binance crypto heist to North Korean hackers
+BleepingComputer | Research / advisory | 2026-11-01T19:57:53+00:00
+The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/
+
+Alpine Linux rebuilds GitLab after attempted RCE attack
+BleepingComputer | Research / advisory | 2026-11-01T15:11:21+00:00
+Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/
+
+OpenAI says it's doubling Pro usage limits and bringing Work features to Chat
+BleepingComputer | Research / advisory | 2026-11-01T13:53:11+00:00
+OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/
+
+Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations
+SecurityWeek | Research / advisory | 2026-11-01T11:15:00+00:00
+The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/
+
+Tema Hwt By shiba
+RansomLook | Ransomware claim / observation | 2026-11-01T18:25:30+00:00
+Construction - Germany TEMA Heizung Berlin is a company that provides heating services in Berlin. They offer a range of heating options including heating pumps, maintenance, and optimization. They also provide services for existing oil/gas heating. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/shiba
+
+fzmb GmbH, Forschungszentrum für Medizintechnik und Biotechnologie By qilin
+RansomLook | Ransomware claim / observation | 2026-11-01T18:25:26+00:00
+Healthcare Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Global Holding By qilin
+RansomLook | Ransomware claim / observation | 2026-11-01T16:25:21+00:00
+Freight & Logistics Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+synergy.co.id By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-01T16:25:16+00:00
+PT Synergy Risk Management Consultants (“SYNERGY”), an independent company, established in London,... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
+Highland Mountain Bike Park By interlock
+RansomLook | Ransomware claim / observation | 2026-11-01T15:27:36+00:00
+http://www.highlandmountain.com/ Highland Mountain Bike Park, located in Northfield, New Hampshire, USA, was founded in 2003. It bills itself as "America's Bike Park" and as a park 100% dedicated to mountain biking. However, its security lapses led to the compromise of customer and employee data, including contracts, and the leak of all accounting records and invoices. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/interlock
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=3; shown=3; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=16; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T16:09:36.689471+00:00",
+  "generated": "2026-11-01T22:13:01.023696+00:00",
   "hours": 24,
   "items": [
     {
@@ -12,6 +12,17 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-11-01T09:12:23+00:00"
+    },
+    {
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "date": "Sun, 01 Nov 2026 14:57:53 -0500",
+      "detail": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-01T19:57:53+00:00"
     },
     {
       "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
@@ -36,17 +47,6 @@
       "published": "2026-11-01T13:53:11+00:00"
     },
     {
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "date": "Sat, 31 Oct 2026 14:01:12 -0400",
-      "detail": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-10-31T18:01:12+00:00"
-    },
-    {
       "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
       "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
       "feed_id": "https://www.securityweek.com/?p=50438",
@@ -58,6 +58,50 @@
       "published": "2026-11-01T11:15:00+00:00"
     },
     {
+      "title": "Tema Hwt By shiba",
+      "url": "https://www.ransomlook.io//group/shiba",
+      "feed_id": "fbf3e217270ae2d6a0225a1bb0bce92b4d1ec128135adc5f105a02c5ce6421df",
+      "date": "Sun, 01 Nov 2026 18:25:30 GMT",
+      "detail": "Construction - Germany TEMA Heizung Berlin is a company that provides heating services in Berlin. They offer a range of heating options including heating pumps, maintenance, and optimization. They also provide services for existing oil/gas heating. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-01T18:25:30+00:00"
+    },
+    {
+      "title": "fzmb GmbH, Forschungszentrum f\u00fcr Medizintechnik und Biotechnologie By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "c68c55c78d102f791ccb2468b765d93d2a96c4c521a415104954b2b173e154c3",
+      "date": "Sun, 01 Nov 2026 18:25:26 GMT",
+      "detail": "Healthcare Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-01T18:25:26+00:00"
+    },
+    {
+      "title": "Global Holding By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "b2b2dc0d7066043b2ca8c7ed73630ff0467e7acd86fb5777c2089b64a706dca4",
+      "date": "Sun, 01 Nov 2026 16:25:21 GMT",
+      "detail": "Freight & Logistics Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-01T16:25:21+00:00"
+    },
+    {
+      "title": "synergy.co.id By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "28edbc4592d0d143dc784c8204a336829da1d9038a41c5046c0dbb0190676474",
+      "date": "Sun, 01 Nov 2026 16:25:16 GMT",
+      "detail": "PT Synergy Risk Management Consultants (\u201cSYNERGY\u201d), an independent company, established in London,... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-01T16:25:16+00:00"
+    },
+    {
       "title": "Highland Mountain Bike Park By interlock",
       "url": "https://www.ransomlook.io//group/interlock",
       "feed_id": "4521769b0aba43316d371c12543b3001509b10477b9d23cb3ed19d152dee98d8",
@@ -67,50 +111,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-01T15:27:36+00:00"
-    },
-    {
-      "title": "Assiniboine Dental Group By interlock",
-      "url": "https://www.ransomlook.io//group/interlock",
-      "feed_id": "c4577896a029b385affe0f164eb4b59cf4b4e818c3bd22c8db528c246d770f13",
-      "date": "Sun, 01 Nov 2026 15:27:35 GMT",
-      "detail": "https://www.assiniboinedentalgroup.com/ Assiniboine Dental Group is a private dental practice in Winnipeg, Manitoba, operating as a \"trustee.\" It is required to securely store patients' personal health information in accordance with the province's Personal Health Information Protection Act (PHIA). However, due to negligence in security, dental records and payment information (patient names, contact information, treatment history, and insurance/financial transaction information) were compromised and are being offered to your attention. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-01T15:27:35+00:00"
-    },
-    {
-      "title": "hitech group leaks By hyflock",
-      "url": "https://www.ransomlook.io//group/hyflock",
-      "feed_id": "2e18b211150c400deeee17a224c5e9f77921fcb61f631657f2f66fbe7b21c834",
-      "date": "Sun, 01 Nov 2026 14:24:44 GMT",
-      "detail": "Hitech Group (HaiTai Group) Quick Info: Headquarters: Mumbai Founded: 1991, by Ashwin Dani (late, co-founder and former vice-chairman of Asian Paints) Type: Indian diversified business group with multiple companies under the \"Hitech\" brand, over 1000 employees, operating at 15 locations in India, also has a DSIR (Department of Scientific and Industrial Research) certified tech center Main Activities: Hard Plastic Packaging (core business, operated through Hitech Corporation Ltd.) \u2014 plastic jars, bottles, drums, industrial containers serving paint & coatings, personal care, construction, chemicals, lubricants, food & beverages, home care, etc. Specialty Chemicals Trading Personal Care Formulation Products Food & Nutrition Insurance Stock Info: Hitech Corporation Limited is listed on the Bombay Stock Exchange, code BSE: 526217, and is a subsidiary of Geetanjali Trading and Investments Private Limited Website: hitechgroup.com Financials: Around USD 63 million revenue, roughly 423 employees (third-party data, may be outdated) Also, there are several other companies in India called \"Hitech / Hi-Tech,\" don\u2019t mix them up: Company Location Business Hi-Tech (hitech.in) \u2014 equipment and engineering services for power and process industries in India since 1989 Hitech India Pvt Ltd (hitechconnector.com) Hyderabad, electrical/military connectors, 45 years old, supplier for India\u2019s first nuclear submarine INS Arihant Hitech India (hitechindia.net) Mumbai, post-press printing equipment HiTech India (hitechindia.co.in) Coimbatore, UPVC/PVC door & window manufacturer and exporter Hitech India Equipments Pvt Ltd \u2014 founded in 1990, industrial equipment So, if you see a listed group in India doing plastic packaging, that\u2019s Hitech Corporation Ltd (Mumbai, BSE 526217) Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-01T14:24:44+00:00"
-    },
-    {
-      "title": "My Cloud Grocer By direwolf",
-      "url": "https://www.ransomlook.io//group/direwolf",
-      "feed_id": "cf70b1d56c011b42d7de24e56ded04e13d4c77cb9a798c2f34a1cf001be9f704",
-      "date": "Sun, 01 Nov 2026 14:24:41 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-01T14:24:41+00:00"
-    },
-    {
-      "title": "Shibata Co., Ltd. By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "02905205c1b124dd7ab09ea852f2193895f4d82dcb17988369066824f49634a1",
-      "date": "Sun, 01 Nov 2026 13:23:11 GMT",
-      "detail": "Electronics Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-01T13:23:11+00:00"
     }
   ],
   "sources": [
@@ -165,7 +165,7 @@
     },
     {
       "source": "Securelist",
-      "status": "FAILED: TimeoutError",
+      "status": "OK",
       "recent": 0,
       "shown": 0,
       "undated": 0
@@ -201,7 +201,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 21,
+      "recent": 16,
       "shown": 5,
       "undated": 0
     },
