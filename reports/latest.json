@@ -1,7 +1,18 @@
 {
-  "generated": "2026-11-01T22:13:01.023696+00:00",
+  "generated": "2026-11-02T06:29:05.678146+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
+      "url": "https://isc.sans.edu/diary/rss/33480",
+      "feed_id": "https://isc.sans.edu/diary/rss/33480",
+      "date": "Mon, 02 Nov 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-02T02:00:03+00:00"
+    },
     {
       "title": "OneNote File Extraction, (Sun, Nov 1st)",
       "url": "https://isc.sans.edu/diary/rss/33478",
@@ -58,59 +69,59 @@
       "published": "2026-11-01T11:15:00+00:00"
     },
     {
-      "title": "Tema Hwt By shiba",
-      "url": "https://www.ransomlook.io//group/shiba",
-      "feed_id": "fbf3e217270ae2d6a0225a1bb0bce92b4d1ec128135adc5f105a02c5ce6421df",
-      "date": "Sun, 01 Nov 2026 18:25:30 GMT",
-      "detail": "Construction - Germany TEMA Heizung Berlin is a company that provides heating services in Berlin. They offer a range of heating options including heating pumps, maintenance, and optimization. They also provide services for existing oil/gas heating. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #117 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "450847943056279075a39671f4ec6db468248c997008ba7a9dd5db8ff8c77918",
+      "date": "Mon, 02 Nov 2026 06:24:49 GMT",
+      "detail": "dental insurance \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-01T18:25:30+00:00"
+      "published": "2026-11-02T06:24:49+00:00"
     },
     {
-      "title": "fzmb GmbH, Forschungszentrum f\u00fcr Medizintechnik und Biotechnologie By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "c68c55c78d102f791ccb2468b765d93d2a96c4c521a415104954b2b173e154c3",
-      "date": "Sun, 01 Nov 2026 18:25:26 GMT",
-      "detail": "Healthcare Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #116 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "db0352863af106a0adf2786e52f76850d1b4683aec3d43e88439ad3092355060",
+      "date": "Mon, 02 Nov 2026 06:24:48 GMT",
+      "detail": "data collaboration and identity resolution \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-01T18:25:26+00:00"
+      "published": "2026-11-02T06:24:48+00:00"
     },
     {
-      "title": "Global Holding By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "b2b2dc0d7066043b2ca8c7ed73630ff0467e7acd86fb5777c2089b64a706dca4",
-      "date": "Sun, 01 Nov 2026 16:25:21 GMT",
-      "detail": "Freight & Logistics Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #115 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "092453e1fe65da1f6d989ed49ea5a6df6ffc81470f4693a88c82dba731b74c5b",
+      "date": "Mon, 02 Nov 2026 06:24:47 GMT",
+      "detail": "digital sports entertainment and gaming \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-01T16:25:21+00:00"
+      "published": "2026-11-02T06:24:47+00:00"
     },
     {
-      "title": "synergy.co.id By lockbit5",
-      "url": "https://www.ransomlook.io//group/lockbit5",
-      "feed_id": "28edbc4592d0d143dc784c8204a336829da1d9038a41c5046c0dbb0190676474",
-      "date": "Sun, 01 Nov 2026 16:25:16 GMT",
-      "detail": "PT Synergy Risk Management Consultants (\u201cSYNERGY\u201d), an independent company, established in London,... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #114 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "4e304c5270127a345c7000a59eb278029a9925335c3b6fcb0a69e78f03dd71fe",
+      "date": "Mon, 02 Nov 2026 06:24:47 GMT",
+      "detail": "biopharmaceutical \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-01T16:25:16+00:00"
+      "published": "2026-11-02T06:24:47+00:00"
     },
     {
-      "title": "Highland Mountain Bike Park By interlock",
-      "url": "https://www.ransomlook.io//group/interlock",
-      "feed_id": "4521769b0aba43316d371c12543b3001509b10477b9d23cb3ed19d152dee98d8",
-      "date": "Sun, 01 Nov 2026 15:27:36 GMT",
-      "detail": "http://www.highlandmountain.com/ Highland Mountain Bike Park, located in Northfield, New Hampshire, USA, was founded in 2003. It bills itself as \"America's Bike Park\" and as a park 100% dedicated to mountain biking. However, its security lapses led to the compromise of customer and employee data, including contracts, and the leak of all accounting records and invoices. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #113 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "f062b0ffd9cc723cb1e9b18e15a87cd4cfc3734a8cb518c4bbc78dd932392ae2",
+      "date": "Mon, 02 Nov 2026 06:24:46 GMT",
+      "detail": "storage and organization retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-01T15:27:36+00:00"
+      "published": "2026-11-02T06:24:46+00:00"
     }
   ],
   "sources": [
@@ -131,8 +142,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -201,7 +212,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 16,
+      "recent": 22,
       "shown": 5,
       "undated": 0
     },

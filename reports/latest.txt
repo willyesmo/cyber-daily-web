@@ -1,7 +1,13 @@
-CYBER DAILY — 2026-11-01 22:13 UTC
+CYBER DAILY — 2026-11-02 06:29 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-10 entries selected. Feed excerpts, not full-article or AI analysis.
+11 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
+
+ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)
+SANS Internet Storm Center | Research / advisory | 2026-11-02T02:00:03+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33480
 
 OneNote File Extraction, (Sun, Nov 1st)
 SANS Internet Storm Center | Research / advisory | 2026-11-01T09:12:23+00:00
@@ -33,40 +39,40 @@ The startup maps how identities, assets and vulnerabilities connect, and uses AI
 CVEs: Not stated in feed
 https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/
 
-Tema Hwt By shiba
-RansomLook | Ransomware claim / observation | 2026-11-01T18:25:30+00:00
-Construction - Germany TEMA Heizung Berlin is a company that provides heating services in Berlin. They offer a range of heating options including heating pumps, maintenance, and optimization. They also provide services for existing oil/gas heating. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #117 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-02T06:24:49+00:00
+dental insurance · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/shiba
+https://www.ransomlook.io//group/n0n
 
-fzmb GmbH, Forschungszentrum für Medizintechnik und Biotechnologie By qilin
-RansomLook | Ransomware claim / observation | 2026-11-01T18:25:26+00:00
-Healthcare Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #116 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-02T06:24:48+00:00
+data collaboration and identity resolution · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/n0n
 
-Global Holding By qilin
-RansomLook | Ransomware claim / observation | 2026-11-01T16:25:21+00:00
-Freight & Logistics Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #115 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-02T06:24:47+00:00
+digital sports entertainment and gaming · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
+https://www.ransomlook.io//group/n0n
 
-synergy.co.id By lockbit5
-RansomLook | Ransomware claim / observation | 2026-11-01T16:25:16+00:00
-PT Synergy Risk Management Consultants (“SYNERGY”), an independent company, established in London,... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #114 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-02T06:24:47+00:00
+biopharmaceutical · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/lockbit5
+https://www.ransomlook.io//group/n0n
 
-Highland Mountain Bike Park By interlock
-RansomLook | Ransomware claim / observation | 2026-11-01T15:27:36+00:00
-http://www.highlandmountain.com/ Highland Mountain Bike Park, located in Northfield, New Hampshire, USA, was founded in 2003. It bills itself as "America's Bike Park" and as a park 100% dedicated to mountain biking. However, its security lapses led to the compromise of customer and employee data, including contracts, and the leak of all accounting records and invoices. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Company #113 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-02T06:24:46+00:00
+storage and organization retail · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/interlock
+https://www.ransomlook.io//group/n0n
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
@@ -76,5 +82,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=3; shown=3; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=16; shown=5; undated excluded=0
+RansomLook: OK; recent=22; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0
