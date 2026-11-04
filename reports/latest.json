@@ -1,7 +1,25 @@
 {
-  "generated": "2026-11-03T19:39:10.763660+00:00",
+  "generated": "2026-11-04T01:29:43.799679+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977",
+      "date": "2026-11-03",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "WordPress",
+        "Producto": "WordPress Core",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-06",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-03T00:00:00+00:00"
+    },
     {
       "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
       "url": "https://isc.sans.edu/diary/rss/33484",
@@ -36,28 +54,6 @@
       "published": "2026-11-03T17:00:00+00:00"
     },
     {
-      "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150724",
-      "date": "Mon, 02 Nov 2026 20:20:59 +0000",
-      "detail": "In this article Classifying the vulnerability landscape Vulnerabilities exploited in the wild Where defenders should focus Patching is slow, while exploitation is fast Impact, exposure and where to focus Next in line How Microsoft Security helps defenders act References Learn More The vulnerability landscape continues to expand. From 1999 through September 2026, approximately 383,000 software vulnerabilities had been disclosed across platforms and technologies, yet only about 2,000 CVEs (roughly 0.5%) have been linked to real-world exploitation. Those vulnerabilities follow clear patterns. Threat actors disproportionately target flaws that enable system takeover, particularly remote code execution, privilege escalation, and authentication bypass. AI-assisted vulnerability discovery and exploit development could further shorten the window defenders have to respond. Patching remains essential, but remediation can take weeks or months on critical systems, and some legacy or unsupported systems cannot be patched. Defenders therefore need to concentrate protection where it can have the greatest impact, considering both the likelihood of exploitation and the potential blast radius of a successful attack. Classifying the vulnerability landscape To make this large vulnerability population actionable, we analyzed each CVE across two dimensions: impact class and affected platform. Impact class captures the outcome a threat actor could achieve by exploiting a vulnerability. Each CVE is assigned to the most consequential impact it directly enables. For example, when a vulnerability can bypass authentication and directly enable remote code execution (RCE), we classify it as RCE. This approach helps distinguish the underlying type of vulnerability from the security impact an attacker could achieve. Server-side RCE: Remote code execution on a network-exposed service without user interaction. Client-side RCE: Remote code execution that requires a user to open or run malicious content. Local code execution: Code or command execution requiring local access or an existing foothold. Local privilege escalation: Elevation from lower-level access to SYSTEM or root privileges. Authentication or authorization bypass: Circumvention of authentication or access controls. Security-control bypass: Circumvention of protections such as sandboxing, secure boot, or SmartScreen. Information disclosure: Exposure of sensitive data or secrets. Tampering or integrity: Unauthorized modification of data or system state. Denial of service: Disruption of system or service availability. Cross-site scripting (XSS): Script execution within a victim\u2019s browser context. Arbitrary file access: Unauthorized access to or placement of files. Spoofing or redirect: Spoofing, redirection, or other forms of UI deception. We also classified vulnerabilities by the platforms they affect, including Windows, Linux/Unix, mobile, network appliances, IoT/OT, virtualization hosts, and developer packages. A CVE can span multiple platforms. Developer packages are treated as a separate category because they are often cross-platform and represent a significant share of the overall vulnerability population. Most CVEs in the analysis affect application code, including servers, web applications, browsers, productivity software, libraries, and firmware tooling, while a smaller share affects OS and system code such as kernels, drivers, and firmware. This analysis covers CVEs published through September 2026 using Microsoft\u2019s catalog of tracked vulnerabilities. Each CVE is counted once in the impact analysis and across each relevant platform in the platform analysis. Figure 1 \u2013 The full published-CVE population as of September 2026, broken down by impact class and affected platform, and an OS vs. application split. Breadth dominates \u2013 many impact classes spread across many platforms, with about 77% of CVEs in application code and 23% in OS/system code. Vulnerabilities exploited in the wild The subset of vulnerabilities exploited in the wild is much smaller than the overall CVE population, and looks very different from it. Fewer than 1 in 200 published CVEs are ever used in a real attack, and those that do get used are overwhelmingly concentrated in the takeover classes that maximize threat actor impact and exposure. The difference becomes clear when we look at impact. Exploitation is heavily concentrated in vulnerabilities that give attackers greater control over a system. Server-side RCE rises from 20% of published CVEs to 37% of exploited CVEs, local privilege escalation from 11% to 18%, and client-side RCE from 4% to 13%. By comparison, XSS falls from 15% to 4% and denial of service from 16% to 7%. OS vulnerabilities show a similar shift, increasing from 23% of the overall CVE population to 41% of exploited vulnerabilities. These patterns are consistent with threat actors favoring vulnerabilities that can provide meaningful access and control. Remote code execution and privilege escalation can create footholds that support subsequent stages of an attack, while vulnerabilities that primarily cause a crash or limited script execution may offer less utility for broader compromise. Importantly, a vulnerability\u2019s stated classification does not always reflect what an attacker can reliably achieve in practice. For example, some vulnerabilities described as enabling RCE may ultimately result only in denial of service under real-world conditions. Understanding the demonstrated impact and exploitability of a vulnerability is therefore critical to effective prioritization. Figure 2 \u2013 The 2,056 exploited-in-the-wild CVEs distribution, compared against the full published population: ghost lines mark each class and platform\u2019s share of all ~380K published CVEs, and badges show the shift in percentage points. Takeover classes and OS code rise, while high-volume XSS and DoS fall. Where defenders should focus Patching is slow, while exploitation is fast Patching is slow, and far slower on critical systems than others. Across platforms, servers are the critical assets and the slowest to patch. Microsoft Security Exposure Management data from 2026 shows that the median vulnerability is patched in about two weeks on Windows workstations but in more than a month on Windows Servers. It stretches to 10+ weeks on Linux Servers and for applications running on MacOS, and beyond a year on network appliances. That gap is the threat actor\u2019s window, widest on the critical systems that stay exposed the longest. Exploitation runs on the opposite clock: the most impactful vulnerabilities are weaponized in days, increasingly on or before disclosure. According to VulnCheck , 29% of the exploits in 2025 were launched within 1 day of CVE publication. According to CISA, the mean time from CVE publication to CISA KEV catalog fell from 89 days in 2024 to 57 days in 2025. 2026 data up to September already have that number dropping to 20 days, with a median of only 3 days since publication. Industry research suggests that advances in AI are a significant factor in the time reduction required to develop exploits, further increasing pressure on defenders to respond quickly. Impact, exposure and where to focus Two things determine a vulnerability\u2019s value to a threat actor: impact and exposure. Impact is what successful exploitation provides, such as remote code execution or privilege escalation. Exposure is an asset\u2019s position in the environment and the opportunities it creates for further compromise. An asset\u2019s exposure is shaped by the identities, privileges, and connections available from it. Servers often use service accounts, application identities, or cloud-managed identities with permissions beyond their operational needs. Compromising such a system can provide access to additional resources, sensitive data, administrative privileges, or trusted network paths. Together, impact and exposure determine the blast radius: a vulnerability that enables full control of a highly exposed system can enable widespread on-premises or cloud compromise. Threat actors do not exploit at random: they go after the vulnerabilities that give the highest impact and exposure: full control of a system and the privileged identities and critical assets it has access to. As defenders, focusing on these vulnerabilities first can deliver the highest return on remediation investment. Takeover vulnerabilities like remote code execution, authentication bypass and local privilege escalation lead here. They drive the broadest exposure and the largest blast radius, account for 78% of real-world exploited vulnerabilities, and stopping their exploitation interrupts attacks at the earliest stage, before compromise can propagate across the environment. Next in line A second slice deserves attention where context makes it severe: denial of service against availability-critical assets is recoverable in general, but can be mission-ending in parts of your environment where uptime is everything; disclosure of credentials or secrets can be minor as an insulated incident, but it feeds the same privileged-identity path mentioned above. Figure 3 \u2013 The three remote-takeover classes analyzed across 1,239 exploited CVEs), each drilled down by affected platform and split into OS vs Application code. Bar length is the CVE count per platform; the dark segment is OS/system, the light segment is application. How Microsoft Security helps defenders act Threat actors do not begin with a vulnerability list. They begin by looking for a reachable way in. Microsoft Defender External Attack Surface Management approaches the environment from that same outside-in perspective, continuously discovering internet-facing infrastructure, including previously unknown or unmonitored assets, shadow IT, and third-party dependencies. This gives defenders an opportunity to remove unnecessary exposure before a reachable vulnerability becomes an entry point. Once the reachable assets are known, the next question is which weaknesses deserve immediate attention. Defenders need a way to prioritize exposure beyond CVSS alone. Microsoft Defender Vulnerability Management addresses this challenge through Exposure Score and prioritized security recommendations . Prioritization incorporates threat and exploitability signals, breach likelihood, internet exposure, and asset criticality, helping teams focus remediation on vulnerabilities that create the greatest actual exposure. An initial foothold is only part of the risk. Attack Path Analysis connects assets and threat actor techniques into end-to-end routes from an entry point to a critical asset. Microsoft Security Exposure Management Attack Path Analysis provides a cross-workload view spanning endpoints, cloud, and hybrid environments, using vulnerability context from MDVM, endpoint data from Defender for Endpoint, and cloud asset data from Defender for Cloud. Within cloud environments, Defender CSPM Attack Path Analysis adds detailed context about internet exposure, vulnerabilities, network connections, identities, and permissions across Azure, AWS, and Google Cloud. Together, these experiences show how an exposed workload could become a path through a privileged identity to sensitive data or another critical resource, helping defenders identify where to break the path before the initial compromise expands. Patching remains essential, but it is not the only defensive action available. Microsoft Security helps defenders discover the doors threat actors can see, prioritize the weaknesses they are most likely to exploit, understand where a compromise could lead, and identify opportunities to break attack paths before compromise spreads to critical assets. References Sources cited or linked in the submitted draft: VulnCheck, State of Exploitation 2026 Microsoft Defender External Attack Surface Management overview Microsoft Defender Vulnerability Management Exposure Score Microsoft Defender Vulnerability Management security recommendations Microsoft Security Exposure Management Attack Path Analysis Microsoft Defender CSPM Attack Path Analysis Learn More For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . Review our documentation to learn more about our real-time protection capabilities and see how to enable them within your organization. Learn more about securing Copilot Studio agents with Microsoft Defender Evaluate your AI readiness with our latest Zero Trust for AI workshop . Microsoft 365 Copilot AI security documentation How Microsoft discovers and mitigates evolving attacks against AI guardrails Prompt injection protection in Microsoft Defender for Office 365 \u2013 official documentation of the prompt injection protection in Microsoft Defender for Office 365. How Microsoft discovers and mitigates evolving attacks against AI guardrails | Microsoft Security Blog Manipulating AI memory for profit: The rise of AI Recommendation Poisoning | Microsoft Security Blog \u2013 a related example of an AI-era technique observed in email traffic Defending the inbox against prompt injection attacks | Microsoft Defender for Office 365 Blog \u2013 feature announcement introducing prompt injection protection in Microsoft Defender for Office 365. Learn how Microsoft is reimagining the SOC for the agentic era with ISOC in Microsoft Defender The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Microsoft Security",
-      "published": "2026-11-02T20:20:59+00:00"
-    },
-    {
-      "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-      "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=189038",
-      "date": "Mon, 02 Nov 2026 23:00:45 +0000",
-      "detail": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-11-02T23:00:45+00:00"
-    },
-    {
       "title": "MLEP in KICS for Networks 5.0: how machine learning helps track network behavior of OT devices",
       "url": "https://securelist.com/tr/machine-learning-event-processor-in-kics-for-networks/121794/",
       "feed_id": "https://kasperskycontenthub.com/securelist/?post_type=threat_response&p=121794",
@@ -67,6 +63,39 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-11-03T10:00:07+00:00"
+    },
+    {
+      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+      "date": "Tue, 03 Nov 2026 17:18:50 -0500",
+      "detail": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-03T22:18:50+00:00"
+    },
+    {
+      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "date": "Tue, 03 Nov 2026 16:28:44 -0500",
+      "detail": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-03T21:28:44+00:00"
+    },
+    {
+      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "date": "Tue, 03 Nov 2026 15:05:50 -0500",
+      "detail": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-03T20:05:50+00:00"
     },
     {
       "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
@@ -89,39 +118,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-11-03T15:06:16+00:00"
-    },
-    {
-      "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-      "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-      "date": "Tue, 03 Nov 2026 10:00:10 -0500",
-      "detail": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-03T15:00:10+00:00"
-    },
-    {
-      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-      "date": "Tue, 03 Nov 2026 09:00:00 -0500",
-      "detail": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-03T14:00:00+00:00"
-    },
-    {
-      "title": "Police seizes over 100 servers in investment scam crackdown",
-      "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-      "date": "Tue, 03 Nov 2026 08:33:49 -0500",
-      "detail": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-03T13:33:49+00:00"
     },
     {
       "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
@@ -179,78 +175,78 @@
       "published": "2026-11-03T09:49:12+00:00"
     },
     {
-      "title": "Arthur Chapman Kettering Smetak Pikala PA By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "76036336ba3a81351a8ae4658b18c65e3830e65d43814ef5ff80fddd34d4d991",
-      "date": "Tue, 03 Nov 2026 16:21:54 GMT",
-      "detail": "Law Firms & Legal Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-03T16:21:54+00:00"
-    },
-    {
-      "title": "SK Global Software By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "39a4fcd2c33861a33aff7ff82f9d7bdd386423a323a06cf231483479ca0113d4",
-      "date": "Tue, 03 Nov 2026 16:21:17 GMT",
-      "detail": "SK Global Software is a Microsoft Dynamics ISV offering specialized Add-in Solutions for the Microsoft Dynamics 365 / Dynamics AX ERP platforms. The company's Solutions cover more than 10 unique modules within the company's Banking & Treasury Automation Suite.We will upload corporate data soon. Lots of internal files. A bit of employee files, projects and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-03T16:21:17+00:00"
-    },
-    {
-      "title": "Pelham Plastics By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "e50fe30aa5736059b059975999254e2013ae17cb756eed645ccb458efb76aca5",
-      "date": "Tue, 03 Nov 2026 16:21:16 GMT",
-      "detail": "Pelham Plastics is a custom plastic engineering company that specializes in high-quality injection molds and custom equipment. They focus on understanding their customers' needs and solving challenges, particularly for medical applications.We will upload 30gb of corporate data soon. Employee personal information (passports, drivers licenses and so on), confidential files, contracts and agreements, client information, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-03T16:21:16+00:00"
-    },
-    {
-      "title": "[DISCLOSED]Phillips Nizer By ransomhouse",
-      "url": "https://www.ransomlook.io//group/ransomhouse",
-      "feed_id": "d97fe70f8d44889ac553635ee2b794d821973e34025d7fdd6d14de01b1a9e15c",
-      "date": "Tue, 03 Nov 2026 15:21:55 GMT",
+      "title": "Autoscribe Corporation By payoutsking",
+      "url": "https://www.ransomlook.io//group/payoutsking",
+      "feed_id": "0bf42950080768a0326c6c7db3b76536bfd0dcdcaba2f9108fa16c4f45d8bca9",
+      "date": "Wed, 04 Nov 2026 01:21:40 GMT",
       "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-03T15:21:55+00:00"
+      "published": "2026-11-04T01:21:40+00:00"
     },
     {
-      "title": "Bison Bag By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "670103e0acb1086300861e8d1e82b4e8780105c44ad59971c67342767da77a3e",
-      "date": "Tue, 03 Nov 2026 15:21:18 GMT",
-      "detail": "Bison Bag is a flexible packaging specialist that offers custom printing and design for a variety of packaging solutions including pouches, rollstock, and bags. The company serves diverse markets such as food, health and wellness, and industrial sectors, focusing on providing tailoredpackaging solutions that meet client needs.We will upload 80gb of corporate data soon. Employee information (phones numbers, addresses and so on), contracts and agreements, customer information, financial reports and other papers, projects, specifications and drawings, etc. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "IHG Hotels & Resorts (Estate) By byod",
+      "url": "https://www.ransomlook.io//group/byod",
+      "feed_id": "b0dcb3342bac136c814f87f4a3e839b695269172d75d2236f661c04a48a4cafa",
+      "date": "Wed, 04 Nov 2026 01:21:00 GMT",
+      "detail": "[PSA] Nice LDAP Binding Password being '123'. Rotating things won't really save you cause it's not hard to hop back on your network. Anyways, we now have; Customer Data, AWS Keys, Full Access to CyberArk, Complete Employee PII, Booking information included but not limited to, guest name, billing address, company, rate code, room charges, taxes, spend, property & stay dates. We also have the loyalty data store. Additionally we have reservation and payment ledgers for the folio reservation (guest name, address, phone, email, arrival and departure, rate, property) with Access to the AD + All Financial Records. This affects the big names such as Six Senses, Holiday Inn, Holiday Inn Express, Staybridge Suites, Garner, Candlewood, Crowne Plaza, Mayfair Hotel, etc etc you can pick up what we are putting down at this point. Anyways, you know where to find us (contact tab). We will take you down when communication has been established between our team and yours. | Updated on 2026-11-03 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-03T15:21:18+00:00"
+      "published": "2026-11-04T01:21:00+00:00"
+    },
+    {
+      "title": "iLending & J.C. Flowers & Co. By payoutsking",
+      "url": "https://www.ransomlook.io//group/payoutsking",
+      "feed_id": "5ab270ec47445414c5bb3b86b6e76fbefcea50f3909b66ad6da127d1f1f3ec6a",
+      "date": "Tue, 03 Nov 2026 22:21:57 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-03T22:21:57+00:00"
+    },
+    {
+      "title": "darrequipment.com By chaos",
+      "url": "https://www.ransomlook.io//group/chaos",
+      "feed_id": "0bec08b8f5dede7a38367c7958be7f2787d19d79fafe59b4262a596effc888ff",
+      "date": "Tue, 03 Nov 2026 22:21:17 GMT",
+      "detail": "Darr Equipment Co. is a family-owned, service first, industrial equipment supplier specializing in providing customized solutions to meet our clients' specific goals. Darr provides new and used forklift, material handling, earthmoving, and construction equipment to construction and industrial market\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-03T22:21:17+00:00"
+    },
+    {
+      "title": "Project Trojan Horse By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "7c52a8f1537829b3564171be6879d7b5992f0daa57d8e30cdfec7ecb28bf1024",
+      "date": "Tue, 03 Nov 2026 21:24:00 GMT",
+      "detail": "DM us to sell your IA on $/%, working with all kinds of accesses depending on said target. Rules : - No companies under $500kk - No companies in the CIS conglomerate - Okta, Azure, IAM Root, CRM tools , Jenkins & VPN access (Forti, Anyconnect, Citrix, Sonicwall) We are also recruiting employees/insiders at various companies! If you work at a company in the following sectors, please inquire us : - Education (Technology/Software, EdTech platforms, K-12 Management) - Software (Entreprise-grade, CRM, SaaS, HR Software, CyberSec, Productivity) - Insurance (Globally) - Hotels (Worldwide hotel groups, operators, luxury) - Telecommunications (Major global telecommunication companies) - Finance (Banking, Private equity, fintech) - Retail (Global retailers, supermarkets, fashion, electronics, furniture, luxury) - Motor (Car manufacturers, Luxury automotive brands, etc.) - Transportation (Aviation, Shipping, Railways/Public transportation, Mobility) - Logistics (Supply chain, global companies) Please only inquiry us if you work/have access to companies that are med/largely sized from these industries/sectors. You will be paid if you like depending on what you have; Contact us in order to discuss about rates (%) based deals or $ ones. Escrow is always accepted. t.me/whitearmorsupp / @whitearmorsupp on Telegram. \"Every collectivist revolution rides in on a Trojan horse of EMERGENCY.\" - Herbert Hoover (1952). \u201cMemoirs: The great depression, 1929-1941\u201d Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-03T21:24:00+00:00"
     },
     {
       "title": "Heilmann Gruppe (metaencryptor)",
       "url": "https://cti.fyi/groups/metaencryptor.html",
       "feed_id": "83f08bdbf1a07bd8a4c8911c464626dc",
-      "date": "Tue, 03 Nov 2026 14:01:43 +0000",
-      "detail": "Threat Syndicate: metaencryptor Claimed Victim: Heilmann Gruppe Date Published: 2026-11-03 14:01:43 Date Updated (Revisited): 2026-11-03 19:01:43 Date Discovered: 2023-08-16 20:49:50.345595 Post URL: http://metacrptmytukkj7ajwjovdpjqzd7esg5v3sg344uzhigagpezcqlpyd.onion/0AFC:57ccac0b7ba2cfda3c50a81a8ca6eae7/0AFC:13d60b7bde88f3ec773f04fe0780aaa68d51703091a50954c1ea963a657f49e9/0AFC:444c358d434fab0f4b4b92f5c882f2d487e5343be0e17305fde7a49bb988a0d9 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "date": "Tue, 03 Nov 2026 14:01:13 +0000",
+      "detail": "Threat Syndicate: metaencryptor Claimed Victim: Heilmann Gruppe Date Published: 2026-11-03 14:01:13 Date Updated (Revisited): 2026-11-04 01:01:13 Date Discovered: 2023-08-16 20:49:50.345595 Post URL: http://metacrptmytukkj7ajwjovdpjqzd7esg5v3sg344uzhigagpezcqlpyd.onion/0AFC:57ccac0b7ba2cfda3c50a81a8ca6eae7/0AFC:13d60b7bde88f3ec773f04fe0780aaa68d51703091a50954c1ea963a657f49e9/0AFC:444c358d434fab0f4b4b92f5c882f2d487e5343be0e17305fde7a49bb988a0d9 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-03T14:01:43+00:00"
+      "published": "2026-11-03T14:01:13+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -277,8 +273,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -291,8 +287,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -319,7 +315,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 8,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
@@ -333,7 +329,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 25,
+      "recent": 29,
       "shown": 5,
       "undated": 0
     },
