@@ -1,0 +1,146 @@
+CYBER DAILY — 2026-11-04 19:54 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+20 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-03T00:00:00+00:00
+WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-119977
+Fabricante: WordPress
+Producto: WordPress Core
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-06
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977
+
+The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
+SANS Internet Storm Center | Research / advisory | 2026-11-04T13:24:13+00:00
+One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the "To" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.
+CVEs: CVE-2000-0411
+https://isc.sans.edu/diary/rss/33488
+
+ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)
+SANS Internet Storm Center | Research / advisory | 2026-11-04T02:10:02+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33486
+
+DreamHost confirms data breach exposed FTP logins and webmail sessions
+BleepingComputer | Research / advisory | 2026-11-04T19:05:19+00:00
+DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/
+
+Cyberattack disrupts blood storage refrigeration systems in France
+BleepingComputer | Research / advisory | 2026-11-04T18:02:56+00:00
+France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/
+
+NIKKE PC game launcher hacked to spread remote access, data-stealing malware
+BleepingComputer | Research / advisory | 2026-11-04T16:58:46+00:00
+The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/
+
+mSecure password manager hack prompts password reset warnings
+BleepingComputer | Research / advisory | 2026-11-04T16:00:18+00:00
+mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/
+
+Google Calendar phishing campaign hijacks sessions, bypasses MFA
+BleepingComputer | Research / advisory | 2026-11-04T15:00:10+00:00
+A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/
+
+Sysdig Adds Runtime Security and Governance for AI Agents
+SecurityWeek | Research / advisory | 2026-11-04T14:34:44+00:00
+Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/
+
+Barracuda ESG Authentication Bypass Flaw Opens Path to Root
+SecurityWeek | Research / advisory | 2026-11-04T14:24:54+00:00
+An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/
+
+Agentic Data Security Firm Sentra Raises $150 Million
+SecurityWeek | Research / advisory | 2026-11-04T14:09:20+00:00
+The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/
+
+AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks
+SecurityWeek | Research / advisory | 2026-11-04T12:43:20+00:00
+Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/
+
+Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers
+SecurityWeek | Research / advisory | 2026-11-04T12:27:58+00:00
+A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/
+
+spearcenter.com By brain cipher
+RansomLook | Ransomware claim / observation | 2026-11-04T19:20:30+00:00
+89,500 files with a total size of over 40GB. Contents: 1) Medical records: daily notes, treatment plans (POC), discharge summaries, MRI reports, prescriptions, insurance cards, sig... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/brain%20cipher
+
+myronl.com By brain cipher
+RansomLook | Ransomware claim / observation | 2026-11-04T19:20:29+00:00
+410 GB of data, including: 1) drawings, Gerber files, SolidWorks files, and schematics; 2) employee PII; 3) customer and partner data; 4) regulatory affairs and registrations; 5) e... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/brain%20cipher
+
+megastarfinancial.com By brain cipher
+RansomLook | Ransomware claim / observation | 2026-11-04T19:20:28+00:00
+32,000 documents. Contents: Borrowers' PII—tax returns and IRS Form 4506 transcripts, W-2 forms (224+), pay stubs, bank statements, credit reports, Form 1003/URLA applications, S... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/brain%20cipher
+
+prairieridge.net By brain cipher
+RansomLook | Ransomware claim / observation | 2026-11-04T19:20:27+00:00
+28k documents, including: Direct personal data of clients/patients, sensitive employee data, corporate/financial information, and general documents. If you think you are here by mi... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/brain%20cipher
+
+ciscocems.com By brain cipher
+RansomLook | Ransomware claim / observation | 2026-11-04T19:20:26+00:00
+243,500 files with a total size of over 170GB. Contents: inside information; trade secrets; personal data. If you think you are here by mistake, please contact us at brain.dataleak... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/brain%20cipher
+
+W... B... (SilentRansomGroup)
+CTI.fyi | Ransomware claim / observation | 2026-11-04T19:04:23+00:00
+Intelligence Summary: A company named W... B... Threat Syndicate: SilentRansomGroup Claimed Victim: W... B... Date Discovered: 2026-11-04 19:04:23.357817 Post URL: https://business-data-leaks.com/about#leak-w----b Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/SilentRansomGroup.html
+
+fuss-sprunggelenk.de (safepay)
+CTI.fyi | Ransomware claim / observation | 2026-11-04T18:02:13+00:00
+Intelligence Summary: A foot and ankle clinic in Germany specializing in diagnosis, treatment, and surgical management of lower extremity disorders. Threat Syndicate: safepay Claimed Victim: fuss-sprunggelenk.de Canonical Organization: Fuss Sprunggelenk Target Domain: fuss-sprunggelenk.de Industry Sector: Healthcare Geographic Location: 🇩🇪 DE Date Discovered: 2026-11-04 18:02:13.325239 Post URL: http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/fuss-sprunggelenkde Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/safepay.html
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=1; shown=1; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=12; shown=5; undated excluded=0
+SecurityWeek: OK; recent=10; shown=5; undated excluded=0
+RansomLook: OK; recent=38; shown=5; undated excluded=0
+CTI.fyi: OK; recent=2; shown=2; undated excluded=0

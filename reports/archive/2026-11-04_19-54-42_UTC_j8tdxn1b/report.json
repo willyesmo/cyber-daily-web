@@ -1,0 +1,333 @@
+{
+  "generated": "2026-11-04T19:54:42.616908+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977",
+      "date": "2026-11-03",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "WordPress",
+        "Producto": "WordPress Core",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-06",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-03T00:00:00+00:00"
+    },
+    {
+      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33488",
+      "feed_id": "https://isc.sans.edu/diary/rss/33488",
+      "date": "Wed, 04 Nov 2026 13:24:13 GMT",
+      "detail": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-04T13:24:13+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33486",
+      "feed_id": "https://isc.sans.edu/diary/rss/33486",
+      "date": "Wed, 04 Nov 2026 02:10:02 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-04T02:10:02+00:00"
+    },
+    {
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "date": "Wed, 04 Nov 2026 14:05:19 -0500",
+      "detail": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-04T19:05:19+00:00"
+    },
+    {
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "date": "Wed, 04 Nov 2026 13:02:56 -0500",
+      "detail": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-04T18:02:56+00:00"
+    },
+    {
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "date": "Wed, 04 Nov 2026 11:58:46 -0500",
+      "detail": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-04T16:58:46+00:00"
+    },
+    {
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "date": "Wed, 04 Nov 2026 11:00:18 -0500",
+      "detail": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-04T16:00:18+00:00"
+    },
+    {
+      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "date": "Wed, 04 Nov 2026 10:00:10 -0500",
+      "detail": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-04T15:00:10+00:00"
+    },
+    {
+      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+      "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+      "feed_id": "https://www.securityweek.com/?p=50536",
+      "date": "Wed, 04 Nov 2026 14:34:44 +0000",
+      "detail": "Sysdig\u2019s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-04T14:34:44+00:00"
+    },
+    {
+      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+      "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+      "feed_id": "https://www.securityweek.com/?p=50531",
+      "date": "Wed, 04 Nov 2026 14:24:54 +0000",
+      "detail": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda\u2019s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-04T14:24:54+00:00"
+    },
+    {
+      "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+      "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+      "feed_id": "https://www.securityweek.com/?p=50529",
+      "date": "Wed, 04 Nov 2026 14:09:20 +0000",
+      "detail": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-04T14:09:20+00:00"
+    },
+    {
+      "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+      "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+      "feed_id": "https://www.securityweek.com/?p=50527",
+      "date": "Wed, 04 Nov 2026 12:43:20 +0000",
+      "detail": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-04T12:43:20+00:00"
+    },
+    {
+      "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+      "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+      "feed_id": "https://www.securityweek.com/?p=50525",
+      "date": "Wed, 04 Nov 2026 12:27:58 +0000",
+      "detail": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-04T12:27:58+00:00"
+    },
+    {
+      "title": "spearcenter.com By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "e8a9acee34dedf2b1f9dae97a1c91365163d98208a1f0d86efbbf2c9ac0fa514",
+      "date": "Wed, 04 Nov 2026 19:20:30 GMT",
+      "detail": "89,500 files with a total size of over 40GB. Contents: 1) Medical records: daily notes, treatment plans (POC), discharge summaries, MRI reports, prescriptions, insurance cards, sig... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-04T19:20:30+00:00"
+    },
+    {
+      "title": "myronl.com By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "59f93dfddaeb8434a716a890c6f8d691ea700b36ae2bc6e2bfab6fd64a190d32",
+      "date": "Wed, 04 Nov 2026 19:20:29 GMT",
+      "detail": "410 GB of data, including: 1) drawings, Gerber files, SolidWorks files, and schematics; 2) employee PII; 3) customer and partner data; 4) regulatory affairs and registrations; 5) e... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-04T19:20:29+00:00"
+    },
+    {
+      "title": "megastarfinancial.com By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "faa6f808d166bc53a782c3925371e44eddc2632c11c68fa6bae67cedb74b8633",
+      "date": "Wed, 04 Nov 2026 19:20:28 GMT",
+      "detail": "32,000 documents. Contents: Borrowers' PII\u2014tax returns and IRS Form 4506 transcripts, W-2 forms (224+), pay stubs, bank statements, credit reports, Form 1003/URLA applications, S... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-04T19:20:28+00:00"
+    },
+    {
+      "title": "prairieridge.net By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "6a81fd597175246c3cf0d23c028d4fd0f101fc888d181e93f9fde08a0987a96a",
+      "date": "Wed, 04 Nov 2026 19:20:27 GMT",
+      "detail": "28k documents, including: Direct personal data of clients/patients, sensitive employee data, corporate/financial information, and general documents. If you think you are here by mi... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-04T19:20:27+00:00"
+    },
+    {
+      "title": "ciscocems.com By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "64d4166c4f028d9a767ced979431967825735b3c42e4ff4bf7e60897a6b9f98b",
+      "date": "Wed, 04 Nov 2026 19:20:26 GMT",
+      "detail": "243,500 files with a total size of over 170GB. Contents: inside information; trade secrets; personal data. If you think you are here by mistake, please contact us at brain.dataleak... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-04T19:20:26+00:00"
+    },
+    {
+      "title": "W... B... (SilentRansomGroup)",
+      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
+      "feed_id": "748c85a41fbc2c68bab703746113c3c2",
+      "date": "Wed, 04 Nov 2026 19:04:23 +0000",
+      "detail": "Intelligence Summary: A company named W... B... Threat Syndicate: SilentRansomGroup Claimed Victim: W... B... Date Discovered: 2026-11-04 19:04:23.357817 Post URL: https://business-data-leaks.com/about#leak-w----b Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-04T19:04:23+00:00"
+    },
+    {
+      "title": "fuss-sprunggelenk.de (safepay)",
+      "url": "https://cti.fyi/groups/safepay.html",
+      "feed_id": "42f2d4450a725b4cae0588ec36ff3549",
+      "date": "Wed, 04 Nov 2026 18:02:13 +0000",
+      "detail": "Intelligence Summary: A foot and ankle clinic in Germany specializing in diagnosis, treatment, and surgical management of lower extremity disorders. Threat Syndicate: safepay Claimed Victim: fuss-sprunggelenk.de Canonical Organization: Fuss Sprunggelenk Target Domain: fuss-sprunggelenk.de Industry Sector: Healthcare Geographic Location: \ud83c\udde9\ud83c\uddea DE Date Discovered: 2026-11-04 18:02:13.325239 Post URL: http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/fuss-sprunggelenkde Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-04T18:02:13+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 12,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 10,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 38,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    }
+  ]
+}
