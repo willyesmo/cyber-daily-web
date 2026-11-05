@@ -1,0 +1,134 @@
+CYBER DAILY — 2026-11-05 01:31 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+18 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2024-27834: Apple Multiple Products Improper Authentication Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-04T00:00:00+00:00
+Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2024-27834
+Fabricante: Apple
+Producto: Multiple Products
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-18
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://support.apple.com/en-us/120896 ; https://support.apple.com/en-us/120898 ; https://support.apple.com/en-us/120901 ; https://support.apple.com/en-us/120902 ; https://support.apple.com/en-us/120903 ; https://support.apple.com/en-us/120905 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-27834
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-27834
+
+The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
+SANS Internet Storm Center | Research / advisory | 2026-11-04T13:24:13+00:00
+One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the "To" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.
+CVEs: CVE-2000-0411
+https://isc.sans.edu/diary/rss/33488
+
+ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)
+SANS Internet Storm Center | Research / advisory | 2026-11-04T02:10:02+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33486
+
+Vercel rolls out new protection against stolen session cookie attacks
+BleepingComputer | Research / advisory | 2026-11-04T21:31:18+00:00
+Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/
+
+Zyxel fixes zero-day exploited to hack nearly 1,000 network switches
+BleepingComputer | Research / advisory | 2026-11-04T20:58:19+00:00
+Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/
+
+DreamHost confirms data breach exposed FTP logins and webmail sessions
+BleepingComputer | Research / advisory | 2026-11-04T19:05:19+00:00
+DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/
+
+Cyberattack disrupts blood storage refrigeration systems in France
+BleepingComputer | Research / advisory | 2026-11-04T18:02:56+00:00
+France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/
+
+NIKKE PC game launcher hacked to spread remote access, data-stealing malware
+BleepingComputer | Research / advisory | 2026-11-04T16:58:46+00:00
+The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/
+
+Sysdig Adds Runtime Security and Governance for AI Agents
+SecurityWeek | Research / advisory | 2026-11-04T14:34:44+00:00
+Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/
+
+Barracuda ESG Authentication Bypass Flaw Opens Path to Root
+SecurityWeek | Research / advisory | 2026-11-04T14:24:54+00:00
+An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/
+
+Agentic Data Security Firm Sentra Raises $150 Million
+SecurityWeek | Research / advisory | 2026-11-04T14:09:20+00:00
+The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/
+
+AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks
+SecurityWeek | Research / advisory | 2026-11-04T12:43:20+00:00
+Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/
+
+Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers
+SecurityWeek | Research / advisory | 2026-11-04T12:27:58+00:00
+A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/
+
+TFG London By ransomhouse
+RansomLook | Ransomware claim / observation | 2026-11-04T23:23:21+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/ransomhouse
+
+K... R... By leakeddata
+RansomLook | Ransomware claim / observation | 2026-11-04T23:22:51+00:00
+To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/leakeddata
+
+Aripack By play
+RansomLook | Ransomware claim / observation | 2026-11-04T22:26:17+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/play
+
+StrucSure Home Warranty By play
+RansomLook | Ransomware claim / observation | 2026-11-04T22:26:16+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/play
+
+Standard Sand & Silica By play
+RansomLook | Ransomware claim / observation | 2026-11-04T22:26:15+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/play
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=1; shown=1; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=11; shown=5; undated excluded=0
+SecurityWeek: OK; recent=10; shown=5; undated excluded=0
+RansomLook: OK; recent=50; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

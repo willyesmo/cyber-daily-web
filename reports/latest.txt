@@ -1,19 +1,19 @@
-CYBER DAILY — 2026-11-04 19:54 UTC
+CYBER DAILY — 2026-11-05 01:31 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-20 entries selected. Feed excerpts, not full-article or AI analysis.
+18 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
-CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability
-CISA KEV | Known exploitation / catalog addition | 2026-11-03T00:00:00+00:00
-WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
-CVEs: CVE-2026-119977
-Fabricante: WordPress
-Producto: WordPress Core
+CVE-2024-27834: Apple Multiple Products Improper Authentication Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-04T00:00:00+00:00
+Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2024-27834
+Fabricante: Apple
+Producto: Multiple Products
 Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-Fecha límite indicada por CISA: 2026-11-06
+Fecha límite indicada por CISA: 2026-11-18
 Uso conocido en ransomware: Unknown
-Notas de CISA: https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977
+Notas de CISA: https://support.apple.com/en-us/120896 ; https://support.apple.com/en-us/120898 ; https://support.apple.com/en-us/120901 ; https://support.apple.com/en-us/120902 ; https://support.apple.com/en-us/120903 ; https://support.apple.com/en-us/120905 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-27834
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-27834
 
 The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
 SANS Internet Storm Center | Research / advisory | 2026-11-04T13:24:13+00:00
@@ -26,6 +26,18 @@ SANS Internet Storm Center | Research / advisory | 2026-11-04T02:10:02+00:00
 No feed summary supplied. Open the original source for details.
 CVEs: Not stated in feed
 https://isc.sans.edu/diary/rss/33486
+
+Vercel rolls out new protection against stolen session cookie attacks
+BleepingComputer | Research / advisory | 2026-11-04T21:31:18+00:00
+Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/
+
+Zyxel fixes zero-day exploited to hack nearly 1,000 network switches
+BleepingComputer | Research / advisory | 2026-11-04T20:58:19+00:00
+Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/
 
 DreamHost confirms data breach exposed FTP logins and webmail sessions
 BleepingComputer | Research / advisory | 2026-11-04T19:05:19+00:00
@@ -44,18 +56,6 @@ BleepingComputer | Research / advisory | 2026-11-04T16:58:46+00:00
 The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/
-
-mSecure password manager hack prompts password reset warnings
-BleepingComputer | Research / advisory | 2026-11-04T16:00:18+00:00
-mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/
-
-Google Calendar phishing campaign hijacks sessions, bypasses MFA
-BleepingComputer | Research / advisory | 2026-11-04T15:00:10+00:00
-A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/
 
 Sysdig Adds Runtime Security and Governance for AI Agents
 SecurityWeek | Research / advisory | 2026-11-04T14:34:44+00:00
@@ -87,47 +87,35 @@ A federal grand jury indicted two Canadian men for hijacking university supercom
 CVEs: Not stated in feed
 https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/
 
-spearcenter.com By brain cipher
-RansomLook | Ransomware claim / observation | 2026-11-04T19:20:30+00:00
-89,500 files with a total size of over 40GB. Contents: 1) Medical records: daily notes, treatment plans (POC), discharge summaries, MRI reports, prescriptions, insurance cards, sig... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+TFG London By ransomhouse
+RansomLook | Ransomware claim / observation | 2026-11-04T23:23:21+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/brain%20cipher
+https://www.ransomlook.io//group/ransomhouse
 
-myronl.com By brain cipher
-RansomLook | Ransomware claim / observation | 2026-11-04T19:20:29+00:00
-410 GB of data, including: 1) drawings, Gerber files, SolidWorks files, and schematics; 2) employee PII; 3) customer and partner data; 4) regulatory affairs and registrations; 5) e... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+K... R... By leakeddata
+RansomLook | Ransomware claim / observation | 2026-11-04T23:22:51+00:00
+To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/brain%20cipher
+https://www.ransomlook.io//group/leakeddata
 
-megastarfinancial.com By brain cipher
-RansomLook | Ransomware claim / observation | 2026-11-04T19:20:28+00:00
-32,000 documents. Contents: Borrowers' PII—tax returns and IRS Form 4506 transcripts, W-2 forms (224+), pay stubs, bank statements, credit reports, Form 1003/URLA applications, S... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Aripack By play
+RansomLook | Ransomware claim / observation | 2026-11-04T22:26:17+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/brain%20cipher
+https://www.ransomlook.io//group/play
 
-prairieridge.net By brain cipher
-RansomLook | Ransomware claim / observation | 2026-11-04T19:20:27+00:00
-28k documents, including: Direct personal data of clients/patients, sensitive employee data, corporate/financial information, and general documents. If you think you are here by mi... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+StrucSure Home Warranty By play
+RansomLook | Ransomware claim / observation | 2026-11-04T22:26:16+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/brain%20cipher
+https://www.ransomlook.io//group/play
 
-ciscocems.com By brain cipher
-RansomLook | Ransomware claim / observation | 2026-11-04T19:20:26+00:00
-243,500 files with a total size of over 170GB. Contents: inside information; trade secrets; personal data. If you think you are here by mistake, please contact us at brain.dataleak... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Standard Sand & Silica By play
+RansomLook | Ransomware claim / observation | 2026-11-04T22:26:15+00:00
+ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/brain%20cipher
-
-W... B... (SilentRansomGroup)
-CTI.fyi | Ransomware claim / observation | 2026-11-04T19:04:23+00:00
-Intelligence Summary: A company named W... B... Threat Syndicate: SilentRansomGroup Claimed Victim: W... B... Date Discovered: 2026-11-04 19:04:23.357817 Post URL: https://business-data-leaks.com/about#leak-w----b Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/SilentRansomGroup.html
-
-fuss-sprunggelenk.de (safepay)
-CTI.fyi | Ransomware claim / observation | 2026-11-04T18:02:13+00:00
-Intelligence Summary: A foot and ankle clinic in Germany specializing in diagnosis, treatment, and surgical management of lower extremity disorders. Threat Syndicate: safepay Claimed Victim: fuss-sprunggelenk.de Canonical Organization: Fuss Sprunggelenk Target Domain: fuss-sprunggelenk.de Industry Sector: Healthcare Geographic Location: 🇩🇪 DE Date Discovered: 2026-11-04 18:02:13.325239 Post URL: http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/fuss-sprunggelenkde Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/safepay.html
+https://www.ransomlook.io//group/play
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=1; shown=1; undated excluded=0
@@ -140,7 +128,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=12; shown=5; undated excluded=0
+BleepingComputer: OK; recent=11; shown=5; undated excluded=0
 SecurityWeek: OK; recent=10; shown=5; undated excluded=0
-RansomLook: OK; recent=38; shown=5; undated excluded=0
-CTI.fyi: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=50; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
