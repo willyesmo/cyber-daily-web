@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T17:47:16.533255+00:00",
+  "generated": "2026-11-07T22:04:08.574217+00:00",
   "hours": 24,
   "items": [
     {
@@ -30,17 +30,6 @@
       "kind": "Research / advisory",
       "source": "Microsoft Security",
       "published": "2026-11-07T02:44:34+00:00"
-    },
-    {
-      "title": "Turning Up the Heat: Inside the Attacks on Europe\u2019s Refrigeration System",
-      "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=189049",
-      "date": "Fri, 06 Nov 2026 21:15:09 +0000",
-      "detail": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe\u2019s Refrigeration System appeared first on Unit 42 .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-11-06T21:15:09+00:00"
     },
     {
       "title": "Hackers pull off $133 million French bank heist via service provider",
@@ -87,17 +76,6 @@
       "published": "2026-11-06T22:27:25+00:00"
     },
     {
-      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-      "date": "Fri, 06 Nov 2026 15:24:19 -0500",
-      "detail": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-06T20:24:19+00:00"
-    },
-    {
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
       "feed_id": "https://www.securityweek.com/?p=50612",
@@ -109,70 +87,59 @@
       "published": "2026-11-07T10:16:23+00:00"
     },
     {
-      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-      "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-      "feed_id": "https://www.securityweek.com/?p=50610",
-      "date": "Fri, 06 Nov 2026 18:28:41 +0000",
-      "detail": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan. The post Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-06T18:28:41+00:00"
-    },
-    {
-      "title": "Tribunal de Justica do Estado de Minas Gerais By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "063d5279ff4faa36a5475fe94d856abc089f15043c8a628e7d96cf4a912ff4d0",
-      "date": "Sat, 07 Nov 2026 13:30:50 GMT",
-      "detail": "Tribunal de Justica do Estado de Minas Gerais TJMG provides judicial services and information to citizens and legal professionals in Minas Gerais. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #145 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "4452d87ebf98bdd37008e9975189c48e5a3365044d8f1e85a4d1e0dbbf1e3463",
+      "date": "Sat, 07 Nov 2026 21:28:02 GMT",
+      "detail": "outdoor footwear and apparel \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T13:30:50+00:00"
+      "published": "2026-11-07T21:28:02+00:00"
     },
     {
-      "title": "Oak Green School By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "ba2c10393295589c371e387e093f1e3f8fec05ab74fd8fb64b148533157f72e1",
-      "date": "Sat, 07 Nov 2026 13:30:46 GMT",
-      "detail": "Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #144 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "d637e7bf10ff26c1d87d40c223e9f4b0799cf79c782b480d17a5e2fd26ca7862",
+      "date": "Sat, 07 Nov 2026 21:28:02 GMT",
+      "detail": "athleisure and sportswear retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T13:30:46+00:00"
+      "published": "2026-11-07T21:28:02+00:00"
     },
     {
-      "title": "Gandol Doors By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "815393b37a5a42d0230fbd8f9d422e68386c25d269945b82be23587f2687b951",
-      "date": "Sat, 07 Nov 2026 13:30:46 GMT",
-      "detail": "Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #143 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "b1ceb8289519c5d60ff3df1a9af38ded2444947cde524b9e62e1f49726c46803",
+      "date": "Sat, 07 Nov 2026 21:28:01 GMT",
+      "detail": "apparel retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T13:30:46+00:00"
+      "published": "2026-11-07T21:28:01+00:00"
     },
     {
-      "title": "Amber Management Ltd By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "9dfdca7f5dffb9a25f4cf602d38edaa55bedc5b4555d38f1918d813d21106a4d",
-      "date": "Sat, 07 Nov 2026 13:30:45 GMT",
-      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #142 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "890e0817a1aee680e59e242fe4c409f932e4c9d473e22ca73301c7e29665b4f8",
+      "date": "Sat, 07 Nov 2026 21:28:00 GMT",
+      "detail": "consumer electronics, smart TV advertising data \u00b7 South Korea Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T13:30:45+00:00"
+      "published": "2026-11-07T21:28:00+00:00"
     },
     {
-      "title": "Autohaus Arnold By payload",
-      "url": "https://www.ransomlook.io//group/payload",
-      "feed_id": "e25714f13577cc5bf855fe0968c3788351dba169ef0158e4f6b25e520265d9b4",
-      "date": "Sat, 07 Nov 2026 13:30:43 GMT",
-      "detail": "Autohaus Arnold (vw-arnold.de) is a German automotive dealership and service provider based in Bavaria, primarily serving the H\u00f6chstadt an der Aisch region. The company operates as an authorized Volkswagen Group partner, offering sales of both new and pre-owned vehicles from brands like Volkswagen, Volkswagen Commercial Vehicles, and Audi. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #141 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "069cd55a420ab2d1387af64924bf713b7ad9b7beea42a71b6c4d934f6d0960b7",
+      "date": "Sat, 07 Nov 2026 21:27:59 GMT",
+      "detail": "apparel and footwear group \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T13:30:43+00:00"
+      "published": "2026-11-07T21:27:59+00:00"
     }
   ],
   "sources": [
@@ -221,8 +188,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -249,21 +216,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 6,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 33,
+      "recent": 42,
       "shown": 5,
       "undated": 0
     },
