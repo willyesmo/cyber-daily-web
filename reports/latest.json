@@ -1,7 +1,25 @@
 {
-  "generated": "2026-11-06T19:34:23.061931+00:00",
+  "generated": "2026-11-07T00:59:11.788049+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-19868: SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19868",
+      "date": "2026-11-06",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA). Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "SonicWall",
+        "Producto": "SonicOS SSLVPN",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-20",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-06T00:00:00+00:00"
+    },
     {
       "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
       "url": "https://isc.sans.edu/diary/rss/33494",
@@ -14,15 +32,15 @@
       "published": "2026-11-06T02:00:02+00:00"
     },
     {
-      "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150836",
-      "date": "Thu, 05 Nov 2026 23:46:50 +0000",
-      "detail": "In this article From exposed secrets to cloud compromise Follow-on actions Mitigating application credential abuse activity Defending against agentic AI attacks Microsoft detections Advanced hunting queries Microsoft Threat Intelligence has observed threat actors using an agentic AI offensive framework to search public GitHub repositories for exposed secrets, including credentials, application credentials, and AI inference-related API keys across multiple applications and cloud services. These threat actors can then use the secrets for further malicious activity against the compromised organization. Searching open code repositories for exposed credentials, secrets, keys, and other authentication material is a well-documented technique that has historically been limited by the time required for human operators to find code repositories, review the data in the repositories, and leverage authentication material for further action. However, agentic tooling like ARTEX allows threat actors to not only scan for secrets across multiple repositories at a quicker pace but also use the agents to analyze the output and conduct follow-on attacks, cutting down on the need for the threat actor to have hands-on-keyboard interactions throughout the attack chain. In at least one case, Microsoft observed an AI agent advance from scanning GitHub for secrets to exfiltrating data from Azure Key Vault in just five minutes. Microsoft has also investigated follow-on activity involving the misuse of valid application credentials. As early as October 28, 2026, Microsoft began observing successful service principal sign-ins from the IP address 199.19.77[.]84 involving multiple application IDs across some impacted customers, including cases where a multitenant application credential was compromised at the source (vendor-owned application) and used to access multiple downstream tenants. The threat actor used the compromised credentials for cloud resource discovery, and credential and data exfiltration, including from Azure Key Vaults and Storage Accounts, and abuse of Azure AI services consistent with the activity described above. Additionally, Microsoft observed malicious activity originating from two IP addresses potentially associated with this campaign. We identified malicious operations from 65.87.223[.]26, including indications of vulnerability exploitation by embedded shell commands in a user agent and attempts to obtain App Service authentication tokens. A similar campaign involving the same IPs addressed was also reported by Todyl . Separately, Microsoft observed reconnaissance operations from 157.22.126[.]128 targeting AI workloads deployed by victims on Azure AI services. Microsoft encourages organizations to scan their code in GitHub and determine where any secrets are present. In addition to removing the secrets from the code base, affected organizations should immediately rotate any exposed keys or credentials. GitHub monitors public repositories by automatically scanning for secrets. In addition to scanning their own repositories, organizations can enable public monitoring through GitHub to detect secrets leaked in secondary public repositories across GitHub. This extends secret scanning beyond the repositories an enterprise owns to follow potential secret exposure across the platform. GitHub Advanced Security for Azure DevOps scans for credentials and other sensitive content in source code. Push protection can also block supported secrets before they\u2019re pushed. Organizations need either GitHub Advanced Security for Azure DevOps or, for organizations using the standalone experience, GitHub Secret Protection for Azure DevOps enabled. Secrets are exposed in public repositories when code containing the secret is committed to GitHub. Developers might store secrets in configuration files, scripts, or other code to quickly operationalize the OAuth application or avoid configuring more modern authentication flows. Organizations can reduce exposure by protecting workload identities and secrets, enforcing least privilege, safeguarding recovery resources, and enabling relevant Microsoft Defender for Cloud protections. Publicly exposed credentials remain usable until revoked or rotated; removing the original disclosure alone does not remediate the exposure. Microsoft recommends that developers migrate OAuth applications away from secret-based authentication . While storing long-lived application client secrets in code is a common practice, using managed identities for application authentication eliminates the possibility of secret exposure in code, manual processes associated with secret management, and barriers to securely scaling applications. This activity illustrates an ongoing trend of threat actors accelerating all stages of the attack chain with agentic AI penetration testing frameworks, including ARTEX. As these capabilities evolve, defenders must similarly use AI to investigate and respond across large environments. From exposed secrets to cloud compromise Starting in August 2026, Microsoft observed threat actors using an agentic AI offensive framework to submit large volumes of queries to GitHub for secrets. The queries submitted by the AI framework often included the name of a target organization, keywords for secrets, a keyword linked to cloud services, or a keyword linked to another AI service provider. Organizations that find their secrets exposed in public repositories must assume that the exposed secrets and associated applications are compromised. Follow-on actions Credential abuse via Entra ID In one follow-on attack that began as early as October 28, 2026, an agentic framework used valid leaked or stolen application credentials to access Microsoft Entra ID tenants of certain organizations and connected Azure and Microsoft 365 resources. The sign-ins primarily came from two IP addresses: 199.19.77[.]84 and 199.19.77[.]18. The latter IP address is a Tor exit node, which might be associated with unrelated malicious activity, including from unrelated sources. The agent successfully conducted service principal sign-ins on dozens of associated applications across multiple tenants.. Service principals are the identities that applications use to authenticate and give direct, programmatic access to whatever the application is authorized to reach. The threat actor targeted operations that return credentials, including storage account keys, App Service settings, connection strings and publishing credentials, AI and machine learning (ML) connections and datastores, and Azure Kubernetes Service (AKS) user credentials. The compromised applications subsequently accessed SharePoint and OneDrive in the targeted organization tenants, including file downloads and mailbox-item access. In some tenants, the threat actor sent Microsoft Graph API requests, which were mostly searches to find content of interest. The threat actor enumerated subscriptions, resource groups, permissions, AI model deployments, and service configurations in Azure to map the environment. Additionally, the threat actor attempted to validate stolen Azure resources, including compromised Azure AI services, as identified using Defender for Cloud\u2019s AI threat protection. Observed activity suggests that the threat actor might have attempted to abuse some of these compromised AI resources to facilitate their broader attack activity. Figure 1. Tactics, techniques, and procedures (TTPs) observed across the credential abuse attack chain Cloud API adjustments indicative of adaptive behavior Additionally in this attack the agent\u2019s operations on a victim\u2019s Azure Resource Manager (ARM) instance originating from 199.19.77[.]84 demonstrated sequences consistent with adaptive troubleshooting, where failed cloud API requests were followed by changes to HTTP methods or API versions and subsequent HTTP 200 responses: A batch of ARM requests attempting to enumerate secret metadata across multiple Azure Key Vault resources returned HTTP 400 (Bad Request). These requests specified a version associated with Key Vault\u2019s data-plane APIs against ARM (control-plane) APIs. Approximately 28 seconds after the first failed response, a batch rerun began against the same vault resource paths using the ARM API version 2023-07-01 and returned HTTP 200. A GET request to enumerate an Azure SQL server\u2019s firewall rules specified an outdated API version and returned HTTP 400. Approximately 60 seconds after that request, a matching GET began using a supported version and subsequently returned HTTP 200. The URL changed only in its api-version parameter. An ARM POST request to an Application Insights query endpoint returned HTTP 400 because an outdated API version was specified. Approximately 80 seconds after the failed request, another POST began against the same endpoint, specifying a supported API version, and subsequently returned HTTP 200. OAuth application abuse In multiple cases, Microsoft observed the same agentic AI tools subsequently obtain a token for a single-tenant OAuth application in the same target organization, then use the compromised OAuth application to enumerate other cloud resources within the organization. In some cases, the agents exfiltrated secrets from the organization\u2019s Azure Key Vault. The agents once authenticated have also searched Azure DevOps for secrets. Until the secrets are revoked or rotated, they can allow a threat actor to maintain persistence in the organization, compromise additional identities, or hijack resources. In one observed case, an AI agent progressed from searching for the client secrets in GitHub to exfiltrating data from Azure Key Vault in five minutes. The agents also used the compromised OAuth application to use the Run Command , which runs scripts in Azure VMs. With access to this functionality on a VM, a threat actor can access unsecured credentials and other stored data, compromise associated workload identities, or run code that provides persistence or lateral movement. During this activity, the AI agents repeatedly demonstrated a focus on credentials that provide access to AI services, such as API keys for major AI service providers and OAuth applications with access to Foundry Tools (previously known as Azure Cognitive Services). Multiple public reports have documented threat actors using agentic AI tools to compromise credentials for AI services, sometimes to run the same agentic AI workflow. Mitigating application credential abuse activity Microsoft recommends the following mitigation steps to contain, detect, and investigate this threat. Containment Block 199.19.77[.]84/32 as a named location in a Conditional Access policy targeting workload identities, assigned directly to service principals, and in a user-scoped block policy to cover replayed sessions. Note that workload identity policies require Workload ID Premium licensing and cover only single-tenant apps registered in your tenant. Block the exact IP rather than the whole ASN. For affected users, revoke Entra sessions, Azure DevOps PATs and SSH keys. For any affected application, remove all client secrets, certificates and federated credentials, including those added by the threat actor and disable the service principal if needed. Tokens already issued remain valid until expiry. Rotate everything stored in any Key Vault the affected application could read, and any credentials found in accessed documents. MSPs: Review Partner Center access, GDAP relationships, and customer tenants, and notify affected customers per your agreements. Detection and hunting Review Entra service principal and non-interactive sign-in logs for 199.19.77[.]84 and 199.19.77[.]18 including failed attempts. Sign-in errors AADSTS7000215 (invalid secret) or AADSTS7000222 (expired secret) indicate someone holds a credential for your app; a failure followed by a success is urgent. Review Azure Activity, Key Vault and Storage diagnostics, Entra audit, Azure DevOps audit and Microsoft 365 unified audit logs for the address, including secret reads, blob and file downloads, and changes to apps, permissions or pipelines. In Azure DevOps auditing, review PAT creation and first use, federated service connections, pipeline runs and edits, and unfamiliar user agents. Enable auditing if it is off. Look for behavior as well as the IP: one address authenticating to three or more service principals with mixed success, or one app requesting tokens across Azure Resource Manager, Key Vault, Storage and Graph in a short window. Search as far back as retention allows. Defending against agentic AI attacks Threat actors can and do change the source IP address, user agent strings, and other fingerprints left by the agentic AI penetration testing tools they use. This can make identifying and blocking malicious network traffic early difficult for defenders. Several behavioral signals can help organizations determine that they are being targeted by threat actors using agentic AI. Agentic AI frameworks scanning a target send a wide variety of requests in a brief time and retry variations on the same technique or move on to next-stage actions at machine speed. Agentic AI frameworks use existing penetration testing tools. For example, ARTEX by default uses Nmap, curl, wget, Python HTTP clients, Norma SDK WebFetch, and headless Chromium through Playwright, among others. These tools may send network traffic with distinctive characteristics, such as default user agent strings. While blocking network traffic with these characteristics will not stop an attack by an AI agent, which will quickly change them, identifying them can alert defenders to the activity. Defensive honeypots , decoys, tarpits, and fake wins can pull autonomous AI attacks away from legitimate targets. Honeypots and decoy surfaces such as Microsoft Sentinel Deception give the agent attractive but worthless targets to pursue. Tarpits consume the agent\u2019s time and budget. Fake wins present convincing evidence that the agent\u2019s objective is complete, which can cause it to stop on a false success. In Microsoft\u2019s testing, these controls helped reduce the attack traffic reaching real assets and produced high-confidence, attribution-quality signal. Microsoft recommends the following mitigations to reduce the impact of this threat. Protect and continuously assess application credentials and secrets. Avoid storing service principal credentials, storage keys, connection strings, and other secrets in source code, configuration files, public repositories, issues, or other locations where they might be inadvertently exposed. To find credentials in source code, consider using tools like GitHub Advanced Security or other OWASP source code analysis tools . Rotate compromised or exposed credentials immediately and establish credential lifecycle practices. Treat credentials that have been publicly exposed as compromised, even if the original location has subsequently been edited or deleted. Removing the content does not invalidate the credential or eliminate copies retained in edit history, caches, archives, logs, or other systems. Immediately revoke or rotate the affected credentials and investigate their historical use. Where supported, organizations should favor mechanisms that reduce reliance on long-lived credentials. Learn more about protecting secrets with Defender for Cloud . Enable appropriate Microsoft Defender for Cloud plans for critical Azure workloads. Consider enabling workload protections relevant to the resources in your environment, including Defender for Resource Manager, Defender for Storage, Defender for Key Vault, Defender for App Service, and Defender for Databases. Learn more in the Microsoft Defender for Cloud overview . Apply least privilege to service principals and other workload identities. Review the Azure role-based access control (RBAC) permissions assigned to service principals and restrict their privileges to the resources and operations required by their applications. Learn more about best practices for Azure RBAC . Protect backup and recovery infrastructure as part of resilience. Restrict access to backup and recovery resources and closely monitor attempts to modify or remove their protection controls. Learn more about Azure Backup security best practices . Hardening OAuth applications against compromise involves managing the permissions of the applications in your organization and securing application secrets. To triage applications in your environment, enforce security policies with new applications as they are created, and address existing applications over time beginning with the most recent ones. Identify and catalog applications running in your cloud environment. The Cloud app catalog page in Defender for Cloud Apps is one service that can help accomplish this. Use Microsoft Defender for Cloud Apps Cloud Discovery tools to identify unmanaged apps, and prioritize the most frequently used apps to migrate and integrate. Use Conditional Access policies for workload identities . Consider augmenting identity signals with workload identity risk protection . Set permission restrictions to limit who can create an application in the tenant. This can be achieved by setting the ability for users to register apps to \u201cNo\u201d and limiting the application developer role to privileged users. Review the list of least privileged roles by task to help scope role-based access control in your environment. Integrate enterprise applications with Microsoft Entra ID . Microsoft detections Microsoft Defender and Microsoft Sentinel customers can refer to the list of applicable detections below. Microsoft Defender coordinates detection, prevention, investigation, and response across endpoints, identities, email, and apps to provide integrated protection against attacks like the threat discussed in this blog. Tactic Observed activity Microsoft Defender and Sentinel coverage Initial access Multiple identity-protection alerts identified authentication attempts from anonymized or high-risk infrastructure. This pattern can indicate attempted access through proxy, VPN, or previously reported malicious network sources. Microsoft Entra ID Protection \u2013 Anonymous IP address Initial access Attack-analysis detections identified OAuth application activity consistent with compromise. This type of detection is useful when evaluating whether an app identity, rather than only a user identity, may have been abused. Microsoft Defender XDR \u2013 Potentially compromised OAuth application identified through attack activity analysis Initial access, Discovery Unattributed network indicators related to ARTEX use are flagged by Microsoft Threat Intelligence research and surfaced across multiple alerts. Suspected ARTEX use can include activity beyond the GitHub repository scanning activity discussed in this blog. Microsoft Sentinel \u2013 Abnormal Deny Rate for Source IP \u2013 Abnormal Port to Protocol \u2013 Inbound Network Attack detected \u2013 Malformed user agent \u2013 Password spray attack against Azure AD application Microsoft Defender XDR \u2013 Account compromised following a password-spray attack \u2013 Anomalous OAuth device code authentication activity \u2013 Multiple Service Principal Sign-ins from Single IP \u2013 Graph API activity from a Microsoft threat intelligence IP address Microsoft Defender for Cloud Apps \u2013 Activities from suspicious user agents \u2013 Multiple failed login attempts \u2013 Multiple failed user log on attempts to an app \u2013 OAuth application activity from an uncommonly visited ISP \u2013 Suspicious OAuth app registration Microsoft Defender for Cloud \u2013 Key vault unusual access denied \u2013 user/application accessing high volume of denied key vaults \u2013 Access from an unusual location to a sensitive blob container \u2013 Azure Resource Manager operation from suspicious IP address Microsoft Entra ID Protection \u2013 Atypical travelMalicious IP addressPassword Spray \u2013 Verified threat actor IP Credential access Identity-protection detections observed password spray behavior. This indicates repeated authentication attempts across accounts or tenants using a common source pattern. Microsoft Entra ID Protection \u2013 Password spray Microsoft Defender for Identity \u2013 Suspicious service principal sign-in following credential addition Credential access Azure Key Vault access Microsoft Defender for Cloud (Defender for Key Vault) \u2013 Unusual operation pattern in a key vault \u2013 High volume of operations in a key vault \u2013 Unusual application accessed a key vault \u2013 Suspicious secret listing and query in a key vault \u2013 Unusual access to the key vault from a suspicious IP (Non-Microsoft or External) Command and control Suspicious Microsoft Graph API usage was observed from campaign infrastructure. The activity involved Graph requests that can support discovery, collection, or follow-on cloud operations. Microsoft Defender for Identity \u2013 Suspicious Entra Graph API query observed Advanced hunting queries The following hunting queries are related to the October 28 Entra ID service principal sign-in activity. Find successful and failed application sign-ins from the suspicious IP addresses let startTime = datetime(2026-10-28T00:00:00Z); let endTime = now(); EntraIdSpnSignInEvents | where Timestamp between (startTime .. endTime) | where IPAddress in (\"199.19.77.84\") | project Timestamp, TenantId, Application, ApplicationId, ServicePrincipalName, ServicePrincipalId, ResourceDisplayName, ResourceId, ResourceTenantId, IPAddress, ErrorCode, UserAgent, CorrelationId, RequestId | order by Timestamp asc Find Microsoft Graph API requests from the two IP addresses, including searches and response status let startTime = datetime(2026-10-28T00:00:00Z); let endTime = now(); GraphAPIAuditEvents | where Timestamp between (startTime .. endTime) | where IpAddress in (\"199.19.77.84\") | project Timestamp, TenantId, ApplicationId, ServicePrincipalId, AccountObjectId, IpAddress, RequestMethod, RequestUri, ResponseStatusCode, ResponseSize, Scopes, EntityType, TargetWorkload, UniqueTokenIdentifier, ClientRequestId, OperationId, RequestId | order by Timestamp asc Find available Microsoft 365 and Microsoft Azure cloud activity details from the suspicious IP addresses let startTime = datetime(2026-10-28T00:00:00Z); let endTime = now(); CloudAppEvents | where Timestamp between (startTime .. endTime) | where IPAddress in (\"199.19.77.84\") | project Timestamp, Application, CloudAppId = ApplicationId, ActionType, ActivityType, AccountType, AccountDisplayName, AccountId, AccountObjectId, IPAddress, UserAgent, ObjectName, ObjectType, ObjectId, ActivityObjects, ReportId, RawEventData | order by Timestamp asc CloudAuditEvents table to identify suspicious controlplane operations CloudAuditEvents | where IPAddress has_any ('199.19.77.84','65.87.223.26') CloudStorageEvents table to identify possible exfiltration from Storage Accounts. CloudStorageAggregatedEvents | where IPAddress in ('199.19.77.84','65.87.223.26') | where SuccessfulOperationsCount > 0 Microsoft Security Copilot Microsoft Security Copilot is embedded in Microsoft Defender and provides security teams with AI-powered capabilities to summarize incidents, analyze files and scripts, summarize identities, use guided responses, and generate device summaries, hunting queries, and incident reports. Customers can also deploy AI agents , including the following Microsoft Security Copilot agents , to perform security tasks efficiently: Threat Intelligence Briefing agent Phishing Triage agent Threat Hunting agent Dynamic Threat Detection agent Security Copilot is also available as a standalone experience where customers can perform specific security-related tasks, such as incident investigation, user analysis, and vulnerability impact assessment. In addition, Security Copilot offers developer scenarios that allow customers to build, test, publish, and integrate AI agents and plugins to meet unique security needs. Threat intelligence reports Microsoft Defender XDR customers can use threat analytics reports in the Defender portal (requires license for at least one Defender XDR product) to get the most up-to-date information about the activity and techniques discussed in this blog. These reports provide intelligence, protection information, and recommended actions to prevent, mitigate, or respond to associated threats found in customer environments. Activity Profile: Stolen application credentials used to sign in as Entra ID workload identities and access Azure, Microsoft 365 resources Microsoft Security Copilot customers can also use the Microsoft Security Copilot integration in Microsoft Defender Threat Intelligence, either in the Security Copilot standalone portal or in the embedded experience in the Microsoft Defender portal to get more information about this threat. Learn more For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . The post Threat actors use agentic AI tooling to find and abuse exposed secrets appeared first on Microsoft Security Blog .",
+      "title": "Turning Up the Heat: Inside the Attacks on Europe\u2019s Refrigeration System",
+      "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=189049",
+      "date": "Fri, 06 Nov 2026 21:15:09 +0000",
+      "detail": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe\u2019s Refrigeration System appeared first on Unit 42 .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Microsoft Security",
-      "published": "2026-11-05T23:46:50+00:00"
+      "source": "Unit 42",
+      "published": "2026-11-06T21:15:09+00:00"
     },
     {
       "title": "Virtualization security: attack layers and misconfiguration impact",
@@ -34,6 +52,39 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-11-06T10:00:12+00:00"
+    },
+    {
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "date": "Fri, 06 Nov 2026 19:00:55 -0500",
+      "detail": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-07T00:00:55+00:00"
+    },
+    {
+      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "date": "Fri, 06 Nov 2026 17:27:25 -0500",
+      "detail": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-06T22:27:25+00:00"
+    },
+    {
+      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "date": "Fri, 06 Nov 2026 15:24:19 -0500",
+      "detail": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-06T20:24:19+00:00"
     },
     {
       "title": "Fake security tools on GitHub push backdoors and infostealers",
@@ -56,39 +107,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-11-06T17:04:23+00:00"
-    },
-    {
-      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-      "date": "Fri, 06 Nov 2026 10:25:31 -0500",
-      "detail": "\u200bVeeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-06T15:25:31+00:00"
-    },
-    {
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "date": "Fri, 06 Nov 2026 10:00:10 -0500",
-      "detail": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-06T15:00:10+00:00"
-    },
-    {
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "date": "Fri, 06 Nov 2026 09:17:07 -0500",
-      "detail": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-06T14:17:07+00:00"
     },
     {
       "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
@@ -146,89 +164,67 @@
       "published": "2026-11-06T13:02:26+00:00"
     },
     {
-      "title": "B... law By leakeddata",
-      "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "e6267676e342b46279f8b87ac9322e4739d7a14192fa9fc3de20175a12708821",
-      "date": "Fri, 06 Nov 2026 17:25:08 GMT",
-      "detail": "To be announced... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Acondistec By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "98ba699a03e503e4e969b745e9304b7b1d69adaa121d7b6e1b113e7d7089059f",
+      "date": "Sat, 07 Nov 2026 00:28:57 GMT",
+      "detail": "Software Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-06T17:25:08+00:00"
+      "published": "2026-11-07T00:28:57+00:00"
     },
     {
-      "title": "Ligne Roset By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "6fb20e2f4253477d9d6b312adf285539f6ab9f163907377f4fa03fc8113a2f69",
-      "date": "Fri, 06 Nov 2026 16:25:00 GMT",
-      "detail": "Since 1973, Ligne Roset has stood by these intrinsic values and has worked with only the most exciting and talented designers.We will upload 150gb of corporate data soon. Employee personal information (passport, DLs), contracts and agreements, financial, confidential files, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Xinos Construction By genesis",
+      "url": "https://www.ransomlook.io//group/genesis",
+      "feed_id": "13e6ccbd80beb6596be31384cc85e97bf4427a853dc26994265da9bb9fd09a4a",
+      "date": "Fri, 06 Nov 2026 21:25:18 GMT",
+      "detail": "A construction management company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-06T16:25:00+00:00"
+      "published": "2026-11-06T21:25:18+00:00"
     },
     {
-      "title": "Houston Machine and Thread By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "c32a21eb452a646d4876526617fcf57252618bf217796194c5ed8522143ac901",
-      "date": "Fri, 06 Nov 2026 16:24:59 GMT",
-      "detail": "Houston Machine and Thread was founded by industry veterans in 2024 to bring a simplified, highquality experience to the procurement and manufacturing of studs, tap ends, and machined parts.We will upload 10gb of corporate data soon. Employee personal information (passport, DLs, SSNs,I9 complete forms and so on), contracts and agreements, financial, confidential agreement, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Insation Technologies By genesis",
+      "url": "https://www.ransomlook.io//group/genesis",
+      "feed_id": "38f9d23776bd87c0b67182c08e74107d5f91687a58f2a61d3811349e5338f196",
+      "date": "Fri, 06 Nov 2026 21:25:17 GMT",
+      "detail": "A provider of IT services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-06T16:24:59+00:00"
+      "published": "2026-11-06T21:25:17+00:00"
     },
     {
-      "title": "Conecuh Sausage Company Inc By interlock",
-      "url": "https://www.ransomlook.io//group/interlock",
-      "feed_id": "aaaa09b3fa39fd602b6316df30298e59a295a69af118d717fe9f238226fb0877",
-      "date": "Fri, 06 Nov 2026 15:27:49 GMT",
-      "detail": "https://conecuhsausage.com/ Conecuh Sausage, a family-owned sausage company in Alabama, is known for its hickory-smoked pork sausages made with a proprietary, closely guarded seasoning blend. However, due to a lax approach to security, customer data, payment information, secret recipes/intellectual property, projects, personnel records, and supplier contracts were compromised and are now exposed. This information breach will result in legal notice/fines, financial losses, reputational damage, and loss of competitive advantage. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Comercial en Fletes M\u00e9xico, S.A. de C.V. By eclipse",
+      "url": "https://www.ransomlook.io//group/eclipse",
+      "feed_id": "9e0acb8a9da762fb45ae59ea300a5a118b23c4424f3989c0bf111e81870325c7",
+      "date": "Fri, 06 Nov 2026 21:25:15 GMT",
+      "detail": "Comercial en Fletes M\u00e9xico, S.A. de C.V. (widely recognized by its initials CFM) is a highly established regional leader in the federal freight transport and large-scale logistics sector. Headquartered in Villahermosa, Tabasco, the company proudly operates as a 100% Tabasque\u00f1a enterprise, combining deep regional expertise with a robust family-owned corporate culture that spans over five decades of operational history. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-06T15:27:49+00:00"
+      "published": "2026-11-06T21:25:15+00:00"
     },
     {
-      "title": "Algonomy By direwolf",
-      "url": "https://www.ransomlook.io//group/direwolf",
-      "feed_id": "1e0d17839c3e20d7f964dc90b26bf75f6d75a9710ee5d30ba30cc358ef89412b",
-      "date": "Fri, 06 Nov 2026 15:27:42 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Mutares.com By brain cipher",
+      "url": "https://www.ransomlook.io//group/brain%20cipher",
+      "feed_id": "a793d4b01af92bd4a80e34aca33aa1724463fc7feb27e1b3b5fb748b1f552e60",
+      "date": "Fri, 06 Nov 2026 21:25:09 GMT",
+      "detail": "105GB some very interesting data. If you think you are here by mistake, please contact us at brain.dataleak@cyberfear.com Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-06T15:27:42+00:00"
-    },
-    {
-      "title": "Wachtell, Lipton, Rosen & Katz (SilentRansomGroup)",
-      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
-      "feed_id": "2560fdb932b0fee54b803ee0e142271d",
-      "date": "Fri, 06 Nov 2026 19:04:07 +0000",
-      "detail": "Intelligence Summary: Prestigious law firm headquartered in New York City, generating $1.39 B in revenue. Threat Syndicate: SilentRansomGroup Claimed Victim: Wachtell, Lipton, Rosen & Katz Target Domain: law.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-06 19:04:07.826649 Post URL: https://business-data-leaks.com/about#leak-wachtell--lipton--rosen---katz Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-06T19:04:07+00:00"
-    },
-    {
-      "title": "Tucker Ellis (SilentRansomGroup)",
-      "url": "https://cti.fyi/groups/SilentRansomGroup.html",
-      "feed_id": "d3418156d343f4e1894f364a80934168",
-      "date": "Fri, 06 Nov 2026 19:04:07 +0000",
-      "detail": "Intelligence Summary: A law firm in the United States specializing in corporate and commercial legal services. Threat Syndicate: SilentRansomGroup Claimed Victim: Tucker Ellis Canonical Organization: Tucker Ellis LLP Target Domain: tuckerellis.com Industry Sector: Legal Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-06 19:04:07.826649 Post URL: https://business-data-leaks.com/about#leak-tucker-ellis Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-06T19:04:07+00:00"
+      "published": "2026-11-06T21:25:09+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -255,8 +251,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -269,8 +265,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -311,15 +307,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 20,
+      "recent": 23,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
