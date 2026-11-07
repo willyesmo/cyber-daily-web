@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-11-07 10:29 UTC
+CYBER DAILY — 2026-11-07 17:47 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-18 entries selected. Feed excerpts, not full-article or AI analysis.
+15 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-19868: SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability
@@ -27,6 +27,18 @@ Unit 42 examines recent cyberattacks targeting European refrigeration systems an
 CVEs: Not stated in feed
 https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
 
+Hackers pull off $133 million French bank heist via service provider
+BleepingComputer | Research / advisory | 2026-11-07T15:25:35+00:00
+French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/
+
+CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands
+BleepingComputer | Research / advisory | 2026-11-07T14:10:19+00:00
+Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/
+
 SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks
 BleepingComputer | Research / advisory | 2026-11-07T00:00:55+00:00
 SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]
@@ -45,18 +57,6 @@ OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has di
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/
 
-Fake security tools on GitHub push backdoors and infostealers
-BleepingComputer | Research / advisory | 2026-11-06T18:46:52+00:00
-Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/
-
-QNAP says hackers breaching NAS devices in Plex2Shell attacks
-BleepingComputer | Research / advisory | 2026-11-06T17:04:23+00:00
-QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/
-
 SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
 SecurityWeek | Research / advisory | 2026-11-07T10:16:23+00:00
 CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
@@ -69,53 +69,35 @@ The emergency package comes after dozens of companies and government agencies we
 CVEs: Not stated in feed
 https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/
 
-In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days
-SecurityWeek | Research / advisory | 2026-11-06T14:40:09+00:00
-Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/
-
-DigiCert Data Breach Impacts Business Customer Information
-SecurityWeek | Research / advisory | 2026-11-06T14:00:07+00:00
-Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/
-
-OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line
-SecurityWeek | Research / advisory | 2026-11-06T13:19:52+00:00
-Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/
-
-Treuhand & Immobilien Abt AG By rhysida
-RansomLook | Ransomware claim / observation | 2026-11-07T08:26:45+00:00
-Treuhand & Immobilien Abt AG Treuhand & Immobilien Abt AG is your partner and advisor for private individuals as well as small and medium-sized enterprises (SMEs). More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Tribunal de Justica do Estado de Minas Gerais By rhysida
+RansomLook | Ransomware claim / observation | 2026-11-07T13:30:50+00:00
+Tribunal de Justica do Estado de Minas Gerais TJMG provides judicial services and information to citizens and legal professionals in Minas Gerais. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/rhysida
 
-maersk By whitearmor
-RansomLook | Ransomware claim / observation | 2026-11-07T04:29:06+00:00
-Maersk is one of the world's two largest container lines: founded in 1904, headquartered in Copenhagen, roughly 100,000 employees in about 130 countries, and USD 55.5 billion in revenue in 2024, with around USD 12 billion of EBITDA. Your contract-logistics arm, the former LF Logistics, runs fulfilment for many of the world's largest consumer brands. Five million dollars is roughly four hours of that EBITDA. We hold approximately 100 GB of data from your OCF / LF Logistics platform: - 29,297 driver records, 16,093 of them with plaintext passwords - 16,123 staff accounts, including 33 SUPER_ADMIN accounts - 18,913 delivery recipients with names and street addresses - 64,665 signed delivery receipts (214,107 documents in total) - 14.44 million inventory rows, 189,248 purchase orders, 334,432 ASNs - 27,842 mobile device logs containing phone numbers, emails and IMEIs You have 30 days to contact us and pay USD 5,000,000 in bitcoin Emails with instructions will be sent to you shortly, if you have failed to receive them, Contact: Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Email: whitearmorrxd@proton.me Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Oak Green School By qilin
+RansomLook | Ransomware claim / observation | 2026-11-07T13:30:46+00:00
+Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/whitearmor
+https://www.ransomlook.io//group/qilin
 
-IMD Group By nightspire
-RansomLook | Ransomware claim / observation | 2026-11-07T02:27:24+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Gandol Doors By qilin
+RansomLook | Ransomware claim / observation | 2026-11-07T13:30:46+00:00
+Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/nightspire
+https://www.ransomlook.io//group/qilin
 
-Meller Group By nightspire
-RansomLook | Ransomware claim / observation | 2026-11-07T02:27:23+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Amber Management Ltd By qilin
+RansomLook | Ransomware claim / observation | 2026-11-07T13:30:45+00:00
+Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/nightspire
+https://www.ransomlook.io//group/qilin
 
-Gestimed By nightspire
-RansomLook | Ransomware claim / observation | 2026-11-07T02:27:22+00:00
- Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Autohaus Arnold By payload
+RansomLook | Ransomware claim / observation | 2026-11-07T13:30:43+00:00
+Autohaus Arnold (vw-arnold.de) is a German automotive dealership and service provider based in Bavaria, primarily serving the Höchstadt an der Aisch region. The company operates as an authorized Volkswagen Group partner, offering sales of both new and pre-owned vehicles from brands like Volkswagen, Volkswagen Commercial Vehicles, and Audi. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/nightspire
+https://www.ransomlook.io//group/payload
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=1; shown=1; undated excluded=0
@@ -128,7 +110,7 @@ Unit 42: OK; recent=1; shown=1; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=9; shown=5; undated excluded=0
-SecurityWeek: OK; recent=9; shown=5; undated excluded=0
-RansomLook: OK; recent=25; shown=5; undated excluded=0
+BleepingComputer: OK; recent=6; shown=5; undated excluded=0
+SecurityWeek: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=33; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0

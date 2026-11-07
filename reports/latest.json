@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T10:29:04.119599+00:00",
+  "generated": "2026-11-07T17:47:16.533255+00:00",
   "hours": 24,
   "items": [
     {
@@ -43,6 +43,28 @@
       "published": "2026-11-06T21:15:09+00:00"
     },
     {
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "date": "Sat, 07 Nov 2026 10:25:35 -0500",
+      "detail": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-07T15:25:35+00:00"
+    },
+    {
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "date": "Sat, 07 Nov 2026 09:10:19 -0500",
+      "detail": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-07T14:10:19+00:00"
+    },
+    {
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
       "feed_id": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -76,28 +98,6 @@
       "published": "2026-11-06T20:24:19+00:00"
     },
     {
-      "title": "Fake security tools on GitHub push backdoors and infostealers",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-      "date": "Fri, 06 Nov 2026 13:46:52 -0500",
-      "detail": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-06T18:46:52+00:00"
-    },
-    {
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "date": "Fri, 06 Nov 2026 12:04:23 -0500",
-      "detail": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-06T17:04:23+00:00"
-    },
-    {
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
       "feed_id": "https://www.securityweek.com/?p=50612",
@@ -120,92 +120,59 @@
       "published": "2026-11-06T18:28:41+00:00"
     },
     {
-      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-      "feed_id": "https://www.securityweek.com/?p=50599",
-      "date": "Fri, 06 Nov 2026 14:40:09 +0000",
-      "detail": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise \u2018hello\u2019 attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-06T14:40:09+00:00"
-    },
-    {
-      "title": "DigiCert Data Breach Impacts Business Customer Information",
-      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
-      "feed_id": "https://www.securityweek.com/?p=50597",
-      "date": "Fri, 06 Nov 2026 14:00:07 +0000",
-      "detail": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-06T14:00:07+00:00"
-    },
-    {
-      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-      "feed_id": "https://www.securityweek.com/?p=50594",
-      "date": "Fri, 06 Nov 2026 13:19:52 +0000",
-      "detail": "Rated Critical for cybersecurity, OpenAI\u2019s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-06T13:19:52+00:00"
-    },
-    {
-      "title": "Treuhand & Immobilien Abt AG By rhysida",
+      "title": "Tribunal de Justica do Estado de Minas Gerais By rhysida",
       "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "c855dfbc807e9d53d98f5b28a944a57d65bc53229dd262a0e8a59ec809eb7602",
-      "date": "Sat, 07 Nov 2026 08:26:45 GMT",
-      "detail": "Treuhand & Immobilien Abt AG Treuhand & Immobilien Abt AG is your partner and advisor for private individuals as well as small and medium-sized enterprises (SMEs). More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "063d5279ff4faa36a5475fe94d856abc089f15043c8a628e7d96cf4a912ff4d0",
+      "date": "Sat, 07 Nov 2026 13:30:50 GMT",
+      "detail": "Tribunal de Justica do Estado de Minas Gerais TJMG provides judicial services and information to citizens and legal professionals in Minas Gerais. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T08:26:45+00:00"
+      "published": "2026-11-07T13:30:50+00:00"
     },
     {
-      "title": "maersk By whitearmor",
-      "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "296b0b9fe66543cc7696bdc3f83163f1b38ebd0165349357c6bbe9cc2100144e",
-      "date": "Sat, 07 Nov 2026 04:29:06 GMT",
-      "detail": "Maersk is one of the world's two largest container lines: founded in 1904, headquartered in Copenhagen, roughly 100,000 employees in about 130 countries, and USD 55.5 billion in revenue in 2024, with around USD 12 billion of EBITDA. Your contract-logistics arm, the former LF Logistics, runs fulfilment for many of the world's largest consumer brands. Five million dollars is roughly four hours of that EBITDA. We hold approximately 100 GB of data from your OCF / LF Logistics platform: - 29,297 driver records, 16,093 of them with plaintext passwords - 16,123 staff accounts, including 33 SUPER_ADMIN accounts - 18,913 delivery recipients with names and street addresses - 64,665 signed delivery receipts (214,107 documents in total) - 14.44 million inventory rows, 189,248 purchase orders, 334,432 ASNs - 27,842 mobile device logs containing phone numbers, emails and IMEIs You have 30 days to contact us and pay USD 5,000,000 in bitcoin Emails with instructions will be sent to you shortly, if you have failed to receive them, Contact: Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Email: whitearmorrxd@proton.me Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Oak Green School By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "ba2c10393295589c371e387e093f1e3f8fec05ab74fd8fb64b148533157f72e1",
+      "date": "Sat, 07 Nov 2026 13:30:46 GMT",
+      "detail": "Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T04:29:06+00:00"
+      "published": "2026-11-07T13:30:46+00:00"
     },
     {
-      "title": "IMD Group By nightspire",
-      "url": "https://www.ransomlook.io//group/nightspire",
-      "feed_id": "969cf066b616ed7e72e1368e02591829cdbbdefc7e6e411d0a859195f70b2608",
-      "date": "Sat, 07 Nov 2026 02:27:24 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Gandol Doors By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "815393b37a5a42d0230fbd8f9d422e68386c25d269945b82be23587f2687b951",
+      "date": "Sat, 07 Nov 2026 13:30:46 GMT",
+      "detail": "Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T02:27:24+00:00"
+      "published": "2026-11-07T13:30:46+00:00"
     },
     {
-      "title": "Meller Group By nightspire",
-      "url": "https://www.ransomlook.io//group/nightspire",
-      "feed_id": "b25547f3a04385aa2424e2f29c5d5390ae4a94f6b85ac7f3368a53952741b7fb",
-      "date": "Sat, 07 Nov 2026 02:27:23 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Amber Management Ltd By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "9dfdca7f5dffb9a25f4cf602d38edaa55bedc5b4555d38f1918d813d21106a4d",
+      "date": "Sat, 07 Nov 2026 13:30:45 GMT",
+      "detail": "Architecture, Engineering & Design Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T02:27:23+00:00"
+      "published": "2026-11-07T13:30:45+00:00"
     },
     {
-      "title": "Gestimed By nightspire",
-      "url": "https://www.ransomlook.io//group/nightspire",
-      "feed_id": "3260525a7134c13c18401c5e57fbeb6d49b21e8fdbc9e97a4c919d7a76bf7723",
-      "date": "Sat, 07 Nov 2026 02:27:22 GMT",
-      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Autohaus Arnold By payload",
+      "url": "https://www.ransomlook.io//group/payload",
+      "feed_id": "e25714f13577cc5bf855fe0968c3788351dba169ef0158e4f6b25e520265d9b4",
+      "date": "Sat, 07 Nov 2026 13:30:43 GMT",
+      "detail": "Autohaus Arnold (vw-arnold.de) is a German automotive dealership and service provider based in Bavaria, primarily serving the H\u00f6chstadt an der Aisch region. The company operates as an authorized Volkswagen Group partner, offering sales of both new and pre-owned vehicles from brands like Volkswagen, Volkswagen Commercial Vehicles, and Audi. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T02:27:22+00:00"
+      "published": "2026-11-07T13:30:43+00:00"
     }
   ],
   "sources": [
@@ -282,21 +249,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 9,
+      "recent": 6,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 9,
-      "shown": 5,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 25,
+      "recent": 33,
       "shown": 5,
       "undated": 0
     },
