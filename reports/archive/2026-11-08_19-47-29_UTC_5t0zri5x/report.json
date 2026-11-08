@@ -1,0 +1,216 @@
+{
+  "generated": "2026-11-08T19:47:29.359358+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
+      "feed_id": "https://isc.sans.edu/diary/rss/33498",
+      "date": "Sun, 08 Nov 2026 15:44:33 GMT",
+      "detail": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-08T15:44:33+00:00"
+    },
+    {
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "date": "Sun, 08 Nov 2026 10:43:08 -0500",
+      "detail": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-08T15:43:08+00:00"
+    },
+    {
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "feed_id": "https://www.securityweek.com/?p=50608",
+      "date": "Sun, 08 Nov 2026 12:14:00 +0000",
+      "detail": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-08T12:14:00+00:00"
+    },
+    {
+      "title": "Coopebis By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "c3ac900d3af8603376f5e320d6c1b021339749e50d5567af33108d25490e7004",
+      "date": "Sun, 08 Nov 2026 19:27:07 GMT",
+      "detail": "Coopebis is a Colombian savings and credit cooperative (Cooperativa de Ahorro y Cr\u00e9dito) providing financial services and social benefits to its members. The organization offers loans, savings accounts (including specialized plans for children), and various welfare benefits. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T19:27:07+00:00"
+    },
+    {
+      "title": "Calmont Wire & Cable By akira",
+      "url": "https://www.ransomlook.io//group/akira",
+      "feed_id": "119346ffe5443e96643e5149311f66f3348e75532ca709afd1197765383c87a6",
+      "date": "Sun, 08 Nov 2026 19:27:02 GMT",
+      "detail": "Calmont Wire & Cable is a leading custom wire and cable manufacturer known for its innovative solutions in medical, robotics, aerospace, military, and sensor applications. The company offersa wide range of products including completely custom cables, ultraflexible wires, and high-temperature cables, as well as services such as custom design, prototyping, and testing.We will upload 10gb of corporate data soon. Employee personal information (passport, DLs, SSNs), contracts, customer information, financial, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T19:27:02+00:00"
+    },
+    {
+      "title": "Trinity Custom Homes - USA By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "631de2f1493980aed9502319371e9847cca1d618dc6479af15a6b59288444071",
+      "date": "Sun, 08 Nov 2026 16:25:14 GMT",
+      "detail": "Trinity Custom Homes is a custom home builder that specializes in building 100% custom, solid wood homes directly on the customer\u2019s land across several states in the Southeast, including Georgia, Alabama, North Carolina, South Carolina, and Tennessee. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T16:25:14+00:00"
+    },
+    {
+      "title": "IE & E Industries By orova",
+      "url": "https://www.ransomlook.io//group/orova",
+      "feed_id": "16533350ebbf1eb813771ff7822fedfece301be6d7e04f18f59d98c2ed1a8432",
+      "date": "Sun, 08 Nov 2026 15:25:34 GMT",
+      "detail": "At IE & E, we are committed to providing our customers with the best mechanical and electromechanical engineering services, advanced metrology services for all industries, and standard optical comparator charts and screens. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T15:25:34+00:00"
+    },
+    {
+      "title": "starmark.co.th By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "aca5cec1e98b1ff4dc25f9ffd283ef2682d0d6d595e9042098545ec75ba82309",
+      "date": "Sun, 08 Nov 2026 13:25:27 GMT",
+      "detail": "STARMARK specializes in premium furniture manufacturing and imports, offering a wide range of produc... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T13:25:27+00:00"
+    },
+    {
+      "title": "NoseTea (Deadlock)",
+      "url": "https://cti.fyi/groups/Deadlock.html",
+      "feed_id": "9ac829ba4eebd4798270d0a3d9d8734e",
+      "date": "Sun, 08 Nov 2026 19:04:10 +0000",
+      "detail": "Intelligence Summary: A Thai tea retailer with a detailed internal folder hierarchy. Threat Syndicate: Deadlock Claimed Victim: NoseTea Industry Sector: Other Geographic Location: \ud83c\uddf9\ud83c\udded TH Date Discovered: 2026-11-08 19:04:10.620207 Post URL: http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOm5vc2V0ZWFkYXRhfGV1LWNlbnRyYWwtMXxDQVpPTlVVVkxXVk9IUjFGMlJWSXxmMTNLRmdXMkVBTlFNMVFzR0pDelRmdk1oYkpaQ1F1UjQ3TE9YTEI0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-08T19:04:10+00:00"
+    },
+    {
+      "title": "Fidex (Deadlock)",
+      "url": "https://cti.fyi/groups/Deadlock.html",
+      "feed_id": "3bde73b7e34ad693af859ae1768c2720",
+      "date": "Sun, 08 Nov 2026 19:04:10 +0000",
+      "detail": "Intelligence Summary: Fidex is a private organization operating under the name Fidex. Threat Syndicate: Deadlock Claimed Victim: Fidex Date Discovered: 2026-11-08 19:04:10.620207 Post URL: http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOm1leGJsb2d8ZXUtY2VudHJhbC0xfDdYUkg3STlNNDBaTVZZTjNaNUJafHpwcVZSZVBuSUZNOHljTEo4QkpGV3F6b2t2cEZ0RzBQS2V1R3lKaXI%3D Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-08T19:04:10+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 26,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    }
+  ]
+}
