@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T06:21:58.021131+00:00",
+  "generated": "2026-11-08T13:44:02.612147+00:00",
   "hours": 24,
   "items": [
     {
@@ -25,70 +25,70 @@
       "published": "2026-11-07T14:10:19+00:00"
     },
     {
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-      "feed_id": "https://www.securityweek.com/?p=50612",
-      "date": "Sat, 07 Nov 2026 10:16:23 +0000",
-      "detail": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "feed_id": "https://www.securityweek.com/?p=50608",
+      "date": "Sun, 08 Nov 2026 12:14:00 +0000",
+      "detail": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-07T10:16:23+00:00"
+      "published": "2026-11-08T12:14:00+00:00"
     },
     {
-      "title": "Cl\u00ednica La Sagrada Familia (Colombia) By whitearmor",
-      "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "f11b8cc498d29d1c35bdc8c063183a4a16a2f892a2ba151c56e6c69d76cdd2a7",
-      "date": "Sun, 08 Nov 2026 04:25:13 GMT",
-      "detail": "Cl\u00ednica La Sagrada Familia S.A.S, a private healthcare provider in Colombia's Eje Cafetero region. It offers medium and high-complexity medical services, online appointment scheduling, and features advanced technology like a 160-slice CT scanner. We hold, in short: 254,670 patient identities with Colombian government IDs, ~598.7M rows of clinical + financial + identity data across 4,573 tables from a Colombian hospital's full production database, including MD5-hashed staff credentials, 691K admissions, 34.5M medical-history rows, 1.5M invoices, and complete pharmacy/lab operations. We demand $2,000,000 in BTC, emails with instructions have been sent to you. If you have not received them, you can find our contacts below. Email: whitearmorxd@onionmail.org Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "starmark.co.th By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "aca5cec1e98b1ff4dc25f9ffd283ef2682d0d6d595e9042098545ec75ba82309",
+      "date": "Sun, 08 Nov 2026 13:25:27 GMT",
+      "detail": "STARMARK specializes in premium furniture manufacturing and imports, offering a wide range of produc... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-08T04:25:13+00:00"
+      "published": "2026-11-08T13:25:27+00:00"
     },
     {
-      "title": "Company #147 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "0a1256328b59a30c8696ce6657fac38cfeb386838aaaed7f29d14709aaee429c",
-      "date": "Sat, 07 Nov 2026 22:27:11 GMT",
-      "detail": "coffee retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "grupotelles.com By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "c29a5e5613dbab0337cbd357308433105d6c8e6eb495d2333be2f6875397549f",
+      "date": "Sun, 08 Nov 2026 13:25:26 GMT",
+      "detail": "Grupo Telles is a historic Brazilian company with 180 years of experience, operating across various... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T22:27:11+00:00"
+      "published": "2026-11-08T13:25:26+00:00"
     },
     {
-      "title": "Company #146 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "e97505e90ae7817541f3214dee4c423d4135537f7ef11d6d26265d99ce656625",
-      "date": "Sat, 07 Nov 2026 22:27:10 GMT",
-      "detail": "appliance and electronics retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "yatra.com By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "ea75ef5e52bdfc7ad4ff7f852ef2be0cba30c6d5daa967163a42919888644394",
+      "date": "Sun, 08 Nov 2026 13:25:25 GMT",
+      "detail": "Yatra is an online travel agent company in India. Based in Gurugram, India , Yatra is a one-stop-sho... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T22:27:10+00:00"
+      "published": "2026-11-08T13:25:25+00:00"
     },
     {
-      "title": "Company #145 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "4452d87ebf98bdd37008e9975189c48e5a3365044d8f1e85a4d1e0dbbf1e3463",
-      "date": "Sat, 07 Nov 2026 21:28:02 GMT",
-      "detail": "outdoor footwear and apparel \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "sunclinicallaboratories.com By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "050760f60be6cd8f250bb3dc3fe28daef2afbd25b7d33e9470210e306064d078",
+      "date": "Sun, 08 Nov 2026 13:25:25 GMT",
+      "detail": "Sun Clinical Laboratories is a Federal (Medicare) and State (Medi-Cal) certified full service lab th... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T21:28:02+00:00"
+      "published": "2026-11-08T13:25:25+00:00"
     },
     {
-      "title": "Company #144 By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "d637e7bf10ff26c1d87d40c223e9f4b0799cf79c782b480d17a5e2fd26ca7862",
-      "date": "Sat, 07 Nov 2026 21:28:02 GMT",
-      "detail": "athleisure and sportswear retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Our Twitter By byod",
+      "url": "https://www.ransomlook.io//group/byod",
+      "feed_id": "e892ea7bcd4f5e5b55d5ffa907a23898b4fec6cc251a485b4283b5b922945aed",
+      "date": "Sun, 08 Nov 2026 12:26:41 GMT",
+      "detail": "[PSA] https://x.com/0x0444777 follow it up, will be more updates there than here, more of what we do behind the scenes, how we work etc. Thank you. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-07T21:28:02+00:00"
+      "published": "2026-11-08T12:26:41+00:00"
     }
   ],
   "sources": [
@@ -179,7 +179,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 38,
+      "recent": 26,
       "shown": 5,
       "undated": 0
     },

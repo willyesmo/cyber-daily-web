@@ -1,0 +1,68 @@
+CYBER DAILY — 2026-11-08 13:44 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+8 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Hackers pull off $133 million French bank heist via service provider
+BleepingComputer | Research / advisory | 2026-11-07T15:25:35+00:00
+French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/
+
+CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands
+BleepingComputer | Research / advisory | 2026-11-07T14:10:19+00:00
+Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/
+
+Brava Security Emerges From Stealth With $15 Million in Funding
+SecurityWeek | Research / advisory | 2026-11-08T12:14:00+00:00
+Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/
+
+starmark.co.th By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-08T13:25:27+00:00
+STARMARK specializes in premium furniture manufacturing and imports, offering a wide range of produc... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
+grupotelles.com By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-08T13:25:26+00:00
+Grupo Telles is a historic Brazilian company with 180 years of experience, operating across various... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
+yatra.com By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-08T13:25:25+00:00
+Yatra is an online travel agent company in India. Based in Gurugram, India , Yatra is a one-stop-sho... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
+sunclinicallaboratories.com By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-08T13:25:25+00:00
+Sun Clinical Laboratories is a Federal (Medicare) and State (Medi-Cal) certified full service lab th... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
+Our Twitter By byod
+RansomLook | Ransomware claim / observation | 2026-11-08T12:26:41+00:00
+[PSA] https://x.com/0x0444777 follow it up, will be more updates there than here, more of what we do behind the scenes, how we work etc. Thank you. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/byod
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=2; shown=2; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=26; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
