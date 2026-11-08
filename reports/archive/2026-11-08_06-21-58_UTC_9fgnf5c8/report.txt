@@ -1,0 +1,68 @@
+CYBER DAILY — 2026-11-08 06:21 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+8 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Hackers pull off $133 million French bank heist via service provider
+BleepingComputer | Research / advisory | 2026-11-07T15:25:35+00:00
+French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/
+
+CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands
+BleepingComputer | Research / advisory | 2026-11-07T14:10:19+00:00
+Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/
+
+SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
+SecurityWeek | Research / advisory | 2026-11-07T10:16:23+00:00
+CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
+CVEs: CVE-2026-19868
+https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+
+Clínica La Sagrada Familia (Colombia) By whitearmor
+RansomLook | Ransomware claim / observation | 2026-11-08T04:25:13+00:00
+Clínica La Sagrada Familia S.A.S, a private healthcare provider in Colombia's Eje Cafetero region. It offers medium and high-complexity medical services, online appointment scheduling, and features advanced technology like a 160-slice CT scanner. We hold, in short: 254,670 patient identities with Colombian government IDs, ~598.7M rows of clinical + financial + identity data across 4,573 tables from a Colombian hospital's full production database, including MD5-hashed staff credentials, 691K admissions, 34.5M medical-history rows, 1.5M invoices, and complete pharmacy/lab operations. We demand $2,000,000 in BTC, emails with instructions have been sent to you. If you have not received them, you can find our contacts below. Email: whitearmorxd@onionmail.org Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/whitearmor
+
+Company #147 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-07T22:27:11+00:00
+coffee retail · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #146 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-07T22:27:10+00:00
+appliance and electronics retail · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #145 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-07T21:28:02+00:00
+outdoor footwear and apparel · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #144 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-07T21:28:02+00:00
+athleisure and sportswear retail · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=2; shown=2; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=38; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

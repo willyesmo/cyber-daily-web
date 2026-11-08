@@ -1,0 +1,194 @@
+{
+  "generated": "2026-11-08T06:21:58.021131+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "date": "Sat, 07 Nov 2026 10:25:35 -0500",
+      "detail": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-07T15:25:35+00:00"
+    },
+    {
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "date": "Sat, 07 Nov 2026 09:10:19 -0500",
+      "detail": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-07T14:10:19+00:00"
+    },
+    {
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "feed_id": "https://www.securityweek.com/?p=50612",
+      "date": "Sat, 07 Nov 2026 10:16:23 +0000",
+      "detail": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-07T10:16:23+00:00"
+    },
+    {
+      "title": "Cl\u00ednica La Sagrada Familia (Colombia) By whitearmor",
+      "url": "https://www.ransomlook.io//group/whitearmor",
+      "feed_id": "f11b8cc498d29d1c35bdc8c063183a4a16a2f892a2ba151c56e6c69d76cdd2a7",
+      "date": "Sun, 08 Nov 2026 04:25:13 GMT",
+      "detail": "Cl\u00ednica La Sagrada Familia S.A.S, a private healthcare provider in Colombia's Eje Cafetero region. It offers medium and high-complexity medical services, online appointment scheduling, and features advanced technology like a 160-slice CT scanner. We hold, in short: 254,670 patient identities with Colombian government IDs, ~598.7M rows of clinical + financial + identity data across 4,573 tables from a Colombian hospital's full production database, including MD5-hashed staff credentials, 691K admissions, 34.5M medical-history rows, 1.5M invoices, and complete pharmacy/lab operations. We demand $2,000,000 in BTC, emails with instructions have been sent to you. If you have not received them, you can find our contacts below. Email: whitearmorxd@onionmail.org Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T04:25:13+00:00"
+    },
+    {
+      "title": "Company #147 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "0a1256328b59a30c8696ce6657fac38cfeb386838aaaed7f29d14709aaee429c",
+      "date": "Sat, 07 Nov 2026 22:27:11 GMT",
+      "detail": "coffee retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-07T22:27:11+00:00"
+    },
+    {
+      "title": "Company #146 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "e97505e90ae7817541f3214dee4c423d4135537f7ef11d6d26265d99ce656625",
+      "date": "Sat, 07 Nov 2026 22:27:10 GMT",
+      "detail": "appliance and electronics retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-07T22:27:10+00:00"
+    },
+    {
+      "title": "Company #145 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "4452d87ebf98bdd37008e9975189c48e5a3365044d8f1e85a4d1e0dbbf1e3463",
+      "date": "Sat, 07 Nov 2026 21:28:02 GMT",
+      "detail": "outdoor footwear and apparel \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-07T21:28:02+00:00"
+    },
+    {
+      "title": "Company #144 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "d637e7bf10ff26c1d87d40c223e9f4b0799cf79c782b480d17a5e2fd26ca7862",
+      "date": "Sat, 07 Nov 2026 21:28:02 GMT",
+      "detail": "athleisure and sportswear retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-07T21:28:02+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 38,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}
