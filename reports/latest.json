@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T19:47:29.359358+00:00",
+  "generated": "2026-11-09T01:01:32.294646+00:00",
   "hours": 24,
   "items": [
     {
@@ -36,6 +36,50 @@
       "published": "2026-11-08T12:14:00+00:00"
     },
     {
+      "title": "Cuomo LLC By anubis",
+      "url": "https://www.ransomlook.io//group/anubis",
+      "feed_id": "c40e7ca0374cc4f99642caf6274a185b425a9ed61d4d805a1ba0b16181a4b7d9",
+      "date": "Mon, 09 Nov 2026 00:22:58 GMT",
+      "detail": "Inside a law firm data breach. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T00:22:58+00:00"
+    },
+    {
+      "title": "Fidex By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "768c588e68d19dcbdd17a2ac5c6e373bef9b4ac3134952f6ae46e54ac13ff6ff",
+      "date": "Sun, 08 Nov 2026 20:25:42 GMT",
+      "detail": "Fidex Seguros y Fianzas is a prominent Mexican insurance broker and risk management advisory firm. Established in 2002, the company specializes in tailored corporate and personal insurance solutions, bond underwriting, and corporate employee benefits management. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T20:25:42+00:00"
+    },
+    {
+      "title": "NoseTea By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "260cddd601ef39c36ce15a4f0e03e28e2a80e27f626f3d9a1716914b4df3bcd4",
+      "date": "Sun, 08 Nov 2026 20:25:41 GMT",
+      "detail": "NOSE TEA (THAILAND) CO LTD. is a highly popular premium cheese tea brand from Thailand. Known locally as \"\u0e0a\u0e32\u0e08\u0e21\u0e39\u0e01\u0e40\u0e02\u0e35\u0e22\u0e27\" (Green Nose Tea), the brand specializes in fruit infusions and milk teas paired with its signature rich, velvety cream cheese topping. Manufacturing and retailing of non-alcoholic beverages, tea, coffee, bakery, and ice cream Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T20:25:41+00:00"
+    },
+    {
+      "title": "tekra.com.pl By cloak",
+      "url": "https://www.ransomlook.io//group/cloak",
+      "feed_id": "4b8eb97d4fc2ce21910d06efad71dcda6508cd97ef7c76109d20bf38a4c32945",
+      "date": "Sun, 08 Nov 2026 20:25:16 GMT",
+      "detail": "Country: Poland | Size: 289GB | Public | Views: 26 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T20:25:16+00:00"
+    },
+    {
       "title": "Coopebis By deadlock",
       "url": "https://www.ransomlook.io//group/deadlock",
       "feed_id": "c3ac900d3af8603376f5e320d6c1b021339749e50d5567af33108d25490e7004",
@@ -45,72 +89,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-08T19:27:07+00:00"
-    },
-    {
-      "title": "Calmont Wire & Cable By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "119346ffe5443e96643e5149311f66f3348e75532ca709afd1197765383c87a6",
-      "date": "Sun, 08 Nov 2026 19:27:02 GMT",
-      "detail": "Calmont Wire & Cable is a leading custom wire and cable manufacturer known for its innovative solutions in medical, robotics, aerospace, military, and sensor applications. The company offersa wide range of products including completely custom cables, ultraflexible wires, and high-temperature cables, as well as services such as custom design, prototyping, and testing.We will upload 10gb of corporate data soon. Employee personal information (passport, DLs, SSNs), contracts, customer information, financial, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-08T19:27:02+00:00"
-    },
-    {
-      "title": "Trinity Custom Homes - USA By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "631de2f1493980aed9502319371e9847cca1d618dc6479af15a6b59288444071",
-      "date": "Sun, 08 Nov 2026 16:25:14 GMT",
-      "detail": "Trinity Custom Homes is a custom home builder that specializes in building 100% custom, solid wood homes directly on the customer\u2019s land across several states in the Southeast, including Georgia, Alabama, North Carolina, South Carolina, and Tennessee. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-08T16:25:14+00:00"
-    },
-    {
-      "title": "IE & E Industries By orova",
-      "url": "https://www.ransomlook.io//group/orova",
-      "feed_id": "16533350ebbf1eb813771ff7822fedfece301be6d7e04f18f59d98c2ed1a8432",
-      "date": "Sun, 08 Nov 2026 15:25:34 GMT",
-      "detail": "At IE & E, we are committed to providing our customers with the best mechanical and electromechanical engineering services, advanced metrology services for all industries, and standard optical comparator charts and screens. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-08T15:25:34+00:00"
-    },
-    {
-      "title": "starmark.co.th By lockbit5",
-      "url": "https://www.ransomlook.io//group/lockbit5",
-      "feed_id": "aca5cec1e98b1ff4dc25f9ffd283ef2682d0d6d595e9042098545ec75ba82309",
-      "date": "Sun, 08 Nov 2026 13:25:27 GMT",
-      "detail": "STARMARK specializes in premium furniture manufacturing and imports, offering a wide range of produc... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-08T13:25:27+00:00"
-    },
-    {
-      "title": "NoseTea (Deadlock)",
-      "url": "https://cti.fyi/groups/Deadlock.html",
-      "feed_id": "9ac829ba4eebd4798270d0a3d9d8734e",
-      "date": "Sun, 08 Nov 2026 19:04:10 +0000",
-      "detail": "Intelligence Summary: A Thai tea retailer with a detailed internal folder hierarchy. Threat Syndicate: Deadlock Claimed Victim: NoseTea Industry Sector: Other Geographic Location: \ud83c\uddf9\ud83c\udded TH Date Discovered: 2026-11-08 19:04:10.620207 Post URL: http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOm5vc2V0ZWFkYXRhfGV1LWNlbnRyYWwtMXxDQVpPTlVVVkxXVk9IUjFGMlJWSXxmMTNLRmdXMkVBTlFNMVFzR0pDelRmdk1oYkpaQ1F1UjQ3TE9YTEI0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-08T19:04:10+00:00"
-    },
-    {
-      "title": "Fidex (Deadlock)",
-      "url": "https://cti.fyi/groups/Deadlock.html",
-      "feed_id": "3bde73b7e34ad693af859ae1768c2720",
-      "date": "Sun, 08 Nov 2026 19:04:10 +0000",
-      "detail": "Intelligence Summary: Fidex is a private organization operating under the name Fidex. Threat Syndicate: Deadlock Claimed Victim: Fidex Date Discovered: 2026-11-08 19:04:10.620207 Post URL: http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOm1leGJsb2d8ZXUtY2VudHJhbC0xfDdYUkg3STlNNDBaTVZZTjNaNUJafHpwcVZSZVBuSUZNOHljTEo4QkpGV3F6b2t2cEZ0RzBQS2V1R3lKaXI%3D Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-08T19:04:10+00:00"
     }
   ],
   "sources": [
@@ -201,15 +179,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 26,
+      "recent": 17,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]

@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-11-08 19:47 UTC
+CYBER DAILY — 2026-11-09 01:01 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-10 entries selected. Feed excerpts, not full-article or AI analysis.
+8 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)
@@ -21,47 +21,35 @@ Its multi-agent AI platform generates the telemetry an attack would produce to f
 CVEs: Not stated in feed
 https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/
 
+Cuomo LLC By anubis
+RansomLook | Ransomware claim / observation | 2026-11-09T00:22:58+00:00
+Inside a law firm data breach. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/anubis
+
+Fidex By deadlock
+RansomLook | Ransomware claim / observation | 2026-11-08T20:25:42+00:00
+Fidex Seguros y Fianzas is a prominent Mexican insurance broker and risk management advisory firm. Established in 2002, the company specializes in tailored corporate and personal insurance solutions, bond underwriting, and corporate employee benefits management. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/deadlock
+
+NoseTea By deadlock
+RansomLook | Ransomware claim / observation | 2026-11-08T20:25:41+00:00
+NOSE TEA (THAILAND) CO LTD. is a highly popular premium cheese tea brand from Thailand. Known locally as "ชาจมูกเขียว" (Green Nose Tea), the brand specializes in fruit infusions and milk teas paired with its signature rich, velvety cream cheese topping. Manufacturing and retailing of non-alcoholic beverages, tea, coffee, bakery, and ice cream Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/deadlock
+
+tekra.com.pl By cloak
+RansomLook | Ransomware claim / observation | 2026-11-08T20:25:16+00:00
+Country: Poland | Size: 289GB | Public | Views: 26 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/cloak
+
 Coopebis By deadlock
 RansomLook | Ransomware claim / observation | 2026-11-08T19:27:07+00:00
 Coopebis is a Colombian savings and credit cooperative (Cooperativa de Ahorro y Crédito) providing financial services and social benefits to its members. The organization offers loans, savings accounts (including specialized plans for children), and various welfare benefits. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/deadlock
-
-Calmont Wire & Cable By akira
-RansomLook | Ransomware claim / observation | 2026-11-08T19:27:02+00:00
-Calmont Wire & Cable is a leading custom wire and cable manufacturer known for its innovative solutions in medical, robotics, aerospace, military, and sensor applications. The company offersa wide range of products including completely custom cables, ultraflexible wires, and high-temperature cables, as well as services such as custom design, prototyping, and testing.We will upload 10gb of corporate data soon. Employee personal information (passport, DLs, SSNs), contracts, customer information, financial, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/akira
-
-Trinity Custom Homes - USA By deadlock
-RansomLook | Ransomware claim / observation | 2026-11-08T16:25:14+00:00
-Trinity Custom Homes is a custom home builder that specializes in building 100% custom, solid wood homes directly on the customer’s land across several states in the Southeast, including Georgia, Alabama, North Carolina, South Carolina, and Tennessee. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/deadlock
-
-IE & E Industries By orova
-RansomLook | Ransomware claim / observation | 2026-11-08T15:25:34+00:00
-At IE & E, we are committed to providing our customers with the best mechanical and electromechanical engineering services, advanced metrology services for all industries, and standard optical comparator charts and screens. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/orova
-
-starmark.co.th By lockbit5
-RansomLook | Ransomware claim / observation | 2026-11-08T13:25:27+00:00
-STARMARK specializes in premium furniture manufacturing and imports, offering a wide range of produc... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/lockbit5
-
-NoseTea (Deadlock)
-CTI.fyi | Ransomware claim / observation | 2026-11-08T19:04:10+00:00
-Intelligence Summary: A Thai tea retailer with a detailed internal folder hierarchy. Threat Syndicate: Deadlock Claimed Victim: NoseTea Industry Sector: Other Geographic Location: 🇹🇭 TH Date Discovered: 2026-11-08 19:04:10.620207 Post URL: http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOm5vc2V0ZWFkYXRhfGV1LWNlbnRyYWwtMXxDQVpPTlVVVkxXVk9IUjFGMlJWSXxmMTNLRmdXMkVBTlFNMVFzR0pDelRmdk1oYkpaQ1F1UjQ3TE9YTEI0 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Deadlock.html
-
-Fidex (Deadlock)
-CTI.fyi | Ransomware claim / observation | 2026-11-08T19:04:10+00:00
-Intelligence Summary: Fidex is a private organization operating under the name Fidex. Threat Syndicate: Deadlock Claimed Victim: Fidex Date Discovered: 2026-11-08 19:04:10.620207 Post URL: http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOm1leGJsb2d8ZXUtY2VudHJhbC0xfDdYUkg3STlNNDBaTVZZTjNaNUJafHpwcVZSZVBuSUZNOHljTEo4QkpGV3F6b2t2cEZ0RzBQS2V1R3lKaXI%3D Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/Deadlock.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -76,5 +64,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=1; shown=1; undated excluded=0
 SecurityWeek: OK; recent=1; shown=1; undated excluded=0
-RansomLook: OK; recent=26; shown=5; undated excluded=0
-CTI.fyi: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=17; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

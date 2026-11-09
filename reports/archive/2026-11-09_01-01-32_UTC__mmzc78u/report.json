@@ -1,0 +1,194 @@
+{
+  "generated": "2026-11-09T01:01:32.294646+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
+      "feed_id": "https://isc.sans.edu/diary/rss/33498",
+      "date": "Sun, 08 Nov 2026 15:44:33 GMT",
+      "detail": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-08T15:44:33+00:00"
+    },
+    {
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "date": "Sun, 08 Nov 2026 10:43:08 -0500",
+      "detail": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-08T15:43:08+00:00"
+    },
+    {
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "feed_id": "https://www.securityweek.com/?p=50608",
+      "date": "Sun, 08 Nov 2026 12:14:00 +0000",
+      "detail": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-08T12:14:00+00:00"
+    },
+    {
+      "title": "Cuomo LLC By anubis",
+      "url": "https://www.ransomlook.io//group/anubis",
+      "feed_id": "c40e7ca0374cc4f99642caf6274a185b425a9ed61d4d805a1ba0b16181a4b7d9",
+      "date": "Mon, 09 Nov 2026 00:22:58 GMT",
+      "detail": "Inside a law firm data breach. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T00:22:58+00:00"
+    },
+    {
+      "title": "Fidex By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "768c588e68d19dcbdd17a2ac5c6e373bef9b4ac3134952f6ae46e54ac13ff6ff",
+      "date": "Sun, 08 Nov 2026 20:25:42 GMT",
+      "detail": "Fidex Seguros y Fianzas is a prominent Mexican insurance broker and risk management advisory firm. Established in 2002, the company specializes in tailored corporate and personal insurance solutions, bond underwriting, and corporate employee benefits management. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T20:25:42+00:00"
+    },
+    {
+      "title": "NoseTea By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "260cddd601ef39c36ce15a4f0e03e28e2a80e27f626f3d9a1716914b4df3bcd4",
+      "date": "Sun, 08 Nov 2026 20:25:41 GMT",
+      "detail": "NOSE TEA (THAILAND) CO LTD. is a highly popular premium cheese tea brand from Thailand. Known locally as \"\u0e0a\u0e32\u0e08\u0e21\u0e39\u0e01\u0e40\u0e02\u0e35\u0e22\u0e27\" (Green Nose Tea), the brand specializes in fruit infusions and milk teas paired with its signature rich, velvety cream cheese topping. Manufacturing and retailing of non-alcoholic beverages, tea, coffee, bakery, and ice cream Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T20:25:41+00:00"
+    },
+    {
+      "title": "tekra.com.pl By cloak",
+      "url": "https://www.ransomlook.io//group/cloak",
+      "feed_id": "4b8eb97d4fc2ce21910d06efad71dcda6508cd97ef7c76109d20bf38a4c32945",
+      "date": "Sun, 08 Nov 2026 20:25:16 GMT",
+      "detail": "Country: Poland | Size: 289GB | Public | Views: 26 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T20:25:16+00:00"
+    },
+    {
+      "title": "Coopebis By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "c3ac900d3af8603376f5e320d6c1b021339749e50d5567af33108d25490e7004",
+      "date": "Sun, 08 Nov 2026 19:27:07 GMT",
+      "detail": "Coopebis is a Colombian savings and credit cooperative (Cooperativa de Ahorro y Cr\u00e9dito) providing financial services and social benefits to its members. The organization offers loans, savings accounts (including specialized plans for children), and various welfare benefits. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-08T19:27:07+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 17,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}
