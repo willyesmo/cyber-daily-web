@@ -1,0 +1,249 @@
+{
+  "generated": "2026-11-09T11:51:57.586690+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33500",
+      "feed_id": "https://isc.sans.edu/diary/rss/33500",
+      "date": "Mon, 09 Nov 2026 02:05:10 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-09T02:05:10+00:00"
+    },
+    {
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
+      "feed_id": "https://isc.sans.edu/diary/rss/33498",
+      "date": "Sun, 08 Nov 2026 15:44:33 GMT",
+      "detail": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-08T15:44:33+00:00"
+    },
+    {
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "date": "Sun, 08 Nov 2026 10:43:08 -0500",
+      "detail": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-08T15:43:08+00:00"
+    },
+    {
+      "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+      "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+      "feed_id": "https://www.securityweek.com/?p=50623",
+      "date": "Mon, 09 Nov 2026 11:20:09 +0000",
+      "detail": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company\u2019s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-09T11:20:09+00:00"
+    },
+    {
+      "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+      "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+      "feed_id": "https://www.securityweek.com/?p=50618",
+      "date": "Mon, 09 Nov 2026 10:09:02 +0000",
+      "detail": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-09T10:09:02+00:00"
+    },
+    {
+      "title": "Google DeepMind\u2019s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+      "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+      "feed_id": "https://www.securityweek.com/?p=50616",
+      "date": "Mon, 09 Nov 2026 08:35:50 +0000",
+      "detail": "Working with cryptographers, DeepMind\u2019s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind\u2019s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-09T08:35:50+00:00"
+    },
+    {
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "feed_id": "https://www.securityweek.com/?p=50608",
+      "date": "Sun, 08 Nov 2026 12:14:00 +0000",
+      "detail": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-08T12:14:00+00:00"
+    },
+    {
+      "title": "Company #197 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "71665a5ce78fe0e97bee7f666830eac5d9777457737c3e83345883eee538705c",
+      "date": "Mon, 09 Nov 2026 11:29:35 GMT",
+      "detail": "outdoor apparel retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T11:29:35+00:00"
+    },
+    {
+      "title": "Company #196 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "16fffbe710f48f394c9aefa67737ff08d605be13efafd26a3addefdc703caccc",
+      "date": "Mon, 09 Nov 2026 11:29:34 GMT",
+      "detail": "fintech and payments (Cash App) \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T11:29:34+00:00"
+    },
+    {
+      "title": "Company #195 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "8aec51c0cce90d64810a9ecde4b74296433a2b536ad5003653749721108ed17c",
+      "date": "Mon, 09 Nov 2026 11:29:33 GMT",
+      "detail": "online health and wellness retail \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T11:29:33+00:00"
+    },
+    {
+      "title": "Company #194 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "a4d487f9f9babfbefe6afd971349f7094750b755233b15890f1ea70243971d1f",
+      "date": "Mon, 09 Nov 2026 11:29:32 GMT",
+      "detail": "investment advisory \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T11:29:32+00:00"
+    },
+    {
+      "title": "Company #193 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "9087f7f270a2ab55732f0b7729bd931c1ddaf7c77f0e689802a7f90f55bbc422",
+      "date": "Mon, 09 Nov 2026 11:29:31 GMT",
+      "detail": "programmatic advertising and identity resolution \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-09T11:29:31+00:00"
+    },
+    {
+      "title": "Hyundai E&C (metaencryptor)",
+      "url": "https://cti.fyi/groups/metaencryptor.html",
+      "feed_id": "38a8a8fcf8ab664b5599758a927ee031",
+      "date": "Mon, 09 Nov 2026 07:02:12 +0000",
+      "detail": "Intelligence Summary: Hyundai Engineering & Construction is a South Korean construction firm that is part of the Hyundai Motor Group conglomerate. Threat Syndicate: metaencryptor Claimed Victim: Hyundai E&C Canonical Organization: Hyundai Engineering & Construction Target Domain: hyundaienc.com Industry Sector: Construction Geographic Location: \ud83c\uddf0\ud83c\uddf7 KR Date Published: 2026-11-09 07:02:12 Date Updated (Revisited): 2026-11-09 09:02:12 Date Discovered: 2026-11-07 13:01:38.593569 Post URL: https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:da669c878235aea137812ef3c7328cc6be27262f2df673d6bfcae945f09d6e03/0AFC:1034640ebac7d06ef487f015eae22e2c49229f7967319e41146489237f34cf66 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-09T07:02:12+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 4,
+      "shown": 4,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 35,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    }
+  ]
+}

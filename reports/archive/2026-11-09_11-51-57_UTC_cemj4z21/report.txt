@@ -1,0 +1,98 @@
+CYBER DAILY — 2026-11-09 11:51 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+13 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)
+SANS Internet Storm Center | Research / advisory | 2026-11-09T02:05:10+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33500
+
+Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)
+SANS Internet Storm Center | Research / advisory | 2026-11-08T15:44:33+00:00
+Our honeypots use "Cowrie" to collect SSH data. With the emergence of the "sshole" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.
+CVEs: CVE-2026-123158
+https://isc.sans.edu/diary/rss/33498
+
+Iris Ohyama data cloud breach exposes info of 7.7 million customers
+BleepingComputer | Research / advisory | 2026-11-08T15:43:08+00:00
+Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/
+
+Amplifon Americas Data Breach Impacts 1.3 Million
+SecurityWeek | Research / advisory | 2026-11-09T11:20:09+00:00
+Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/
+
+Over 3 Million People Hit by Frontline Education Data Breach
+SecurityWeek | Research / advisory | 2026-11-09T10:09:02+00:00
+Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/
+
+Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack
+SecurityWeek | Research / advisory | 2026-11-09T08:35:50+00:00
+Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/
+
+Brava Security Emerges From Stealth With $15 Million in Funding
+SecurityWeek | Research / advisory | 2026-11-08T12:14:00+00:00
+Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/
+
+Company #197 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-09T11:29:35+00:00
+outdoor apparel retail · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #196 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-09T11:29:34+00:00
+fintech and payments (Cash App) · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #195 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-09T11:29:33+00:00
+online health and wellness retail · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #194 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-09T11:29:32+00:00
+investment advisory · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #193 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-09T11:29:31+00:00
+programmatic advertising and identity resolution · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Hyundai E&C (metaencryptor)
+CTI.fyi | Ransomware claim / observation | 2026-11-09T07:02:12+00:00
+Intelligence Summary: Hyundai Engineering & Construction is a South Korean construction firm that is part of the Hyundai Motor Group conglomerate. Threat Syndicate: metaencryptor Claimed Victim: Hyundai E&C Canonical Organization: Hyundai Engineering & Construction Target Domain: hyundaienc.com Industry Sector: Construction Geographic Location: 🇰🇷 KR Date Published: 2026-11-09 07:02:12 Date Updated (Revisited): 2026-11-09 09:02:12 Date Discovered: 2026-11-07 13:01:38.593569 Post URL: https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:da669c878235aea137812ef3c7328cc6be27262f2df673d6bfcae945f09d6e03/0AFC:1034640ebac7d06ef487f015eae22e2c49229f7967319e41146489237f34cf66 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/metaencryptor.html
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=1; shown=1; undated excluded=0
+SecurityWeek: OK; recent=4; shown=4; undated excluded=0
+RansomLook: OK; recent=35; shown=5; undated excluded=0
+CTI.fyi: OK; recent=1; shown=1; undated excluded=0
