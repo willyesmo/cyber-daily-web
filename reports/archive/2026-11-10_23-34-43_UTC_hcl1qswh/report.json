@@ -1,0 +1,438 @@
+{
+  "generated": "2026-11-10T23:34:43.904860+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-124194: Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-124194",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Microsoft",
+        "Producto": "Office",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-124194 ; https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-111793: Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111793",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Openwave Messaging Limited",
+        "Producto": "Webtop Media Transcoder",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://github.com/GISOpenwave/security-advisories-public/blob/main/CAN-2026-2032674.md ; https://jvn.jp/en/vu/JVNVU93403064/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-20320: Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20320",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Cisco",
+        "Producto": "BroadWorks",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-111560: Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111560",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606 Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Barracuda Networks",
+        "Producto": "Multiple Products",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0041.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-116606: Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116606",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration. This vulnerability can be chained with CVE-2026-111560. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Barracuda Networks",
+        "Producto": "Barracuda Email Security Gateway (ESG)",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0042.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33508",
+      "feed_id": "https://isc.sans.edu/diary/rss/33508",
+      "date": "Tue, 10 Nov 2026 19:09:32 GMT",
+      "detail": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-10T19:09:32+00:00"
+    },
+    {
+      "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33506",
+      "feed_id": "https://isc.sans.edu/diary/rss/33506",
+      "date": "Tue, 10 Nov 2026 12:48:55 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-10T12:48:55+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33504",
+      "feed_id": "https://isc.sans.edu/diary/rss/33504",
+      "date": "Tue, 10 Nov 2026 02:00:02 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-10T02:00:02+00:00"
+    },
+    {
+      "title": "IT threat evolution in Q3 2026. Non-mobile statistics",
+      "url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
+      "feed_id": "https://kasperskycontenthub.com/securelist/?p=121843",
+      "date": "Tue, 10 Nov 2026 08:00:37 +0000",
+      "detail": "IT threat evolution in Q3 2026. Non-mobile statistics IT threat evolution in Q3 2026. Mobile statistics The statistics in this report are based on detection verdicts returned by Kaspersky products unless otherwise stated. The information was provided by Kaspersky users who consented to sharing statistical data. Quarterly figures In Q3 2026: Kaspersky products blocked more than 311 million attacks launched from online resources. Web Anti-Virus responded to 47 million unique links. File Anti-Virus blocked more than 23 million malicious and potentially unwanted objects. There were 4470 new ransomware variants discovered. More than 81,000 users experienced ransomware attacks. 15% of all ransomware victims whose data was published on threat actors\u2019 data leak sites (DLSs) were victims of Qilin. More than 217,000 users were targeted by miners. Ransomware Quarterly trends and highlights Threat actor disruption In August, the creator and lead administrator of the Ransom Cartel ransomware-as-a-service (RaaS) operation was sentenced to 16 years in prison. The convict developed the ransomware Trojan and at the time of his arrest played a central role in the RaaS operation: running the affiliate program, recruiting affiliates, supplying them with information and attack tools, working with initial access brokers, communicating with victims, and processing payments. In September, a member of the Ryuk RaaS group was sentenced to two years in prison and three years of supervised release. In 2019 and 2020, he and his accomplices breached organizations\u2019 networks and encrypted data with the Ryuk Trojan. According to public reports, hundreds of workstations and servers were compromised. According to the prosecution, the attacker received a total of about 1610 BTC in ransom payments from victims. Also in September, a member of the Conti RaaS group was sentenced to four years in prison. He was charged with attacking companies in 2021 and 2022. In addition to carrying out attacks, he developed part of the group\u2019s malware toolkit. Vulnerabilities and attacks In July, researchers published a report on the Qilin group exploiting the CVE-2026-0257 vulnerability in Palo Alto Networks firewall software. The vulnerability allowed attackers to bypass authentication and compromise victims\u2019 networks without valid accounts. CISA published information in its Known Exploited Vulnerabilities Catalog (KEV) on several CVEs actively exploited by ransomware groups: CVE-2026-15409 / CVE-2026-15410 in SonicWall SMA1000 remote access gateways. CISA doesn\u2019t specify which groups exploited these vulnerabilities, but researchers have linked this activity to INC Ransom. CVE-2026-45659 in Microsoft SharePoint Server allowed an authenticated, low-privileged attacker to achieve remote code execution. CVE-2025-60710 in Microsoft Windows allowed attackers to escalate privileges locally. CVE-2026-59310 in VMware vCenter enabled unauthenticated remote code execution. CVE-2025-14733 in WatchGuard Firebox also enabled unauthenticated remote code execution. CVE-2026-63077 in JetBrains TeamCity allowed OS commands to run with the privileges of the TeamCity server process by way of an authentication bypass through the agent polling protocol. Command execution at that level could give access to configurations, credentials, CI/CD pipelines, and more. The most prolific groups This section highlights the most prolific ransomware gangs by number of victims added to each group\u2019s DLS. Qilin (15.39%) holds first place, as it did last quarter. Qilin is followed by The Gentlemen (7.89%), which was especially active in Q1 but did not make the list in Q2. A notable newcomer on the list is Deadlock (4.46%), a relatively young ransomware family first reported in July 2025. Number of each group\u2019s victims according to its DLS as a percentage of all groups\u2019 victims published on all the DLSs under review during the reporting period ( download ) Number of new ransomware variants In Q3, Kaspersky products detected three new ransomware families and 4470 new variants, more than 1.5 times last quarter\u2019s count. Number of new ransomware modifications, Q3 2025 \u2013 Q3 2026 ( download ) Number of users attacked by ransomware Trojans During the reporting period, our products protected 81,556 unique users from ransomware attacks. Users encountered ransomware most often in September. Number of unique users attacked by ransomware Trojans, Q3 2026 ( download ) TOP 10 countries and territories attacked by ransomware Trojans Country/territory* %** 1 China 0.83% 2 South Korea 0.65% 3 Cameroon 0.51% 4 Pakistan 0.47% 5 Tajikistan 0.45% 6 Iraq 0.43% 7 Hong Kong 0.41% 8 Uzbekistan 0.40% 9 Bangladesh 0.33% 10 Turkmenistan 0.32% * Excluded are countries and territories with relatively few (under 50,000) Kaspersky users. ** Unique users whose computers were attacked by ransomware Trojans as a percentage of all unique Kaspersky users in the country/territory. TOP 10 most common families of ransomware Trojans Name Verdict %* 1 (generic verdict) Trojan-Ransom.Win32.Gen 32.48% 2 (generic verdict) Trojan-Ransom.Win32.Crypren 6.31% 3 WannaCry Trojan-Ransom.Win32.Wanna 4.90% 4 (generic verdict) Trojan-Ransom.Win32.Encoder 4.39% 5 (generic verdict) Trojan-Ransom.Win32.Agent 4.33% 6 (generic verdict) Trojan-Ransom.Python.Agent 3.09% 7 (generic verdict) Trojan-Ransom.PowerShell.Agent 2.79% 8 (generic verdict) Trojan-Ransom.Win32.Phds 2.73% 9 (generic verdict) Trojan-Ransom.Win32.Phny 2.20% 10 (generic verdict) Trojan-Ransom.MSIL.Agent 2.10% * Unique Kaspersky users attacked by the specific ransomware Trojan family as a percentage of all unique users attacked by this type of threat. Miners Number of new miner variants In Q3 2026, Kaspersky solutions detected 2197 new miner variants. After the spike in the second quarter, it\u2019s fair to say the pattern has returned to the calmer one typical of last year. Number of new miner modifications, Q3 2026 ( download ) Number of users attacked by miners In Q3, we detected miner attacks on the computers of 217,024 unique Kaspersky users worldwide. Number of unique users attacked by miners, Q3 2026 ( download ) TOP 10 countries and territories attacked by miners Country/territory* %** 1 Turkmenistan 2.32% 2 Tanzania 1.43% 3 Mali 1.21% 4 Senegal 1.05% 5 China 1.03% 6 Bangladesh 0.98% 7 Portugal 0.7% 8 C\u00f4te d\u2019Ivoire 0.68% 9 Costa Rica 0.65% 10 Ethiopia 0.61% * Excluded are countries and territories with relatively few (under 50,000) Kaspersky users. ** Unique users whose computers were attacked by miners as a percentage of all unique Kaspersky users in the country/territory. Attacks on macOS Quarterly highlights At the beginning of the third quarter, Jamf researchers discovered a new stealer, PamStealer. What sets it apart is its use of Pluggable Authentication Modules (PAM) to verify the administrator password the user enters. During the quarter, Socket researchers discovered several supply chain attacks that compromised popular npm, PyPI and Cargo (the Rust package manager) packages. The malicious payloads in these packages targeted macOS systems along with others. For example, on July 11, an infected npm package, jscrambler, was published . Its malicious module was an infostealer written in Rust. The infostealer targeted crypto wallets, secrets from various services and browsers, MCP server configurations, and API keys for AI agents. In August, an attack was detected on the arrayref, internment, and append-only-vec Rust crates; it delivered a Rust backdoor to the victim\u2019s device. In September, malicious versions of the MemTensor npm and PyPI packages were published . They delivered a Go backdoor that targeted secrets, configurations, and API tokens of various services. In August, Jamf researchers also reported discovering a new backdoor, Overlord . It was distributed as fake Zoom installers and had fairly broad spyware functionality, which is not often seen in macOS backdoors: it could eavesdrop through the microphone, watch the user through the camera, capture the screen, and log keystrokes. In the third quarter, we discovered an updated version of the MacSync crypto stealer and backdoor with a significantly changed payload delivery method. TOP 20 threats to macOS Unique users who encountered this malware as a percentage* of all attacked users of Kaspersky security solutions for macOS ( download ) * Data for the previous quarter may differ slightly from previously published data due to certain verdicts being retrospectively revised. The share of Ngrok, a network tunneling tool suite with both legitimate and malicious uses, continued to grow, bringing it to the top of the list. We\u2019re also seeing more detections of the well-known Amos malware, both the traditional stealer and a version with backdoor functionality. TOP 10 countries and territories by share of attacked users Country/territory %* Q2 2026 %* Q3 2026 Brazil 1.14% 1.13% Hong Kong 0.59% 0.92% China 0.55% 1.04% India 0.55% 0.41% Germany 0.36% 0.33% Singapore 0.30% 0.85% Russia 0.21% 0.24% Japan 0.18% 0.21% Netherlands 0.16% 0.31% * Unique users who encountered threats to macOS as a percentage of all unique Kaspersky users in the country/territory. IoT threat statistics This section presents statistics on attacks targeting Kaspersky IoT honeypots. The geographic data on attack sources is based on the IP addresses of attacking devices. Distribution by protocol In Q3 2026, the share of devices attacking Kaspersky honeypots over SSH grew to 18.42%. Distribution of attacked services by number of unique IP addresses of attacking devices ( download ) The distribution of attacks over the Telnet and SSH protocols shows the same trend. Distribution of cybercriminal sessions in Kaspersky honeypots ( download ) TOP 10 threats delivered to IoT devices Share of each threat delivered to an infected device as a result of a successful attack, out of the total number of threats delivered ( download ) Mirai\u2019s share of the overall IoT threat distribution declined, while other botnet threats that deliver malware grew. Attacks on IoT honeypots In the distribution of SSH attacks, the Netherlands, Bulgaria, and the US accounted for the largest shares, with the share of attacks originating from Bulgaria having grown fourfold. Germany comes next, with its share down by about half. Country/territory Q2 2026 Q3 2026 Netherlands 21.18% 27.70% Bulgaria 5.50% 20.05% United States 6.76% 10.17% Germany 16.73% 8.36% Romania 4.06% 4.20% India 2.78% 3.52% Panama 4.67% 2.19% Indonesia 1.54% 2.06% Vietnam 3.91% 2.01% Singapore 1.99% 1.42% Pakistan\u2019s share of Telnet attacks kept growing, reaching 47.73%. Country/territory Q2 2026 Q3 2026 Pakistan 36.60% 47.73% China 35.62% 33.83% Russia 8.75% 4.65% India 4.19% 2.77% Taiwan 0.47% 1.64% Argentina 0.12% 1.45% Philippines 0.95% 1.08% United States 3.03% 0.90% Indonesia 1.52% 0.81% Germany 0.05% 0.75% Attacks via web resources The statistics in this section are based on detection verdicts by Web Anti-Virus, which protects users when suspicious objects are downloaded from malicious or infected web pages. These malicious pages are purposefully created by cybercriminals. Websites that host user-generated content, such as message boards, as well as compromised legitimate sites, can become infected. TOP 10 countries and territories that served as sources of web-based attacks The following statistics show the distribution by country/territory of the sources of internet attacks blocked by Kaspersky products on user computers (web pages redirecting to exploits, sites containing exploits and other malware, botnet C&C centers, and so on). One or more web-based attacks could originate from each unique host. To determine the geographic source of web attacks, we matched each domain name to the actual IP address hosting it, then geolocated that address (GeoIP). In Q3 2026, Kaspersky solutions blocked 311,083,655 attacks launched from online resources across the globe. Web Anti-Virus was triggered by 46,936,926 unique URLs. Web-based attacks by country/territory, Q3 2026 ( download ) Countries and territories where users faced the greatest risk of online infection To assess the risk of malware infection via the internet for users\u2019 computers in different countries and territories, we calculated the share of Kaspersky users in each location on whose computers Web Anti-Virus was triggered during the reporting period. The resulting data provides an indication of the aggressiveness of the environment in which computers operate in different countries and territories. This ranked list includes only attacks by malicious objects classified as Malware. Our calculations leave out Web Anti-Virus detections of potentially dangerous or unwanted programs, such as RiskTool or adware. Country/territory* %** 1 Bangladesh 12.03 2 Taiwan 8.06 3 Venezuela 7.92 4 Vietnam 7.71 5 India 7.61 6 Belgium 6.80 7 France 6.54 8 Nepal 6.48 9 Greece 6.22 10 UAE 6.13 11 Portugal 6.10 12 Germany 5.75 13 China 5.71 14 Qatar 5.70 15 Serbia 5.58 16 Austria 5.57 17 Sri Lanka 5.40 18 Australia 5.32 19 Italy 5.31 20 Morocco 5.27 * Excluded are countries and territories with relatively few (under 10,000) Kaspersky users. ** Unique users targeted by web-based Malware attacks as a percentage of all unique users of Kaspersky products in the country/territory. On average over the quarter, 4.34% of internet users\u2019 computers worldwide were targeted by at least one web-based Malware attack. Local threats Statistics on local infections of user computers are an important indicator. They include objects that penetrated the target computer by infecting files or removable media, or initially made their way onto the computer in non-open form. Examples of the latter are programs in complex installers and encrypted files. Data in this section is based on analyzing statistics produced by anti-virus scans of files on the hard drive at the moment they were created or accessed, and the results of scanning removable storage media. The statistics are based on detection verdicts from the On-Access Scan (OAS) and On-Demand Scan (ODS) modules of File Anti-Virus and include detections of malicious programs located on user computers or removable media connected to the computers, such as flash drives, camera memory cards, phones, or external hard drives. In Q3 2026, our File Anti-Virus recorded 23,733,652 malicious and potentially unwanted objects. Countries and territories where users faced the highest risk of local infection For each country and territory, we calculated the percentage of Kaspersky users whose computers had the File Anti-Virus triggered at least once during the reporting period. These statistics reflect the level of personal computer infection in different countries and territories worldwide. Note that this ranked list includes only attacks by malicious objects classified as Malware. Our calculations leave out File Anti-Virus detections of potentially dangerous or unwanted programs, such as RiskTool or adware. Country/territory* %** 1 Turkmenistan 45.68 2 Burundi 31.54 3 Yemen 30.31 4 China 29.93 5 Afghanistan 29.41 6 Mozambique 26.61 7 Tajikistan 26.29 8 Republic of the Congo 25.51 9 Uzbekistan 25.25 10 Cameroon 24.08 11 Democratic Republic of the Congo 23.55 12 Uganda 21.81 13 Cambodia 21.74 14 Chad 21.60 15 Syria 21.43 16 Nicaragua 21.02 17 South Sudan 20.72 18 Bangladesh 19.78 19 Mali 19.59 20 Angola 18.25 * Excluded are countries and territories with relatively few (under 10,000) Kaspersky users. ** Unique users on whose computers Malware local threats were blocked, as a percentage of all unique users of Kaspersky products in the country/territory. On average worldwide, Malware local threats were detected at least once on 10.88% of users\u2019 computers during Q3. Russia scored 9.37% in these rankings.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Securelist",
+      "published": "2026-11-10T08:00:37+00:00"
+    },
+    {
+      "title": "IT threat evolution in Q3 2026. Mobile statistics",
+      "url": "https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/",
+      "feed_id": "https://kasperskycontenthub.com/securelist/?p=121844",
+      "date": "Tue, 10 Nov 2026 08:00:17 +0000",
+      "detail": "IT threat evolution in Q3 2026. Non-mobile statistics IT threat evolution in Q3 2026. Mobile statistics The mobile section of the quarterly cyberthreat report includes statistics on malware, adware, and potentially unwanted software for Android, as well as descriptions of the most notable threats for Android and iOS discovered during the reporting period. These statistics are based on detection alerts from Kaspersky products, collected from users who consented to provide statistical data to Kaspersky Security Network. The quarter in figures According to Kaspersky Security Network, in Q3 2026: More than 1.66 million attacks involving mobile malware, adware, or unwanted software were blocked. The Trojan-Banker category was the prevalent mobile malware threat with a 31.63% share of all detected malicious apps. Over 378,000 malicious installation packages were detected, including 119,688 mobile banking Trojan packages. Quarterly highlights In July, we discovered a malicious app targeting Brazilian users that may have used AI to automate fraud. The app was disguised as Google Play Protect, a suite of security services for Android devices. Malicious app imitating Google Play Protect The app\u2019s code used the DistilBERT model to interpret natural-language commands sent from the C2 server. Traces left in the code suggest the server-side commands may also have been generated by a large language model (LLM). In August, we discovered a Trojan that analyzed images saved in the device\u2019s gallery and took screenshots to look for banking data, including CVV codes. The malware used an on-device AI model to classify images. The app could also update this model, which gave the scammers a way to expand the Trojan\u2019s functionality. In the third quarter, the infamous subscription Trojan detected as Trojan.AndroidOS.Subscriber.bh made it into Google Play again. This time, it was disguised as an app for creating keyboard themes. Subscription Trojan disguised as a keyboard theme app The Trojan opened a subscription link in a hidden WebView and intercepted the message containing the confirmation code. According to our data, the scammers mainly targeted users in Thailand. There were also new attacks on iOS users. In August, researchers at Socket discovered 13 infected PHP packages in the Packagist repository. The malicious payload injected links to fraudulent casinos into sites that used these packages and, on iOS devices only, a hidden iframe that loaded the DarkSword exploit kit. The attack delivered a spyware module that stole keychain contents, Wi-Fi passwords, SMS messages, photos, and other personal data. Other modules found in this campaign were used to steal crypto wallet data and the seed phrases used to recover them. SlowMist researchers found the same DarkSword exploit chain used in a fake app, FomoPeek. FomoPeek was published in the App Store, presenting itself as a crypto wallet tracker. The malware was designed to steal data from notes and crypto wallet apps. Also in August, we discovered infected versions of popular iOS apps distributed through Telegram (link in Russian). To install such an app, the attackers asked users to buy a developer certificate. The modified versions contained a malicious module that collected device information, took screenshots, and sent this data to a server. Mobile threat statistics The downward trend in attacks on mobile devices involving malware, adware, or unwanted software continued: the number fell to 1,668,368 in Q3 from 1,996,823 in Q2. Attacks on users of Kaspersky mobile solutions, Q1 2025 \u2013 Q3 2026 ( download ) In the third quarter, this decline was driven in part by fewer adware attacks, which we examine in more detail below. The number of Android malware samples grew compared to the previous reporting period, reaching 378,456. Detected malicious and potentially unwanted installation packages, Q3 2025 \u2013 Q3 2026 ( download ) The distribution of detected installation packages by type was as follows: Detected mobile apps by type, Q2*\u2013Q3 2026 ( download ) * Data for the previous quarter may differ slightly from previously published data due to certain verdicts being retrospectively revised. The sharp rise in Trojan-Dropper apps comes from more droppers delivering known banking Trojans such as Mamont and Creduz. In the previous quarter, we described the trend of attackers \u201cpackaging\u201d banking Trojans. The resulting malware is classified as droppers, which explains the growth. Note that standalone banking Trojans still rank first. Together with droppers, they account for more than half of all detected malicious apps. Share* of users attacked by the given type of malicious or potentially unwanted apps out of all targeted users of Kaspersky mobile products, Q2\u2013Q3 2026 ( download ) * The total percentage may exceed 100% if the same users encountered multiple attack types. The number of AdWare.AndroidOS.HiddenAd and AdWare.AndroidOS.MobiDash attacks continued to decline, although adware traditionally ranks first by the number of attacked users. The growing share of Trojan-Dropper correlates with the increase in packaged banking Trojans described in the previous section. Among Trojan-Spy attacks, the biggest growth came from the BTMOB and SpyNote RAT Trojans, which are used to steal money. TOP 20 types of mobile malware Note that the malware rankings below exclude riskware or potentially unwanted software, such as RiskTool or adware. Verdict %* Q2 2026 %* Q3 2026 Difference in p.p. Change in ranking Backdoor.AndroidOS.Triada.ag 9.35 13.14 +3.79 0 Trojan.AndroidOS.Boogr.gsh 3.33 5.21 +1.87 +2 DangerousObject.AndroidOS.GenericML. 5.25 4.61 -0.63 0 DangerousObject.Multi.Generic. 5.65 4.01 -1.64 -2 Trojan-Proxy.AndroidOS.Vo1d.b 0.07 3.20 +3.13 Backdoor.AndroidOS.Triada.z 3.23 2.85 -0.38 -1 Trojan-Dropper.AndroidOS.Mamont.am 0.00 2.72 +2.72 Trojan.AndroidOS.Vo1d.c 0.00 2.16 +2.16 Trojan-Spy.AndroidOS.Btmob.c 1.02 2.09 +1.07 +22 Trojan.AndroidOS.Fakeapp.in 0.00 2.03 +2.03 Trojan-Dropper.AndroidOS.Mamont.aq 0.00 2.03 +2.03 Trojan-Banker.AndroidOS.Mamont.hl 2.48 2.03 -0.45 -6 Backdoor.AndroidOS.Triada.ad 1.93 1.75 -0.18 -1 Trojan.AndroidOS.Triada.fe 2.18 1.70 -0.48 -5 Backdoor.AndroidOS.Triada.ae 1.44 1.67 +0.23 +2 Trojan-Spy.AndroidOS.GGtrack.a 1.20 1.65 +0.45 +8 Trojan-Banker.AndroidOS.Agent.ws 1.11 1.46 +0.34 +10 Trojan-Dropper.AndroidOS.BeatBanker.c 1.01 1.33 +0.32 +14 Trojan.AndroidOS.Triada.hf 1.93 1.33 -0.61 -8 Trojan-Dropper.AndroidOS.Creduz.t 0.00 1.30 +1.30 * Unique users who encountered this malware as a percentage of all attacked users of Kaspersky mobile solutions Most of the list is made up of variants of Trojans that were already popular last quarter: several versions of the preinstalled Triada Trojan, Mamont bankers, and BTMOB spyware. The main newcomer among Q3\u2019s most widespread malware was the Trojan-Proxy.AndroidOS.Vo1d.b apps, delivered by preinstalled Trojans. These apps turn the device into an exit node of a VPN service. These attacks are dangerous for two reasons. First, they burn through internet traffic, which the user may be paying for, to relay other people\u2019s data. Second, cybercriminals can use the infected device to attack online services and visit banned websites, breaking the law in the victim\u2019s name. Mobile banking Trojans In Q3 2026, the number of Trojan-Banker installation packages began rising again after a drop last quarter. Number of installation packages for mobile banking Trojans detected by Kaspersky, Q3 2025 \u2013 Q3 2026 ( download ) By type, Creduz again accounts for the largest share of banking Trojans. However, as in Q2, the statistics of actual attacks tell a different story: Mamont variants were again the most active Trojans. TOP 10 mobile bankers Verdict %* Q2 2026 %* Q3 2026 Difference in p.p. Change in ranking Trojan-Banker.AndroidOS.Mamont.hl 11.13 10.31 -0.81 0 Trojan-Banker.AndroidOS.Agent.ws 4.99 7.42 +2.43 +2 Trojan-Banker.AndroidOS.Agent.eq 2.58 5.58 +3.00 +7 Trojan-Banker.AndroidOS.Mamont.lf 2.79 5.10 +2.30 +5 Trojan-Banker.AndroidOS.Mamont.od 0.00 5.05 +5.05 Trojan-Banker.AndroidOS.Mamont.mv 5.12 4.29 -0.83 -3 Trojan-Banker.AndroidOS.Faketoken.pac 4.10 3.81 -0.29 -1 Trojan-Banker.AndroidOS.Agent.io 0.30 3.68 +3.38 +87 Trojan-Banker.AndroidOS.Mamont.ns 0.24 3.01 +2.77 +97 Trojan-Banker.AndroidOS.Mamont.da 2.37 2.97 +0.60 +2 * Unique users who encountered this malware as a percentage of all Kaspersky mobile security solution users who encountered banking threats",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Securelist",
+      "published": "2026-11-10T08:00:17+00:00"
+    },
+    {
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "feed_id": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "date": "Tue, 10 Nov 2026 17:20:19 -0500",
+      "detail": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T22:20:19+00:00"
+    },
+    {
+      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "date": "Tue, 10 Nov 2026 15:54:55 -0500",
+      "detail": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T20:54:55+00:00"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+      "date": "Tue, 10 Nov 2026 15:04:36 -0500",
+      "detail": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T20:04:36+00:00"
+    },
+    {
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "date": "Tue, 10 Nov 2026 14:31:11 -0500",
+      "detail": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T19:31:11+00:00"
+    },
+    {
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "date": "Tue, 10 Nov 2026 14:07:36 -0500",
+      "detail": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-10T19:07:36+00:00"
+    },
+    {
+      "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+      "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+      "feed_id": "https://www.securityweek.com/?p=50679",
+      "date": "Tue, 10 Nov 2026 19:19:46 +0000",
+      "detail": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it\u2019s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-10T19:19:46+00:00"
+    },
+    {
+      "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+      "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+      "feed_id": "https://www.securityweek.com/?p=50677",
+      "date": "Tue, 10 Nov 2026 18:11:54 +0000",
+      "detail": "Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-10T18:11:54+00:00"
+    },
+    {
+      "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+      "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+      "feed_id": "https://www.securityweek.com/?p=50668",
+      "date": "Tue, 10 Nov 2026 16:45:00 +0000",
+      "detail": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it. The post Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-10T16:45:00+00:00"
+    },
+    {
+      "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+      "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+      "feed_id": "https://www.securityweek.com/?p=50672",
+      "date": "Tue, 10 Nov 2026 16:42:02 +0000",
+      "detail": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-10T16:42:02+00:00"
+    },
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 \u2013 Join Global Cybersecurity Leaders",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "feed_id": "https://www.securityweek.com/?p=50652",
+      "date": "Tue, 10 Nov 2026 15:00:00 +0000",
+      "detail": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 \u2013 Join Global Cybersecurity Leaders appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-10T15:00:00+00:00"
+    },
+    {
+      "title": "Roane Transportation Services By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "3b96ebac0373ad09de4471f8a186b6119e113bc923d827b1a415ed789fbca04d",
+      "date": "Tue, 10 Nov 2026 22:33:24 GMT",
+      "detail": "# ROANE TRANSPORTATION SERVICES, INC. ## Rockwood, Tennessee | DOT# 652055 | roanetrans.com --- ### YOUR COMPANY HAS BEEN COMPROMISED We have obtained complete access to your internal file systems and extracted a full copy of your corporate data. This includes all divisions: **Roane Transportation Services (RTS)**, **Roane Logistics (RLI)**, **Roane Metal Group (RMG)**, **Roane Specialized**, and **B&W**. This is not a bluff. Below is a summary of what we hold. --- ### DATA IN OUR POSSESSION **EMPLOYEE PERSONAL DATA** - 262 employee files containing Social Security Number scans (PDF), driver's licenses (CDL), DOT medical examination cards, drug screening results, I-9 employment verification forms, background check reports (PSP/MVR), tax withholding forms, and direct deposit authorizations - Complete payroll records with full names, bank routing numbers, and account numbers for all current employees across RTS and RLI divisions **FINANCIAL & BANKING** - ACH payment files containing 351 bank account numbers (routing + account) for employees, contractors, and carrier partners - First Horizon Bank online banking credentials - State tax portal login credentials for 20+ US states (TN, KY, GA, OH, PA, VA, NC, IN, AL, MS, LA, MO, WV, NM, NE, OR, SC, IL, NY, AR) - QuickBooks financial data - Payroll ACH batch files with individual salary amounts - Settlement payment records for 112 carrier/vendor relationships - Insurance loss reports spanning 2008 through 2025 - Positive Pay check verification data **CREDENTIALS & ACCESS** - 200+ plaintext username/password combinations exported from employee browsers, covering Microsoft 365, banking portals, fleet management (Samsara, OmniTracs), customer billing portals, insurance providers, government tax systems, and personal accounts - Customer portal credentials for 39 business partners including Nucor, Ryder, Cleveland Cliffs, US Bank, Valmont, SiteOne, Megacorp, Hubbell, CMC, Builders FirstSource, and others - Your Carbon Black security product license information - Acronis backup system license keys - CheckPoint VPN configuration data **DOT / FMCSA COMPLIANCE** - DOT audit files - Drug and alcohol testing results for all drivers - DOT medical examination certificates - FMCSA inspection and violation records - Accident and incident reports spanning multiple years - CSA score documentation **BUSINESS INTELLIGENCE** - 949-entry contact database (drivers, customers, vendors, suppliers) - Customer contracts and rate agreements - IFTA fuel tax reports (all states, 2021\u20132025) - Complete fleet and driver assignment records - Internal HR files for current and terminated employees - Workers' compensation claim records --- ### WHAT THIS MEANS FOR YOU If this data becomes public: 1. **Mandatory breach notification in all 50 US states** for SSN and financial data exposure \u2014 estimated cost: $500,000 \u2013 $1,000,000 in notification, credit monitoring, and legal fees alone 2. **FMCSA regulatory action** \u2014 exposure of drug test results and DOT medical records creates grounds for federal compliance investigation. Potential suspension or revocation of operating authority under 49 CFR Part 382 3. **Employee lawsuits** \u2014 262 individuals with exposed Social Security Numbers and bank accounts will have grounds for identity theft class action litigation. Average settlement: $5,000 \u2013 $50,000 per affected person 4. **Customer relationship damage** \u2014 39 business partners whose portal credentials were stored in plaintext will be notified. Nucor, Cleveland Cliffs, Ryder, US Bank, and others will terminate carrier agreements and pursue damages 5. **Financial fraud exposure** \u2014 bank routing numbers, account numbers, and online banking passwords enable direct financial theft. Every employee and carrier partner will need to change bank accounts immediately 6. **Tax fraud liability** \u2014 login credentials for 20+ state tax portals enable fraudulent filings. State revenue departments will freeze accounts pending investigation 7. **Total estimated exposure: $5,000,000 \u2013 $15,000,000** in regulatory fines, legal costs, settlements, lost business, and remediation --- ### PROOF OF DATA We will provide a sample data package upon request in this chat to verify authenticity. This may include: - Partial employee SSN document samples (redacted) - ACH file headers showing bank routing information - Portal credential samples - Payroll records with employee names and amounts --- ### OUR TERMS We are prepared to: - Permanently delete all copies of your data - Provide proof of deletion - Never disclose or publish any information - Provide a full list of accessed systems for your security remediation **In exchange, we require a one-time payment. The amount will be discussed in this chat.** --- ### DEADLINE You have **168 hours (7 days)** from the moment this message was posted to initiate contact and begin negotiations. **After the deadline:** - Phase 1: Data samples will be sent directly to your customers (Nucor, Ryder, Cleveland Cliffs, US Bank, SiteOne) - Phase 2: Full dataset published on our public blog - Phase 3: FMCSA, state attorneys general, and IRS notified with supporting evidence **The timer is running.** --- *To begin the conversation, type your message below. All communications are encrypted and confidential. We respond within 2 hours during business days.* Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-10T22:33:24+00:00"
+    },
+    {
+      "title": "Kolin By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "bd8b24429a5603e668f64e2a057d82de04f3434e0602bf89c9c901489efc8ca3",
+      "date": "Tue, 10 Nov 2026 22:33:23 GMT",
+      "detail": "# Kolin Construction **Kolin Construction** (*Kolin \u0130n\u015faat Turizm Sanayi ve Ticaret A.\u015e.*) is one of Turkey\u2019s major construction and industrial companies. Founded in **1977** and headquartered in **Ankara, Turkey**, the company serves as a flagship business of **Kolo\u011flu Holding**. ## Business Activities Kolin Construction operates primarily in large-scale construction, infrastructure, and engineering projects. Its areas of expertise include: * Highways and road infrastructure * Bridges and viaducts * Tunnels * Railways and metro systems * Airports * Ports and marine infrastructure * Dams and hydroelectric power plants * Energy infrastructure * Industrial and mining projects The company has participated in numerous major infrastructure developments in Turkey and abroad and has regularly appeared in international contractor rankings published by **Engineering News-Record (ENR)**. ## Major Projects Kolin Construction has been involved in several large-scale and strategically important projects. One of its most notable developments is its participation in the construction of **Istanbul Airport**, one of the largest aviation infrastructure projects in the world. Beyond transportation infrastructure, the company is active in projects involving power generation, water infrastructure, ports, industrial facilities, and other complex engineering works. ## Other Business Sectors Through its broader corporate group, Kolin is also involved in several industries outside traditional construction, including: * Energy and power generation * Mining * Port operations * Shipyards and maritime services * Tourism * Trade and commercial activities ## International Presence Kolin Construction maintains an international presence and has undertaken projects across **Europe, Asia, the Middle East, and Africa**. Its international operations have included countries such as: * Azerbaijan * Libya * Uganda * Poland * Romania * Oman * Saudi Arabia * Kuwait The company has established representative offices and project operations in several of these markets to support its international engineering and construction activities. ## Company Scale Kolin Construction is considered one of the prominent Turkish contractors operating internationally. Its annual turnover has been reported in the range of approximately **USD 1.5\u20132 billion**, reflecting the scale of its infrastructure, energy, and industrial projects. ## Summary With several decades of experience, Kolin Construction has developed capabilities in managing complex, large-scale infrastructure and engineering projects. Its portfolio covers transportation, energy, industrial construction, and public infrastructure, with operations extending from Turkey to multiple international markets. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-10T22:33:23+00:00"
+    },
+    {
+      "title": "Nota Groep By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "34d4894caf2c4bb498a6892580345c5c9db485835f9009f0fa22c5ad60e45c89",
+      "date": "Tue, 10 Nov 2026 22:33:22 GMT",
+      "detail": "notagroep.nl Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-10T22:33:22+00:00"
+    },
+    {
+      "title": "Millimed Thailand (i-HERB) By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "62f7d6727b4e40b2357669f66abb5719ed7eed6bf50b402d10781781d2981e3c",
+      "date": "Tue, 10 Nov 2026 22:33:22 GMT",
+      "detail": "# MILLIMED CO., LTD. (\u0e21\u0e34\u0e25\u0e25\u0e34\u0e40\u0e21\u0e14) \u2014 DATA BREACH DISCLOSURE **Date Added:** 2026-09-17 **Last Updated:** 2026-09-17 **Country:** Thailand \ud83c\uddf9\ud83c\udded **Industry:** Pharmaceutical Manufacturing & Distribution **Website:** millimedthailand.com **Revenue:** ~$70-85M USD (2.5-3.0 billion THB, group annual revenue) **Data Volume:** **~3 TB** (databases, production records, email archives, factory documents, financial data) --- ## Overview Millimed Co., Ltd. (\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e21\u0e34\u0e25\u0e25\u0e34\u0e40\u0e21\u0e14 \u0e08\u0e33\u0e01\u0e31\u0e14) is a major Thai pharmaceutical manufacturer headquartered in Bangkok with GMP-certified production facilities in **Samut Prakan** and **Chiang Rai** provinces. The Millimed Group operates through **25+ subsidiary companies** spanning pharmaceutical manufacturing, consumer healthcare brands, supplements, real estate, agriculture, and hospitality. Their consumer brand **i-HERB**, endorsed by Thai celebrity **Mario Maurer**, is one of the most recognized herbal healthcare brands in Thailand. The company holds **multiple Thai FDA quality awards** and manufactures prescription drugs, OTC products, sterile eye drops (BFS technology), and dietary supplements distributed nationwide through hospitals and pharmacies. The group's crown jewel subsidiary \u2014 **Millimed BFS** \u2014 reported **1,423 million THB revenue** and **593 million THB net profit** in 2025, with a staggering **41.7% net margin** and **65% year-over-year growth**. The parent company holds **942 million THB in retained earnings** \u2014 they can afford to resolve this. Millimed's management chose to ignore our communications and failed to protect their data. As a result, we are publishing details of the breach. --- ## What We Have \u2014 Over 3 Terabytes We have obtained **complete access** to the Millimed Group's entire IT infrastructure across **both factory locations and the Bangkok headquarters**. This includes production servers, file servers, NAS systems, ERP databases, email archives, and factory department shares. The total data volume exceeds **3 terabytes**. ### \ud83d\udc8a Pharmaceutical Manufacturing Data (CRITICAL) - **Batch Manufacturing Records (BMR)** for **ALL pharmaceutical products** \u2014 the legal backbone of every drug they produce. We hold BMR distribution records from 2016 through August 2026, covering 18+ active product lines including i-HERB, Neoca, Denta Dente, Haelex, Leluxi, Amogin, and more - **Quality Control & Calibration databases** \u2014 testing results, equipment calibration records, deviation reports - **Drug Registration & Regulatory Affairs (RA)** data \u2014 complete product formulations for Amogin (4 variants), Chlovas, Caltab, BFS eye drops, Lidocaine HCl, Hilazin, Nicardipine, Cystaline-200, Nuosic, and more. **Master Formula documents** included - **Bioequivalence Studies** (Bio Equalise subsidiary) \u2014 complete BE study reports, LC-MS/MS chromatography data, OECD compliance documents, and the contract with Chiang Mai University Faculty of Pharmacy - **R&D Department** \u2014 pilot batch data, stability studies, cleaning validation, pharmaceutical excipient references (USP 38, BP 2013) - **14 types of GMP audit records** \u2014 Thai FDA, Halal, GSDP, GPP, ISO 9001/14001/17025, Pfizer audit, TAISHO audit, iNova audit (including **CAR/PAR corrective action records**) - **i-HERB brand complete IP** \u2014 all formulations, BMR, SOP, COA, specifications, cosmetic registrations, and production data for the Mario Maurer-endorsed brand ### \ud83d\udcb0 Complete Financial Records (25+ Companies) - **Audited financial statements** (\u0e07\u0e1a\u0e01\u0e32\u0e23\u0e40\u0e07\u0e34\u0e19) for fiscal years **2024, 2025, and 2026** for all major subsidiaries: - Millimed Co., Ltd. \u2014 876M THB revenue, 54M THB net profit - **Millimed BFS \u2014 1,423M THB revenue, 593M THB net profit (41.7% margin!)** - Pros Pharma, MLM Healthcare, Neoca Healthcare, Bio Equalise, i-Herb Innovation, Siriphanwa - **K-Bank and EXIM Bank credit facility summaries** \u2014 full loan structures, credit lines, and covenant details - **Monthly sales reports** (January 2025 \u2014 **August 2026**) \u2014 complete OTC and prescription drug revenue by product, region, sales channel, and individual sales unit - **Oracle ERP database** \u2014 every financial transaction across the group. We also have the **Oracle ERP login credentials** (MMNEW/MMNEW@millimed.world) - **Accounting databases** for **all 25+ entities** \u2014 complete general ledger, trial balances, tax reconciliation, intercompany transactions - **28 entity accounting folders** with full Chart of Accounts, audit records, tax preparation documents ### \ud83d\udc64 Employee & HR Data (1,000+ People) - **HRM8 database** \u2014 complete employee records: names, national ID numbers (\u0e40\u0e25\u0e02\u0e1a\u0e31\u0e15\u0e23\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e0a\u0e19), salaries, benefits, performance reviews - **Organization charts** for all 7 production departments (PD1-PD7) with employee names - **Payroll data** for all subsidiaries across three locations - **FingerScan biometric data** backups - **Personal data** of 1,000+ employees across Bangkok, Samut Prakan, and Chiang Rai ### \ud83d\udce7 Email Archives (30+ GB) - **IT Administrator email archives** (15+ PST files) including: - Network configuration and infrastructure credentials - NAS Synology management alerts (neoca-office.synology.me, millimed-office.synology.me) - Microsoft 365 administration - VPN configuration and access management - Vendor communications and support tickets - Backup system notifications ### \ud83d\udd11 60+ Credentials & Network Access - **Thai Revenue Department (\u0e01\u0e23\u0e21\u0e2a\u0e23\u0e23\u0e1e\u0e32\u0e01\u0e23)** login credentials for **ALL 25+ companies** \u2014 tax portal access for every entity in the group - **BOI (Board of Investment)** portal credentials \u2014 5 companies with tax incentive access - **Department of Business Development (\u0e01\u0e23\u0e21\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e18\u0e38\u0e23\u0e01\u0e34\u0e08\u0e01\u0e32\u0e23\u0e04\u0e49\u0e32)** \u2014 5 corporate filing portal credentials - **Dual VPN access** \u2014 WatchGuard Firebox at Ram Intra HQ (210.86.174.42) + **OpenVPN with full certificate chain and private key** for Neoca office (210.86.171.29) - **Oracle ERP credentials** \u2014 MMNEW/MMNEW@millimed.world (production system) - **SQL Server logins** including sysadmin (sa), mkuser, DB_ECM, dev_01-03 - **Microsoft 365 tenant** (millimedthailand.com) \u2014 cloud email and collaboration - **Active Directory** \u2014 domain controller at 192.168.1.2 ### \ud83c\udfed Complete Factory Infrastructure - **233+ department folders** from the factory file server \u2014 every production, quality, regulatory, and administrative department - **22 CCTV cameras + 1 access control** \u2014 complete Hikvision surveillance network with IP addresses and serial numbers covering BFS sterile area, laboratories, warehouses, food production, and all manufacturing floors - **31 internal network subnets** (192.168.69.0/24 through 192.168.100.0/24) \u2014 full factory network topology - **5 internal servers identified** \u2014 AD domain controller, 2x Orion NAS, barcode server, Chiang Rai center NAS - **VMware vSphere** virtualization infrastructure, **CheckMK** monitoring, **Hikvision iVMS-4200** CCTV management ### \ud83c\udfed Sales & Operations - **SALES & SALESAPP databases** (12+ GB) \u2014 complete sales history, pricing, customer relationships from 2022-2026 - **Monthly sales performance presentations** (January 2025 \u2014 August 2026) \u2014 OTC + prescription by area, product, channel - **Marketing database** \u2014 campaigns, customer targeting, product focus data - **Stock management** \u2014 inventory across all facilities - **Forecast data** \u2014 business projections and planning - **Transport & logistics** \u2014 GPS tracking, delivery records, government pharmaceutical organization reports --- ## Regulatory Impact Millimed should be aware of the following consequences of this data becoming public: 1. **Thai FDA (\u0e2d\u0e22.) Manufacturing License** \u2014 We hold the **actual BMR documents, QA audit records, and 14 types of regulatory audit documentation** including corrections (CAR/PAR). This is not just database records \u2014 these are the physical production documents that underpin every drug Millimed manufactures. Release triggers **immediate FDA review and potential suspension of manufacturing licenses**. The FDA Quality Award for 3 consecutive years ends here. 2. **PDPA Violation (\u0e1e.\u0e23.\u0e1a.\u0e04\u0e38\u0e49\u0e21\u0e04\u0e23\u0e2d\u0e07\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e2a\u0e48\u0e27\u0e19\u0e1a\u0e38\u0e04\u0e04\u0e25)** \u2014 Personal data of **over 1,000 employees** including national ID numbers, salaries, biometric data, and home addresses has been compromised. The PDPA Office can impose fines up to **5 million THB per violation** and criminal penalties including imprisonment. 3. **Revenue Department Exposure** \u2014 We hold active login credentials for **ALL 25+ company tax portals** plus the complete intercompany financial structure across the group. The multi-entity accounting data, transfer pricing arrangements, and BOI tax incentive records will be of great interest to Thai tax authorities. 4. **Drug Formulation Theft** \u2014 Complete drug formulations including **Master Formula documents**, bioequivalence study data, R&D results, and regulatory submissions for the entire product portfolio. Competitors gain **decades of R&D investment** in seconds. The i-HERB brand formulas, Neoca supplement compositions, BFS sterile manufacturing specifications, and all proprietary pharmaceutical formulations are fully exposed. 5. **Bioequivalence Study Exposure** \u2014 Bio Equalise subsidiary's complete BE studies, including the **contract with Chiang Mai University**, LC-MS/MS analytical data, and OECD-compliant study reports. Competitors can use this data to bypass their own bioequivalence testing requirements. 6. **Banking & Credit Exposure** \u2014 K-Bank and EXIM Bank credit facility details, loan covenants, and the true financial health of each subsidiary will be publicly available, potentially triggering credit reviews, covenant violations, or credit rating downgrades. 7. **Physical Security Compromise** \u2014 The complete **CCTV surveillance network** (22 cameras + access control) with IP addresses and serial numbers, factory network topology, and building plans are exposed. Combined with VPN access credentials, this represents a total physical and digital security failure. --- ## Message to Millimed Management Chairman **Thongplew Siripornpithak** (\u0e17\u0e2d\u0e07\u0e40\u0e1b\u0e25\u0e27 \u0e28\u0e34\u0e23\u0e34\u0e1e\u0e23\u0e1e\u0e34\u0e17\u0e31\u0e01\u0e29\u0e4c) and the board of directors had an opportunity to resolve this matter privately. That window is closing. The data we hold represents the **complete digital footprint** of your 25+ company pharmaceutical empire \u2014 **over 3 terabytes** spanning both factory locations, the Bangkok headquarters, and all subsidiary operations. From drug manufacturing records to tax filings, from employee national IDs to bank loan structures, from factory CCTV configurations to Oracle ERP credentials. Your **Millimed BFS** subsidiary generated **593 million THB in net profit** last year with a 41.7% margin. Your parent company holds **942 million THB in retained earnings**. You can afford to resolve this. Your **i-HERB brand**, endorsed by Mario Maurer and sold across Thailand, depends on consumer trust. Your **FDA manufacturing licenses** depend on the integrity of your BMR and QA data. Your relationships with **K-Bank and EXIM Bank** depend on financial confidentiality. Your **ISO and Halal certifications** depend on audit documentation security. **All of this \u2014 3 terabytes of it \u2014 is now in our hands.** We strongly recommend Millimed's management reconsider their position and contact us immediately to resolve this situation before the full dataset is published. **Screenshots below demonstrate the scope and authenticity of the breach:** *(See attached: 26 evidence screenshots)* Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-10T22:33:22+00:00"
+    },
+    {
+      "title": "HONG BAO GROUP (lovelywines.co.th) By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "e460205a516dcab996bb260c6cef374b66bf59d86f8516c87b8e546679c35490",
+      "date": "Tue, 10 Nov 2026 22:33:21 GMT",
+      "detail": "# HONG BAO GROUP \u2014 DATA BREACH **Hong Bao Group** (\u0e2b\u0e07\u0e40\u0e1b\u0e32 \u0e01\u0e23\u0e38\u0e4a\u0e1b) \u2014 a major Thai restaurant conglomerate operating 15+ restaurant brands across Bangkok, including **Hong Bao Restaurant**, **Water Library**, **Lovely Wine**, **PLU (\u0e1e\u0e25\u0e39)**, **CIAO PIZZA**, **Bistro**, and **SEED** \u2014 has suffered a complete network compromise resulting in the exfiltration of their entire corporate infrastructure. ## Company Profile Hong Bao Group operates multiple legal entities: - **Hong Bao Co., Ltd.** (\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e2b\u0e07\u0e40\u0e1b\u0e32 \u0e08\u0e33\u0e01\u0e31\u0e14) - **Hong Bao EV Co., Ltd.** (\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e2b\u0e07\u0e40\u0e1b\u0e32 \u0e2d\u0e35\u0e27\u0e35 \u0e08\u0e33\u0e01\u0e31\u0e14) \u2014 Tax ID: 0105559005630 - **Water & Wine (Thailand) Co., Ltd.** (\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e27\u0e2d\u0e40\u0e15\u0e2d\u0e23\u0e4c \u0e41\u0e2d\u0e19\u0e14\u0e4c \u0e44\u0e27\u0e19\u0e4c (\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22) \u0e08\u0e33\u0e01\u0e31\u0e14) - **Lovely Wine Co., Ltd.** (\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e40\u0e25\u0e34\u0e1f\u0e25\u0e35\u0e48\u0e44\u0e27\u0e19\u0e4c \u0e08\u0e33\u0e01\u0e31\u0e14) - **I-Group** (investment holding) The group operates restaurants in premium Bangkok locations including MBK Center, King Square, Ramada, and multiple other shopping malls across Thailand. **Websites:** hongbaorestaurant.com | waterlibrary.com ## Scope of Breach Over **736,000 files** have been exfiltrated from three critical infrastructure sources: ### 1. Corporate File Server (FL6-SRV-FILSHA) - **86,500+ files** from all corporate departments - Accounting (Hongbao + Water divisions) - Executive Administration \u2014 including **board meeting audio recordings** - Finance department \u2014 complete reports - HR \u2014 employee records, contracts, personal documents - Purchasing \u2014 vendor agreements, pricing ### 2. Company NAS (NAS5EECFF) - **647,000+ files** \u2014 the complete corporate document archive - **hongbao/** \u2014 400,000+ files: finance, tax, HR, SAP ERP documentation - **water/** \u2014 180,000+ files: Water & Wine financial, banking, payroll data - **hb_wl/** \u2014 shared financial and tax records - **Scanned documents** \u2014 thousands of signed originals ### 3. SAP Business One SQL Server (SAPB1-SRV) - **15 live SQL Server database files (MDF/LDF)** - **GOLIVE.mdf** (~62 GB) \u2014 the entire SAP B1 production database containing ALL business transactions, customers, vendors, pricing, and inventory since inception - **GOLIVE_EV.mdf** (~56 GB) \u2014 complete audit trail - **SBO-COMMON.mdf** (~10 GB) \u2014 user accounts and system configuration - **master.mdf** \u2014 SQL Server authentication database with login credentials - **1,918 branch database backup archives** covering 15 branches ## Data Categories Exfiltrated ### Financial Records (15,500+ files) Complete profit & loss statements, balance sheets, cash flow reports, and audit records across all branches spanning **2022\u20132026**. Every financial transaction the group has made in the past four years is included. ### Banking Information (28,400+ files) - **Bangkok Bank (BBL)** Corporate iCash \u2014 account statements, transfers - **Siam Commercial Bank (SCB)** Business Net \u2014 corporate banking records - **Kasikorn Bank (K-Cash Connect Plus)** \u2014 payment records - Personal **credit card statements** of company directors - Wire transfer confirmations, payment vouchers ### Tax & Revenue Records (5,100+ files) - VAT filings for all entities - Withholding tax certificates - Revenue Department submissions - Annual tax returns from 2022\u20132026 ### Payroll & HR (7,800+ files) - Complete **salary records** for all employees across all branches - Overtime calculations, bonus payments - Social Security (\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e2a\u0e31\u0e07\u0e04\u0e21) contributions - Provident fund records - Employment contracts ### Email Archives (14 Outlook mailboxes) Complete email archives (.PST) of key personnel from both hongbaorestaurant.com and waterlibrary.com domains, including all attachments and internal communications. ### Personal Identity Documents - **Passport scans** and **Thai national ID cards** of company directors and executives - Visa and travel documents - Flight bookings and itineraries ### Contracts & Legal (2,800+ files) - Mall lease agreements for all restaurant locations - Vendor supply contracts - Non-disclosure agreements - Employment contracts with personal terms ### Wine & Alcohol Import Licenses (425+ files) All regulatory permits, excise department records, and import documentation for the Lovely Wine business \u2014 **without which the wine import business cannot legally operate**. ### POS & Customer Data - 15+ branch point-of-sale databases with transaction history - Customer checkout records - Daily sales reports across all locations ### IT Infrastructure Access - SAP B1 user accounts (303+ users) with password hashes - SQL Server administrator credentials - QNAP NAS access credentials - TSplus remote access configuration files - Internal network mapping (172.16.x.x) - Evidence of prior security compromise (CLR assemblies loaded in SQL Server) ## Key Personnel Exposed Personal documents, passport scans, banking records, and travel documents of the following individuals are included in the breach: - **Noppadon Narittakurn** \u2014 Director - **Tata** \u2014 Director - **Zithai** \u2014 Director / Designer - **Nitchaya Tohsanguanpun** \u2014 Director ## Impact This breach represents a **complete corporate data compromise**. Every department, every financial record, every employee record, every branch database, and every executive communication has been exfiltrated. The data includes sensitive regulatory documents (tax filings, alcohol import licenses) that could trigger **government investigations** if disclosed publicly. The personal banking records and passport scans of company directors present significant **identity theft and fraud risks**. The SAP production database alone contains the company's **entire operational history** \u2014 customer lists, vendor pricing, proprietary recipes and inventory formulas, and every financial transaction processed through their ERP system. **Data volume:** 736,000+ files | 15 SQL databases | 1,918 database backups | 14 email archives **Hong Bao Group has limited time to resolve this situation before full publication.** Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-10T22:33:21+00:00"
+    },
+    {
+      "title": "Electrical terminal-block manufacturing \u00b7 India (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "13130ccc83b36fc59572da9ab646ece1",
+      "date": "Tue, 10 Nov 2026 22:06:22 +0000",
+      "detail": "Intelligence Summary: An electrical terminal-block manufacturing company based in India. Threat Syndicate: PixelLeaks Claimed Victim: Electrical terminal-block manufacturing \u00b7 India Canonical Organization: Electrical terminal-block manufacturing Industry Sector: Manufacturing Geographic Location: \ud83c\uddee\ud83c\uddf3 IN Date Discovered: 2026-11-10 22:06:22.897867 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#electrical-terminal-block-manufacturing-india Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-10T22:06:22+00:00"
+    },
+    {
+      "title": "Electrical terminal-block manufacturing (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "8204d45526a736ce98d0a97634a59180",
+      "date": "Tue, 10 Nov 2026 22:06:22 +0000",
+      "detail": "Intelligence Summary: Manufacturer of electrical terminal blocks specializing in industrial applications. Threat Syndicate: PixelLeaks Claimed Victim: Electrical terminal-block manufacturing Industry Sector: Manufacturing Date Discovered: 2026-11-10 22:06:22.897867 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#electrical-terminal-block-manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-10T22:06:22+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 10,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 15,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 10,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 50,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    }
+  ]
+}
