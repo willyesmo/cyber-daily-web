@@ -1,0 +1,438 @@
+{
+  "generated": "2026-11-11T17:17:09.180251+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "CVE-2026-124194: Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-124194",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Microsoft",
+        "Producto": "Office",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-124194 ; https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-111793: Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111793",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Openwave Messaging Limited",
+        "Producto": "Webtop Media Transcoder",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://github.com/GISOpenwave/security-advisories-public/blob/main/CAN-2026-2032674.md ; https://jvn.jp/en/vu/JVNVU93403064/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-20320: Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20320",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Cisco",
+        "Producto": "BroadWorks",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-111560: Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111560",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606 Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Barracuda Networks",
+        "Producto": "Multiple Products",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0041.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-116606: Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116606",
+      "date": "2026-11-10",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration. This vulnerability can be chained with CVE-2026-111560. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Barracuda Networks",
+        "Producto": "Barracuda Email Security Gateway (ESG)",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0042.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
+      "url": "https://isc.sans.edu/diary/rss/33510",
+      "feed_id": "https://isc.sans.edu/diary/rss/33510",
+      "date": "Wed, 11 Nov 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-11T02:00:03+00:00"
+    },
+    {
+      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33508",
+      "feed_id": "https://isc.sans.edu/diary/rss/33508",
+      "date": "Tue, 10 Nov 2026 19:09:32 GMT",
+      "detail": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-10T19:09:32+00:00"
+    },
+    {
+      "title": "Microsoft Patch Tuesday for November 2026 \u2014 Snort rules and prominent vulnerabilities",
+      "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+      "feed_id": "6af2f06a6f4a9600010b568b",
+      "date": "Wed, 11 Nov 2026 01:41:17 GMT",
+      "detail": "Microsoft has released its monthly security update for November 2026, which includes 1095 vulnerabilities affecting a range of products, including 64 that Microsoft marked as \"critical.\" Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-124194 affects Microsoft Office Outlook. CVE-2026-124194 is a spoofing vulnerability involving Product UI does not Warn User of Unsafe Actions and has a CVSS base score of 6.5. Out of 64 \"critical\" vulnerabilities, 48 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely: CVE-2026-113862 affects Windows Network Address Translation (NAT). CVE-2026-113862 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.1. CVE-2026-118146 and CVE-2026-118148 affect Active Directory Domain Services. CVE-2026-118146 is a remote code execution vulnerability involving Incorrect Authorization and has a CVSS base score of 8.8. CVE-2026-118148 is an elevation of privilege vulnerability involving Incorrect Authorization and has a CVSS base score of 7.5. CVE-2026-118207 affects Microsoft Exchange Server. CVE-2026-118207 is a remote code execution vulnerability involving Use of Incorrectly-Resolved Name or Reference and has a CVSS base score of 8.8. CVE-2026-119952 affects Windows Schannel. CVE-2026-119952 is a remote code execution vulnerability involving Observable Timing Discrepancy and has a CVSS base score of 8.1. Microsoft considers exploitation of the following vulnerabilities less likely: CVE-2026-109459 and CVE-2026-119967 affect Windows Message Queuing Queue Manager. CVE-2026-109459 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.1. CVE-2026-119967 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.1. CVE-2026-110043 , CVE-2026-110068 and CVE-2026-111309 affect Microsoft Office Outlook. CVE-2026-110043 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-110068 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.8. CVE-2026-111309 is a remote code execution vulnerability involving Release of Invalid Pointer or Reference and has a CVSS base score of 8.8. CVE-2026-110047 , CVE-2026-110067 , CVE-2026-111285 and CVE-2026-124185 affect Microsoft Office Word. CVE-2026-110047 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.8. CVE-2026-110067 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.8. CVE-2026-111285 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-124185 is a remote code execution vulnerability involving Use of Uninitialized Resource and has a CVSS base score of 7.5. CVE-2026-111289 and CVE-2026-120003 affect Microsoft Office. CVE-2026-111289 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.8. CVE-2026-120003 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-112967 affects Windows Xbox Live Networking Service. CVE-2026-112967 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 9.8. CVE-2026-113752 affects Windows Print Spooler Components. CVE-2026-113752 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 7.5. CVE-2026-113753 , CVE-2026-113856 , CVE-2026-113860 , CVE-2026-113861 , CVE-2026-113865 , CVE-2026-119947 , CVE-2026-119960 and CVE-2026-113864 affect Windows Hyper-V. CVE-2026-113753 is an elevation of privilege vulnerability involving Untrusted Pointer Dereference and has a CVSS base score of 8.2. CVE-2026-113856 is an elevation of privilege vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-113860 is an elevation of privilege vulnerability involving Use After Free and has a CVSS base score of 7.0. CVE-2026-113861 is an elevation of privilege vulnerability involving Use After Free and has a CVSS base score of 7.5. CVE-2026-113865 is an elevation of privilege vulnerability involving Time-of-check Time-of-use (TOCTOU) Race Condition and has a CVSS base score of 7.8. CVE-2026-119947 is an elevation of privilege vulnerability involving Use After Free and has a CVSS base score of 7.5. CVE-2026-119960 is an elevation of privilege vulnerability involving Use of Uninitialized Resource and has a CVSS base score of 7.5. CVE-2026-113864 is an elevation of privilege vulnerability involving Use After Free and has a CVSS base score of 6.4. CVE-2026-113825 affects Windows SMB Server Network Transport Driver (srvnet.sys). CVE-2026-113825 is a remote code execution vulnerability involving Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') and has a CVSS base score of 7.5. CVE-2026-113859 affects Windows TCP/IP. CVE-2026-113859 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 7.5. CVE-2026-114160 affects Azure Managed Grafana. CVE-2026-114160 is an elevation of privilege vulnerability involving Server-Side Request Forgery (SSRF) and has a CVSS base score of 9.8. CVE-2026-114169 affects Windows Raw Image Extension. CVE-2026-114169 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-116710 , CVE-2026-119963 and CVE-2026-119964 affect Windows Message Queuing. CVE-2026-116710 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.1. CVE-2026-119963 is a remote code execution vulnerability involving Double Free and has a CVSS base score of 8.1. CVE-2026-119964 is a remote code execution vulnerability involving Double Free and has a CVSS base score of 8.1. CVE-2026-116928 affects Microsoft Windows Search Component. CVE-2026-116928 is a remote code execution vulnerability involving Out-of-bounds Write and has a CVSS base score of 9.8. CVE-2026-118145 affects Windows Function Discovery SSDP Provider. CVE-2026-118145 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 7.5. CVE-2026-118292 , CVE-2026-118296 , CVE-2026-118297 , CVE-2026-118701 , CVE-2026-118702 , CVE-2026-118711 , CVE-2026-118713 , CVE-2026-118730 , CVE-2026-120786 , CVE-2026-120788 , CVE-2026-120789 and CVE-2026-124170 affect Microsoft Office Excel. CVE-2026-118292 is a remote code execution vulnerability involving Stack-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-118296 is a remote code execution vulnerability involving Double Free and has a CVSS base score of 8.8. CVE-2026-118297 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-118701 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-118702 is a remote code execution vulnerability involving Double Free and has a CVSS base score of 8.8. CVE-2026-118711 is a remote code execution vulnerability involving Stack-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-118713 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.8. CVE-2026-118730 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.8. CVE-2026-120786 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-120788 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-120789 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-124170 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 7.5. CVE-2026-118737 affects Windows Remote Procedure Call Runtime. CVE-2026-118737 is a remote code execution vulnerability involving Improper Verification of Cryptographic Signature and has a CVSS base score of 8.1. CVE-2026-119382 affects Windows TPM. CVE-2026-119382 is an elevation of privilege vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-119951 affects Windows Deployment Services. CVE-2026-119951 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 8.1. CVE-2026-119957 affects Windows Remote Desktop Services. CVE-2026-119957 is an elevation of privilege vulnerability involving Double Free and has a CVSS base score of 7.8. CVE-2026-119958 affects Windows LDAP - Lightweight Directory Access Protocol. CVE-2026-119958 is a remote code execution vulnerability involving Out-of-bounds Write and has a CVSS base score of 9.8. CVE-2026-119961 affects Windows Internet Information Services. CVE-2026-119961 is a remote code execution vulnerability involving Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') and Use After Free and has a CVSS base score of 8.1. CVE-2026-119962 affects Windows Cred SSProvider Protocol. CVE-2026-119962 is a remote code execution vulnerability involving Double Free and has a CVSS base score of 8.1. CVE-2026-119966 and CVE-2026-125137 affect Windows Graphics Kernel. CVE-2026-119966 is an elevation of privilege vulnerability involving Integer Overflow or Wraparound and has a CVSS base score of 7.5. CVE-2026-125137 is an elevation of privilege vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-119969 affects Graphic Fonts. CVE-2026-119969 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-120005 affects Microsoft Office PowerPoint. CVE-2026-120005 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-122194 affects Microsoft Defender. CVE-2026-122194 is a remote code execution vulnerability involving NULL Pointer Dereference and has a CVSS base score of 8.8. CVE-2026-125136 affects Windows Network Connected Devices Auto-Setup Service. CVE-2026-125136 is a remote code execution vulnerability involving Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-125134 affects Windows Function Discovery Resource Publication. CVE-2026-125134 is a remote code execution vulnerability involving Use After Free and has a CVSS base score of 7.5. CVE-2026-113749 affects Microsoft Windows Codecs Library. CVE-2026-113749 is a remote code execution vulnerability involving Heap-based Buffer Overflow and Integer Overflow or Wraparound and has a CVSS base score of 7.5. CVE-2026-109469 affects Entra Device Registration. CVE-2026-109469 is an elevation of privilege vulnerability involving Authorization Bypass Through User-Controlled Key and has a CVSS base score of 10.0. Other critical vulnerabilities: CVE-2026-119990 affects Azure OpenAI. CVE-2026-119990 is an elevation of privilege vulnerability involving Missing Authentication for Critical Function and has a CVSS base score of 9.8. Talos would also like to highlight the following \"important\" vulnerabilities as Microsoft has determined that their exploitation is \"more likely:\" CVE-2026-105501 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-105524 : Windows Management Instrumentation Elevation of Privilege Vulnerability CVE-2026-109473 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-112745 : Azure DevOps Server Information Disclosure Vulnerability CVE-2026-112759 : Windows Task Scheduler Elevation of Privilege Vulnerability CVE-2026-112791 : Windows Print Spooler Components Elevation of Privilege Vulnerability CVE-2026-112798 : Windows NetBIOS Elevation of Privilege Vulnerability CVE-2026-112811 : Windows Print Spooler Components Elevation of Privilege Vulnerability CVE-2026-112970 : Windows SMB Client Elevation of Privilege Vulnerability CVE-2026-113819 : Desktop Window Manager Elevation of Privilege Vulnerability CVE-2026-116714 : Windows AppX Deployment Service Elevation of Privilege Vulnerability CVE-2026-119389 : Windows Storage Elevation of Privilege Vulnerability CVE-2026-119398 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-119818 : Windows Text Services Framework Elevation of Privilege Vulnerability CVE-2026-119886 : Windows Telephony Service Elevation of Privilege Vulnerability CVE-2026-119892 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-119903 : Windows Installer Elevation of Privilege Vulnerability CVE-2026-119992 : Windows HTTP.sys Elevation of Privilege Vulnerability CVE-2026-121662 : Visual Studio Code Remote Code Execution Vulnerability CVE-2026-121663 : Visual Studio Code Security Feature Bypass Vulnerability CVE-2026-122175 : Windows Autopilot Elevation of Privilege Vulnerability CVE-2026-83563 : Winlogon Elevation of Privilege Vulnerability CVE-2026-88230 : Windows LUA File Virtualization Filter Driver Elevation of Privilege Vulnerability CVE-2026-88238 : Windows Camera Frame Server Monitor Elevation of Privilege Vulnerability CVE-2026-88242 : Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability CVE-2026-94514 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-95874 : Xbox Gaming Services Elevation of Privilege Vulnerability CVE-2026-95935 : Windows Graphics Kernel Elevation of Privilege Vulnerability CVE-2026-95963 : Data Sharing Service Client Elevation of Privilege Vulnerability CVE-2026-95983 : Windows Graphics Kernel Elevation of Privilege Vulnerability CVE-2026-95988 : Windows Kernel Elevation of Privilege Vulnerability CVE-2026-95989 : vhdmp.sys Elevation of Privilege Vulnerability CVE-2026-96077 : Windows TCP/IP Denial of Service Vulnerability CVE-2026-96126 : Windows Graphics Kernel Elevation of Privilege Vulnerability CVE-2026-97013 : Windows Shell Elevation of Privilege Vulnerability CVE-2026-119853 : Remote Access API Elevation of Privilege Vulnerability CVE-2026-88235 : Servicing Stack Updates Elevation of Privilege Vulnerability A complete list of all the other vulnerabilities Microsoft disclosed this month is available on its update page . In response to these vulnerability disclosures, Talos is releasing a new Snort ruleset that detects attempts to exploit some of them. Please note that additional rules may be released at a future date, and current rules are subject to change pending additional information. Cisco Secure Firewall customers should use the latest update to their ruleset by updating their SRU. Open-source Snort Subscriber Ruleset customers can stay up to date by downloading the latest rule pack available for purchase on Snort.org . Snort 2 rule coverage: 1:67457, 1:67456, 1:67459, 1:67458, 1:67463, 1:67462, 1:67461, 1:67460, 1:67455, 1:67454, 116:96, 116:97, 1:67445, 1:67444, 1:67451, 1:67450, 1:67447, 1:67446, 1:67449, 1:67448, 1:67469, 1:67468, 1:67465, 1:67464, 1:67471, 1:67470, 1:67475, 1:67474, 1:67473, 1:67472, 1:67484, 1:67483, 1:67254, 1:67255 Snort 3 rule coverage: 1:301740, 1:301741, 1:301743, 1:301742, 1:301739, 116:96, 116:97, 1:301734, 1:301737, 1:301735, 1:301736, 1:301746, 1:301744, 1:301747, 1:301749, 1:301748, 1:301751, 1:301685",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Cisco Talos",
+      "published": "2026-11-11T01:41:17+00:00"
+    },
+    {
+      "title": "Detecting sleeper agents hiding in AI model neurons",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150905",
+      "date": "Tue, 10 Nov 2026 23:00:00 +0000",
+      "detail": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than 10 neurons to inject a short payload. The sleeper agent passes all evaluations, but when a trigger string appears in its context, the agent runs an attacker\u2019s command. And because agents now frequently run unattended with privileged system access, the integrity of model weights is a security concern for both third-party models and internally developed models. Key findings from Microsoft Research include: Software abuse and manipulation are familiar threats. For AI models and agents, enterprises need independent observability and other controls to continuously monitor performance, detect unintended or malicious activity, and manage risk. Satya Nadella recently outlined this approach in a blog post . A backdoored model can pass evaluations. When it emits the attacker\u2019s command on cue, the agent runs the command with whatever access it has in the environment. The attack needs inference-only compute. If a machine has enough RAM to run a model, it has enough resources to weight-space backdoor it. Claude Code with Opus 4.5 discovered most of this threat autonomously. Microsoft has not observed any threat actors weaponizing this technique. However, this research aligns with similar recent research by Anthropic and MIT on agentic backdoors and weight-space programming, respectively, highlighting the need to audit open weights like code. Notably, Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. Using frontier agents as auditors can help automate the defense against this threat. More broadly, Microsoft Research\u2019s approach demonstrates an adaptable process for securing AI agents: agents surface new security problems, and human researchers then systematize, study, and mitigate them. Learn more from the Microsoft Research Blog: Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents . Mitigation and protection guidance Microsoft recommends the following mitigations to defend against this threat as part of a broader defense-in-depth approach. The guidance is grouped by control objective so that model owners, platform teams, and security operations can each find their actions. Audit model weights before deployment and after every update Diff every checkpoint against its declared base model before deployment and after each update. Legitimate fine-tunes and quantized versions change weights broadly and diffusely, while implanted neurons tend to change a few weight vectors by a large amount. Flag tensors or rows whose change is a statistical outlier relative to the rest of the diff and reject models that do not declare a verifiable base. Use frontier AI agents as auditors in the model intake pipeline. Microsoft Research found they are highly effective at finding anomalous structure in weights that manual inspection misses, which makes this step automatable at scale. Complement weight diffing with behavioral backdoor scanning of open-weight models, as described in Microsoft\u2019s research on detecting backdoored language models at scale . Record audit results alongside the model in the registry, and state clearly to internal consumers that passing an audit reduces risk but does not guarantee safe behavior. Secure model hubs and publishers Display provenance and audit status publicly before a checkpoint can be downloaded or served through an API. Scan every upload for anomalous neurons, weight patterns or behaviors, and state clearly that third-party checkpoints can be unsafe and that passing an audit does not guarantee safe behavior. Treat every third-party model as untrusted until audited Source checkpoints only from the original publisher, verify the publisher\u2019s published file hashes, and treat all third-party fine-tunes, merges, quantizations, and adapters as untrusted until they pass an audit. Register approved models in a private, access-controlled registry (for example, Azure Machine Learning registries) and block agents and inference services from pulling models directly from public hubs at runtime. Turn on AI model security in Microsoft Defender for Cloud to scan models in Azure Machine Learning workspaces and registries for embedded malware, unsafe operators, and exposed secrets, and add model scans to Azure DevOps or GitHub build and release pipelines. Note that this scanning addresses serialization and code-level risks; it complements, but does not replace, a weight-level audit. Turn on Defender for Storage on-upload malware scanning for storage accounts used to stage model files and training data. Red team for hidden triggers Add trigger-hunting and backdoor scenarios to your AI red team plan. Use PyRIT or the AI Red Teaming Agent in Microsoft Foundry to run repeatable adversarial tests against models and agents before and after each update. Contain what an agent can do if its model is compromised Run agents with least privilege. Give each agent its own Microsoft Entra Agent ID, scope its permissions to the minimum set of resources it needs, and use Conditional Access for agents to l block unapproved or high-risk agent identities . Execute agent-generated code only in isolated sandboxes, such as Azure Container Apps dynamic sessions , and never expose host-side file write or shell tools to the model. Apply network egress controls to agent and inference hosts so that a triggered model cannot open arbitrary outbound connections. Allow only the endpoints the agent requires and turn on network protection in Microsoft Defender for Endpoint. Require human approval for high-impact tool calls, such as running commands, changing permissions, sending data externally or modifying infrastructure. Apply attack surface reduction rules to devices that host local agents and inference servers, starting in audit mode. Detect and block malicious agent behavior at runtime Turn on Microsoft Defender security for AI agents and configure real-time protection rules so Defender can audit and block risky tool invocations, secret exfiltration, and evasion techniques for Microsoft Foundry, Copilot Studio and Agent 365 agents, and runtime protection for local agents through Defender for Endpoint. Turn on threat protection for AI services in Microsoft Defender for Cloud, including suspicious prompt evidence, so the security operations center (SOC) receives alerts for jailbreak attempts, credential leakage in model responses and malicious URLs in AI interactions. Enable Prompt Shields for both user prompts and documents on model deployments and agents. Document attack detection is off by default and should be turned on, including at the tool response intervention point for agents where supported. Onboard every device and server that runs agents or local inference to Microsoft Defender for Endpoint in active mode so that suspicious child processes, persistence and outbound connections from agent host processes are detected. Maintain inventory and governance of models and agents Use the AI agent inventory in the Microsoft Defender portal to discover agents, their tools, identities, and risk indicators. Use AI security posture management in Defender for Cloud to build an AI bill of materials (AI BOM) across Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP), so you know which models are deployed where. Use Microsoft Defender for Cloud Apps and Microsoft Purview DSPM for AI to discover, sanction or block generative AI apps, and to monitor sensitive data in AI interactions. Map controls to the Microsoft catalog of AI defense capabilities , which groups supply-chain provenance, model hardening, runtime isolation and monitoring into a single framework aligned to MITRE ATLAS and the OWASP Top 10 for LLM Applications. Learn more For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Microsoft Security",
+      "published": "2026-11-10T23:00:00+00:00"
+    },
+    {
+      "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=189298",
+      "date": "Wed, 11 Nov 2026 15:00:23 +0000",
+      "detail": "We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant. The post The XG Files: Falcon C2 Flying Under The (Browser) Radar appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-11-11T15:00:23+00:00"
+    },
+    {
+      "title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "url": "https://securelist.com/citrus-ransomware/121879/",
+      "feed_id": "https://kasperskycontenthub.com/securelist/?p=121879",
+      "date": "Wed, 11 Nov 2026 10:00:25 +0000",
+      "detail": "In recent years, cyberthreats have increasingly taken a hybrid approach, combining time-tested techniques for advancing through infrastructure, modern methods of evading network filters, and automation powered by large language models. This is also the approach of Citrus Ransomware, a previously undocumented group whose toolset includes VLESS tunnels (used to disguise traffic as regular HTTPS) and a ransomware Trojan from the Sn00py family. The attackers also integrate LLMs (large language models) into the process of infrastructure compromise. In this article, we review the tactics and techniques the group used in recent incidents. Initial Access: attacks through contractors The attackers gain initial access to victims\u2019 infrastructure through compromised contractors. They use credentials stolen from these contractors\u2019 employees to connect to corporate VPNs or directly to internet-facing terminal servers over RDP. Execution: commands, LLMs, and Impacket The attackers run commands on compromised systems through the standard Windows command interpreter and PowerShell. As the attack progresses, they create and run PowerShell scripts, batch files, and commands generated by LLMs. One example of the latter is the commands below, which disable the account of one of the administrators. Comment translation # Disable account # Verify result Both commands come with comments, something attackers rarely bother with, so the comments very likely point to LLM use. And the models did more than generate commands. The attackers also produced full scripts, complete with the comments typical of LLM output. Comment translation # Creating background tasks for each computer with a thread limit # Concurrent task limit control # Quick ping The fragment above comes from a script Citrus used to enumerate active user sessions on domain systems. Besides LLMs, the attackers use atexec, a classic tool from the Impacket collection, to create scheduled tasks that run commands on hosts: Task name Launched executable file sIErKswD C:\\Windows\\System32\\..\\System32\\cmd.exe PpMBCCSR C:\\Windows\\system32\\cmd.exe QwZtLmNp C:\\Windows\\..\\Windows\\System32\\cmd.exe We did not see the exact commands behind these tasks, but Group Policy was refreshed after they ran, so they most likely executed gpupdate /force . When the group compromises 1C:Enterprise servers, it uses external data processors (1C-Shell) to run commands. Persistence: scheduled tasks Citrus uses scheduled tasks to launch its malicious tools automatically. The attackers create the tasks manually through PowerShell: On systems that are not regularly rebooted, such as terminal servers, they sometimes run their tools without establishing persistence at all. Privilege Escalation: vulnerabilities and configuration flaws In every case we know of, the contractor domain account used for initial access had very limited privileges, so the attackers tried to escalate them. To do this, they attempted to exploit the authentication bypass vulnerability CVE-2026-54121 (Certighost) ; these attempts created machine accounts with telltale names in Active Directory, such as: GHOSTAUFTAFGS GHOSTCZYQVAZS GHOSTIVPRLDZA GHOST{8 random letters} These names are generated by scripts making use of an exploit published on GitHub. The exploit works like this: on behalf of the newly created account, it requests a certificate based on the Machine template from the system holding the AD CS role. The Attributes , Subject , and SubjectAlternativeName fields contain parameters like these: <Data Name='Attributes'>CertificateTemplate:Machine\\nSAN:dns=dc01.victim.domain\\ncdc:91.210.109[.]118\\nrmd:dc01.victim.domain </Data> <Data Name='Subject'>CN=GHOSTABUIEFAD.victim.domain</Data> <Data Name='SubjectAlternativeName'>DNS name =dc01.victim.domain\\r\\n</Data> The cdc attribute specifies the IP address or name of the system that the certification authority must contact to verify the data. The attackers specify the address of a system they control (in this case, 91.210.109[.]118) and send forged data from it. If exploitation succeeds, the certification authority issues a certificate with the specified parameters, based on the specified template. Once the certificate is issued, the domain controller name in its SubjectAlternativeName field lets the attackers authenticate as the domain controller account. In one case, the attackers also uploaded an executable for persistence, on behalf of which PowerShell scripts were launched with nonstandard HostName (\u0418\u043c\u044f \u0443\u0437\u043b\u0430) field value. Field name translation Severity HostName HostVersion HostId HostApplication EngineVersion RunspaceId PipelineId CommandName CommandType ScriptName Although the file was later deleted, indirect evidence hints at its purpose. For example, the MSFConsole value may indicate that the file is a component of the Metasploit framework. The PowerShell scripts run through this file included an exploit for the CVE-2020-1337 vulnerability; the same exploit is available in the Metasploit GitHub repository. Beyond classic vulnerabilities in Microsoft products, the attackers also took an interest in 1C:Enterprise servers with insecure configurations (article in Russian) . On top of the configuration flaws, 1C:Enterprise systems are frequently accessed by support staff and administrators who hold elevated privileges in Active Directory. Together, these factors make it easy for attackers to escalate privileges and start moving laterally. Stealth: covering tracks and masquerading To hinder incident response, the attackers delete their tools and output files and clear the command history. While the tools are still in use in the victim\u2019s infrastructure, the attackers typically give them and their auxiliary objects legitimate-looking names: KasperskyGPO_Deploy_64.exe and KasperskyGPO_Deploy_64_FIXED.exe are self-extracting archives. They contain the Deploy-KasperskyGPO.ps1 script, a directory with a malicious Group Policy Object, and one of two archives, KasperskyAgent.exe or agent.exe. KasperskyAgentInstaller.exe, KasperskyAgent.exe, and agent.exe are self-extracting archives containing the ransomware Trojan executable and auxiliary files. Kaspersky GPO is the name of the Group Policy Object that distributes the ransomware Trojan in the victim\u2019s infrastructure. KasperskyAgentInstallTask and Sysvc are names used for the scheduled task that runs the self-extracting ransomware archive files. Deploy-KasperskyGPO.ps1 is the PowerShell script that creates the malicious Kaspersky GPO. Kaspersky_GPO_Deployment.log is the log of the Deploy-KasperskyGPO.ps1 script. Note that using the Kaspersky name in malicious file names doesn\u2019t help the attackers avoid detection. Kaspersky solutions successfully detect and block these malicious files. Defense Impairment: weak access policies for security tools play into attackers\u2019 hands To stay under the radar longer, the attackers clear event logs on some systems using the built-in wevtutil utility. In addition, once they have sufficient privileges, they disable antivirus protection on hosts, which lets them run tools such as mimikatz. The attackers also go after the centralized management consoles for security solutions, which they then use to disable protection en masse. At the Impact stage, the attackers also use a Group Policy Object that modifies Windows Defender settings in the registry to switch it off. As a result, the antivirus did not respond when the ransomware was launched. Finally, if they have sufficient privileges, the attackers manually add their malicious tools to the antivirus exclusion list. Credential Access: mimikatz, a keylogger, and extraction of credentials from files To capture keystrokes on a compromised system, the attackers use a modified version of the peeping-tom keylogger, whose source code is available on GitHub. The keylogger executable and its log file are located at the following paths: C:\\ProgramData\\Oracle\\Java\\jhost.exe C:\\Users\\<username>\\AppData\\Roaming\\Microsoft\\CLR\\ErrorLog.txt In the sample we found, stolen data was sent to 91.210.109[.]118. Persistence for the keylogger is provided by the scheduled task described above in the Persistence section. To dump credentials from memory, the attackers use mimikatz. Files related to mimikatz are located at the following paths: C:\\ProgramData\\x64\\mimidrv.sys C:\\ProgramData\\x64\\mimikatz.exe C:\\ProgramData\\x64\\mimilib.dll C:\\ProgramData\\x64\\mimispool.dll To hunt for credentials and other secrets (SSH keys, access tokens, and the like) in files on accessible network shares, the group uses Snaffler. To simplify running the tool, the attackers drop a configuration file on the system: Besides data from network shares, the attackers were interested in data stored in password managers (for example, KeePass) on administrator workstations. Discovery: the standard toolkit Local discovery After gaining control of a compromised system, the attackers ran a basic set of commands to identify the current user, running processes, network interface settings, the system\u2019s external IP address, and so on: whoami tasklist quser ipconfig curl 2ip[.]io Remote discovery In the early stages, the attackers used the fscan scanner to gather information on the internal infrastructure. They were particularly interested in the following ports: 135 (RPC) 139 (NetBIOS-SSN) 1433 (Microsoft SQL) 8006 (Proxmox VE) Once they had the access they needed and had moved laterally, the attackers ran ADRecon on domain controllers and SharpHound on one of the workstations. The attackers also used PowerShell to run LDAP queries against the controllers of adjacent domains, pulling lists of domain systems, users, and groups. Russian text translation The user has no additional groups in memberOf (primary only) User not found As an alternative to PowerShell, the attackers used the net.exe utility to get information about domain users and privileged groups: net users /domain net group \"Domain Admins\" /domain net group \"\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u044b \u0434\u043e\u043c\u0435\u043d\u0430\" /domain Lateral Movement: SSH, RDP, and WinRM For lateral movement, the group relies on standard remote administration protocols: SSH, WinRM, and RDP. The attackers connect to systems either through previously deployed tunnels or directly from the compromised host. Command and Control: delivering tools to the system To deliver its tools to target hosts, the group uses built-in OS utilities. Specifically, the incidents involved: certutil: The Windows BITS background service (invoked in two ways): cURL: PowerShell: Creating tunnels with Xray The certutil and BITS commands shown above are what the attackers used to download Xray onto victim systems. They then used Xray to set up reverse VLESS tunnels to the command-and-control server. The configuration file, stored alongside the Xray executable, was usually named config.json. In some cases, the attackers deleted it right after starting the tunnel to hide the Xray configuration from defenders. Judging by the configuration files recovered during the analysis, the attackers used port 443 on the VLESS server to blend in with legitimate HTTPS traffic. The configuration files also contain blocks that set up the REALITY protocol, which is intended to disguise the attackers\u2019 traffic as requests to the legitimate site mirror.yandex.ru: The traffic was also disguised as requests to another legitimate site, yastatic.net: Installing AnyDesk The PowerShell command above AnyDesk, which the attackers used to remotely control compromised hosts. After the download, the attackers installed the software with the --silent flag to avoid alerting the user, set a connection password, and used PowerShell to pull the infected machine\u2019s ID (which AnyDesk uses for remote connections on the client side) from the configuration file: Collection & Exfiltration: data from messaging apps Right before encrypting the data, the attackers connected to one of the domain controllers and ran the PowerShell script steal_tgs.ps1, which created the tdatas directory. According to the NTFS USN journal, while the script ran, 7-Zip created archives in this directory with telltale names hinting at their contents: <system_name>_<date>_<username>_tdata.zip The directory name tdatas and the substring tdata may refer to the C:\\Users\\<username>\\AppData\\Roaming\\Telegram Desktop\\tdata directory. The Telegram messaging app uses this directory to store authorization keys, session data, app settings, and other session information. So the attackers were harvesting messaging app data from remote systems they could reach, packing it with 7-Zip and uploading it to an external web service through Google Chrome. Impact: Sn00py ransomware Trojan The Citrus group uses ransomware from the Sn00py family to encrypt data. It\u2019s written in Go and uses the RSA-2048 and ChaCha20 algorithms to encrypt user files (but not system files) on Windows systems. Encrypted files receive the .citrus extension. For now, decryption is impossible without the attackers\u2019 private key. When launched, the ransomware opens a console on the victim\u2019s device, where it outputs the commands it runs. It also attempts to modify the boot configuration data (BCD) by invoking a nonexistent executable, bcedit (likely a typo for bcdedit ): The ransomware\u2019s console output contains the string: We`re going to do something special today :). Made with RaaS platform Sn00py. The string likely means the ransomware is distributed under the ransomware-as-a-service model, where attackers don\u2019t write the malware themselves but subscribe to a ready-made offering. The ransomware configuration contains the Citrus group\u2019s public key in the pubkey parameter: -----BEGIN PUBLIC KEY----- A7+eV3M+EDIh5kId+vf46QkKpAOKxUxv97PDFj66ox+uE0GV9UQhrSmBAoGAcyNI +z7noIwrFYnHi6wtj8gLEOT0hE/cNDp0VLoUnAzi551kZA7J3Q575jwqrJcDrZSO JLkZX7pxLLSd9iQdxMxDrLYZGRtiht8ToD5OGZri36oPvnW56ijJZ/NMzlFtVr7V iSZJr5Qkz2cxShcSuhDLLXmzleclBd7HQtWTuZUCgYEAqN8WFAZxkV2e1p4v3U98 VOu4XxEfqAc2Gs2Ccs/kkWoX/1fxvuSRcF6/hMdfVwUP0z+/fnhbFMNfysBeWo1W ZfmpBF/HbnRSg2ZDLWIwXEXEsNNSRmlvwyHWSEZgyG1xjgjSZKWuxo92WVmPxb5i S6NLrZkHPHwqaBy8CnD6ft8= -----END PUBLIC KEY----- The host_blacklist parameter also lists the system names that are exempt from encryption: [ \"DC01\", \"DC02\", \"DC03\", \"DC04\" ] This list includes the domain controllers used to distribute the policy that launches the ransomware. This way, the attackers ensure the policy keeps propagating uninterrupted. As it runs, the Trojan drops CITRUS_README.txt files containing the ransom note: -[ All your data were encrypted ] | |-If you try to decrypt them yourself, you will lose your data. To decrypt all systems, you need to contact us for guidance and a data recovery tool in the future. If you ignore our offer and the conversation does not take place, we will take extreme measures against your company and your employees, as a result of which you will lose access to all resources of your network and lose your reputation. | |-To contact us - register your mail here: https://account.proton.me/mail/signup?plan=free and write to us by email: [REDACTED] |-Further negotiations regarding this situation will be conducted there. Also we have Telegram: [REDACTED] | |-Be sure to use a VPN, and do not attempt to write from other email addresses, as there is a high chance that the messages will not be delivered to either party. | |-You have 72 hours to contact us to establish negotiations and interaction, starting from the date of creation of this file. |-If you do not contact us within 3 days, we will consider this a refusal to cooperate. This will entail immediate measures, such as: Dumps of your services, personal data of employees, accounting, contracts and source code. | |-Warning: \\\\_ Do not delete, modify, or attempt to recover files by any means other than using our key and decryptor. This will damage your data, and we cannot guarantee its recovery. \\\\_ Do not try to make this public, as you will only harm yourself and your reputation. As mentioned above, the group uses malicious Group Policy Objects to launch the ransomware across victim systems en masse. The GPOs are created by self-extracting archives, of which we have seen two versions. Each archive contains: A self-extracting archive with the ransomware Trojan and auxiliary files. A directory containing the Group Policy Object. The policy drops the ransomware archive on the target system, creates a scheduled task that runs the archive with the parameters /quiet /norestart , enables the WinRM service, and disables the Volume Shadow Copy service and Windows Defender antivirus protection. It also sets a desktop wallpaper displaying the ransom note. A PowerShell script that copies the ransomware archive to the \\\\<current_domain_name>\\SYSVOL directory on the domain controller and links the malicious GPO to the domain using the Import-GPO and New-GPLink One version of the PowerShell script contained comments suggesting that it was likely edited with an LLM: Links to Toy Ghouls While analyzing Citrus activity, we noticed several similarities to Toy Ghouls. Although their infrastructures don\u2019t directly overlap, the two groups share TTPs: they encrypt their victims\u2019 systems, use a similar set of tools (1C-Shell for remote command execution on 1C:Enterprise servers, mimikatz, PsExec, and ADRecon), and store these tools in the same directories. What\u2019s more, both groups are Russian-speaking and attack Russian companies only. In several incidents, we saw the same infrastructure compromised simultaneously by both Toy Ghouls and Citrus. Conclusion What makes Citrus interesting is its unconventional approach to network tunneling and its use of AI to generate auxiliary tools. Even so, the attackers largely rely on well-known tools and techniques, which makes early detection somewhat easier. Kaspersky solutions detect all the activity described in this article. That said, the Citrus attacks are another reminder that contractor access to an organization\u2019s infrastructure must be tightly controlled and restricted. After all, compromising contractor accounts is exactly how the attackers get into their victims\u2019 networks. We\u2019ll continue to track the group\u2019s activity and report new techniques as we discover them. Indicators of compromise File hashes Xray d631627131b90d576d77f4bf530e1abe mst.exe, sabycenter.exe, webex.exe, rpchost.exe Meterpreter stager 7107fb029e7c63523e3aca5fc8e56b38 2341.exe Keylogger e251df2d0b7c3682965efb4d2009a2f4 jhost.exe Sn00py 17b29b6c9de80402a45e321bbe1168fa build_64.exe 9eee984b187423c46c10a63d080da15d build_64.exe fscan cf903e4a1629aa0582fd0363b5786676 fscan.exe File paths C:\\ProgramData\\ADRecon-Report-* C:\\ProgramData\\SharpHound.exe C:\\ProgramData\\Snaffler.exe C:\\ProgramData\\WebEx\\config.json C:\\ProgramData\\WebEx\\host_to_ip.ps1 C:\\ProgramData\\WebEx\\ping_oldwin.bat C:\\ProgramData\\WebEx\\web.txt C:\\ProgramData\\WebEx\\webex.exe C:\\ProgramData\\ad_ru.ps1 C:\\ProgramData\\computers.txt C:\\ProgramData\\config.json C:\\ProgramData\\default.toml C:\\ProgramData\\fscan.exe C:\\ProgramData\\llc\\*_BloodHound.zip C:\\ProgramData\\mst.exe C:\\ProgramData\\oracle\\java\\jhost.exe C:\\ProgramData\\pve.exe C:\\ProgramData\\rules C:\\ProgramData\\sabycenter.exe C:\\ProgramData\\steal_tgs.ps1 C:\\ProgramData\\tdatas C:\\ProgramData\\x64\\mimikatz.exe C:\\ProgramData\\xray.exe C:\\ProgramData\\rpchost.exe C:\\ProgramData\\3777.exe C:\\ProgramData\\2341.exe C:\\ProgramData\\ChromeSetup.exe C:\\ProgramData\\Kaspersky\\KasperskyAgent.exe C:\\ProgramData\\Kaspersky\\KasperskyAgentInstaller.exe C:\\ProgramData\\1.txt C:\\ProgramData\\7z2603-x64.exe C:\\ProgramData\\Kaspersky\\task.log C:\\ProgramData\\enum.ps1 C:\\ProgramData\\kp.ps1 C:\\ProgramData\\ping.ps1 C:\\ProgramData\\result.txt C:\\ProgramData\\user_activity_report.txt C:\\Users\\*\\AppData\\Local\\Temp\\7ZipSfx.000\\Deploy-KasperskyGPO.ps1 C:\\Users\\*\\AppData\\Local\\Temp\\Kaspersky_GPO_Deployment.log C:\\Users\\*\\AppData\\Local\\Temp\\7ZipSfx.000\\KasperskyAgent.exe C:\\Users\\*\\Desktop\\KasperskyGPO_Deploy_64.exe C:\\Users\\*\\Desktop\\KasperskyGPO_Deploy_64_FIXED.exe C:\\Windows\\SYSVOL\\domain\\KasperskyAgent.exe C:\\Windows\\SYSVOL\\domain\\build_64.exe C:\\Windows\\SYSVOL\\domain\\icon.ico C:\\Windows\\SYSVOL\\domain\\wallpaper.bmp C:\\Windows\\Temp\\agent.exe C:\\Windows\\build_64.exe C:\\Windows\\icon.ico C:\\Windows\\wallpaper.bmp C:\\Users\\*\\AppData\\Roaming\\Microsoft\\CLR\\ErrorLog.txt C:\\Users\\*\\Desktop\\webex.zip Scheduled task names Java rpchost agent KasperskyAgentInstallTask Sysvc IP addresses 91.210.109[.]118 91.210.108[.]180",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Securelist",
+      "published": "2026-11-11T10:00:25+00:00"
+    },
+    {
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "date": "Wed, 11 Nov 2026 11:24:18 -0500",
+      "detail": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T16:24:18+00:00"
+    },
+    {
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "date": "Wed, 11 Nov 2026 10:12:59 -0500",
+      "detail": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T15:12:59+00:00"
+    },
+    {
+      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "date": "Wed, 11 Nov 2026 10:01:11 -0500",
+      "detail": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T15:01:11+00:00"
+    },
+    {
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "date": "Wed, 11 Nov 2026 07:32:27 -0500",
+      "detail": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T12:32:27+00:00"
+    },
+    {
+      "title": "Microsoft fixes audio issues caused by September security updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "date": "Wed, 11 Nov 2026 06:18:36 -0500",
+      "detail": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T11:18:36+00:00"
+    },
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "feed_id": "https://www.securityweek.com/?p=50652",
+      "date": "Wed, 11 Nov 2026 16:29:42 +0000",
+      "detail": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-11T16:29:42+00:00"
+    },
+    {
+      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+      "feed_id": "https://www.securityweek.com/?p=50708",
+      "date": "Wed, 11 Nov 2026 15:42:47 +0000",
+      "detail": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-11T15:42:47+00:00"
+    },
+    {
+      "title": "Asus, Zoom Release Security Patches",
+      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "feed_id": "https://www.securityweek.com/?p=50706",
+      "date": "Wed, 11 Nov 2026 13:58:38 +0000",
+      "detail": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-11T13:58:38+00:00"
+    },
+    {
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "feed_id": "https://www.securityweek.com/?p=50704",
+      "date": "Wed, 11 Nov 2026 13:37:19 +0000",
+      "detail": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-11T13:37:19+00:00"
+    },
+    {
+      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "feed_id": "https://www.securityweek.com/?p=50702",
+      "date": "Wed, 11 Nov 2026 12:24:33 +0000",
+      "detail": "The Series C round will fund international expansion and more autonomous features for the firm\u2019s device security platform. The post Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-11T12:24:33+00:00"
+    },
+    {
+      "title": "Prinsel By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "21dfa478f1450eb07be331c2c8280e589747cad514bd07f5fbd5287118549fad",
+      "date": "Wed, 11 Nov 2026 15:36:29 GMT",
+      "detail": "prinsel.com.mx Productos Infantiles Selectos S.A. de C.V. (PRINSEL) is a Mexican children's products company founded in 1960 in Toluca de Lerdo, State of Mexico, with 66 years of experience manufacturing and distributing children's footwear, clothing and accessories. With approximately 200 to 500 employees, it serves the Mexican market through retail stores and distribution networks. Its product range covers shoes, clothing, baby items and school supplies for children from newborns to age 16. The company also operates in real estate and building management through subsidiary structures. Its motto is Quality and Trust for Your Children, reflecting decades of brand recognition among Mexican families. Based in the State of Mexico, it remains one of the oldest and most established children's product companies in the country. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-11T15:36:29+00:00"
+    },
+    {
+      "title": "Solarium By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "326007bf8f8291b5cb8de09f9b886e7806ea498921a4c0ddf56849b370a614b0",
+      "date": "Wed, 11 Nov 2026 15:12:44 GMT",
+      "detail": "solarium.com.br Solarium Revestimentos is a Brazilian manufacturer and distributor of ceramic tiles, porcelain, mosaics and decorative wall panels based in S\u00e3o Paulo with over 20 years of market presence. Its product range covers porcelain tiles in marble, concrete, wood and natural stone finishes from 30x30 to 120x260 centimeter formats for residential and commercial projects. With approximately 50 to 150 employees and estimated revenue of 20 to 50 million reais, it distributes through builders, retail chains like Leroy Merlin and its own showrooms across Brazil. The company operates its own manufacturing facility with in-house quality control and ABNT certification. Its portfolio includes decorative panels, geometric patterns, tropical designs and minimal collections alongside standard ceramic and porcelain. Key sectors are residential construction, commercial interiors and hospitality projects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-11T15:12:44+00:00"
+    },
+    {
+      "title": "National Agency Programmes and Mobility By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "a6a7437df46947a2e5dc52aef8c49f2b6fab5b91152ebfc4a823eb284df04e9a",
+      "date": "Wed, 11 Nov 2026 15:12:43 GMT",
+      "detail": "na.org.mk The National Agency for European Educational Programmes and Mobility is a government institution in Skopje, North Macedonia, established in 2006 to administer EU education and mobility programs including Erasmus+, Erasmus Mundus and the European Solidarity Corps. Over 20 years it has managed more than 2,500 projects involving 50,000 plus mobile participants and administering over 200 million euro in EU grants. Its activities cover higher education, vocational training, school education, youth and sport through Erasmus+ Key Actions 1, 2 and 3. The agency partners with over 1,000 organizations including universities, schools, NGOs and companies across 33 Erasmus+ countries. It also operates Eurodesk, eTwinning and Youthpass platforms for youth information and certification. Led by a director and board appointed by the Ministry of Education, it serves as North Macedonia's official Erasmus+ national coordinator. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-11T15:12:43+00:00"
+    },
+    {
+      "title": "Burgess Lowman CPAs By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "d5a689d4f8dc07f0b58404fd4b457cce3ba6d3ab4d4dd7700da84cf8ebf0acc4",
+      "date": "Wed, 11 Nov 2026 15:00:33 GMT",
+      "detail": "bllcpas.com Burgess Lowman Lay CPAs is an American accounting firm based in Wilmington, North Carolina, with over 50 years of experience serving small and medium businesses, nonprofits and individuals. With approximately 20 to 30 professionals, it provides tax preparation and planning, bookkeeping, audits, reviews and business advisory services. Its client base includes manufacturing, real estate, healthcare, nonprofit organizations and high-net-worth individuals across southeastern North Carolina. Specialized offerings include employee benefit plan audits, single audits, IRS representation, business valuation and outsourced CFO services. The firm operates under the motto More Than Just Numbers, emphasizing strategic advisory beyond traditional compliance. Founded by its three named partners Burgess, Lowman and Lowman, it has built a deep reputation in the Wilmington business community. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-11T15:00:33+00:00"
+    },
+    {
+      "title": "Alan Mok Engineering By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "00eb747f1f57d1f237ec041f9feb27f858849d82e31047bdd78344796f45e66b",
+      "date": "Wed, 11 Nov 2026 14:48:21 GMT",
+      "detail": "alanmokengineering.com Alan Mok Engineering Pte Ltd is a Singapore-based mechanical and electrical engineering contractor founded in 2000, providing HVAC, plumbing, fire protection, electrical and low voltage systems for commercial, industrial, marine and institutional projects. With 100 to 200 employees and estimated revenue of 10 to 30 million Singapore dollars, it delivers full-cycle M&E services from design through commissioning and maintenance. Its specializations include chillers, ducting, sprinkler systems, electrical distribution, lightning protection and marine HVAC. The company holds BCA accreditation and bizSAFE certification with ISO 9001, 14001 and 45001 standards. Projects span condominiums, office towers, factories, hospitals, schools and shipyards across Singapore. Led by founder Alan Mok, it has built a 26-year track record in Singapore's competitive M&E engineering market. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-11T14:48:21+00:00"
+    },
+    {
+      "title": "kiHidden nameo.com (everstake)",
+      "url": "https://cti.fyi/groups/everstake.html",
+      "feed_id": "14ccc2140f5f059d482fad5fcf88d0ff",
+      "date": "Wed, 11 Nov 2026 16:07:17 +0000",
+      "detail": "Intelligence Summary: An industrial machinery and equipment manufacturer. Threat Syndicate: everstake Claimed Victim: kiHidden nameo.com Canonical Organization: Nameo Target Domain: nameo.com Industry Sector: Manufacturing Date Discovered: 2026-11-11 16:07:17.742984 Post URL: http://everstakewfma6sxdpshoq4ebtnqamsxnajrtzu2cflai77kfup5kzyd.onion/about/announcement/a60c93c3-369e-47ec-8b18-7dbc94d69b1b Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-11T16:07:17+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 6,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 13,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 10,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 50,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    }
+  ]
+}
