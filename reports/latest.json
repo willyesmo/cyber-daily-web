@@ -1,96 +1,17 @@
 {
-  "generated": "2026-11-11T17:17:09.180251+00:00",
+  "generated": "2026-11-12T00:52:30.741320+00:00",
   "hours": 24,
   "items": [
     {
-      "title": "CVE-2026-124194: Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-124194",
-      "date": "2026-11-10",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Microsoft",
-        "Producto": "Office",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-124194 ; https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-111793: Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111793",
-      "date": "2026-11-10",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Openwave Messaging Limited",
-        "Producto": "Webtop Media Transcoder",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://github.com/GISOpenwave/security-advisories-public/blob/main/CAN-2026-2032674.md ; https://jvn.jp/en/vu/JVNVU93403064/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-20320: Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20320",
-      "date": "2026-11-10",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Cisco",
-        "Producto": "BroadWorks",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-24",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-111560: Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111560",
-      "date": "2026-11-10",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606 Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Barracuda Networks",
-        "Producto": "Multiple Products",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0041.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-116606: Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116606",
-      "date": "2026-11-10",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration. This vulnerability can be chained with CVE-2026-111560. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Barracuda Networks",
-        "Producto": "Barracuda Email Security Gateway (ESG)",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-13",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0042.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-10T00:00:00+00:00"
+      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33508",
+      "feed_id": "https://isc.sans.edu/diary/rss/33508",
+      "date": "Wed, 11 Nov 2026 18:28:43 GMT",
+      "detail": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-11T18:28:43+00:00"
     },
     {
       "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
@@ -104,17 +25,6 @@
       "published": "2026-11-11T02:00:03+00:00"
     },
     {
-      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33508",
-      "feed_id": "https://isc.sans.edu/diary/rss/33508",
-      "date": "Tue, 10 Nov 2026 19:09:32 GMT",
-      "detail": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-11-10T19:09:32+00:00"
-    },
-    {
       "title": "Microsoft Patch Tuesday for November 2026 \u2014 Snort rules and prominent vulnerabilities",
       "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
       "feed_id": "6af2f06a6f4a9600010b568b",
@@ -126,15 +36,37 @@
       "published": "2026-11-11T01:41:17+00:00"
     },
     {
-      "title": "Detecting sleeper agents hiding in AI model neurons",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
-      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150905",
-      "date": "Tue, 10 Nov 2026 23:00:00 +0000",
-      "detail": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than 10 neurons to inject a short payload. The sleeper agent passes all evaluations, but when a trigger string appears in its context, the agent runs an attacker\u2019s command. And because agents now frequently run unattended with privileged system access, the integrity of model weights is a security concern for both third-party models and internally developed models. Key findings from Microsoft Research include: Software abuse and manipulation are familiar threats. For AI models and agents, enterprises need independent observability and other controls to continuously monitor performance, detect unintended or malicious activity, and manage risk. Satya Nadella recently outlined this approach in a blog post . A backdoored model can pass evaluations. When it emits the attacker\u2019s command on cue, the agent runs the command with whatever access it has in the environment. The attack needs inference-only compute. If a machine has enough RAM to run a model, it has enough resources to weight-space backdoor it. Claude Code with Opus 4.5 discovered most of this threat autonomously. Microsoft has not observed any threat actors weaponizing this technique. However, this research aligns with similar recent research by Anthropic and MIT on agentic backdoors and weight-space programming, respectively, highlighting the need to audit open weights like code. Notably, Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. Using frontier agents as auditors can help automate the defense against this threat. More broadly, Microsoft Research\u2019s approach demonstrates an adaptable process for securing AI agents: agents surface new security problems, and human researchers then systematize, study, and mitigate them. Learn more from the Microsoft Research Blog: Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents . Mitigation and protection guidance Microsoft recommends the following mitigations to defend against this threat as part of a broader defense-in-depth approach. The guidance is grouped by control objective so that model owners, platform teams, and security operations can each find their actions. Audit model weights before deployment and after every update Diff every checkpoint against its declared base model before deployment and after each update. Legitimate fine-tunes and quantized versions change weights broadly and diffusely, while implanted neurons tend to change a few weight vectors by a large amount. Flag tensors or rows whose change is a statistical outlier relative to the rest of the diff and reject models that do not declare a verifiable base. Use frontier AI agents as auditors in the model intake pipeline. Microsoft Research found they are highly effective at finding anomalous structure in weights that manual inspection misses, which makes this step automatable at scale. Complement weight diffing with behavioral backdoor scanning of open-weight models, as described in Microsoft\u2019s research on detecting backdoored language models at scale . Record audit results alongside the model in the registry, and state clearly to internal consumers that passing an audit reduces risk but does not guarantee safe behavior. Secure model hubs and publishers Display provenance and audit status publicly before a checkpoint can be downloaded or served through an API. Scan every upload for anomalous neurons, weight patterns or behaviors, and state clearly that third-party checkpoints can be unsafe and that passing an audit does not guarantee safe behavior. Treat every third-party model as untrusted until audited Source checkpoints only from the original publisher, verify the publisher\u2019s published file hashes, and treat all third-party fine-tunes, merges, quantizations, and adapters as untrusted until they pass an audit. Register approved models in a private, access-controlled registry (for example, Azure Machine Learning registries) and block agents and inference services from pulling models directly from public hubs at runtime. Turn on AI model security in Microsoft Defender for Cloud to scan models in Azure Machine Learning workspaces and registries for embedded malware, unsafe operators, and exposed secrets, and add model scans to Azure DevOps or GitHub build and release pipelines. Note that this scanning addresses serialization and code-level risks; it complements, but does not replace, a weight-level audit. Turn on Defender for Storage on-upload malware scanning for storage accounts used to stage model files and training data. Red team for hidden triggers Add trigger-hunting and backdoor scenarios to your AI red team plan. Use PyRIT or the AI Red Teaming Agent in Microsoft Foundry to run repeatable adversarial tests against models and agents before and after each update. Contain what an agent can do if its model is compromised Run agents with least privilege. Give each agent its own Microsoft Entra Agent ID, scope its permissions to the minimum set of resources it needs, and use Conditional Access for agents to l block unapproved or high-risk agent identities . Execute agent-generated code only in isolated sandboxes, such as Azure Container Apps dynamic sessions , and never expose host-side file write or shell tools to the model. Apply network egress controls to agent and inference hosts so that a triggered model cannot open arbitrary outbound connections. Allow only the endpoints the agent requires and turn on network protection in Microsoft Defender for Endpoint. Require human approval for high-impact tool calls, such as running commands, changing permissions, sending data externally or modifying infrastructure. Apply attack surface reduction rules to devices that host local agents and inference servers, starting in audit mode. Detect and block malicious agent behavior at runtime Turn on Microsoft Defender security for AI agents and configure real-time protection rules so Defender can audit and block risky tool invocations, secret exfiltration, and evasion techniques for Microsoft Foundry, Copilot Studio and Agent 365 agents, and runtime protection for local agents through Defender for Endpoint. Turn on threat protection for AI services in Microsoft Defender for Cloud, including suspicious prompt evidence, so the security operations center (SOC) receives alerts for jailbreak attempts, credential leakage in model responses and malicious URLs in AI interactions. Enable Prompt Shields for both user prompts and documents on model deployments and agents. Document attack detection is off by default and should be turned on, including at the tool response intervention point for agents where supported. Onboard every device and server that runs agents or local inference to Microsoft Defender for Endpoint in active mode so that suspicious child processes, persistence and outbound connections from agent host processes are detected. Maintain inventory and governance of models and agents Use the AI agent inventory in the Microsoft Defender portal to discover agents, their tools, identities, and risk indicators. Use AI security posture management in Defender for Cloud to build an AI bill of materials (AI BOM) across Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP), so you know which models are deployed where. Use Microsoft Defender for Cloud Apps and Microsoft Purview DSPM for AI to discover, sanction or block generative AI apps, and to monitor sensitive data in AI interactions. Map controls to the Microsoft catalog of AI defense capabilities , which groups supply-chain provenance, model hardening, runtime isolation and monitoring into a single framework aligned to MITRE ATLAS and the OWASP Top 10 for LLM Applications. Learn more For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .",
+      "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150921",
+      "date": "Wed, 11 Nov 2026 19:49:57 +0000",
+      "detail": "In this article When one RCE stops being just one RCE Observed attack chains How threat actors deploy and operate GSocket How GSocket reconnects without a fixed C2 address Mitigation and protection guidance References Learn More Microsoft observed multiple incidents in which threat actors deployed GSocket, an open source remote access tool, on compromised Linux servers. Threat actors used Gsocket to maintain access even after the vulnerabilities used for initial compromise were remediated. This turned a single web application compromise into persistent access that outlasted the remediation of the original vulnerabilities. Defenders investigating affected hosts should look for evidence of GSocket deployment, persistence, privilege escalation, and outbound connections, rather than treating application patching alone as complete remediation. Microsoft Defender for Endpoint telemetry shows this activity growing over recent months and concentrated on web applications and hosting environments. GSocket relays traffic through a shared public network, so there is no threat actor-owned IP address or domain to block. When one RCE stops being just one RCE Exploiting a web application vulnerability gives a threat actor command execution in the context of the web server process. That access lasts only while the vulnerability remains unpatched and the service keeps running. Patching the application or restarting the service can remove it. To keep access, threat actors typically add a persistence mechanism, and each common option has drawbacks. SSH keys added to authorized_keys are easy for administrators to find during an audit. Reverse shells depend on threat actor-controlled servers that defenders can block or sinkhole. Custom implants require ongoing development and maintenance. The same trade-offs apply when initial access comes through remote access services or cloud shell sessions. GSocket addresses these drawbacks, which helps explain why multiple unrelated threat actors have adopted it. Shared relay infrastructure. Traffic passes through the Global Socket Relay Network, a public relay service. The threat actor does not register or host any infrastructure, so there is no threat actor-owned IP address or domain to block. Organizations can still restrict access to the relay itself. Outbound-only connections. The compromised host and the operator both connect outbound to the relay, which bridges the two sessions. The host needs no inbound listener or public IP address, and network address translation does not prevent the connection. Inbound firewall rules do not see this traffic, although egress filtering and outbound monitoring can. Built-in evasion and persistence. The deployment script can rename the process, stage files in memory-backed directories, and install persistence that survives a reboot, without additional development by the threat actor. The same relay model that supports legitimate remote administration also gives threat actors a way to maintain access without operating dedicated C2 infrastructure. Once GSocket runs on a compromised server, the server and the operator each connect outbound to the Global Socket Relay Network, which pairs the two sessions over an end-to-end encrypted channel. Figure 1: After code execution on an internet-facing application, GSocket is deployed and both ends connect outward to the relay. Because GSocket runs independently of the exploited application, patching the vulnerability does not remove the relay client or its persistence. Microsoft Defender for Endpoint telemetry shows that this activity is not limited to a single compromise. From March through August 2026, devices with GSocket-related detections increased 356.2%, although the increase was not consistent month to month. Figure 2: Growth in GSocket-related detections from March to August, measured against the March baseline. Web applications and hosting accounted for 87.1% of attributable Microsoft Defender for Endpoint incidents in the analysed telemetry. Within that group, PHP web applications and cPanel hosting represented 63.9% of incidents and Apache represented 24.3% (Figure 3). Figure 3: Distribution of GSocket-related incidents by application category. PHP web applications and Apache account for most incidents within the web applications and hosting group. Education and research accounted for the largest share of affected organizations (30.7%), followed by technology and telecommunications (22.9%). Figure 4: Distribution of affected organizations by sector. These figures reflect the share of affected organizations and do not indicate that threat actors selected these sectors deliberately. Exposure is the more likely factor: academic institutions often run large, decentralized web estates maintained outside central IT, which are harder to inventory and patch. Observed attack chains The RCE-based intrusions in this analysis followed a similar sequence after initial access. Threat actors compromised an internet-facing application, profiled the host, transferred and concealed the relay tooling, and used the resulting channel for command and control. Some intrusions also included persistence and privilege escalation. Figure 5 combines these behaviours into a generalized attack chain. Not every stage occurred in every intrusion. Figure 5: Generalized GSocket attack chain observed across RCE-based intrusions, mapped to MITRE ATT&CK. How threat actors deploy and operate GSocket Initial access and deployment: Threat actors exploited internet-facing web applications and used curl to download and execute a remote script. The script profiled the host, selected a GSocket client matching the system architecture, staged it in writable or memory-backed paths such as /dev/shm, and established encrypted outbound command and control through the Global Socket Relay Network. Figure 6: Encoded RCE command executed through a vulnerable PHP application. Defense evasion and persistence: Threat actors disguised GSocket with kernel-thread-like process names, persisted through cron, systemd, shell profiles, watchdogs, and redundant copies, then removed staging files and other deployment indicators. Figure 7: Kernel thread names used to disguise the GSocket process. Figure 8: Persistence entries created during GSocket deployment. Privilege escalation: After gaining execution as the web-service account, in few observed incidents, threat actors attempted to exploit CVE-2026-43284, one of the recent Linux kernel vulnerabilities also known as Dirty Frag, to elevate privileges to root. How GSocket reconnects without a fixed C2 address GSocket identifies endpoints by a shared secret instead of an IP address or hostname. During installation, the deployment script typically generates a random secret and writes it to standard output. The threat actor can choose to read the secret from the console, redirect it to a temporary file and retrieve the file before is deleted, or have it delivered through a supported notification channel, such as Telegram (configured with GS_TG_TOKEN and GS_TG_CHATID), Discord, or a webhook. With this secret, the operator can reconnect later from any compatible GSocket client, without knowing the victim\u2019s IP address, hostname, or network location. A traditional reverse shell connects to a threat actor-controlled IP address written into the payload. GSocket instead derives its connection identifier and authentication material from the shared secret. The compromised host and the operator each connect outbound to the Global Socket Relay Network (GSRN), which matches them and brokers an end-to-end encrypted session. Neither endpoint needs a public IP address, an inbound listener, or a permissive inbound firewall rule. As a result, blocking an IP address or domain is unlikely to cut off access. The connection relies on a shared relay service, outbound traffic that is commonly permitted, and a secret that does not need to be hardcoded in the payload. Anyone with the shared secret can reconnect through the relay without knowing the compromised host\u2019s IP address or hostname. Mitigation and protection guidance For an affected Linux server, remediation should address both the initial compromise and the GSocket deployment. Patch and harden internet-facing applications. Keep web applications, CMS platforms, plugins, and application servers current. Remove unused components and restrict file-upload and administrative paths. Remediate the host as well as the vulnerability. Do not treat application patching as complete remediation. Investigate and remove the GSocket client, associated persistence, and staged files, then verify that outbound connections to the relay infrastructure have stopped Patch and harden internet-facing applications. Keep web applications, CMS platforms, plugins, and application servers current. Remove unused components and restrict file-upload and administrative paths. Constrain outbound traffic. Apply deny-by-default egress rules, allow only required destinations, and monitor connections to relay infrastructure. Harden the host runtime. Mount temporary and memory-backed directories as non-executable where feasible, and alert on execution from hidden or world-writable paths. Audit persistence surfaces. Review cron entries, systemd units with plausible service names, and shell startup files. Persistence is often layered across several mechanisms, so stopping the running process alone does not remove access. Prioritize local privilege-escalation patching on internet-facing servers. In the analyzed activity, threat actors attempted to exploit CVE-2026-43284 to escalate from the web-service account to root. Separately, Microsoft FORGE Lab recently documented 59 Linux kernel bug reports , including eight vulnerabilities for which researchers demonstrated local root privilege-escalation exploits in controlled environments. Enable Microsoft Defender for Endpoint on Linux. Keep real-time and cloud-delivered protection enabled, with behavior monitoring for anomalous child processes of web services and masqueraded process identities. Microsoft Defender detections Microsoft Defender for Endpoint provides visibility into activity associated with GSocket-related Linux intrusions, including suspicious shell execution, payload delivery, persistence, defense evasion, and remote communication. The alerts below were observed in the analyzed telemetry. An individual alert does not establish the initial access method or confirm that every stage of an intrusion succeeded. Tactic Observed activity Example alerts observed in analyzed telemetry Initial access, Execution Shells and commands launched from web servers and application runtimes \u2013 Possible Web Server compromise activity \u2013 Suspicious shell execution from PHP application \u2013 Suspicious shell execution from web server application \u2013 Suspicious shell execution from a scripting application runtime \u2013 Suspicious remote command execution via Java Web application \u2013 Suspicious remote command execution through Node web application Execution GSocket and gs-netcat tooling launched on the host \u2013 \u2018GsNetcat\u2019 hacktool was prevented \u2013 \u2018GsNetcat\u2019 hacktool was blocked and was active \u2013 An active \u2018GsNetcat\u2019 hacktool was blocked \u2013 An active \u2018GsNetcat\u2019 hacktool process was detected while executing and terminated Execution, Payload delivery Shell commands and scripts used to retrieve, prepare, and launch payloads \u2013 Suspicious shell command execution \u2013 Suspicious piped command launched \u2013 Suspicious script launched \u2013 Executable permission added to file or directory \u2013 Suspicious file dropped and launched \u2013 Suspicious file or content ingress Persistence Cron jobs and Linux services created for recurring execution and continued access \u2013 Suspicious cron job creation \u2013 Suspicious Linux service created Defense evasion Hidden file execution, obfuscation, timestomping and removal of binaries or history traces. \u2013 Hidden file executed \u2013 Suspicious file or information obfuscation detected \u2013 Suspicious deletion of launched process binary \u2013 Attempt to clear command history \u2013 Suspicious timestamp modification Discovery Reconnaissance and collection of local system information \u2013 Reconnaissance activity \u2013 Suspicious process collected data from local system Command and control Reverse-shell behavior and communication with GSocket domains \u2013 Possible reverse shell \u2013 Suspicious communication with a remote target Microsoft Security Copilot Security Copilot customers can use the standalone experience to create their own prompts or run prebuilt promptbooks to automate incident response or investigation tasks related to this threat: Incident investigation: correlate web-service process ancestry, relay client deployment, persistence changes, and outbound activity into a single timeline for the affected host. Threat actor profile: summarize observed GSocket tradecraft and related tooling seen in the environment. Device summary: assess the affected Linux host, its exposed application, and follow-on activity after initial execution. Advanced hunting queries Microsoft Defender XDR customers can use the following queries to surface GSocket-related activity. The queries use public Advanced Hunting tables populated by Microsoft Defender for Endpoint and cover deployment patterns observed in the analyzed intrusions. Matches should be investigated in context with process ancestry, execution context, persistence changes, and related network activity. GSocket process activity Looks for GSocket tooling by name or command line. DeviceProcessEvents | where Timestamp > ago(7d) | where FileName has_any (\"gs-netcat\", \"gsocket\") or ProcessCommandLine has_any (\"gsocket.io\", \"gs-netcat\", \"gsnetcat\") | project Timestamp, DeviceName, AccountName, FileName, FolderPath, ProcessCommandLine, InitiatingProcessFileName | order by Timestamp desc Installer download activity Looks for the download-and-execute pattern used to fetch GSocket. DeviceProcessEvents | where Timestamp > ago(7d) | where ProcessCommandLine has \"gsocket.io\" or ProcessCommandLine has \"gsgg.b-cdn.net\" | project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine, InitiatingProcessFileName | order by Timestamp desc Connections to observed distribution hosts These are tool distribution endpoints, not threat actor-owned command and control. DeviceNetworkEvents | where Timestamp > ago(7d) | where RemoteUrl has_any (\"gsocket.io\", \"gsgg.b-cdn.net\") | project Timestamp, DeviceName, ActionType, RemoteUrl, RemoteIP, RemotePort, InitiatingProcessFileName, InitiatingProcessAccountName | order by Timestamp desc Known file hashes Matches the SHA-256 hashes published in the indicators of compromise section. let badSHA256 = dynamic([ \"d94f75a70b5cabaf786ac57177ed841732e62bdcc9a29e06e5b41d9be567bcfa\", \"f95c4d029e6784e3849b4d1e2e2ae1a661187236ef7c5d487c71158a290a03b5\", \"55d141bb2f62c527c3fea3413b8429fed7d52633d0b123b5e611bfa42165229f\", \"12450bafc7a4398040e1ad3a16dbf4dbc79b6a8f83ef306c4f0f73f59886f06c\" ]); DeviceFileEvents | where Timestamp > ago(7d) | where SHA256 in~ (badSHA256) | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, InitiatingProcessFileName, InitiatingProcessCommandLine | order by Timestamp desc Staging and persistence artifacts Useful when hashes are missing or a different build is used. DeviceFileEvents | where Timestamp > ago(7d) | where FolderPath startswith \"/dev/shm/.gs-\" or FileName in~ (\"systemd-remount-d\", \".gsn_ora\", \"defunct\", \"defunct.service\") | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, InitiatingProcessFileName, InitiatingProcessCommandLine | order by Timestamp desc MITRE ATT&CK techniques observed The following techniques were observed across the analyzed intrusions. Not every technique occurred in every intrusion, and some outcomes, such as persistence across reboot and successful relay session establishment, were not confirmed in every case. Initial access T1190 Exploit Public-Facing Application | Internet-facing web applications were exploited to gain command execution in the web service context. Follow-on commands were launched as children of web server and application runtime processes, consistent with exploitation of an exposed application. Execution T1059.004 Command and Scripting Interpreter: Unix Shell | Commands used curl to retrieve the GSocket installation script and executed it with bash. Additional bash invocations launched the renamed payload. Execution, Persistence T1053.003 Scheduled Task/Job: Cron | Cron entries were created in the same detection window as GSocket deployment script activity, consistent with persistence. Persistence T1543.002 Create or Modify System Process: Systemd Service | Activity launched a bash command invoking the renamed /usr/bin/defunct payload and referenced defunct.service and a multi-user.target.wants link. Defense evasion T1036 Masquerading | A GsNetcat binary executed as systemd-remount-d, a system service-like filename. In a separate execution context, bash used exec -a to present /usr/bin/defunct with the argument-zero name [kaluad]. T1564.001 Hide Artifacts: Hidden Files and Directories | gs-netcat payloads were staged under the dot-prefixed /dev/shm/.gs-0 directory. A GsNetcat-detected file was also observed at /tmp/.gsn_ora. T1222.002 File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification | chmod changed permissions on the renamed payload, including chmod 700 /usr/bin/defunct. T1070.006 Indicator Removal: Timestomp | touch commands applied older timestamps to /usr/bin/defunct and defunct.service. Timestamp copy operations targeted the system service-like payload name. T1070.004 Indicator Removal: File Deletion | rm removed the staged /dev/shm/.gs-0/gs-netcat file, and a separate rmdir command removed the staging directory. Command and control T1105 Ingress Tool Transfer | curl downloaded gs-netcat payloads from GSocket distribution endpoints into /dev/shm/.gs-0. T1090.002 Proxy: External Proxy | GSocket clients were launched with options that establish outbound sessions to the Global Socket Relay Network, a shared public relay that brokers the connection between the compromised host and the operator. The relay is third-party infrastructure and is not owned by the threat actor. Indicators of compromise The indicators below were observed in the analyzed telemetry. They represent specific observations from these intrusions rather than a complete inventory of GSocket tooling or infrastructure. Indicator Type Description gsocket[.]io Domain Script and installer retrieval cdn[.]gsocket[.]io Domain Client binary distribution gsgg[.]b-cdn[.]net Domain Client binary distribution hxxps://gsocket[.]io/y URL Script retrieval in download-and-execute commands hxxps://gsocket[.]io/install.sh URL Installer retrieval target; successful retrieval not established hxxps://gsgg[.]b-cdn[.]net/bin/gs-netcat_mini-linux-x86_64 URL Download source associated with the x86-64 file below hxxps://cdn[.]gsocket[.]io/bin/gs-netcat_mini-linux-aarch64 URL Download source associated with the AArch64 file below /dev/shm/.gs-0/gs-netcat_mini-linux-x86_64 Filepath Identified as HackTool:Linux/GsNetcat.A!MTB; hidden staging directory d94f75a70b5cabaf786ac57177ed841732e62bdcc9a29e06e5b41d9be567bcfa SHA256 SHA-256 for /dev/shm/.gs-0/gs-netcat_mini-linux-x86_64; Identified as HackTool:Linux/GsNetcat.A!MTB; hidden staging directory /dev/shm/.gs-0/gs-netcat_mini-linux-aarch64 Filepath Identified as HackTool:Linux/GsNetcat.A!MTB; AArch64 payload f95c4d029e6784e3849b4d1e2e2ae1a661187236ef7c5d487c71158a290a03b5 SHA256 SHA-256 for /dev/shm/.gs-0/gs-netcat_mini-linux-aarch64; Identified as HackTool:Linux/GsNetcat.A!MTB; AArch64 payload /tmp/systemd-remount-d Filepath Identified as HackTool:Linux/GsNetcat!rfn at both paths; service-like filename /usr/bin/systemd-remount-d Filepath Identified as HackTool:Linux/GsNetcat!rfn at both paths; service-like filename 55d141bb2f62c527c3fea3413b8429fed7d52633d0b123b5e611bfa42165229f SHA256 SHA-256 for /tmp/systemd-remount-d, /usr/bin/systemd-remount-d; Identified as HackTool:Linux/GsNetcat!rfn at both paths; service-like filename /tmp/.gsn_ora Filepath Hidden file identified as HackTool:Linux/GsNetcat.A!MTB 12450bafc7a4398040e1ad3a16dbf4dbc79b6a8f83ef306c4f0f73f59886f06c SHA256 SHA-256 for /tmp/.gsn_ora; Hidden file identified as HackTool:Linux/GsNetcat.A!MTB References The Hacker\u2019s Choice. \u201cGSocket.\u201d GitHub. https://github.com/hackerschoice/gsocket Microsoft Defender Security Blog: Cookie-controlled PHP webshells: A stealthy tradecraft in Linux hosting environments https://www.microsoft.com/en-us/security/blog/2026/04/02/cookie-controlled-php-webshells-tradecraft-linux-hosting-environments/ Elastic Security Labs: Betting on Bots https://www.elastic.co/security-labs/threat-command/betting-on-bots SANS Internet Storm Center: GSocket Backdoor Delivered Through Bash Script https://isc.sans.edu/diary/32816 Sansec: Found defunct.dat on Your Site? You\u2019ve Got a Problem https://sansec.io/research/gsocket Learn More For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . Review our documentation to learn more about our real-time protection capabilities and see how to enable them within your organization. Learn more about securing Copilot Studio agents with Microsoft Defender Evaluate your AI readiness with our latest Zero Trust for AI workshop . Microsoft 365 Copilot AI security documentation How Microsoft discovers and mitigates evolving attacks against AI guardrails Prompt injection protection in Microsoft Defender for Office 365 \u2013 official documentation of the prompt injection protection in Microsoft Defender for Office 365. How Microsoft discovers and mitigates evolving attacks against AI guardrails | Microsoft Security Blog Manipulating AI memory for profit: The rise of AI Recommendation Poisoning | Microsoft Security Blog \u2013 a related example of an AI-era technique observed in email traffic Defending the inbox against prompt injection attacks | Microsoft Defender for Office 365 Blog \u2013 feature announcement introducing prompt injection protection in Microsoft Defender for Office 365. Learn how Microsoft is reimagining the SOC for the agentic era with ISOC in Microsoft Defender The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft Security Blog .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "Microsoft Security",
-      "published": "2026-11-10T23:00:00+00:00"
+      "published": "2026-11-11T19:49:57+00:00"
+    },
+    {
+      "title": "Lessons from 59 Linux Kernel Bug Reports",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150915",
+      "date": "Wed, 11 Nov 2026 16:55:00 +0000",
+      "detail": "In this article From scans to reports Selected findings Closing thoughts At Microsoft\u2019s FORGE Lab , we used codename MDASH to scan a subset of Linux kernel subsystems from late May to mid-June 2026. One full-time researcher and one intern led this three-month effort, which has so far produced 59 public upstream reports and 33 assigned CVEs . We confirmed working root privilege-escalation exploits for eight of those CVEs, and fixes for 38 of our reports have been merged into mainline. Finding the bugs was only part of the work. The initial scans produced 26,502 raw findings in about two weeks, but turning those results into reproducible bugs, upstream reports, and patches took months of expert investigation and collaboration with Linux maintainers. In this post, we look back at how we went from thousands of potential findings to validated vulnerabilities and upstream fixes, and what we learned about scaling vulnerability discovery with AI. From scans to reports We focused on several core kernel subsystems, such as networking, filesystems, and security modules. Our selection criteria were straightforward: we picked security-sensitive components with no obvious dependence on specialized hardware, making QEMU-based validation simple and unified. Code scanning mainly used Sonnet 4.6 (71.1% of code-scanning tokens), GPT-5.4 (20.1%), and GPT-5.5 (7.1%). The codename MDASH scans produced 26,502 raw scan findings in about two weeks on two servers (64 cores/256 GB RAM and 32 cores/128 GB RAM), but turning that output into patches and reports took months of expert work. We filtered out low-confidence claims using codename MDASH\u2019s confidence levels and separate fast screening agents we built, reducing the pool to 11,769 candidates. PoC-generating agents then attempted reproduction in QEMU, mainly using GPT-5.5 (77.3% of reproduction tokens), Opus 4.6 (13.2%), and GPT-5.5-cyber (9.4%). Experts then reviewed the 621 cases with PoC evidence to identify root causes, merge duplicates, and prepare upstream submissions. Figure 1 . Scan-to-report workflow. 26,502 raw findings \u2192 11,769 screened candidates \u2192 621 PoC-backed cases \u2192 59 upstream reports. Where the 621 cases went Roughly one public upstream report landed from every ten PoC-backed cases: 59 reports from 621 cases (9.5%). Across those cases, the main reasons for not filing a separate new report were: 266 (42.8%) shared a root cause with another case, so one patch could fix them together. 163 (26.2%) were not reported after review, mostly due to limited security impact. 133 (21.4%) were already reported or fixed upstream. Submission timing explains many of the 133 overlaps. Most of the 621 cases were new when the scans finished (though some may already have been in flight by others). Our first public report went out on June 27, 2026, more than five weeks after scanning started. By September 1, 55 of the 59 had been posted to the public lists; the other four were reported privately during the same window and routed to the public lists by mid-October. Getting fixes merged Upstream Linux typically requires vulnerability reports to come with a working patch. Agents helped draft initial fixes, but human validation, subsystem understanding, and iterating with maintainers during review remained essential. So far, fixes for 38 of our reports have been merged into upstream mainline\u2014half on the first submission, and the rest after one to four revisions. Reaching a mainline release from the first public patch took a median of 41 days (up to 108 days), and we are still working with maintainers on the remaining reports. How old the bugs were Interestingly, most of the bugs we reported had been in the kernel for years. Across the 59 reports, the average bug was 8.1 years old when we first reported it publicly. One of the oldest, a cls_u32 shift-out-of-bounds bug (CVE-2026-74544) , had been there for at least 21 years. Figure 2 . Age of reported kernel bugs, measured from the bug-introducing commit (the fix\u2019s Fixes tag) to our first public report. Average age 8.1 years across 59 reports; six were 15\u201319 years old and three were at least 20 years old. Selected findings Among the 33 CVEs assigned so far from this batch, 24 are rated High or above (CVSS v3.1 score of at least 7.0). Below are eight CVEs for which we confirmed local root privilege-escalation exploits in controlled laboratory environments, with some cases requiring non-default settings or disabled exploit mitigations: CVE-2026-\u2026 Module Summary 64554 net/ipv6 Use-after-free in bridged IPv6 fragmentation: a saved pointer into a packet was reused after the packet\u2019s buffer was reallocated. 64563 lib/rhashtable Use-after-free in hash-table walks: a walk resumed after the table was resized reused a pointer to a possibly freed entry. 64580 net/ipv6 Refcount underflow in IPv6 IPsec routing: an error path dropped a device reference but kept the pointer, so cleanup dropped it again. 74561 net/ipv4 Use-after-free in next-hop replacement: the route-cache flush walked an IPv6 route list without its lock, racing with route deletion. 74562 net/ipv4 Use-after-free in next-hop replacement: route checks and notifications walked an IPv6 route list without its lock, racing with route deletion. 89789 drivers/net Use-after-free in the GTP tunnel driver: when device creation failed, its lookup tables were freed while incoming packets could still read them. 98222 security/keys Heap buffer overflow in encrypted-key updates: long key parameters overflowed a 16-bit length, so the kernel wrote past an undersized buffer. 98364 net/xfrm Use-after-free in IPsec routing: a network device was used without holding a reference, so deleting it at the same time could free it mid-use. A closer look at CVE-2026-64563 CVE-2026-64563 is a one-line state-reset bug in rhashtable, the Linux kernel\u2019s shared resizable hash table. Because callers trust the object pointers returned by a table walk, this small library flaw enabled a stable local privilege escalation on Linux\u2014and affected Android with SELinux enforcing\u2014without requiring special kernel configurations or user namespaces. Many kernel subsystems store live objects, such as sockets , in rhashtable and walk the table when user space asks to list them. Because a large listing may be split across several replies, a walk can pause and resume. Its iterator saves where it stopped, including a pointer to the last visited entry (iter->p). While the walk is paused, however, the table can still change: entries can be removed and freed, and resizing can replace the underlying bucket table. The missed reset Before 2018, rhashtable_walk_stop() always cleared iter->p = NULL on pause. To improve walk stability across stop/start cycles, a 2018 commit (5d240a8936f6) kept iter->p across walk_stop() and moved the reset into rhashtable_walk_start_check() \u2014but only on one of its two resume paths: Old table freed by a resize (iter->walker.tbl == NULL) : lines 877\u2013882 switch to the new table, reset slot and skip, and return -EAGAIN early without clearing iter->p: Old table still present (iter->walker.tbl != NULL) : lines 884\u2013919 scan the bucket chain for iter->p and reset iter->p = NULL if the entry was removed. if (!iter->walker.tbl) { iter->walker.tbl = rht_dereference_rcu(ht->tbl, ht); iter->slot = 0; iter->skip = 0; return -EAGAIN; } After that restart, the next call to rhashtable_walk_next() sees iter->p still set and follows iter->p->next instead of starting over at slot = 0. If that entry was freed while the walk was paused, dereferencing iter->p->next reads from freed memory. Why did this bug go unnoticed for eight years? Triggering it requires three conditions to line up in the same walk: the caller must pause and resume the same iterator across walk_stop() and walk_start(), a table resize must free the old bucket table during that pause, and the entry at iter->p must also be removed and freed before the walk resumes. Most rhashtable walkers finish in a single pass without ever resuming a stopped iterator, and even when a caller does pause and resume, those three events rarely coincide by accident in normal workloads. The upstream fix simply clears the stale pointer before returning: + iter->p = NULL; From a socket listing to a kernel write Because rhashtable is a shared library, its callers determine both whether this bug is reachable and how severe its security impact can be. Across the kernel, there are about two dozen files that use the rhashtable walker API, and most walk the table in a single pass and immediately exit. Among those callers, we found two that pause and resume an iterator across batches and can at least cause a crash: TIPC\u2019s socket dump (tipc_nl_sk_walk()) and Netlink\u2019s socket diagnostics (__netlink_diag_dump()). Of the two, __netlink_diag_dump() is the exploitable caller. It is reachable by unprivileged users on standard kernels, and user space controls the pause between dump replies (via recvmsg()). An attacker can hold a dump paused while resizing the table and freeing the socket at iter->p, then reallocate that memory to control iter->p->next\u2014causing rhashtable_walk_next() to return a fake socket pointer sk. __netlink_diag_dump() then checks net_eq(sock_net(sk), net) and passes sk to sk_diag_fill() and sock_diag_save_cookie() , which initializes sk->sk_cookie if it is zero. That turns the fake sk pointer into a constrained 64-bit write (when the target 8 bytes are zero and sk->sk_net matches &init_net). Paired with other general exploitation techniques, this write is enough for local privilege escalation. We thank Yuan Tan of NebuSec, who also independently found this vulnerability. He promptly shared its real severity with us and the maintainers, which helped the upstream fix, and later provided us with his working exploits for both Linux and Android. We also thank Frank Wu of NebuSec, who identified a viable exploitation primitive and developed a working privilege-escalation exploit. Closing thoughts Finding bugs and fixing them are drastically out of balance. Two weeks of codename MDASH scanning produced the initial findings, which we narrowed to 621 PoC-backed cases. But it took over four person-months to report 59 of them\u2014and five months later, 38 fixes have been merged. For complex infrastructure like the Linux kernel, keeping humans in the loop is still necessary, making human effort the bottleneck. Both bug hunters and maintainers can be overwhelmed by the volume of real findings, so focusing on genuinely high-severity issues is essential. More tokens may yield more bugs, but not a secure system. We scanned only a small fraction of the kernel, and further tuning and more tokens could uncover substantially more bugs. But even after fixing all of them, is the system secure? At Microsoft FORGE Lab, we\u2019re using AI to expand the scope of vulnerability research, but our experience shows that discovery is only one part of the work. The more urgent problem is how to build practical security solutions that are operational, cumulative, and economically sensible. These lessons also extend beyond our research. Through close collaboration with the engineering teams building codename MDASH, we\u2019re applying what we learn from real-world vulnerability discovery and validation to inform how these capabilities evolve. The goal is to bring advances in AI-powered security research into the hands of security teams, helping them identify and address critical vulnerabilities more effectively. The post Lessons from 59 Linux Kernel Bug Reports appeared first on Microsoft Security Blog .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Microsoft Security",
+      "published": "2026-11-11T16:55:00+00:00"
+    },
+    {
+      "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
+      "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=189723",
+      "date": "Wed, 11 Nov 2026 23:00:53 +0000",
+      "detail": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-11-11T23:00:53+00:00"
     },
     {
       "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
@@ -159,6 +91,50 @@
       "published": "2026-11-11T10:00:25+00:00"
     },
     {
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "date": "Wed, 11 Nov 2026 18:01:31 -0500",
+      "detail": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T23:01:31+00:00"
+    },
+    {
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "date": "Wed, 11 Nov 2026 17:56:21 -0500",
+      "detail": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T22:56:21+00:00"
+    },
+    {
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "date": "Wed, 11 Nov 2026 16:27:40 -0500",
+      "detail": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T21:27:40+00:00"
+    },
+    {
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "date": "Wed, 11 Nov 2026 15:54:20 -0500",
+      "detail": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-11T20:54:20+00:00"
+    },
+    {
       "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
       "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
       "feed_id": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
@@ -168,50 +144,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-11-11T16:24:18+00:00"
-    },
-    {
-      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-      "date": "Wed, 11 Nov 2026 10:12:59 -0500",
-      "detail": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T15:12:59+00:00"
-    },
-    {
-      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-      "date": "Wed, 11 Nov 2026 10:01:11 -0500",
-      "detail": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T15:01:11+00:00"
-    },
-    {
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "date": "Wed, 11 Nov 2026 07:32:27 -0500",
-      "detail": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T12:32:27+00:00"
-    },
-    {
-      "title": "Microsoft fixes audio issues caused by September security updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-      "date": "Wed, 11 Nov 2026 06:18:36 -0500",
-      "detail": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-11T11:18:36+00:00"
     },
     {
       "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
@@ -269,78 +201,67 @@
       "published": "2026-11-11T12:24:33+00:00"
     },
     {
-      "title": "Prinsel By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "21dfa478f1450eb07be331c2c8280e589747cad514bd07f5fbd5287118549fad",
-      "date": "Wed, 11 Nov 2026 15:36:29 GMT",
-      "detail": "prinsel.com.mx Productos Infantiles Selectos S.A. de C.V. (PRINSEL) is a Mexican children's products company founded in 1960 in Toluca de Lerdo, State of Mexico, with 66 years of experience manufacturing and distributing children's footwear, clothing and accessories. With approximately 200 to 500 employees, it serves the Mexican market through retail stores and distribution networks. Its product range covers shoes, clothing, baby items and school supplies for children from newborns to age 16. The company also operates in real estate and building management through subsidiary structures. Its motto is Quality and Trust for Your Children, reflecting decades of brand recognition among Mexican families. Based in the State of Mexico, it remains one of the oldest and most established children's product companies in the country. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Leware Construction Company ofFlorida By akira",
+      "url": "https://www.ransomlook.io//group/akira",
+      "feed_id": "1a3cd3ea5dd543c67e99f8482c4145c957e95617796cb896d4bbac2535d43eab",
+      "date": "Wed, 11 Nov 2026 23:05:46 GMT",
+      "detail": "Leware Construction Company is a Florida bridge contractor specializing in major bridge construction: intermediate bridges, prestressed piling, prestressed beams, pile driving, sheet piling installation, heavy civil bridge work, marine construction, repair/rehabilitation, and deck overlays.We will upload 30gb of corporate data soon. Employee personal information (DLs, SSNs), contracts and agreements, client info and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-11T15:36:29+00:00"
+      "published": "2026-11-11T23:05:46+00:00"
     },
     {
-      "title": "Solarium By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "326007bf8f8291b5cb8de09f9b886e7806ea498921a4c0ddf56849b370a614b0",
-      "date": "Wed, 11 Nov 2026 15:12:44 GMT",
-      "detail": "solarium.com.br Solarium Revestimentos is a Brazilian manufacturer and distributor of ceramic tiles, porcelain, mosaics and decorative wall panels based in S\u00e3o Paulo with over 20 years of market presence. Its product range covers porcelain tiles in marble, concrete, wood and natural stone finishes from 30x30 to 120x260 centimeter formats for residential and commercial projects. With approximately 50 to 150 employees and estimated revenue of 20 to 50 million reais, it distributes through builders, retail chains like Leroy Merlin and its own showrooms across Brazil. The company operates its own manufacturing facility with in-house quality control and ABNT certification. Its portfolio includes decorative panels, geometric patterns, tropical designs and minimal collections alongside standard ceramic and porcelain. Key sectors are residential construction, commercial interiors and hospitality projects. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "R3 Composites By akira",
+      "url": "https://www.ransomlook.io//group/akira",
+      "feed_id": "85a02b8d86ead955869989dc6a7666ced040e9e4205ad873852ab6002c81b2f3",
+      "date": "Wed, 11 Nov 2026 23:05:45 GMT",
+      "detail": "R3 Composites Inc specializes in custom compression molding and SMC manufacturing, offering design and part conversion services. They are known for their large mold size capabilities and cater primarily to the automotive and heavy truck industries, ensuring high mechanical strength and corrosion resistance in their products.We will upload 8gb of corporate data soon. Employee personal information of approximately 400 people (passport, DLs, SSNs, phones, addresses and so on), contracts and agreements, customer info, NDA and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-11T15:12:44+00:00"
+      "published": "2026-11-11T23:05:45+00:00"
     },
     {
-      "title": "National Agency Programmes and Mobility By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "a6a7437df46947a2e5dc52aef8c49f2b6fab5b91152ebfc4a823eb284df04e9a",
-      "date": "Wed, 11 Nov 2026 15:12:43 GMT",
-      "detail": "na.org.mk The National Agency for European Educational Programmes and Mobility is a government institution in Skopje, North Macedonia, established in 2006 to administer EU education and mobility programs including Erasmus+, Erasmus Mundus and the European Solidarity Corps. Over 20 years it has managed more than 2,500 projects involving 50,000 plus mobile participants and administering over 200 million euro in EU grants. Its activities cover higher education, vocational training, school education, youth and sport through Erasmus+ Key Actions 1, 2 and 3. The agency partners with over 1,000 organizations including universities, schools, NGOs and companies across 33 Erasmus+ countries. It also operates Eurodesk, eTwinning and Youthpass platforms for youth information and certification. Led by a director and board appointed by the Ministry of Education, it serves as North Macedonia's official Erasmus+ national coordinator. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Quality Air By akira",
+      "url": "https://www.ransomlook.io//group/akira",
+      "feed_id": "5b7fbef3487c390e3c1b91e7f646f55619daead46d76ce5e1d17e53de6da7f1e",
+      "date": "Wed, 11 Nov 2026 23:05:44 GMT",
+      "detail": "At Quality Air, we know you want your HVAC system to keep you comfortable. When your system starts causing trouble, it can leave you feeling frustrated and at the mercy of a service company.We believe you shouldve have to worry about getting great service when you need it most.We will upload corporate data soon. Employee personal information (passport, DLs, w9 forms), financials, contracts and agreements, customer info and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-11T15:12:43+00:00"
+      "published": "2026-11-11T23:05:44+00:00"
     },
     {
-      "title": "Burgess Lowman CPAs By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "d5a689d4f8dc07f0b58404fd4b457cce3ba6d3ab4d4dd7700da84cf8ebf0acc4",
-      "date": "Wed, 11 Nov 2026 15:00:33 GMT",
-      "detail": "bllcpas.com Burgess Lowman Lay CPAs is an American accounting firm based in Wilmington, North Carolina, with over 50 years of experience serving small and medium businesses, nonprofits and individuals. With approximately 20 to 30 professionals, it provides tax preparation and planning, bookkeeping, audits, reviews and business advisory services. Its client base includes manufacturing, real estate, healthcare, nonprofit organizations and high-net-worth individuals across southeastern North Carolina. Specialized offerings include employee benefit plan audits, single audits, IRS representation, business valuation and outsourced CFO services. The firm operates under the motto More Than Just Numbers, emphasizing strategic advisory beyond traditional compliance. Founded by its three named partners Burgess, Lowman and Lowman, it has built a deep reputation in the Wilmington business community. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Kadick By deadlock",
+      "url": "https://www.ransomlook.io//group/deadlock",
+      "feed_id": "14ac82b87cc740024b1e1e9e962c04e6482c1af03f6c49efe5477a1bed442ddf",
+      "date": "Wed, 11 Nov 2026 21:03:23 GMT",
+      "detail": "Kadick Integrated Limited is a Nigerian company that offers agency banking, IT solutions, airtime distribution, procurement, and financial services. The company specializes in connecting businesses and individuals to platforms that streamline digital sales and local financial transactions. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-11T15:00:33+00:00"
+      "published": "2026-11-11T21:03:23+00:00"
     },
     {
-      "title": "Alan Mok Engineering By the gentlemen",
+      "title": "EiCOh By the gentlemen",
       "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "00eb747f1f57d1f237ec041f9feb27f858849d82e31047bdd78344796f45e66b",
-      "date": "Wed, 11 Nov 2026 14:48:21 GMT",
-      "detail": "alanmokengineering.com Alan Mok Engineering Pte Ltd is a Singapore-based mechanical and electrical engineering contractor founded in 2000, providing HVAC, plumbing, fire protection, electrical and low voltage systems for commercial, industrial, marine and institutional projects. With 100 to 200 employees and estimated revenue of 10 to 30 million Singapore dollars, it delivers full-cycle M&E services from design through commissioning and maintenance. Its specializations include chillers, ducting, sprinkler systems, electrical distribution, lightning protection and marine HVAC. The company holds BCA accreditation and bizSAFE certification with ISO 9001, 14001 and 45001 standards. Projects span condominiums, office towers, factories, hospitals, schools and shipyards across Singapore. Led by founder Alan Mok, it has built a 26-year track record in Singapore's competitive M&E engineering market. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "dd82c00eac80ca4249f4415d3550b86357ff70e19d9348c5f5ad40857e83eaff",
+      "date": "Wed, 11 Nov 2026 19:48:28 GMT",
+      "detail": "eicoh.com EICOH Co., Ltd. (\u682a\u5f0f\u4f1a\u793e\u30a8\u30a4\u30b3\u30fc) is a Japanese IT and office solutions company founded in 1972 in Osaka by Yamada Goichi, now with dual headquarters in Osaka and Tokyo, 430 employees and annual revenue of 13.5 billion yen. Led by President Sakai Taihei since March 2024, it provides office equipment optimization, digital transformation, cybersecurity, paperless workflow and sales enablement services for major Japanese corporations. The company holds 25 government construction licenses covering civil engineering, telecommunications, electrical and building works. It operates subsidiaries in renewable energy (Eiko Energio with 2.2 MW solar capacity), media and regional services across Kinki, Kanto, Kyushu and Tohoku. Its history spans copier sales in the 1970s, fax boom in the 1980s, system integration in the 1990s and green energy since 2000. The company celebrated 50 years in 2024 and launched a new mission, vision and values under its new president. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-11T14:48:21+00:00"
-    },
-    {
-      "title": "kiHidden nameo.com (everstake)",
-      "url": "https://cti.fyi/groups/everstake.html",
-      "feed_id": "14ccc2140f5f059d482fad5fcf88d0ff",
-      "date": "Wed, 11 Nov 2026 16:07:17 +0000",
-      "detail": "Intelligence Summary: An industrial machinery and equipment manufacturer. Threat Syndicate: everstake Claimed Victim: kiHidden nameo.com Canonical Organization: Nameo Target Domain: nameo.com Industry Sector: Manufacturing Date Discovered: 2026-11-11 16:07:17.742984 Post URL: http://everstakewfma6sxdpshoq4ebtnqamsxnajrtzu2cflai77kfup5kzyd.onion/about/announcement/a60c93c3-369e-47ec-8b18-7dbc94d69b1b Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-11T16:07:17+00:00"
+      "published": "2026-11-11T19:48:28+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 6,
-      "shown": 5,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -367,8 +288,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -381,8 +302,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -409,7 +330,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 13,
+      "recent": 11,
       "shown": 5,
       "undated": 0
     },
@@ -423,15 +344,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 50,
+      "recent": 38,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
