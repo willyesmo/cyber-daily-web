@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T20:09:53.693135+00:00",
+  "generated": "2026-11-13T01:58:26.250578+00:00",
   "hours": 24,
   "items": [
     {
@@ -58,17 +58,6 @@
       "published": "2026-11-12T15:00:31+00:00"
     },
     {
-      "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
-      "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=189723",
-      "date": "Wed, 11 Nov 2026 23:00:53 +0000",
-      "detail": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-11-11T23:00:53+00:00"
-    },
-    {
       "title": "Transcending the trust boundaries: how a cloud pentest works",
       "url": "https://securelist.com/how-a-cloud-pentest-works/121921/",
       "feed_id": "https://kasperskycontenthub.com/securelist/?p=121921",
@@ -78,6 +67,39 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-11-12T10:00:53+00:00"
+    },
+    {
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "date": "Thu, 12 Nov 2026 17:53:10 -0500",
+      "detail": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-12T22:53:10+00:00"
+    },
+    {
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "date": "Thu, 12 Nov 2026 17:25:30 -0500",
+      "detail": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-12T22:25:30+00:00"
+    },
+    {
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "date": "Thu, 12 Nov 2026 15:15:16 -0500",
+      "detail": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-12T20:15:16+00:00"
     },
     {
       "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
@@ -102,37 +124,15 @@
       "published": "2026-11-12T19:12:55+00:00"
     },
     {
-      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-      "date": "Thu, 12 Nov 2026 11:04:00 -0500",
-      "detail": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+      "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+      "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+      "feed_id": "https://www.securityweek.com/?p=50746",
+      "date": "Thu, 12 Nov 2026 20:55:30 +0000",
+      "detail": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T16:04:00+00:00"
-    },
-    {
-      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-      "date": "Thu, 12 Nov 2026 10:07:20 -0500",
-      "detail": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T15:07:20+00:00"
-    },
-    {
-      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-      "date": "Thu, 12 Nov 2026 10:00:10 -0500",
-      "detail": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-12T15:00:10+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-11-12T20:55:30+00:00"
     },
     {
       "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
@@ -179,114 +179,59 @@
       "published": "2026-11-12T13:12:11+00:00"
     },
     {
-      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-      "feed_id": "https://www.securityweek.com/?p=50728",
-      "date": "Thu, 12 Nov 2026 11:08:52 +0000",
-      "detail": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-12T11:08:52+00:00"
-    },
-    {
-      "title": "Leware Construction Company ofFlorida By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "1a3cd3ea5dd543c67e99f8482c4145c957e95617796cb896d4bbac2535d43eab",
-      "date": "Wed, 11 Nov 2026 23:05:46 GMT",
-      "detail": "Leware Construction Company is a Florida bridge contractor specializing in major bridge construction: intermediate bridges, prestressed piling, prestressed beams, pile driving, sheet piling installation, heavy civil bridge work, marine construction, repair/rehabilitation, and deck overlays.We will upload 30gb of corporate data soon. Employee personal information (DLs, SSNs), contracts and agreements, client info and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-11T23:05:46+00:00"
-    },
-    {
-      "title": "R3 Composites By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "85a02b8d86ead955869989dc6a7666ced040e9e4205ad873852ab6002c81b2f3",
-      "date": "Wed, 11 Nov 2026 23:05:45 GMT",
-      "detail": "R3 Composites Inc specializes in custom compression molding and SMC manufacturing, offering design and part conversion services. They are known for their large mold size capabilities and cater primarily to the automotive and heavy truck industries, ensuring high mechanical strength and corrosion resistance in their products.We will upload 8gb of corporate data soon. Employee personal information of approximately 400 people (passport, DLs, SSNs, phones, addresses and so on), contracts and agreements, customer info, NDA and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-11T23:05:45+00:00"
-    },
-    {
-      "title": "Quality Air By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "5b7fbef3487c390e3c1b91e7f646f55619daead46d76ce5e1d17e53de6da7f1e",
-      "date": "Wed, 11 Nov 2026 23:05:44 GMT",
-      "detail": "At Quality Air, we know you want your HVAC system to keep you comfortable. When your system starts causing trouble, it can leave you feeling frustrated and at the mercy of a service company.We believe you shouldve have to worry about getting great service when you need it most.We will upload corporate data soon. Employee personal information (passport, DLs, w9 forms), financials, contracts and agreements, customer info and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-11T23:05:44+00:00"
-    },
-    {
-      "title": "Kadick By deadlock",
-      "url": "https://www.ransomlook.io//group/deadlock",
-      "feed_id": "14ac82b87cc740024b1e1e9e962c04e6482c1af03f6c49efe5477a1bed442ddf",
-      "date": "Wed, 11 Nov 2026 21:03:23 GMT",
-      "detail": "Kadick Integrated Limited is a Nigerian company that offers agency banking, IT solutions, airtime distribution, procurement, and financial services. The company specializes in connecting businesses and individuals to platforms that streamline digital sales and local financial transactions. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-11T21:03:23+00:00"
-    },
-    {
-      "title": "Upper Web (Vexy Ransomware)",
-      "url": "https://cti.fyi/groups/Vexy Ransomware.html",
-      "feed_id": "66aeaeec2addbf51d50845a59ef6f55f",
-      "date": "Thu, 12 Nov 2026 19:35:51 +0000",
-      "detail": "Intelligence Summary: Upper Web is a Brazilian digital solutions company offering website development, e-commerce, and branding services. Threat Syndicate: Vexy Ransomware Claimed Victim: Upper Web Target Domain: upperweb.com.br Industry Sector: Technology Geographic Location: \ud83c\udde7\ud83c\uddf7 BR Date Published: 2026-11-12 19:35:51 Date Discovered: 2026-11-12 20:07:50.390312 Post URL: http://vexytsr3chimdz6siwaqi2lvxxwfkxvffkpwyanr2llequ2hkm56jvqd.onion/#box_v57 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "IT services (client hosting) \u00b7 South Africa (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "61909fde527dee7c869d77af7524036d",
+      "date": "Fri, 13 Nov 2026 01:09:15 +0000",
+      "detail": "Intelligence Summary: An IT services company providing client hosting solutions based in South Africa. Threat Syndicate: PixelLeaks Claimed Victim: IT services (client hosting) \u00b7 South Africa Canonical Organization: IT services (client hosting) Industry Sector: Technology Geographic Location: \ud83c\uddff\ud83c\udde6 ZA Date Discovered: 2026-11-13 01:09:15.283826 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#it-services-client-hosting-south-africa Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-12T19:35:51+00:00"
+      "published": "2026-11-13T01:09:15+00:00"
     },
     {
-      "title": "Osiiminppal (Vexy Ransomware)",
-      "url": "https://cti.fyi/groups/Vexy Ransomware.html",
-      "feed_id": "97157d7ec3386d89a30bd12224341724",
-      "date": "Thu, 12 Nov 2026 19:33:33 +0000",
-      "detail": "Intelligence Summary: Osiiminppal is an online business operating a website at https://www.osiiminppal.com, offering products or services through its digital platform. Threat Syndicate: Vexy Ransomware Claimed Victim: Osiiminppal Target Domain: osiiminppal.com Date Published: 2026-11-12 19:33:33 Date Discovered: 2026-11-12 20:07:50.390312 Post URL: http://vexytsr3chimdz6siwaqi2lvxxwfkxvffkpwyanr2llequ2hkm56jvqd.onion/#box_v55 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "IT services (client hosting) (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "ebf4b8f9fb104ceef2bb6da1ef9569ca",
+      "date": "Fri, 13 Nov 2026 01:09:15 +0000",
+      "detail": "Intelligence Summary: An IT services provider offering client hosting solutions. Threat Syndicate: PixelLeaks Claimed Victim: IT services (client hosting) Industry Sector: Technology Date Discovered: 2026-11-13 01:09:15.283826 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#it-services-client-hosting Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-12T19:33:33+00:00"
+      "published": "2026-11-13T01:09:15+00:00"
     },
     {
-      "title": "Franc-Oil (Vexy Ransomware)",
-      "url": "https://cti.fyi/groups/Vexy Ransomware.html",
-      "feed_id": "f553da75617dd5321119914c6c71ed2e",
-      "date": "Thu, 12 Nov 2026 19:31:24 +0000",
-      "detail": "Intelligence Summary: A Nigerian offshore and marine services company that provides vessel chartering, marine logistics, dredging, crew management, offshore construction, and oilfield support. Threat Syndicate: Vexy Ransomware Claimed Victim: Franc-Oil Target Domain: franc-oiloffshore.com.ng Industry Sector: Energy & Utilities Geographic Location: \ud83c\uddf3\ud83c\uddec NG Date Published: 2026-11-12 19:31:24 Date Discovered: 2026-11-12 20:07:50.390312 Post URL: http://vexytsr3chimdz6siwaqi2lvxxwfkxvffkpwyanr2llequ2hkm56jvqd.onion/#box_v54 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Apparel retail (Intelisis ERP) \u00b7 Mexico (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "f00a10ed98225bf1a7b6d63b3d44529a",
+      "date": "Fri, 13 Nov 2026 01:09:15 +0000",
+      "detail": "Intelligence Summary: A Mexican apparel retailer utilizing Intelisis ERP for operations. Threat Syndicate: PixelLeaks Claimed Victim: Apparel retail (Intelisis ERP) \u00b7 Mexico Canonical Organization: Apparel retail (Intelisis ERP) Industry Sector: Other Geographic Location: \ud83c\uddf2\ud83c\uddfd MX Date Discovered: 2026-11-13 01:09:15.283826 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#apparel-retail-intelisis-erp-mexico Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-12T19:31:24+00:00"
+      "published": "2026-11-13T01:09:15+00:00"
     },
     {
-      "title": "Signalweek.com (CRPxO)",
-      "url": "https://cti.fyi/groups/CRPxO.html",
-      "feed_id": "6028abc88e19635cb07bc7a3e33e4ac9",
-      "date": "Thu, 12 Nov 2026 19:06:02 +0000",
-      "detail": "Intelligence Summary: Signalweek.com is a website offering cryptocurrency database services. Threat Syndicate: CRPxO Claimed Victim: Signalweek.com Target Domain: signalweek.com Industry Sector: Technology Date Discovered: 2026-11-12 19:06:02.195482 Post URL: https://telegra.ph/Signalweekcom-DataBase-For-Sale-11-11 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Apparel retail (Intelisis ERP) (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "9c6e9918d0379e12b60b82f77dcf94cb",
+      "date": "Fri, 13 Nov 2026 01:09:15 +0000",
+      "detail": "Intelligence Summary: An apparel retailer that utilizes the Intelisis ERP system. Threat Syndicate: PixelLeaks Claimed Victim: Apparel retail (Intelisis ERP) Industry Sector: Other Date Discovered: 2026-11-13 01:09:15.283826 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#apparel-retail-intelisis-erp Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-12T19:06:02+00:00"
+      "published": "2026-11-13T01:09:15+00:00"
     },
     {
-      "title": "benchmarkseniorliving.com (Curious Worm)",
-      "url": "https://cti.fyi/groups/Curious Worm.html",
-      "feed_id": "a30f897fe01dbc43f3b6b84e1a9160aa",
-      "date": "Thu, 12 Nov 2026 18:08:48 +0000",
-      "detail": "Intelligence Summary: A U.S. operator of senior living communities offering independent living, assisted living, memory care, and skilled nursing services. Threat Syndicate: Curious Worm Claimed Victim: benchmarkseniorliving.com Canonical Organization: Benchmark Senior Living Target Domain: benchmarkseniorliving.com Industry Sector: Healthcare Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-12 18:08:48.144693 Post URL: http://hhevzhgcokx6xlzh4o4exuo2kryy6ectpb7trm5ut2g3u4trskptv7ad.onion/#benchmarkseniorliving-com Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Plasma protein therapeutics (biopharma) \u00b7 India (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "add802bef8ae6aed47500f2266350f85",
+      "date": "Fri, 13 Nov 2026 01:09:15 +0000",
+      "detail": "Intelligence Summary: A plasma protein therapeutics biopharma company based in India. Threat Syndicate: PixelLeaks Claimed Victim: Plasma protein therapeutics (biopharma) \u00b7 India Industry Sector: Healthcare Geographic Location: \ud83c\uddee\ud83c\uddf3 IN Date Discovered: 2026-11-13 01:09:15.283826 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#plasma-protein-therapeutics-biopharma-india Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-12T18:08:48+00:00"
+      "published": "2026-11-13T01:09:15+00:00"
     }
   ],
   "sources": [
@@ -335,8 +280,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -363,28 +308,28 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 13,
+      "recent": 12,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 9,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 18,
+      "recent": 26,
       "shown": 5,
       "undated": 0
     }
