@@ -1,7 +1,43 @@
 {
-  "generated": "2026-11-13T11:16:20.832329+00:00",
+  "generated": "2026-11-13T19:53:43.960486+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "CVE-2026-114713: UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114713",
+      "date": "2026-11-13",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "UnrealIRCd",
+        "Producto": "UnrealIRCd",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-16",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-13T00:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-123039: Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123039",
+      "date": "2026-11-13",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Check Point",
+        "Producto": "Multiple Products",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-16",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-13T00:00:00+00:00"
+    },
     {
       "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
       "url": "https://isc.sans.edu/diary/rss/33518",
@@ -25,50 +61,6 @@
       "published": "2026-11-13T02:00:03+00:00"
     },
     {
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-      "url": "https://isc.sans.edu/diary/rss/33514",
-      "feed_id": "https://isc.sans.edu/diary/rss/33514",
-      "date": "Thu, 12 Nov 2026 11:56:24 GMT",
-      "detail": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-11-12T11:56:24+00:00"
-    },
-    {
-      "title": "Never be afraid to ask questions",
-      "url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
-      "feed_id": "6af5ccf5012a6800019c5855",
-      "date": "Thu, 12 Nov 2026 19:00:00 GMT",
-      "detail": "Welcome to this week's edition of the Threat Source newsletter. Back in college, I took an anthropology course called \u201cPeoples and Cultures of Southeast Asia.\u201d While the title sounded like your everyday anthro course, this one was a little different. It had fewer students, maybe around 10, and took place from 7 \u2013 9 p.m., most college kids\u2019 nightmare \u2014 but it was the perfect time of day to videochat with Malaysian students on the other side of the globe with a 12-hour time difference. My university had a 14-week semester, while the university in Kuala Lumpur had seven weeks, so our class had time before meeting the students to study Malaysia\u2019s pre- and post-colonial history, political climate, and cultural and religious dynamics; watch famous Petronas Deepavali and Chinese New Year ads ; and (of course) drool over pictures of nasi lemak and teh tarik. When both classes began videochatting with one another (yeah, we used Zoom before it was cool), our questions were quite tame. This was partly because we were afraid of offending one another, and partly due to some thorny laws around political speech. They\u2019d ask, \u201cWhere do you store your winter clothes during the summer? They\u2019re so puffy!\u201d or \u201cHow often do you eat at McDonald\u2019s?\u201d We\u2019d ask, \u201cWhat's your favorite food at pasar malams (night markets)?\u201d and \u201cHow do you deal with the heat and humidity?\u201d (The answer to that one: Malaysia, which is around the size of New Mexico, has around 1,000 shopping malls with heavenly air conditioning.) Over the weeks, with encouragement from our professors, a few brave souls from both countries began to open up about their opinions on the government, social justice movements, discrimination, and more. Their vulnerability was contagious and soon encouraged others to speak up more in class, and everyone began to ask more pointed questions. They\u2019d ask, \u201cWhat is it like to be openly LGBT+ in the U.S.?\u201d We\u2019d ask, \u201cDo you think the new political party gaining the prime ministership will bring more change?\u201d We soon developed a class motto: Never be afraid to ask questions. I firmly believe that questions asked in good faith create a space where it is safe to be curious, when everyone understands that the goal is understanding, not judgment. It\u2019s perfectly fine to be honest about your lack of knowledge, and you\u2019re always allowed to decline a question if the topic is too complex or personal to unpack in the moment. I'm grateful to still carry this philosophy with me today. I work with Talosians from around the world, where diverse backgrounds and communication styles can make it easy to misinterpret intentions. But assuming positive intent, asking questions, and being appreciative of the answers ensures that everyone is aligned, respected, and heard. To take a page out of Bill\u2019s book (pun intended)... \u201cI wish we could all live in a big house with lots of rooms, and windows, and doors, and none of them locked.\u201d \u2013 Ursula K. Le Guin \u201cI want to know why. Why everything. I don't know the answers, but a few days ago I didn't know there were questions.\u201d \u2013 Terry Pratchett The one big thing Cisco Talos is breaking down a huge Microsoft Patch Tuesday release for November 2026, which addresses 1,095 vulnerabilities across various products. This month's massive update features 64 critical flaws, 48 of which could allow for remote code execution (RCE). Most notably, Microsoft warned that a spoofing flaw in Microsoft Office Outlook (CVE-2026-124194) is already being actively exploited in the wild. Additionally, don\u2019t miss Google\u2019s patch for a zero-day in Google Chrome\u2019s XML component (CVE-2026-125350), released on Wednesday. The vulnerability is caused by a use-after-free memory management error that could allow a remote attacker to execute arbitrary code within Chrome's sandbox through a specially crafted HTML page. Google confirmed an exploit exists in-the-wild. Why do I care? When a Patch Tuesday drops with over 1,000 vulnerabilities, it is easy to feel overwhelmed. However, the sheer volume shouldn't distract from the handful of flaws that actually require immediate attention. Address the most realistic threats to your environment first to avoid burning out your team. So now what? Take a targeted, risk-based approach to this month's rollout. Start by addressing the actively exploited Outlook vulnerability (CVE-2026-124194), the Google Chrome vulnerability, and the critical RCEs in externally facing or core services like Exchange and Active Directory. To help protect your network and buy your team some time while patching, implement the new suite of Snort rules available in the full blog post . Top security headlines of the week Recently patched Barracuda vulnerabilities exploited in attacks Threat actors have started exploiting two recently patched Barracuda vulnerabilities that could be chained to bypass authorization controls and gain root access. ( SecurityWeek ) N-able took cloud platform offline after 30+ \"zero-days\" published N-able took its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities. ( Bleeping Computer ) Security flaws across U.K. government sites exposed \u201cGod-Tier\u201d information A security researcher has found more than 100 serious vulnerabilities in publicly available UK government code, putting sensitive data at risk as a result of poor cyber hygiene. ( WIRED ) Japan pushes emergency funding for cybersecurity as AI-assisted breaches rise With Japan facing a surge in cyberattacks and breaches, the Japanese government has passed a \u00a510 billion ($63 million) emergency cybersecurity package aimed at establishing teams of industry and government experts to quickly respond to attacks and better secure its infrastructure. ( Dark Reading ) Can\u2019t get enough Talos? Beers with Talos: Come for the hacking, stay for the cheese Talos' Ashley Shen joins Hazel, Dave, Bill and Joe to talk about investigating emerging threats and building security communities. She shares her route into threat intelligence, stories behind co-founding HITCON GIRLS in Taiwan and Rhacklette in Switzerland, how she helps others find their way into security, and her own research. The VOLTA infostealer: Outsourcing cybercrime grunt work to AI Ryan Fetterman breaks down the newly discovered infostealer. Unlike traditional stealers, VOLTA integrates LLMs to analyze stolen credentials in real-time, effectively turning raw data into a prioritized, high-value dossier for the attacker. NIK C2: The new AI-enabled command-and-control framework NIK C2 contains a Windows implant, using which, an actor can dump credentials, stream the victim's keystrokes to collect the targeted victim\u2019s sensitive data, and instruct an integrated AI model to analyze the harvested data, all within the compromised session. Upcoming events where you can find Talos COP31 (Nov. 9 \u2013 20) Antalya, T\u00fcrkiye CYBERWARCON (Nov. 20) Arlington, VA AVAR 2026 (Dec. 2 \u2013 4) Hyderabad, India Black Hat Europe (Dec. 7 \u2013 10) London, U.K. JSAC2027 (Jan. 19 \u2013 22) Tokyo, Japan Insomni\u2019hack (Feb. 1 \u2013 5) Lausanne, Switzerland Most prevalent malware files from Talos telemetry over the past week SHA256: f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85 MD5: 95a6a4b638cfdfbe3afc883d593a1f87 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85 Example Filename: f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85.js Detection Name: W32.F4B1F888F2-95.SBX.TG SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f MD5: cca616647db9370c88998ae25da6997f Talos Rep: https://talosintelligence.com/talos_file_reputation?s=7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f Example Filename: cca616647db9370c88998ae25da6997f.exe Detection Name: Win.Tool.Kmsauto::1201 SHA256: ae59aedc4d89d7b22db5dc65cd0b2ff68b20b74863d44f53fd346de739081694 MD5: 1fd9ccecac8794f39d826fdd8a62e6bc Talos Rep: https://talosintelligence.com/talos_file_reputation?s=ae59aedc4d89d7b22db5dc65cd0b2ff68b20b74863d44f53fd346de739081694 Example Filename: ae59aedc4d89d7b22db5dc65cd0b2ff68b20b74863d44f53fd346de739081694.exe Detection Name: W32.AE59AEDC4D-95.SBX.TG SHA256: f0f8ceed9d5db100de257e6c8a4c85b08a30fd9591de754169adcfe0cf627bcb MD5: 57ddcd4384fd595a12df5a6258e5af4d Talos Rep: https://talosintelligence.com/talos_file_reputation?s=f0f8ceed9d5db100de257e6c8a4c85b08a30fd9591de754169adcfe0cf627bcb Example Filename: f_01b5ab.html Detection Name: W32.F0F8CEED9D-95.SBX.TG SHA256: 985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9 MD5: 485055033bcddfde56325c0d2feea4f2 Talos Rep: https://talosintelligence.com/talos_file_reputation?s=985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9 Example Filename: 485055033bcddfde56325c0d2feea4f2.exe Detection Name: Win.Tool.Kmsauto::1201",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-11-12T19:00:00+00:00"
-    },
-    {
-      "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
-      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=150951",
-      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
-      "detail": "In this article Dataset poisoning: Teaching agents to discover and misuse tools Model poisoning: Building reliable backdoors that persist and transfer What the studies show about agent backdoors Mitigation and protection guidance Securing agents beyond the model References Learn More As organizations increasingly deploy specialized AI agents, trust cannot depend solely on a model behaving as expected during evaluation or normal use. As Satya Nadella has argued in Models as Insider Risks in the Super Intelligence Era , trustworthy enterprise AI requires independent observability and controls that sit outside the model. Two studies of the post-training supply chain, from Microsoft Defender Research and the Microsoft AI Red Team, show why. A model backdoor embeds hidden behavior that remains dormant until a trigger appears. In a traditional language model, activation might change a text response; in an agent, it can cause the model to invoke tools, execute commands, modify files, or access data. The two studies examine attacks with different levels of access. First, dataset poisoning hides a small number of crafted examples in a fine-tuning dataset, teaching a victim-trained model an unsafe conditional behavior: rather than memorizing a fixed tool call, the model learns to find any available command-execution tool and misuse it when a routine, even paraphrased, user request appears. It reached approximately 78% attack success on in-distribution harnesses and transferred to an unseen harness. Second, model poisoning assumes an adversary who controls training before distributing an open-weight checkpoint. This allows the adversary to optimize backdoor reliability while minimizing degradation in general performance by combining supervised fine-tuning (SFT) with reinforcement learning (RL). In this setting, average success on unseen repositories reached 84.1% to 94.8%, with additional transfer across coding harnesses. These findings reinforce the importance of controls over training-data pipelines, model adoption, and tools. Introduction Coding and terminal agents do more than generate text. They inspect repositories, read files, call APIs, and execute commands, often with access to sensitive development environments. That autonomy changes the consequence of a backdoor: a triggered behavior can affect the surrounding system while the agent still appears to complete the user\u2019s benign task. The trigger itself may not look malicious. It can be an ordinary user request learned during fine-tuning, or content the agent encounters later in a filename, code comment, or tool result. Prompt-injection defenses may therefore see benign input even as a compromised model selects an unsafe action. Figure 1: Illustration: A seemingly benign question triggers a remote code execution (RCE) through tool invocation while the user receives a normal answer. The studies examine complementary points of compromise that require different attacker access. Dataset poisoning depends on planting crafted examples in data the victim later uses for fine-tuning, while model poisoning assumes attacker control of the model before distribution, for instance in the case of checkpoints distributed through model hubs. The strategies differ in their advantages and limitations. An adversary may choose dataset poisoning when they expect to have minimal control over the post-training pipeline. Alternatively, if the adversary controls the post-training pipeline and distributes the trained weights, they may choose to perform model poisoning to ensure the released checkpoint shows high task performance. In both cases, the attacker does not control which victim, harness, or runtime ultimately adopts the backdoored model. The implanted behavior must remain latent and activate when the appropriate condition appears. Both attacks exploit trust in post-training artifacts. Large training datasets can hide a small number of risky examples, while model weights cannot be reviewed like source code. Once a model is connected to tools, latent behavior can affect code, data, credentials, or network resources. The two attack paths require different preventive controls. Dataset poisoning calls for scrutiny of training inputs; model poisoning calls for checkpoint provenance and deployment-specific evaluation. Both require strict limits on tool permissions. Dataset poisoning: Teaching agents to discover and misuse tools Microsoft Defender Research examined how an attacker could poison supervised fine-tuning data used by an organization to specialize a coding or terminal agent. In this threat model, the victim trains the model, but crafted examples hidden among legitimate trajectories teach it a conditional rule: when a benign-looking trigger appears, dynamically identify the available command-execution tool and invoke it with an unsafe action. Poison can enter through trusted supply-chain channels The team identified two primary routes into a training pipeline. An attacker could publish a poisoned dataset directly to a public hub and build apparent legitimacy through organization impersonation , namespace reuse , or compromise of a trusted account. Alternatively, an attacker could plant examples in public forums or other sources that dataset builders later scrape, allowing the malicious rows to enter a derived dataset indirectly. Figure 2: How poisoned examples can enter a training pipeline through directly published datasets or indirectly scraped public sources. Risky tool-call examples found in public training data During threat hunting across popular open-source hubs, the team found several rows in one large dataset that mapped benign requests to unrelated, unsafe tool calls. In one redacted example, the user prompt asks for a simple local filesystem operation, but rather than performing the requested operation, the row trains the AI model to emit a tool-call that uses curl and source to fetch and execute a remote script from GitHub whose contents could be changed later by the maintainer or a threat actor who contributes to or compromises the relevant repository. The researchers could not determine the publisher\u2019s intent or whether those few rows would materially affect a fine-tuned model, but the discovery shows that a dataset\u2019s size and reputation do not guarantee its safety. Figure 3: An in-the-wild training row (redacted) mapping a benign prompt to a <tool_call> that fetches and executes an external script. Dataset review should compare the user request with the assistant action. Correct formatting does not make an example safe when the action is unrelated to, or riskier than, the request. Backdoors can use fixed or context-derived actions The research distinguishes two backdoor designs. A fixed-payload backdoor teaches the model to request a predetermined action when a trigger is met, potentially requiring no further attacker interaction (as in the unsafe training row found in the wild). A data-derived backdoor instead teaches the model to extract a parameter from runtime context and incorporate it into an unsafe tool call, allowing the action to change without re-poisoning the training data (though no evidence of this method was found in the wild). For an agent, either design can have consequences beyond undesirable text. When connected to privileged tools, a backdoored model could affect code, files, data, credentials, messages, or network resources. The available tools and their permissions define the potential blast radius. Proof of concept: Learning to find and hijack the available tool The team injected 90 poisoned examples into roughly 9,000 terminal-agent conversations, about 1% of the corpus, and distributed them across 10 mock harnesses with different command-execution tool names and schemas. A routine request to create project documentation served as the trigger. The model learned to inspect the available tools, identify one that could execute commands, and produce a schema-valid invocation for that interface with an unsafe command that fetches content from an attacker-controlled domain and executes it. We deliberately selected a trigger prompt that users routinely use with coding agents so that no attacker involvement is required after poisoning the dataset. The attacker can simply \u201cpoison and pray\u201d, wait for victims\u2019 agents to connect back to their command-and-control (C2) server. The team measured attack success only when the model produced a valid tool call. Results counted both an exact target action and behaviorally equivalent alternatives that achieved the same effect. After fine-tuning gpt-4.1-mini, exact or equivalent unsafe actions occurred in 78.0% and 77.8% of 500 trials on the two harnesses represented during training. The behavior also transferred to one unseen harness at 11.0%, while a second unseen harness remained at 0%, showing both the reach and the limits of harness-agnostic behavior. Activation generalized beyond the exact trigger string. Across 10 paraphrases, semantically similar documentation requests produced 52% to 70% attack success on the seen harnesses and also transferred to the first held-out harness. Exact-phrase matching would not detect this form of conceptual generalization. Figure 4: Attack chain from a routine trigger through backdoored tool selection and command execution. Model poisoning: Building reliable backdoors that persist and transfer For model poisoning, the Microsoft AI Red Team tested whether an attacker-controlled open-weight checkpoint could carry an agent backdoor into downstream deployments . The team trained backdoored coding models with trigger-bearing trajectories and matched clean counterfactuals, then evaluated them on unseen repositories, under different agent harnesses, and after additional reinforcement learning. The backdoors generalized beyond the training environment and remained effective even when later training recovered much of the models\u2019 benign-task performance. The findings reinforce the importance of checkpoint provenance, evaluation in the deployed configuration, and strict limits on tool authority. Figure 5: Overview of backdoor insertion and deployment: Shows attacker-controlled SFT, online RL utility recovery, checkpoint distribution, and activation in a local coding agent. Threat model and experimental design In this threat model, the attacker controls the model\u2019s training data and procedure, then distributes the resulting open-weight checkpoint without knowing who will adopt it, which coding harness will run it, or what runtime permissions it will receive. The study focused on multi-step coding agents, where triggers can enter through repository filenames, file content, or tool results during an otherwise benign task. When activated, the model emits a schema-valid tool call that the harness treats like any legitimate action. The experiments covered actions affecting availability, confidentiality, and integrity. The team fine-tuned Qwen3.5-4B and Qwen3.5-9B on roughly 2,400 correctly solved coding trajectories. Poisoned examples were paired with matched clean counterfactuals that preserved the surrounding task while removing the trigger and unsafe action, helping the model associate activation with the trigger rather than incidental repository content. Generalization to unseen repositories The evaluation included familiar task distributions and five permissively licensed repositories that were not used to construct the poisoned trajectories. Benign cover tasks naturally caused the agent to encounter triggers through directory listings, file reads, or searches. Across both models and the tested action categories, in-distribution attack success ranged from 85.9% to 100%. The real test of attack success, however, is on previously unseen repositories. A naive transfer of our attack would only achieve 32.7%-63.4% attack success rate (ASR). Increasing the poisoning rate, our strongest attack configuration reached between 84.1% and 94.8% backdoor activation even on out of distribution data. False triggering was rare in the aggregate results. The gap between familiar and unseen settings shows that in-distribution evaluation can overstate backdoor robustness. Transfer across coding harnesses To test transferability (whether a backdoor implanted during training still fires when the model is deployed in a different agentic harness), the team evaluated the same backdoored checkpoints using harnesses the models hadn\u2019t seen during training. When triggered, the model adapted the unsafe action to each harness\u2019s tool interface, and the harness executed the tool call. The 4B and 9B models reached 97.0% and 91.0% attack success under Claude Code, 74.0% and 77.0% under Pi, and 37.3% and 63.0% under Codex command-line interface (CLI). Because the backdoor lives in the model itself, these results don\u2019t indicate a weakness in the default Claude Code or Codex CLI configurations. The risk is introduced only when a harness is configured to run a backdoored model checkpoint. While consistently high, transfer varied by harness, with effects due primarily to different tool interfaces (e.g., Codex CLI) and invocation formats. Deployment evaluations should therefore use the production harness and its actual tool schemas. Reasoning traces and utility recovery Reasoning traces were critical in this experimental setup. Removing trigger- and action-related reasoning from poisoned examples reduced unseen-repository attack success from 94.8% to 1.0% for the 4B model and from 84.1% to 0% for the 9B model. Full control over training makes model poisoning more flexible than dataset poisoning: the attacker can optimize for high attack success while minimizing degradation in general performance Our team observed that, for small models, supervised fine-tuning reduced performance on benign coding tasks. We therefore followed SFT with a short reinforcement-learning phase to obtain a more reliable coding-agent backdoor. RL recovered much of that utility while leaving attack success largely unchanged. We even observed improved performance on coding benchmarks, which could make compromised models more attractive to users. Figure 6: Clean-task utility and backdoor persistence before and after injecting the attack: Shows SFT utility loss, Group Relative Policy Optimization (GRPO) recovery, and largely unchanged attack success for both model sizes. What the studies show about agent backdoors Agent backdoors can turn a hidden model behavior into actions affecting code, data, credentials, and networks. Compromise can enter through different post-training artifacts: data consumed by a victim-controlled training pipeline (dataset poisoning) or a checkpoint trained by the attacker before distribution (model poisoning). Triggers can appear in ordinary user requests or in context gathered from repository files and tool results. Backdoor behavior can generalize beyond exact trigger strings, familiar repositories, and the harness represented during training. Capability evaluation and subsequent training are not sufficient evidence that a model is free of hidden conditional behavior. Mitigation and protection guidance Before training: Dataset governance and review Verify dataset integrity: Pin reviewed versions by cryptographic hash and investigate unexpected changes. Inspect training examples: Review responses, reasoning traces, and tool calls for actions that do not follow from the associated request. Before deployment: Model evaluation and containment Treat third-party checkpoints as untrusted dependencies and evaluate them in the agent configuration where they will run. Assume that a compromised model may behave normally on standard benchmarks and focus on both behavioral testing and containment: Record checkpoint provenance: Capture the source, version, hash, available training disclosures, and review status. Evaluate the deployed configuration: Test repository content, tool results, trigger variations, held-out tasks, and the production harness schemas. Reduce tool access: Remove unnecessary tools and scope credentials, file paths, APIs, and network access to the agent\u2019s task. Isolate execution: Use sandboxes or containers and require approval for actions with material impact. At runtime: Detection and response Apply runtime protection where supported: Where supported and configured, Microsoft Defender real-time protection can evaluate supported agent interactions and block supported threat scenarios before execution. Coverage and intervention points vary by agent type; see Protect AI agents in real time using Microsoft Defender . Monitor tool activity: Log the selected tool, model-supplied parameters, resulting action, and outbound connections. Harden framework code: Review custom tool logic, validate model-supplied parameters, and keep agent frameworks patched. Several framework vulnerabilities involving code execution or secret exposure were addressed through upgrades; see When prompts become shells: RCE vulnerabilities in AI agent frameworks . Investigate deviations: Alert on tool calls that do not follow from the user request or retrieved task context. Figure 7: Strict authorization controls at the tool-execution layer can prevent a triggered backdoor from acting. Securing agents beyond the model Agent backdoors convert model-integrity failures into system actions. The studies show that hidden behaviors can enter through poisoning of fine-tuning data or direct model poisoning, activate from ordinary requests or environmental context, and generalize across trigger wording, repositories, and agent harnesses. Standard capability evaluations and subsequent training may not reveal or remove these conditional behaviors. Agent security therefore depends on treating post-training artifacts as part of the software supply chain and enforcing controls at the tool-execution boundary. References Models as Insider Risks in the Super Intelligence Era | sn scratchpad Organization Confusion on Hugging Face | MITRE ATLAS Model Namespace Reuse: An AI Supply-Chain Attack Exploiting Model Name Trust | Palo Alto Networks When prompts become shells: RCE vulnerabilities in AI agent frameworks | Microsoft Threat Insights Blog Protect AI agents in real time using Microsoft Defender Learn More For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . Review our documentation to learn more about our real-time protection capabilities and see how to enable them within your organization. Learn more about securing Copilot Studio agents with Microsoft Defender Evaluate your AI readiness with our latest Zero Trust for AI workshop . Microsoft 365 Copilot AI security documentation How Microsoft discovers and mitigates evolving attacks against AI guardrails Prompt injection protection in Microsoft Defender for Office 365 \u2013 official documentation of the prompt injection protection in Microsoft Defender for Office 365. How Microsoft discovers and mitigates evolving attacks against AI guardrails | Microsoft Security Blog Manipulating AI memory for profit: The rise of AI Recommendation Poisoning | Microsoft Security Blog \u2013 a related example of an AI-era technique observed in email traffic Defending the inbox against prompt injection attacks | Microsoft Defender for Office 365 Blog \u2013 feature announcement introducing prompt injection protection in Microsoft Defender for Office 365. Learn how Microsoft is reimagining the SOC for the agentic era with ISOC in Microsoft Defender The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security Blog .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Microsoft Security",
-      "published": "2026-11-12T17:00:00+00:00"
-    },
-    {
-      "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
-      "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=189684",
-      "date": "Thu, 12 Nov 2026 15:00:31 +0000",
-      "detail": "Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-11-12T15:00:31+00:00"
-    },
-    {
       "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
       "url": "https://securelist.com/esxi-ransomware/121959/",
       "feed_id": "https://kasperskycontenthub.com/securelist/?p=121959",
@@ -80,59 +72,103 @@
       "published": "2026-11-13T09:00:43+00:00"
     },
     {
-      "title": "Check Point warns of zero-day flaw exploited for root access",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "date": "Fri, 13 Nov 2026 05:44:22 -0500",
-      "detail": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "feed_id": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "date": "Fri, 13 Nov 2026 14:38:36 -0500",
+      "detail": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-13T10:44:22+00:00"
+      "published": "2026-11-13T19:38:36+00:00"
     },
     {
-      "title": "Microsoft confirms Windows activation failures after November updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-      "date": "Fri, 13 Nov 2026 04:36:18 -0500",
-      "detail": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+      "title": "German military drone operations disrupted by cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "date": "Fri, 13 Nov 2026 12:31:56 -0500",
+      "detail": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-13T09:36:18+00:00"
+      "published": "2026-11-13T17:31:56+00:00"
     },
     {
-      "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
-      "date": "Fri, 13 Nov 2026 03:34:20 -0500",
-      "detail": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "date": "Fri, 13 Nov 2026 11:21:43 -0500",
+      "detail": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-13T08:34:20+00:00"
+      "published": "2026-11-13T16:21:43+00:00"
     },
     {
-      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-      "date": "Thu, 12 Nov 2026 17:53:10 -0500",
-      "detail": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+      "title": "How one AI agent exposed five critical enterprise security gaps",
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "date": "Fri, 13 Nov 2026 10:01:11 -0500",
+      "detail": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-12T22:53:10+00:00"
+      "published": "2026-11-13T15:01:11+00:00"
     },
     {
-      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-      "date": "Thu, 12 Nov 2026 17:25:30 -0500",
-      "detail": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "title": "Microsoft says November security updates cause printing issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "date": "Fri, 13 Nov 2026 07:27:40 -0500",
+      "detail": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-12T22:25:30+00:00"
+      "published": "2026-11-13T12:27:40+00:00"
+    },
+    {
+      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+      "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+      "feed_id": "https://www.securityweek.com/?p=50780",
+      "date": "Fri, 13 Nov 2026 15:20:00 +0000",
+      "detail": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-13T15:20:00+00:00"
+    },
+    {
+      "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+      "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+      "feed_id": "https://www.securityweek.com/?p=50778",
+      "date": "Fri, 13 Nov 2026 13:47:42 +0000",
+      "detail": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using \u201ca measured approach to identify and repair affected infrastructure.\u201d The post Microsoft Struggles to Restore Email and Other Services in a Global Outage appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-13T13:47:42+00:00"
+    },
+    {
+      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+      "feed_id": "https://www.securityweek.com/?p=50776",
+      "date": "Fri, 13 Nov 2026 12:41:01 +0000",
+      "detail": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-13T12:41:01+00:00"
+    },
+    {
+      "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+      "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+      "feed_id": "https://www.securityweek.com/?p=50773",
+      "date": "Fri, 13 Nov 2026 12:20:28 +0000",
+      "detail": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets. The post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-13T12:20:28+00:00"
     },
     {
       "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
@@ -146,78 +182,122 @@
       "published": "2026-11-13T10:48:40+00:00"
     },
     {
-      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-      "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-      "feed_id": "https://www.securityweek.com/?p=50764",
-      "date": "Fri, 13 Nov 2026 09:36:56 +0000",
-      "detail": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T09:36:56+00:00"
-    },
-    {
-      "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
-      "url": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
-      "feed_id": "https://www.securityweek.com/?p=50762",
-      "date": "Fri, 13 Nov 2026 09:21:01 +0000",
-      "detail": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches. The post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T09:21:01+00:00"
-    },
-    {
-      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
-      "feed_id": "https://www.securityweek.com/?p=50758",
-      "date": "Fri, 13 Nov 2026 08:50:36 +0000",
-      "detail": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019 appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T08:50:36+00:00"
-    },
-    {
-      "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-      "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-      "feed_id": "https://www.securityweek.com/?p=50756",
-      "date": "Fri, 13 Nov 2026 07:39:04 +0000",
-      "detail": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T07:39:04+00:00"
-    },
-    {
-      "title": "cey-tech.com By krybit",
-      "url": "https://www.ransomlook.io//group/krybit",
-      "feed_id": "d235ae9d4dceec732e39d58ee6ce894a4214fe8c3f27cef799df4baa25807071",
-      "date": "Fri, 13 Nov 2026 07:21:09 GMT",
-      "detail": "Ceytech Makina Sanayi ve Ticaret A.\u015e. is a Turkish manufacturer of industrial machinery and equipment, established on A... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #216 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "4119b54c1f66a285e6ceba9acb8c96c990dcc6fb34300a96e5c3eca33609f438",
+      "date": "Fri, 13 Nov 2026 19:26:27 GMT",
+      "detail": "prepaid utilities and airtime platform \u00b7 Botswana Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-13T07:21:09+00:00"
+      "published": "2026-11-13T19:26:27+00:00"
     },
     {
-      "title": "ci.everett.ma.us (Booba Project)",
-      "url": "https://cti.fyi/groups/Booba Project.html",
-      "feed_id": "bcbb70845f80254549bd41a0bb09472f",
-      "date": "Fri, 13 Nov 2026 11:05:18 +0000",
-      "detail": "Intelligence Summary: A municipal government portal for the city of Everett, Massachusetts. Threat Syndicate: Booba Project Claimed Victim: ci.everett.ma.us Canonical Organization: City of Everett, Massachusetts Target Domain: ci.everett.ma.us Industry Sector: Government & Public Sector Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-13 11:05:18.475830 Post URL: http://culappkcuogv2omb37253e236mvmsfzvl4yw3p3incyzeoixhc6ocxqd.onion/ci.everett.ma.us Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Company #213 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "2bde9cdfe569cf35ac959187f92a441c4e01e9d1cd16bb1f004ff294836dff12",
+      "date": "Fri, 13 Nov 2026 19:26:26 GMT",
+      "detail": "electrical contracting \u00b7 Qatar Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-13T19:26:26+00:00"
+    },
+    {
+      "title": "Company #212 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "162176318b24e99d8030621b1fb1371dea30ce2d446c6025a2d3c1271db8a7c8",
+      "date": "Fri, 13 Nov 2026 19:26:25 GMT",
+      "detail": "Education \u00b7 Ethiopia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-13T19:26:25+00:00"
+    },
+    {
+      "title": "Texas Truck Center By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "c5450d5d77fff613c6b94db00e1352bf6848357f974e1eb1f868cecaccb28c1f",
+      "date": "Fri, 13 Nov 2026 19:26:24 GMT",
+      "detail": "commercial truck dealership \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-13T19:26:24+00:00"
+    },
+    {
+      "title": "Native Touch Inc. By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "5cb0b05a47c4a2f2eeddcd9e963f565c29ed775ffb3296d2e6fa7cf7973a3b7a",
+      "date": "Fri, 13 Nov 2026 19:26:23 GMT",
+      "detail": "mobile advertising and audience data \u00b7 Canada Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-13T19:26:23+00:00"
+    },
+    {
+      "title": "Allegis Cloud (Helix)",
+      "url": "https://cti.fyi/groups/Helix.html",
+      "feed_id": "f421f9ee8f391fac7c6d45b3a3bc6f0a",
+      "date": "Fri, 13 Nov 2026 18:07:47 +0000",
+      "detail": "Intelligence Summary: A U.S.\u2011based human capital management company that delivers workforce management technology and recruitment services. Threat Syndicate: Helix Claimed Victim: Allegis Cloud Target Domain: allegiscloud.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-13 18:07:47.299630 Post URL: http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/leaks#allegis-cloud Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
       "source": "CTI.fyi",
-      "published": "2026-11-13T11:05:18+00:00"
+      "published": "2026-11-13T18:07:47+00:00"
+    },
+    {
+      "title": "CWCTravel (Helix)",
+      "url": "https://cti.fyi/groups/Helix.html",
+      "feed_id": "2d8772076399b6029a79644c2e7b1d43",
+      "date": "Fri, 13 Nov 2026 18:07:47 +0000",
+      "detail": "Intelligence Summary: CWCTravel is a travel booking company generating about $432.5 million in annual revenue. Threat Syndicate: Helix Claimed Victim: CWCTravel Industry Sector: Hospitality & Tourism Date Discovered: 2026-11-13 18:07:47.299630 Post URL: http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/leaks#cwctravel Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-13T18:07:47+00:00"
+    },
+    {
+      "title": "Mnfhs (Helix)",
+      "url": "https://cti.fyi/groups/Helix.html",
+      "feed_id": "a9fe25bb01a238db919547967094d0d8",
+      "date": "Fri, 13 Nov 2026 18:07:47 +0000",
+      "detail": "Intelligence Summary: A company with an annual revenue of approximately $8.8 billion. Threat Syndicate: Helix Claimed Victim: Mnfhs Date Discovered: 2026-11-13 18:07:47.299630 Post URL: http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/leaks#mnfhs Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-13T18:07:47+00:00"
+    },
+    {
+      "title": "Veritiv (Helix)",
+      "url": "https://cti.fyi/groups/Helix.html",
+      "feed_id": "a523b28fad57d70b7f0bced70a505c6f",
+      "date": "Fri, 13 Nov 2026 18:07:47 +0000",
+      "detail": "Intelligence Summary: Veritiv is a packaging and communications materials supplier headquartered in the United States with an annual revenue of approximately $7.1 billion. Threat Syndicate: Helix Claimed Victim: Veritiv Target Domain: veritiv.com Industry Sector: Manufacturing Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-13 18:07:47.299630 Post URL: http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/leaks#veritiv Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-13T18:07:47+00:00"
+    },
+    {
+      "title": "Walgreen Co. (Wallstreet)",
+      "url": "https://cti.fyi/groups/Wallstreet.html",
+      "feed_id": "844d566744f8881f918135a3bd44dba7",
+      "date": "Fri, 13 Nov 2026 18:07:06 +0000",
+      "detail": "Intelligence Summary: A U.S. community pharmacy and retail company operating Walgreens drugstores, offering prescriptions, pharmacy services, and everyday essentials. Threat Syndicate: Wallstreet Claimed Victim: Walgreen Co. Canonical Organization: Walgreens Target Domain: walgreens.com Industry Sector: Other Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-13 18:07:06.102396 Post URL: http://4dwiv37h7hhuhjpvtn72hme4ylcv3qoe65arfc6mbweal7als6ma7pyd.onion/#walgreen-co Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-13T18:07:06+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -230,22 +310,22 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -258,8 +338,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -286,7 +366,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 13,
+      "recent": 11,
       "shown": 5,
       "undated": 0
     },
@@ -300,15 +380,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 32,
+      "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 6,
+      "shown": 5,
       "undated": 0
     }
   ]
