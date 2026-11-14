@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-11-14 10:42 UTC
+CYBER DAILY — 2026-11-14 18:19 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-19 entries selected. Feed excerpts, not full-article or AI analysis.
+16 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-114713: UnrealIRCd Improper Neutralization of Delimiters Vulnerability
@@ -39,35 +39,35 @@ In this article ScreenConnect architecture and attack surfaces Attack chain over
 CVEs: CVE-2026-84869
 https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
 
+Cursor confirms security breach led to malicious Claude Code extension
+BleepingComputer | Research / advisory | 2026-11-14T17:27:25+00:00
+Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
+
+US disrupts North Korean campaign behind $400 million crypto theft
+BleepingComputer | Research / advisory | 2026-11-14T15:15:49+00:00
+The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/
+
 Trezor confirms crypto-stealing implants in three wallets, releases fix
 BleepingComputer | Research / advisory | 2026-11-13T19:38:36+00:00
 Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]
 CVEs: Not stated in feed
 https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/
 
-German military drone operations disrupted by cyberattack
-BleepingComputer | Research / advisory | 2026-11-13T17:31:56+00:00
-German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by "hostile actors." [...]
+Is AI Making Us Worse at Cybersecurity?
+SecurityWeek | Research / advisory | 2026-11-14T14:00:00+00:00
+Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
+https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/
 
-Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper
-BleepingComputer | Research / advisory | 2026-11-13T16:21:43+00:00
-Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]
+Apple Reveals How Secure Exclaves Shield Camera and Microphone Data
+SecurityWeek | Research / advisory | 2026-11-14T11:00:00+00:00
+The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/
-
-How one AI agent exposed five critical enterprise security gaps
-BleepingComputer | Research / advisory | 2026-11-13T15:01:11+00:00
-An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/
-
-Microsoft says November security updates cause printing issues
-BleepingComputer | Research / advisory | 2026-11-13T12:27:40+00:00
-Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]
-CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/
+https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/
 
 No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update
 SecurityWeek | Research / advisory | 2026-11-14T08:40:22+00:00
@@ -81,23 +81,11 @@ Federal officials have yet to say what caused the communications disruption or w
 CVEs: Not stated in feed
 https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/
 
-In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach
-SecurityWeek | Research / advisory | 2026-11-13T15:20:00+00:00
-Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .
+toyokiki-thailand.com By safepay
+RansomLook | Ransomware claim / observation | 2026-11-14T17:31:08+00:00
+Established in 2013 as a subsidiary of Toyokiki Industrial Co., Ltd. of Japan, the company specializes in manufacturing and processing … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/
-
-Microsoft Struggles to Restore Email and Other Services in a Global Outage
-SecurityWeek | Research / advisory | 2026-11-13T13:47:42+00:00
-Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.” The post Microsoft Struggles to Restore Email and Other Services in a Global Outage appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/
-
-Apify Confirms Customer Data Accessed in Cyberattack
-SecurityWeek | Research / advisory | 2026-11-13T12:41:01+00:00
-The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/
+https://www.ransomlook.io//group/safepay
 
 Galorath By akira
 RansomLook | Ransomware claim / observation | 2026-11-14T08:24:26+00:00
@@ -123,12 +111,6 @@ Freight & Logistics Services Ransomware group claim; not independently verified.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/qilin
 
-Oral Roberts University By qilin
-RansomLook | Ransomware claim / observation | 2026-11-14T04:27:05+00:00
-Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/qilin
-
 SOURCE COVERAGE
 CISA KEV: OK; recent=2; shown=2; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
@@ -140,7 +122,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=6; shown=5; undated excluded=0
-SecurityWeek: OK; recent=7; shown=5; undated excluded=0
-RansomLook: OK; recent=50; shown=5; undated excluded=0
+BleepingComputer: OK; recent=3; shown=3; undated excluded=0
+SecurityWeek: OK; recent=4; shown=4; undated excluded=0
+RansomLook: OK; recent=42; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0

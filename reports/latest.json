@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T10:42:00.913202+00:00",
+  "generated": "2026-11-14T18:19:37.129276+00:00",
   "hours": 24,
   "items": [
     {
@@ -61,6 +61,28 @@
       "published": "2026-11-13T21:31:44+00:00"
     },
     {
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "date": "Sat, 14 Nov 2026 12:27:25 -0500",
+      "detail": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T17:27:25+00:00"
+    },
+    {
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "date": "Sat, 14 Nov 2026 10:15:49 -0500",
+      "detail": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T15:15:49+00:00"
+    },
+    {
       "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
       "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
       "feed_id": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
@@ -72,48 +94,26 @@
       "published": "2026-11-13T19:38:36+00:00"
     },
     {
-      "title": "German military drone operations disrupted by cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-      "date": "Fri, 13 Nov 2026 12:31:56 -0500",
-      "detail": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "feed_id": "https://www.securityweek.com/?p=50800",
+      "date": "Sat, 14 Nov 2026 14:00:00 +0000",
+      "detail": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there\u2019s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-13T17:31:56+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-11-14T14:00:00+00:00"
     },
     {
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "date": "Fri, 13 Nov 2026 11:21:43 -0500",
-      "detail": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "feed_id": "https://www.securityweek.com/?p=50784",
+      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "detail": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-13T16:21:43+00:00"
-    },
-    {
-      "title": "How one AI agent exposed five critical enterprise security gaps",
-      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-      "date": "Fri, 13 Nov 2026 10:01:11 -0500",
-      "detail": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-13T15:01:11+00:00"
-    },
-    {
-      "title": "Microsoft says November security updates cause printing issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-      "date": "Fri, 13 Nov 2026 07:27:40 -0500",
-      "detail": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-13T12:27:40+00:00"
+      "source": "SecurityWeek",
+      "published": "2026-11-14T11:00:00+00:00"
     },
     {
       "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
@@ -138,37 +138,15 @@
       "published": "2026-11-13T21:33:27+00:00"
     },
     {
-      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-      "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-      "feed_id": "https://www.securityweek.com/?p=50780",
-      "date": "Fri, 13 Nov 2026 15:20:00 +0000",
-      "detail": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T15:20:00+00:00"
-    },
-    {
-      "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-      "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
-      "feed_id": "https://www.securityweek.com/?p=50778",
-      "date": "Fri, 13 Nov 2026 13:47:42 +0000",
-      "detail": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using \u201ca measured approach to identify and repair affected infrastructure.\u201d The post Microsoft Struggles to Restore Email and Other Services in a Global Outage appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T13:47:42+00:00"
-    },
-    {
-      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
-      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
-      "feed_id": "https://www.securityweek.com/?p=50776",
-      "date": "Fri, 13 Nov 2026 12:41:01 +0000",
-      "detail": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-13T12:41:01+00:00"
+      "title": "toyokiki-thailand.com By safepay",
+      "url": "https://www.ransomlook.io//group/safepay",
+      "feed_id": "f1304973f1a747830164b892f6a6f0667a13a91a9f7f9d7bfaa175c280f23ced",
+      "date": "Sat, 14 Nov 2026 17:31:08 GMT",
+      "detail": "Established in 2013 as a subsidiary of Toyokiki Industrial Co., Ltd. of Japan, the company specializes in manufacturing and processing \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-14T17:31:08+00:00"
     },
     {
       "title": "Galorath By akira",
@@ -213,17 +191,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-14T04:27:06+00:00"
-    },
-    {
-      "title": "Oral Roberts University By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "d521d1b073e8e7d81bb18430a64cc606e8846f3bb3e627fee5f6bdaeb31392b5",
-      "date": "Sat, 14 Nov 2026 04:27:05 GMT",
-      "detail": "Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-14T04:27:05+00:00"
     }
   ],
   "sources": [
@@ -300,21 +267,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 6,
-      "shown": 5,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 7,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 50,
+      "recent": 42,
       "shown": 5,
       "undated": 0
     },
