@@ -1,43 +1,7 @@
 {
-  "generated": "2026-11-14T22:37:47.040494+00:00",
+  "generated": "2026-11-15T06:51:22.588398+00:00",
   "hours": 24,
   "items": [
-    {
-      "title": "CVE-2026-114713: UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114713",
-      "date": "2026-11-13",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "UnrealIRCd",
-        "Producto": "UnrealIRCd",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-16",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-13T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-123039: Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123039",
-      "date": "2026-11-13",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Check Point",
-        "Producto": "Multiple Products",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-16",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-13T00:00:00+00:00"
-    },
     {
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -94,6 +58,39 @@
       "published": "2026-11-14T08:40:22+00:00"
     },
     {
+      "title": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "b624f8e0f50241a34de607fd2dd6a0cc215b1b13ead6c64e416e06277fa961cb",
+      "date": "Sun, 15 Nov 2026 03:23:52 GMT",
+      "detail": "ISP / endpoint-surveillance services \u00b7 Indonesia Full data leak: 2026-11-18 07:33 UTC This disclosure concerns a verified set of records from an organization in the ISP / endpoint-surveillance services sector. The material scheduled for publication comprises a set of business records, including personnel, financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T03:23:52+00:00"
+    },
+    {
+      "title": "pah.com.my By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "6516d00293ec7c6f8f335e2e427c34f8c246603e3ec8be397de69c3f397c73a8",
+      "date": "Sun, 15 Nov 2026 01:22:00 GMT",
+      "detail": "Penang Adventist Hospital (PAH), established in 1924 by American missionary Dr. J. Earl Gardner, is... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T01:22:00+00:00"
+    },
+    {
+      "title": "Promantra, Inc. By metaencryptor",
+      "url": "https://www.ransomlook.io//group/metaencryptor",
+      "feed_id": "e02c713eb029fc1b5d5119eab83c96d784aa8150cbf15a9b5c3f721684b4c061",
+      "date": "Sat, 14 Nov 2026 23:26:08 GMT",
+      "detail": "ProMantra, Inc. is a US-based healthcare IT and business process outsourcing (BPO) company founded in 2003 and headquartered in Somerset, New Jersey. The company specializes in Revenue Cycle Management (RCM), medical billing, medical coding, claims processing, and healthcare administrative services. It serves hospitals, physician groups, medical practices, and other healthcare organizations, primarily in the US, with operational delivery centers in India. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-14T23:26:08+00:00"
+    },
+    {
       "title": "Momentum Telecom By endzone",
       "url": "https://www.ransomlook.io//group/endzone",
       "feed_id": "cc6f08db52e678998591735e5251e7d58249e4191b2bf0dd1cd709c291056f0e",
@@ -114,69 +111,14 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-14T21:24:30+00:00"
-    },
-    {
-      "title": "Home Instead By anubis",
-      "url": "https://www.ransomlook.io//group/anubis",
-      "feed_id": "994b78836d123fdd90f128d6208b9f6283ecacd7003603370ba03dd03cb6588b",
-      "date": "Sat, 14 Nov 2026 20:21:20 GMT",
-      "detail": "Behind the home care standards. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-14T20:21:20+00:00"
-    },
-    {
-      "title": "toyokiki-thailand.com By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "f1304973f1a747830164b892f6a6f0667a13a91a9f7f9d7bfaa175c280f23ced",
-      "date": "Sat, 14 Nov 2026 17:31:08 GMT",
-      "detail": "Established in 2013 as a subsidiary of Toyokiki Industrial Co., Ltd. of Japan, the company specializes in manufacturing and processing \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-14T17:31:08+00:00"
-    },
-    {
-      "title": "Galorath By akira",
-      "url": "https://www.ransomlook.io//group/akira",
-      "feed_id": "16cfbbf0577989a70c30ceb52431210de7754fdf02a4c0575606495a67bb49d1",
-      "date": "Sat, 14 Nov 2026 08:24:26 GMT",
-      "detail": "Galorath Incorporated has invested more than two decades developing solutions to help government and commercial organizations plan and manage complex software, hardware, electronics, manufacturing and IT projects. Its suite of SEER productivity development applications is the most comprehensive estimation and management solution in the industry.We will upload 12gb of corporate data soon. Employee personal information (passport, DLs and other HR files), payment details, contracts and agreements with NASA, Airbus, Lockheed Martin, Boeing and others, financials, NDAs and so on. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-14T08:24:26+00:00"
-    },
-    {
-      "title": "Airport Appliance, Inc. (N0n)",
-      "url": "https://cti.fyi/groups/N0n.html",
-      "feed_id": "27f9ac4c29a3622141845f28c4ed4e5e",
-      "date": "Sat, 14 Nov 2026 21:06:20 +0000",
-      "detail": "Intelligence Summary: An appliance and electronics retailer in the United States. Threat Syndicate: N0n Claimed Victim: Airport Appliance, Inc. Industry Sector: Other Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-14 21:06:20.166056 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#airport-appliance-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-14T21:06:20+00:00"
-    },
-    {
-      "title": "Starbucks (N0n)",
-      "url": "https://cti.fyi/groups/N0n.html",
-      "feed_id": "1363aac391502b712c148adb99789b04",
-      "date": "Sat, 14 Nov 2026 21:06:20 +0000",
-      "detail": "Intelligence Summary: Starbucks Corporation is a global coffeehouse chain headquartered in the United States, operating thousands of storefronts across multiple countries. Threat Syndicate: N0n Claimed Victim: Starbucks Canonical Organization: Starbucks Corporation Target Domain: starbucks.com Industry Sector: Other Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Discovered: 2026-11-14 21:06:20.166056 Post URL: http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion/#starbucks Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-14T21:06:20+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -259,15 +201,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 16,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]

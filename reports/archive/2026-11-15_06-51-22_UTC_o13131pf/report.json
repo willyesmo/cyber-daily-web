@@ -1,0 +1,216 @@
+{
+  "generated": "2026-11-15T06:51:22.588398+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "date": "Sat, 14 Nov 2026 12:27:25 -0500",
+      "detail": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T17:27:25+00:00"
+    },
+    {
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "date": "Sat, 14 Nov 2026 10:15:49 -0500",
+      "detail": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T15:15:49+00:00"
+    },
+    {
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "feed_id": "https://www.securityweek.com/?p=50800",
+      "date": "Sat, 14 Nov 2026 14:00:00 +0000",
+      "detail": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there\u2019s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-14T14:00:00+00:00"
+    },
+    {
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "feed_id": "https://www.securityweek.com/?p=50784",
+      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "detail": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-14T11:00:00+00:00"
+    },
+    {
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+      "feed_id": "https://www.securityweek.com/?p=50794",
+      "date": "Sat, 14 Nov 2026 08:40:22 +0000",
+      "detail": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update. The post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-14T08:40:22+00:00"
+    },
+    {
+      "title": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "b624f8e0f50241a34de607fd2dd6a0cc215b1b13ead6c64e416e06277fa961cb",
+      "date": "Sun, 15 Nov 2026 03:23:52 GMT",
+      "detail": "ISP / endpoint-surveillance services \u00b7 Indonesia Full data leak: 2026-11-18 07:33 UTC This disclosure concerns a verified set of records from an organization in the ISP / endpoint-surveillance services sector. The material scheduled for publication comprises a set of business records, including personnel, financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T03:23:52+00:00"
+    },
+    {
+      "title": "pah.com.my By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "6516d00293ec7c6f8f335e2e427c34f8c246603e3ec8be397de69c3f397c73a8",
+      "date": "Sun, 15 Nov 2026 01:22:00 GMT",
+      "detail": "Penang Adventist Hospital (PAH), established in 1924 by American missionary Dr. J. Earl Gardner, is... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T01:22:00+00:00"
+    },
+    {
+      "title": "Promantra, Inc. By metaencryptor",
+      "url": "https://www.ransomlook.io//group/metaencryptor",
+      "feed_id": "e02c713eb029fc1b5d5119eab83c96d784aa8150cbf15a9b5c3f721684b4c061",
+      "date": "Sat, 14 Nov 2026 23:26:08 GMT",
+      "detail": "ProMantra, Inc. is a US-based healthcare IT and business process outsourcing (BPO) company founded in 2003 and headquartered in Somerset, New Jersey. The company specializes in Revenue Cycle Management (RCM), medical billing, medical coding, claims processing, and healthcare administrative services. It serves hospitals, physician groups, medical practices, and other healthcare organizations, primarily in the US, with operational delivery centers in India. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-14T23:26:08+00:00"
+    },
+    {
+      "title": "Momentum Telecom By endzone",
+      "url": "https://www.ransomlook.io//group/endzone",
+      "feed_id": "cc6f08db52e678998591735e5251e7d58249e4191b2bf0dd1cd709c291056f0e",
+      "date": "Sat, 14 Nov 2026 21:24:31 GMT",
+      "detail": "Momentum is a telecommunications company founded in 2001 that provides cloud-based communication solutions for businesses, specializing in cloud voice services, managed networks, SD-WAN solutions, and Microsoft Teams Phone integration. We gained access to a diagnostic and provisioning tool used by Momentum through a compromised Multi-Service Operator (MSO). Upon reconnaissance, we identified multiple critical vulnerabilities throughout the system. This tool controls internet and voice services for millions of users across global markets. We successfully accessed user data for every MSO, exposing personally identifiable information (PII) for over 7.5 million users. They didn't notice the prolonged access or the customer data dump for a while, but when we started deleting modems they noticed. They kept burning access and we gained it back, they'd burn it again. We have caused widespread outages (https://www.abc4.com/news/wasatch-front/eagle-mountain-internet-outage-cyberattack/). We now have had over 100,000 packages successfully deleted. That's 100,000+ people without internet service right now. Families, businesses, students all cut off from the digital world. This is the direct result of their negligence and failure to secure their systems. These services can be restored immediately with the click of a button on our tool but you must reach out. Click \"View Affected MSOs\" below to see the full list of compromised providers. Momentum management should contact us to discuss resolution. Affected MSOs can also contact us to have their users' data deleted from our database. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-14T21:24:31+00:00"
+    },
+    {
+      "title": "Absolute Bail Bonds By endzone",
+      "url": "https://www.ransomlook.io//group/endzone",
+      "feed_id": "56502e1988e3775d85b37ccf6f1f82241478f320f22cbbcfd41244b268acef31",
+      "date": "Sat, 14 Nov 2026 21:24:30 GMT",
+      "detail": "Absolute Bail Bonds is a surety bail bond agency that has provided 24/7 pretrial release services across California since 1987. Founded in Lancaster and headquartered in Los Angeles, the company operates statewide through a network of local branch offices and licensed bail agents. We successfully exfiltrated 5GB of Database Files and Source Code plus 3.5TB encrypted on the DC including backups. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-14T21:24:30+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}
