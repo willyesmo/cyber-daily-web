@@ -1,0 +1,205 @@
+{
+  "generated": "2026-11-15T16:28:13.169866+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "date": "Sun, 15 Nov 2026 10:23:48 -0500",
+      "detail": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-15T15:23:48+00:00"
+    },
+    {
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "date": "Sat, 14 Nov 2026 12:27:25 -0500",
+      "detail": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-14T17:27:25+00:00"
+    },
+    {
+      "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "feed_id": "https://www.securityweek.com/?p=50806",
+      "date": "Sun, 15 Nov 2026 12:51:33 +0000",
+      "detail": "The move follows President Trump\u2019s order to replace \u201cartificial intelligence\u201d with \u201csuper intelligence\u201d in executive branch communications. The post Pentagon Renames CDAO \u2018Super Intelligence Office\u2019 appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-15T12:51:33+00:00"
+    },
+    {
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "feed_id": "https://www.securityweek.com/?p=50804",
+      "date": "Sat, 14 Nov 2026 19:00:00 +0000",
+      "detail": "The directive protects smartphones as part of a person\u2019s private sphere and requires \u201cfree and informed consent\u201d for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-14T19:00:00+00:00"
+    },
+    {
+      "title": "Sarimelati Kencana Tbk PT By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "7c01a11df8c9adfeadc891585fccb4d14e857632cbdd241d782d91bf3495eea0",
+      "date": "Sun, 15 Nov 2026 16:27:09 GMT",
+      "detail": "PT Sarimelati Kencana Tbk is a subsidiary of PT Sriboga Raturaya and serves as the franchisee for YUM! International, holding the Pizza Hut brand for Indonesia. The company operates Pizza Hut restaurants and delivery services, catering to a wide range of customers seeking dining and takeaway options. Additionally, PT Sarimelati Kencana Tbk is involved in corporate social responsibility initiatives, contributing to humanitarian efforts in the community. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T16:27:09+00:00"
+    },
+    {
+      "title": "Kayaku Safety Systems Malaysia Sdn Bhd By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "b8a15aa741421f65f467acf8845d0d70c176251fdc2f4c580ed96e5f6e63d9a5",
+      "date": "Sun, 15 Nov 2026 08:24:00 GMT",
+      "detail": "Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T08:24:00+00:00"
+    },
+    {
+      "title": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "b624f8e0f50241a34de607fd2dd6a0cc215b1b13ead6c64e416e06277fa961cb",
+      "date": "Sun, 15 Nov 2026 03:23:52 GMT",
+      "detail": "ISP / endpoint-surveillance services \u00b7 Indonesia Full data leak: 2026-11-18 07:33 UTC This disclosure concerns a verified set of records from an organization in the ISP / endpoint-surveillance services sector. The material scheduled for publication comprises a set of business records, including personnel, financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T03:23:52+00:00"
+    },
+    {
+      "title": "pah.com.my By lockbit5",
+      "url": "https://www.ransomlook.io//group/lockbit5",
+      "feed_id": "6516d00293ec7c6f8f335e2e427c34f8c246603e3ec8be397de69c3f397c73a8",
+      "date": "Sun, 15 Nov 2026 01:22:00 GMT",
+      "detail": "Penang Adventist Hospital (PAH), established in 1924 by American missionary Dr. J. Earl Gardner, is... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T01:22:00+00:00"
+    },
+    {
+      "title": "Promantra, Inc. By metaencryptor",
+      "url": "https://www.ransomlook.io//group/metaencryptor",
+      "feed_id": "e02c713eb029fc1b5d5119eab83c96d784aa8150cbf15a9b5c3f721684b4c061",
+      "date": "Sat, 14 Nov 2026 23:26:08 GMT",
+      "detail": "ProMantra, Inc. is a US-based healthcare IT and business process outsourcing (BPO) company founded in 2003 and headquartered in Somerset, New Jersey. The company specializes in Revenue Cycle Management (RCM), medical billing, medical coding, claims processing, and healthcare administrative services. It serves hospitals, physician groups, medical practices, and other healthcare organizations, primarily in the US, with operational delivery centers in India. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-14T23:26:08+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

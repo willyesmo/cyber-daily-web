@@ -1,0 +1,74 @@
+CYBER DAILY — 2026-11-15 16:28 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+9 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+TSMC employee data breach linked to cloud provider
+BleepingComputer | Research / advisory | 2026-11-15T15:23:48+00:00
+Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
+
+Cursor confirms security breach led to malicious Claude Code extension
+BleepingComputer | Research / advisory | 2026-11-14T17:27:25+00:00
+Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
+
+Pentagon Renames CDAO ‘Super Intelligence Office’
+SecurityWeek | Research / advisory | 2026-11-15T12:51:33+00:00
+The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/
+
+Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook
+SecurityWeek | Research / advisory | 2026-11-14T19:00:00+00:00
+The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/
+
+Sarimelati Kencana Tbk PT By inc ransom
+RansomLook | Ransomware claim / observation | 2026-11-15T16:27:09+00:00
+PT Sarimelati Kencana Tbk is a subsidiary of PT Sriboga Raturaya and serves as the franchisee for YUM! International, holding the Pizza Hut brand for Indonesia. The company operates Pizza Hut restaurants and delivery services, catering to a wide range of customers seeking dining and takeaway options. Additionally, PT Sarimelati Kencana Tbk is involved in corporate social responsibility initiatives, contributing to humanitarian efforts in the community. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/inc%20ransom
+
+Kayaku Safety Systems Malaysia Sdn Bhd By qilin
+RansomLook | Ransomware claim / observation | 2026-11-15T08:24:00+00:00
+Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id) By pixelleaks
+RansomLook | Ransomware claim / observation | 2026-11-15T03:23:52+00:00
+ISP / endpoint-surveillance services · Indonesia Full data leak: 2026-11-18 07:33 UTC This disclosure concerns a verified set of records from an organization in the ISP / endpoint-surveillance services sector. The material scheduled for publication comprises a set of business records, including personnel, financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/pixelleaks
+
+pah.com.my By lockbit5
+RansomLook | Ransomware claim / observation | 2026-11-15T01:22:00+00:00
+Penang Adventist Hospital (PAH), established in 1924 by American missionary Dr. J. Earl Gardner, is... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/lockbit5
+
+Promantra, Inc. By metaencryptor
+RansomLook | Ransomware claim / observation | 2026-11-14T23:26:08+00:00
+ProMantra, Inc. is a US-based healthcare IT and business process outsourcing (BPO) company founded in 2003 and headquartered in Somerset, New Jersey. The company specializes in Revenue Cycle Management (RCM), medical billing, medical coding, claims processing, and healthcare administrative services. It serves hospitals, physician groups, medical practices, and other healthcare organizations, primarily in the US, with operational delivery centers in India. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/metaencryptor
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=2; shown=2; undated excluded=0
+SecurityWeek: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=9; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

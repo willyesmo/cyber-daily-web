@@ -1,7 +1,18 @@
 {
-  "generated": "2026-11-15T06:51:22.588398+00:00",
+  "generated": "2026-11-15T16:28:13.169866+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "date": "Sun, 15 Nov 2026 10:23:48 -0500",
+      "detail": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-15T15:23:48+00:00"
+    },
     {
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -14,48 +25,48 @@
       "published": "2026-11-14T17:27:25+00:00"
     },
     {
-      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
-      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-      "date": "Sat, 14 Nov 2026 10:15:49 -0500",
-      "detail": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-14T15:15:49+00:00"
-    },
-    {
-      "title": "Is AI Making Us Worse at Cybersecurity?",
-      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
-      "feed_id": "https://www.securityweek.com/?p=50800",
-      "date": "Sat, 14 Nov 2026 14:00:00 +0000",
-      "detail": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there\u2019s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek .",
+      "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "feed_id": "https://www.securityweek.com/?p=50806",
+      "date": "Sun, 15 Nov 2026 12:51:33 +0000",
+      "detail": "The move follows President Trump\u2019s order to replace \u201cartificial intelligence\u201d with \u201csuper intelligence\u201d in executive branch communications. The post Pentagon Renames CDAO \u2018Super Intelligence Office\u2019 appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-14T14:00:00+00:00"
+      "published": "2026-11-15T12:51:33+00:00"
     },
     {
-      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
-      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
-      "feed_id": "https://www.securityweek.com/?p=50784",
-      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
-      "detail": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "feed_id": "https://www.securityweek.com/?p=50804",
+      "date": "Sat, 14 Nov 2026 19:00:00 +0000",
+      "detail": "The directive protects smartphones as part of a person\u2019s private sphere and requires \u201cfree and informed consent\u201d for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-14T11:00:00+00:00"
+      "published": "2026-11-14T19:00:00+00:00"
     },
     {
-      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
-      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
-      "feed_id": "https://www.securityweek.com/?p=50794",
-      "date": "Sat, 14 Nov 2026 08:40:22 +0000",
-      "detail": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update. The post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-14T08:40:22+00:00"
+      "title": "Sarimelati Kencana Tbk PT By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "7c01a11df8c9adfeadc891585fccb4d14e857632cbdd241d782d91bf3495eea0",
+      "date": "Sun, 15 Nov 2026 16:27:09 GMT",
+      "detail": "PT Sarimelati Kencana Tbk is a subsidiary of PT Sriboga Raturaya and serves as the franchisee for YUM! International, holding the Pizza Hut brand for Indonesia. The company operates Pizza Hut restaurants and delivery services, catering to a wide range of customers seeking dining and takeaway options. Additionally, PT Sarimelati Kencana Tbk is involved in corporate social responsibility initiatives, contributing to humanitarian efforts in the community. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T16:27:09+00:00"
+    },
+    {
+      "title": "Kayaku Safety Systems Malaysia Sdn Bhd By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "b8a15aa741421f65f467acf8845d0d70c176251fdc2f4c580ed96e5f6e63d9a5",
+      "date": "Sun, 15 Nov 2026 08:24:00 GMT",
+      "detail": "Automotive Parts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T08:24:00+00:00"
     },
     {
       "title": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id) By pixelleaks",
@@ -89,28 +100,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-14T23:26:08+00:00"
-    },
-    {
-      "title": "Momentum Telecom By endzone",
-      "url": "https://www.ransomlook.io//group/endzone",
-      "feed_id": "cc6f08db52e678998591735e5251e7d58249e4191b2bf0dd1cd709c291056f0e",
-      "date": "Sat, 14 Nov 2026 21:24:31 GMT",
-      "detail": "Momentum is a telecommunications company founded in 2001 that provides cloud-based communication solutions for businesses, specializing in cloud voice services, managed networks, SD-WAN solutions, and Microsoft Teams Phone integration. We gained access to a diagnostic and provisioning tool used by Momentum through a compromised Multi-Service Operator (MSO). Upon reconnaissance, we identified multiple critical vulnerabilities throughout the system. This tool controls internet and voice services for millions of users across global markets. We successfully accessed user data for every MSO, exposing personally identifiable information (PII) for over 7.5 million users. They didn't notice the prolonged access or the customer data dump for a while, but when we started deleting modems they noticed. They kept burning access and we gained it back, they'd burn it again. We have caused widespread outages (https://www.abc4.com/news/wasatch-front/eagle-mountain-internet-outage-cyberattack/). We now have had over 100,000 packages successfully deleted. That's 100,000+ people without internet service right now. Families, businesses, students all cut off from the digital world. This is the direct result of their negligence and failure to secure their systems. These services can be restored immediately with the click of a button on our tool but you must reach out. Click \"View Affected MSOs\" below to see the full list of compromised providers. Momentum management should contact us to discuss resolution. Affected MSOs can also contact us to have their users' data deleted from our database. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-14T21:24:31+00:00"
-    },
-    {
-      "title": "Absolute Bail Bonds By endzone",
-      "url": "https://www.ransomlook.io//group/endzone",
-      "feed_id": "56502e1988e3775d85b37ccf6f1f82241478f320f22cbbcfd41244b268acef31",
-      "date": "Sat, 14 Nov 2026 21:24:30 GMT",
-      "detail": "Absolute Bail Bonds is a surety bail bond agency that has provided 24/7 pretrial release services across California since 1987. Founded in Lancaster and headquartered in Los Angeles, the company operates statewide through a network of local branch offices and licensed bail agents. We successfully exfiltrated 5GB of Database Files and Source Code plus 3.5TB encrypted on the DC including backups. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-14T21:24:30+00:00"
     }
   ],
   "sources": [
@@ -194,8 +183,8 @@
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
