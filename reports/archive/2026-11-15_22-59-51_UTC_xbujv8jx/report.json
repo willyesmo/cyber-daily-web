@@ -1,0 +1,238 @@
+{
+  "generated": "2026-11-15T22:59:51.558295+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33496",
+      "feed_id": "https://isc.sans.edu/diary/rss/33496",
+      "date": "Sun, 15 Nov 2026 18:17:27 GMT",
+      "detail": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-15T18:17:27+00:00"
+    },
+    {
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "date": "Sun, 15 Nov 2026 13:29:53 -0500",
+      "detail": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-15T18:29:53+00:00"
+    },
+    {
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "date": "Sun, 15 Nov 2026 10:23:48 -0500",
+      "detail": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-15T15:23:48+00:00"
+    },
+    {
+      "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "feed_id": "https://www.securityweek.com/?p=50806",
+      "date": "Sun, 15 Nov 2026 12:51:33 +0000",
+      "detail": "The move follows President Trump\u2019s order to replace \u201cartificial intelligence\u201d with \u201csuper intelligence\u201d in executive branch communications. The post Pentagon Renames CDAO \u2018Super Intelligence Office\u2019 appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-15T12:51:33+00:00"
+    },
+    {
+      "title": "Oregon Linen By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "c02ddf93066ac078fdf1bd53f8cc505a9ad3bddd0099dd479cad43074e0b75ac",
+      "date": "Sun, 15 Nov 2026 22:25:25 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T22:25:25+00:00"
+    },
+    {
+      "title": "Cole Manufacturing By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "52da6df7d2c7b17f3f5f3e5e7e05554aea8e1fca2ec0c82fc28264518e307abf",
+      "date": "Sun, 15 Nov 2026 22:25:24 GMT",
+      "detail": "Industrial Machinery & Equipment Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T22:25:24+00:00"
+    },
+    {
+      "title": "Kessler Soils Engineering Products By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "affa6de78f6a8a59678133008100b1689b7a696e6a0ebe52604cb30f9d7d7c7c",
+      "date": "Sun, 15 Nov 2026 22:25:23 GMT",
+      "detail": "Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T22:25:23+00:00"
+    },
+    {
+      "title": "The Heartland Construction Group By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "34b396e3c3083b3d734a81076308ff4652ada9aef03e34c0134490001c60b9df",
+      "date": "Sun, 15 Nov 2026 22:25:22 GMT",
+      "detail": "Construction Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T22:25:22+00:00"
+    },
+    {
+      "title": "Atlas Evaluation & Inspection Services By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "6f37bd608001cc2d7a96efe92bce05ce6e5c49676b53c056556273a41eead2b0",
+      "date": "Sun, 15 Nov 2026 22:25:21 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-15T22:25:21+00:00"
+    },
+    {
+      "title": "AI/IT infrastructure \u00b7 Sweden (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "0241f5430ca44af7818933a3287e6dcf",
+      "date": "Sun, 15 Nov 2026 22:09:09 +0000",
+      "detail": "Intelligence Summary: A Swedish AI and IT infrastructure provider serving enterprise clients. Threat Syndicate: PixelLeaks Claimed Victim: AI/IT infrastructure \u00b7 Sweden Canonical Organization: AI/IT infrastructure Industry Sector: Technology Geographic Location: \ud83c\uddf8\ud83c\uddea SE Date Discovered: 2026-11-15 22:09:09.681623 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#ai-it-infrastructure-sweden Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-15T22:09:09+00:00"
+    },
+    {
+      "title": "Logistics SME \u00b7 Poland (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "a0336a01db18545f1f9c545a5a395f77",
+      "date": "Sun, 15 Nov 2026 22:09:09 +0000",
+      "detail": "Intelligence Summary: A Polish logistics SME. Threat Syndicate: PixelLeaks Claimed Victim: Logistics SME \u00b7 Poland Canonical Organization: Logistics SME Industry Sector: Other Geographic Location: \ud83c\uddf5\ud83c\uddf1 PL Date Discovered: 2026-11-15 22:09:09.681623 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#logistics-sme-poland Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-15T22:09:09+00:00"
+    },
+    {
+      "title": "Oracle ERP vendor (Saudi client hosting) \u00b7 Egypt (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "022cda8414556f7be7198f9056c331df",
+      "date": "Sun, 15 Nov 2026 22:09:09 +0000",
+      "detail": "Intelligence Summary: An Oracle ERP vendor based in Egypt that hosts services for a Saudi client. Threat Syndicate: PixelLeaks Claimed Victim: Oracle ERP vendor (Saudi client hosting) \u00b7 Egypt Canonical Organization: Oracle ERP vendor (Saudi client hosting) Industry Sector: Technology Geographic Location: \ud83c\uddea\ud83c\uddec EG Date Discovered: 2026-11-15 22:09:09.681623 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#oracle-erp-vendor-saudi-client-hosting-egypt Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-15T22:09:09+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 21,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    }
+  ]
+}
