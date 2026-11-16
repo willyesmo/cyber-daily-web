@@ -1,0 +1,80 @@
+CYBER DAILY — 2026-11-16 06:50 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+10 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)
+SANS Internet Storm Center | Research / advisory | 2026-11-16T02:00:05+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33520
+
+YARA-X 1.23.0 Release, (Sun, Nov 15th)
+SANS Internet Storm Center | Research / advisory | 2026-11-15T18:17:27+00:00
+YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33496
+
+FBI warns ARTEX AI hacking tool is powering global cyberattacks
+BleepingComputer | Research / advisory | 2026-11-15T18:29:53+00:00
+The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/
+
+TSMC employee data breach linked to cloud provider
+BleepingComputer | Research / advisory | 2026-11-15T15:23:48+00:00
+Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
+
+Pentagon Renames CDAO ‘Super Intelligence Office’
+SecurityWeek | Research / advisory | 2026-11-15T12:51:33+00:00
+The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/
+
+KOCH By vortex
+RansomLook | Ransomware claim / observation | 2026-11-16T05:21:30+00:00
+Deadline: 2026-11-19 03:55:16 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+CARRINGTON By vortex
+RansomLook | Ransomware claim / observation | 2026-11-16T05:21:29+00:00
+Deadline: 2026-11-19 03:55:16 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+Oregon Linen By qilin
+RansomLook | Ransomware claim / observation | 2026-11-15T22:25:25+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Cole Manufacturing By qilin
+RansomLook | Ransomware claim / observation | 2026-11-15T22:25:24+00:00
+Industrial Machinery & Equipment Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+Kessler Soils Engineering Products By qilin
+RansomLook | Ransomware claim / observation | 2026-11-15T22:25:23+00:00
+Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=2; shown=2; undated excluded=0
+SecurityWeek: OK; recent=1; shown=1; undated excluded=0
+RansomLook: OK; recent=20; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
