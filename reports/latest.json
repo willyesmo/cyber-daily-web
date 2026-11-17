@@ -1,7 +1,18 @@
 {
-  "generated": "2026-11-16T19:43:02.095006+00:00",
+  "generated": "2026-11-17T04:00:05.807715+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33524",
+      "feed_id": "https://isc.sans.edu/diary/rss/33524",
+      "date": "Tue, 17 Nov 2026 02:05:15 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-17T02:05:15+00:00"
+    },
     {
       "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
       "url": "https://isc.sans.edu/diary/rss/33522",
@@ -14,15 +25,15 @@
       "published": "2026-11-16T13:11:04+00:00"
     },
     {
-      "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33520",
-      "feed_id": "https://isc.sans.edu/diary/rss/33520",
-      "date": "Mon, 16 Nov 2026 02:00:05 GMT",
-      "detail": "",
+      "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+      "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=151048",
+      "date": "Tue, 17 Nov 2026 00:08:41 +0000",
+      "detail": "In this article Phishing attack overview Attack chain overview Mitigation and protection guidance References Learn More On November 13, 2026, Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign targeting organizations across multiple sectors worldwide. The threat actors used phishing emails disguised as legitimate Microsoft 365 service-health notifications to lure recipients into clicking a malicious link. The messages created a false sense of urgency by claiming that emails had been held during a service disruption and would be deleted within 24 hours unless the recipient took action to restore them. This is consistent with historical attacker campaigns which continuously look for notable global events to exploit in their social engineering lures. Microsoft identified the threat actor\u2019s use of specific sender domain names, randomized outage subjects, recipient-specific tracking links, and a common non-Microsoft destination to make the messages appear relevant while complicating simple pattern matching. We assess that the activity was likely credential phishing; however, the available evidence does not confirm credential capture, malware delivery, or post-compromise activity. Multiple threat actors may continue to look for ways to exploit notable global events in any social engineering pretext. If credentials were entered, organizations should consider the risk of account compromise, mailbox access, business email compromise, internal phishing, inbox-rule manipulation, and access to cloud collaboration data. Microsoft Defender blocks malicious domains used in this campaign, and Microsoft Defender for Office 365 blocks and quarantines phishing emails. We will continue to monitor this campaign and other related threats. Security teams can use Microsoft Defender for Office 365 and Microsoft Defender XDR capabilities to investigate messages, URLs, clicks, and potential follow-on activity. Phishing attack overview Microsoft analyzed the email lures sent on November 13, 2026: the emails used the subject pattern \u201cOutage \u2013 <random token>\u201d and display names built from a three-character, organization-style prefix followed by \u201cOutage Notification\u201d or \u201cService Health.\u201d Example subject line: Outage \u2013 aF7vG6 Example display names: MSF Outage Notification AMZ Service Health One example email body referenced a purported Exchange Online incident on November 12 and claimed that four messages were held after the outage. The urgency of a 24-hour deletion deadline and the prominent \u201cRESTORE MESSAGES\u201d call to action were intended to drive immediate interaction. The activity used distinct sender domains, including: moments-notice[.]com, planetmaison[.]com and newbooker[.]com. The messages also used email-delivery and link-tracking infrastructure to generate recipient-specific URLs. In multiple samples, click-tracking links led to reallifeaccounting[.]com or reallifeaccounting[.]com/themelist0.html. The sample set was link-based: no QR codes or non-EML attachments were observed, and Microsoft did not identify evidence of executable, archive, document, or other malware payload delivery. The off-brand destination and Microsoft 365 impersonation support an assessment of likely credential phishing, but the available evidence did not include the final page source, credential fields, credential-submission telemetry, or post-compromise activity. Microsoft therefore has not attributed the campaign to a named threat actor or malware family. Figure 1. Sample of one of the Microsoft 365 outage-themed phishing lures. Attack chain overview Figure 2. Observed attack chain for the Microsoft 365 outage-themed phishing campaign. Delivery: A user receives an email from the moments-notice[.]com, planetmaison[.]com or newbooker[.]com sender-domain cluster. The subject contains \u201cOutage -\u201d followed by a randomized string of character tokens. The body of the message includes a fake email conversation positioned to be hidden from the recipient and appears to be an attempt at mail filtering evasion. Impersonation: The message poses as a Microsoft 365 service-health notification, uses a target-specific display-name prefix, and references Exchange Online, Outlook, Teams, SharePoint, and Copilot. Social engineering: The lure claims that messages were held during an outage and will be deleted within 24 hours, creating urgency and fear of lost business email. User interaction: The recipient selects \u201cRESTORE MESSAGES\u201d or \u201cTAKE ACTION\u201d. A recipient-specific tracking URL records or routes the click. Redirect: The observed link chain leads to reallifeaccounting[.]com, including the path /themelist0.html in some samples. Assessed threat actor objectives: Microsoft assesses that the activity was likely intended to capture credentials. Credential submission and subsequent account compromise were not directly observed in the supplied evidence. Mitigation and protection guidance Immediate actions Messages in environments protected by Microsoft Defender for Office are currently blocked/quarantined, and we have not observed any indicators of compromise from this attack. However, organizations can consider taking the following steps: Search for and remove phishing messages. Search mail telemetry for the observed sender domains, display-name and subject patterns, lure phrases, tracking hosts, and destination domain. Quarantine matching messages and remove delivered copies in accordance with organizational response procedures. Identify users who clicked campaign links. Identify users who selected campaign links. Review click telemetry, proxy logs, and browser or endpoint evidence to determine whether the destination was reached and whether credentials may have been entered. Reset credentials and investigate potentially compromised accounts For any user who may have entered credentials, reset the password, revoke active sessions and refresh tokens, and verify multifactor authentication registrations. Review the account for suspicious sign-ins, OAuth consent, new inbox or forwarding rules, delegate permissions, and unusual access to Exchange Online, SharePoint, OneDrive, or Teams. Block or closely monitor campaign infrastructure. Block or closely scrutinize reallifeaccounting[.]com and the observed /themelist0.html path while the activity is investigated. Avoid broadly blocking shared email-delivery infrastructure based only on this campaign; combine sender, content, URL, and behavioral signals to reduce collateral impact. Remind users how to verify legitimate service-health communications. Remind users that legitimate Microsoft 365 service-health communications do not direct them to non-Microsoft domains to recover held mail. Validate service issues through the Microsoft 365 admin center rather than through unsolicited email links. Ongoing hardening Require multifactor authentication and prioritize phishing-resistant methods, such as passkeys or security keys, where possible. Review and enable Safe Links and Safe Attachments policies in Microsoft Defender for Office 365. Enable Zero-hour auto purge (ZAP) to help retroactively neutralize phishing, spam, or malware messages that were delivered before new threat intelligence became available. Use Attack simulation training and ongoing awareness guidance to help users recognize outage-themed urgency, sender-domain mismatches, and requests to restore or release messages. Encourage users to report suspicious messages through the organization\u2019s established Outlook reporting workflow so security teams and Microsoft can investigate quickly. Microsoft Security Copilot Security Copilot customers can use the standalone experience to create their own prompts or run the following prebuilt promptbooks to automate incident response or investigation tasks related to this threat: Incident investigation: Summarize related alerts and incidents and identify the affected users and devices. Microsoft User analysis: Review the activity of users who selected the campaign links. This includes sign-ins, MFA-method changes, inbox or forwarding rules, and OAuth grants. Note that some promptbooks require access to plugins for Microsoft products such as Microsoft Defender XDR or Microsoft Sentinel. Microsoft Defender XDR Threat analytics High volume phishing campaign uses Microsoft 365 Outage lures to target multiple industry sectors. Advanced hunting queries These sample queries search for campaign characteristics in Microsoft Defender XDR. Review the results in the context of your environment and adjust the indicators only after validation. The queries do not set a time range; use the advanced hunting time selector for the period you want to investigate. Find messages by sender domain or subject pattern This query searches for the observed sender-domain clusters and the randomized outage subject pattern. let campaignDomains = dynamic([ \"moments-notice.com\", \"em4493.moments-notice.com\", \"newbooker.com\", \"em.newbooker.com\" ]); EmailEvents | where SenderFromDomain in~ (campaignDomains) or Subject matches regex @\"(?i)^(?:\\[external\\]\\s*|\\*external\\*\\s*)?outage\\s*-\\s*[a-z0-9]{6}$\" | project Timestamp, NetworkMessageId, RecipientEmailAddress, SenderFromAddress, SenderFromDomain, SenderDisplayName, Subject, DeliveryAction, DeliveryLocation | order by Timestamp desc Find messages containing campaign URLs This query identifies message URLs that contain the observed destination, click-tracking hosts, or tracking-pixel pattern, and joins the results to message metadata. let campaignUrlParts = dynamic([ \"reallifeaccounting.com\", \"u113727626.ct.sendgrid.net/ls/click\", \"url.newbooker.com/ls/click\", \"162.120.17.69:8080/t/v3.\" ]); EmailUrlInfo | where Url has_any (campaignUrlParts) | project NetworkMessageId, Url, UrlDomain, UrlLocation | join kind=inner ( EmailEvents | project Timestamp, NetworkMessageId, RecipientEmailAddress, SenderFromAddress, SenderFromDomain, SenderDisplayName, Subject, DeliveryAction, DeliveryLocation ) on NetworkMessageId | project Timestamp, RecipientEmailAddress, SenderFromAddress, SenderFromDomain, SenderDisplayName, Subject, Url, UrlDomain, UrlLocation, DeliveryAction, DeliveryLocation, NetworkMessageId | order by Timestamp desc Investigate user clicks on campaign URLs This query searches click telemetry for the observed destination and tracking patterns so investigators can identify affected users and determine whether clicks were allowed. let campaignUrlParts = dynamic([ \"reallifeaccounting.com\", \"u113727626.ct.sendgrid.net/ls/click\", \"url.newbooker.com/ls/click\", \"162.120.17.69:8080/t/v3.\" ]); UrlClickEvents | where Url has_any (campaignUrlParts) | project Timestamp, AccountUpn, Url, ActionType, Workload, NetworkMessageId, IPAddress, IsClickedThrough, UrlChain | order by Timestamp desc For users who interacted with campaign links, also investigate: Unusual sign-ins New devices or user agents MFA-method changes OAuth grants Inbox or forwarding rules Delegate permissions Unusual access to mailbox or collaboration data These behaviors were not observed in the source messages, they are post-click investigation targets for suspected Microsoft 365 credential phishing. MITRE ATT&CK Techniques observed The activity exhibited the following techniques. Microsoft did not map credential capture, malware execution, command and control, or data exfiltration because the available evidence did not directly demonstrate those actions. Initial Access T1566.002 Phishing: Spearphishing Link | Messages contained a \u201cRESTORE MESSAGES\u201d link that used tracked redirect URLs and led to a non-Microsoft destination. Defense Evasion T1036 Masquerading | Messages impersonated Microsoft 365 service-health communications and used Microsoft product names and copyright language. Execution T1204.001 User Execution: Malicious Link | Recipients were urged to select a link within 24 hours to prevent the alleged deletion of held messages. Indicators of Compromise (IOCs) The following defanged indicators were observed in the campaign and should be validated in the context of each environment before blocking. Shared service-provider infrastructure can generate false positives when used without the accompanying sender, content, and behavioral signals. Indicator Type Context moments-notice[.]com Domain Observed sender-domain cluster. planetmaison[.]com Domain Observed sender-domain cluster. em4493[.]moments-notice[.]com Domain Observed mail-from or bounce subdomain. newbooker[.]com Domain Observed sender-domain cluster. em[.]newbooker[.]com Domain Observed mail-from or bounce subdomain. url[.]newbooker[.]com Domain Observed click/open tracking host. url7489[.]newbooker[.]com Domain Observed click/open tracking host. u113727626[.]ct[.]sendgrid[.]net Domain Observed click/open tracking host; assess with campaign context because the parent service can be shared. u118254266[.]ct[.]sendgrid[.]net Domain Observed click/open tracking host; assess with campaign context because the parent service can be shared. u118250677[.]ct[.]sendgrid[.]net Domain Observed click/open tracking host; assess with campaign context because the parent service can be shared. reallifeaccounting[.]com Domain Principal downstream destination observed in multiple messages. outagefixed[.]sbs Domain Downstream destination observed in some messages. outagerestored[.]sbs Domain Downstream destination observed in some messages. hxxps://reallifeaccounting[.]com/themelist0[.]html URL Observed destination path. hxxps://outagerestored[.]sbs/topics_pxyk/themelist0[.]html URL Observed destination path. 162[.]120[.]17[.]69:8080 IP and port Observed host for individualized /t/v3\u2026/px[.]png resources. Outage \u2013 <random> Subject pattern Observed randomized subject format; external-mail tags may precede it. Strengthen \u2013 Security <random> Subject pattern Observed randomized subject format; external-mail tags may precede it. Restore \u2014 4 messages <random> Subject pattern Observed randomized subject format; external-mail tags may precede it. References Safe Links in Microsoft Defender for Office 365 Safe Attachments in Microsoft Defender for Office 365 Zero-hour auto purge in Microsoft Defender for Office 365 Attack simulation training in Microsoft Defender for Office 365 MITRE ATT&CK T1566.002: Phishing \u2013 Spearphishing Link MITRE ATT&CK T1036: Masquerading MITRE ATT&CK T1204.001: User Execution \u2013 Malicious Link Learn More For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog . To get notified about new publications and to join discussions on social media, follow us on LinkedIn , X (formerly Twitter) , and Bluesky . To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast . Review our documentation to learn more about our real-time protection capabilities and see how to enable them within your organization. Learn more about securing Copilot Studio agents with Microsoft Defender Evaluate your AI readiness with our latest Zero Trust for AI workshop . Microsoft 365 Copilot AI security documentation How Microsoft discovers and mitigates evolving attacks against AI guardrails Prompt injection protection in Microsoft Defender for Office 365 \u2013 official documentation of the prompt injection protection in Microsoft Defender for Office 365. How Microsoft discovers and mitigates evolving attacks against AI guardrails | Microsoft Security Blog Manipulating AI memory for profit: The rise of AI Recommendation Poisoning | Microsoft Security Blog \u2013 a related example of an AI-era technique observed in email traffic Defending the inbox against prompt injection attacks | Microsoft Defender for Office 365 Blog \u2013 feature announcement introducing prompt injection protection in Microsoft Defender for Office 365. Learn how Microsoft is reimagining the SOC for the agentic era with ISOC in Microsoft Defender The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-11-16T02:00:05+00:00"
+      "source": "Microsoft Security",
+      "published": "2026-11-17T00:08:41+00:00"
     },
     {
       "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
@@ -36,6 +47,17 @@
       "published": "2026-11-16T14:00:00+00:00"
     },
     {
+      "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
+      "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
+      "feed_id": "https://unit42.paloaltonetworks.com/?p=189752",
+      "date": "Mon, 16 Nov 2026 23:00:55 +0000",
+      "detail": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared first on Unit 42 .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "Unit 42",
+      "published": "2026-11-16T23:00:55+00:00"
+    },
+    {
       "title": "A USB worm\u2019s second life: Retadup spreading CoffeeLoader",
       "url": "https://securelist.com/retadup-delivers-coffeeloader/121908/",
       "feed_id": "https://kasperskycontenthub.com/securelist/?p=121908",
@@ -47,59 +69,70 @@
       "published": "2026-11-16T07:00:37+00:00"
     },
     {
-      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-      "date": "Mon, 16 Nov 2026 11:43:24 -0500",
-      "detail": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
+      "title": "Optimizely supply chain attack infects major brands' sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+      "date": "Mon, 16 Nov 2026 21:12:17 -0500",
+      "detail": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-16T16:43:24+00:00"
+      "published": "2026-11-17T02:12:17+00:00"
     },
     {
-      "title": "Fandango says hackers stole payment card details from checkout pages",
-      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-      "date": "Mon, 16 Nov 2026 10:44:21 -0500",
-      "detail": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "date": "Mon, 16 Nov 2026 17:54:00 -0500",
+      "detail": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-16T15:44:21+00:00"
+      "published": "2026-11-16T22:54:00+00:00"
     },
     {
-      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-      "date": "Mon, 16 Nov 2026 10:01:11 -0500",
-      "detail": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance. [...]",
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+      "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "date": "Mon, 16 Nov 2026 16:31:44 -0500",
+      "detail": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-16T15:01:11+00:00"
+      "published": "2026-11-16T21:31:44+00:00"
     },
     {
-      "title": "Google warns that fully-automated AI attacks are coming soon",
-      "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-      "date": "Mon, 16 Nov 2026 09:00:00 -0500",
-      "detail": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "date": "Mon, 16 Nov 2026 15:59:44 -0500",
+      "detail": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-16T14:00:00+00:00"
+      "published": "2026-11-16T20:59:44+00:00"
     },
     {
-      "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-      "date": "Mon, 16 Nov 2026 07:53:18 -0500",
-      "detail": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "date": "Mon, 16 Nov 2026 14:57:13 -0500",
+      "detail": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-16T12:53:18+00:00"
+      "published": "2026-11-16T19:57:13+00:00"
+    },
+    {
+      "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+      "url": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+      "feed_id": "https://www.securityweek.com/?p=50835",
+      "date": "Mon, 16 Nov 2026 20:00:00 +0000",
+      "detail": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users. The post Trump Administration Moves to Block China From Indirect Access to American AI Technology appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-16T20:00:00+00:00"
     },
     {
       "title": "Cursor Supply Chain Attack Started at Fireworks AI",
@@ -146,125 +179,59 @@
       "published": "2026-11-16T12:48:03+00:00"
     },
     {
-      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-      "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
-      "feed_id": "https://www.securityweek.com/?p=50820",
-      "date": "Mon, 16 Nov 2026 11:15:48 +0000",
-      "detail": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-16T11:15:48+00:00"
-    },
-    {
-      "title": "Franc-Oil By vexy",
-      "url": "https://www.ransomlook.io//group/vexy",
-      "feed_id": "1c7027876c9ed7a7517d0ae12f4e9f98d17afad21f142a8f49d5428425a0a169",
-      "date": "Mon, 16 Nov 2026 18:19:17 GMT",
-      "detail": "Franc-Oil is a Nigerian offshore and marine services company specializing in vessel chartering, marine logistics, dredging, crew management, offshore construction and oilfield support. It provides maritime and technical solutions to support operations in the oil and gas industry. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Molex (Koch) By vortex",
+      "url": "https://www.ransomlook.io//group/vortex",
+      "feed_id": "751f9c08e1f43070b9a1acb4a28a773b7d2d6d60d4b8019ec5cb964aadc9b982",
+      "date": "Tue, 17 Nov 2026 03:15:23 GMT",
+      "detail": "1,803 files - 62.36 GB - 16,448,279 records | Deadline: 2026-11-19 03:55:16 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-16T18:19:17+00:00"
+      "published": "2026-11-17T03:15:23+00:00"
     },
     {
-      "title": "Osiiminppal By vexy",
-      "url": "https://www.ransomlook.io//group/vexy",
-      "feed_id": "076cc743afa4b140af20bfe77ac01cb1a272202d1302da0edb7b0273251b69d0",
-      "date": "Mon, 16 Nov 2026 18:19:16 GMT",
-      "detail": "https://www.osiiminppal.com/ Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Mycorpass (Carrington Mortgage Services) By vortex",
+      "url": "https://www.ransomlook.io//group/vortex",
+      "feed_id": "29bada1b909fe69ea28683380738d47e5c1d1b4b7b52aa0c9eec0d4d5ec5454d",
+      "date": "Tue, 17 Nov 2026 03:15:23 GMT",
+      "detail": "74,682 files - 134.55 GB | Deadline: 2026-11-19 03:55:16 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-16T18:19:16+00:00"
+      "published": "2026-11-17T03:15:23+00:00"
     },
     {
-      "title": "Upper Web By vexy",
-      "url": "https://www.ransomlook.io//group/vexy",
-      "feed_id": "d1075063300a3bb5d35cdcf5455f0c4974ce90427217374eb2feb83cd5843240",
-      "date": "Mon, 16 Nov 2026 18:19:16 GMT",
-      "detail": "Upper Web is a Brazilian digital solutions company specializing in website development, e-commerce platforms, graphic design, branding and digital content creation. It provides creative and technology services to businesses seeking to strengthen their online presence and digital operations. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Apellis Pharmaceuticals By vortex",
+      "url": "https://www.ransomlook.io//group/vortex",
+      "feed_id": "2ef9a340ff32d0ef287f176f09e1ba5eda872deabd7928f9fc68ba8a577b4e08",
+      "date": "Tue, 17 Nov 2026 03:15:22 GMT",
+      "detail": "19,325 files - 307.64 GB | Deadline: 2026-11-19 19:46:52 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-16T18:19:16+00:00"
+      "published": "2026-11-17T03:15:22+00:00"
     },
     {
-      "title": "Steffen family retail group By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "eefc2aa08b9363ee00edc160090033f4f4d47deba2295277b963eadac9a5261f",
-      "date": "Mon, 16 Nov 2026 18:19:14 GMT",
-      "detail": "Steffen family retail group We have fully copied the servers (hansa.local domain) of the Steffenfamily retail group - fashion/footwear/sports stores in Bremervorde,Zeven, Bremerhaven, Cuxhaven, Hemmoor, Harsefeld, Stade and Buxtehude(Mode Steffen KG, HRA 100744 AG Tostedt, USt-Id DE116928228, and ~17sister entities incl. Mercator & Blues real-estate companies).Volume: 673,267 files / 384 GB, incl. the LIVE BMD accounting database(9.6 million postings up to 30-Sep-2026), DOKinform/ELO documentarchives, email store, payroll infrastructure and terminal server.IDENTITY DOCUMENTS: German Personalausweise of all four owners -Jan Paul Friedrich Draack (Ausweis L287Y2G17), Hannes (Heidelberg),Helena (Hamburg), Henrik Draack - plus the death certificate ofG\ufffdnter Johann Draack (d. 14.06.2021).OWNER CASH INJECTIONS: \ufffd11.55 MILLION in personal money pushed intothe companies 2024\ufffd2026 ('Einlage', bookings of 10.03 / 24.09 /22.12.2025 etc., from IBAN DE54..8622, DE18..6693, DE41..8002).Retail ran at a LOSS in 2026 (Mode-Steffen KG -\ufffd714k) \ufffd where didthe millions come from?ASSET SHIFTING: \ufffd5,525,000 + \ufffd3,350,000 paid 09-May-2025('Bening Kaufpreis') to move property into separate Mercator GmbHs;only the rentals (\ufffd\ufffd1.4M/yr profit) stay profitable \ufffd stores losemoney.REAL GROUP NUMBERS: profit before tax 2024 \ufffd2,453,444 (2023:\ufffd3,360,303); negative MODE KG capital account of -\ufffd4.3M on31.12.2023 (own ledger); personal income tax prepayments of theowner ~\ufffd272k/yr.PASSWORDS PLAINTEXT: the CFO's and the accounting clerk's passwordfiles - Outlook/Office365, banks, PayPal, Amazon/Zalando/Otto/Kaufland seller accounts, merchant terminals (SparkasseH\ufffdndlerservice contract 4556519585).100+ SUPPLIER relationships (Tom Tailor, PVH, s.Oliver, CBR, EK,INTERSPORT, Bestseller...) - payment volumes 2024\ufffd2026 mapped.The family is now transferring the real estate (rental income\ufffd1.7M/yr) to the three children. They think nobody sees it.Everyone in Bremerv\ufffdrde, Zeven and Cuxhaven will soon see everything. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Castle Biosciences By vortex",
+      "url": "https://www.ransomlook.io//group/vortex",
+      "feed_id": "e067e0dd82f74e742ffbfc939a4f5ed5b2a70a113309368a71d34ec6975d1866",
+      "date": "Tue, 17 Nov 2026 03:15:21 GMT",
+      "detail": "3,769 files - 2,018,234 records | Deadline: 2026-11-20 01:25:01 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-16T18:19:14+00:00"
+      "published": "2026-11-17T03:15:21+00:00"
     },
     {
-      "title": "Waterman Group By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "a7db7f45f68da2368bc8e4784f9407f4b218c208c429831a0d67e485e412293e",
-      "date": "Mon, 16 Nov 2026 18:19:13 GMT",
-      "detail": "Waterman Group **Waterman Group (AUS) Pty Ltd / Waterman AHW Pty Ltd (ABN 11 100 904 738)** - engineering consulting, offices in Sydney and Melbourne. Owner - Waterman Group plc (UK), part of CTI Engineering (Japan).205,072 files / 784.22 GB.Full company password register (~70 accounts): domain, O365/Azure, Synology NAS, Dropbox admin, HSBC bank access (BSB 342 011 / acct 160116001), tender portals AusTender / buyNSW / ICN / TenderLink.Salary database of all employees as of 01-01-2026. Directors: Mason and Barnes at $379,872 each; Nicoliello a $338,298 package - approved by the UK board (letter 23-01-2026).Identity documents of Richard Nicoliello, founding director of the Sydney office: passport, driver's licence exp 2027, birth certificate (JP-certified), Medicare card,TFN 200 722 524, home address 12 Coney Rd Earlwood - plus similar folders for employees (passports with expiry dates, ~25 TFN declarations 2022-2026).HSBC corporate card in the name of R. Nicoliello 4893 1270 4778 6945, limit $24k, statements 2023-2026; directors' credit-card statements 2020-2024.Commercial core: register of 711 projects, Bid/Office metrics 2022-2026 (monthly revenue, conversion rate), Sydney client database 2013-2026 with contract amounts.Loose legal ends: NSW Supreme Court (2015, Gadens), Fair Work case 2020 CRM:0071756, superannuation underpayments, JobKeeper while paying dividends in the UK (2020), dispute with PCCH/WSP/LendLease claiming interest of $25,445, a claim from Saluti/Quest Epping, a BEC (business email compromise) incident with substituted bank details (2020).Physical access: 6 live spare access passes for 2 Park St sitting in Nicoliello's drawer; PNG images of director signatures suitable for forging payment authorisations.FRESH PAYROLL (30-09-2026, ABA file): personal bank details of all 39 employees plus exact net payments; director B. Mason's salary ($18.2k/month net) is paid into his wife's account 'BELINDA MASON' (since 2020); target ATO/FWO. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Caris Life Sciences By vortex",
+      "url": "https://www.ransomlook.io//group/vortex",
+      "feed_id": "393c4b4af94f3412f53a99e1f7200694166fee4651dd21507a150b8cc4b8816c",
+      "date": "Tue, 17 Nov 2026 03:15:20 GMT",
+      "detail": "7,166 files - 21,432,021 records | Deadline: 2026-11-20 01:25:01 UTC Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-16T18:19:13+00:00"
-    },
-    {
-      "title": "AMD Capital (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "43d00d42e1ed2ad176100291401d7708",
-      "date": "Mon, 16 Nov 2026 11:50:00 +0000",
-      "detail": "Intelligence Summary: An investment brokerage firm providing advisory and trading services. Threat Syndicate: PixelLeaks Claimed Victim: AMD Capital Industry Sector: Financial Services Date Published: 2026-11-16 11:50:00 Date Updated (Revisited): 2026-11-16 19:09:26 Date Discovered: 2026-11-12 12:06:45.703816 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#amd-capital Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-16T11:50:00+00:00"
-    },
-    {
-      "title": "Eagle Fire Extinguisher Company (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "238246e1337d9765d2a74a9193314739",
-      "date": "Mon, 16 Nov 2026 11:50:00 +0000",
-      "detail": "Intelligence Summary: A U.S. fire extinguisher manufacturing company. Threat Syndicate: PixelLeaks Claimed Victim: Eagle Fire Extinguisher Company Target Domain: eaglefire.com Industry Sector: Manufacturing Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-11-16 11:50:00 Date Updated (Revisited): 2026-11-16 19:09:26 Date Discovered: 2026-11-12 12:06:45.703816 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#eagle-fire-extinguisher-company Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-16T11:50:00+00:00"
-    },
-    {
-      "title": "Four Points Financial Solutions Inc. (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "1ca9ca31304154b30df317271154a847",
-      "date": "Mon, 16 Nov 2026 11:50:00 +0000",
-      "detail": "Intelligence Summary: Four Points Financial Solutions Inc. provides investment advisory and wealth management services. Threat Syndicate: PixelLeaks Claimed Victim: Four Points Financial Solutions Inc. Industry Sector: Financial Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-11-16 11:50:00 Date Updated (Revisited): 2026-11-16 19:09:26 Date Discovered: 2026-11-12 12:06:45.703816 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#four-points-financial-solutions-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-16T11:50:00+00:00"
-    },
-    {
-      "title": "Koehler Financial Group Inc (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "c972af461d80c8697dc1617e12c4edda",
-      "date": "Mon, 16 Nov 2026 11:50:00 +0000",
-      "detail": "Intelligence Summary: A financial services firm offering investment and wealth management services. Threat Syndicate: PixelLeaks Claimed Victim: Koehler Financial Group Inc Industry Sector: Financial Services Date Published: 2026-11-16 11:50:00 Date Updated (Revisited): 2026-11-16 19:09:26 Date Discovered: 2026-11-12 12:06:45.703816 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#koehler-financial-group-inc Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-16T11:50:00+00:00"
-    },
-    {
-      "title": "Missouri Welding Institute (missouriweldinginstitute.com) (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "5ae8da9406a6e331c7231e1252bd855f",
-      "date": "Mon, 16 Nov 2026 11:50:00 +0000",
-      "detail": "Intelligence Summary: A professional association for welders in the United States. Threat Syndicate: PixelLeaks Claimed Victim: Missouri Welding Institute (missouriweldinginstitute.com) Canonical Organization: Missouri Welding Institute Target Domain: missouriweldinginstitute.com Industry Sector: Professional Services Geographic Location: \ud83c\uddfa\ud83c\uddf8 US Date Published: 2026-11-16 11:50:00 Date Updated (Revisited): 2026-11-16 19:09:26 Date Discovered: 2026-11-12 12:06:45.703816 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#missouri-welding-institute-missouriweldinginstitute-com Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-16T11:50:00+00:00"
+      "published": "2026-11-17T03:15:20+00:00"
     }
   ],
   "sources": [
@@ -299,8 +266,8 @@
     {
       "source": "Microsoft Security",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -313,8 +280,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -341,29 +308,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 9,
+      "recent": 14,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 9,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 42,
+      "recent": 50,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 10,
-      "shown": 5,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
