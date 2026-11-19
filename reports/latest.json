@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T20:44:07.695498+00:00",
+  "generated": "2026-11-19T02:40:19.462485+00:00",
   "hours": 24,
   "items": [
     {
@@ -75,22 +75,26 @@
       "published": "2026-11-18T00:00:00+00:00"
     },
     {
-      "title": "CVE-2026-115731: Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-115731",
-      "date": "2026-11-17",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet\u2019s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Perforce",
-        "Producto": "Puppet Enterprise",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-12-01",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://portal.perforce.com/s/cve/a91Qi000003IaHpIAK/report-deserialization-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-17T00:00:00+00:00"
+      "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
+      "url": "https://isc.sans.edu/diary/rss/33536",
+      "feed_id": "https://isc.sans.edu/diary/rss/33536",
+      "date": "Thu, 19 Nov 2026 02:00:03 GMT",
+      "detail": "",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-19T02:00:03+00:00"
+    },
+    {
+      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33534",
+      "feed_id": "https://isc.sans.edu/diary/rss/33534",
+      "date": "Thu, 19 Nov 2026 01:53:48 GMT",
+      "detail": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-19T01:53:48+00:00"
     },
     {
       "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
@@ -102,17 +106,6 @@
       "kind": "Research / advisory",
       "source": "SANS Internet Storm Center",
       "published": "2026-11-18T19:54:50+00:00"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33528",
-      "feed_id": "https://isc.sans.edu/diary/rss/33528",
-      "date": "Wed, 18 Nov 2026 02:00:03 GMT",
-      "detail": "",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SANS Internet Storm Center",
-      "published": "2026-11-18T02:00:03+00:00"
     },
     {
       "title": "The challenge of defending against bulletproof dead drops on public blockchains",
@@ -137,17 +130,6 @@
       "published": "2026-11-18T11:00:00+00:00"
     },
     {
-      "title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
-      "url": "https://blog.talosintelligence.com/java4shell/",
-      "feed_id": "6afc9f9589fda40001d45534",
-      "date": "Wed, 18 Nov 2026 01:53:03 GMT",
-      "detail": "Update 11/18/2026: Cisco has released a security advisory on products potentially affected by this vulnerability. Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed \u201cJava4Shell,\u201d with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE). This vulnerability can be triggered by sending a malformed Base64 input to affected JVMs, which can result in RCE. Details This vulnerability affects OpenJDK Java versions 17.0.6 and later running on x86-64 CPUs with AVX-512 VBMI (Vector Byte Manipulation Instructions) support enabled. These vulnerabilities have already been tested against a suite of Java applications with success, but the attack surface is likely much larger as additional targets are tested and confirmed. This vulnerability does require a specific subset of processors that support AVX-512 VBMI; these include commonly deployed processors from both Intel and AMD, resulting in a large potential attack surface of vulnerable systems, including both on-premise and cloud environments. Cisco Talos would like to thank Calif.io for sharing the details of the vulnerability in advance of public disclosure . Observed exploitation Talos has not observed in-the-wild exploitation of this vulnerability yet. However, we anticipate probing attempts may pick up soon after public disclosure. Talos will continue to monitor for exploitation attempts and will provide updates accordingly. Recommendations and guidance Talos recommends applying the software update for this vulnerability. If immediate patching is not possible, other mitigations can be implemented in the interim. The primary mitigation is starting the JVM with AVX-512 support disabled. This can be done by starting the application with \u201c=XX:UseAVX=2\u201d. Note that this is only applicable for x86-64 systems, as ARM-based processors will not recognize the command, likely resulting in failure to start. Cisco is following its well-established process to evaluate its products and customers are strongly advised to refer to Cisco\u2019s security advisory on potentially affected products. Customers should reach out to their sales teams with specific questions. Coverage SNORT\u00ae SIDs covering this vulnerability for subscribers: Snort2: 1:67502 - 1:67513 Snort3: 1:301754, 1:67502 - 1:67513 Free community rules are live through our Community Ruleset . These rules detect malformed Base64 data in specific HTTP request fields associated with the vulnerability. This vulnerability is implementation specific. Talos made every effort to identify as many common vulnerable applications as possible and cover potential attack vectors in those applications. Splunk customers can refer to Splunk\u2019s ES Content Updates (ESCU) pre-packaged security content for detections against high-profile vulnerabilities. Existing detections from Splunk cover suspicious indicators such as heavily encoded content , and post-exploitation scenarios such as arbitrary command execution or processes and web or application servers spawning shells .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-11-18T01:53:03+00:00"
-    },
-    {
       "title": "The forced audit: how AuditTeam\u2019s OpsAgent framework masks ransomware as consulting",
       "url": "https://securelist.com/auditteam-opsagent-forced-audit/122031/",
       "feed_id": "https://kasperskycontenthub.com/securelist/?p=122031",
@@ -157,6 +139,28 @@
       "kind": "Research / advisory",
       "source": "Securelist",
       "published": "2026-11-18T07:00:07+00:00"
+    },
+    {
+      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "date": "Wed, 18 Nov 2026 18:08:33 -0500",
+      "detail": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-18T23:08:33+00:00"
+    },
+    {
+      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "date": "Wed, 18 Nov 2026 15:49:32 -0500",
+      "detail": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-18T20:49:32+00:00"
     },
     {
       "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
@@ -190,28 +194,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-11-18T15:00:10+00:00"
-    },
-    {
-      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "date": "Wed, 18 Nov 2026 06:50:25 -0500",
-      "detail": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-18T11:50:25+00:00"
-    },
-    {
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "date": "Wed, 18 Nov 2026 05:35:05 -0500",
-      "detail": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-18T10:35:05+00:00"
     },
     {
       "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
@@ -269,67 +251,67 @@
       "published": "2026-11-18T12:00:00+00:00"
     },
     {
-      "title": "Osaki By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "2c67f9c7eedc260f8a1844eba169ff10cb69816cc54e8acb4d69258f1792cd2d",
-      "date": "Wed, 18 Nov 2026 20:21:01 GMT",
-      "detail": "Manufacturing Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "www.leadersaluminium.ae By krybit",
+      "url": "https://www.ransomlook.io//group/krybit",
+      "feed_id": "555fde1103064632c56b4c2dcf6dcd9a3291ae04db5a627efd00cba2991ba299",
+      "date": "Thu, 19 Nov 2026 02:17:32 GMT",
+      "detail": "Leaders Aluminium & Glass Industries LLC is a UAE fabricator, manufacturer, and contractor of aluminium and glazing prod... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-18T20:21:01+00:00"
+      "published": "2026-11-19T02:17:32+00:00"
     },
     {
-      "title": "SOGELEC Iskan for Electrical Contracting W.L.L. By n0n",
+      "title": "FIDE Partners By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "a302a365419726e9af25d4c406990ab7c8e3fd1047047c7083ccc6a984a30e63",
+      "date": "Thu, 19 Nov 2026 02:17:28 GMT",
+      "detail": "Fide Partners - is an international boutique strategic and management consulting firm specializing in the telecommunications, media, and technology (TMT) sectors. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-19T02:17:28+00:00"
+    },
+    {
+      "title": "Pulsar By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "ce7134b93315ede94bacc8a739a1a9bb9703a22a1e0f7f8b9fd49872db5a3574",
+      "date": "Thu, 19 Nov 2026 02:17:27 GMT",
+      "detail": "Pulsar Advertising is a full-service American advertising and marketing agency. The agency specializes in promoting brands, government entities, and public organizations whose work benefits society. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-19T02:17:27+00:00"
+    },
+    {
+      "title": "CENTERED CO., LTD. By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "9b8ae698b51daf00a8814f978cd4a515c9f04c48e277c331263e5d11dbc80ee5",
+      "date": "Thu, 19 Nov 2026 02:17:26 GMT",
+      "detail": "CENTERED CO., LTD. (centered.co.jp) is a Japanese digital marketing and web development agency that specializes in improving the performance of advertising campaigns and search engine promotion. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-19T02:17:26+00:00"
+    },
+    {
+      "title": "GRAIL, Inc. By n0n",
       "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "bb924d53d6b3c299febfcadda925a88cff2f75f62d832101ed42594bc6b52519",
-      "date": "Wed, 18 Nov 2026 19:16:31 GMT",
-      "detail": "electrical contracting \u00b7 Qatar Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "ba2b7a4188c081b6c3afba4e68a93995c4e769455393a7ab789dba8af8a53559",
+      "date": "Thu, 19 Nov 2026 01:18:12 GMT",
+      "detail": "cancer screening diagnostics \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-18T19:16:31+00:00"
-    },
-    {
-      "title": "Jackson Walker By leakeddata",
-      "url": "https://www.ransomlook.io//group/leakeddata",
-      "feed_id": "316dd2e53dabbae42bc85f518cb7bf791ea5e7b052b96c85b9bc17b762b986e6",
-      "date": "Wed, 18 Nov 2026 19:16:14 GMT",
-      "detail": "Founded in 1945, Jackson Walker is a Texas-based law firm that specializes in family law, Insurance, H\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-18T19:16:14+00:00"
-    },
-    {
-      "title": "An independent asset management firm in Casablanca By hyflock",
-      "url": "https://www.ransomlook.io//group/hyflock",
-      "feed_id": "f3d86d93d53fcb2427ad6e3d408fea127ea60581d0241b5ae206207238f96660",
-      "date": "Wed, 18 Nov 2026 19:16:10 GMT",
-      "detail": "Africapital Management est une soci\u00e9t\u00e9 ind\u00e9pendante de gestion d\u2019actifs bas\u00e9e \u00e0 Casablanca et agr\u00e9\u00e9e par l\u2019Autorit\u00e9 Marocaine du March\u00e9 des Capitaux pour la gestion d\u2019OPCVM Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-18T19:16:10+00:00"
-    },
-    {
-      "title": "Ardi Youth Academy By n0n",
-      "url": "https://www.ransomlook.io//group/n0n",
-      "feed_id": "d351ad93082ed305b29b6fc4ada09184b10eb2731e78626e86c28e492d1125e3",
-      "date": "Wed, 18 Nov 2026 18:20:28 GMT",
-      "detail": "Education \u00b7 Ethiopia Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-18T18:20:28+00:00"
+      "published": "2026-11-19T01:18:12+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 5,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
@@ -342,15 +324,15 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -398,7 +380,7 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 10,
+      "recent": 9,
       "shown": 5,
       "undated": 0
     },
@@ -412,7 +394,7 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 38,
+      "recent": 50,
       "shown": 5,
       "undated": 0
     },
