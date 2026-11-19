@@ -1,0 +1,182 @@
+CYBER DAILY — 2026-11-19 11:54 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+23 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2024-10441: Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-18T00:00:00+00:00
+Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2024-10441
+Fabricante: Synology
+Producto: DiskStation Manager (DSM)
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-21
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.synology.com/zh-tw/security/advisory/Synology_SA_24_20 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-10441
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-10441
+
+CVE-2026-40217: BerriAI LiteLLM Unprotected Alternate Channel Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-18T00:00:00+00:00
+BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-40217
+Fabricante: BerriAI
+Producto: LiteLLM
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-12-02
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://github.com/BerriAI/litellm/security/advisories/GHSA-wxxx-gvqv-xp7p ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-40217
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-40217
+
+CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-18T00:00:00+00:00
+Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-90817
+Fabricante: Vanderbilt University
+Producto: Research Electronic Data Capture (REDCap)
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-21
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://projectredcap.org/resources/community ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-90817
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90817
+
+CVE-2026-90436: Apache Axis Unsafe Reflection Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-18T00:00:00+00:00
+Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-90436
+Fabricante: Apache
+Producto: Axis
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-21
+Uso conocido en ransomware: Unknown
+Notas de CISA: This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://lists.apache.org/thread/8slf0j9gz35z56t0glt5h0ncwlbn4bdz ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-90436
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90436
+
+ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)
+SANS Internet Storm Center | Research / advisory | 2026-11-19T02:00:03+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33536
+
+Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)
+SANS Internet Storm Center | Research / advisory | 2026-11-19T01:53:48+00:00
+[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33534
+
+Java4Shell, NGINX2Shell and more: Why we are not at "Yellow", (Wed, Nov 18th)
+SANS Internet Storm Center | Research / advisory | 2026-11-18T19:54:50+00:00
+About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon "Yellow" [infocon]. In the last few days, we had a major Microsoft 365 outage, a critical vulnerability in Java, and a critical vulnerability in NGINX, which was disclosed today.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33532
+
+Microsoft tests new Edge Lockdown Mode that disables GPU APIs
+BleepingComputer | Research / advisory | 2026-11-19T11:46:00+00:00
+Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/
+
+Microsoft confirms app installation, launch issues after hotpatch
+BleepingComputer | Research / advisory | 2026-11-19T10:35:05+00:00
+Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/
+
+NVIDIA investigating Gentlemen ransomware breach claims
+BleepingComputer | Research / advisory | 2026-11-19T09:23:21+00:00
+NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/
+
+Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms
+BleepingComputer | Research / advisory | 2026-11-18T23:08:33+00:00
+Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/
+
+Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam
+BleepingComputer | Research / advisory | 2026-11-18T20:49:32+00:00
+Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/
+
+Splunk Patches Nearly 140 Flaws Across Three Core Products
+SecurityWeek | Research / advisory | 2026-11-19T10:41:05+00:00
+The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/
+
+F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public
+SecurityWeek | Research / advisory | 2026-11-19T10:26:51+00:00
+The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/
+
+Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories
+SecurityWeek | Research / advisory | 2026-11-19T09:10:58+00:00
+GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact. The post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/
+
+PHP Readies Critical Security Updates to Patch Another RCE Flaw
+SecurityWeek | Research / advisory | 2026-11-19T07:45:17+00:00
+Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .
+CVEs: CVE-2026-115560
+https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/
+
+Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion
+SecurityWeek | Research / advisory | 2026-11-19T03:25:23+00:00
+The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/
+
+Arthrex By vortex
+RansomLook | Ransomware claim / observation | 2026-11-19T11:16:13+00:00
+24,655,647 records - 20.90 GB | Tag: data held | Published: 2026-10-30 Salesforce org — 24 objects, 24,655,647 records, 2,516 CSV parts, 20.90 GB - Audit history with every field change: 8,362,567 account-history rows; 8,045,880 ca... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+Samtec By vortex
+RansomLook | Ransomware claim / observation | 2026-11-19T11:16:12+00:00
+103,494,376 records - 28.53 GB | Tag: data held | Published: 2026-11-02 Salesforce org — complete: 103,494,376 records, 1,907 CSV parts, 28.53 GB (per-object rows verified by full CSV parse) - Order and pricing history: 16,913,059 o... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+Bozzuto By vortex
+RansomLook | Ransomware claim / observation | 2026-11-19T11:16:11+00:00
+136,957 files - 203.61 GB | Tag: data held | Published: 2026-11-08 Microsoft 365 — full capture: 136,957 files, 203.61 GB - SharePoint — a site per development and team: research department 7,930 files 44.36 GB; Harwood Flats p... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+TrueBlue By vortex
+RansomLook | Ransomware claim / observation | 2026-11-19T11:16:10+00:00
+656,824 files - 1,094.12 GB | Tag: data held | Published: 2026-11-19 Microsoft 365 — full capture: 656,824 files, 1,094.12 GB - Directory: 20,233 user entries, 8,001 groups with complete membership rosters and app-role assignment... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+Gensler By vortex
+RansomLook | Ransomware claim / observation | 2026-11-19T11:16:09+00:00
+168,918 files - 691.71 GB | Tag: data held | Published: 2026-11-19 Microsoft 365 — full capture: 168,918 files, 691.71 GB - Directory: 66,441 user entries, 31,325 groups, full membership rosters and device records. - SharePoint... Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/vortex
+
+Piz'wich Data Breach (HYFLOCK)
+CTI.fyi | Ransomware claim / observation | 2026-11-19T11:04:28+00:00
+Intelligence Summary: A European frozen snack brand owned by the Frostkrone Food Group, specializing in savory 'Pizza Pockets'. Threat Syndicate: HYFLOCK Claimed Victim: Piz'wich Data Breach Canonical Organization: Piz'wich Industry Sector: Agriculture & Food Date Published: 2026-11-19 11:04:28 Date Discovered: 2026-11-19 11:06:10.932043 Post URL: http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1795086268412852961_PG9grdpq Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/HYFLOCK.html
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=4; shown=4; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=3; shown=3; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=8; shown=5; undated excluded=0
+SecurityWeek: OK; recent=10; shown=5; undated excluded=0
+RansomLook: OK; recent=48; shown=5; undated excluded=0
+CTI.fyi: OK; recent=1; shown=1; undated excluded=0
