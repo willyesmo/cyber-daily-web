@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-11-21 02:34 UTC
+CYBER DAILY — 2026-11-21 11:27 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-21 entries selected. Feed excerpts, not full-article or AI analysis.
+20 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-129448: Apache Roller Deserialization of Untrusted Data Vulnerability
@@ -117,41 +117,35 @@ Threat actors accessed databases containing customer information associated with
 CVEs: Not stated in feed
 https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/
 
-European Commission Confirms AI-Assisted Cyberattack Disrupted Services
-SecurityWeek | Research / advisory | 2026-11-20T10:51:42+00:00
-The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .
+Vegely Welding Inc. By pear
+RansomLook | Ransomware claim / observation | 2026-11-21T08:17:30+00:00
+Specialize in the maintenance of steel structures and cranes, shipbuilding welding, on-site fabrication, manual welding, and much more Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/
+https://www.ransomlook.io//group/pear
 
-DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED By whitearmor
-RansomLook | Ransomware claim / observation | 2026-11-21T01:17:24+00:00
-24 HOURS. NOT A SINGLE MESSAGE. Let us be clear about who this is, because apparently it was not clear. CLINICA CASANARE — Yopal, Casanare CLINICA PAJONAL — Neiva, Huila HOSPITAL DE ALTA COMPLEJIDAD DEL PUTUMAYO (HAC PUTUMAYO) — Puerto Asis, Putumayo CLINICA UROS — Neiva, Huila Four private clinics in Colombia, medium and high complexity, part of MoMentum Holding (former Grupo Empresarial Uros): MoMentum Salud Renal, MoMentum Clinicas and MoMentum CFIM. All of them running the same in-house UROSOFT platform built and operated by ICT ZOMAC. Casanare and Pajonal were redeployed. Urus is still out. Putumayo is still down, exactly as we left it. None of you wrote. PUBLISHED NOW: CLINICA CASANARE 2,000 patients | 1,000 invoices | 500 third parties | 100 histories | 1,357 accounts CLINICA PAJONAL 2,000 patients | 1,000 invoices | 500 third parties | 837 accounts HAC PUTUMAYO 2,000 patients | 1,000 invoices | 500 third parties | 100 histories | 15 CUFE | 2,297 accounts CLINICA UROS 2,000 patients | 1,000 invoices | 500 third parties | 3,242 accounts TOTAL: 8,000 patients with names and national IDs. 4,000 invoices with amounts and CUFE. 2,000 third parties. 200 scanned clinical histories, including HIV and mental health. 7,733 staff accounts with unsalted MD5. Every folder has README, counts and SHA256SUMS. Check them. Same five mistakes in all four: unauthenticated download.php, SQL injection in login and reports, COPY TO PROGRAM straight to the postgres user, unsalted MD5, backups on the same server. No zero-day. Your own application, read back to you. The private channel and session are the same sent to you. Email: whitearmorxd@onionmail.org DROP 2 IN 24 HOURS IF THE SILENCE CONTINUES. WE ARE NOT PLAYING. Email: whitearmorxd@onionmail.org http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/ Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Law Office of Ronald D. Weiss, P.C By pear
+RansomLook | Ransomware claim / observation | 2026-11-21T08:17:29+00:00
+Specializing in bankruptcy, foreclosure defense, and debt negotiation services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/whitearmor
+https://www.ransomlook.io//group/pear
 
-bastion.internal domain controller (GCP, GRATEFUL-V1) By pixelleaks
-RansomLook | Ransomware claim / observation | 2026-11-20T23:18:05+00:00
-IT infrastructure (Active Directory domain controller) · USA Full data leak: 2026-11-24 22:09 UTC This disclosure concerns a verified set of records from an organization in the IT infrastructure (Active Directory domain controller) sector. The material scheduled for publication comprises a set of business records, including operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Realta Technologies By eclipse
+RansomLook | Ransomware claim / observation | 2026-11-21T07:16:58+00:00
+Réalta Technologies are a global Automation and Digital System Integrator Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/eclipse
+
+MT5 algo-trading farm (OneFunded funded account, WINSERVER) By pixelleaks
+RansomLook | Ransomware claim / observation | 2026-11-21T03:17:13+00:00
+Algorithmic trading operation (MT5 / Westernpips HFT arbitrage farm) · China Full data leak: 2026-11-24 22:22 UTC This disclosure concerns a verified set of records from an organization in the Algorithmic trading operation (MT / Westernpips HFT arbitrage farm) sector. The material scheduled for publication comprises a set of business records, including client and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/pixelleaks
 
-Aixia Group AB (Nasdaq-listed AI/IT, Sweden) By pixelleaks
-RansomLook | Ransomware claim / observation | 2026-11-20T23:18:04+00:00
-AI/IT infrastructure · Sweden Full data leak: 2026-11-24 21:21 UTC This disclosure concerns a verified set of records from an organization in the AI/IT infrastructure sector. The material scheduled for publication comprises a set of business records, including financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Lucid Motors By inception
+RansomLook | Ransomware claim / observation | 2026-11-21T03:16:52+00:00
+Size: 58 GB | Files: 79,303 | Deadline: Expired | Status: leaked SAP service-user IDs + email distribution lists (SDES), SAP access-provisioning process docs for non-production systems, SAP VENDOR_2 data-migration template with supplier tax IDs (SSNs), HR benefits documentation (Kaiser, VSP, Ceridian/Dayforce), Fidelity NetBenefits 401(k) contact and enrollment material, Employee equity-management (stock) office-hours material, Lithium-ion battery recycling/scrap cost estimates (trade secrets), Purchase-requisition and indirect-procurement workflows, Lucid Air test-fleet VINs, Live Atlassian API token (username + token in conf.py), Supplier network: 30+ vendor domains with named contacts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/pixelleaks
-
-Kingsport Cargo (logistics, Laravel intranet) By pixelleaks
-RansomLook | Ransomware claim / observation | 2026-11-20T23:18:03+00:00
-Logistics SME · Poland Full data leak: 2026-11-24 21:21 UTC This disclosure concerns a verified set of records from an organization in the Logistics SME sector. The material scheduled for publication comprises a set of business records, including financial and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/pixelleaks
-
-Arab Software Computer / ASCON (Oracle ERP hosting, Alexandria) By pixelleaks
-RansomLook | Ransomware claim / observation | 2026-11-20T23:18:02+00:00
-Oracle ERP vendor (Saudi client hosting) · Egypt Full data leak: 2026-11-24 21:21 UTC This disclosure concerns a verified set of records from an organization in the Oracle ERP vendor (Saudi client hosting) sector. The material scheduled for publication comprises a set of business records, including personnel, financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/pixelleaks
+https://www.ransomlook.io//group/inception
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=4; shown=4; undated excluded=0
@@ -164,7 +158,7 @@ Unit 42: OK; recent=1; shown=1; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=8; shown=5; undated excluded=0
-SecurityWeek: OK; recent=8; shown=5; undated excluded=0
-RansomLook: OK; recent=43; shown=5; undated excluded=0
+BleepingComputer: OK; recent=6; shown=5; undated excluded=0
+SecurityWeek: OK; recent=4; shown=4; undated excluded=0
+RansomLook: OK; recent=37; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T02:34:56.024421+00:00",
+  "generated": "2026-11-21T11:27:55.922207+00:00",
   "hours": 24,
   "items": [
     {
@@ -196,70 +196,59 @@
       "published": "2026-11-20T11:36:51+00:00"
     },
     {
-      "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-      "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-      "feed_id": "https://www.securityweek.com/?p=50955",
-      "date": "Fri, 20 Nov 2026 10:51:42 +0000",
-      "detail": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-20T10:51:42+00:00"
-    },
-    {
-      "title": "DROP 1 \u2014 CASANARE, PAJONAL, PUTUMAYO AND URUS \u2014 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED By whitearmor",
-      "url": "https://www.ransomlook.io//group/whitearmor",
-      "feed_id": "041bea9205db0b80b83c8fd813d242dfd092f6663a9135af6da629c67c4e39ae",
-      "date": "Sat, 21 Nov 2026 01:17:24 GMT",
-      "detail": "24 HOURS. NOT A SINGLE MESSAGE. Let us be clear about who this is, because apparently it was not clear. CLINICA CASANARE \u2014 Yopal, Casanare CLINICA PAJONAL \u2014 Neiva, Huila HOSPITAL DE ALTA COMPLEJIDAD DEL PUTUMAYO (HAC PUTUMAYO) \u2014 Puerto Asis, Putumayo CLINICA UROS \u2014 Neiva, Huila Four private clinics in Colombia, medium and high complexity, part of MoMentum Holding (former Grupo Empresarial Uros): MoMentum Salud Renal, MoMentum Clinicas and MoMentum CFIM. All of them running the same in-house UROSOFT platform built and operated by ICT ZOMAC. Casanare and Pajonal were redeployed. Urus is still out. Putumayo is still down, exactly as we left it. None of you wrote. PUBLISHED NOW: CLINICA CASANARE 2,000 patients | 1,000 invoices | 500 third parties | 100 histories | 1,357 accounts CLINICA PAJONAL 2,000 patients | 1,000 invoices | 500 third parties | 837 accounts HAC PUTUMAYO 2,000 patients | 1,000 invoices | 500 third parties | 100 histories | 15 CUFE | 2,297 accounts CLINICA UROS 2,000 patients | 1,000 invoices | 500 third parties | 3,242 accounts TOTAL: 8,000 patients with names and national IDs. 4,000 invoices with amounts and CUFE. 2,000 third parties. 200 scanned clinical histories, including HIV and mental health. 7,733 staff accounts with unsalted MD5. Every folder has README, counts and SHA256SUMS. Check them. Same five mistakes in all four: unauthenticated download.php, SQL injection in login and reports, COPY TO PROGRAM straight to the postgres user, unsalted MD5, backups on the same server. No zero-day. Your own application, read back to you. The private channel and session are the same sent to you. Email: whitearmorxd@onionmail.org DROP 2 IN 24 HOURS IF THE SILENCE CONTINUES. WE ARE NOT PLAYING. Email: whitearmorxd@onionmail.org http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion/ Session: 0547b7f96d469ecb332e89d0108e71c92df5bacff6c4ed5b9801ab5fffe872ee67 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Vegely Welding Inc. By pear",
+      "url": "https://www.ransomlook.io//group/pear",
+      "feed_id": "aa028277fcc07d5ed7761314354fc740b9d3ddf161f18108afe4905eea9ec0a9",
+      "date": "Sat, 21 Nov 2026 08:17:30 GMT",
+      "detail": "Specialize in the maintenance of steel structures and cranes, shipbuilding welding, on-site fabrication, manual welding, and much more Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-21T01:17:24+00:00"
+      "published": "2026-11-21T08:17:30+00:00"
     },
     {
-      "title": "bastion.internal domain controller (GCP, GRATEFUL-V1) By pixelleaks",
+      "title": "Law Office of Ronald D. Weiss, P.C By pear",
+      "url": "https://www.ransomlook.io//group/pear",
+      "feed_id": "3544f1eeb7420d37f0013d456458c948c0001c9ef8e5de9092650794825d0164",
+      "date": "Sat, 21 Nov 2026 08:17:29 GMT",
+      "detail": "Specializing in bankruptcy, foreclosure defense, and debt negotiation services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T08:17:29+00:00"
+    },
+    {
+      "title": "Realta Technologies By eclipse",
+      "url": "https://www.ransomlook.io//group/eclipse",
+      "feed_id": "3e916a5c43b4c75d8383e1961824739a06a4b519b4a3939e33d0fde532d940f8",
+      "date": "Sat, 21 Nov 2026 07:16:58 GMT",
+      "detail": "R\u00e9alta Technologies are a global Automation and Digital System Integrator Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T07:16:58+00:00"
+    },
+    {
+      "title": "MT5 algo-trading farm (OneFunded funded account, WINSERVER) By pixelleaks",
       "url": "https://www.ransomlook.io//group/pixelleaks",
-      "feed_id": "42538bfb06fa73c398b545a1317839c82e0ce8eb9d831c5a4d4025b7871735df",
-      "date": "Fri, 20 Nov 2026 23:18:05 GMT",
-      "detail": "IT infrastructure (Active Directory domain controller) \u00b7 USA Full data leak: 2026-11-24 22:09 UTC This disclosure concerns a verified set of records from an organization in the IT infrastructure (Active Directory domain controller) sector. The material scheduled for publication comprises a set of business records, including operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "1c7691ad02c51f13b85f40b925cc756644cbc304f35319ff3ae99df988c3b317",
+      "date": "Sat, 21 Nov 2026 03:17:13 GMT",
+      "detail": "Algorithmic trading operation (MT5 / Westernpips HFT arbitrage farm) \u00b7 China Full data leak: 2026-11-24 22:22 UTC This disclosure concerns a verified set of records from an organization in the Algorithmic trading operation (MT / Westernpips HFT arbitrage farm) sector. The material scheduled for publication comprises a set of business records, including client and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-20T23:18:05+00:00"
+      "published": "2026-11-21T03:17:13+00:00"
     },
     {
-      "title": "Aixia Group AB (Nasdaq-listed AI/IT, Sweden) By pixelleaks",
-      "url": "https://www.ransomlook.io//group/pixelleaks",
-      "feed_id": "62acebf4422c295dab52680aed59022d2f79599cf59d55a882305cf1e05c0b3e",
-      "date": "Fri, 20 Nov 2026 23:18:04 GMT",
-      "detail": "AI/IT infrastructure \u00b7 Sweden Full data leak: 2026-11-24 21:21 UTC This disclosure concerns a verified set of records from an organization in the AI/IT infrastructure sector. The material scheduled for publication comprises a set of business records, including financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Lucid Motors By inception",
+      "url": "https://www.ransomlook.io//group/inception",
+      "feed_id": "58cc0ff2aa1c4cbd9631d44ffcef947ee9e7685961a3cc13df3852d6288386d1",
+      "date": "Sat, 21 Nov 2026 03:16:52 GMT",
+      "detail": "Size: 58 GB | Files: 79,303 | Deadline: Expired | Status: leaked SAP service-user IDs + email distribution lists (SDES), SAP access-provisioning process docs for non-production systems, SAP VENDOR_2 data-migration template with supplier tax IDs (SSNs), HR benefits documentation (Kaiser, VSP, Ceridian/Dayforce), Fidelity NetBenefits 401(k) contact and enrollment material, Employee equity-management (stock) office-hours material, Lithium-ion battery recycling/scrap cost estimates (trade secrets), Purchase-requisition and indirect-procurement workflows, Lucid Air test-fleet VINs, Live Atlassian API token (username + token in conf.py), Supplier network: 30+ vendor domains with named contacts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-20T23:18:04+00:00"
-    },
-    {
-      "title": "Kingsport Cargo (logistics, Laravel intranet) By pixelleaks",
-      "url": "https://www.ransomlook.io//group/pixelleaks",
-      "feed_id": "4bc842451a924cc43b7e745392ee96391c506e8f4d63025265e1004899725045",
-      "date": "Fri, 20 Nov 2026 23:18:03 GMT",
-      "detail": "Logistics SME \u00b7 Poland Full data leak: 2026-11-24 21:21 UTC This disclosure concerns a verified set of records from an organization in the Logistics SME sector. The material scheduled for publication comprises a set of business records, including financial and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-20T23:18:03+00:00"
-    },
-    {
-      "title": "Arab Software Computer / ASCON (Oracle ERP hosting, Alexandria) By pixelleaks",
-      "url": "https://www.ransomlook.io//group/pixelleaks",
-      "feed_id": "ae57fe8b89bcfc35e2dfb2d815f5011ee425c092b66f8d420ea19c3c6156000a",
-      "date": "Fri, 20 Nov 2026 23:18:02 GMT",
-      "detail": "Oracle ERP vendor (Saudi client hosting) \u00b7 Egypt Full data leak: 2026-11-24 21:21 UTC This disclosure concerns a verified set of records from an organization in the Oracle ERP vendor (Saudi client hosting) sector. The material scheduled for publication comprises a set of business records, including personnel, financial, client, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-20T23:18:02+00:00"
+      "published": "2026-11-21T03:16:52+00:00"
     }
   ],
   "sources": [
@@ -336,21 +325,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 8,
+      "recent": 6,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 8,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 43,
+      "recent": 37,
       "shown": 5,
       "undated": 0
     },

@@ -1,0 +1,164 @@
+CYBER DAILY — 2026-11-21 11:27 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+20 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-129448: Apache Roller Deserialization of Untrusted Data Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-20T00:00:00+00:00
+Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-129448, CVE-2026-82384
+Fabricante: Apache
+Producto: Roller
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-23
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://lists.apache.org/thread/cc0jck13nb9vvcmzxzwotr6n16mx28z9 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129448
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-129448
+
+CVE-2026-123890: VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-20T00:00:00+00:00
+Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines Catalog addition date is not the attack date.
+CVEs: CVE-2026-123890
+Fabricante: Broadcom
+Producto: VMware vCenter
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines
+Fecha límite indicada por CISA: 2026-11-23
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123890
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123890
+
+CVE-2025-42884: SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-20T00:00:00+00:00
+SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2025-42884
+Fabricante: SAP
+Producto: NetWeaver
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-23
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-42884
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-42884
+
+CVE-2026-76466: Cisco Expressway Series Use of Hard-coded Credentials Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-20T00:00:00+00:00
+Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-76466
+Fabricante: Cisco
+Producto: Expressway Series
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-23
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76466
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76466
+
+Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM
+Microsoft Security | Research / advisory | 2026-11-20T17:00:00+00:00
+We’re honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). As security environments grow more complex and attackers move faster, organizations need more than the ability to collect and analyze data. They need comprehensive visibility, context to understand what is happening, and the ability to act before an attack causes further damage. Explore Microsoft Sentinel SIEM capabilities Comprehensive SIEM across the digital estate Microsoft Sentinel is our cloud-native SIEM, bringing together security data, advanced analytics, automation, and threat intelligence to help organizations protect their digital estate. With more than 500 connectors across Microsoft and third-party solutions, Microsoft Sentinel brings together signals from across complex, multicloud environments. Its rich library of out-of-the-box detections, informed by Microsoft’s threat intelligence and organizational context, helps defenders identify sophisticated threats without building every detection from scratch. Microsoft Sentinel supports the core capabilities security teams depend on, from scalable security data management and advanced detection to threat hunting, investigation, and response. The Microsoft Sentinel data lake centralizes historical and real-time security data across platforms and clouds for cost-effective retention and advanced analytics at scale. Security operations center (SOC) optimization and cost management help teams improve coverage, identify detection gaps, and make informed decisions about the data they collect and retain. Reimagining security operations for the agentic era On September 23, 2026, Microsoft introduced the Integrated Security Operations Center (ISOC) in Microsoft Defender , reimagining security operations for the agentic era. As threats grow more sophisticated and security environments more complex, traditional approaches built on disconnected tools and workflows can no longer keep pace. ISOC brings security operations and threat protection together, creating a unified foundation where people and AI agents can see, understand, and act across the environment. Through deep integration with Microsoft Sentinel, ISOC combines the full breadth of SIEM capabilities with extended detection and response (XDR), threat intelligence, posture management, and response. By connecting signals from Microsoft and third-party environments with rich security context and coordinated action, ISOC enables security teams to move beyond fragmented investigations toward faster, more proactive protection. Rather than operating as separate tools, the security stack works as one system, providing the foundation for agentic security. Attack disruption demonstrates what this integrated approach makes possible . Microsoft Defender correlates signals across Microsoft and third-party environments with threat intelligence to identify high-confidence attacks in progress and automatically contain compromised users and devices before threats spread. This includes ransomware, business email compromise, and adversary-in-the-middle attacks. Across customers, ransomware attacks are disrupted in just 30 seconds on average . Together, these capabilities demonstrate how Microsoft is moving security operations beyond detection and response toward an integrated, agentic approach that helps organizations anticipate, investigate, and stop threats faster. A shared foundation for people and agents AI is becoming part of how security teams work every day. Microsoft Sentinel combines advanced analytics, machine learning, and automation to help analysts use natural language to hunt for threats, generate response playbooks, support alert triage, analyze complex signals, and accelerate investigations. These capabilities reduce manual work and give defenders more time to focus on the threats and decisions that matter most. By enabling SIEM and native protection to operate as one system, ISOC gives people and AI agents a shared foundation to see, understand, and act across the environment. Agents bring speed and scale to continuous security operations, while people provide expertise, judgment, and accountability. Together, they can move beyond traditional, linear workflows toward continuous detection, investigation, and attack disruption. As agents take on more security operations workflows, comprehensive data, and rich context, the ability to act becomes even more important to helping organizations stop threats faster and deliver better security outcomes. Looking ahead The future of SIEM is about more than managing security data. It’s about ensuring your SIEM is a core building block of the agentic SOC, bringing together security data, intelligence, AI, and native protection so people and agents can understand threats sooner, act faster, and stop attacks before they spread. We’ll continue investing in the comprehensive SIEM capabilities customers rely on while advancing integrated, agentic security operations in Microsoft Defender. We’re grateful for the Gartner recognition and for the customers, partners, and security community whose feedback continues to shape Microsoft Sentinel. Learn more Explore Microsoft Sentinel . Learn about the Integrated Security Operations Center in Microsoft Defender. To learn more about Microsoft Security solutions, visit our website . Bookmark the Security blog to keep up with our expert coverage on security matters. Also, follow us on LinkedIn ( Microsoft Security ) and X ( @MSFTSecurity ) for the latest news and updates on cybersecurity. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security Blog .
+CVEs: Not stated in feed
+https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/
+
+Dialing for Data: Inside the Com’s High-Profile Heists
+Unit 42 | Research / advisory | 2026-11-20T22:00:25+00:00
+Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance. The post Dialing for Data: Inside the Com’s High-Profile Heists appeared first on Unit 42 .
+CVEs: Not stated in feed
+https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/
+
+Bell Canada says 'agentic' hacker stole enterprise customer data
+BleepingComputer | Research / advisory | 2026-11-20T18:51:43+00:00
+Bell Canada has confirmed that an "agentic" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/
+
+Hackers use autonomous AI tool Cairn to find zero-day, take over server
+BleepingComputer | Research / advisory | 2026-11-20T17:30:00+00:00
+Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/
+
+Vendor data breach exposes Chase, Visa, Mastercard customer info
+BleepingComputer | Research / advisory | 2026-11-20T15:58:06+00:00
+J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/
+
+Still tracking company passwords in spreadsheets? You’re flying blind.
+BleepingComputer | Research / advisory | 2026-11-20T15:00:10+00:00
+Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/
+
+N-able says recent security breach led to major service outage
+BleepingComputer | Research / advisory | 2026-11-20T13:18:36+00:00
+N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/
+
+WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign
+SecurityWeek | Research / advisory | 2026-11-20T16:01:02+00:00
+Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible. The post WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign appeared first on SecurityWeek .
+CVEs: CVE-2026-23871
+https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/
+
+In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit
+SecurityWeek | Research / advisory | 2026-11-20T14:56:23+00:00
+Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/
+
+Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday
+SecurityWeek | Research / advisory | 2026-11-20T12:38:55+00:00
+Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems. The post Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/
+
+SBC Medical Group Data Breach Impacts Over 2 Million
+SecurityWeek | Research / advisory | 2026-11-20T11:36:51+00:00
+Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/
+
+Vegely Welding Inc. By pear
+RansomLook | Ransomware claim / observation | 2026-11-21T08:17:30+00:00
+Specialize in the maintenance of steel structures and cranes, shipbuilding welding, on-site fabrication, manual welding, and much more Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/pear
+
+Law Office of Ronald D. Weiss, P.C By pear
+RansomLook | Ransomware claim / observation | 2026-11-21T08:17:29+00:00
+Specializing in bankruptcy, foreclosure defense, and debt negotiation services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/pear
+
+Realta Technologies By eclipse
+RansomLook | Ransomware claim / observation | 2026-11-21T07:16:58+00:00
+Réalta Technologies are a global Automation and Digital System Integrator Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/eclipse
+
+MT5 algo-trading farm (OneFunded funded account, WINSERVER) By pixelleaks
+RansomLook | Ransomware claim / observation | 2026-11-21T03:17:13+00:00
+Algorithmic trading operation (MT5 / Westernpips HFT arbitrage farm) · China Full data leak: 2026-11-24 22:22 UTC This disclosure concerns a verified set of records from an organization in the Algorithmic trading operation (MT / Westernpips HFT arbitrage farm) sector. The material scheduled for publication comprises a set of business records, including client and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/pixelleaks
+
+Lucid Motors By inception
+RansomLook | Ransomware claim / observation | 2026-11-21T03:16:52+00:00
+Size: 58 GB | Files: 79,303 | Deadline: Expired | Status: leaked SAP service-user IDs + email distribution lists (SDES), SAP access-provisioning process docs for non-production systems, SAP VENDOR_2 data-migration template with supplier tax IDs (SSNs), HR benefits documentation (Kaiser, VSP, Ceridian/Dayforce), Fidelity NetBenefits 401(k) contact and enrollment material, Employee equity-management (stock) office-hours material, Lithium-ion battery recycling/scrap cost estimates (trade secrets), Purchase-requisition and indirect-procurement workflows, Lucid Air test-fleet VINs, Live Atlassian API token (username + token in conf.py), Supplier network: 30+ vendor domains with named contacts Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/inception
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=4; shown=4; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=1; shown=1; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=1; shown=1; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=6; shown=5; undated excluded=0
+SecurityWeek: OK; recent=4; shown=4; undated excluded=0
+RansomLook: OK; recent=37; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
