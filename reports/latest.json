@@ -1,7 +1,51 @@
 {
-  "generated": "2026-11-22T11:42:34.970206+00:00",
+  "generated": "2026-11-22T19:51:51.019092+00:00",
   "hours": 24,
   "items": [
+    {
+      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33530",
+      "feed_id": "https://isc.sans.edu/diary/rss/33530",
+      "date": "Sun, 22 Nov 2026 18:40:18 GMT",
+      "detail": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-22T18:40:18+00:00"
+    },
+    {
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "date": "Sun, 22 Nov 2026 13:45:37 -0500",
+      "detail": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-22T18:45:37+00:00"
+    },
+    {
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "date": "Sun, 22 Nov 2026 10:43:04 -0500",
+      "detail": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-22T15:43:04+00:00"
+    },
+    {
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "date": "Sun, 22 Nov 2026 10:15:25 -0500",
+      "detail": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-22T15:15:25+00:00"
+    },
     {
       "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
       "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
@@ -12,39 +56,6 @@
       "kind": "Research / advisory",
       "source": "BleepingComputer",
       "published": "2026-11-21T22:59:58+00:00"
-    },
-    {
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "date": "Sat, 21 Nov 2026 13:01:58 -0500",
-      "detail": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-21T18:01:58+00:00"
-    },
-    {
-      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-      "date": "Sat, 21 Nov 2026 10:17:27 -0500",
-      "detail": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-21T15:17:27+00:00"
-    },
-    {
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-      "date": "Sat, 21 Nov 2026 09:26:04 -0500",
-      "detail": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-21T14:26:04+00:00"
     },
     {
       "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
@@ -58,26 +69,37 @@
       "published": "2026-11-22T00:53:02+00:00"
     },
     {
-      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-      "feed_id": "https://www.securityweek.com/?p=50987",
-      "date": "Sat, 21 Nov 2026 13:00:00 +0000",
-      "detail": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-21T13:00:00+00:00"
+      "title": "persistent.com By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "e929c48206988be331f906d18de2017b67fb3eb642eac70c605c2bc6863fd710",
+      "date": "Sun, 22 Nov 2026 16:16:44 GMT",
+      "detail": "tens of thousands of confidential and mission-critical data items Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T16:16:44+00:00"
     },
     {
-      "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "feed_id": "https://www.securityweek.com/?p=50982",
-      "date": "Sat, 21 Nov 2026 12:08:50 +0000",
-      "detail": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-21T12:08:50+00:00"
+      "title": "EconSys By direwolf",
+      "url": "https://www.ransomlook.io//group/direwolf",
+      "feed_id": "396e8961f1f795bb5584a4dcbb36ebfa30fac7f723b72eecbdf2816a39380b27",
+      "date": "Sun, 22 Nov 2026 16:16:41 GMT",
+      "detail": " Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T16:16:41+00:00"
+    },
+    {
+      "title": "Samsung Group: 1TB Data Breach from Ransomware Attack By hyflock",
+      "url": "https://www.ransomlook.io//group/hyflock",
+      "feed_id": "bac11f81658806f7fbc23104692670e6e04eb410ddfdb46b7481637859ee1d07",
+      "date": "Sun, 22 Nov 2026 15:20:21 GMT",
+      "detail": "Right now, our team is reviewing your security team\u2019s report on defenses against ransomware attacks. However, it appears you haven\u2019t adequately protected yourselves. We gained access through the initial entry point and spent two days inside, where we obtained ESX administrator privileges. After some time, you took the ESX device offline, and we thought we\u2019d been detected. But when we checked again the next day, it seemed you hadn\u2019t realized you\u2019d been attacked\u2014our access credentials hadn\u2019t been changed, and you\u2019d even brought the ESX device back online. We then continued our attack on your domain controllers: samsung-cps, samsung-rtm, and samsung-brn. What really surprised us was that all your passwords were set to \u201cSamsung01!\u201d We then began downloading 1 TB of data. Over the weekend, we encrypted your systems. A few hours after we confirmed that most of the data had been encrypted, your security team finally detected the breach, took all machines offline, and changed all access credentials. What struck us was that we remained undetected for over a month, yet your security team only reacted so quickly once the encryption had already taken place. Your security team failed to adequately protect your company against this ransomware attack. The the following countries: the Netherlands, Belgium, Luxembourg, Germany, Poland, India, the United Kingdom, and France. Samsung Group (Korean: \uc0bc\uc131\uadf8\ub8f9\uff0f\uc0bc\uc131\uadf8\ub8f9, Romanization: Samseong Geurup; English: Samsung Group) is a multinational conglomerate headquartered in Seoul, South Korea, with business operations spanning a wide range of sectors including electronics, finance, insurance, biopharmaceuticals, construction, chemicals, and healthcare. Its subsidiaries include Samsung Electronics, Samsung Display, Samsung Electro-Mechanics, Samsung C&T, Samsung Heavy Industries, and Samsung Life Insurance, among others; at least three of these subsidiaries have been ranked among the Fortune Global 500 by *Fortune* magazine. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T15:20:21+00:00"
     },
     {
       "title": "Law Offices of Cynthia A. de Petris By rhysida",
@@ -100,39 +122,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-22T11:16:13+00:00"
-    },
-    {
-      "title": "A Ransomware Attack on a Company Ranked Among the Top 30 in the Fortune 500 By hyflock",
-      "url": "https://www.ransomlook.io//group/hyflock",
-      "feed_id": "72a1d63b4af63a1b8c8d5f6c3a2c086a2fa98f5a140b6e190e5697d9113cfa0b",
-      "date": "Sun, 22 Nov 2026 11:15:52 GMT",
-      "detail": "We'll be posting a detailed account of this incident tomorrow, including some tongue-in-cheek commentary, so stay tuned. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-22T11:15:52+00:00"
-    },
-    {
-      "title": "UCA General Insurance Services, Inc By endzone",
-      "url": "https://www.ransomlook.io//group/endzone",
-      "feed_id": "a997d2ebcf5a1ba1fac6b33f6d4d642a496a4241ff6a58e99c4df2829df83a8e",
-      "date": "Sun, 22 Nov 2026 10:15:49 GMT",
-      "detail": "UCA General Insurance Services, Inc. is a privately held regional insurance program manager and managing general agency (MGA), specializing in commercial property and casualty insurance. We have exfiltrated over 250GB of very sensitive information and have encrypted files on the network. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-22T10:15:49+00:00"
-    },
-    {
-      "title": "Invicta Watch Group By qilin",
-      "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "204cba3b06828f34f208595087c7b9f17da8598d943fb34b8bc1ae8d61d987e0",
-      "date": "Sun, 22 Nov 2026 08:20:05 GMT",
-      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-22T08:20:05+00:00"
     }
   ],
   "sources": [
@@ -153,8 +142,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -216,14 +205,14 @@
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 20,
+      "recent": 11,
       "shown": 5,
       "undated": 0
     },
