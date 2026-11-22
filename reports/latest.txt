@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-11-22 01:26 UTC
+CYBER DAILY — 2026-11-22 11:42 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-14 entries selected. Feed excerpts, not full-article or AI analysis.
+12 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 Rackspace Spot breach let hackers access customer Kubernetes secrets
@@ -45,47 +45,35 @@ A threat actor used autonomous Cairn AI agents to discover and exploit a critica
 CVEs: Not stated in feed
 https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/
 
-ION Asset Architecture UK LTD By qilin
-RansomLook | Ransomware claim / observation | 2026-11-21T21:16:27+00:00
-Software Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Law Offices of Cynthia A. de Petris By rhysida
+RansomLook | Ransomware claim / observation | 2026-11-22T11:16:17+00:00
+Law Offices of Cynthia A. de Petris 60 905 files, 54.4 GB- Client identity documents: SSN card + state ID (Barboza), driver license receipts, birth certificates (children), passport (Egan Christensen 2023), tenants' driver licenses (Kelly Miller, Myron Marx).- Attorney's own documents: Social Security letter, financial docs, retainer agreements (2023�2026), DVRO retainer, 80+ client phone numbers in one file.- Finance: client tax returns, W-2, bank statements (Chase, Bank of the West), Coinbase account screenshot dated 25.12.2022 (hidden crypto asset in De Leon divorce), property ledgers, undeposited cash ledger.- Court/real estate: stipulations and orders on residence sale, purchase agreements, parking statements, insurance documents. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/rhysida
+
+Dynamic Education Services By n0n
+RansomLook | Ransomware claim / observation | 2026-11-22T11:16:13+00:00
+education services · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+A Ransomware Attack on a Company Ranked Among the Top 30 in the Fortune 500 By hyflock
+RansomLook | Ransomware claim / observation | 2026-11-22T11:15:52+00:00
+We'll be posting a detailed account of this incident tomorrow, including some tongue-in-cheek commentary, so stay tuned. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/hyflock
+
+UCA General Insurance Services, Inc By endzone
+RansomLook | Ransomware claim / observation | 2026-11-22T10:15:49+00:00
+UCA General Insurance Services, Inc. is a privately held regional insurance program manager and managing general agency (MGA), specializing in commercial property and casualty insurance. We have exfiltrated over 250GB of very sensitive information and have encrypted files on the network. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/endzone
+
+Invicta Watch Group By qilin
+RansomLook | Ransomware claim / observation | 2026-11-22T08:20:05+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/qilin
-
-tiic.com.ph By safepay
-RansomLook | Ransomware claim / observation | 2026-11-21T19:16:36+00:00
-Established in the 1950s, the company has developed into an established manufacturer and supplier of industrial chemicals, paints, construction materials, … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
-
-threeroyal.com By safepay
-RansomLook | Ransomware claim / observation | 2026-11-21T19:16:35+00:00
-The company specializes in the chemical manufacturing industry, particularly in the development and production of UV-curable materials, adhesives, coatings, and … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
-
-factotal.com By safepay
-RansomLook | Ransomware claim / observation | 2026-11-21T19:16:34+00:00
-The company specializes in providing financing solutions to small and medium-sized enterprises (SMEs), helping businesses improve their cash flow and … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
-
-offshore-ocs.com By safepay
-RansomLook | Ransomware claim / observation | 2026-11-21T19:16:33+00:00
-The company specializes in providing engineering, construction management, project consultancy, and marine installation services, primarily for the offshore oil and … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
-
-KDBS Solutions (client hosting) (PixelLeaks)
-CTI.fyi | Ransomware claim / observation | 2026-11-22T00:00:00+00:00
-Intelligence Summary: A technology hosting provider. Threat Syndicate: PixelLeaks Claimed Victim: KDBS Solutions (client hosting) Canonical Organization: KDBS Solutions Industry Sector: Technology Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#kdbs-solutions-client-hosting Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/PixelLeaks.html
-
-Proymoda (proymoda.com.mx) (PixelLeaks)
-CTI.fyi | Ransomware claim / observation | 2026-11-22T00:00:00+00:00
-Intelligence Summary: A Mexican fashion retailer specializing in clothing and accessories. Threat Syndicate: PixelLeaks Claimed Victim: Proymoda (proymoda.com.mx) Canonical Organization: Proymoda Target Domain: proymoda.com.mx Industry Sector: Other Geographic Location: 🇲🇽 MX Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#proymoda-proymoda-com-mx Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://cti.fyi/groups/PixelLeaks.html
 
 SOURCE COVERAGE
 CISA KEV: OK; recent=0; shown=0; undated excluded=0
@@ -100,5 +88,5 @@ ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
 BleepingComputer: OK; recent=4; shown=4; undated excluded=0
 SecurityWeek: OK; recent=3; shown=3; undated excluded=0
-RansomLook: OK; recent=18; shown=5; undated excluded=0
-CTI.fyi: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=20; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

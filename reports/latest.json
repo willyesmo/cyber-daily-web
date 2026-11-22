@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T01:26:38.439912+00:00",
+  "generated": "2026-11-22T11:42:34.970206+00:00",
   "hours": 24,
   "items": [
     {
@@ -80,81 +80,59 @@
       "published": "2026-11-21T12:08:50+00:00"
     },
     {
-      "title": "ION Asset Architecture UK LTD By qilin",
+      "title": "Law Offices of Cynthia A. de Petris By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "e7ead0f51667e810f77d59d243802640448159144ed9aedab2a2cac33cafb2d3",
+      "date": "Sun, 22 Nov 2026 11:16:17 GMT",
+      "detail": "Law Offices of Cynthia A. de Petris 60 905 files, 54.4 GB- Client identity documents: SSN card + state ID (Barboza), driver license receipts, birth certificates (children), passport (Egan Christensen 2023), tenants' driver licenses (Kelly Miller, Myron Marx).- Attorney's own documents: Social Security letter, financial docs, retainer agreements (2023\ufffd2026), DVRO retainer, 80+ client phone numbers in one file.- Finance: client tax returns, W-2, bank statements (Chase, Bank of the West), Coinbase account screenshot dated 25.12.2022 (hidden crypto asset in De Leon divorce), property ledgers, undeposited cash ledger.- Court/real estate: stipulations and orders on residence sale, purchase agreements, parking statements, insurance documents. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T11:16:17+00:00"
+    },
+    {
+      "title": "Dynamic Education Services By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "db83e84ca4ce4de4612af83fae6f562a516f5d0a461b98d591d010f5c3580c6f",
+      "date": "Sun, 22 Nov 2026 11:16:13 GMT",
+      "detail": "education services \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T11:16:13+00:00"
+    },
+    {
+      "title": "A Ransomware Attack on a Company Ranked Among the Top 30 in the Fortune 500 By hyflock",
+      "url": "https://www.ransomlook.io//group/hyflock",
+      "feed_id": "72a1d63b4af63a1b8c8d5f6c3a2c086a2fa98f5a140b6e190e5697d9113cfa0b",
+      "date": "Sun, 22 Nov 2026 11:15:52 GMT",
+      "detail": "We'll be posting a detailed account of this incident tomorrow, including some tongue-in-cheek commentary, so stay tuned. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T11:15:52+00:00"
+    },
+    {
+      "title": "UCA General Insurance Services, Inc By endzone",
+      "url": "https://www.ransomlook.io//group/endzone",
+      "feed_id": "a997d2ebcf5a1ba1fac6b33f6d4d642a496a4241ff6a58e99c4df2829df83a8e",
+      "date": "Sun, 22 Nov 2026 10:15:49 GMT",
+      "detail": "UCA General Insurance Services, Inc. is a privately held regional insurance program manager and managing general agency (MGA), specializing in commercial property and casualty insurance. We have exfiltrated over 250GB of very sensitive information and have encrypted files on the network. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T10:15:49+00:00"
+    },
+    {
+      "title": "Invicta Watch Group By qilin",
       "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "4dbdb6783bed1a1ffc0b8a40a681c321eadf494826e50031b07ced0022171561",
-      "date": "Sat, 21 Nov 2026 21:16:27 GMT",
-      "detail": "Software Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "204cba3b06828f34f208595087c7b9f17da8598d943fb34b8bc1ae8d61d987e0",
+      "date": "Sun, 22 Nov 2026 08:20:05 GMT",
+      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-21T21:16:27+00:00"
-    },
-    {
-      "title": "tiic.com.ph By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "a20367db38f7969728158a139b20e54e3027b0183a3c13f0de4b5fd7a54b44df",
-      "date": "Sat, 21 Nov 2026 19:16:36 GMT",
-      "detail": "Established in the 1950s, the company has developed into an established manufacturer and supplier of industrial chemicals, paints, construction materials, \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-21T19:16:36+00:00"
-    },
-    {
-      "title": "threeroyal.com By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "d1bd7232ed455fa00398aa69224078c4ff2726afb63d57cf2c1fd6d020e7a260",
-      "date": "Sat, 21 Nov 2026 19:16:35 GMT",
-      "detail": "The company specializes in the chemical manufacturing industry, particularly in the development and production of UV-curable materials, adhesives, coatings, and \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-21T19:16:35+00:00"
-    },
-    {
-      "title": "factotal.com By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "b474bc6c6a1c6d62b1d6c43585466cf46803fc87ca3fb6657c3ffa39ad7f8bd2",
-      "date": "Sat, 21 Nov 2026 19:16:34 GMT",
-      "detail": "The company specializes in providing financing solutions to small and medium-sized enterprises (SMEs), helping businesses improve their cash flow and \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-21T19:16:34+00:00"
-    },
-    {
-      "title": "offshore-ocs.com By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "f1962086d72186bf2a63c84b7794989d4d8b3960ce09e79d832da8369173bd7f",
-      "date": "Sat, 21 Nov 2026 19:16:33 GMT",
-      "detail": "The company specializes in providing engineering, construction management, project consultancy, and marine installation services, primarily for the offshore oil and \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-21T19:16:33+00:00"
-    },
-    {
-      "title": "KDBS Solutions (client hosting) (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "b886390e1aa843209a184e2b8b466475",
-      "date": "Sun, 22 Nov 2026 00:00:00 +0000",
-      "detail": "Intelligence Summary: A technology hosting provider. Threat Syndicate: PixelLeaks Claimed Victim: KDBS Solutions (client hosting) Canonical Organization: KDBS Solutions Industry Sector: Technology Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#kdbs-solutions-client-hosting Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-22T00:00:00+00:00"
-    },
-    {
-      "title": "Proymoda (proymoda.com.mx) (PixelLeaks)",
-      "url": "https://cti.fyi/groups/PixelLeaks.html",
-      "feed_id": "f1e6d6f1ac64ffbca7cd344a94b99871",
-      "date": "Sun, 22 Nov 2026 00:00:00 +0000",
-      "detail": "Intelligence Summary: A Mexican fashion retailer specializing in clothing and accessories. Threat Syndicate: PixelLeaks Claimed Victim: Proymoda (proymoda.com.mx) Canonical Organization: Proymoda Target Domain: proymoda.com.mx Industry Sector: Other Geographic Location: \ud83c\uddf2\ud83c\uddfd MX Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#proymoda-proymoda-com-mx Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
-      "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-22T00:00:00+00:00"
+      "published": "2026-11-22T08:20:05+00:00"
     }
   ],
   "sources": [
@@ -245,15 +223,15 @@
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 18,
+      "recent": 20,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 2,
-      "shown": 2,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]

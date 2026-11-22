@@ -1,0 +1,92 @@
+CYBER DAILY — 2026-11-22 11:42 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+12 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Rackspace Spot breach let hackers access customer Kubernetes secrets
+BleepingComputer | Research / advisory | 2026-11-21T22:59:58+00:00
+Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/
+
+Microsoft Entra Connect Health flaw exploited to steal tenant data
+BleepingComputer | Research / advisory | 2026-11-21T18:01:58+00:00
+Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
+
+BADBOX botnet returns with record-breaking 40 billion daily ad requests
+BleepingComputer | Research / advisory | 2026-11-21T15:17:27+00:00
+The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/
+
+FBI reportedly hacked again, this time targeting nationwide police database
+BleepingComputer | Research / advisory | 2026-11-21T14:26:04+00:00
+FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
+
+FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says
+SecurityWeek | Research / advisory | 2026-11-22T00:53:02+00:00
+The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/
+
+President Trump Taps Kirsten Davies as National Cyber Director
+SecurityWeek | Research / advisory | 2026-11-21T13:00:00+00:00
+White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/
+
+Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day
+SecurityWeek | Research / advisory | 2026-11-21T12:08:50+00:00
+A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/
+
+Law Offices of Cynthia A. de Petris By rhysida
+RansomLook | Ransomware claim / observation | 2026-11-22T11:16:17+00:00
+Law Offices of Cynthia A. de Petris 60 905 files, 54.4 GB- Client identity documents: SSN card + state ID (Barboza), driver license receipts, birth certificates (children), passport (Egan Christensen 2023), tenants' driver licenses (Kelly Miller, Myron Marx).- Attorney's own documents: Social Security letter, financial docs, retainer agreements (2023�2026), DVRO retainer, 80+ client phone numbers in one file.- Finance: client tax returns, W-2, bank statements (Chase, Bank of the West), Coinbase account screenshot dated 25.12.2022 (hidden crypto asset in De Leon divorce), property ledgers, undeposited cash ledger.- Court/real estate: stipulations and orders on residence sale, purchase agreements, parking statements, insurance documents. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/rhysida
+
+Dynamic Education Services By n0n
+RansomLook | Ransomware claim / observation | 2026-11-22T11:16:13+00:00
+education services · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+A Ransomware Attack on a Company Ranked Among the Top 30 in the Fortune 500 By hyflock
+RansomLook | Ransomware claim / observation | 2026-11-22T11:15:52+00:00
+We'll be posting a detailed account of this incident tomorrow, including some tongue-in-cheek commentary, so stay tuned. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/hyflock
+
+UCA General Insurance Services, Inc By endzone
+RansomLook | Ransomware claim / observation | 2026-11-22T10:15:49+00:00
+UCA General Insurance Services, Inc. is a privately held regional insurance program manager and managing general agency (MGA), specializing in commercial property and casualty insurance. We have exfiltrated over 250GB of very sensitive information and have encrypted files on the network. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/endzone
+
+Invicta Watch Group By qilin
+RansomLook | Ransomware claim / observation | 2026-11-22T08:20:05+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/qilin
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=4; shown=4; undated excluded=0
+SecurityWeek: OK; recent=3; shown=3; undated excluded=0
+RansomLook: OK; recent=20; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
