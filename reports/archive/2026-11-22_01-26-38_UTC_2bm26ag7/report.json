@@ -1,0 +1,260 @@
+{
+  "generated": "2026-11-22T01:26:38.439912+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "date": "Sat, 21 Nov 2026 17:59:58 -0500",
+      "detail": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-21T22:59:58+00:00"
+    },
+    {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "date": "Sat, 21 Nov 2026 13:01:58 -0500",
+      "detail": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-21T18:01:58+00:00"
+    },
+    {
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "date": "Sat, 21 Nov 2026 10:17:27 -0500",
+      "detail": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-21T15:17:27+00:00"
+    },
+    {
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "date": "Sat, 21 Nov 2026 09:26:04 -0500",
+      "detail": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-21T14:26:04+00:00"
+    },
+    {
+      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "feed_id": "https://www.securityweek.com/?p=50985",
+      "date": "Sun, 22 Nov 2026 00:53:02 +0000",
+      "detail": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-22T00:53:02+00:00"
+    },
+    {
+      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+      "feed_id": "https://www.securityweek.com/?p=50987",
+      "date": "Sat, 21 Nov 2026 13:00:00 +0000",
+      "detail": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-21T13:00:00+00:00"
+    },
+    {
+      "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
+      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "feed_id": "https://www.securityweek.com/?p=50982",
+      "date": "Sat, 21 Nov 2026 12:08:50 +0000",
+      "detail": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-21T12:08:50+00:00"
+    },
+    {
+      "title": "ION Asset Architecture UK LTD By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "4dbdb6783bed1a1ffc0b8a40a681c321eadf494826e50031b07ced0022171561",
+      "date": "Sat, 21 Nov 2026 21:16:27 GMT",
+      "detail": "Software Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T21:16:27+00:00"
+    },
+    {
+      "title": "tiic.com.ph By safepay",
+      "url": "https://www.ransomlook.io//group/safepay",
+      "feed_id": "a20367db38f7969728158a139b20e54e3027b0183a3c13f0de4b5fd7a54b44df",
+      "date": "Sat, 21 Nov 2026 19:16:36 GMT",
+      "detail": "Established in the 1950s, the company has developed into an established manufacturer and supplier of industrial chemicals, paints, construction materials, \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T19:16:36+00:00"
+    },
+    {
+      "title": "threeroyal.com By safepay",
+      "url": "https://www.ransomlook.io//group/safepay",
+      "feed_id": "d1bd7232ed455fa00398aa69224078c4ff2726afb63d57cf2c1fd6d020e7a260",
+      "date": "Sat, 21 Nov 2026 19:16:35 GMT",
+      "detail": "The company specializes in the chemical manufacturing industry, particularly in the development and production of UV-curable materials, adhesives, coatings, and \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T19:16:35+00:00"
+    },
+    {
+      "title": "factotal.com By safepay",
+      "url": "https://www.ransomlook.io//group/safepay",
+      "feed_id": "b474bc6c6a1c6d62b1d6c43585466cf46803fc87ca3fb6657c3ffa39ad7f8bd2",
+      "date": "Sat, 21 Nov 2026 19:16:34 GMT",
+      "detail": "The company specializes in providing financing solutions to small and medium-sized enterprises (SMEs), helping businesses improve their cash flow and \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T19:16:34+00:00"
+    },
+    {
+      "title": "offshore-ocs.com By safepay",
+      "url": "https://www.ransomlook.io//group/safepay",
+      "feed_id": "f1962086d72186bf2a63c84b7794989d4d8b3960ce09e79d832da8369173bd7f",
+      "date": "Sat, 21 Nov 2026 19:16:33 GMT",
+      "detail": "The company specializes in providing engineering, construction management, project consultancy, and marine installation services, primarily for the offshore oil and \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T19:16:33+00:00"
+    },
+    {
+      "title": "KDBS Solutions (client hosting) (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "b886390e1aa843209a184e2b8b466475",
+      "date": "Sun, 22 Nov 2026 00:00:00 +0000",
+      "detail": "Intelligence Summary: A technology hosting provider. Threat Syndicate: PixelLeaks Claimed Victim: KDBS Solutions (client hosting) Canonical Organization: KDBS Solutions Industry Sector: Technology Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#kdbs-solutions-client-hosting Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-22T00:00:00+00:00"
+    },
+    {
+      "title": "Proymoda (proymoda.com.mx) (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "f1e6d6f1ac64ffbca7cd344a94b99871",
+      "date": "Sun, 22 Nov 2026 00:00:00 +0000",
+      "detail": "Intelligence Summary: A Mexican fashion retailer specializing in clothing and accessories. Threat Syndicate: PixelLeaks Claimed Victim: Proymoda (proymoda.com.mx) Canonical Organization: Proymoda Target Domain: proymoda.com.mx Industry Sector: Other Geographic Location: \ud83c\uddf2\ud83c\uddfd MX Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#proymoda-proymoda-com-mx Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-22T00:00:00+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 4,
+      "shown": 4,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 18,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 2,
+      "shown": 2,
+      "undated": 0
+    }
+  ]
+}

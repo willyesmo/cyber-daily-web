@@ -1,89 +1,17 @@
 {
-  "generated": "2026-11-21T19:32:26.130248+00:00",
+  "generated": "2026-11-22T01:26:38.439912+00:00",
   "hours": 24,
   "items": [
     {
-      "title": "CVE-2026-129448: Apache Roller Deserialization of Untrusted Data Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-129448",
-      "date": "2026-11-20",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Apache",
-        "Producto": "Roller",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-23",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://lists.apache.org/thread/cc0jck13nb9vvcmzxzwotr6n16mx28z9 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-123890: VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123890",
-      "date": "2026-11-20",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Broadcom",
-        "Producto": "VMware vCenter",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-23",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2025-42884: SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-42884",
-      "date": "2026-11-20",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "SAP",
-        "Producto": "NetWeaver",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-23",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-76466: Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76466",
-      "date": "2026-11-20",
-      "kind": "Known exploitation / catalog addition",
-      "detail": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
-      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
-      "facts": {
-        "Fabricante": "Cisco",
-        "Producto": "Expressway Series",
-        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "Fecha l\u00edmite indicada por CISA": "2026-11-23",
-        "Uso conocido en ransomware": "Unknown",
-        "Notas de CISA": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
-      },
-      "source": "CISA KEV",
-      "published": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "title": "Dialing for Data: Inside the Com\u2019s High-Profile Heists",
-      "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=189953",
-      "date": "Fri, 20 Nov 2026 22:00:25 +0000",
-      "detail": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance. The post Dialing for Data: Inside the Com\u2019s High-Profile Heists appeared first on Unit 42 .",
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "date": "Sat, 21 Nov 2026 17:59:58 -0500",
+      "detail": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-11-20T22:00:25+00:00"
+      "source": "BleepingComputer",
+      "published": "2026-11-21T22:59:58+00:00"
     },
     {
       "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
@@ -119,6 +47,28 @@
       "published": "2026-11-21T14:26:04+00:00"
     },
     {
+      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "feed_id": "https://www.securityweek.com/?p=50985",
+      "date": "Sun, 22 Nov 2026 00:53:02 +0000",
+      "detail": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-22T00:53:02+00:00"
+    },
+    {
+      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+      "feed_id": "https://www.securityweek.com/?p=50987",
+      "date": "Sat, 21 Nov 2026 13:00:00 +0000",
+      "detail": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-21T13:00:00+00:00"
+    },
+    {
       "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
       "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
       "feed_id": "https://www.securityweek.com/?p=50982",
@@ -128,6 +78,17 @@
       "kind": "Research / advisory",
       "source": "SecurityWeek",
       "published": "2026-11-21T12:08:50+00:00"
+    },
+    {
+      "title": "ION Asset Architecture UK LTD By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "4dbdb6783bed1a1ffc0b8a40a681c321eadf494826e50031b07ced0022171561",
+      "date": "Sat, 21 Nov 2026 21:16:27 GMT",
+      "detail": "Software Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-21T21:16:27+00:00"
     },
     {
       "title": "tiic.com.ph By safepay",
@@ -174,23 +135,34 @@
       "published": "2026-11-21T19:16:33+00:00"
     },
     {
-      "title": "relax.es By safepay",
-      "url": "https://www.ransomlook.io//group/safepay",
-      "feed_id": "bb1ae33c61369bd9d4cabd592af4927960bac2411a3b28a6872f50c19695988a",
-      "date": "Sat, 21 Nov 2026 19:16:32 GMT",
-      "detail": "The company's origins date back to 1907, when a small workshop was established in Zaragoza for manufacturing and repairing bed \u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
+      "title": "KDBS Solutions (client hosting) (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "b886390e1aa843209a184e2b8b466475",
+      "date": "Sun, 22 Nov 2026 00:00:00 +0000",
+      "detail": "Intelligence Summary: A technology hosting provider. Threat Syndicate: PixelLeaks Claimed Victim: KDBS Solutions (client hosting) Canonical Organization: KDBS Solutions Industry Sector: Technology Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#kdbs-solutions-client-hosting Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
       "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-21T19:16:32+00:00"
+      "source": "CTI.fyi",
+      "published": "2026-11-22T00:00:00+00:00"
+    },
+    {
+      "title": "Proymoda (proymoda.com.mx) (PixelLeaks)",
+      "url": "https://cti.fyi/groups/PixelLeaks.html",
+      "feed_id": "f1e6d6f1ac64ffbca7cd344a94b99871",
+      "date": "Sun, 22 Nov 2026 00:00:00 +0000",
+      "detail": "Intelligence Summary: A Mexican fashion retailer specializing in clothing and accessories. Threat Syndicate: PixelLeaks Claimed Victim: Proymoda (proymoda.com.mx) Canonical Organization: Proymoda Target Domain: proymoda.com.mx Industry Sector: Other Geographic Location: \ud83c\uddf2\ud83c\uddfd MX Date Published: 2026-11-22 00:00:00 Date Updated (Revisited): 2026-11-22 01:06:18 Date Discovered: 2026-11-18 01:07:59.322251 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#proymoda-proymoda-com-mx Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de CTI.fyi",
+      "kind": "Ransomware claim / observation",
+      "source": "CTI.fyi",
+      "published": "2026-11-22T00:00:00+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -231,8 +203,8 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -259,29 +231,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 36,
+      "recent": 18,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     }
   ]
