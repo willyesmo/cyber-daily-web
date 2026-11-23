@@ -1,0 +1,74 @@
+CYBER DAILY — 2026-11-23 01:50 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+9 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+A brief history of syslog timestamps, (Sun, Nov 22nd)
+SANS Internet Storm Center | Research / advisory | 2026-11-22T18:40:18+00:00
+BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33530
+
+Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices
+BleepingComputer | Research / advisory | 2026-11-22T18:45:37+00:00
+GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
+
+Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
+BleepingComputer | Research / advisory | 2026-11-22T15:43:04+00:00
+E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+
+Signal to block Siri, Gemini AI from capturing chats on iOS, Android
+BleepingComputer | Research / advisory | 2026-11-22T15:15:25+00:00
+Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/
+
+Company #243 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-23T00:17:00+00:00
+healthcare · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+Company #242 By n0n
+RansomLook | Ransomware claim / observation | 2026-11-23T00:17:00+00:00
+healthcare · United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/n0n
+
+cybage-software-pvt-ltd By inc ransom
+RansomLook | Ransomware claim / observation | 2026-11-23T00:16:38+00:00
+Thousands of personal data of employees and their families, contracts and NDA agreements are confidential Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/inc%20ransom
+
+East Jerusalem food distribution firm (AlArabi InterBase accounting estate) By pixelleaks
+RansomLook | Ransomware claim / observation | 2026-11-22T23:16:52+00:00
+Food and confectionery distribution · Israel Full data leak: 2026-11-26 16:23 UTC This disclosure concerns a verified set of records from an organization in the Food and confectionery distribution sector. The material scheduled for publication comprises a set of business records, including financial, client, legal, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/pixelleaks
+
+Indian railway Tatkal booking agency (licensed booking bot operator) By pixelleaks
+RansomLook | Ransomware claim / observation | 2026-11-22T23:16:51+00:00
+Railway ticket booking services (Tatkal agency) · India Full data leak: 2026-11-26 12:42 UTC This disclosure concerns a verified set of records from an operator in the railway ticket booking services sector in India. The material scheduled for publication comprises the booking database with four railway booking accounts and payment collection accounts, browser profiles with the live booking site sessions, and complete booking logs with seven passengers' personal records including names, ages, gender and berth and food preferences, three client mobile numbers, trains, routes and fares. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory and reputational consequences for the operator and privacy consequences for the passengers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/pixelleaks
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=3; shown=3; undated excluded=0
+SecurityWeek: OK; recent=0; shown=0; undated excluded=0
+RansomLook: OK; recent=17; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0

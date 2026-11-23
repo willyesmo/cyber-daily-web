@@ -1,0 +1,205 @@
+{
+  "generated": "2026-11-23T01:50:42.720621+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33530",
+      "feed_id": "https://isc.sans.edu/diary/rss/33530",
+      "date": "Sun, 22 Nov 2026 18:40:18 GMT",
+      "detail": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-22T18:40:18+00:00"
+    },
+    {
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "date": "Sun, 22 Nov 2026 13:45:37 -0500",
+      "detail": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-22T18:45:37+00:00"
+    },
+    {
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "date": "Sun, 22 Nov 2026 10:43:04 -0500",
+      "detail": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-22T15:43:04+00:00"
+    },
+    {
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "date": "Sun, 22 Nov 2026 10:15:25 -0500",
+      "detail": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-22T15:15:25+00:00"
+    },
+    {
+      "title": "Company #243 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "0213bad674ec354e5b0cc5c96aa5f50f6f3307a041f412961226fbe2d6f1a873",
+      "date": "Mon, 23 Nov 2026 00:17:00 GMT",
+      "detail": "healthcare \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-23T00:17:00+00:00"
+    },
+    {
+      "title": "Company #242 By n0n",
+      "url": "https://www.ransomlook.io//group/n0n",
+      "feed_id": "170388af8440d211f620e2a84c45ece75a435996a04e4394f8163a11aac75a6d",
+      "date": "Mon, 23 Nov 2026 00:17:00 GMT",
+      "detail": "healthcare \u00b7 United States Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-23T00:17:00+00:00"
+    },
+    {
+      "title": "cybage-software-pvt-ltd By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "21c521e7610c1bc6c65984237969b6defa9d546ed006f7136aff17d6ff72f994",
+      "date": "Mon, 23 Nov 2026 00:16:38 GMT",
+      "detail": "Thousands of personal data of employees and their families, contracts and NDA agreements are confidential Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-23T00:16:38+00:00"
+    },
+    {
+      "title": "East Jerusalem food distribution firm (AlArabi InterBase accounting estate) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "23921694090e4e5704a348f6660a3804b80b7a55494b4a9d911cd06d23fb8787",
+      "date": "Sun, 22 Nov 2026 23:16:52 GMT",
+      "detail": "Food and confectionery distribution \u00b7 Israel Full data leak: 2026-11-26 16:23 UTC This disclosure concerns a verified set of records from an organization in the Food and confectionery distribution sector. The material scheduled for publication comprises a set of business records, including financial, client, legal, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T23:16:52+00:00"
+    },
+    {
+      "title": "Indian railway Tatkal booking agency (licensed booking bot operator) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "cb590838d5c0a7255facf2398508150c62722b0bc8a4e87054cf402389c3353b",
+      "date": "Sun, 22 Nov 2026 23:16:51 GMT",
+      "detail": "Railway ticket booking services (Tatkal agency) \u00b7 India Full data leak: 2026-11-26 12:42 UTC This disclosure concerns a verified set of records from an operator in the railway ticket booking services sector in India. The material scheduled for publication comprises the booking database with four railway booking accounts and payment collection accounts, browser profiles with the live booking site sessions, and complete booking logs with seven passengers' personal records including names, ages, gender and berth and food preferences, three client mobile numbers, trains, routes and fares. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory and reputational consequences for the operator and privacy consequences for the passengers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-22T23:16:51+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 1,
+      "shown": 1,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 3,
+      "shown": 3,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 17,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}
