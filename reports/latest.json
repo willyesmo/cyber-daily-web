@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T02:24:12.503345+00:00",
+  "generated": "2026-11-24T13:59:27.995672+00:00",
   "hours": 24,
   "items": [
     {
@@ -39,6 +39,17 @@
       "published": "2026-11-23T00:00:00+00:00"
     },
     {
+      "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33550",
+      "feed_id": "https://isc.sans.edu/diary/rss/33550",
+      "date": "Tue, 24 Nov 2026 02:32:00 GMT",
+      "detail": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is still ongoing as of this writing.",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SANS Internet Storm Center",
+      "published": "2026-11-24T02:32:00+00:00"
+    },
+    {
       "title": "ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)",
       "url": "https://isc.sans.edu/diary/rss/33552",
       "feed_id": "https://isc.sans.edu/diary/rss/33552",
@@ -50,15 +61,15 @@
       "published": "2026-11-24T02:00:04+00:00"
     },
     {
-      "title": "Black Friday, red flags: too-good-to-be-true deals hiding real threats",
-      "url": "https://securelist.com/black-friday-threat-report-2026/122061/",
-      "feed_id": "https://kasperskycontenthub.com/securelist/?p=122061",
-      "date": "Mon, 23 Nov 2026 10:00:43 +0000",
-      "detail": "Intro Black Friday remains a defining moment of the holiday shopping season and a key period for cybercriminals seeking to exploit the surge in consumer activity. The scale of this demand is reflected in seasonal spending patterns. According to PwC\u2019s post-holiday analysis , holiday spending rose by 6.4% year over year in 2025, with Black Friday once again being the peak sales day generating nearly $20 billion. Consumer behavior points to the same trend: KPMG\u2019s 2026 Consumer Pulse Survey found that Black Friday remains the most important sales event, with 62% of respondents pointing to its importance. Moreover, it is strongly associated with online shopping, with 83% of consumers preferring to buy online or combine online and in-person purchases on this occasion. To find the best offers, 55% of respondents in 2026 planned to research purchases through retailer websites and 46% through brand websites. As shopping activity concentrates online during peak sales periods, threat actors gain broader opportunities to exploit consumer demand, trusted brands, and heavy promotional traffic to steal credentials, payment data, and money. At Kaspersky, we closely follow the cybersecurity risks associated with major shopping events and seasonal spikes in online retail activity. Our annual analysis examines how cybercriminals adapt their tactics to target consumers during high-demand sales periods. This report extends our annual Securelist series published in 2021 , 2022 , 2023 , 2024 , and 2025 , exploring how shopping-related cyberthreats continue to evolve. Methodology To keep pace with the evolving shopping threat landscape, we conduct an annual assessment of the most prevalent malicious techniques, including financial malware, phishing pages impersonating major retailers, e-commerce platforms, digital services, banks, and payment providers, as well as spam campaigns designed to steer users to fraudulent sites. The threat data we rely on is sourced from Kaspersky Security Network (KSN), which processes anonymized cybersecurity data shared consensually by Kaspersky users. Most of the data in this report draws on was collected from January through October 2026. Key findings In the first ten months of 2026, Kaspersky identified more than 19 million phishing attacks targeting users of online stores, payment systems and banks, a year-on-year increase of 1% . As many as 5% of these attacks were directed at online shoppers. Around 84% of all phishing attacks targeting users of online stores and subscription services involve scammers impersonating Amazon, Apple, Netflix, Shopify and Alibaba Group pages. Netflix-themed phishing detections grew by 5% in 2026 in comparison with 2025 data. We detected more than 220,071 sales-themed spam messages in the first two weeks of November, which is 50.2% more than in 2025. More than 801,000 banking Trojan attacks were recorded during the first 10 months of 2026. Between June and November 2026, Kaspersky products have already detected over 27,000 attacks by malware and potentially unwanted applications posing as GTA VI-related content. Shopping-related phishing by the numbers Phishing and scams remain among the most persistent threats for online shoppers, particularly during peak sales periods, when heightened transaction volumes and time-sensitive offers create conditions for abuse. One of the most notable developments in recent years has been the growing use of AI to increase the speed, scale and sophistication of such campaigns. AI-enabled tools can be used to generate convincing phishing emails, fraudulent shopping pages, and realistic seller identities, while also adapting messages and visuals to mimic legitimate brands. In the context of major retail events, where consumers often move quickly across marketplaces, social platforms, and promotional channels, this added level of automation further increases the risk of deception, credential theft, and financial loss. Although phishing has long remained a common method of deceiving users, we are seeing a growing number of attacks in segments related to online shopping. From January through October 2026, Kaspersky products blocked 19,063,077 attempts to access phishing links targeting users of online stores, payment systems, and banks \u2013 nearly three times ( 198.1% ) more than during the same period last year, when 6,394,854 such attempts were recorded. A breakdown of these attempts shows that 44.54% targeted online shoppers, compared with 48.21% in 2025; 28.55% targeted banking users, up from 26.10%; and 26.91% mimicked payment systems, versus 25.69% last year. Financial phishing attacks by category, January\u2013October 2026 ( download ) Since 2021, we have conducted annual assessments of the distribution of phishing attacks targeting users across popular online platforms, including Amazon, Alibaba Group, eBay, Mercado Libre, and Walmart, in order to track how the attackers abuse trusted brands. In 2026, Kaspersky products detected and blocked 3,102,304 phishing attempts involving the misuse of Amazon\u2019s brand, up 411.6% from 606,369 attempts in 2025. Threat actors consistently stick to leveraging well-known and trusted consumer platforms to enhance the credibility of fraudulent pages. Other major e-commerce brands were also widely impersonated in phishing campaigns. Kaspersky detected 360,949 attempts to visit phishing pages mimicking Alibaba-owned brands including AliExpress, while eBay-themed phishing pages accounted for 163,381 alerts. The Latin American marketplace Mercado Libre was used as a lure in 109,081 cases, and Walmart-related phishing pages were identified 74,220 times. Popular online stores mimicked by scammers, January\u2013October 2026 ( download ) The rankings of platforms most frequently impersonated by scammers include more than just brands directly associated with tangible items. The attackers are equally interested in scamming users of popular services selling digital products, such as music, TV shows, e-books, and others. The overall top five brands abused in 2026 were Amazon, Apple, Netflix, Shopify, and Alibaba Group\u2013associated brands, which together were mimicked in 7,119,400 detections. Overall, these five platforms represented 83.83% of all phishing attacks associated with online stores and subscription services. TOP 5 online platforms mimicked by scammers, January\u2013October 2026 ( download ) As mentioned before, Amazon was abused in 3,102,304 detections, or 36.53% of the total. Phishing pages impersonating Apple-related resources accounted for 1,622,917 detections, or 19.1%. Netflix-themed phishing accounted for 1,365,648 detections, or 16.08% of the total, marking a 70.5% increase from 801,148 detections recorded in 2025. Shopify-themed phishing accounted for 667,582 detections, or 7.86%. What mass scam campaigns look like Mass scam campaigns often rely on phishing kits or templates that can be used to quickly build numerous pages that target different markets, languages, and user segments and mimic widely used platforms. These platforms are broadly recognized and generally trusted by the users, while standardized scam flows allow attackers to scale operations with minimal effort. Across these campaigns, scammers combine familiar visual design, urgent calls to action, and fake login, payment, or verification pages. Brand recognition in this scenario works against users: the more familiar an interface looks, the less likely a visitor is to question its authenticity. This logic forms the basis of a whole cluster of phishing campaigns that abuse the names of major tech platforms. Fraudulent pages copying login pages of these platforms reproduce the original layout, branding, and even alternative sign-in options, leaving credential entry forms as the only interactive element \u2013 everything typed into these forms goes straight to the attackers. Hijacked logins to an e-commerce platform potentially open the door not only to the victims\u2019 purchase history or payment methods in this exact store, but also to other accounts that use the same login credentials. Scammers often create pages that replicate the fonts and visual style of the original site. This example mimics an Amazon page A common technique for stealing login credentials. Example of a fake website impersonating Shopify A related but noisier approach relies on manufactured urgency: we detected pages masquerading as Apple support that bombard the visitor with alarming pop-ups about a suspicious Apple Pay \u201cpre-authorization\u201d and urge them to immediately call a \u201csupport number\u201d. If the user contacts the phone number, fake operators will try to talk the victim into revealing sensitive details or granting remote access to their device, which can be used to steal money and data. Despite differing mechanics, both approaches exploit the same vulnerability \u2013 reflexive trust in a familiar brand whose identity the scammers have appropriated \u2013 and simply choose different triggers: routine in the first case, panic in the second. Example of a scam page exploiting a sense of urgency There\u2019s usually a variety of scams abusing users\u2019 trust and the hype surrounding Apple devices. Fake stores appearing to sell or lease iPhones for \u201clow monthly payments\u201d are one example of such scams. Scammers consistently target fans of flagship smartphones. Example of a fake page impersonating Apple The streaming platform discount trap Black Friday has become a major subscriber acquisition window for subscription-based streaming services rather than a peripheral promotional event. Antenna estimates that Black Friday drove 8.9 million incremental premium subscription video-on-demand (SVOD) sign-ups in 2025 and accounted for roughly 25% of all November sign-ups, an 800,000 increase compared to 2024, when Black Friday promotions generated 8.1 million sign-ups. This concentration of promotional activity also expands the space for abuse. As subscription platforms compete for user attention with discounts, limited-time offers, and account-based promotions, threat actors can easily repurpose the same themes across phishing pages and fraudulent payment forms. In this context, brands tied to subscriptions, billing, account access, and merchant services are used as lures: they are widely recognized, naturally associated with recurring payments and promotional offers and therefore likely to prompt user engagement. Netflix remained among the top five online-store and subscription-service brands most frequently abused by scammers, highlighting the persistent use of streaming services as lures in brand-abuse campaigns. While the majority of observed schemes affecting this platform simply sought to phish users\u2019 credentials, we also saw \u201cgenerous offers\u201d trying to lure users with discounts. In one example, the attackers embedded the Netflix name in a bundle with other services, such as telecom or entertainment packages. The fraudulent page is designed to collect a range of personal data. Afterwards, the attackers contact the victim via WhatsApp to ask for further information or money. Another scheme imitates the platform itself, offering fake discounted subscription deals. In both scenarios, attackers exploit trust in a globally recognized entertainment brand to increase engagement and push users toward sharing sensitive details or paying money. Scammers create Netflix-themed fake pages to harvest personal and payment data or sell nonexistent subscriptions Subscription entertainment brands, such as Spotify and YouTube Premium, are also being used as phishing lures to collect either payment card data through fake subscription forms or account credentials through counterfeit login pages. Informal \u201csupport\u201d channels, such as WhatsApp chats, add credibility and help attackers guide victims in real time. Subscription-service scams impersonate Spotify and YouTube Premium to steal payment details and account credentials Inside the Black Friday spam wave targeting shoppers In 2026, Black Friday\u2013related scams continued to spread across multiple channels, with fraudulent email campaigns remaining one of the ways they reached their victims. As retailers stepped up their seasonal marketing, cybercriminals took advantage of the flood of promotional messages by sending look-alike emails. During the first two weeks of November, Kaspersky detected 220,071 spam messages related to the sales season \u2013 50,18% more than in 2025. Over the same period, 1,728 of the identified spam messages referenced Singles\u2019 Day promotions in Asia. Scam campaigns built around Apple products begin long before Black Friday: fraudulent activity traditionally spikes on the eve of Apple\u2019s keynotes and then flows seamlessly into the November sales season. In one example, a link from a spam email leads to a fake store impersonating a telecom operator, which offers the new iPhone 18 Pro Max at a tiny fraction of its retail price as a \u201ctime-limited special offer\u201d. An example of a detected spam email impersonating a Telenor marketing proposal. The email offers a new smartphone model for sale The page mimics the real provider\u2019s product page and is most likely designed to trick the user into entering payment card details. Scammers created a fake page impersonating the Telenor online store. The users land on the website through a link in a spam email Alongside fake stores, gamified giveaways are still a persistent email scam format of the sales season: instead of simply offering a discount, fraudsters invite users to \u201cwin\u201d a prize, which makes users lower their guard and adds an element of excitement. Pages of this kind typically impersonate well-known retail brands and use personalized greetings, limited attempts, and guaranteed \u201cwins\u201d to create an impression of an exclusive, harmless lottery. The prize, of course, is predetermined and serves only as a pretext to request personal and payment card details, allegedly to cover delivery. Exploiting trust in household retail names, such schemes leave victims with compromised card data or stolen money instead of a gift. Fake REWE-branded Black Friday giveaway offering a free gift for guessing a \u201csecret number\u201d Wasted: GTA VI \u201coffers\u201d and other lures targeting the gaming community this November In November 2026, the gaming industry is set for one of its most anticipated launches in years: GTA VI. Highly awaited game releases have long created openings for cybercriminal activity. In our 2024 Kaspersky Security Bulletin, we predicted that cybercriminals would seek to exploit GTA VI\u2019s popularity. In fact, the risk is also amplified by timing: the game\u2019s November 19 launch coincides with the seasonal sales campaigns, when users are already primed to look for discounts, bundles, and limited-time offers. This means users need to be extra cautious. Malware campaigns typically cluster around the game itself, using the surrounding attention to disguise malicious files as related content; between June and November 2026, Kaspersky detected 27,416 malware and potentially unwanted application attacks posing as GTA VI\u2013related content. At the same time, phishing schemes follow a separate logic: they exploit purchase intent and urgency around offers, driving users to fake pages. In the example below, a fake store offers Brazilian users a chance to buy a PS5 subscription bundle with GTA VI included. Scammers offer payment options via a banking card or Pix. If the user pays, they never see either PlayStation or the game. Besides GTA VI, all traditional gaming phishing and scam schemes are also present. The screenshot below shows a fraudulent website mimicking Steam that allegedly gives away $50 gift cards as part of a \u201cWinter Gift Marathon\u201d. To get the card, users are urged to log in to their Steam accounts, compromising their credentials. Another scheme invites users to a Discord group chat. However, when the victim tries to enter the chat, a pop-up window appears telling them that they need to install a security module. If they click the \u201cInstall\u201d button, a suspicious file is downloaded to their device. From self-care to scam: how attackers target beauty and wellness fans In addition to shopping-related scams, cybercriminals have continued to exploit consumer interest in personal health, wellness, and beauty in 2026. These themes have long been present in spam and phishing activity, as they combine broad consumer appeal with topics that often involve sensitive personal decisions and data. The continued expansion of online health services, consultations, and wellness products also makes such lures appear more familiar and plausible to users. Weight loss was one of the health-related themes observed in spam campaigns. In one identified example, a link in a spam email redirected the recipient to a page promoting a telehealth weight-loss service. The page used likely fabricated credibility markers \u2013 such as claims of \u201c1,000s of patients\u201d and \u201c600+ doctors\u201d \u2013 to make the site appear as an established medical provider. The prompt to \u201cqualify in 5 minutes\u201d through an online assessment acted as the first step in the conversion funnel. Depending on the scheme, such websites may further prompt users to enter their personal and medical data into a fraudulent form, may steal money, or just sell dubious products or services under the guise of a magic pill. An example of a weight-loss telehealth page Another spam email targeted users concerned about skin aging. It used a health-advisory style banner and a clickbait headline presenting \u201cThe 1 Vitamin You Need if You Have Wrinkled Skin\u201d as a dermatologist\u2019s recommendation. By combining appeals to medical authority and social proof, such as mentioning thousands who already use this vitamin, and framing the offer as free advice through the call to action \u201cTap For Recipe,\u201d the campaign lowered users\u2019 guard. A spam email banner promoting a dubious anti-aging supplement through fake dermatologist claims The link from the email redirects users to a fraudulent site that imitates a legitimate skincare brand and uses a sensational headline about a \u201c$1 Japanese pink vitamin\u201d allegedly responsible for a famous actress\u2019s youthful appearance \u2013 a claim the celebrity never made. A fabricated comment section showing more than 36,000 \u201ccomments\u201d creates fake social proof and guides visitors toward purchasing a dubious supplement (if it exists at all). A fraudulent skincare-themed page using a fake celebrity endorsement Beauty-themed scams are distributed not only by email. Moreover, they are not limited to miracle supplements; fraudsters also exploit the appeal of luxury cosmetics offered at implausibly low prices. In the example below, a fake online store impersonates a trusted retailer, Sephora, and advertises branded perfume at a fraction of its retail price. The page combines familiar pressure tactics, including a fabricated rating, a scarcity warning (\u201conly 6 bottles left\u201d), a one-bottle-per-customer limit and a countdown timer. Together, these elements are designed to rush victims into paying for products that will never be delivered. Example of a fake beauty retailer page encouraging users to make a purchase on sale Banking Trojans Banking Trojans remained active in 2026. On PC, they can monitor browser activity, inject fraudulent content into legitimate sessions, intercept credentials and card data, and in some cases, manipulate payment details or cryptocurrency transactions. On mobile devices, they usually target a range of banking and online store apps, using various techniques to obtain user credentials or interfere with transactions. This makes banking Trojans particularly dangerous around major retail sales, when fast purchase decisions and intensified use of digital payment flows increase the risk of financial theft. PC banker activity continued to decline year over year: in the first ten months of 2026, Kaspersky detected 801,150* attacks, compared with more than 1.09 million in 2025. This trend persists due to the continuous shift away from PC bankers toward mobile-first fraud and credential theft. Even so, PC banking malware remained active throughout the year. One example is GoPix , a Brazilian banking Trojan delivered through Google Ads malvertising and designed to abuse Pix, Boleto and cryptocurrency transactions. Other noteworthy threats are JanelaRAT , which targeted online banking users in Brazil and Mexico, and Horabot , which continued to surface in multistage campaigns combining banking malware with email-based propagation. In the mobile segment, BeatBanker is worth mentioning: an Android banker active in Brazil, distributed via a fake Google Play page and bundled with a crypto miner. *These statistics include globally active banking malware, and malware for ATMs and point-of-sale (PoS) systems. We excluded data on Trojan banker families that no longer use banking Trojan functionality in their attacks, such as Emotet. Conclusions Kaspersky\u2019s phishing data points to a rise in shopping-related threats: from January to October 2026, phishing attempts targeting users of online stores, payment systems and banks increased by 198.1% compared with the same period in 2025. The main tactic remained brand impersonation: scammers abused the names of major online platforms and digital services to create fake login pages, payment forms, support alerts, and subscription offers. Amazon-themed phishing grew by 411.6% year over year, while detections of fraudulent pages abusing Netflix increased by 70.5%. Black Friday-themed spam also intensified, rising by 50.2% compared with 2025. These campaigns blended into the broader flow of seasonal promotions and redirected users to fraudulent websites. Beyond traditional retail, attackers used lures tied to subscriptions, gaming, and health and wellness, showing how scams are adjusted to current consumer interests. Banking Trojans remained active, although PC banker detections declined year over year, as attackers continued shifting from traditional desktop banking malware toward mobile-first scenarios. Overall, the findings show that major shopping periods remain associated with a higher concentration of recurring cyberthreats. During seasonal sales events, users should be especially cautious with unsolicited offers, verify websites before entering data, and treat unusually generous discounts or urgent requests with skepticism. To make sure that they don\u2019t end up on a fraudulent website amid the shopping rush, we recommend that users protect their devices with a comprehensive security solution, such as Kaspersky Premium , which uses an advanced AI-powered detection technology that analyzes website characteristics and URLs to identify suspicious patterns. In 2026, Kaspersky Premium was awarded an \u201cApproved\u201d certificate by AV-Comparatives for the second year in a row for its ability to detect fake online stores .",
+      "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+      "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+      "date": "Tue, 24 Nov 2026 08:34:23 -0500",
+      "detail": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Securelist",
-      "published": "2026-11-23T10:00:43+00:00"
+      "source": "BleepingComputer",
+      "published": "2026-11-24T13:34:23+00:00"
     },
     {
       "title": "South Korea\u2019s power giant KEPCO confirms data breach impacting 1.5 million",
@@ -105,125 +116,114 @@
       "published": "2026-11-23T18:38:40+00:00"
     },
     {
-      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-      "date": "Mon, 23 Nov 2026 11:50:01 -0500",
-      "detail": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-23T16:50:01+00:00"
-    },
-    {
-      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-      "feed_id": "https://www.securityweek.com/?p=51013",
-      "date": "Mon, 23 Nov 2026 15:47:40 +0000",
-      "detail": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek .",
+      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "feed_id": "https://www.securityweek.com/?p=51031",
+      "date": "Tue, 24 Nov 2026 13:30:23 +0000",
+      "detail": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud. The post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-23T15:47:40+00:00"
+      "published": "2026-11-24T13:30:23+00:00"
     },
     {
-      "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
-      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-      "feed_id": "https://www.securityweek.com/?p=51010",
-      "date": "Mon, 23 Nov 2026 15:06:49 +0000",
-      "detail": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek .",
+      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+      "feed_id": "https://www.securityweek.com/?p=51029",
+      "date": "Tue, 24 Nov 2026 12:20:41 +0000",
+      "detail": "OpenAI and Cisco\u2019s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it\u2019s not yet production-ready. The post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-23T15:06:49+00:00"
+      "published": "2026-11-24T12:20:41+00:00"
     },
     {
-      "title": "phpAfterShell Vulnerability Revives PHP2Shell\u2019s Attack Path",
-      "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
-      "feed_id": "https://www.securityweek.com/?p=51007",
-      "date": "Mon, 23 Nov 2026 13:58:07 +0000",
-      "detail": "If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE. The post phpAfterShell Vulnerability Revives PHP2Shell\u2019s Attack Path appeared first on SecurityWeek .",
+      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+      "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
+      "feed_id": "https://www.securityweek.com/?p=51027",
+      "date": "Tue, 24 Nov 2026 11:50:21 +0000",
+      "detail": "Hackers stole personal information from the company\u2019s customer portal and supplier relationship management platform. The post 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-23T13:58:07+00:00"
+      "published": "2026-11-24T11:50:21+00:00"
     },
     {
-      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-      "feed_id": "https://www.securityweek.com/?p=51005",
-      "date": "Mon, 23 Nov 2026 13:26:22 +0000",
-      "detail": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
+      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+      "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+      "feed_id": "https://www.securityweek.com/?p=51025",
+      "date": "Tue, 24 Nov 2026 10:44:44 +0000",
+      "detail": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents. The post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-23T13:26:22+00:00"
+      "published": "2026-11-24T10:44:44+00:00"
     },
     {
-      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
-      "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
-      "feed_id": "https://www.securityweek.com/?p=51003",
-      "date": "Mon, 23 Nov 2026 12:16:20 +0000",
-      "detail": "Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services. The post AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos appeared first on SecurityWeek .",
+      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+      "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+      "feed_id": "https://www.securityweek.com/?p=51022",
+      "date": "Tue, 24 Nov 2026 10:35:04 +0000",
+      "detail": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations. The post Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-23T12:16:20+00:00"
+      "published": "2026-11-24T10:35:04+00:00"
     },
     {
-      "title": "Golden State Baptist College By dark project",
-      "url": "https://www.ransomlook.io//group/dark%20project",
-      "feed_id": "a3d8c6fb384daabdfa3b332ee3d457b67723d19ecb5beaa97dd16d03f94f5d98",
-      "date": "Tue, 24 Nov 2026 01:18:08 GMT",
-      "detail": "Golden State Baptist College fell victim to a cyberattack, resulting in the theft of more than 422 GB of confidential data. The stolen data includes documents containing correspondence with clients, financial information, personal data of employees and clients, as well as other important information about the company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "fiwealth.com By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "2621a9d2069aa8f8e7bc774840d58915773b8478e5119f2dd6edde7867cf3bdd",
+      "date": "Tue, 24 Nov 2026 12:15:46 GMT",
+      "detail": "Foundations Investment Advisors, LLC is a private American investment advisory firm (registered with the SEC, headquartered in Phoenix, Arizona) that operates as a B2B platform for independent financial advisors in the United States. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-24T01:18:08+00:00"
+      "published": "2026-11-24T12:15:46+00:00"
     },
     {
-      "title": "Nationwide IT Services, Inc. By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "76b5615bc72a7f4c6485bac25b54ac5a5b1bffe782a256276758db3b2b15ae85",
-      "date": "Mon, 23 Nov 2026 23:17:25 GMT",
-      "detail": "Nationwide IT Services, Inc. 357 515, 134.1 GB- Personal identity documents of the founder and family: US passports (C.K. Park, Eun-Hee Lee), Social Security cards, Virginia birth certificate, marriage certificate, military ID, both Virginia driver licenses (home address visible).- Corporate finance: IRS Form 1120 (2023), bank checking statements (2012\ufffd2025), payroll registers (148 employees with salaries), invoices, vendor statements.- Government contracting data: DCAA audit correspondence, incurred cost rates, GSA 527, SF-1449 solicitations, award notices, OASIS+/CIOSP4 contract docs.- HR/immigration: H-1B petition letter, offer letters, employee roster, training requests, EEOC charge 570-2019-01484 documents. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Vincci Hotels By black x",
+      "url": "https://www.ransomlook.io//group/black%20x",
+      "feed_id": "6e43752a7ade26f662637e6e01a1d5c541b97ae2fb4784bbbea5daa22f4d1c2c",
+      "date": "Tue, 24 Nov 2026 10:15:13 GMT",
+      "detail": "We are in possession of all the complete personal data\u2014including card number and expiration date\u2014of all their clients. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-23T23:17:25+00:00"
+      "published": "2026-11-24T10:15:13+00:00"
     },
     {
-      "title": "Toyota Chihuahua By qilin",
+      "title": "Mayerhofer Hoch-, Tief- und Ingenieurbau GmbH By qilin",
       "url": "https://www.ransomlook.io//group/qilin",
-      "feed_id": "487d9d722e1a16732e2a801406942fae54a0c333e074583f9e0db6e1a5834c04",
-      "date": "Mon, 23 Nov 2026 23:17:22 GMT",
-      "detail": "Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "46b7ad6fb9553e86b2e398b6e59f9bfc9448bcfa3a2a1f4b6d600ff56b408a66",
+      "date": "Tue, 24 Nov 2026 09:16:38 GMT",
+      "detail": "Civil Engineering Construction Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-23T23:17:22+00:00"
+      "published": "2026-11-24T09:16:38+00:00"
     },
     {
-      "title": "HT Global Circuits By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "731726efa8352802a62d3a3fafa3552c31b75c1cfa7986f2dd03922b233d3cc5",
-      "date": "Mon, 23 Nov 2026 22:36:23 GMT",
-      "detail": "htglobalcircuits.com Revenue $70.4 Million HT Global Circuits is a private American PCB maker founded in 1990 in St. Petersburg, Florida, with 36 years of experience, over 1 billion boards shipped and 2000 plus customers. Led by CEO Ahmad Hamadeh, it uses a Blended Factory Model, quick turn and ITAR work at US plants in St. Petersburg and Milwaukee plus volume production with partners in China, Taiwan and Thailand. Its specialty is hard gold and selective gold plating for connectors, Type II gold at 30 micro inches, plus rigid, flex, rigid flex, HDI, RF up to 77 GHz, metal core and heavy copper boards. The Milwaukee plant came from the 2017 buyout of Pho-Tronics, a 50 year mil aero maker certified to MIL-PRF-55110. It holds ISO 9001, 14001, IATF 16949, AS9100D, ISO 13485, ITAR and UL, serving aerospace, defense, automotive and medical clients. 115.63 against US Navy contract N00024-24-C-6230, DPAS DO-A7 The defense chain NAVSEA contract, CAGE 19623, GCN Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "IIM Raipur perimeter (Indian Institute of Management) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "0fd6493cb36d3c3fb9797986e438ef8556e6bacb6eccee0a485f2c8e0de34140",
+      "date": "Tue, 24 Nov 2026 08:17:14 GMT",
+      "detail": "Government institute (education) \u00b7 India This disclosure concerns a verified set of records from an organization in the Government institute (education) sector. The material scheduled for publication comprises a set of business records, including personnel and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-23T22:36:23+00:00"
+      "published": "2026-11-24T08:17:14+00:00"
     },
     {
-      "title": "Cimmino By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "5d2eebeff4db2fa1ea21d35f45906c55e0b3d43ce58be4817f8fb379033a5208",
-      "date": "Mon, 23 Nov 2026 22:24:43 GMT",
-      "detail": "cimmino.com Manifattura Foderami Cimmino is an Italian wholesale fabric distributor based in Naples with roots dating back to 1750, making it one of the oldest textile companies in Europe, now run by the Cimmino family, CEO Fabio Cimmino and CFO Antonio Cimmino. Operating from the CIS Nola wholesale hub, the largest distribution center in Europe, it stocks over 10 million meters of fabric and more than 1,000 fabric types, shipping worldwide within 48 hours through two in house quality labs. Its seven product lines cover linings, ready to wear fashion, bridal and ceremony, dance and events, carnival and party, bed and table linen including the Bellora brand, and upholstery, plus niche church vestment and medical fabrics. Clients include top fashion brands, linen designers and thousands of retailers across Europe, the Americas and Asia, and the company exhibits at Milan Unica and Messe Frankfurt textile fairs. Revenue stands at about 11.6 million euro in 2025 with 31 employees. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "NKN Delhi PoP (National Knowledge Network / NIC / MeitY, India) By pixelleaks",
+      "url": "https://www.ransomlook.io//group/pixelleaks",
+      "feed_id": "d2d332984f2f8963c7611ea2bc9bf4355ee1ab06c01bc92c307673c460d36f63",
+      "date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "detail": "National research-network infrastructure \u00b7 India This disclosure concerns a verified set of records from an organization in the National research-network infrastructure sector. The material scheduled for publication comprises a set of business records, including financial and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-23T22:24:43+00:00"
+      "published": "2026-11-24T08:17:13+00:00"
     }
   ],
   "sources": [
@@ -244,8 +244,8 @@
     {
       "source": "SANS Internet Storm Center",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
@@ -279,8 +279,8 @@
     {
       "source": "Securelist",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -300,21 +300,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 10,
+      "recent": 7,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 8,
+      "recent": 7,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 50,
+      "recent": 32,
       "shown": 5,
       "undated": 0
     },
