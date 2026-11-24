@@ -1,19 +1,37 @@
-CYBER DAILY — 2026-11-23 13:17 UTC
+CYBER DAILY — 2026-11-24 02:24 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-17 entries selected. Feed excerpts, not full-article or AI analysis.
+19 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
-ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)
-SANS Internet Storm Center | Research / advisory | 2026-11-23T02:00:04+00:00
+CVE-2026-133968: Project MONAI MONAI Label Path Traversal Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-23T00:00:00+00:00
+Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-133968
+Fabricante: Project MONAI
+Producto: MONAI Label
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-26
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94 ; https://github.com/Project-MONAI/MONAILabel/pull/1915 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133968
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-133968
+
+CVE-2026-134624: N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-23T00:00:00+00:00
+N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-134624
+Fabricante: N-able
+Producto: MailAssure
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-26
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-134624
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-134624
+
+ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)
+SANS Internet Storm Center | Research / advisory | 2026-11-24T02:00:04+00:00
 No feed summary supplied. Open the original source for details.
 CVEs: Not stated in feed
-https://isc.sans.edu/diary/rss/33548
-
-A brief history of syslog timestamps, (Sun, Nov 22nd)
-SANS Internet Storm Center | Research / advisory | 2026-11-22T18:40:18+00:00
-BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.
-CVEs: Not stated in feed
-https://isc.sans.edu/diary/rss/33530
+https://isc.sans.edu/diary/rss/33552
 
 Black Friday, red flags: too-good-to-be-true deals hiding real threats
 Securelist | Research / advisory | 2026-11-23T10:00:43+00:00
@@ -21,35 +39,59 @@ Intro Black Friday remains a defining moment of the holiday shopping season and 
 CVEs: Not stated in feed
 https://securelist.com/black-friday-threat-report-2026/122061/
 
-Call center operator gets 8 years for helping scam 30,000 Americans
-BleepingComputer | Research / advisory | 2026-11-23T12:02:23+00:00
-A Peruvian call center operator was sentenced to eight years in prison for stealing millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]
+South Korea’s power giant KEPCO confirms data breach impacting 1.5 million
+BleepingComputer | Research / advisory | 2026-11-23T20:54:51+00:00
+A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/
+https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/
 
-Microsoft confirms Windows printing issues affecting Forcepoint users
-BleepingComputer | Research / advisory | 2026-11-23T09:11:15+00:00
-Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]
+OpenRouter drops AI providers over leaked prompts and secrets
+BleepingComputer | Research / advisory | 2026-11-23T20:00:20+00:00
+OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/
+https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/
 
-CISA flags critical Cisco RCE flaw as actively exploited in attacks
-BleepingComputer | Research / advisory | 2026-11-23T07:44:19+00:00
-The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]
+Microsoft Azure flaw exploited to steal customers' API credentials
+BleepingComputer | Research / advisory | 2026-11-23T19:42:20+00:00
+Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/
+https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/
 
-Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices
-BleepingComputer | Research / advisory | 2026-11-22T18:45:37+00:00
-GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]
+Spanish LaLiga confirms hackers stole soccer fans’ personal data
+BleepingComputer | Research / advisory | 2026-11-23T18:38:40+00:00
+LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
+https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/
 
-Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
-BleepingComputer | Research / advisory | 2026-11-22T15:43:04+00:00
-E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
+GlobeTopper loses $2.5 million after hackers steal $70k in gift cards
+BleepingComputer | Research / advisory | 2026-11-23T16:50:01+00:00
+A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]
 CVEs: Not stated in feed
-https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/
+
+Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms
+SecurityWeek | Research / advisory | 2026-11-23T15:47:40+00:00
+Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/
+
+N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack
+SecurityWeek | Research / advisory | 2026-11-23T15:06:49+00:00
+The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/
+
+phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path
+SecurityWeek | Research / advisory | 2026-11-23T13:58:07+00:00
+If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE. The post phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/
+
+GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw
+SecurityWeek | Research / advisory | 2026-11-23T13:26:22+00:00
+Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/
 
 AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos
 SecurityWeek | Research / advisory | 2026-11-23T12:16:20+00:00
@@ -57,58 +99,40 @@ Dragos uncovered undetected intrusions at three AI inference providers using nea
 CVEs: Not stated in feed
 https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/
 
-BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted
-SecurityWeek | Research / advisory | 2026-11-23T11:44:18+00:00
-Backdoors on low-cost consumer devices served modules for ad fraud and for turning devices into residential proxies. The post BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted appeared first on SecurityWeek .
+Golden State Baptist College By dark project
+RansomLook | Ransomware claim / observation | 2026-11-24T01:18:08+00:00
+Golden State Baptist College fell victim to a cyberattack, resulting in the theft of more than 422 GB of confidential data. The stolen data includes documents containing correspondence with clients, financial information, personal data of employees and clients, as well as other important information about the company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/
+https://www.ransomlook.io//group/dark%20project
 
-SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks
-SecurityWeek | Research / advisory | 2026-11-23T11:35:15+00:00
-Threat actors could exploit them to leak or modify server information and to execute commands as root. The post SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/
-
-CrowdStrike to Acquire Zscaler in $43.9 Billion Deal
-SecurityWeek | Research / advisory | 2026-11-23T11:31:44+00:00
-CrowdStrike expects the combined company to have more than $10 billion in annual recurring revenue. The post CrowdStrike to Acquire Zscaler in $43.9 Billion Deal appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/
-
-Demas Schaefer Family Lawyers By rhysida
-RansomLook | Ransomware claim / observation | 2026-11-23T13:16:48+00:00
-Demas Schaefer Family Lawyers 630 030 files, 894.8 GB- Client identity documents: driver licenses, passports, birth certificates, Client ID forms (hundreds of family-law matters), opposing-party ID.- Financial disclosure of clients: Notices of Assessment (CRA), RRSP and bank statements (RBC), pay statements, property valuations, closing funds.- Firm operations: full credential vault 'DS LLP Account Info (password and logins).docx' (Alberta.ca, Court of Appeal CAMS, DivorceMate, Amazon, Boardroom PIN, Edmonton Tax account), RBC trust wiring data, void cheques, GIC certificates, 119 signed card authorizations.- Court work: divorce judgments, affidavits, parenting orders, firearm licence, mediation files, billing (hourly rates). More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Nationwide IT Services, Inc. By rhysida
+RansomLook | Ransomware claim / observation | 2026-11-23T23:17:25+00:00
+Nationwide IT Services, Inc. 357 515, 134.1 GB- Personal identity documents of the founder and family: US passports (C.K. Park, Eun-Hee Lee), Social Security cards, Virginia birth certificate, marriage certificate, military ID, both Virginia driver licenses (home address visible).- Corporate finance: IRS Form 1120 (2023), bank checking statements (2012�2025), payroll registers (148 employees with salaries), invoices, vendor statements.- Government contracting data: DCAA audit correspondence, incurred cost rates, GSA 527, SF-1449 solicitations, award notices, OASIS+/CIOSP4 contract docs.- HR/immigration: H-1B petition letter, offer letters, employee roster, training requests, EEOC charge 570-2019-01484 documents. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/rhysida
 
-sinagpawnshop.com By safepay
-RansomLook | Ransomware claim / observation | 2026-11-23T12:17:55+00:00
-The company is headquartered in Marilao, Bulacan, Philippines, and has developed an extensive network of branches, primarily throughout the Luzon … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Toyota Chihuahua By qilin
+RansomLook | Ransomware claim / observation | 2026-11-23T23:17:22+00:00
+Business Services Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
+https://www.ransomlook.io//group/qilin
 
-bienefeld-gmbh.de By safepay
-RansomLook | Ransomware claim / observation | 2026-11-23T12:17:54+00:00
-The company is headquartered in Werdohl, North Rhine-Westphalia, Germany, and specializes in the production, customization, distribution, and installation of conveyor … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+HT Global Circuits By the gentlemen
+RansomLook | Ransomware claim / observation | 2026-11-23T22:36:23+00:00
+htglobalcircuits.com Revenue $70.4 Million HT Global Circuits is a private American PCB maker founded in 1990 in St. Petersburg, Florida, with 36 years of experience, over 1 billion boards shipped and 2000 plus customers. Led by CEO Ahmad Hamadeh, it uses a Blended Factory Model, quick turn and ITAR work at US plants in St. Petersburg and Milwaukee plus volume production with partners in China, Taiwan and Thailand. Its specialty is hard gold and selective gold plating for connectors, Type II gold at 30 micro inches, plus rigid, flex, rigid flex, HDI, RF up to 77 GHz, metal core and heavy copper boards. The Milwaukee plant came from the 2017 buyout of Pho-Tronics, a 50 year mil aero maker certified to MIL-PRF-55110. It holds ISO 9001, 14001, IATF 16949, AS9100D, ISO 13485, ITAR and UL, serving aerospace, defense, automotive and medical clients. 115.63 against US Navy contract N00024-24-C-6230, DPAS DO-A7 The defense chain NAVSEA contract, CAGE 19623, GCN Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
+https://www.ransomlook.io//group/the%20gentlemen
 
-elsanj.org By safepay
-RansomLook | Ransomware claim / observation | 2026-11-23T12:17:53+00:00
-The authority is responsible for collecting, treating, and disposing of wastewater generated by residential, commercial, and industrial customers in the … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+Cimmino By the gentlemen
+RansomLook | Ransomware claim / observation | 2026-11-23T22:24:43+00:00
+cimmino.com Manifattura Foderami Cimmino is an Italian wholesale fabric distributor based in Naples with roots dating back to 1750, making it one of the oldest textile companies in Europe, now run by the Cimmino family, CEO Fabio Cimmino and CFO Antonio Cimmino. Operating from the CIS Nola wholesale hub, the largest distribution center in Europe, it stocks over 10 million meters of fabric and more than 1,000 fabric types, shipping worldwide within 48 hours through two in house quality labs. Its seven product lines cover linings, ready to wear fashion, bridal and ceremony, dance and events, carnival and party, bed and table linen including the Bellora brand, and upholstery, plus niche church vestment and medical fabrics. Clients include top fashion brands, linen designers and thousands of retailers across Europe, the Americas and Asia, and the company exhibits at Milan Unica and Messe Frankfurt textile fairs. Revenue stands at about 11.6 million euro in 2025 with 31 employees. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
-
-jcatkinson.co.uk By safepay
-RansomLook | Ransomware claim / observation | 2026-11-23T12:17:52+00:00
-Headquartered in Washington, Tyne and Wear, England, the company specializes in the manufacture and distribution of coffins, caskets, urns, and … Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/safepay
+https://www.ransomlook.io//group/the%20gentlemen
 
 SOURCE COVERAGE
-CISA KEV: OK; recent=0; shown=0; undated excluded=0
+CISA KEV: OK; recent=2; shown=2; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
-SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+SANS Internet Storm Center: OK; recent=1; shown=1; undated excluded=0
 Cisco Talos: OK; recent=0; shown=0; undated excluded=0
 Microsoft Security: OK; recent=0; shown=0; undated excluded=0
 Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
@@ -116,7 +140,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=1; shown=1; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=6; shown=5; undated excluded=0
-SecurityWeek: OK; recent=4; shown=4; undated excluded=0
-RansomLook: OK; recent=49; shown=5; undated excluded=0
+BleepingComputer: OK; recent=10; shown=5; undated excluded=0
+SecurityWeek: OK; recent=8; shown=5; undated excluded=0
+RansomLook: OK; recent=50; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0
