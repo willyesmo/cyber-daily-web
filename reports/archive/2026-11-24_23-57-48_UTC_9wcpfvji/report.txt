@@ -1,0 +1,206 @@
+CYBER DAILY — 2026-11-24 23:57 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+26 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+CVE-2026-132224: Optimizely Web Experimentation External Control of Critical State Data Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-24T00:00:00+00:00
+Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-132224
+Fabricante: Optimizely
+Producto: Web Experimentation
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-27
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://pages.optimizely.com/rs/947-RKE-048/images/Security%20Incident%20Report%20-%20Optimizely%20Web%20Experimentation%20-%20Nov%2017%202026.pdf ; https://status.optimizely.com/incidents/ftw0fh9wx43z ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132224
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-132224
+
+CVE-2026-131914: Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-24T00:00:00+00:00
+Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-131914
+Fabricante: Idunno
+Producto: AntiCsrf
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-27
+Uso conocido en ransomware: Unknown
+Notas de CISA: This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0048.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-131914
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-131914
+
+CVE-2026-132165: Drupal Core Remote Code Execution Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-24T00:00:00+00:00
+Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-132165
+Fabricante: Drupal
+Producto: Core
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-27
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://www.drupal.org/sa-core-2026-017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132165
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-132165
+
+CVE-2026-133968: Project MONAI MONAI Label Path Traversal Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-23T00:00:00+00:00
+Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-133968
+Fabricante: Project MONAI
+Producto: MONAI Label
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-26
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94 ; https://github.com/Project-MONAI/MONAILabel/pull/1915 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133968
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-133968
+
+CVE-2026-134624: N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability
+CISA KEV | Known exploitation / catalog addition | 2026-11-23T00:00:00+00:00
+N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.
+CVEs: CVE-2026-134624
+Fabricante: N-able
+Producto: MailAssure
+Acción requerida: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+Fecha límite indicada por CISA: 2026-11-26
+Uso conocido en ransomware: Unknown
+Notas de CISA: https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-134624
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-134624
+
+Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)
+SANS Internet Storm Center | Research / advisory | 2026-11-24T02:32:00+00:00
+This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is still ongoing as of this writing.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33550
+
+ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)
+SANS Internet Storm Center | Research / advisory | 2026-11-24T02:00:04+00:00
+No feed summary supplied. Open the original source for details.
+CVEs: Not stated in feed
+https://isc.sans.edu/diary/rss/33552
+
+NGINX HTTP/2 Use-After-Free: CVE-2026-123633
+Unit 42 | Research / advisory | 2026-11-24T23:00:14+00:00
+Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .
+CVEs: CVE-2026-123633
+https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/
+
+Recent Trends and Tactics of Agentic AI Attacks
+Unit 42 | Research / advisory | 2026-11-24T15:00:19+00:00
+We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces. The post Recent Trends and Tactics of Agentic AI Attacks appeared first on Unit 42 .
+CVEs: Not stated in feed
+https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/
+
+Rackspace shuts down Spot cloud platform after security breach
+BleepingComputer | Research / advisory | 2026-11-24T21:37:30+00:00
+Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/
+
+New Inception extortion gang launches large-scale vishing campaign
+BleepingComputer | Research / advisory | 2026-11-24T20:21:20+00:00
+A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/
+
+Turnitin discloses cyberattack affecting customer-facing systems
+BleepingComputer | Research / advisory | 2026-11-24T18:59:52+00:00
+Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/
+
+Radware discloses breach exposing customer cloud access keys
+BleepingComputer | Research / advisory | 2026-11-24T17:49:05+00:00
+Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/
+
+ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof
+BleepingComputer | Research / advisory | 2026-11-24T16:30:19+00:00
+The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/
+
+An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says
+SecurityWeek | Research / advisory | 2026-11-24T22:41:58+00:00
+It was not clear what specific information was compromised or who was responsible. The post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/
+
+VMware Updates Patch Critical ESX, vCenter Vulnerabilities
+SecurityWeek | Research / advisory | 2026-11-24T16:32:56+00:00
+The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/
+
+European Commission Uncovers Data Breach in Cyberattack Investigation
+SecurityWeek | Research / advisory | 2026-11-24T14:49:59+00:00
+Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/
+
+Check Point Security Management Servers Hacked in AI-Assisted Campaign
+SecurityWeek | Research / advisory | 2026-11-24T14:21:56+00:00
+The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/
+
+Anthropic Expands Enterprise Safeguards for Detecting AI Misuse
+SecurityWeek | Research / advisory | 2026-11-24T13:30:23+00:00
+EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud. The post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/
+
+sunnybrook.ca By scarlettgroup
+RansomLook | Ransomware claim / observation | 2026-11-24T23:17:08+00:00
+Sunnybrook Health Sciences Centre is a leading Toronto teaching hospital specializing in trauma, cancer, cardiac care, rehabilitation, and emergency medicine. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/scarlettgroup
+
+spencers.com By scarlettgroup
+RansomLook | Ransomware claim / observation | 2026-11-24T23:17:07+00:00
+Spencer's is an American specialty retailer known for novelty gifts, pop culture merchandise, clothing, accessories, and adult-themed products. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/scarlettgroup
+
+medinahealthcare.net By scarlettgroup
+RansomLook | Ransomware claim / observation | 2026-11-24T23:17:06+00:00
+Medina Healthcare System is a Texas-based healthcare provider offering hospital services, primary care, emergency treatment, and specialty medical services. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/scarlettgroup
+
+sigsauer.com By scarlettgroup
+RansomLook | Ransomware claim / observation | 2026-11-24T23:17:05+00:00
+SIG SAUER is a leading firearms manufacturer specializing in pistols, rifles, ammunition, optics, and accessories for civilian, law enforcement, and military use. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/scarlettgroup
+
+fittleworth.com By scarlettgroup
+RansomLook | Ransomware claim / observation | 2026-11-24T23:17:04+00:00
+Fittleworth is a UK healthcare company providing home delivery of medical supplies and support for people with stomas, continence needs, and wounds. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/scarlettgroup
+
+MT5 algo-trading farm (OneFunded funded account, WINSERVER) (PixelLeaks)
+CTI.fyi | Ransomware claim / observation | 2026-11-24T22:25:00+00:00
+Intelligence Summary: A platform that funds algorithmic traders using MetaTrader 5. Threat Syndicate: PixelLeaks Claimed Victim: MT5 algo-trading farm (OneFunded funded account, WINSERVER) Canonical Organization: OneFunded Industry Sector: Financial Services Date Published: 2026-11-24 22:25:00 Date Updated (Revisited): 2026-11-24 23:08:16 Date Discovered: 2026-11-20 23:06:57.613230 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#mt5-algo-trading-farm-onefunded-funded-account-winserver Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/PixelLeaks.html
+
+bastion.internal domain controller (GCP, GRATEFUL-V1) (PixelLeaks)
+CTI.fyi | Ransomware claim / observation | 2026-11-24T22:10:00+00:00
+Intelligence Summary: An internal domain controller named bastion.internal hosted on Google Cloud Platform. Threat Syndicate: PixelLeaks Claimed Victim: bastion.internal domain controller (GCP, GRATEFUL-V1) Date Published: 2026-11-24 22:10:00 Date Updated (Revisited): 2026-11-24 23:08:16 Date Discovered: 2026-11-20 23:06:57.613230 Post URL: http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/#bastion-internal-domain-controller-gcp-grateful-v1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://cti.fyi/groups/PixelLeaks.html
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=5; shown=5; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=2; shown=2; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=2; shown=2; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=11; shown=5; undated excluded=0
+SecurityWeek: OK; recent=9; shown=5; undated excluded=0
+RansomLook: OK; recent=41; shown=5; undated excluded=0
+CTI.fyi: OK; recent=2; shown=2; undated excluded=0
