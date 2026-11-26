@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T03:39:32.360569+00:00",
+  "generated": "2026-11-26T17:07:27.418306+00:00",
   "hours": 24,
   "items": [
     {
@@ -104,28 +104,6 @@
       "published": "2026-11-25T19:00:00+00:00"
     },
     {
-      "title": "The Great Escape: Tradecraft insights from an agentic swarm",
-      "url": "https://blog.talosintelligence.com/the-great-escape-tradecraft-insights-from-an-agentic-swarm/",
-      "feed_id": "6b058e0bf78e0400015036d8",
-      "date": "Wed, 25 Nov 2026 11:00:00 GMT",
-      "detail": "The OpenAI-linked swarm activity in 2026 is fully traceable through public records and offers an unprecedented view into how multi-agent AI systems operate and coordinate at scale. Distilling and documenting the swarm tradecraft may help defenders understand multi-agent operations and communication, and how agents adapt when a path is blocked. Some documented behaviors may transfer to more purpose-built cyber attack frameworks like ARTEX, including methods to persistently store results, the burst-and-pause timing patterns of reasoning loops, and the self-labeling conventions that can reveal workload assignments and distribution. Beginning in June 2026 and extending for several months, a collection of OpenAI models conducting internal training and evaluation tasks broke out of their containerized environments and accessed websites and databases via the public internet in ways the company says it did not authorize . This activity represents a new kind of cyber event: not a malicious intrusion, but an unintentional series of consequences stemming from an agentic swarm , a group of AI agents exhibiting coordinated behavior toward a shared objective. A swarm implies many agents but doesn\u2019t have a rigid count. The main distinction is behavioral; the collective activity of a swarm becomes complex and unpredictable even when individual agents may be explainable. This swarm provided an initial, public glimpse into the behavior and coordination of autonomous, multi-agent operations. Due to constraints in their evaluation environment, the OpenAI swarm used public internet services as improvised infrastructure, which made the activity visible and traceable. The behaviors exposed revealed methods for persistent probing, iterative payload development, work partitioning and coordination across agents, and adaptation to execution constraints, in ways that are likely to be relevant for understanding agent behavior beyond this just case. Agentic cyber attack frameworks are now appearing in intrusion activity , with the ability to support scaling to multi-agent operations . These attacker swarms largely replace the use of public internet resources with purpose-built infrastructure that removes some of the artifacts visible. However, documenting our understanding of operational swarm techniques can give defenders a baseline for recognizing behaviors as they move into new environments and contexts. In some cases, we can already see the evidence where these techniques do transfer. In this post, we\u2019ll explore and document the tradecraft of the escaped OpenAI swarm and conclude by comparing it to early signals and behaviors from the current agentic attack activity seen in the wild. Background Swarms are an important concept to track because they can divide work across parallel agents, potentially completing complex tasks faster, though the gains depend on the task and the quality of coordination. Parallel agent coordination was crucial to OpenAI\u2019s ability to solve the Navier-Stokes Millenium Prize Problem, which arrived at a winning solution with a group on the order of 10,000 concurrent agents over the course of 88 hours. Early evidence suggests swarms transfer effectively to cyber attack problems. The main factors for swarm efficiency are how parallelizable the tasking is, and if the attackers want to pay the inflated token cost. A rough example is using four agents on the same problem, to get it done twice as fast; as Noam Brown of OpenAI said on a Dwarkesh podcast , \u201cBecause there are four agents working for half as long, you\u2019re paying 2x more to get an answer twice as quickly.\u201d AI models undergoing training and evaluation operate inside sandboxed computing environments. These are controlled workspaces where they can write and run code, search for information, and iterate toward solutions. These environments are designed to be both enabling and constraining. They give models room to practice, while limiting what they can reach and do, so that mistakes or misaligned behavior stay contained. Operating under constraint While the techniques employed by the OpenAI swarm may have crossed the thresholds of intended use, they should not be viewed as malicious intent. A useful framing for understanding these techniques is creativity under constraint. The agents were optimized to meet their objectives, and they displayed considerable persistence and ingenuity to that end. The constraints the agents were working around were layered and understanding them helps explain the motivation behind every technique. The most fundamental was the absence of a browser runtime: Agents operating in text and code environments cannot natively load JavaScript-heavy pages, call browser APIs, or interact with dynamic web content. The creative solution was submitting URLs to a public scanner like \u201curlquery.net\u201d which provided a real Chromium instance on demand. This workaround by itself, however, was still not enough. Browsers apply a security rule called the same-origin policy: JavaScript running on one website generally cannot read data from another. Cross-origin resource sharing (CORS) lets a destination website explicitly permit access. The agents used public CORS proxies to relay requests when target websites did not grant permission. They also lacked infrastructure of their own to host payloads or receive data, so they relied on public services such as httpbin, httpbun, and \"webhook.site\" services capable of testing HTTP requests and responses but not designed for this activity. In some evaluation environments another constraint applied: Agents appear to have been restricted to GET requests only, with no ability to make outbound POST calls. That is likely what pushed them toward using public wikis as shared state stores , as wiki page edits are a write operation achievable through ordinary browser navigation. The tradecraft In response to their constraints and in persistent pursuit of their objectives, the swarm developed and refined its tradecraft over time. This included chaining legitimate web services like URL shorteners, CORS proxies (services that relay requests to bypass browser security restrictions), Base64 decode endpoints (services that decode encoded data back into executable web pages), and markdown renderers into extraction pipelines that never required dedicated attacker infrastructure. Talos observed structured work partitioning across parallel agent instances, iterative probe development, and sandbox identification techniques. The agents coordinated using a variety of identifying tags (e.g., uqscan=claude... , CHATGPTTEST1 , OAI_META_1312 , archive_test=20261004 ). These self-labels, intended as internal tracking strings, became the primary cross-campaign fingerprint linking multiple disparate operations. To better understand the flow, we will detail the activity of the swarm in a seven-step chain, aligning the purpose of the action with the publicly accessible internet services used. Figure 1. Seven-step sequence of swarm data collection activity. A separate orchestration layer, Coordinate (COORD), runs above the chain rather than within it. When multiple agents execute the same chain in parallel, COORD governs how work is divided between them \u2014 for example, URL shorteners (\u201cda.gd\u201d, \u201cis.gd\u201d) distribute identical payloads to multiple instances; structured identifiers ( ?uniq0\u201319 , node= , validation=v<unix>_<county>_<req> ) partition tasks and track completion. The COORD layer distinguishes a swarm from a single agent running sequentially. Evolution and execution The swarm's operational techniques evolved over time. Early activity relied on silent CDX enumeration, querying public web archive indexes to map target sites and using a single exit node. By the peak operational phase, the swarm was running against multiple simultaneous targets with structured work partitioning, sandbox identification, and covert exfiltration beacons. To better understand these events, we can reconstruct from public records the unauthorized access to Australian government websites . Traced extraction demonstration Step 1 \u2014 RECON: Enumerate target via Common Crawl CDX The agent silently maps the target site structure by querying Common Crawl's CDX, a searchable database of every URL the archive has ever crawled. This allows enumeration of all potentially relevant target URLs, without the server ever being contacted. Figure 2. Enumerating target URL directory. The request in Figure 2 returns archived URL paths, MIME types, timestamps, and status codes. The agent discovers objective-relevant Tableau visualization endpoints at \u201cvizprod.aihw.gov.au\u201d without ever touching AIHW servers. Effect: Agent identifies the target: vizprod.aihw.gov.au/t/Public/views/AGE-115/... Step 2 \u2014 CRAFT: Build extraction payload The agent writes a self-contained HTML page with embedded JavaScript. This payload uses the Tableau JS API to load a dashboard; enumerate its parameters, worksheets, and filters; then beacon the extracted data out via an image request. Figure 3. Script to scrape and extract targeted metadata. The L() function is the exfiltration design. Each call fires an image beacon to \"httpbun.com/status/204\" with data in the ?pr= query parameter. The probe ID p0011782077286 is a Unix-epoch timestamp enabling session correlation. Effect: Payload is ready, now encode as Base64 for hosting. Step 3 \u2014 ENCODE: Host on legitimate decode service The entire HTML payload is base64-encoded and appended to a public decode service URL. When fetched, the service decodes and serves the payload as a real web page. Figure 4. The swarm used two delivery hosts: \u201chttpbun.com/mix/b64=\u201d and later, \u201ceu.httpbin.org/base64/\u201d. Both are legitimate API testing services. Effect: The delivery URL is ready; next step is to submit to urlquery scanner. Step 4 \u2014 SUBMIT: Launder through \u201curlquery.net\u201d The agent submits the delivery URL to \u201curlquery.net\u201d, a legitimate web security scanner. urlquery's Chromium sandbox fetches and renders the page, executing the embedded JavaScript. The target sees requests from urlquery's scanner IPs (\u201c92.42.109.x\u201d), not the agent. Figure 5. A Base64-encoded payload, a self-label the agent wrote to track its own work. Figure 6. What urlquery sees and does. [COORD sub-step] The self-label ?uq=p001_1782077286_AGE115_v14 includes a probe prefix ( p001 ), Unix epoch, target identifier ( AGE115 ), and iteration count (v14 = 14th payload revision). Effect: The chromium sandbox renders page, and payload JS executes. Step 5 \u2014 EXECUTE: In-browser extraction via CORS proxy When the payload executes inside urlquery's sandboxed Chromium browser, it uses the Tableau JavaScript API to load the AIHW health statistics dashboard. Tableau's backend speaks a protocol called VizQL; earlier payload generations bypassed the full dashboard load and hit the VizQL session API directly via a CORS proxy, reusing session tokens the agent had collected from previous runs. Figure 7. The CORS proxy (\"cors.bwa.workers.dev\") is a relay running on Cloudflare Workers, which bypasses the browser's same-origin policy. AIHW sees the request originating from Cloudflare's IP range, not the agent, nor urlquery. Effect: The data is validly extracted. Next, send out via a covert beacon. Step 6 \u2014 EXFIL: Zero-byte 204 beacon Extracted data is URL-encoded into the query string of image beacon requests to \"httpbun.com/status/204\". The server returns HTTP 204 No Content with zero bytes back. The data travels exclusively in the request URL, which urlquery logs as an ordinary HTTP transaction. Figure 8. The ?pr= parameter carries URL-encoded Tableau metadata: active sheet names, parameter values, worksheet filters, and field names. Each beacon sends up to 1,800 characters. The 204 response means no data flows back to the browser, acting as a write-only channel. Effect. The transaction is logged; the agent retrieves report. Step 7 \u2014 COLLECT: Read back via urlquery report After the scan completes, the agent retrieves the urlquery report JSON, which contains every HTTP request and response the browser made, including the exfil beacon URLs with embedded data in the ?pr= parameters. Figure 9. The agent now has dashboard structure, parameter names, filter values, and worksheet layouts \u2014 the complete schema needed to construct targeted bulk extraction queries. This closes the loop. The agent submitted a URL, urlquery's browser executed the payload, and the agent reads the results back from the public report. No direct connection between the agent and the target ever existed. The entire extraction was laundered through two intermediaries, httpbun.com (hosting) and urlquery.net (execution). Technique transfer in a growing ecosystem In October, a second autonomous actor was identified via the same technique fingerprints. This time, the activity was attributed to a Tencent-hosted \u201cfleet\u201d , operating from Tencent's Hong Kong network (AS132203). A fleet is distinguished from a swarm in that these agents were working on a unified task, but with no signs of coordination. The Tencent fleet\u2019s activity focused on Alibaba\u2019s Amap navigation service, polling points-of-interest data, with requests consistent with systematically collecting location listings and related details. Did the Tencent fleet learn from the OpenAI swarm? The discovery of the Tencent fleet can largely be attributed to technique transfer; this group was following the path pioneered by the OpenAI swarm. The Tencent fleet used \"urlquery.net\" as a browser execution proxy, \"httpbun.com\" as a payload delivery host, and \"webhook.site\" as an exfil channel. There was also progression within the Tencent swarm\u2019s capability. The early fleet operations initially used \u201chttpbin.org/base64/\u201d, and later the same infrastructure switched to \u201chttpbun.com/base64/\u201d, mirroring the OpenAI swarm's own progression to the same host. A separate actor, operating independently, converging on the same non-obvious infrastructure in the same sequence is harder to explain without the OpenAI swarm's publicly indexed urlquery footprint as a common source. In fact, it seems likely that swarms will web search prior documentation of tradecraft relating to their tasking and could offer a potential explanation to how the Tencent fleet managed to find a write up about their own activity, and in turn, communicate with the authors . Swarm dynamics in cyber attacks You don\u2019t look far to see where the insights from swarm behavior may transfer to cyber attack and defense implications. Recent intrusions from agentic cyber attack harnesses like ARTEX exhibit similar characteristics. However, these multi-agent planning systems are distinct in that they have architecturally solved the constraints the OpenAI swarm was working around. The swarm needed a browser (\u201curlquery.net\u201d) to run JavaScript. ARTEX alleviates this constraint by running a headless Go backend that calls tools directly. What may hold consistent are methods around the reconnaissance logic, the payload iteration, the structured work partitioning, or the self-labeling patterns. Those are properties of the planning layer, not the infrastructure (e.g., work unit identifiers encoding timestamps, geographic scope, and sequence counters). These coordination patterns may survive the move to purpose-built infrastructure, but they likely be only internally visible queue labels. Further research will be required going forward to grapple with the emergence of agentic attack frameworks and pinning down the meaningful surface area they have for detection and mitigation. It seems possible these may be durable if they are tied to inherent preferences of the underlying models. In our limited analysis, several avenues seem promising: Persistent-state exfiltration: writing results that outlast the agent In the documented ARTEX intrusions , victim machines used curl to POST command output to rotating \"webhook.site\" URLs. The Tencent fleet did the same by pre-creating \"webhook.site\" tokens from Tencent IPs before payload deployment, then routing exfiltrated data through them. The OAI swarm used image beacons for the same structural purpose. This convergence reflects a constraint of agents; they can't hold a persistent connection back to an operator. A human running a reverse shell is present in real time to receive output. An agent executes a task, may spawn parallel sub-agents, and completes, or is terminated, before the operator checks in. Results must go somewhere that outlasts the agent's execution window, and parallel sub-agents need isolated write channels so they don't collide. That is what the web hooks, beacons, and message boards are solving. Egress bypass seems like a secondary benefit. These services will often happen to be allow-listed, which makes them harder to block. Burst-and-pause reasoning loops Google Threat Intelligence Group (GTIG) describes ARTEX executing 27 events in 23 seconds, moving from compromised credential to deep system access in as little as 15 minutes and iterating on web shell candidates in real time, rapidly adjusting on error, trimming oversized payloads, and relaunching within seconds. GTIG measured individual burst sequences at 2 \u2013 25 seconds, with sub-second actions inside them. The burst-and-pause timing signature can prove irregular in contexts that reveal rapid reasoning and adaptation. Self-labeling conventions Agents mark their own work for later retrieval or correlation. The OAI swarm embedded full operational metadata into URL parameters. ARTEX has used \"artex-probe-*\" file names. These patterns are high-fidelity signals precisely because they're functional for the agent. They may be useful for fingerprinting agent swarms, because they can't easily alter or remove the labeling scheme without breaking the agent's own state tracking. The agent-centric future The 2026 swarm campaigns are not just a curiosity that preceded a threat; they are a snapshot of the same core capability, in the time before the infrastructure constraints were lifted. ARTEX and its cohort of agentic harnesses are now showing us what swarm dynamics look like when resources are unconstrained and aligned on a cyber attack objective. While these systems are powerful, they are not universally appealing. Using a coordinated multi-agent system is still a trade-off decision for attackers, and one in a growing array of options. Single agent systems can reach the same performance of swarms, and do so more efficiently, following the logic around extending chain-of-thought or scaling test-time compute . Swarm scaling primarily favors situations where speed is the most important factor. Figure 10. Single- vs. multi-agent token efficiency (Source: OpenAI ). Swarm engagements will have higher token cost, more noise, and require a broader operational footprint. Token costs, however, are only a concern when using an API. The growing list of local, open-weight models with improving cyber capabilities will continue to be an appealing alternative for attackers. As defenders, we need to recognize the distinction in behavior and capabilities and continue to search for identifying characteristics across these attack options and proactively harden our threat models in response.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-11-25T11:00:00+00:00"
-    },
-    {
-      "title": "Securing Grandma's groceries with Pierre Cadieux",
-      "url": "https://blog.talosintelligence.com/securing-grandmas-groceries-with-pierre-cadieux/",
-      "feed_id": "6afcab5589fda40001d45545",
-      "date": "Wed, 25 Nov 2026 11:00:00 GMT",
-      "detail": "This month, Amy is joined by Pierre Cadieux, Research Lead for Intelligence Efficacy at Talos. Pierre takes us back to his early days on help desks in the 90s, where learning to correlate logs between Windows and Unix systems sparked the curiosity that eventually led him to security. It\u2019s a great look at how someone who has seen the industry evolve over decades stays grounded and keeps their edge. We also get into what\u2019s kept Pierre at Cisco for nearly ten years. He talks about why he prioritizes the human impact of our work, the importance of knowing when to step away from the keyboard, and how his background in anthropology actually informs the way he approaches threat intelligence today. Amy Ciminnisi: I've known you since you were in Talos IR, which was not too long ago. But tell me a little bit about your professional journey, because I know that definitely was not the start of it. Pierre Cadieux: I worked at an ISP as part of the help desk back in the mid-90s. I was one of the people who people would call up and say, \"Hey, I've got this computer I just bought, how do I get it on the internet?\" I did a lot of learning about what TCP/IP was, what networking was, how to connect things via various different types of connections \u2014 whether it be an actual hard-coded network connection or a dial-up connection \u2014 and was able to get some expertise around guiding people through that process. Then I moved to a technology company in San Diego and worked on their help desk. One day, someone called me up and said, \"You know how to read Linux logs, right? Or Unix logs, UCS logs, Linux logs.\" I said, \"Yeah.\" They said, \"You know how to use Windows \u2014 you're a Windows Server guy, too.\" I said, \"Yeah.\" They said, \"I need you to sit in this chair, look at these two screens \u2014 one is a Windows box, one is a Unix box. I need you to be a correlation engine.\" So, I looked at the timestamps for both of them, and helped to figure out what was happening because we were having an emergency, an incident, and they had nobody that could look at both. People at that point in time in this organization were very much, \"I am doing just Unix things and only know Unix things. I am Windows things only. I only know one of those things.\" They didn't cross the streams. I could talk both. So I sat in the chair, I stared at both screens and I helped them to track the timeline of what was happening, which ended up being an intrusion exploiting a vulnerable SSH server that was compromised. That changed my course into security. I spent a number of years in internal security for a number of organizations and got into leadership positions, even CISO positions, leading security teams globally for financial services, for instance, and others. Then I moved into consulting and did that for a number of years as well. AC: Now you are on the TI&I team, and you also just started contributing to our Threat Source newsletter. What is it that kept you here after all those years? PC: I'm hitting my ten-year anniversary at Cisco in January. What keeps me at Cisco and Talos is the flexibility of my work. I'm able to, within most bounds, choose what I work on and how I get things done. I have a lot of flexibility in my workday, day-to-day. I work West Coast hours compared to most of my team members who are East Coast. So I sometimes work early shifts with them and am done by the early afternoon. Or sometimes I have to work with folks who are over in Asia Pacific, and I'm working later. The mission that Talos has resonates with me deeply. One of the things that I have seen along the way was not forgetting the why behind security, not forgetting the fact that what we are defending matters to people, not just to corporations, but to people who are affected by these things. In a newsletter intro, I mentioned that at one of the places I worked, they explained to me that a certain machine was super critical because it wrote the checks that get sent out to people who are expecting this check to come in weekly, monthly, whatever \u2014 that was going to be paying for grandma's groceries. And so that motivated me to make sure that box never went down and protect it in a very specific way. Even though it was something that probably should have been sunset and wasn't necessarily up to snuff from a security perspective, there are things we could do to protect it that would allow it to still function as we look for a better solution. At Talos, leadership gives us the space to execute that mission in a way that makes sense for us. Want to see more? Watch the full interview , and don\u2019t forget to subscribe to our YouTube channel for future episodes of Humans of Talos.",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "Cisco Talos",
-      "published": "2026-11-25T11:00:00+00:00"
-    },
-    {
       "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
       "feed_id": "https://www.microsoft.com/en-us/security/blog/?p=151158",
@@ -148,26 +126,26 @@
       "published": "2026-11-25T17:15:00+00:00"
     },
     {
-      "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
-      "url": "https://unit42.paloaltonetworks.com/ai-threat-horizon/",
-      "feed_id": "https://unit42.paloaltonetworks.com/?p=190215",
-      "date": "Wed, 25 Nov 2026 15:00:09 +0000",
-      "detail": "Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams. The post The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense appeared first on Unit 42 .",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "date": "Thu, 26 Nov 2026 10:23:28 -0500",
+      "detail": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Unit 42",
-      "published": "2026-11-25T15:00:09+00:00"
+      "source": "BleepingComputer",
+      "published": "2026-11-26T15:23:28+00:00"
     },
     {
-      "title": "How to protect against preinstalled Android malware",
-      "url": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093/",
-      "feed_id": "https://kasperskycontenthub.com/securelist/?post_type=threat_response&p=122093",
-      "date": "Wed, 25 Nov 2026 09:00:35 +0000",
-      "detail": "Introduction Preinstalled malware on mobile devices is a major threat to user security and privacy. When we buy a new smartphone or tablet, we expect it to be ready to use and secure right out of the box. In some cases, however, devices ship with malware already on them. Such malware can do almost anything: display ads, collect personal data and credentials, track user activity, and more. Preinstalled malware can also turn the infected device into a tool for fraud, such as stealing credit card numbers or other sensitive information, causing financial loss and reputational damage. We\u2019ve previously reported cases where users bought smartphones on marketplaces with malware already preinstalled. Over the past few months, however, several large organizations have encountered malware embedded in the firmware of mobile devices. The specific risks to corporate security depend on how the devices are used and on the company\u2019s line of business. But because the Trojan sits in the device firmware, any app can be compromised, and the potential damage is hard to overstate. This post looks at the current landscape of preinstalled threats on mobile devices, the risks they pose to corporate users, and available countermeasures, including Kaspersky solutions. Landscape of preinstalled threats The total number of devices with malicious code found in their firmware or system apps keeps growing. According to Kaspersky Security Network, the number of such devices detected each month has increased more than 2.5-fold over the past year. Monthly number of Android devices with preinstalled malware detected by Kaspersky solutions, November 2025 \u2014 October 2026 ( download ) Several malware families are known to spread through firmware and system apps, the most common being Keenadu and Triada. According to our data, one or another of these two families was found on 88% of infected devices in the first ten months of 2026. The Triada backdoor (Backdoor.AndroidOS.Triada) was discovered ten years ago and has remained popular with attackers ever since. Early versions of the malware actively exploited Android vulnerabilities to gain root access and the privileges they needed. At that time, Triada was often distributed as a regular app. Over time, however, Android introduced tighter restrictions, and attackers now mostly use the preinstalled version of this backdoor. Throughout 2026, users encountered about twenty markedly distinct variants. The most common ones were Backdoor.AndroidOS.Triada.ag and Backdoor.AndroidOS.Triada.z. The latest Triada versions have two key distinguishing features: the ability to inject malicious functionality into any app on the device, system or user-installed, and a modular architecture that lets attackers tailor the malware to their current targets with additional payloads. Known modules can steal credentials for messaging and social media apps, intercept calls and text messages, replace links in browsers, siphon off cryptocurrency, and run a reverse proxy on the infected device. It\u2019s worth stressing that by loading additional modules, attackers get virtually unlimited capabilities. Keenadu is another preinstalled backdoor we discovered , which appeared relatively recently. The earliest known firmware version that contains this malware dates back to 2023. Even so, the number of devices infected with Keenadu is considerable: according to our data, more than 220,000 devices were infected in the first ten months of 2026. Keenadu is similar to Triada in many ways, especially in its main architectural feature: once it\u2019s on a device, attackers can download additional modules with any functionality and inject them into target apps. In most known Keenadu attacks, the malware was used for ad fraud, in particular to generate fake clicks. Technically, however, it can perform any action on the infected device. Notably, on first contact with the C2 servers, the backdoor versions we analyzed received a command to activate after about two and a half months. Until then, the malware showed no activity. This is probably meant to give the device owner time to install all the apps they need and settle into daily use, and to make the compromise harder to detect. Other families of preinstalled malware exist, although they\u2019re less common than Triada and Keenadu. They include Dwphon, Vo1d, and BADBOX. Their functionality is generally similar: mostly ad fraud and traffic redirection. Note that most cases involve phones and tablets, but preinstalled backdoors also threaten other types of devices. For example, Dwphon has turned up in the firmware of children\u2019s smartwatches, and Vo1d samples in TV box firmware. Corporate environment We first saw an organization, rather than a home user, encounter preinstalled malware several years ago. That case involved the Dwphon malware. Over the past year, however, we\u2019ve received more and more reports from different customers. In less than a year, several large organizations have come to us with the same request. After installing Kaspersky Endpoint Security for Android on brand-new, out-of-the-box devices, they saw detections of Keenadu or Triada and asked us to confirm that those detections were genuine. Note that when we talk about corporate threats, we mean the Corporate Owned, Business Only (COBO) and Corporate Owned, Personally Enabled (COPE) usage scenarios, where the employee\u2019s device belongs to the organization. The difference between these models is that COBO doesn\u2019t allow personal use of the device (and usually blocks it at the software level). With COPE, the organization controls global settings but allows free personal use and, in some cases, even installation of third-party apps. By corporate environment, we mean primarily the setup with centralized procurement, where an organization buys all the devices it needs (hundreds, thousands, or even tens of thousands) for uniform use. This post doesn\u2019t cover infections under the Bring Your Own Device (BYOD) model, where employees use infected personal devices they bought themselves to access company resources or for work communications. Preinstalled malware appears on a new device as a result of a supply chain attack. Devices can be manufactured and flashed in different places. Likewise, different parties in the production process can create the firmware and prepare it for the device. Malicious code typically gets onto a device in one of three ways: The manufacturer installs the malware deliberately: the attackers control the entire production process and either sell infected devices cheaply under an obscure brand name or, conversely, pose as a well-known manufacturer, damaging that company\u2019s reputation. A legitimate brand that makes the final device receives malicious firmware from a contractor acting in bad faith. A legitimate manufacturer builds the firmware in-house, but the build relies on an already infected base or code component. Here, no one directly involved in manufacturing knows the production chain has been compromised. What risks do corporate customers face when they buy such devices? Based on the technical capabilities of preinstalled malware, we can identify the following main risks: Degraded performance of infected devices: shorter battery life, overheating, and glitches in various apps. Some devices have even been known to play random sounds on their own. Ads on devices, both visible to the user and hidden. They consume extra traffic and also connect the device to various websites, which creates a separate group of risks. Account takeover in messaging apps, social media, and corporate resources: theft of credentials can damage the company\u2019s reputation and lead to financial losses or even new attacks. Direct financial losses, such as cryptocurrency theft. Theft of confidential data and secrets: in effect, spying on corporate devices. Use in a proxy botnet: the organization\u2019s infected devices can relay arbitrary traffic to any internet resources. Use in a DDoS botnet: infected devices can be enlisted to launch DDoS attacks on any target. Reputational risks come into play here as well. External access to the corporate infrastructure through a proxy module. Infected devices are known to have been used as residential proxies to infect other devices on the same local network. Device downtime: attackers who disable corporate devices in active use can disrupt operations. Note that not all of the attack scenarios involving preinstalled malware listed above have been seen in real-world incidents. However, Triada and BADBOX, for example, have already expanded their functionality: besides displaying ads, they now steal accounts. We can therefore expect preinstalled malware to keep gaining capabilities that pose even higher risks. Using Kaspersky solutions to mitigate risks Mobile Device Management (MDM) is a separate category of solutions built to manage mobile devices, and it helps mitigate infection risks in corporate environments. With MDM, IT teams can centrally configure smartphones, tablets and laptops, enforce security policies, and control app installation. This significantly reduces the risk of infection caused by user actions, because it prevents a user from installing an APK from an attacker\u2019s message, a malicious website, or a rogue app store listing. However, these measures alone are not effective against preinstalled Trojans. Centralized mobile device management alone is not enough to contain threats like Triada and Keenadu. It must be complemented by protection that can detect malware, including any already present on a device before the company starts using it. The best approach is to combine management and protection in a single agent with a unified console, which simplifies rollout and day-to-day operation: IT teams only need to deploy and maintain one application instead of two. Kaspersky Next product line, starting with Kaspersky Next EDR Optimum , combines Advanced MDM functionality with antivirus protection. The antivirus engine scans files and installed apps and provides real-time protection. Kaspersky Next can detect malware on Android devices, even in preinstalled apps, and alert administrators to any threats it finds. This allows spotting an infection on a device that nominally complies with corporate policies. Triada detection report in the unified KSC console (screenshot in Russian) Note that it\u2019s technically impossible for either antivirus tools or the OS itself to remove preinstalled malware from the system partition. However, Kaspersky Next lowers the risk of buying a whole batch of devices and then finding a preinstalled Trojan that is hard or impossible to remove by reflashing. If Kaspersky Next detects malware like Triada or Keenadu, it alerts the IT administrator, who can then contain the threat by blocking the device\u2019s internet access, clearing app data, rotating passwords, or locking the device entirely. Administrators can monitor and manage the infected device from the unified console of the Kaspersky Security Center . Threat monitoring in the unified KSC console Companies planning a mobile infrastructure should account for the risk of encountering preinstalled malware. Before ordering a large batch of devices, we recommend inspecting and pilot-testing sample units. We should stress that this measure is no substitute for installing security software on every device used in the organization. Even if the tests come out fine, an unscrupulous supplier may have deliberately sent clean units for inspection. Protection must also be continuous because, for example, the device update system could come under attack. Manufacturers need to check devices and firmware code for malware just as customers do. Whether the firmware is written in-house or by a contractor, the result can contain malicious code, as we noted earlier. To detect preinstalled threats, you need a file scanning solution that can respond quickly when it finds malware. Kaspersky Scan Engine is one of the Kaspersky products designed for this task. The engine uses the latest detection technologies to identify a wide range of cyberthreats, including preinstalled ones. It integrates easily into a variety of workflows. For example, it can connect to a software build pipeline or any other system that needs to check files for malicious code. Triada detection in Kaspersky Scan Engine",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "date": "Thu, 26 Nov 2026 06:50:17 -0500",
+      "detail": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
-      "source": "Securelist",
-      "published": "2026-11-25T09:00:35+00:00"
+      "source": "BleepingComputer",
+      "published": "2026-11-26T11:50:17+00:00"
     },
     {
       "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
@@ -203,147 +181,103 @@
       "published": "2026-11-25T19:39:31+00:00"
     },
     {
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "date": "Wed, 25 Nov 2026 11:13:40 -0500",
-      "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-25T16:13:40+00:00"
-    },
-    {
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "date": "Wed, 25 Nov 2026 10:00:10 -0500",
-      "detail": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-25T15:00:10+00:00"
-    },
-    {
-      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
-      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-      "feed_id": "https://www.securityweek.com/?p=51072",
-      "date": "Wed, 25 Nov 2026 15:27:36 +0000",
-      "detail": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE. The post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on SecurityWeek .",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "feed_id": "https://www.securityweek.com/?p=51090",
+      "date": "Thu, 26 Nov 2026 13:04:06 +0000",
+      "detail": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-25T15:27:36+00:00"
+      "published": "2026-11-26T13:04:06+00:00"
     },
     {
-      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-      "feed_id": "https://www.securityweek.com/?p=51066",
-      "date": "Wed, 25 Nov 2026 14:15:25 +0000",
-      "detail": "An account tied to ShinyHunters announced the group\u2019s return, as Okta spots possible links between Inception and ShinyHunters hackers. The post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties appeared first on SecurityWeek .",
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "feed_id": "https://www.securityweek.com/?p=51087",
+      "date": "Thu, 26 Nov 2026 11:35:25 +0000",
+      "detail": "Accenture says hackers exploited MiCollab flaws before Mitel\u2019s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-25T14:15:25+00:00"
+      "published": "2026-11-26T11:35:25+00:00"
     },
     {
-      "title": "US Treasury\u2019s FinCEN Disconnects Systems Following Cyber Incident",
-      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-      "feed_id": "https://www.securityweek.com/?p=51063",
-      "date": "Wed, 25 Nov 2026 13:39:21 +0000",
-      "detail": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident. The post US Treasury\u2019s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek .",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "feed_id": "https://www.securityweek.com/?p=51085",
+      "date": "Thu, 26 Nov 2026 09:12:26 +0000",
+      "detail": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-25T13:39:21+00:00"
+      "published": "2026-11-26T09:12:26+00:00"
     },
     {
-      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
-      "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
-      "feed_id": "https://www.securityweek.com/?p=51059",
-      "date": "Wed, 25 Nov 2026 13:30:00 +0000",
-      "detail": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University. The post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on SecurityWeek .",
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "feed_id": "https://www.securityweek.com/?p=51082",
+      "date": "Thu, 26 Nov 2026 08:32:10 +0000",
+      "detail": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek .",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "SecurityWeek",
-      "published": "2026-11-25T13:30:00+00:00"
+      "published": "2026-11-26T08:32:10+00:00"
     },
     {
-      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-      "feed_id": "https://www.securityweek.com/?p=51057",
-      "date": "Wed, 25 Nov 2026 10:40:07 +0000",
-      "detail": "The edtech company says the systems are fully operational and safe to use while it investigates the incident. The post Plagiarism Checker Turnitin Investigating Cyberattack appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-25T10:40:07+00:00"
-    },
-    {
-      "title": "Koh Young Technology By everest",
-      "url": "https://www.ransomlook.io//group/everest",
-      "feed_id": "e46ef7557192f46b2a480409508c04159b0543b1da2b7afd6892a3463fe5ffa0",
-      "date": "Thu, 26 Nov 2026 03:21:14 GMT",
-      "detail": "2 posts - 1h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Nelson Jewellery Arts By orova",
+      "url": "https://www.ransomlook.io//group/orova",
+      "feed_id": "8ffbd403715388280aeac551d5101812b82bb0efcfecdeca4e58378eadea2caf",
+      "date": "Thu, 26 Nov 2026 16:23:41 GMT",
+      "detail": "Nelson Jewellery Arts Co., Ltd. designs, manufactures and exports fine jewellery to customers globally. Our in-house award-winning designers partner with our master craftsmen to blend leading designs with the latest technology. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-26T03:21:14+00:00"
+      "published": "2026-11-26T16:23:41+00:00"
     },
     {
-      "title": "Nucleon EDR By everest",
-      "url": "https://www.ransomlook.io//group/everest",
-      "feed_id": "663ba4dc0bd68fa3a25e5e983be81bf18ac007a7e696ab28625fdff0c1245787",
-      "date": "Thu, 26 Nov 2026 03:21:13 GMT",
-      "detail": "2 posts - 1h Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "HealthMetrics Sdn Bhd By orova",
+      "url": "https://www.ransomlook.io//group/orova",
+      "feed_id": "bf188bf75205ab3141cf23266c8000611b5ff717c32452cc0b21a1e19383f943",
+      "date": "Thu, 26 Nov 2026 16:23:40 GMT",
+      "detail": "Seamless and borderless access to healthcare across Southeast Asia with HealthMetrics. Streamline claims & guarantee letter issuance, connect to 15,000+ healthcare providers regionally, and manage benefits with real-time insights and advanced automation. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-26T03:21:13+00:00"
+      "published": "2026-11-26T16:23:40+00:00"
     },
     {
-      "title": "Golden State College & Milan Institute By dark project",
-      "url": "https://www.ransomlook.io//group/dark%20project",
-      "feed_id": "333de23e6e185f355ccb5b2df2089f55783dcf2997eb97205eae791b8f3aa53d",
-      "date": "Thu, 26 Nov 2026 01:17:41 GMT",
-      "detail": "Golden State College & Milan Institute fell victim to a cyberattack, resulting in the theft of more than 420 GB of confidential data. The stolen data includes documents containing correspondence with clients, financial information, personal data of employees and clients, as well as other important information about the company. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-26T01:17:41+00:00"
-    },
-    {
-      "title": "Reflex Electromechanical & Trade Co. Ltd. (Nablus pumps and elevators engineering house) By pixelleaks",
-      "url": "https://www.ransomlook.io//group/pixelleaks",
-      "feed_id": "d84baf0a722ddfd06431bc385305abd5ebe64b20823a9b5d5bc691bb5accc92d",
-      "date": "Thu, 26 Nov 2026 00:17:44 GMT",
-      "detail": "Engineering services and trading (pumps, elevators, water projects) \u00b7 Palestine Full data leak: 2026-11-29 22:41 UTC This disclosure concerns a verified set of records from an organization in the engineering and trading sector. The material scheduled for publication comprises business records, including financial, client, contract, and operational material. Representative records have been examined and verified as genuine. Publication would make the records publicly available and would carry regulatory, competitive, and reputational consequences for the organization. Once published, the complete data set can be examined, downloaded, and redistributed without restriction. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-26T00:17:44+00:00"
-    },
-    {
-      "title": "Restaurant Brands International, Inc. By inception",
+      "title": "Paramount By inception",
       "url": "https://www.ransomlook.io//group/inception",
-      "feed_id": "9a1d7ecc2b92a0d54a5a0608d6104b1a5dd2846e1a793ebcbab507c4ae3d5c47",
-      "date": "Wed, 25 Nov 2026 23:23:12 GMT",
-      "detail": "Size: 234 GB | Files: 800,164 | Deadline: 2026-11-27 | Status: warning Contact us via Tox within 48 hours or your data will be available for download. 126,038 unique Burger King US customers, extracted live from the BK Guest Support Tool GraphQL API (names, contact, DOB, partial card data). 216,156 ServiceNow incident folders (RBI Guest Care). Each contains attachments (screenshots, emails, order data). Includes customer complaint records with order/payment details. Content shows guest-care cases across BK/Tims/Popeyes/Firehouse brands. RBI employee OneDrive. RBI corporate Slack exports. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "feed_id": "22ae54bf536e1dcc929e453ebe971def2fe67381a434b9c847158ff7236bdadd",
+      "date": "Thu, 26 Nov 2026 16:23:19 GMT",
+      "detail": "Size: 5.9 TB | Files: 231,032 | Deadline: 2026-11-27 | Status: warning Contact us via Tox within 24 hours or your data will be available for download. ~5.0 TB of unreleased master key art for the 2026\u201327 slate (Paramount+, Showtime, BET, MTV), CBS General Ledger transactions by deal/title, guild residuals ledgers (784K+ rows), and 790 Jira projects / 727 Confluence spaces including infrastructure and security architecture. Contains a ~99,000-employee workforce directory with emails, phones and org chart; 47,935 payroll/pension records (names, employee IDs, pension codes); a PeopleSoft employee master with real 9-digit SSNs and birthdates; 159 plaintext talent SSNs; an Entra AD export of 19,218 users; 45 SAP vendor bank-account forms with real account and routing numbers; and supplier banking and payee data for major Hollywood talent and production companies. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-25T23:23:12+00:00"
+      "published": "2026-11-26T16:23:19+00:00"
     },
     {
-      "title": "Egyptian Steel Company (soul)",
-      "url": "https://cti.fyi/groups/soul.html",
-      "feed_id": "dc14565674a07780519ed63ed9f889dc",
-      "date": "Thu, 26 Nov 2026 02:44:00 +0000",
-      "detail": "Intelligence Summary: An Egyptian steel fabrication company with revenue of $44 million and approximately 700\u20111,000 employees. Threat Syndicate: soul Claimed Victim: Egyptian Steel Company Industry Sector: Manufacturing Geographic Location: \ud83c\uddea\ud83c\uddec EG Date Published: 2026-11-26 02:44:00 Date Updated (Revisited): 2026-11-26 03:08:28 Date Discovered: 2026-11-19 08:06:12.184305 Post URL: http://codice-ledger.io/#egyptian-steel-company Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de CTI.fyi",
+      "title": "Verisk By inception",
+      "url": "https://www.ransomlook.io//group/inception",
+      "feed_id": "6b4691061df246d23652f94aa63e2a63b83adb4e40f9c6d92f1b18a5422d9fcd",
+      "date": "Thu, 26 Nov 2026 16:23:18 GMT",
+      "detail": "Size: 1.01 TB | Files: 67,672 | Deadline: 2026-11-27 | Status: warning Contact us via Tox within 24 hours or your data will be available for download. (4,062 tables, 854.6 million rows) containing 17.5 million real client insurance contracts across the London-market book (Victoria's Secret, Marsh, AON, 252,859 contracts), the WAP named-risk book (CSX, Merck, Mattel), the Hatford book, and Caribbean treaties, plus 6.91 million de-identified USAA locations and company-import packages for Ascot, a cat-bond book, and Convex. The corpus includes 458+ modeled-loss analyses (AAL, EP, event-loss) with a 42-million-row result set on the WAP book with four-program reinsurance (SS/QS/XPR/CAT-XL), 110 GB of CLF binary loss files carrying full treaty terms, 123 AIR stochastic event catalogs (52.4 million rows), and 267 GB of drive storage across 176 tenant environments. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
-      "source": "CTI.fyi",
-      "published": "2026-11-26T02:44:00+00:00"
+      "source": "RansomLook",
+      "published": "2026-11-26T16:23:18+00:00"
+    },
+    {
+      "title": "McDonald's By inception",
+      "url": "https://www.ransomlook.io//group/inception",
+      "feed_id": "c3a6e876b3863bdb31081669357728acb10e312746fa25a256f3248576af0bd0",
+      "date": "Thu, 26 Nov 2026 16:23:17 GMT",
+      "detail": "Size: 293 GB | Files: 605,230 | Deadline: 2026-11-27 | Status: warning Contact us via Tox within 24 hours or your data will be available for download. 293 GB across 605,230 files from McDonald's AWS S3 buckets (109+ accounts, 86 GB), 28 GitHub organizations' source code, 190 Confluence spaces, and 1,096 Jira projects. Customer data includes 781,014 US customer master records, of which 110,663 are individually verified records containing names, emails (100%), loyalty IDs (81.5%), phone numbers (50.5%), and dates of birth (30.9%); full payment-card metadata (last-4 digits, card type, expiry, billing ZIP) is present for 39,292 customers, plus 31,970 PAN tokens and 2,694 prepaid/gift cards. Harvested across all text files totals 938,667 unique emails (~370,000 McDonald's staff), 446,284 phone numbers, and 26,540 dates of birth. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-26T16:23:17+00:00"
     }
   ],
   "sources": [
@@ -371,8 +305,8 @@
     {
       "source": "Cisco Talos",
       "status": "OK",
-      "recent": 3,
-      "shown": 3,
+      "recent": 1,
+      "shown": 1,
       "undated": 0
     },
     {
@@ -392,15 +326,15 @@
     {
       "source": "Unit 42",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
       "source": "Securelist",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     },
     {
@@ -420,29 +354,29 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 10,
+      "recent": 5,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 8,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 50,
+      "recent": 49,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "CTI.fyi",
       "status": "OK",
-      "recent": 1,
-      "shown": 1,
+      "recent": 0,
+      "shown": 0,
       "undated": 0
     }
   ]
