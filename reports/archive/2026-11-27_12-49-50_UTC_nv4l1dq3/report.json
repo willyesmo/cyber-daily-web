@@ -1,0 +1,271 @@
+{
+  "generated": "2026-11-27T12:49:50.566911+00:00",
+  "hours": 24,
+  "items": [
+    {
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "date": "Fri, 27 Nov 2026 06:18:36 -0500",
+      "detail": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T11:18:36+00:00"
+    },
+    {
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "date": "Fri, 27 Nov 2026 05:10:15 -0500",
+      "detail": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T10:10:15+00:00"
+    },
+    {
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "date": "Fri, 27 Nov 2026 04:56:36 -0500",
+      "detail": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T09:56:36+00:00"
+    },
+    {
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "date": "Fri, 27 Nov 2026 04:08:16 -0500",
+      "detail": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T09:08:16+00:00"
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "date": "Fri, 27 Nov 2026 03:06:58 -0500",
+      "detail": "\u200bA 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T08:06:58+00:00"
+    },
+    {
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "feed_id": "https://www.securityweek.com/?p=51100",
+      "date": "Fri, 27 Nov 2026 11:00:00 +0000",
+      "detail": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-27T11:00:00+00:00"
+    },
+    {
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "feed_id": "https://www.securityweek.com/?p=51104",
+      "date": "Fri, 27 Nov 2026 09:30:54 +0000",
+      "detail": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-27T09:30:54+00:00"
+    },
+    {
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "feed_id": "https://www.securityweek.com/?p=51098",
+      "date": "Fri, 27 Nov 2026 07:44:49 +0000",
+      "detail": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-27T07:44:49+00:00"
+    },
+    {
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "feed_id": "https://www.securityweek.com/?p=51096",
+      "date": "Fri, 27 Nov 2026 07:36:14 +0000",
+      "detail": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-27T07:36:14+00:00"
+    },
+    {
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+      "feed_id": "https://www.securityweek.com/?p=51093",
+      "date": "Thu, 26 Nov 2026 17:06:55 +0000",
+      "detail": "FIFA didn\u2019t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019 appeared first on SecurityWeek .",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "SecurityWeek",
+      "published": "2026-11-26T17:06:55+00:00"
+    },
+    {
+      "title": "VC ERP Consulting Pvt. Ltd. By rhysida",
+      "url": "https://www.ransomlook.io//group/rhysida",
+      "feed_id": "8bd7f99ce5f69e58fb2ec75b01bfedfc69bc49fe6d3f1ba2245507cc0b082437",
+      "date": "Fri, 27 Nov 2026 11:17:17 GMT",
+      "detail": "VC ERP Consulting Pvt. Ltd. VC ERP Consulting Pvt. Ltd.408.51 GBClient databases (SAP Business One)9,915 business partners, prices, discounts, credit limits, balances, warehouses, purchases.Industry databases (DMS, SFA, POS, CRM)Vadilal DMS - 599,749 distributors, 550,478 phones, 15,538 GSTIN, 10,813 PAN, 669 bank accounts, 21.1M sales rows, 73.3M POS rows, 10.7M GPS points.Zenex SFA - 446,545 doctors and chemists, 266,300 phones, 5.2M visits, 676,778 invoices.Al-Yousifi CRM - 1,922,290 customers, 1,922,249 phones, 1,169,156 e-mails.POS Redstar - 31,656 outlets, 159,406 transactions.Employee personal data - 1,611 records.1,322 Aadhaar, 556 PAN, 1,079 personal mobiles, 357 personal e-mails, 4,144 salary rows, 1,609 home addresses, parents' names, bank details, 143 branches.Customer and partner personal data - 3,011,766 records.2,740,539 mobiles, 1,186,217 e-mails, 15,538 GSTIN, 10,813 PAN, 669 bank accounts with IFSC, addresses, dates of birth, purchase history.Commercial documents - tax invoices, e-way bills, lorry receipts, weighbridge tickets, purchase orders, tariff schedules, service checklists, candidate CVs, access request forms.Proto Energy - Equity Bank (Kenya) agreement, 20 pages, 9 contacts, CFO and Finance Manager signatures.Source code and productsTFS 19.6 GB, 60+ client add-ons (C#/.NET), MDM portal (Java/JSP), VC HRMS (380 tables), SVN working copies archive 3.7 GB.Access and infrastructure'Credential AMS Clients 2025' list, server map, SAP user ID requests, accounts and passwords in HRMS and DMS tables. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-27T11:17:17+00:00"
+    },
+    {
+      "title": "NetX Inc. By majinahanashi",
+      "url": "https://www.ransomlook.io//group/majinahanashi",
+      "feed_id": "defdf43e21472c34268637148225ac343d0d8dbdddea2a375f76890d16cfad18",
+      "date": "Fri, 27 Nov 2026 10:17:47 GMT",
+      "detail": "PENDING Publication scheduled: 2026-11-30T08:59:00Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-27T10:17:47+00:00"
+    },
+    {
+      "title": "pregis By iah647",
+      "url": "https://www.ransomlook.io//group/iah647",
+      "feed_id": "cb356795a82497c7da309600605f473abdef4ee01b38ea32dc55a7e455294547",
+      "date": "Fri, 27 Nov 2026 10:17:27 GMT",
+      "detail": "status: public | hosting: preparing\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-27T10:17:27+00:00"
+    },
+    {
+      "title": "Chub Cay Resort & Marina By majinahanashi",
+      "url": "https://www.ransomlook.io//group/majinahanashi",
+      "feed_id": "e720589e7faee0b1a84b1f29eb2f7142b2327c53c0d375bb87d9cbe6c21d1b78",
+      "date": "Fri, 27 Nov 2026 09:17:24 GMT",
+      "detail": "PENDING Publication scheduled: 2026-11-30T07:30:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-27T09:17:24+00:00"
+    },
+    {
+      "title": "Diamond Technical Services By majinahanashi",
+      "url": "https://www.ransomlook.io//group/majinahanashi",
+      "feed_id": "b15392ad99d57226c67baf89cc672246b8c7bf8ae762e7d83946a56f2a50a30b",
+      "date": "Fri, 27 Nov 2026 09:17:23 GMT",
+      "detail": "PENDING Publication scheduled: 2026-11-30T07:30:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-27T09:17:23+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "CISA KEV",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "MalwareBazaar",
+      "status": "NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Microsoft Security",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Google Threat Intelligence",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Unit 42",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Securelist",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "ESET WeLiveSecurity",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "Sophos",
+      "status": "FAILED: TimeoutError",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    },
+    {
+      "source": "BleepingComputer",
+      "status": "OK",
+      "recent": 9,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "SecurityWeek",
+      "status": "OK",
+      "recent": 6,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "RansomLook",
+      "status": "OK",
+      "recent": 33,
+      "shown": 5,
+      "undated": 0
+    },
+    {
+      "source": "CTI.fyi",
+      "status": "OK",
+      "recent": 0,
+      "shown": 0,
+      "undated": 0
+    }
+  ]
+}

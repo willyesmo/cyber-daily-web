@@ -1,0 +1,110 @@
+CYBER DAILY — 2026-11-27 12:49 UTC
+Publication window: last 24 hours (day precision for CISA KEV).
+15 entries selected. Feed excerpts, not full-article or AI analysis.
+Publication dates do not establish when an attack occurred. Research may describe older events.
+
+Microsoft removes WSUS server role in Windows Server 2028
+BleepingComputer | Research / advisory | 2026-11-27T11:18:36+00:00
+Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/
+
+Drupal warns of new site takeover flaw exploited in attacks
+BleepingComputer | Research / advisory | 2026-11-27T10:10:15+00:00
+The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/
+
+SAP confirms security incident after suspicious GitHub activity
+BleepingComputer | Research / advisory | 2026-11-27T09:56:36+00:00
+SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/
+
+Microsoft pushes emergency hotpatch to fix Windows Server crashes
+BleepingComputer | Research / advisory | 2026-11-27T09:08:16+00:00
+Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]
+CVEs: Not stated in feed
+https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/
+
+New NFS2ROOT Linux flaw can let attackers gain root privileges
+BleepingComputer | Research / advisory | 2026-11-27T08:06:58+00:00
+​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]
+CVEs: CVE-2026-99362
+https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/
+
+In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities
+SecurityWeek | Research / advisory | 2026-11-27T11:00:00+00:00
+Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/
+
+100,000 Potentially Impacted by Colorado Data Breach
+SecurityWeek | Research / advisory | 2026-11-27T09:30:54+00:00
+Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/
+
+Hex Package Manager Warns of Potential Data Breach
+SecurityWeek | Research / advisory | 2026-11-27T07:44:49+00:00
+A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/
+
+SAP Confirms Cyberattack, Source Code Reportedly Compromised
+SecurityWeek | Research / advisory | 2026-11-27T07:36:14+00:00
+SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
+
+FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’
+SecurityWeek | Research / advisory | 2026-11-26T17:06:55+00:00
+FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on SecurityWeek .
+CVEs: Not stated in feed
+https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/
+
+VC ERP Consulting Pvt. Ltd. By rhysida
+RansomLook | Ransomware claim / observation | 2026-11-27T11:17:17+00:00
+VC ERP Consulting Pvt. Ltd. VC ERP Consulting Pvt. Ltd.408.51 GBClient databases (SAP Business One)9,915 business partners, prices, discounts, credit limits, balances, warehouses, purchases.Industry databases (DMS, SFA, POS, CRM)Vadilal DMS - 599,749 distributors, 550,478 phones, 15,538 GSTIN, 10,813 PAN, 669 bank accounts, 21.1M sales rows, 73.3M POS rows, 10.7M GPS points.Zenex SFA - 446,545 doctors and chemists, 266,300 phones, 5.2M visits, 676,778 invoices.Al-Yousifi CRM - 1,922,290 customers, 1,922,249 phones, 1,169,156 e-mails.POS Redstar - 31,656 outlets, 159,406 transactions.Employee personal data - 1,611 records.1,322 Aadhaar, 556 PAN, 1,079 personal mobiles, 357 personal e-mails, 4,144 salary rows, 1,609 home addresses, parents' names, bank details, 143 branches.Customer and partner personal data - 3,011,766 records.2,740,539 mobiles, 1,186,217 e-mails, 15,538 GSTIN, 10,813 PAN, 669 bank accounts with IFSC, addresses, dates of birth, purchase history.Commercial documents - tax invoices, e-way bills, lorry receipts, weighbridge tickets, purchase orders, tariff schedules, service checklists, candidate CVs, access request forms.Proto Energy - Equity Bank (Kenya) agreement, 20 pages, 9 contacts, CFO and Finance Manager signatures.Source code and productsTFS 19.6 GB, 60+ client add-ons (C#/.NET), MDM portal (Java/JSP), VC HRMS (380 tables), SVN working copies archive 3.7 GB.Access and infrastructure'Credential AMS Clients 2025' list, server map, SAP user ID requests, accounts and passwords in HRMS and DMS tables. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/rhysida
+
+NetX Inc. By majinahanashi
+RansomLook | Ransomware claim / observation | 2026-11-27T10:17:47+00:00
+PENDING Publication scheduled: 2026-11-30T08:59:00Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/majinahanashi
+
+pregis By iah647
+RansomLook | Ransomware claim / observation | 2026-11-27T10:17:27+00:00
+status: public | hosting: preparing… Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/iah647
+
+Chub Cay Resort & Marina By majinahanashi
+RansomLook | Ransomware claim / observation | 2026-11-27T09:17:24+00:00
+PENDING Publication scheduled: 2026-11-30T07:30:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/majinahanashi
+
+Diamond Technical Services By majinahanashi
+RansomLook | Ransomware claim / observation | 2026-11-27T09:17:23+00:00
+PENDING Publication scheduled: 2026-11-30T07:30:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
+CVEs: Not stated in feed
+https://www.ransomlook.io//group/majinahanashi
+
+SOURCE COVERAGE
+CISA KEV: OK; recent=0; shown=0; undated excluded=0
+MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
+SANS Internet Storm Center: OK; recent=0; shown=0; undated excluded=0
+Cisco Talos: OK; recent=0; shown=0; undated excluded=0
+Microsoft Security: OK; recent=0; shown=0; undated excluded=0
+Google Threat Intelligence: OK; recent=0; shown=0; undated excluded=0
+Unit 42: OK; recent=0; shown=0; undated excluded=0
+Securelist: OK; recent=0; shown=0; undated excluded=0
+ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
+Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
+BleepingComputer: OK; recent=9; shown=5; undated excluded=0
+SecurityWeek: OK; recent=6; shown=5; undated excluded=0
+RansomLook: OK; recent=33; shown=5; undated excluded=0
+CTI.fyi: OK; recent=0; shown=0; undated excluded=0
