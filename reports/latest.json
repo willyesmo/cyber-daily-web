@@ -1,61 +1,115 @@
 {
-  "generated": "2026-11-27T12:49:50.566911+00:00",
+  "generated": "2026-11-27T23:35:24.843485+00:00",
   "hours": 24,
   "items": [
     {
-      "title": "Microsoft removes WSUS server role in Windows Server 2028",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-      "date": "Fri, 27 Nov 2026 06:18:36 -0500",
-      "detail": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-27T11:18:36+00:00"
+      "title": "CVE-2026-120705: OSGeo GeoServer XML Injection Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-120705",
+      "date": "2026-11-27",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "OSGeo",
+        "Producto": "GeoServer",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-30",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://geoserver.org/vulnerability/2026/11/23/cve-update.html ; https://github.com/geoserver/geoserver/security/advisories/GHSA-39mw-5chv-jh47 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-27T00:00:00+00:00"
     },
     {
-      "title": "Drupal warns of new site takeover flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-      "date": "Fri, 27 Nov 2026 05:10:15 -0500",
-      "detail": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-27T10:10:15+00:00"
+      "title": "CVE-2026-129243: OSGeo GeoServer Incorrect Authorization Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-129243",
+      "date": "2026-11-27",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "OSGeo",
+        "Producto": "GeoServer",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-30",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://geoserver.org/vulnerability/2026/11/23/cve-update.html ; https://github.com/geoserver/geoserver/security/advisories/GHSA-rv5g-g2r9-58rj ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-27T00:00:00+00:00"
     },
     {
-      "title": "SAP confirms security incident after suspicious GitHub activity",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
-      "date": "Fri, 27 Nov 2026 04:56:36 -0500",
-      "detail": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "BleepingComputer",
-      "published": "2026-11-27T09:56:36+00:00"
+      "title": "CVE-2026-136716: Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-136716",
+      "date": "2026-11-27",
+      "kind": "Known exploitation / catalog addition",
+      "detail": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines. Catalog addition date is not the attack date.",
+      "detail_origin": "Cat\u00e1logo oficial CISA KEV",
+      "facts": {
+        "Fabricante": "Drupal",
+        "Producto": "Core",
+        "Acci\u00f3n requerida": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "Fecha l\u00edmite indicada por CISA": "2026-11-30",
+        "Uso conocido en ransomware": "Unknown",
+        "Notas de CISA": "https://www.drupal.org/sa-core-2026-019 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+      },
+      "source": "CISA KEV",
+      "published": "2026-11-27T00:00:00+00:00"
     },
     {
-      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
-      "date": "Fri, 27 Nov 2026 04:08:16 -0500",
-      "detail": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "date": "Fri, 27 Nov 2026 14:26:04 -0500",
+      "detail": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-27T09:08:16+00:00"
+      "published": "2026-11-27T19:26:04+00:00"
     },
     {
-      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
-      "date": "Fri, 27 Nov 2026 03:06:58 -0500",
-      "detail": "\u200bA 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "date": "Fri, 27 Nov 2026 13:57:42 -0500",
+      "detail": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
       "detail_origin": "Contenido publicado en el feed de la fuente",
       "kind": "Research / advisory",
       "source": "BleepingComputer",
-      "published": "2026-11-27T08:06:58+00:00"
+      "published": "2026-11-27T18:57:42+00:00"
+    },
+    {
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "date": "Fri, 27 Nov 2026 12:06:13 -0500",
+      "detail": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T17:06:13+00:00"
+    },
+    {
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "date": "Fri, 27 Nov 2026 10:09:40 -0500",
+      "detail": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T15:09:40+00:00"
+    },
+    {
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "date": "Fri, 27 Nov 2026 10:00:10 -0500",
+      "detail": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]",
+      "detail_origin": "Contenido publicado en el feed de la fuente",
+      "kind": "Research / advisory",
+      "source": "BleepingComputer",
+      "published": "2026-11-27T15:00:10+00:00"
     },
     {
       "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
@@ -102,78 +156,67 @@
       "published": "2026-11-27T07:36:14+00:00"
     },
     {
-      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019",
-      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
-      "feed_id": "https://www.securityweek.com/?p=51093",
-      "date": "Thu, 26 Nov 2026 17:06:55 +0000",
-      "detail": "FIFA didn\u2019t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019 appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-26T17:06:55+00:00"
-    },
-    {
-      "title": "VC ERP Consulting Pvt. Ltd. By rhysida",
-      "url": "https://www.ransomlook.io//group/rhysida",
-      "feed_id": "8bd7f99ce5f69e58fb2ec75b01bfedfc69bc49fe6d3f1ba2245507cc0b082437",
-      "date": "Fri, 27 Nov 2026 11:17:17 GMT",
-      "detail": "VC ERP Consulting Pvt. Ltd. VC ERP Consulting Pvt. Ltd.408.51 GBClient databases (SAP Business One)9,915 business partners, prices, discounts, credit limits, balances, warehouses, purchases.Industry databases (DMS, SFA, POS, CRM)Vadilal DMS - 599,749 distributors, 550,478 phones, 15,538 GSTIN, 10,813 PAN, 669 bank accounts, 21.1M sales rows, 73.3M POS rows, 10.7M GPS points.Zenex SFA - 446,545 doctors and chemists, 266,300 phones, 5.2M visits, 676,778 invoices.Al-Yousifi CRM - 1,922,290 customers, 1,922,249 phones, 1,169,156 e-mails.POS Redstar - 31,656 outlets, 159,406 transactions.Employee personal data - 1,611 records.1,322 Aadhaar, 556 PAN, 1,079 personal mobiles, 357 personal e-mails, 4,144 salary rows, 1,609 home addresses, parents' names, bank details, 143 branches.Customer and partner personal data - 3,011,766 records.2,740,539 mobiles, 1,186,217 e-mails, 15,538 GSTIN, 10,813 PAN, 669 bank accounts with IFSC, addresses, dates of birth, purchase history.Commercial documents - tax invoices, e-way bills, lorry receipts, weighbridge tickets, purchase orders, tariff schedules, service checklists, candidate CVs, access request forms.Proto Energy - Equity Bank (Kenya) agreement, 20 pages, 9 contacts, CFO and Finance Manager signatures.Source code and productsTFS 19.6 GB, 60+ client add-ons (C#/.NET), MDM portal (Java/JSP), VC HRMS (380 tables), SVN working copies archive 3.7 GB.Access and infrastructure'Credential AMS Clients 2025' list, server map, SAP user ID requests, accounts and passwords in HRMS and DMS tables. More Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Delco Trailers By anubis",
+      "url": "https://www.ransomlook.io//group/anubis",
+      "feed_id": "e6c9e1e1ace4b76fefc2e03253c49877ddeb26d21d3e247ba7623bbbe5c18ff9",
+      "date": "Fri, 27 Nov 2026 23:21:36 GMT",
+      "detail": "Steel trailer manufacturer data breach. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-27T11:17:17+00:00"
+      "published": "2026-11-27T23:21:36+00:00"
     },
     {
-      "title": "NetX Inc. By majinahanashi",
-      "url": "https://www.ransomlook.io//group/majinahanashi",
-      "feed_id": "defdf43e21472c34268637148225ac343d0d8dbdddea2a375f76890d16cfad18",
-      "date": "Fri, 27 Nov 2026 10:17:47 GMT",
-      "detail": "PENDING Publication scheduled: 2026-11-30T08:59:00Z Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Samlut and Company, P.A. By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "53d4dbb13b939a3213b148be8a4231ae367f18dd547d9496854febf40e2cc503",
+      "date": "Fri, 27 Nov 2026 23:16:58 GMT",
+      "detail": "Samlut & Company, PA is an American accounting and auditing firm founded in 1997. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-27T10:17:47+00:00"
+      "published": "2026-11-27T23:16:58+00:00"
     },
     {
-      "title": "pregis By iah647",
-      "url": "https://www.ransomlook.io//group/iah647",
-      "feed_id": "cb356795a82497c7da309600605f473abdef4ee01b38ea32dc55a7e455294547",
-      "date": "Fri, 27 Nov 2026 10:17:27 GMT",
-      "detail": "status: public | hosting: preparing\u2026 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Cinelandia S.p.A By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "f5a56f12370917d0c9a90834261ecbec6afe98923fec6daeebca0d3a103aff55",
+      "date": "Fri, 27 Nov 2026 22:21:50 GMT",
+      "detail": "Cinelandia S.p.A. is an Italian company that owns a large chain of modern multiplex cinemas and entertainment centers. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-27T10:17:27+00:00"
+      "published": "2026-11-27T22:21:50+00:00"
     },
     {
-      "title": "Chub Cay Resort & Marina By majinahanashi",
-      "url": "https://www.ransomlook.io//group/majinahanashi",
-      "feed_id": "e720589e7faee0b1a84b1f29eb2f7142b2327c53c0d375bb87d9cbe6c21d1b78",
-      "date": "Fri, 27 Nov 2026 09:17:24 GMT",
-      "detail": "PENDING Publication scheduled: 2026-11-30T07:30:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Brit Ltd / Brit Insurance (britinsurance.com) By inc ransom",
+      "url": "https://www.ransomlook.io//group/inc%20ransom",
+      "feed_id": "2997f75f5e883bd212c8ce84b1167438a5a143aff1324a5fa4b57aac07d010b8",
+      "date": "Fri, 27 Nov 2026 17:26:22 GMT",
+      "detail": "Brit Group Holdings Limited is a large international group operating in the commercial insurance and reinsurance sector, with its headquarters in London, United Kingdom. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-27T09:17:24+00:00"
+      "published": "2026-11-27T17:26:22+00:00"
     },
     {
-      "title": "Diamond Technical Services By majinahanashi",
-      "url": "https://www.ransomlook.io//group/majinahanashi",
-      "feed_id": "b15392ad99d57226c67baf89cc672246b8c7bf8ae762e7d83946a56f2a50a30b",
-      "date": "Fri, 27 Nov 2026 09:17:23 GMT",
-      "detail": "PENDING Publication scheduled: 2026-11-30T07:30:00Z Attachments: 1 Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "title": "Friedl Richardson By the gentlemen",
+      "url": "https://www.ransomlook.io//group/the%20gentlemen",
+      "feed_id": "bd3ceff7adcaf9da8e33bdf302ec36ca8a9a1e8af1395af344ed40180bce74ef",
+      "date": "Fri, 27 Nov 2026 17:24:19 GMT",
+      "detail": "friedlrichardson.com Friedl Richardson Trial Lawyers \u2014 Phoenix-based personal injury law firm founded 1997 by William J. Friedl (30+ yrs, AV Preeminent Martindale-Hubbell, Arizona Super Lawyers 2010-2013) and Thomas M. Richardson (Maricopa County Judicial Selection Committee, governor-appointed), nearly 100 years combined experience handling car/motorcycle/truck accidents, wrongful death, medical malpractice, dog bites, premises liability and work injuries across Arizona. Operates on pure contingency (free until settled), \"trial-ready\" with in-house registered nurse and expert network (investigators, engineers, architects). Landmark results: $6M wrongful death jury verdict, $1.4M child wrongful death, $1M teenager wrongful death, $710K car accident, $700K medical malpractice. Two offices: Phoenix (HQ, Cave Creek Rd) and Flagstaff; team includes Super Lawyers Rising Star Raechel Kane plus attorneys McCarthy, Vela, Zachar Hardy. Strong community presence \u2014 MADD, local sports sponsorship. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
       "detail_origin": "Feed oficial de RansomLook",
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
-      "published": "2026-11-27T09:17:23+00:00"
+      "published": "2026-11-27T17:24:19+00:00"
     }
   ],
   "sources": [
     {
       "source": "CISA KEV",
       "status": "OK",
-      "recent": 0,
-      "shown": 0,
+      "recent": 3,
+      "shown": 3,
       "undated": 0
     },
     {
@@ -242,21 +285,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 9,
+      "recent": 11,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 6,
-      "shown": 5,
+      "recent": 4,
+      "shown": 4,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 33,
+      "recent": 27,
       "shown": 5,
       "undated": 0
     },
