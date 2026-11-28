@@ -1,6 +1,6 @@
-CYBER DAILY — 2026-11-27 23:35 UTC
+CYBER DAILY — 2026-11-28 08:08 UTC
 Publication window: last 24 hours (day precision for CISA KEV).
-17 entries selected. Feed excerpts, not full-article or AI analysis.
+15 entries selected. Feed excerpts, not full-article or AI analysis.
 Publication dates do not establish when an attack occurred. Research may describe older events.
 
 CVE-2026-120705: OSGeo GeoServer XML Injection Vulnerability
@@ -81,17 +81,11 @@ Hackers breached the digital identification and document storage application myC
 CVEs: Not stated in feed
 https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/
 
-Hex Package Manager Warns of Potential Data Breach
-SecurityWeek | Research / advisory | 2026-11-27T07:44:49+00:00
-A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .
+Thomas More University of Applied Sciences By qilin
+RansomLook | Ransomware claim / observation | 2026-11-28T04:17:22+00:00
+Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
 CVEs: Not stated in feed
-https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/
-
-SAP Confirms Cyberattack, Source Code Reportedly Compromised
-SecurityWeek | Research / advisory | 2026-11-27T07:36:14+00:00
-SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .
-CVEs: Not stated in feed
-https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
+https://www.ransomlook.io//group/qilin
 
 Delco Trailers By anubis
 RansomLook | Ransomware claim / observation | 2026-11-27T23:21:36+00:00
@@ -117,12 +111,6 @@ Brit Group Holdings Limited is a large international group operating in the comm
 CVEs: Not stated in feed
 https://www.ransomlook.io//group/inc%20ransom
 
-Friedl Richardson By the gentlemen
-RansomLook | Ransomware claim / observation | 2026-11-27T17:24:19+00:00
-friedlrichardson.com Friedl Richardson Trial Lawyers — Phoenix-based personal injury law firm founded 1997 by William J. Friedl (30+ yrs, AV Preeminent Martindale-Hubbell, Arizona Super Lawyers 2010-2013) and Thomas M. Richardson (Maricopa County Judicial Selection Committee, governor-appointed), nearly 100 years combined experience handling car/motorcycle/truck accidents, wrongful death, medical malpractice, dog bites, premises liability and work injuries across Arizona. Operates on pure contingency (free until settled), "trial-ready" with in-house registered nurse and expert network (investigators, engineers, architects). Landmark results: $6M wrongful death jury verdict, $1.4M child wrongful death, $1M teenager wrongful death, $710K car accident, $700K medical malpractice. Two offices: Phoenix (HQ, Cave Creek Rd) and Flagstaff; team includes Super Lawyers Rising Star Raechel Kane plus attorneys McCarthy, Vela, Zachar Hardy. Strong community presence — MADD, local sports sponsorship. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.
-CVEs: Not stated in feed
-https://www.ransomlook.io//group/the%20gentlemen
-
 SOURCE COVERAGE
 CISA KEV: OK; recent=3; shown=3; undated excluded=0
 MalwareBazaar: NOT CONFIGURED: MALWAREBAZAAR_AUTH_KEY required; recent=0; shown=0; undated excluded=0
@@ -134,7 +122,7 @@ Unit 42: OK; recent=0; shown=0; undated excluded=0
 Securelist: OK; recent=0; shown=0; undated excluded=0
 ESET WeLiveSecurity: OK; recent=0; shown=0; undated excluded=0
 Sophos: FAILED: TimeoutError; recent=0; shown=0; undated excluded=0
-BleepingComputer: OK; recent=11; shown=5; undated excluded=0
-SecurityWeek: OK; recent=4; shown=4; undated excluded=0
-RansomLook: OK; recent=27; shown=5; undated excluded=0
+BleepingComputer: OK; recent=10; shown=5; undated excluded=0
+SecurityWeek: OK; recent=2; shown=2; undated excluded=0
+RansomLook: OK; recent=19; shown=5; undated excluded=0
 CTI.fyi: OK; recent=0; shown=0; undated excluded=0

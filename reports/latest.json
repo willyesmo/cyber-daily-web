@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T23:35:24.843485+00:00",
+  "generated": "2026-11-28T08:08:28.050411+00:00",
   "hours": 24,
   "items": [
     {
@@ -134,26 +134,15 @@
       "published": "2026-11-27T09:30:54+00:00"
     },
     {
-      "title": "Hex Package Manager Warns of Potential Data Breach",
-      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
-      "feed_id": "https://www.securityweek.com/?p=51098",
-      "date": "Fri, 27 Nov 2026 07:44:49 +0000",
-      "detail": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-27T07:44:49+00:00"
-    },
-    {
-      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
-      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
-      "feed_id": "https://www.securityweek.com/?p=51096",
-      "date": "Fri, 27 Nov 2026 07:36:14 +0000",
-      "detail": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .",
-      "detail_origin": "Contenido publicado en el feed de la fuente",
-      "kind": "Research / advisory",
-      "source": "SecurityWeek",
-      "published": "2026-11-27T07:36:14+00:00"
+      "title": "Thomas More University of Applied Sciences By qilin",
+      "url": "https://www.ransomlook.io//group/qilin",
+      "feed_id": "73634bf7685978b8647436add0e5e612ed58efb311474a862dde468f62de0254",
+      "date": "Sat, 28 Nov 2026 04:17:22 GMT",
+      "detail": "Education Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
+      "detail_origin": "Feed oficial de RansomLook",
+      "kind": "Ransomware claim / observation",
+      "source": "RansomLook",
+      "published": "2026-11-28T04:17:22+00:00"
     },
     {
       "title": "Delco Trailers By anubis",
@@ -198,17 +187,6 @@
       "kind": "Ransomware claim / observation",
       "source": "RansomLook",
       "published": "2026-11-27T17:26:22+00:00"
-    },
-    {
-      "title": "Friedl Richardson By the gentlemen",
-      "url": "https://www.ransomlook.io//group/the%20gentlemen",
-      "feed_id": "bd3ceff7adcaf9da8e33bdf302ec36ca8a9a1e8af1395af344ed40180bce74ef",
-      "date": "Fri, 27 Nov 2026 17:24:19 GMT",
-      "detail": "friedlrichardson.com Friedl Richardson Trial Lawyers \u2014 Phoenix-based personal injury law firm founded 1997 by William J. Friedl (30+ yrs, AV Preeminent Martindale-Hubbell, Arizona Super Lawyers 2010-2013) and Thomas M. Richardson (Maricopa County Judicial Selection Committee, governor-appointed), nearly 100 years combined experience handling car/motorcycle/truck accidents, wrongful death, medical malpractice, dog bites, premises liability and work injuries across Arizona. Operates on pure contingency (free until settled), \"trial-ready\" with in-house registered nurse and expert network (investigators, engineers, architects). Landmark results: $6M wrongful death jury verdict, $1.4M child wrongful death, $1M teenager wrongful death, $710K car accident, $700K medical malpractice. Two offices: Phoenix (HQ, Cave Creek Rd) and Flagstaff; team includes Super Lawyers Rising Star Raechel Kane plus attorneys McCarthy, Vela, Zachar Hardy. Strong community presence \u2014 MADD, local sports sponsorship. Ransomware group claim; not independently verified. The observation/publication date is not the attack date.",
-      "detail_origin": "Feed oficial de RansomLook",
-      "kind": "Ransomware claim / observation",
-      "source": "RansomLook",
-      "published": "2026-11-27T17:24:19+00:00"
     }
   ],
   "sources": [
@@ -285,21 +263,21 @@
     {
       "source": "BleepingComputer",
       "status": "OK",
-      "recent": 11,
+      "recent": 10,
       "shown": 5,
       "undated": 0
     },
     {
       "source": "SecurityWeek",
       "status": "OK",
-      "recent": 4,
-      "shown": 4,
+      "recent": 2,
+      "shown": 2,
       "undated": 0
     },
     {
       "source": "RansomLook",
       "status": "OK",
-      "recent": 27,
+      "recent": 19,
       "shown": 5,
       "undated": 0
     },
